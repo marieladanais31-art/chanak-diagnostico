@@ -23,6 +23,7 @@
   --green-mid:  #4eaa48;
   --gold:       #d4922a;
   --gold-pale:  #fff8e8;
+  --gold-l:     #e8a84b;
   --cream:      #f8f6f1;
   --stone:      #f0ede6;
   --white:      #ffffff;
@@ -62,6 +63,57 @@ a{color:inherit;text-decoration:none}
 .btn-lg{padding:18px 44px;font-size:1.05rem}
 .btn-sm{padding:10px 22px;font-size:.85rem}
 .btn-full{width:100%;justify-content:center}
+
+
+.btn-payment {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  max-width: 360px;
+  padding: 16px 22px;
+  border-radius: 14px;
+  background: var(--gold);
+  color: var(--navy);
+  font-size: 16px;
+  font-weight: 900;
+  text-decoration: none;
+  border: 2px solid var(--gold);
+  box-shadow: var(--shadow);
+  margin-top: 1rem;
+}
+
+.btn-payment:hover {
+  background: var(--gold-l);
+  border-color: var(--gold-l);
+}
+
+.btn-payment.is-disabled {
+  opacity: .55;
+  pointer-events: none;
+  filter: grayscale(0.3);
+}
+
+.payment-block {
+  background: white;
+  border: 1px solid var(--border);
+  border-radius: 16px;
+  padding: 20px;
+  margin: 12px 0 24px;
+}
+
+.payment-block h4 {
+  font-family: 'Playfair Display', serif;
+  font-size: 1.4rem;
+  color: var(--navy);
+  margin-bottom: 8px;
+}
+
+.payment-block p {
+  font-size: .9rem;
+  color: var(--muted);
+  margin-bottom: 8px;
+}
 
 /* ── TOPBAR ── */
 .topbar{
@@ -831,6 +883,14 @@ footer a{color:rgba(255,255,255,.42);text-decoration:underline}
         <h4>Solicitar evaluación</h4>
         <p>Todos los campos son necesarios para procesar tu solicitud.</p>
 
+        <div class="payment-block">
+          <h4>Reserva tu Evaluación Diagnóstica</h4>
+          <p>Pago seguro mediante Stripe. Después del pago, podrás completar los datos del estudiante e iniciar el diagnóstico.</p>
+          <a id="stripe-payment-btn" class="btn-payment" href="#" target="_blank" rel="noopener">
+            Pagar evaluación — <span data-price>50 €</span>
+          </a>
+        </div>
+
         <div class="row2">
           <div class="fgroup">
             <label for="nombre_padre">Nombre del padre / madre</label>
@@ -965,6 +1025,66 @@ document.querySelectorAll('a[href^="#"]').forEach(a => {
     const t = document.querySelector(a.getAttribute('href'));
     if (t) t.scrollIntoView({ behavior: 'smooth', block: 'start' });
   });
+});
+
+
+/* ── COUNTRY + STRIPE CONFIG ── */
+const COUNTRY_CONFIG = {
+  es: {
+    priceText: '50 €',
+    stripeUrl: 'PEGA_AQUI_LINK_STRIPE_ESPAÑA'
+  },
+  pa: {
+    priceText: '$50',
+    stripeUrl: 'PEGA_AQUI_LINK_STRIPE_PANAMA'
+  },
+  us: {
+    priceText: '$50',
+    stripeUrl: 'PEGA_AQUI_LINK_STRIPE_US'
+  },
+  int: {
+    priceText: '50 €',
+    stripeUrl: 'PEGA_AQUI_LINK_STRIPE_INTERNACIONAL'
+  }
+};
+
+function applyCountryConfig(countryCode) {
+  const cfg = COUNTRY_CONFIG[countryCode] || COUNTRY_CONFIG.int;
+  const stripeBtn = document.getElementById("stripe-payment-btn");
+  if (stripeBtn) {
+    stripeBtn.href = cfg.stripeUrl || "#";
+    stripeBtn.innerHTML = `Pagar evaluación — <span>${cfg.priceText}</span>`;
+
+    if (!cfg.stripeUrl || cfg.stripeUrl.includes("PEGA_AQUI")) {
+      stripeBtn.href = "#";
+      stripeBtn.classList.add("is-disabled");
+      stripeBtn.textContent = `Pago próximamente — ${cfg.priceText}`;
+    } else {
+      stripeBtn.classList.remove("is-disabled");
+    }
+  }
+
+  document.querySelectorAll('[data-price]').forEach((el) => {
+    el.textContent = cfg.priceText;
+  });
+}
+
+function getCountryCodeFromSelect(value) {
+  const v = (value || '').toLowerCase();
+  if (v.includes('espa')) return 'es';
+  if (v.includes('panam')) return 'pa';
+  if (v.includes('united states') || v.includes('estados unidos')) return 'us';
+  return 'int';
+}
+
+document.addEventListener('DOMContentLoaded', () => {
+  applyCountryConfig('es');
+  const countrySelect = document.getElementById('pais');
+  if (countrySelect) {
+    countrySelect.addEventListener('change', (e) => {
+      applyCountryConfig(getCountryCodeFromSelect(e.target.value));
+    });
+  }
 });
 
 /* ── FORM VALIDATION ── */
