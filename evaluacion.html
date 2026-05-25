@@ -1,0 +1,923 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Evaluación Diagnóstica Académica Internacional — Chanak International Academy</title>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&family=DM+Sans:wght@300;400;500;600&family=Source+Serif+4:wght@300;400;600&display=swap" rel="stylesheet">
+<style>
+:root{
+  --azul:#1a3a5c; --azul2:#2c5282; --azul3:#dbeafe;
+  --oro:#b8892a; --oro2:#f5e6c8;
+  --fondo:#f7f6f3; --borde:#d1d5db; --gris:#6b7280; --gris2:#f3f4f6;
+  --verde:#166534; --verde2:#dcfce7;
+  --aviso:#92400e; --aviso2:#fef3c7;
+  --rojo:#991b1b; --rojo2:#fee2e2;
+  --r:12px; --r2:8px;
+  --sombra:0 4px 24px rgba(26,58,92,.10);
+}
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:'DM Sans',sans-serif;background:var(--fondo);color:#1f2937;line-height:1.6;font-size:15px}
+.hidden{display:none!important}
+.page-break{page-break-before:always}
+
+/* ── HEADER ── */
+.site-header{background:var(--azul);padding:14px 32px;display:flex;align-items:center;justify-content:space-between;position:sticky;top:0;z-index:100;box-shadow:0 2px 12px rgba(0,0,0,.20)}
+.hlogo{display:flex;align-items:center;gap:14px}
+.logo-ph{width:46px;height:46px;background:rgba(255,255,255,.12);border:2px solid rgba(255,255,255,.30);border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:.9rem;font-weight:800;color:var(--oro);flex-shrink:0;letter-spacing:-.5px}
+.htitles h1{font-family:'Playfair Display',serif;font-size:1rem;font-weight:700;color:#fff;line-height:1.2}
+.htitles span{font-size:.70rem;color:rgba(255,255,255,.60);letter-spacing:.08em;text-transform:uppercase}
+.hbadge{font-size:.68rem;color:var(--oro);border:1px solid var(--oro);border-radius:20px;padding:3px 10px;letter-spacing:.06em;text-transform:uppercase}
+
+/* ── LAYOUT ── */
+.container{max-width:900px;margin:0 auto;padding:0 20px}
+.section-card{background:#fff;border-radius:16px;box-shadow:var(--sombra);padding:36px 40px;margin:32px auto;max-width:860px}
+.sec-title{font-family:'Playfair Display',serif;font-size:1.55rem;color:var(--azul);font-weight:700;margin-bottom:6px}
+.sec-sub{font-size:.88rem;color:var(--gris);margin-bottom:26px;line-height:1.55}
+
+/* ── LANDING ── */
+#section-landing{background:linear-gradient(135deg,var(--azul) 0%,#2c5282 55%,#1e3a5f 100%);padding:72px 20px 64px;text-align:center;position:relative;overflow:hidden}
+#section-landing::before{content:'';position:absolute;top:-60px;right:-80px;width:320px;height:320px;background:radial-gradient(circle,rgba(184,137,42,.18) 0%,transparent 70%);border-radius:50%;pointer-events:none}
+.hero-eye{display:inline-block;background:rgba(184,137,42,.20);color:var(--oro);border:1px solid rgba(184,137,42,.40);border-radius:20px;padding:5px 18px;font-size:.72rem;letter-spacing:.14em;text-transform:uppercase;margin-bottom:20px;font-weight:500}
+.hero-title{font-family:'Playfair Display',serif;font-size:clamp(1.9rem,4vw,3rem);font-weight:700;color:#fff;line-height:1.15;margin-bottom:10px}
+.hero-sub{font-family:'Playfair Display',serif;font-size:clamp(1rem,2vw,1.25rem);color:rgba(255,255,255,.70);font-style:italic;margin-bottom:20px}
+.hero-desc{font-size:.95rem;color:rgba(255,255,255,.80);max-width:580px;margin:0 auto 36px;line-height:1.75}
+.hero-feats{display:grid;grid-template-columns:repeat(auto-fit,minmax(148px,1fr));gap:12px;max-width:720px;margin:0 auto 38px}
+.hfc{background:rgba(255,255,255,.08);border:1px solid rgba(255,255,255,.14);border-radius:var(--r);padding:16px 12px;text-align:center;transition:.2s}
+.hfc:hover{background:rgba(255,255,255,.13);transform:translateY(-2px)}
+.hfc .ico{font-size:1.6rem;margin-bottom:8px}
+.hfc .lbl{font-size:.77rem;color:rgba(255,255,255,.85);font-weight:500;line-height:1.3}
+.btn-hero{background:var(--oro);color:#fff;border:none;border-radius:50px;padding:16px 44px;font-size:1rem;font-weight:600;cursor:pointer;font-family:'DM Sans',sans-serif;box-shadow:0 6px 24px rgba(184,137,42,.40);transition:.2s;position:relative;z-index:1}
+.btn-hero:hover{background:#a07520;transform:translateY(-2px);box-shadow:0 10px 30px rgba(184,137,42,.50)}
+.hero-chips{display:flex;flex-wrap:wrap;gap:8px;justify-content:center;max-width:600px;margin:28px auto 0}
+.chip{background:rgba(255,255,255,.10);border:1px solid rgba(255,255,255,.20);color:rgba(255,255,255,.80);border-radius:20px;padding:4px 12px;font-size:.74rem}
+
+/* ── FORM ── */
+.fg{display:grid;grid-template-columns:1fr 1fr;gap:18px}
+.fi{display:flex;flex-direction:column;gap:5px}
+.fi.full{grid-column:1/-1}
+.fi label{font-size:.80rem;font-weight:600;color:var(--azul);letter-spacing:.03em;text-transform:uppercase}
+.fi input,.fi select,.fi textarea{border:1.5px solid var(--borde);border-radius:var(--r2);padding:10px 13px;font-family:'DM Sans',sans-serif;font-size:.93rem;color:#1f2937;background:var(--fondo);outline:none;transition:.2s}
+.fi input:focus,.fi select:focus,.fi textarea:focus{border-color:var(--azul2);box-shadow:0 0 0 3px rgba(44,82,130,.12);background:#fff}
+.fi textarea{resize:vertical;min-height:68px}
+
+/* ── LEVEL ── */
+.lvl-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}
+.lcard{border:2px solid var(--borde);border-radius:14px;padding:22px 16px;cursor:pointer;transition:.22s;text-align:center;background:#fff;position:relative;overflow:hidden}
+.lcard::before{content:'';position:absolute;top:0;left:0;right:0;height:4px;background:var(--borde);transition:.22s}
+.lcard:hover{border-color:var(--azul2);transform:translateY(-3px);box-shadow:0 8px 24px rgba(26,58,92,.12)}
+.lcard.active{border-color:var(--azul);box-shadow:0 0 0 3px rgba(26,58,92,.12)}
+.lcard.active::before{background:var(--azul)}
+.lnum{width:44px;height:44px;background:var(--gris2);border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:1.2rem;font-weight:700;color:var(--gris);margin:0 auto 12px;transition:.22s}
+.lcard.active .lnum{background:var(--azul);color:#fff}
+.lcard h3{font-size:.93rem;font-weight:700;color:var(--azul);margin-bottom:5px}
+.lcard .eq{font-size:.75rem;color:var(--gris);margin-bottom:4px}
+.lcard .ag{font-size:.73rem;color:var(--oro);font-weight:600}
+.lcard .nq{font-size:.70rem;color:var(--gris);margin-top:6px}
+
+/* ── TEST ── */
+.tpbar{background:var(--gris2);border-radius:50px;height:8px;margin-bottom:6px;overflow:hidden}
+.tpfill{height:100%;background:linear-gradient(90deg,var(--azul),var(--azul2));border-radius:50px;transition:width .4s ease}
+.tpinfo{display:flex;justify-content:space-between;font-size:.79rem;color:var(--gris);margin-bottom:22px}
+.area-tag{display:inline-block;background:var(--azul3);color:var(--azul);border-radius:20px;padding:3px 11px;font-size:.73rem;font-weight:600;margin-bottom:9px;letter-spacing:.03em}
+.qblock{background:var(--fondo);border-radius:var(--r);padding:20px 22px;margin-bottom:18px;border:1.5px solid var(--borde);transition:.2s}
+.qblock:hover{border-color:#9ca3af}
+.qtxt{font-size:.94rem;font-weight:500;color:#1f2937;margin-bottom:13px;line-height:1.55;white-space:pre-line}
+.opts{display:flex;flex-direction:column;gap:8px}
+.olbl{display:flex;align-items:flex-start;gap:9px;cursor:pointer;padding:8px 13px;border-radius:var(--r2);border:1.5px solid var(--borde);background:#fff;transition:.18s;font-size:.88rem;line-height:1.45}
+.olbl:hover{border-color:var(--azul2);background:var(--azul3)}
+.olbl input[type=radio]{margin-top:2px;accent-color:var(--azul);flex-shrink:0}
+.olbl.sel{border-color:var(--azul);background:var(--azul3);font-weight:500}
+
+/* ── BUTTONS ── */
+.btn{border:none;border-radius:50px;padding:12px 30px;font-size:.90rem;font-weight:600;cursor:pointer;font-family:'DM Sans',sans-serif;transition:.2s;display:inline-flex;align-items:center;gap:7px}
+.btn-p{background:var(--azul);color:#fff}
+.btn-p:hover{background:var(--azul2);transform:translateY(-1px);box-shadow:0 6px 20px rgba(26,58,92,.25)}
+.btn-s{background:#fff;color:var(--azul);border:2px solid var(--azul)}
+.btn-s:hover{background:var(--azul3)}
+.btn-o{background:var(--oro);color:#fff}
+.btn-o:hover{background:#a07520;transform:translateY(-1px)}
+.btn:disabled{opacity:.4;cursor:not-allowed;transform:none!important}
+.btn-row{display:flex;gap:11px;flex-wrap:wrap;margin-top:26px;justify-content:flex-end}
+
+/* ── RESULTS ── */
+.res-grid{display:grid;grid-template-columns:1fr 1fr;gap:18px;margin-bottom:26px}
+.res-main{background:var(--azul);color:#fff;border-radius:14px;padding:28px 22px;text-align:center;grid-column:1/-1}
+.res-num{font-family:'Playfair Display',serif;font-size:4rem;font-weight:700;color:#fff;line-height:1;margin-bottom:4px}
+.res-numlbl{font-size:.82rem;color:rgba(255,255,255,.65);margin-bottom:14px}
+.res-badge{display:inline-block;background:var(--oro);color:#fff;border-radius:30px;padding:6px 22px;font-size:.94rem;font-weight:700;margin-bottom:10px}
+.res-desc{font-size:.87rem;color:rgba(255,255,255,.80);line-height:1.5;max-width:560px;margin:0 auto}
+.icard{background:#fff;border:1.5px solid var(--borde);border-radius:12px;padding:18px 16px}
+.icard h4{font-size:.76rem;text-transform:uppercase;letter-spacing:.08em;color:var(--gris);font-weight:600;margin-bottom:9px}
+.icard p{font-size:.90rem;color:#1f2937;font-weight:500;line-height:1.5}
+.equiv-t{width:100%;border-collapse:collapse;font-size:.84rem;margin-bottom:26px}
+.equiv-t th{background:var(--azul);color:#fff;padding:9px 12px;text-align:left;font-weight:600;font-size:.77rem}
+.equiv-t td{padding:9px 12px;border-bottom:1px solid var(--borde)}
+.equiv-t tr:nth-child(even) td{background:var(--fondo)}
+.areas-list{display:flex;flex-direction:column;gap:9px;margin-bottom:20px}
+.arow{display:flex;align-items:center;gap:12px}
+.aname{width:175px;font-size:.82rem;font-weight:600;color:var(--azul);flex-shrink:0}
+.abb{flex:1;background:var(--gris2);border-radius:50px;height:10px;overflow:hidden}
+.abf{height:100%;border-radius:50px;transition:width .6s ease}
+.apct{width:42px;text-align:right;font-size:.80rem;font-weight:700}
+.f-verde{background:#22c55e} .f-azul{background:var(--azul2)} .f-amarillo{background:#eab308} .f-rojo{background:#ef4444}
+.c-verde{color:var(--verde)} .c-azul{color:var(--azul2)} .c-amarillo{color:var(--aviso)} .c-rojo{color:var(--rojo)}
+.tags{display:flex;flex-wrap:wrap;gap:7px;margin-top:6px}
+.tag{border-radius:20px;padding:4px 12px;font-size:.76rem;font-weight:600}
+.tv{background:var(--verde2);color:var(--verde)}
+.ta{background:var(--aviso2);color:var(--aviso)}
+.tr{background:var(--rojo2);color:var(--rojo)}
+
+/* ── MENTOR ── */
+.rub-sec{margin-bottom:22px}
+.rub-sec h4{font-size:.90rem;font-weight:700;color:var(--azul);margin-bottom:12px;border-bottom:1px solid var(--borde);padding-bottom:7px}
+.rub-grid{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+.ritem{background:var(--fondo);border-radius:var(--r2);padding:13px 14px}
+.ritem label{font-size:.78rem;font-weight:600;color:var(--azul);display:block;margin-bottom:7px}
+.rscale{display:flex;gap:6px;flex-wrap:wrap}
+.rr{display:none}
+.rb{padding:5px 12px;border-radius:20px;border:1.5px solid var(--borde);background:#fff;font-size:.74rem;font-weight:600;cursor:pointer;transition:.18s;user-select:none;color:var(--gris)}
+.rr:checked+.rb{background:var(--azul);color:#fff;border-color:var(--azul)}
+
+/* ── PEI ── */
+.pei-hdr{background:linear-gradient(135deg,var(--azul),var(--azul2));color:#fff;border-radius:12px;padding:20px 22px;margin-bottom:18px;display:flex;justify-content:space-between;align-items:flex-start;flex-wrap:wrap;gap:12px}
+.pei-la{display:flex;gap:11px;align-items:center}
+.pei-lb{width:42px;height:42px;background:rgba(255,255,255,.15);border:2px solid rgba(255,255,255,.30);border-radius:50%;display:flex;align-items:center;justify-content:center;font-weight:800;font-size:.9rem;color:var(--oro)}
+.pei-org{font-size:.76rem;color:rgba(255,255,255,.75)}
+.pei-org strong{display:block;color:#fff;font-size:.90rem}
+.pei-ta h2{font-family:'Playfair Display',serif;font-size:1.05rem;color:#fff}
+.pei-ta span{font-size:.72rem;color:rgba(255,255,255,.60)}
+.pei-dg{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin-bottom:18px}
+.pdi{background:var(--fondo);border-radius:var(--r2);padding:11px 13px}
+.pdi label{font-size:.70rem;text-transform:uppercase;letter-spacing:.06em;color:var(--gris);font-weight:600}
+.pdi p{font-size:.90rem;font-weight:600;color:var(--azul);margin-top:3px}
+.pblk{margin-bottom:18px}
+.pblk h3{font-size:.83rem;font-weight:700;text-transform:uppercase;letter-spacing:.07em;color:var(--azul);border-left:3px solid var(--oro);padding-left:9px;margin-bottom:10px}
+.plist{list-style:none;display:flex;flex-direction:column;gap:6px}
+.plist li{display:flex;gap:9px;align-items:flex-start;background:var(--fondo);border-radius:var(--r2);padding:8px 11px;font-size:.86rem;line-height:1.5}
+.plist li::before{content:'▸';color:var(--oro);flex-shrink:0;font-size:.78rem;margin-top:2px}
+.sem-grid{display:grid;grid-template-columns:1fr 1fr;gap:9px}
+.scard{background:var(--fondo);border-radius:var(--r2);border-left:3px solid var(--azul2);padding:11px 13px}
+.scard .per{font-size:.72rem;font-weight:700;color:var(--azul);text-transform:uppercase;letter-spacing:.04em}
+.scard p{font-size:.82rem;color:#374151;margin-top:3px;line-height:1.45}
+
+/* ── CERT ── */
+.cert-wrap{border:2px solid var(--oro);border-radius:16px;overflow:hidden}
+.cert-in{padding:34px 38px}
+.cert-top{display:flex;justify-content:space-between;align-items:flex-start;margin-bottom:20px;border-bottom:1px solid var(--oro2);padding-bottom:16px}
+.cert-la{display:flex;gap:11px;align-items:center}
+.cert-lb{width:50px;height:50px;border:2px solid var(--oro);border-radius:50%;display:flex;align-items:center;justify-content:center;font-weight:800;font-size:1.1rem;color:var(--oro)}
+.cert-on{font-family:'Playfair Display',serif;font-size:.97rem;color:var(--azul);font-weight:700}
+.cert-or{font-size:.70rem;color:var(--gris);margin-top:2px}
+.cert-badge-box{background:var(--azul);color:#fff;border-radius:var(--r2);padding:7px 16px;text-align:center}
+.cert-badge-box .tp{font-size:.64rem;text-transform:uppercase;letter-spacing:.10em;color:rgba(255,255,255,.65)}
+.cert-badge-box .yr{font-size:1.1rem;font-weight:700;color:var(--oro)}
+.cert-body{text-align:center;margin-bottom:24px}
+.cert-pre{font-size:.80rem;text-transform:uppercase;letter-spacing:.10em;color:var(--gris);margin-bottom:8px}
+.cert-sn{font-family:'Playfair Display',serif;font-size:2.1rem;font-style:italic;color:var(--azul);border-bottom:1.5px solid var(--oro2);display:inline-block;padding-bottom:7px;margin-bottom:13px}
+.cert-txt{font-size:.88rem;color:#374151;max-width:500px;margin:0 auto 16px;line-height:1.65;font-family:'Source Serif 4',serif}
+.cert-lvl{display:inline-block;border:2px solid var(--azul);border-radius:var(--r);padding:11px 30px;margin-bottom:18px}
+.cert-lvl .cl{font-size:.70rem;text-transform:uppercase;letter-spacing:.08em;color:var(--gris)}
+.cert-lvl .cv{font-family:'Playfair Display',serif;font-size:1.35rem;color:var(--azul);font-weight:700;margin-top:3px}
+.cert-fg{display:grid;grid-template-columns:repeat(3,1fr);gap:11px;margin-bottom:22px}
+.cf{border-bottom:1px solid var(--borde);padding-bottom:7px}
+.cf .cl{font-size:.68rem;color:var(--gris);text-transform:uppercase;letter-spacing:.06em}
+.cf .cv{font-size:.84rem;font-weight:600;color:#1f2937;margin-top:2px}
+.cert-foot{display:flex;justify-content:space-between;align-items:flex-end;border-top:1px solid var(--oro2);padding-top:16px}
+.csign{text-align:center}
+.csign .ln{width:130px;height:1px;background:var(--azul);margin:26px auto 5px}
+.csign .nm{font-size:.78rem;font-weight:700;color:var(--azul)}
+.csign .rl{font-size:.68rem;color:var(--gris)}
+.cseal{width:68px;height:68px;border:3px solid var(--azul);border-radius:50%;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;font-size:.50rem;font-weight:700;letter-spacing:.04em;color:var(--azul);text-transform:uppercase}
+.cert-disc{background:var(--fondo);border-radius:var(--r2);padding:11px 13px;font-size:.74rem;color:var(--gris);line-height:1.55;margin-top:18px;font-style:italic;border-left:3px solid var(--borde)}
+
+/* ── MISC ── */
+.legal{background:var(--fondo);border:1px solid var(--borde);border-radius:var(--r2);padding:13px 16px;font-size:.76rem;color:var(--gris);line-height:1.6;margin-top:22px;font-style:italic}
+h3.subsec{font-family:'Playfair Display',serif;font-size:1.05rem;color:var(--azul);margin-bottom:13px}
+
+
+/* ── BIBLE TOGGLE ── */
+.bible-toggle-wrap{background:linear-gradient(135deg,#1a3a5c08,#b8892a10);border:1.5px solid #b8892a40;border-radius:var(--r);padding:18px 20px;margin-top:20px;display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:14px}
+.bible-toggle-info{display:flex;align-items:center;gap:13px}
+.bible-icon{font-size:2rem;flex-shrink:0}
+.bible-info h4{font-size:.94rem;font-weight:700;color:var(--azul);margin-bottom:3px}
+.bible-info p{font-size:.78rem;color:var(--gris);line-height:1.4}
+.toggle-switch{position:relative;width:52px;height:28px;flex-shrink:0}
+.toggle-switch input{opacity:0;width:0;height:0}
+.toggle-track{position:absolute;cursor:pointer;top:0;left:0;right:0;bottom:0;background:#d1d5db;border-radius:28px;transition:.3s}
+.toggle-track:before{position:absolute;content:'';height:20px;width:20px;left:4px;bottom:4px;background:#fff;border-radius:50%;transition:.3s;box-shadow:0 1px 4px rgba(0,0,0,.2)}
+.toggle-switch input:checked+.toggle-track{background:var(--oro)}
+.toggle-switch input:checked+.toggle-track:before{transform:translateX(24px)}
+.bible-q-count{font-size:.74rem;color:var(--oro);font-weight:700;background:var(--oro2);border-radius:20px;padding:3px 10px;white-space:nowrap}
+/* ── EXIT MODAL ── */
+.modal-overlay{position:fixed;inset:0;background:rgba(15,23,42,.55);z-index:9999;display:flex;align-items:center;justify-content:center;backdrop-filter:blur(3px);opacity:0;pointer-events:none;transition:opacity .22s}
+.modal-overlay.open{opacity:1;pointer-events:all}
+.modal-box{background:#fff;border-radius:16px;padding:32px 28px;max-width:400px;width:90%;box-shadow:0 20px 60px rgba(0,0,0,.20);transform:scale(.94);transition:transform .22s;text-align:center}
+.modal-overlay.open .modal-box{transform:scale(1)}
+.modal-icon{font-size:2.6rem;margin-bottom:12px}
+.modal-box h3{font-family:'Playfair Display',serif;font-size:1.25rem;color:var(--azul);margin-bottom:8px}
+.modal-box p{font-size:.88rem;color:var(--gris);line-height:1.55;margin-bottom:24px}
+.modal-btns{display:flex;gap:10px;justify-content:center;flex-wrap:wrap}
+/* ── PRINT ── */
+@media print{
+  *{-webkit-print-color-adjust:exact!important;print-color-adjust:exact!important}
+  .site-header,#section-landing,#section-form,#section-level,#section-test,.no-print,.btn-row{display:none!important}
+  #section-results,#section-mentor,#section-pei,#section-cert{display:block!important}
+  body{background:#fff;font-size:12px}
+  .section-card{box-shadow:none;border:1px solid #ddd;margin:0 0 18px;padding:18px;border-radius:8px}
+  .page-break{page-break-before:always}
+  .cert-wrap,.pei-hdr{page-break-inside:avoid}
+  .scard,.plist li{page-break-inside:avoid}
+}
+/* ── RESPONSIVE ── */
+@media(max-width:640px){
+  .section-card{padding:22px 18px}
+  .fg{grid-template-columns:1fr}
+  .lvl-grid{grid-template-columns:1fr}
+  .res-grid{grid-template-columns:1fr}
+  .rub-grid{grid-template-columns:1fr}
+  .pei-dg{grid-template-columns:1fr 1fr}
+  .cert-fg{grid-template-columns:1fr 1fr}
+  .sem-grid{grid-template-columns:1fr}
+  .site-header{padding:12px 16px}
+  .hero-feats{grid-template-columns:repeat(2,1fr)}
+  .aname{width:130px}
+}
+</style>
+</head>
+<body>
+
+<!-- ═══════════ HEADER ═══════════ -->
+<header class="site-header no-print">
+  <div class="hlogo">
+    <div class="logo-ph">CIA</div>
+    <div class="htitles">
+      <h1>Chanak International Academy</h1>
+      <span>Evaluation · Education · Excellence</span>
+    </div>
+  </div>
+  <div class="hbadge">FLDOE #134620</div>
+</header>
+
+<!-- ═══════════ LANDING ═══════════ -->
+<section id="section-landing">
+  <div class="hero-eye">Herramienta Diagnóstica Institucional</div>
+  <h1 class="hero-title">Evaluación Diagnóstica<br>Académica Internacional</h1>
+  <p class="hero-sub">Informe de Nivel Académico + PEI Inicial</p>
+  <p class="hero-desc">Conoce el nivel académico real de tu hijo y recibe una orientación clara para avanzar con seguridad. Una evaluación profesional, objetiva y personalizada para cada estudiante.</p>
+  <div class="hero-feats">
+    <div class="hfc"><div class="ico">📋</div><div class="lbl">Diagnóstico por 9 áreas académicas</div></div>
+    <div class="hfc"><div class="ico">📊</div><div class="lbl">Informe de fortalezas y áreas a reforzar</div></div>
+    <div class="hfc"><div class="ico">🗺️</div><div class="lbl">PEI inicial de 8–12 semanas</div></div>
+    <div class="hfc"><div class="ico">🏅</div><div class="lbl">Certificación diagnóstica Chanak</div></div>
+    <div class="hfc"><div class="ico">🌍</div><div class="lbl">Equivalencia orientativa internacional</div></div>
+  </div>
+  <button class="btn-hero" onclick="showSection('form')">Iniciar Evaluación →</button>
+  <div class="hero-chips">
+    <span class="chip">Comprensión Lectora</span><span class="chip">Lengua &amp; Gramática</span>
+    <span class="chip">Ortografía</span><span class="chip">Matemáticas</span>
+    <span class="chip">Ciencias</span><span class="chip">Geografía</span>
+    <span class="chip">Historia</span><span class="chip">Inglés</span>
+    <span class="chip">Inteligencia Emocional</span>
+  </div>
+</section>
+
+<!-- ═══════════ FORMULARIO ═══════════ -->
+<div id="section-form" class="hidden">
+<div class="section-card container">
+  <div class="sec-title">Datos del Estudiante</div>
+  <p class="sec-sub">Completa la información antes de iniciar. Los datos se incluirán en el informe diagnóstico y la certificación institucional.</p>
+  <div class="fg">
+    <div class="fi"><label>Nombre completo *</label><input type="text" id="f-nombre" placeholder="Nombre y apellidos"></div>
+    <div class="fi"><label>Fecha de nacimiento</label><input type="date" id="f-fecha"></div>
+    <div class="fi"><label>Edad (años cumplidos)</label><input type="number" id="f-edad" min="5" max="17" placeholder="Ej. 10"></div>
+    <div class="fi"><label>Curso declarado por la familia</label>
+      <select id="f-curso">
+        <option value="">-- Selecciona --</option>
+        <option>1.º Primaria / Grade 1</option><option>2.º Primaria / Grade 2</option>
+        <option>3.º Primaria / Grade 3</option><option>4.º Primaria / Grade 4</option>
+        <option>5.º Primaria / Grade 5</option><option>6.º Primaria / Grade 6</option>
+        <option>1.º ESO / Grade 7</option><option>2.º ESO / Grade 8</option><option>3.º ESO / Grade 9</option>
+      </select></div>
+    <div class="fi"><label>País de referencia curricular</label>
+      <select id="f-pais">
+        <option value="">-- Selecciona --</option>
+        <option>España</option><option>Panamá</option><option>EE. UU. / Florida</option>
+        <option>México</option><option>Colombia</option><option>Argentina</option>
+        <option>Perú</option><option>Venezuela</option><option>Ecuador</option>
+        <option>Costa Rica</option><option>Chile</option><option>Otro</option>
+      </select></div>
+    <div class="fi"><label>Idioma(s) en el hogar</label><input type="text" id="f-idiomas" placeholder="Ej. Español, Inglés"></div>
+    <div class="fi"><label>Nombre del padre / madre / tutor</label><input type="text" id="f-tutor" placeholder="Nombre completo"></div>
+    <div class="fi"><label>Correo electrónico</label><input type="email" id="f-email" placeholder="correo@ejemplo.com"></div>
+    <div class="fi full"><label>Centro o institución anterior</label><input type="text" id="f-centro" placeholder="Nombre del colegio o institución anterior"></div>
+    <div class="fi full"><label>Mentor / Evaluador *</label><input type="text" id="f-mentor" placeholder="Nombre del mentor o tutor académico"></div>
+    <div class="fi full"><label>Observaciones previas de la familia</label><textarea id="f-obs" placeholder="Dificultades conocidas, necesidades especiales, contexto académico previo..."></textarea></div>
+  </div>
+  <div class="btn-row no-print">
+    <button class="btn btn-s" onclick="showSection('landing')">← Volver</button>
+    <button class="btn btn-p" onclick="goToLevel()">Seleccionar Nivel →</button>
+  </div>
+</div>
+</div>
+
+<!-- ═══════════ NIVEL ═══════════ -->
+<div id="section-level" class="hidden">
+<div class="section-card container">
+  <div class="sec-title">Selección de Nivel de Evaluación</div>
+  <p class="sec-sub">Selecciona el nivel que mejor corresponda a la edad y curso declarado. El mentor puede indicar el nivel adecuado en caso de duda.</p>
+  <div class="lvl-grid">
+    <div class="lcard" onclick="selectLevel(1)" id="lc1">
+      <div class="lnum">1</div><h3>Primaria Inicial</h3>
+      <div class="eq">1.º–3.º Primaria / Grades 1–3</div>
+      <div class="ag">6–8 años</div><div class="nq">40 preguntas · 9 áreas</div>
+    </div>
+    <div class="lcard" onclick="selectLevel(2)" id="lc2">
+      <div class="lnum">2</div><h3>Primaria Media y Alta</h3>
+      <div class="eq">4.º–6.º Primaria / Grades 4–6</div>
+      <div class="ag">9–12 años</div><div class="nq">48 preguntas · 9 áreas</div>
+    </div>
+    <div class="lcard" onclick="selectLevel(3)" id="lc3">
+      <div class="lnum">3</div><h3>Secundaria Inicial</h3>
+      <div class="eq">1.º–3.º ESO / Grades 7–9</div>
+      <div class="ag">12–15 años</div><div class="nq">61 preguntas · 9 áreas</div>
+    </div>
+  </div>
+
+  <!-- Bible optional toggle -->
+  <div class="bible-toggle-wrap">
+    <div class="bible-toggle-info">
+      <div class="bible-icon">📖</div>
+      <div class="bible-info">
+        <h4>Sección de Biblia <span style="font-size:.70rem;color:var(--gris);font-weight:400">(Opcional)</span></h4>
+        <p>Activa esta opción para incluir preguntas de conocimiento bíblico adaptadas al nivel seleccionado. Se integra en el informe final con su propia área de resultados.</p>
+      </div>
+    </div>
+    <div style="display:flex;align-items:center;gap:12px;flex-shrink:0">
+      <span class="bible-q-count" id="bible-q-badge" style="display:none">+4 preguntas</span>
+      <label class="toggle-switch" title="Activar sección de Biblia">
+        <input type="checkbox" id="bible-toggle" onchange="toggleBible(this)">
+        <span class="toggle-track"></span>
+      </label>
+    </div>
+  </div>
+  <div class="btn-row no-print">
+    <button class="btn btn-s" onclick="showSection('form')">← Volver</button>
+    <button class="btn btn-p" id="btn-start" disabled onclick="startTest()">Iniciar Evaluación →</button>
+  </div>
+</div>
+</div>
+
+<!-- ═══════════ TEST ═══════════ -->
+<div id="section-test" class="hidden">
+<div class="section-card container">
+  <div style="margin-bottom:20px">
+    <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:9px">
+      <div class="sec-title" style="margin-bottom:0;font-size:1.15rem">Evaluación Diagnóstica</div>
+      <div style="font-size:.80rem;color:var(--gris)" id="t-sname">—</div>
+    </div>
+    <div class="tpbar"><div class="tpfill" id="tpfill" style="width:0%"></div></div>
+    <div class="tpinfo"><span id="t-ptxt">Pregunta 0 de 0</span><span id="t-ppct">0%</span></div>
+  </div>
+  <div id="qcont"></div>
+  <div class="btn-row no-print">
+    <button class="btn btn-s" onclick="exitTest()">← Salir</button>
+    <button class="btn btn-p" onclick="submitTest()">Ver Resultados →</button>
+  </div>
+</div>
+</div>
+
+<!-- ═══════════ RESULTADOS ═══════════ -->
+<div id="section-results" class="hidden">
+<div class="section-card container">
+  <div class="sec-title">Informe Diagnóstico</div>
+  <p class="sec-sub">Evaluación Diagnóstica Académica Internacional — Chanak International Academy</p>
+  <div class="res-grid">
+    <div class="res-main">
+      <div class="res-num" id="r-score">—</div>
+      <div class="res-numlbl">Puntuación global</div>
+      <div class="res-badge" id="r-badge">—</div>
+      <div class="res-desc" id="r-desc">—</div>
+    </div>
+    <div class="icard"><h4>Nivel Evaluado</h4><p id="r-nivel-eval">—</p></div>
+    <div class="icard"><h4>Nivel Estimado</h4><p id="r-nivel-est">—</p></div>
+    <div class="icard"><h4>Comparación Edad / Curso</h4><p id="r-comp">—</p></div>
+    <div class="icard"><h4>Fecha de Evaluación</h4><p id="r-fecha">—</p></div>
+  </div>
+  <h3 class="subsec">Equivalencia Orientativa por Sistema Educativo</h3>
+  <table class="equiv-t"><thead><tr><th>Sistema</th><th>Nivel Estimado</th><th>Observación</th></tr></thead><tbody id="equiv-tbody"></tbody></table>
+  <h3 class="subsec">Resultados por Área</h3>
+  <div class="areas-list" id="areas-list"></div>
+  <div style="display:grid;grid-template-columns:1fr 1fr 1fr;gap:14px;margin-top:18px;margin-bottom:18px">
+    <div class="icard"><h4>Áreas Fuertes ✓</h4><div class="tags" id="af"></div></div>
+    <div class="icard"><h4>Áreas a Reforzar ⚠</h4><div class="tags" id="ar"></div></div>
+    <div class="icard"><h4>Áreas Críticas ✕</h4><div class="tags" id="ac"></div></div>
+  </div>
+  <div class="legal">Esta evaluación tiene fines diagnósticos y orientativos. No sustituye una evaluación psicopedagógica, una calificación oficial, una homologación académica ni una certificación estatal de grado. Los resultados deben interpretarse junto con entrevista familiar, historial académico, evidencias del estudiante y observación del mentor.</div>
+  <div class="btn-row no-print">
+    <button class="btn btn-s" onclick="showSection('test')">← Ver Prueba</button>
+    <button class="btn btn-o" onclick="showSection('mentor')">Observación del Mentor →</button>
+    <button class="btn btn-p" onclick="window.print()">🖨 Imprimir</button>
+  </div>
+</div>
+</div>
+
+<!-- ═══════════ MENTOR ═══════════ -->
+<div id="section-mentor" class="hidden page-break">
+<div class="section-card container">
+  <div class="sec-title">Observación del Mentor</div>
+  <p class="sec-sub">Completa esta sección durante o tras la evaluación. Los datos se integran automáticamente en el PEI y en el informe final.</p>
+  <div class="rub-sec">
+    <h4>Competencias Académicas y de Aprendizaje (1 = Muy baja · 4 = Sobresaliente)</h4>
+    <div class="rub-grid">
+<div class="ritem"><label>Fluidez lectora</label><div class="rscale"><input type="radio" name="r-fl" value="1" id="rfl1" class="rr"><label for="rfl1" class="rb">1</label><input type="radio" name="r-fl" value="2" id="rfl2" class="rr"><label for="rfl2" class="rb">2</label><input type="radio" name="r-fl" value="3" id="rfl3" class="rr"><label for="rfl3" class="rb">3</label><input type="radio" name="r-fl" value="4" id="rfl4" class="rr"><label for="rfl4" class="rb">4</label></div></div>
+<div class="ritem"><label>Comprensión oral</label><div class="rscale"><input type="radio" name="r-co" value="1" id="rco1" class="rr"><label for="rco1" class="rb">1</label><input type="radio" name="r-co" value="2" id="rco2" class="rr"><label for="rco2" class="rb">2</label><input type="radio" name="r-co" value="3" id="rco3" class="rr"><label for="rco3" class="rb">3</label><input type="radio" name="r-co" value="4" id="rco4" class="rr"><label for="rco4" class="rb">4</label></div></div>
+<div class="ritem"><label>Expresión escrita</label><div class="rscale"><input type="radio" name="r-ee" value="1" id="ree1" class="rr"><label for="ree1" class="rb">1</label><input type="radio" name="r-ee" value="2" id="ree2" class="rr"><label for="ree2" class="rb">2</label><input type="radio" name="r-ee" value="3" id="ree3" class="rr"><label for="ree3" class="rb">3</label><input type="radio" name="r-ee" value="4" id="ree4" class="rr"><label for="ree4" class="rb">4</label></div></div>
+<div class="ritem"><label>Razonamiento matemático</label><div class="rscale"><input type="radio" name="r-rm" value="1" id="rrm1" class="rr"><label for="rrm1" class="rb">1</label><input type="radio" name="r-rm" value="2" id="rrm2" class="rr"><label for="rrm2" class="rb">2</label><input type="radio" name="r-rm" value="3" id="rrm3" class="rr"><label for="rrm3" class="rb">3</label><input type="radio" name="r-rm" value="4" id="rrm4" class="rr"><label for="rrm4" class="rb">4</label></div></div>
+<div class="ritem"><label>Autonomía</label><div class="rscale"><input type="radio" name="r-au" value="1" id="rau1" class="rr"><label for="rau1" class="rb">1</label><input type="radio" name="r-au" value="2" id="rau2" class="rr"><label for="rau2" class="rb">2</label><input type="radio" name="r-au" value="3" id="rau3" class="rr"><label for="rau3" class="rb">3</label><input type="radio" name="r-au" value="4" id="rau4" class="rr"><label for="rau4" class="rb">4</label></div></div>
+<div class="ritem"><label>Tolerancia a la frustración</label><div class="rscale"><input type="radio" name="r-tf" value="1" id="rtf1" class="rr"><label for="rtf1" class="rb">1</label><input type="radio" name="r-tf" value="2" id="rtf2" class="rr"><label for="rtf2" class="rb">2</label><input type="radio" name="r-tf" value="3" id="rtf3" class="rr"><label for="rtf3" class="rb">3</label><input type="radio" name="r-tf" value="4" id="rtf4" class="rr"><label for="rtf4" class="rb">4</label></div></div>
+<div class="ritem"><label>Atención sostenida</label><div class="rscale"><input type="radio" name="r-as" value="1" id="ras1" class="rr"><label for="ras1" class="rb">1</label><input type="radio" name="r-as" value="2" id="ras2" class="rr"><label for="ras2" class="rb">2</label><input type="radio" name="r-as" value="3" id="ras3" class="rr"><label for="ras3" class="rb">3</label><input type="radio" name="r-as" value="4" id="ras4" class="rr"><label for="ras4" class="rb">4</label></div></div>
+<div class="ritem"><label>Seguimiento de instrucciones</label><div class="rscale"><input type="radio" name="r-si" value="1" id="rsi1" class="rr"><label for="rsi1" class="rb">1</label><input type="radio" name="r-si" value="2" id="rsi2" class="rr"><label for="rsi2" class="rb">2</label><input type="radio" name="r-si" value="3" id="rsi3" class="rr"><label for="rsi3" class="rb">3</label><input type="radio" name="r-si" value="4" id="rsi4" class="rr"><label for="rsi4" class="rb">4</label></div></div>
+    </div>
+  </div>
+  <div class="rub-sec">
+    <h4>Notas del Mentor</h4>
+    <div class="fg">
+      <div class="fi full"><label>Observación general durante la evaluación</label><textarea id="m-obs" rows="3" placeholder="Actitud, comportamiento, ritmo de trabajo, seguridad en las respuestas..."></textarea></div>
+      <div class="fi"><label>Resolución matemática con procedimiento</label><textarea id="m-mat" rows="2" placeholder="Proceso de resolución observado directamente..."></textarea></div>
+      <div class="fi"><label>Lectura en voz alta (si fue realizada)</label><textarea id="m-lec" rows="2" placeholder="Velocidad, precisión, entonación..."></textarea></div>
+      <div class="fi full"><label>Recomendación final del mentor</label><textarea id="m-rec" rows="3" placeholder="Resumen de la observación y recomendación de nivel o plan de acción..."></textarea></div>
+    </div>
+  </div>
+  <div class="btn-row no-print">
+    <button class="btn btn-s" onclick="showSection('results')">← Volver</button>
+    <button class="btn btn-p" onclick="generatePEI()">Generar PEI Inicial →</button>
+  </div>
+</div>
+</div>
+
+<!-- ═══════════ PEI ═══════════ -->
+<div id="section-pei" class="hidden page-break">
+<div class="section-card container">
+  <div class="sec-title">PEI — Plan Educativo Individualizado</div>
+  <p class="sec-sub">Generado automáticamente a partir de los resultados diagnósticos. Debe revisarse y ajustarse junto al mentor asignado.</p>
+  <div id="pei-content"></div>
+  <div class="btn-row no-print">
+    <button class="btn btn-s" onclick="showSection('mentor')">← Volver</button>
+    <button class="btn btn-o" onclick="showSection('cert')">Ver Certificación →</button>
+    <button class="btn btn-p" onclick="window.print()">🖨 Imprimir PEI</button>
+  </div>
+</div>
+</div>
+
+<!-- ═══════════ CERTIFICACIÓN ═══════════ -->
+<div id="section-cert" class="hidden page-break">
+<div class="section-card container">
+  <div class="sec-title">Certificación Diagnóstica de Nivel Académico</div>
+  <p class="sec-sub">Documento institucional emitido por Chanak International Academy con carácter orientativo y diagnóstico.</p>
+  <div id="cert-content"></div>
+  <div class="btn-row no-print">
+    <button class="btn btn-s" onclick="showSection('pei')">← Volver al PEI</button>
+    <button class="btn btn-o" onclick="copySIS()">📋 Copiar para SIS</button>
+    <button class="btn btn-p" onclick="window.print()">🖨 Imprimir Certificación</button>
+  </div>
+</div>
+</div>
+<!-- ═══════════ EXIT MODAL ═══════════ -->
+<div class="modal-overlay" id="exit-modal">
+  <div class="modal-box">
+    <div class="modal-icon">⚠️</div>
+    <h3>¿Salir de la evaluación?</h3>
+    <p>Si sales ahora perderás todas las respuestas y deberás <strong>iniciar desde el principio</strong>. Esta acción no se puede deshacer.</p>
+    <div class="modal-btns">
+      <button class="btn btn-s" onclick="closeExitModal()">← Continuar evaluación</button>
+      <button class="btn btn-p" style="background:#991b1b" onclick="confirmExit()">Salir y reiniciar</button>
+    </div>
+  </div>
+</div>
+
+<script>
+const P={1:[{"a": "Comprensión Lectora", "q": "Lee el párrafo y responde:\n«Pedro salió de casa muy temprano. Llevaba una mochila roja y sus botas de lluvia. El cielo estaba muy nublado.»\n¿Por qué Pedro llevaba botas de lluvia?", "o": ["Porque le gustaban mucho", "Porque iba a pescar", "Porque iba a llover", "Porque su mamá se las puso"], "c": 2}, {"a": "Comprensión Lectora", "q": "En el mismo texto, ¿a qué momento del día salió Pedro?", "o": ["Por la tarde", "Por la noche", "Muy temprano por la mañana", "Después de comer"], "c": 2}, {"a": "Comprensión Lectora", "q": "¿Cuál es la idea principal de este texto?\n«Los perros son animales muy leales. Ayudan a sus dueños y los protegen. Por eso se les llama el mejor amigo del hombre.»", "o": ["Los perros son agresivos", "Los perros son leales y buenos amigos", "Los perros comen mucho", "Los perros son difíciles de cuidar"], "c": 1}, {"a": "Comprensión Lectora", "q": "Ordena los eventos: (1) Ana comió el pastel. (2) Ana lo horneó. (3) Ana compró los ingredientes. ¿Cuál es el orden correcto?", "o": ["1–2–3", "2–3–1", "3–2–1", "3–1–2"], "c": 2}, {"a": "Comprensión Lectora", "q": "«El sol brillaba y los pájaros cantaban. Era un día perfecto para jugar en el parque.» ¿Qué quiere hacer el narrador ese día?", "o": ["Dormir", "Estudiar matemáticas", "Jugar en el parque", "Ver televisión"], "c": 2}, {"a": "Lengua / Gramática", "q": "¿Cuál de estas palabras es un sustantivo?", "o": ["Correr", "Rápido", "Mesa", "Feliz"], "c": 2}, {"a": "Lengua / Gramática", "q": "Elige la oración correcta:", "o": ["Los niño juegan en el patio.", "Las niñas juegan en el patio.", "La niñas juega en el patio.", "Los niños jugamos en los patios."], "c": 1}, {"a": "Lengua / Gramática", "q": "¿Qué tiempo verbal tiene el verbo en: «Mañana iré al colegio»?", "o": ["Pasado", "Presente", "Futuro", "Imperativo"], "c": 2}, {"a": "Lengua / Gramática", "q": "¿Cuál de estas palabras es un adjetivo?", "o": ["Saltar", "Libro", "Grande", "Correr"], "c": 2}, {"a": "Lengua / Gramática", "q": "¿Qué pronombre reemplaza a «María y Juan» en una oración?", "o": ["Yo", "Él", "Ellos", "Nosotros"], "c": 2}, {"a": "Ortografía", "q": "¿Cuál de estas palabras está escrita correctamente?", "o": ["Vaca", "Baca", "Vaka", "Baka"], "c": 0}, {"a": "Ortografía", "q": "¿Cómo se escribe correctamente: «lugar donde viven las personas»?", "o": ["Bivienda", "Vibienda", "Vivienda", "Bibienda"], "c": 2}, {"a": "Ortografía", "q": "¿En cuál oración están bien usados los signos de puntuación?", "o": ["¿Cómo te llamas", "¿Cómo te llamas?", "Como te llamas?", "¿Como te llamas."], "c": 1}, {"a": "Ortografía", "q": "¿Cómo se escribe correctamente la palabra que describe algo que quema mucho?", "o": ["Caliente", "Calente", "Calyente", "Kaliente"], "c": 0}, {"a": "Matemáticas", "q": "En el número 347, ¿qué dígito está en la posición de las decenas?", "o": ["3", "4", "7", "0"], "c": 1}, {"a": "Matemáticas", "q": "Calcula: 58 + 37 = ?", "o": ["85", "95", "86", "93"], "c": 1}, {"a": "Matemáticas", "q": "Calcula: 82 − 45 = ?", "o": ["47", "37", "43", "33"], "c": 1}, {"a": "Matemáticas", "q": "¿Cuánto es 6 × 7?", "o": ["36", "42", "48", "54"], "c": 1}, {"a": "Matemáticas", "q": "¿Cuánto es 48 ÷ 6?", "o": ["6", "7", "8", "9"], "c": 2}, {"a": "Matemáticas", "q": "¿Qué fracción representa la mitad de algo?", "o": ["1/3", "2/4", "1/2", "1/4"], "c": 2}, {"a": "Matemáticas", "q": "María tiene 24 manzanas y las reparte en partes iguales entre 4 amigos. ¿Cuántas recibe cada uno?", "o": ["4", "5", "6", "8"], "c": 2}, {"a": "Ciencias", "q": "¿Cuál de estos es un ser vivo?", "o": ["Una piedra", "Una silla", "Un árbol", "Una nube"], "c": 2}, {"a": "Ciencias", "q": "¿Cuál es la parte de la planta que absorbe el agua del suelo?", "o": ["Las hojas", "Las flores", "Las raíces", "El tallo"], "c": 2}, {"a": "Ciencias", "q": "En el ciclo del agua, ¿cómo se llama el proceso por el que el agua sube al cielo?", "o": ["Precipitación", "Condensación", "Evaporación", "Filtración"], "c": 2}, {"a": "Ciencias", "q": "¿Cuál de estos animales es un mamífero?", "o": ["Águila", "Rana", "Tiburón", "Perro"], "c": 3}, {"a": "Geografía", "q": "¿Cuántos continentes hay en el mundo?", "o": ["4", "5", "6", "7"], "c": 2}, {"a": "Geografía", "q": "Si el sol sale por el Este, ¿en qué dirección se pone?", "o": ["Norte", "Sur", "Oeste", "Este"], "c": 2}, {"a": "Geografía", "q": "¿Cuál de estos es un océano?", "o": ["Amazonas", "Mediterráneo", "Pacífico", "Nilo"], "c": 2}, {"a": "Historia", "q": "¿En qué período vivieron los dinosaurios?", "o": ["Hace 200 años", "En la Edad Media", "En la Era Mesozoica, hace millones de años", "En el siglo XX"], "c": 2}, {"a": "Historia", "q": "¿Dónde se construyeron las pirámides más famosas del mundo antiguo?", "o": ["China", "Grecia", "Egipto", "Roma"], "c": 2}, {"a": "Historia", "q": "En una línea del tiempo, los eventos se ordenan de:", "o": ["Mayor a menor número", "Más reciente a más antiguo", "Más antiguo a más reciente", "Por orden alfabético"], "c": 2}, {"a": "Inglés", "q": "What color is the sky on a sunny day?", "o": ["Red", "Blue", "Green", "Yellow"], "c": 1}, {"a": "Inglés", "q": "Choose the correct form: 'She ___ a student.'", "o": ["am", "is", "are", "be"], "c": 1}, {"a": "Inglés", "q": "What number comes after fifteen?", "o": ["Fourteen", "Sixteen", "Seventeen", "Thirteen"], "c": 1}, {"a": "Inglés", "q": "'Do you like apples?' — Choose the correct answer:", "o": ["Yes, I likes apples.", "Yes, I like apples.", "Yes, she likes apples.", "Yes, we likes apples."], "c": 1}, {"a": "Inglés", "q": "Read: 'The cat is on the mat.' Where is the cat?", "o": ["Under the mat", "Behind the door", "On the mat", "Near the window"], "c": 2}, {"a": "Inteligencia Emocional", "q": "Si un compañero llora porque perdió su juguete, ¿qué sería lo más empático?", "o": ["Reírse de él", "Ignorarlo", "Preguntarle cómo se siente y ofrecerle ayuda", "Decirle que fue su culpa"], "c": 2}, {"a": "Inteligencia Emocional", "q": "Cuando estás enojado, ¿qué es mejor hacer antes de reaccionar?", "o": ["Gritar inmediatamente", "Respirar profundo y calmarte", "Pelear con quien te enojó", "Llorar todo el día"], "c": 1}, {"a": "Inteligencia Emocional", "q": "Dos amigos quieren jugar juegos diferentes. ¿Cuál es la mejor solución?", "o": ["Que uno se vaya", "Que discutan hasta que uno gane", "Que busquen un juego que los dos disfruten", "Que nadie juegue"], "c": 2}, {"a": "Inteligencia Emocional", "q": "¿Cuál de estas es una emoción?", "o": ["Correr", "Alegría", "Libro", "Mesa"], "c": 1}],2:[{"a": "Comprensión Lectora", "q": "Lee el texto:\n«La selva amazónica, conocida como el pulmón del mundo, produce gran parte del oxígeno que respiramos. Sin embargo, la deforestación amenaza seriamente su existencia.»\n¿Por qué se llama «pulmón del mundo» a la Amazonía?", "o": ["Porque tiene forma de pulmón", "Porque es muy grande", "Porque produce mucho oxígeno", "Porque hay muchos animales"], "c": 2}, {"a": "Comprensión Lectora", "q": "Según el mismo texto, ¿cuál es la mayor amenaza para la selva amazónica?", "o": ["Las lluvias intensas", "La deforestación", "Los animales salvajes", "El frío extremo"], "c": 1}, {"a": "Comprensión Lectora", "q": "¿Qué tipo de texto es ese fragmento?", "o": ["Un cuento de ficción", "Un texto informativo / expositivo", "Una receta de cocina", "Una poesía"], "c": 1}, {"a": "Comprensión Lectora", "q": "«El científico tardó años en desarrollar la vacuna. Al final, su esfuerzo salvó millones de vidas.» ¿Qué podemos inferir sobre el científico?", "o": ["Que era impaciente", "Que era persistente y dedicado", "Que fracasó en su trabajo", "Que no le importaba la gente"], "c": 1}, {"a": "Comprensión Lectora", "q": "¿Cuál es el sinónimo de «amenaza» en el texto de la Amazonía?", "o": ["Protección", "Beneficio", "Peligro", "Ayuda"], "c": 2}, {"a": "Comprensión Lectora", "q": "«Aunque llovía mucho, los niños decidieron salir a jugar. Volvieron a casa empapados pero felices.» ¿Qué demuestra esta situación sobre los niños?", "o": ["Que no les importaba mojarse y disfrutaron igual", "Que eran irresponsables", "Que no sabían el tiempo que hacía", "Que no tenían paraguas"], "c": 0}, {"a": "Lengua / Gramática", "q": "Identifica el sujeto de la oración: «Los estudiantes de quinto grado ganaron el concurso de ciencias.»", "o": ["Los estudiantes de quinto grado", "ganaron el concurso", "el concurso de ciencias", "quinto grado"], "c": 0}, {"a": "Lengua / Gramática", "q": "¿Cuál de las siguientes oraciones está en voz pasiva?", "o": ["El maestro corrigió los exámenes.", "Los exámenes fueron corregidos por el maestro.", "El maestro está corrigiendo.", "Los exámenes son difíciles."], "c": 1}, {"a": "Lengua / Gramática", "q": "¿Cuál es el plural correcto de «pez»?", "o": ["Pezos", "Peces", "Pezs", "Pezes"], "c": 1}, {"a": "Lengua / Gramática", "q": "Identifica el tipo de oración: «¡Qué día tan bonito hace hoy!»", "o": ["Interrogativa", "Imperativa", "Exclamativa", "Enunciativa"], "c": 2}, {"a": "Lengua / Gramática", "q": "¿Cuál es la función del adverbio en: «Ella corre muy rápidamente»?", "o": ["Nombra una acción", "Modifica el verbo o adjetivo indicando modo o cantidad", "Es el sujeto de la oración", "Introduce una pregunta"], "c": 1}, {"a": "Lengua / Gramática", "q": "En «Nosotros comemos pizza los viernes», ¿en qué persona y número está el verbo?", "o": ["Primera persona singular", "Segunda persona plural", "Primera persona plural", "Tercera persona singular"], "c": 2}, {"a": "Ortografía", "q": "¿Cuál de estas palabras lleva tilde?", "o": ["Examen", "Imagen", "Camion", "Árbol"], "c": 3}, {"a": "Ortografía", "q": "Escoge la forma correcta: «El libro ___ de la biblioteca.»", "o": ["hay", "ahí", "ay", "Ninguna es correcta"], "c": 0}, {"a": "Ortografía", "q": "¿Cómo se escribe correctamente la palabra que significa «acción de escribir»?", "o": ["Escriptura", "Escritura", "Escretura", "Escritúra"], "c": 1}, {"a": "Ortografía", "q": "¿Qué palabra necesita 'b'?", "o": ["___irir (adquirir)", "___urlar", "ha___lar (hablar)", "___ivir (vivir)"], "c": 2}, {"a": "Ortografía", "q": "¿En cuál de las siguientes oraciones se usa correctamente la 'g' o la 'j'?", "o": ["El jefe es muy intelejente.", "El gefe es muy inteligente.", "El jefe es muy inteligente.", "El gefe es muy intelijente."], "c": 2}, {"a": "Matemáticas", "q": "¿Cuánto es 3.456 + 2.789?", "o": ["6.235", "6.245", "6.145", "5.245"], "c": 1}, {"a": "Matemáticas", "q": "¿Cuánto es 5.002 − 1.348?", "o": ["3.654", "3.744", "3.854", "3.354"], "c": 0}, {"a": "Matemáticas", "q": "Calcula: 234 × 6 = ?", "o": ["1.394", "1.404", "1.504", "1.304"], "c": 1}, {"a": "Matemáticas", "q": "¿Cuánto es 648 ÷ 8?", "o": ["71", "81", "80", "79"], "c": 1}, {"a": "Matemáticas", "q": "Ordena de mayor a menor: 3/4, 1/2, 5/8", "o": ["3/4, 5/8, 1/2", "1/2, 3/4, 5/8", "5/8, 1/2, 3/4", "3/4, 1/2, 5/8"], "c": 0}, {"a": "Matemáticas", "q": "¿Cuánto es el 15% de 200?", "o": ["20", "25", "30", "35"], "c": 2}, {"a": "Matemáticas", "q": "Un cuadrado tiene un lado de 7 cm. ¿Cuál es su área?", "o": ["28 cm²", "42 cm²", "49 cm²", "14 cm²"], "c": 2}, {"a": "Matemáticas", "q": "En una clase hay 30 alumnos. Si 2/5 son niñas, ¿cuántos niños hay?", "o": ["12", "18", "15", "20"], "c": 1}, {"a": "Ciencias", "q": "¿Cuál es la función principal de la clorofila en las plantas?", "o": ["Absorber agua del suelo", "Capturar luz solar para la fotosíntesis", "Proteger las hojas de insectos", "Transportar minerales"], "c": 1}, {"a": "Ciencias", "q": "¿Qué tipo de energía produce el Sol principalmente?", "o": ["Energía química", "Energía radiante (luz y calor)", "Energía eléctrica", "Energía mecánica"], "c": 1}, {"a": "Ciencias", "q": "Los reptiles son animales de sangre:", "o": ["Caliente", "Fría", "Tibia", "Variable"], "c": 1}, {"a": "Ciencias", "q": "¿Cuál es la unidad básica de los seres vivos?", "o": ["El tejido", "El órgano", "La célula", "El átomo"], "c": 2}, {"a": "Ciencias", "q": "¿Qué capa de la atmósfera nos protege de los rayos ultravioleta?", "o": ["Tropósfera", "Estratósfera / Capa de ozono", "Ionósfera", "Exósfera"], "c": 1}, {"a": "Geografía", "q": "¿Cuál es el río más largo del mundo?", "o": ["El Nilo", "El Amazonas", "El Yangtsé", "El Misisipi"], "c": 0}, {"a": "Geografía", "q": "¿Qué instrumento se usa para medir la presión atmosférica?", "o": ["Termómetro", "Barómetro", "Brújula", "Higrómetro"], "c": 1}, {"a": "Geografía", "q": "¿Cuáles son los paralelos especiales del planeta Tierra?", "o": ["El meridiano de Greenwich y el antimeridiano", "El Ecuador, los Trópicos y los Círculos Polares", "El Ecuador y el meridiano de Greenwich", "Los trópicos y los polos"], "c": 1}, {"a": "Geografía", "q": "¿Cuál es el continente más pequeño del mundo?", "o": ["Europa", "Antártida", "Oceanía / Australia", "América Central"], "c": 2}, {"a": "Historia", "q": "¿A qué civilización antigua pertenece el Coliseo?", "o": ["Griega", "Romana", "Egipcia", "Persa"], "c": 1}, {"a": "Historia", "q": "¿En qué siglo ocurrió la Revolución Francesa?", "o": ["Siglo XVI", "Siglo XVII", "Siglo XVIII", "Siglo XIX"], "c": 2}, {"a": "Historia", "q": "¿Cuál fue el primer medio de comunicación de masas?", "o": ["La televisión", "La imprenta de Gutenberg", "El telégrafo", "La radio"], "c": 1}, {"a": "Historia", "q": "Las civilizaciones mesopotámicas se desarrollaron entre los ríos:", "o": ["Nilo y Congo", "Tigris y Éufrates", "Indo y Ganges", "Huang He y Yangtsé"], "c": 1}, {"a": "Inglés", "q": "Choose the correct form: 'She ___ to school every day.'", "o": ["go", "goes", "going", "goed"], "c": 1}, {"a": "Inglés", "q": "What is the past tense of 'go'?", "o": ["Goed", "Went", "Gone", "Going"], "c": 1}, {"a": "Inglés", "q": "Complete: 'There ___ many books on the shelf.'", "o": ["is", "am", "are", "be"], "c": 2}, {"a": "Inglés", "q": "'The library opens at 8 am and closes at 8 pm.' How many hours is the library open?", "o": ["10 hours", "12 hours", "14 hours", "8 hours"], "c": 1}, {"a": "Inglés", "q": "Which sentence is grammatically correct?", "o": ["I didn't went to school yesterday.", "I didn't go to school yesterday.", "I don't went to school yesterday.", "I doesn't go to school yesterday."], "c": 1}, {"a": "Inglés", "q": "What does 'although' mean?", "o": ["Therefore", "However / Even though", "Because", "In addition"], "c": 1}, {"a": "Inteligencia Emocional", "q": "¿Qué significa tener inteligencia emocional?", "o": ["Ser muy inteligente en matemáticas", "Tener muchos amigos", "Reconocer y manejar las propias emociones y entender las de los demás", "No mostrar nunca emociones"], "c": 2}, {"a": "Inteligencia Emocional", "q": "Si alguien te critica tu trabajo, ¿cuál es la respuesta más madura?", "o": ["Ignorar completamente la crítica", "Ponerse a la defensiva y discutir", "Escuchar, reflexionar y decidir si es válida", "Llorar y abandonar el trabajo"], "c": 2}, {"a": "Inteligencia Emocional", "q": "¿Cuál de estas actitudes describe mejor la resiliencia?", "o": ["Rendirse ante las dificultades", "Recuperarse y aprender de los fracasos", "Evitar todo lo difícil", "Depender de otros para resolver problemas"], "c": 1}, {"a": "Inteligencia Emocional", "q": "¿Qué es la empatía?", "o": ["Imponer tu opinión a los demás", "Sentir lo que otros sienten y entender su perspectiva", "Ser simpático y contar chistes", "No preocuparte por los demás"], "c": 1}],3:[{"a": "Comprensión Lectora", "q": "Lee el fragmento:\n«La globalización ha transformado profundamente las economías del mundo. Si bien ha generado crecimiento económico en muchos países, también ha acentuado las desigualdades entre naciones ricas y pobres, y ha puesto en riesgo culturas locales ante la homogeneización cultural.»\n¿Cuál es la idea central?", "o": ["La globalización solo tiene ventajas económicas", "La globalización tiene efectos tanto positivos como negativos", "Las culturas locales han desaparecido completamente", "Los países pobres se han beneficiado más"], "c": 1}, {"a": "Comprensión Lectora", "q": "En el texto anterior, ¿qué significa «homogeneización cultural»?", "o": ["La diversificación de las culturas", "La tendencia a que las culturas se vuelvan similares", "El estudio de las culturas antiguas", "La protección de las lenguas minoritarias"], "c": 1}, {"a": "Comprensión Lectora", "q": "¿Qué recurso retórico usa el autor cuando dice «naciones ricas y pobres»?", "o": ["Metáfora", "Hipérbole", "Antítesis", "Símil"], "c": 2}, {"a": "Comprensión Lectora", "q": "¿Cuál es la actitud del autor frente a la globalización?", "o": ["Totalmente a favor", "Totalmente en contra", "Objetiva / crítica, mostrando dos perspectivas", "Indiferente"], "c": 2}, {"a": "Comprensión Lectora", "q": "«El personaje entró al cuarto oscuro. Encendió la lámpara, pero al iluminarse la habitación, su rostro palideció.» ¿Qué sugiere «su rostro palideció»?", "o": ["Que el personaje tenía frío", "Que sintió miedo o sorpresa ante lo que vio", "Que el personaje estaba enfermo", "Que la lámpara era muy brillante"], "c": 1}, {"a": "Comprensión Lectora", "q": "«Debería prohibirse el uso de teléfonos en las escuelas porque distraen a los estudiantes, fomentan la dependencia tecnológica y reducen la interacción social presencial.» ¿Qué tipo de argumentación usa el autor?", "o": ["Argumentación por analogía", "Argumentación por causas y consecuencias", "Argumentación por autoridad", "Argumentación narrativa"], "c": 1}, {"a": "Comprensión Lectora", "q": "¿Cuál de las siguientes afirmaciones es una opinión y no un hecho?", "o": ["La Revolución Francesa comenzó en 1789", "El CO₂ es un gas de efecto invernadero", "La energía solar es la solución más viable para el cambio climático", "El agua hierve a 100 °C a nivel del mar"], "c": 2}, {"a": "Comprensión Lectora", "q": "En un texto donde el autor dice «aunque los datos parecen contradictorios», ¿qué función tiene esa expresión?", "o": ["Introduce una consecuencia", "Introduce una concesión o contraste", "Introduce una conclusión", "Introduce un ejemplo"], "c": 1}, {"a": "Lengua / Gramática", "q": "Analiza sintácticamente: «Los alumnos estudiaron mucho para el examen.» ¿Cuál es el predicado?", "o": ["Los alumnos", "estudiaron mucho para el examen", "para el examen", "mucho"], "c": 1}, {"a": "Lengua / Gramática", "q": "¿Qué tipo de oración subordinada es: «El libro que me regalaste es fascinante»?", "o": ["Subordinada sustantiva", "Subordinada adjetiva o de relativo", "Subordinada adverbial", "Oración coordinada"], "c": 1}, {"a": "Lengua / Gramática", "q": "¿Cuál es la diferencia entre «porque», «por qué» y «porqué»?", "o": ["Son sinónimos perfectos", "«Porque» es conjunción causal; «por qué» es interrogativo; «porqué» es sustantivo", "«Porque» y «por qué» son idénticos", "Solo «porque» es correcto en español formal"], "c": 1}, {"a": "Lengua / Gramática", "q": "Identifica la oración en modo subjuntivo:", "o": ["Ella estudia todos los días.", "Espero que ella estudie.", "Ella estudió ayer.", "Ella estudiará mañana."], "c": 1}, {"a": "Lengua / Gramática", "q": "¿Qué figura retórica es: «Sus ojos son dos luceros»?", "o": ["Hipérbole", "Personificación", "Metáfora", "Símil"], "c": 2}, {"a": "Lengua / Gramática", "q": "¿Cuál de estas palabras es una conjunción adversativa?", "o": ["Porque", "Y", "Pero", "Si"], "c": 2}, {"a": "Lengua / Gramática", "q": "En «Se vendieron todas las entradas», ¿qué tipo de construcción es «Se vendieron»?", "o": ["Reflexiva", "Recíproca", "Pasiva refleja", "Impersonal"], "c": 2}, {"a": "Lengua / Gramática", "q": "¿Cuál es el antónimo de «prolijo»?", "o": ["Minucioso", "Detallado", "Descuidado", "Preciso"], "c": 2}, {"a": "Ortografía", "q": "¿Cuál de estas palabras tiene tilde diacrítica?", "o": ["Aún (todavía)", "Examen", "Camino", "Mesa"], "c": 0}, {"a": "Ortografía", "q": "«El informe revela que ___ muchas irregularidades.» Forma correcta:", "o": ["hay", "ahí", "ay", "ha"], "c": 0}, {"a": "Ortografía", "q": "¿Cuáles reglas de acentuación son correctas?", "o": ["El esdrújulo lleva tilde siempre.", "Las palabras agudas llevan tilde cuando terminan en vocal, n o s.", "Ambas reglas son correctas.", "Ninguna es correcta."], "c": 2}, {"a": "Ortografía", "q": "¿Cómo se escribe el gerundio del verbo «ir»?", "o": ["Yendo", "Iendo", "Iyendo", "Endo"], "c": 0}, {"a": "Ortografía", "q": "Señala el uso correcto del punto y coma:", "o": ["El proyecto tiene tres fases: diseño; desarrollo; y prueba.", "Llegó tarde; sin embargo, completó el trabajo.", "Era tarde; y decidió irse.", "Comió; pero no bebió."], "c": 1}, {"a": "Matemáticas", "q": "Simplifica la fracción: 36/48", "o": ["3/4", "2/3", "6/8", "9/12"], "c": 0}, {"a": "Matemáticas", "q": "¿Cuánto es 2³ + 5² − √49?", "o": ["24", "26", "22", "20"], "c": 1}, {"a": "Matemáticas", "q": "Resuelve: 3x + 7 = 22. ¿Cuánto vale x?", "o": ["4", "5", "6", "3"], "c": 1}, {"a": "Matemáticas", "q": "¿Cuánto es el 35% de 480?", "o": ["156", "168", "148", "172"], "c": 1}, {"a": "Matemáticas", "q": "En un triángulo rectángulo, los catetos miden 6 cm y 8 cm. ¿Cuánto mide la hipotenusa?", "o": ["12 cm", "10 cm", "14 cm", "9 cm"], "c": 1}, {"a": "Matemáticas", "q": "¿Cuál es el área de un círculo con radio 5 cm? (π ≈ 3.14)", "o": ["78.5 cm²", "31.4 cm²", "62.8 cm²", "15.7 cm²"], "c": 0}, {"a": "Matemáticas", "q": "Si el precio baja un 20% y luego sube un 20%, ¿cuánto vale respecto al precio original?", "o": ["Igual al original", "4% más", "4% menos", "20% menos"], "c": 2}, {"a": "Matemáticas", "q": "Resuelve la desigualdad: 2x − 3 > 7", "o": ["x > 5", "x > 2", "x < 5", "x < 2"], "c": 0}, {"a": "Matemáticas", "q": "¿Cuál es la media aritmética de: 12, 18, 7, 23, 15?", "o": ["14", "15", "16", "17"], "c": 1}, {"a": "Matemáticas", "q": "Un tren recorre 360 km en 4 horas. ¿Cuánto tardará en recorrer 540 km a la misma velocidad?", "o": ["5 horas", "6 horas", "7 horas", "4.5 horas"], "c": 1}, {"a": "Ciencias", "q": "¿Cuál es la diferencia entre mezcla homogénea y heterogénea?", "o": ["En la homogénea los componentes se ven a simple vista", "En la heterogénea los componentes no se distinguen", "En la homogénea los componentes son uniformes e indistinguibles; en la heterogénea se pueden distinguir", "No existe diferencia"], "c": 2}, {"a": "Ciencias", "q": "¿Qué tipo de reacción química ocurre cuando el hierro se oxida?", "o": ["Síntesis", "Reducción", "Combustión", "Oxidación-reducción (redox)"], "c": 3}, {"a": "Ciencias", "q": "¿Cuál es la función de las mitocondrias en la célula?", "o": ["Síntesis de proteínas", "Producción de energía (ATP) mediante respiración celular", "Control del material genético", "Transporte de sustancias"], "c": 1}, {"a": "Ciencias", "q": "La fotosíntesis produce principalmente:", "o": ["CO₂ y agua", "Glucosa y oxígeno", "Nitrógeno y glucosa", "Agua y proteínas"], "c": 1}, {"a": "Ciencias", "q": "¿Cuál es la diferencia entre velocidad y aceleración?", "o": ["No hay diferencia", "La velocidad es el cambio de aceleración", "La velocidad indica cuán rápido se mueve algo; la aceleración indica el cambio de velocidad en el tiempo", "La aceleración solo existe en caída libre"], "c": 2}, {"a": "Ciencias", "q": "¿Qué ley describe: «Todo objeto en reposo permanece en reposo, y todo objeto en movimiento continúa a menos que actúe una fuerza sobre él»?", "o": ["Segunda ley de Newton", "Tercera ley de Newton", "Primera ley de Newton (inercia)", "Ley de gravitación universal"], "c": 2}, {"a": "Ciencias", "q": "¿Qué es un ecosistema?", "o": ["Un conjunto de animales en un zoológico", "El conjunto de seres vivos y su entorno físico interactuando como sistema", "Solo los elementos abióticos de un lugar", "La capa vegetal de la Tierra"], "c": 1}, {"a": "Geografía", "q": "¿Qué es el PIB (Producto Interior Bruto)?", "o": ["La deuda de un país", "El valor total de todos los bienes y servicios producidos en un país en un período", "El presupuesto del gobierno", "Las exportaciones menos las importaciones"], "c": 1}, {"a": "Geografía", "q": "¿Cuál es la principal característica de un clima mediterráneo?", "o": ["Veranos fríos e inviernos cálidos", "Lluvias todo el año y temperaturas constantes", "Veranos secos y calurosos, inviernos suaves y lluviosos", "Ausencia total de precipitaciones"], "c": 2}, {"a": "Geografía", "q": "¿Qué tipo de roca se forma por solidificación del magma?", "o": ["Sedimentaria", "Metamórfica", "Ígnea o magmática", "Calcárea"], "c": 2}, {"a": "Geografía", "q": "¿Qué es la tasa de natalidad?", "o": ["El número de personas que fallecen por cada 1.000 hab.", "El número de nacimientos por cada 1.000 hab. en un año", "El crecimiento total de la población", "La migración neta de un país"], "c": 1}, {"a": "Geografía", "q": "¿Cuál es el organismo internacional creado para mantener la paz y la seguridad mundial?", "o": ["Banco Mundial", "Fondo Monetario Internacional", "Organización de las Naciones Unidas (ONU)", "OTAN"], "c": 2}, {"a": "Historia", "q": "¿Cuál fue la causa principal de la Primera Guerra Mundial (1914–1918)?", "o": ["La invasión de Polonia por Alemania", "El asesinato del Archiduque Francisco Fernando y el sistema de alianzas europeas", "La Revolución Rusa", "La crisis económica de 1929"], "c": 1}, {"a": "Historia", "q": "¿Qué fue la Ilustración?", "o": ["Un movimiento artístico del siglo XIX", "Un movimiento intelectual del siglo XVIII que defendió la razón, la libertad y el progreso", "Una reforma religiosa del siglo XVI", "Una revolución industrial en Inglaterra"], "c": 1}, {"a": "Historia", "q": "¿En qué año cayó el Muro de Berlín?", "o": ["1985", "1987", "1989", "1991"], "c": 2}, {"a": "Historia", "q": "¿Cuál es la diferencia entre monarquía absoluta y monarquía constitucional?", "o": ["No hay diferencia", "En la absoluta el rey tiene poder ilimitado; en la constitucional el poder está limitado por una ley fundamental", "En la constitucional el rey no existe", "En la absoluta hay elecciones populares"], "c": 1}, {"a": "Historia", "q": "¿Cuál fue la consecuencia más significativa de la Revolución Industrial del siglo XIX?", "o": ["La desaparición del comercio internacional", "La formación de la clase obrera y el surgimiento del capitalismo industrial", "El fin de todas las monarquías europeas", "La colonización de América"], "c": 1}, {"a": "Inglés", "q": "Choose the correct form: 'By next year, she ___ for this company for a decade.'", "o": ["will work", "will have worked", "has worked", "worked"], "c": 1}, {"a": "Inglés", "q": "What is the meaning of 'albeit'?", "o": ["Therefore", "Although / even though", "Because", "Moreover"], "c": 1}, {"a": "Inglés", "q": "Identify the passive voice:", "o": ["They built the bridge in 1985.", "The bridge was built in 1985.", "Building the bridge took two years.", "They had built it before."], "c": 1}, {"a": "Inglés", "q": "'Despite the heavy rain, the match continued.' What is the relationship between the two ideas?", "o": ["Cause-effect", "Contrast / concession", "Addition", "Sequence"], "c": 1}, {"a": "Inglés", "q": "Which word best completes: 'The scientist's ___ discovery changed modern medicine.'", "o": ["groundbreaking", "breaking ground", "ground break", "broken ground"], "c": 0}, {"a": "Inglés", "q": "What is the correct reported speech of: 'I am studying,' she said?", "o": ["She said she is studying.", "She said she was studying.", "She said she studied.", "She said she will study."], "c": 1}, {"a": "Inglés", "q": "'The more you practice, ___ you become.' Complete correctly:", "o": ["the best", "the better", "more better", "better"], "c": 1}, {"a": "Inglés", "q": "Correct conditional: 'If I ___ more money, I ___ a new phone.'", "o": ["have / will buy", "had / would buy", "would have / will buy", "have / would buy"], "c": 1}, {"a": "Inteligencia Emocional", "q": "¿Cuál es la diferencia entre emoción y sentimiento?", "o": ["Son exactamente lo mismo", "Las emociones son respuestas automáticas e inmediatas; los sentimientos son su interpretación consciente y duradera", "Los sentimientos son negativos y las emociones positivas", "Las emociones son cognitivas y los sentimientos fisiológicos"], "c": 1}, {"a": "Inteligencia Emocional", "q": "Ante una situación de estrés intenso, ¿cuál es la estrategia cognitiva más efectiva?", "o": ["Ignorar el problema completamente", "Reevaluar la situación desde una perspectiva más objetiva", "Reaccionar impulsivamente para liberar tensión", "Evitar todo lo que cause estrés"], "c": 1}, {"a": "Inteligencia Emocional", "q": "¿Qué es la asertividad?", "o": ["Imponer los propios deseos sin escuchar a los demás", "Comunicar lo que uno piensa y siente de manera directa, honesta y respetuosa", "Evitar conflictos cediendo siempre ante los demás", "Responder con agresividad cuando algo nos molesta"], "c": 1}, {"a": "Inteligencia Emocional", "q": "Según el modelo de Daniel Goleman, ¿cuántos componentes principales tiene la inteligencia emocional?", "o": ["3", "4", "5", "6"], "c": 2}, {"a": "Inteligencia Emocional", "q": "¿Cuál de estos comportamientos demuestra mayor madurez emocional?", "o": ["Nunca mostrar emociones en público", "Reconocer el propio error y pedir disculpas sinceramente", "Siempre estar de buen humor sin importar las circunstancias", "Evitar relaciones que puedan generar conflictos"], "c": 1}]};
+
+// ── STATE ──
+const PB={"1": [{"a": "Biblia", "q": "¿Cuántos libros tiene la Biblia en total?", "o": ["39", "66", "27", "73"], "c": 1}, {"a": "Biblia", "q": "¿Quién fue el primer hombre creado por Dios según la Biblia?", "o": ["Abraham", "Moisés", "Adán", "Noé"], "c": 2}, {"a": "Biblia", "q": "¿En qué libro de la Biblia se narra la historia de Noé y el arca?", "o": ["Éxodo", "Salmos", "Génesis", "Proverbios"], "c": 2}, {"a": "Biblia", "q": "¿Cuántos discípulos principales tenía Jesús?", "o": ["7", "10", "12", "14"], "c": 2}], "2": [{"a": "Biblia", "q": "¿Cuántos libros tiene el Antiguo Testamento?", "o": ["27", "39", "66", "46"], "c": 1}, {"a": "Biblia", "q": "¿Cuál es el libro más largo de la Biblia?", "o": ["Isaías", "Jeremías", "Salmos", "Génesis"], "c": 2}, {"a": "Biblia", "q": "¿En qué libro de la Biblia se encuentran los Diez Mandamientos por primera vez?", "o": ["Levítico", "Números", "Deuteronomio", "Éxodo"], "c": 3}, {"a": "Biblia", "q": "¿Quién escribió la mayor parte de las cartas del Nuevo Testamento?", "o": ["Pedro", "Juan", "Pablo", "Santiago"], "c": 2}, {"a": "Biblia", "q": "¿Cuál fue el primer milagro de Jesús según el Evangelio de Juan?", "o": ["Caminar sobre el agua", "Sanar a un ciego", "Convertir agua en vino en Caná", "Resucitar a Lázaro"], "c": 2}], "3": [{"a": "Biblia", "q": "¿Qué significa la palabra «evangelio»?", "o": ["Promesa sagrada", "Buena noticia", "Libro sagrado", "Palabra de Dios"], "c": 1}, {"a": "Biblia", "q": "¿Cuál es el versículo más conocido del Nuevo Testamento, frecuentemente llamado «el evangelio en miniatura»?", "o": ["Romanos 8:28", "Mateo 5:3", "Juan 3:16", "Filipenses 4:13"], "c": 2}, {"a": "Biblia", "q": "¿En qué idioma fue escrito originalmente el Nuevo Testamento?", "o": ["Latín", "Hebreo", "Arameo", "Griego koiné"], "c": 3}, {"a": "Biblia", "q": "¿Cuál es la diferencia entre los Evangelios Sinópticos y el Evangelio de Juan?", "o": ["Solo Juan narra milagros de Jesús", "Mateo, Marcos y Lucas comparten una perspectiva narrativa similar; Juan tiene un enfoque teológico y simbólico propio", "Juan fue escrito antes que los otros tres", "Los sinópticos no mencionan la resurrección"], "c": 1}, {"a": "Biblia", "q": "¿Qué enseña el Sermón del Monte en Mateo 5–7?", "o": ["Las reglas del templo de Jerusalén", "La ética del reino de Dios: bienaventuranzas, amor al prójimo, oración y confianza en Dios", "Los milagros que hizo Jesús en Galilea", "La historia de la creación del mundo"], "c": 1}]};
+const BIBLE_COUNTS={"1": 4, "2": 5, "3": 5};
+let LVL=null,ANS={},RES={},SD={},testInProgress=false,pendingExit=null;
+
+// ── NAVIGATION ──
+function showSection(n){
+  // If test is in progress and user tries to go backwards, show exit modal
+  const fwdSections=['results','mentor','pei','cert'];
+  if(testInProgress && !fwdSections.includes(n)){
+    pendingExit=n; openExitModal(); return;
+  }
+  _doShowSection(n);
+}
+function _doShowSection(n){
+  ['landing','form','level','test','results','mentor','pei','cert'].forEach(s=>{
+    const e=document.getElementById('section-'+s);if(e)e.classList.add('hidden');
+  });
+  const t=document.getElementById('section-'+n);
+  if(t){t.classList.remove('hidden');window.scrollTo({top:0,behavior:'smooth'});}
+}
+function goToLevel(){
+  if(!document.getElementById('f-nombre').value.trim()){
+    alert('Por favor, introduce el nombre del estudiante.');return;
+  }
+  showSection('level');
+}
+
+// ── Bible toggle ──
+function toggleBible(cb){
+  const badge=document.getElementById('bible-q-badge');
+  if(cb.checked){
+    const n=LVL?BIBLE_COUNTS[LVL]:4;
+    badge.textContent='+'+n+' preguntas';badge.style.display='';
+  } else {badge.style.display='none';}
+  // Update question count label on level cards when level already selected
+  if(LVL)updateLevelLabel();
+}
+function updateLevelLabel(){
+  const hasBible=document.getElementById('bible-toggle').checked;
+  const base={1:40,2:48,3:61};
+  const bCount=BIBLE_COUNTS[LVL]||0;
+  const total=base[LVL]+(hasBible?bCount:0);
+  const badge=document.getElementById('bible-q-badge');
+  if(hasBible){badge.textContent='+'+bCount+' preguntas bíblicas';badge.style.display='';}
+}
+
+// ── Exit / reset ──
+function exitTest(){openExitModal();}
+function openExitModal(){
+  document.getElementById('exit-modal').classList.add('open');
+}
+function closeExitModal(){
+  document.getElementById('exit-modal').classList.remove('open');
+  pendingExit=null;
+}
+function confirmExit(){
+  document.getElementById('exit-modal').classList.remove('open');
+  resetAll();
+  _doShowSection(pendingExit||'landing');
+  pendingExit=null;
+}
+function resetAll(){
+  LVL=null;ANS={};RES={};SD={};testInProgress=false;pendingExit=null;
+  // Reset form
+  ['f-nombre','f-fecha','f-edad','f-curso','f-pais','f-idiomas','f-tutor','f-email','f-centro','f-mentor','f-obs'].forEach(id=>{
+    const el=document.getElementById(id);if(el)el.value='';
+  });
+  // Reset level cards
+  document.querySelectorAll('.lcard').forEach(c=>c.classList.remove('active'));
+  const bs=document.getElementById('btn-start');if(bs)bs.disabled=true;
+  // Reset bible toggle
+  const bt=document.getElementById('bible-toggle');if(bt)bt.checked=false;
+  const bb=document.getElementById('bible-q-badge');if(bb)bb.style.display='none';
+  // Reset mentor fields
+  ['m-obs','m-mat','m-lec','m-rec'].forEach(id=>{const el=document.getElementById(id);if(el)el.value='';});
+  document.querySelectorAll('.rr').forEach(r=>r.checked=false);
+  // Clear generated content
+  ['pei-content','cert-content'].forEach(id=>{const el=document.getElementById(id);if(el)el.innerHTML='';});
+}
+function selectLevel(n){
+  LVL=n;ANS={};
+  document.querySelectorAll('.lcard').forEach(c=>c.classList.remove('active'));
+  document.getElementById('lc'+n).classList.add('active');
+  document.getElementById('btn-start').disabled=false;
+  // Update bible badge if toggle is on
+  const bt=document.getElementById('bible-toggle');
+  const badge=document.getElementById('bible-q-badge');
+  if(bt&&bt.checked){badge.textContent='+'+BIBLE_COUNTS[n]+' preguntas bíblicas';badge.style.display='';}
+}
+function startTest(){
+  if(!LVL)return;
+  document.getElementById('t-sname').textContent=document.getElementById('f-nombre').value||'Estudiante';
+  // Build combined question set
+  const hasBible=document.getElementById('bible-toggle').checked;
+  window._activeQs=[...P[LVL],...(hasBible?PB[LVL]:[])];
+  testInProgress=true;
+  window.addEventListener('beforeunload',onBeforeUnload);
+  renderQ();_doShowSection('test');
+}
+function onBeforeUnload(e){
+  if(testInProgress){e.preventDefault();e.returnValue='';return '';}
+}
+
+// ── RENDER TEST ──
+function renderQ(){
+  const qs=window._activeQs||P[LVL];
+  const c=document.getElementById('qcont');
+  c.innerHTML='';upProg(0,qs.length);
+  qs.forEach((p,i)=>{
+    const d=document.createElement('div');d.className='qblock';
+    const qt=p.q.replace(/\n/g,'<br>');
+    const ops=p.o.map((o,j)=>`
+      <label class="olbl" id="o${i}_${j}">
+        <input type="radio" name="q${i}" value="${j}" onchange="onAns(${i},${j})">
+        <span>${String.fromCharCode(65+j)}. ${o}</span>
+      </label>`).join('');
+    d.innerHTML=`<span class="area-tag">${p.a}</span><div class="qtxt"><strong>${i+1}.</strong> ${qt}</div><div class="opts">${ops}</div>`;
+    c.appendChild(d);
+  });
+}
+function onAns(i,j){
+  ANS[i]=j;
+  const aq=window._activeQs||P[LVL];
+  aq[i].o.forEach((_,k)=>{const l=document.getElementById(`o${i}_${k}`);if(l)l.classList.toggle('sel',k===j);});
+  upProg(Object.keys(ANS).length,aq.length);
+}
+function upProg(ans,tot){
+  const pct=tot>0?Math.round(ans/tot*100):0;
+  document.getElementById('tpfill').style.width=pct+'%';
+  document.getElementById('t-ptxt').textContent=`Respondida${ans!==1?'s':''} ${ans} de ${tot}`;
+  document.getElementById('t-ppct').textContent=pct+'%';
+}
+
+// ── SUBMIT ──
+function submitTest(){
+  const qs=window._activeQs||P[LVL];
+  if(Object.keys(ANS).length<qs.length*0.5&&!confirm('Hay preguntas sin responder. ¿Ver resultados de todas formas?'))return;
+  // Disable the exit guard — they completed the test
+  testInProgress=false;
+  window.removeEventListener('beforeunload',onBeforeUnload);
+  const ad={};
+  qs.forEach((p,i)=>{
+    if(!ad[p.a])ad[p.a]={c:0,t:0};
+    ad[p.a].t++;
+    if(ANS[i]===p.c)ad[p.a].c++;
+  });
+  const tc=Object.values(ad).reduce((s,a)=>s+a.c,0);
+  const pct=Math.round(tc/qs.length*100);
+  const hasBible=!!(window._activeQs&&window._activeQs.some(q=>q.a==='Biblia'));
+  RES={pct,ad,tc,tq:qs.length,lvl:LVL,hasBible};
+  SD={
+    nombre:document.getElementById('f-nombre').value||'N/D',
+    fecha:document.getElementById('f-fecha').value||'',
+    edad:document.getElementById('f-edad').value||'N/D',
+    curso:document.getElementById('f-curso').value||'N/D',
+    pais:document.getElementById('f-pais').value||'N/D',
+    tutor:document.getElementById('f-tutor').value||'N/D',
+    mentor:document.getElementById('f-mentor').value||'N/D',
+    centro:document.getElementById('f-centro').value||'N/D',
+  };
+  renderResults();showSection('results');
+}
+
+// ── LEVEL INFO ──
+const LINFO=[
+  {badge:'Base Insuficiente',desc:'Base académica insuficiente. Se recomienda nivelación intensiva antes de continuar.'},       // 0-49
+  {badge:'En Desarrollo',desc:'Nivel en desarrollo. Requiere refuerzo importante antes de avanzar al nivel declarado.'},        // 50-59
+  {badge:'Básico',desc:'Base básica presente. Puede avanzar con refuerzo específico antes o durante el nivel declarado.'},       // 60-69
+  {badge:'Adecuado',desc:'Nivel adecuado con algunas áreas de refuerzo. Puede iniciar el nivel declarado con acompañamiento.'}, // 70-79
+  {badge:'Sólido',desc:'Base académica bien establecida. Buen punto de partida con seguimiento estándar.'},                     // 80-89
+  {badge:'Avanzado',desc:'Base académica sobresaliente. Supera el nivel evaluado con claridad. Se recomienda valorar un nivel superior.'} // 90-100
+];
+function getInfo(pct){return LINFO[pct>=90?5:pct>=80?4:pct>=70?3:pct>=60?2:pct>=50?1:0];}
+function getEstLevel(pct,lvl){
+  const m={
+    1:['Sin nivel consolidado','Aprox. 1.º Primaria','Aprox. 2.º Primaria','Aprox. 3.º Primaria'],
+    2:['Aprox. 3.º Primaria','Aprox. 4.º Primaria','Aprox. 5.º Primaria','Aprox. 6.º Primaria / G6'],
+    3:['Aprox. 5.º–6.º Primaria','Aprox. 1.º ESO / G7','Aprox. 2.º ESO / G8','Aprox. 3.º ESO o superior']
+  };
+  return m[lvl][pct>=80?3:pct>=65?2:pct>=45?1:0];
+}
+const LVL_NAMES={1:'Primaria Inicial (Grades 1–3)',2:'Primaria Media y Alta (Grades 4–6)',3:'Secundaria Inicial (Grades 7–9)'};
+
+// ── RENDER RESULTS ──
+function renderResults(){
+  const {pct,ad,tc,tq,lvl}=RES;
+  const info=getInfo(pct),est=getEstLevel(pct,lvl);
+  const fecha=new Date().toLocaleDateString('es-ES',{day:'2-digit',month:'long',year:'numeric'});
+  document.getElementById('r-score').textContent=pct+'%';
+  document.getElementById('r-badge').textContent=info.badge;
+  document.getElementById('r-desc').textContent=info.desc;
+  document.getElementById('r-nivel-eval').textContent=LVL_NAMES[lvl];
+  document.getElementById('r-nivel-est').textContent=est;
+  document.getElementById('r-fecha').textContent=fecha;
+  // Comparación
+  const curso=SD.curso;
+  let comp='Sin suficientes datos de edad/curso para comparar.';
+  if(curso&&pct>=70)comp=`Para el curso declarado (${curso}), el rendimiento es adecuado o superior al esperado.`;
+  else if(curso&&pct>=50)comp=`Para el curso declarado (${curso}), el rendimiento es ligeramente inferior al esperado. Se recomienda refuerzo.`;
+  else if(curso)comp=`Para el curso declarado (${curso}), el rendimiento es inferior al esperado. Se recomienda nivelación.`;
+  document.getElementById('r-comp').textContent=comp;
+  // Equivalencias
+  const rows=[
+    ['España (LOMLOE / Primaria / ESO)',est,pct>=70?'Nivel apropiado o superior al esperado':'Requiere refuerzo antes de continuar'],
+    ['Panamá (MEF / Ministerio de Educación)',est.replace(/G\d+/,''),pct>=65?'Puede ubicarse en nivel declarado':'Recomendada nivelación previa'],
+    ['EE. UU. / Florida (FLDOE #134620)',est,pct>=70?'On-level or above':'Below grade level — intervention recommended'],
+    ['Internacional (IB / NWEA MAP)',pct>=80?'Meeting / Exceeding Standards':pct>=65?'Approaching Standards':'Below Standards','Referencia orientativa']
+  ];
+  document.getElementById('equiv-tbody').innerHTML=rows.map(r=>`<tr><td><strong>${r[0]}</strong></td><td>${r[1]}</td><td>${r[2]}</td></tr>`).join('');
+  // Áreas
+  const al=document.getElementById('areas-list');al.innerHTML='';
+  const fuertes=[],refuerzo=[],criticas=[];
+  Object.entries(ad).forEach(([area,d])=>{
+    const ap=Math.round(d.c/d.t*100);
+    const fc=ap>=80?'f-verde':ap>=65?'f-azul':ap>=50?'f-amarillo':'f-rojo';
+    const cc=ap>=80?'c-verde':ap>=65?'c-azul':ap>=50?'c-amarillo':'c-rojo';
+    al.innerHTML+=`<div class="arow"><div class="aname">${area}</div><div class="abb"><div class="abf ${fc}" style="width:${ap}%"></div></div><div class="apct ${cc}">${ap}%</div></div>`;
+    if(ap>=75)fuertes.push({n:area,p:ap});
+    else if(ap>=50)refuerzo.push({n:area,p:ap});
+    else criticas.push({n:area,p:ap});
+  });
+  document.getElementById('af').innerHTML=fuertes.length?fuertes.map(a=>`<span class="tag tv">✓ ${a.n} (${a.p}%)</span>`).join(''):'<span style="font-size:.80rem;color:var(--gris)">Ningún área supera 75%</span>';
+  document.getElementById('ar').innerHTML=refuerzo.length?refuerzo.map(a=>`<span class="tag ta">⚠ ${a.n} (${a.p}%)</span>`).join(''):'<span style="font-size:.80rem;color:var(--gris)">Sin áreas en esta categoría</span>';
+  document.getElementById('ac').innerHTML=criticas.length?criticas.map(a=>`<span class="tag tr">✕ ${a.n} (${a.p}%)</span>`).join(''):'<span style="font-size:.80rem;color:var(--gris)">Sin áreas críticas</span>';
+}
+
+// ── PEI ──
+function generatePEI(){
+  const {pct,ad,tq,lvl}=RES;
+  const info=getInfo(pct),est=getEstLevel(pct,lvl);
+  const fecha=new Date().toLocaleDateString('es-ES',{day:'2-digit',month:'long',year:'numeric'});
+  const criticas=Object.entries(ad).filter(([,d])=>d.c/d.t<.5).map(([a])=>a);
+  const refuerzo=Object.entries(ad).filter(([,d])=>{const p=d.c/d.t;return p>=.5&&p<.70;}).map(([a])=>a);
+  const fuertes=Object.entries(ad).filter(([,d])=>d.c/d.t>=.70).map(([a])=>a);
+  const mObs=document.getElementById('m-obs').value||'Sin observaciones registradas.';
+  const mRec=document.getElementById('m-rec').value||'Sin recomendación registrada.';
+  const freq=pct<50?'5 sesiones semanales de 45–60 min':pct<70?'3–4 sesiones semanales de 45 min':'2–3 sesiones semanales de 45 min';
+
+  const objetivos=[];
+  const areas_all={...Object.fromEntries(Object.entries(ad).map(([a,d])=>[a,Math.round(d.c/d.t*100)]))};
+  if((areas_all['Comprensión Lectora']||100)<70)objetivos.push('Consolidar la comprensión lectora inferencial e identificación de ideas principales.');
+  if((areas_all['Matemáticas']||100)<70)objetivos.push('Reforzar operaciones fundamentales, resolución de problemas y razonamiento matemático.');
+  if((areas_all['Lengua / Gramática']||100)<70)objetivos.push('Mejorar la producción escrita, gramática y uso correcto del lenguaje.');
+  if((areas_all['Inglés']||100)<70)objetivos.push('Fortalecer competencias comunicativas en inglés (comprensión y expresión).');
+  if((areas_all['Ortografía']||100)<70)objetivos.push('Consolidar reglas ortográficas y corrección en la expresión escrita.');
+  if((areas_all['Ciencias']||100)<70)objetivos.push('Afianzar conceptos científicos clave y pensamiento experimental.');
+  if((areas_all['Historia']||100)<70)objetivos.push('Fortalecer el conocimiento histórico y el pensamiento cronológico.');
+  if((areas_all['Geografía']||100)<70)objetivos.push('Reforzar contenidos geográficos y comprensión del entorno global.');
+  if((areas_all['Inteligencia Emocional']||100)<70)objetivos.push('Desarrollar habilidades socioemocionales: autorregulación, empatía y autonomía.');
+  if(!objetivos.length)objetivos.push('Mantener y profundizar el nivel académico actual con retos progresivos.');
+  objetivos.push('Fortalecer la autonomía de estudio y los hábitos académicos.');
+  objetivos.push('Desarrollar la metacognición y la capacidad de autoevaluación.');
+
+  const crit_txt=criticas.length?criticas.join(', '):'Consolidación general';
+  const ref_txt=refuerzo.length?refuerzo.join(', '):'Profundización de contenidos';
+
+  const html=`
+<div class="pei-hdr">
+  <div class="pei-la">
+    <div class="pei-lb">CIA</div>
+    <div class="pei-org"><strong>Chanak International Academy</strong>FLDOE #134620 · Evaluación Diagnóstica</div>
+  </div>
+  <div class="pei-ta"><h2>Plan Educativo Individualizado</h2><span>Emitido: ${fecha}</span></div>
+</div>
+<div class="pei-dg">
+  <div class="pdi"><label>Estudiante</label><p>${SD.nombre}</p></div>
+  <div class="pdi"><label>Edad / Curso Declarado</label><p>${SD.edad} años · ${SD.curso}</p></div>
+  <div class="pdi"><label>País de Referencia</label><p>${SD.pais}</p></div>
+  <div class="pdi"><label>Nivel Evaluado</label><p>${LVL_NAMES[lvl]}</p></div>
+  <div class="pdi"><label>Nivel Estimado</label><p>${est}</p></div>
+  <div class="pdi"><label>Puntuación Global</label><p>${pct}% — ${info.badge}</p></div>
+  <div class="pdi"><label>Mentor / Evaluador</label><p>${SD.mentor}</p></div>
+  <div class="pdi"><label>Frecuencia Recomendada</label><p>${freq}</p></div>
+  <div class="pdi"><label>Duración del Plan</label><p>8–12 semanas</p></div>
+</div>
+<div class="pblk">
+  <h3>Resumen Diagnóstico</h3>
+  <p style="font-size:.88rem;color:#374151;line-height:1.65;background:var(--fondo);border-radius:8px;padding:13px 15px">
+    ${info.desc} El estudiante completó la evaluación del nivel <strong>${LVL_NAMES[lvl]}</strong>, obteniendo un <strong>${pct}%</strong> de respuestas correctas sobre ${tq} preguntas en ${Object.keys(ad).length} áreas académicas${RES.hasBible?' (incluyendo Biblia)':''}.
+    ${fuertes.length?`Demuestra fortalezas en: <strong>${fuertes.join(', ')}</strong>.`:''}
+    ${criticas.length?`Requiere atención prioritaria en: <strong>${criticas.join(', ')}</strong>. `:''}
+    <br><br><em>Observación del mentor: ${mObs}</em>
+  </p>
+</div>
+<div class="pblk">
+  <h3>Objetivos Prioritarios</h3>
+  <ul class="plist">${objetivos.map(o=>`<li>${o}</li>`).join('')}</ul>
+</div>
+<div class="pblk">
+  <h3>Plan de 8–12 Semanas</h3>
+  <div class="sem-grid">
+    <div class="scard"><div class="per">Semanas 1–2</div><p>Diagnóstico ampliado y evaluación oral complementaria. Identificación de lagunas específicas por área. Presentación del plan a la familia. Establecimiento de línea base.</p></div>
+    <div class="scard"><div class="per">Semanas 3–5</div><p>Trabajo intensivo en áreas críticas: <strong>${crit_txt}</strong>. Materiales curriculares adaptados (modelo Mastery Learning / Horizons). Sesiones con procedimiento guiado.</p></div>
+    <div class="scard"><div class="per">Semanas 6–8</div><p>Refuerzo y consolidación de áreas en desarrollo: <strong>${ref_txt}</strong>. Prácticas integradas y tareas de aplicación real. Portafolio de evidencias.</p></div>
+    <div class="scard"><div class="per">Semanas 9–10</div><p>Aplicación en proyectos y tareas integradas. Textos auténticos, problemas de razonamiento y producción escrita. Evaluación formativa intermedia.</p></div>
+    <div class="scard"><div class="per">Semanas 11–12</div><p>Reevaluación diagnóstica y comparativa. Ajuste del nivel recomendado. Informe de progreso a la familia. Planificación del siguiente ciclo de aprendizaje.</p></div>
+    <div class="scard"><div class="per">Seguimiento Continuo</div><p>Revisión semanal con el mentor. Comunicación mensual con la familia. Ajuste del plan según ritmo del estudiante. Registro de evidencias en el SIS.</p></div>
+  </div>
+</div>
+<div class="pblk">
+  <h3>Recomendaciones para la Familia</h3>
+  <ul class="plist">
+    <li>Establecer un espacio y horario fijos de estudio en casa, libre de distracciones digitales.</li>
+    <li>Leer junto al estudiante al menos 15–20 minutos diarios para fortalecer la comprensión lectora.</li>
+    <li>Reforzar los hábitos de estudio: agenda, revisión diaria y organización del material.</li>
+    <li>Comunicarse regularmente con el mentor para seguir el progreso del plan.</li>
+    <li>Celebrar los logros del estudiante para fortalecer la motivación y la confianza.</li>
+    ${pct<60?'<li>Considerar evaluación psicopedagógica profesional si las dificultades persisten tras el período de nivelación.</li>':''}
+  </ul>
+</div>
+<div class="pblk">
+  <h3>Recomendaciones para el Mentor</h3>
+  <ul class="plist">
+    <li>Aplicar el modelo 60/20/20 de Chanak: 60% instrucción directa, 20% práctica guiada, 20% práctica independiente.</li>
+    <li>Utilizar el enfoque de Mastery Learning: no avanzar al siguiente objetivo hasta consolidar el actual.</li>
+    <li>Documentar el progreso en el SIS con evidencias específicas (tareas, evaluaciones, portafolio).</li>
+    <li>Adaptar el ritmo al perfil de aprendizaje del estudiante (visual, auditivo, kinestésico).</li>
+    <li>Aplicar reevaluación diagnóstica al finalizar el plan para medir el avance real.</li>
+  </ul>
+</div>
+<div class="pblk">
+  <h3>Indicadores de Seguimiento</h3>
+  <ul class="plist">
+    <li>Mejora de al menos 10–15 puntos porcentuales en áreas críticas al final del plan.</li>
+    <li>Completar al menos el 80% de las actividades planificadas en el período.</li>
+    <li>El estudiante demuestra autonomía creciente en la realización de tareas.</li>
+    <li>La familia reporta mejora en hábitos de estudio y actitud hacia el aprendizaje.</li>
+    <li>Recomendación del mentor al completar el plan: nivel académico adecuado para el curso siguiente.</li>
+  </ul>
+</div>
+<div style="border-top:1px solid var(--borde);margin-top:20px;padding-top:14px;display:flex;justify-content:space-between;align-items:flex-end;flex-wrap:wrap;gap:14px">
+  <div>
+    <div style="font-size:.74rem;color:var(--gris);text-transform:uppercase;letter-spacing:.06em">Recomendación Final del Mentor</div>
+    <div style="font-size:.88rem;color:#1f2937;margin-top:4px;max-width:400px;line-height:1.5">${mRec}</div>
+  </div>
+  <div style="text-align:right;font-size:.78rem;color:var(--gris)">
+    <div>Chanak International Academy · FLDOE #134620</div>
+    <div>chanakacademy.org · foundation.chanakacademy.org</div>
+    <div style="margin-top:4px;color:var(--azul);font-weight:600">${fecha}</div>
+  </div>
+</div>
+<div class="legal" style="margin-top:14px">Este PEI tiene carácter orientativo y académico interno. Es generado automáticamente a partir de los resultados diagnósticos y la observación del mentor. No sustituye una evaluación psicopedagógica oficial ni un plan de intervención educativa especializado.</div>`;
+
+  document.getElementById('pei-content').innerHTML=html;
+  showSection('pei');
+  buildCert();
+}
+
+// ── CERT ──
+function buildCert(){
+  const {pct,ad,tq,lvl}=RES;
+  const info=getInfo(pct),est=getEstLevel(pct,lvl);
+  const fecha=new Date().toLocaleDateString('es-ES',{day:'2-digit',month:'long',year:'numeric'});
+  const areas=Object.keys(ad).join(', ');
+  const html=`
+<div class="cert-wrap">
+  <div class="cert-in">
+    <div class="cert-top">
+      <div class="cert-la">
+        <div class="cert-lb">CIA</div>
+        <div>
+          <div class="cert-on">Chanak International Academy</div>
+          <div class="cert-or">FLDOE Reg. #134620 · MSA-CESS Accredited · Florida, USA</div>
+        </div>
+      </div>
+      <div class="cert-badge-box"><div class="tp">Diagnóstico</div><div class="yr">${new Date().getFullYear()}</div></div>
+    </div>
+    <div class="cert-body">
+      <div class="cert-pre">CERTIFICA QUE EL / LA ESTUDIANTE</div>
+      <div class="cert-sn">${SD.nombre||'N/D'}</div>
+      <p class="cert-txt">ha completado satisfactoriamente la <strong>Evaluación Diagnóstica Académica Internacional</strong> aplicada por Chanak International Academy, correspondiente al nivel de <strong>${LVL_NAMES[lvl]}</strong>, evaluando ${Object.keys(ad).length} áreas académicas${RES.hasBible?' (incluyendo Biblia)':''}.</p>
+      <p class="cert-txt">Según los resultados obtenidos, el nivel académico estimado del estudiante corresponde orientativamente a:</p>
+      <div class="cert-lvl">
+        <div class="cl">Nivel Académico Estimado</div>
+        <div class="cv">${est}</div>
+        <div style="font-size:.78rem;color:var(--oro);margin-top:3px">${info.badge} · ${pct}% de rendimiento global</div>
+      </div>
+    </div>
+    <div class="cert-fg">
+      <div class="cf"><div class="cl">Nombre del Estudiante</div><div class="cv">${SD.nombre||'N/D'}</div></div>
+      <div class="cf"><div class="cl">Edad</div><div class="cv">${SD.edad||'N/D'} años</div></div>
+      <div class="cf"><div class="cl">País de Referencia</div><div class="cv">${SD.pais||'N/D'}</div></div>
+      <div class="cf"><div class="cl">Curso Declarado</div><div class="cv">${SD.curso||'N/D'}</div></div>
+      <div class="cf"><div class="cl">Nivel Evaluado</div><div class="cv">${LVL_NAMES[lvl]}</div></div>
+      <div class="cf"><div class="cl">Nivel Estimado</div><div class="cv">${est}</div></div>
+      <div class="cf" style="grid-column:1/-1"><div class="cl">Áreas Evaluadas</div><div class="cv" style="font-size:.78rem">${areas}</div></div>
+      <div class="cf"><div class="cl">Fecha de Evaluación</div><div class="cv">${fecha}</div></div>
+      <div class="cf"><div class="cl">Mentor / Evaluador</div><div class="cv">${SD.mentor||'N/D'}</div></div>
+    </div>
+    <div class="cert-foot">
+      <div class="csign"><div class="ln"></div><div class="nm">Director Académico</div><div class="rl">Chanak International Academy</div></div>
+      <div class="cseal"><div>CHANAK</div><div>INT'L</div><div>ACADEMY</div><div style="font-size:.42rem;margin-top:1px">FLDOE #134620</div></div>
+      <div class="csign"><div class="ln"></div><div class="nm">${SD.mentor||'Mentor / Evaluador'}</div><div class="rl">Evaluador Designado</div></div>
+    </div>
+    <div class="cert-disc">Esta certificación diagnóstica tiene carácter orientativo y académico interno. No constituye homologación oficial de estudios, ni reemplaza evaluaciones psicopedagógicas, calificaciones escolares oficiales, procesos administrativos de convalidación, ni certificaciones estatales de grado. Los resultados deben interpretarse junto con entrevista familiar, historial académico y observación directa del mentor.</div>
+  </div>
+</div>`;
+  document.getElementById('cert-content').innerHTML=html;
+}
+
+// ── COPY SIS ──
+function copySIS(){
+  const {pct,ad,tc,tq,lvl}=RES;
+  const info=getInfo(pct),est=getEstLevel(pct,lvl);
+  const fecha=new Date().toLocaleDateString('es-ES');
+  let txt=`=== REGISTRO SIS — EVALUACIÓN DIAGNÓSTICA ===\n`;
+  txt+=`Fecha: ${fecha}\nEstudiante: ${SD.nombre}\nEdad: ${SD.edad} | Curso: ${SD.curso} | País: ${SD.pais}\n`;
+  txt+=`Mentor: ${SD.mentor}\nNivel Evaluado: ${LVL_NAMES[lvl]}\n`;
+  txt+=`Puntuación: ${pct}% (${tc}/${tq}) — ${info.badge}\nNivel Estimado: ${est}\n\nRESULTADOS POR ÁREA:\n`;
+  Object.entries(ad).forEach(([a,d])=>{txt+=`  ${a}: ${d.c}/${d.t} (${Math.round(d.c/d.t*100)}%)\n`;});
+  txt+=`\nRECOMENDACIÓN: ${info.desc}\n${'='.repeat(44)}\n`;
+  navigator.clipboard.writeText(txt).then(()=>alert('✓ Datos copiados al portapapeles para registro en SIS.')).catch(()=>{
+    const ta=document.createElement('textarea');ta.value=txt;document.body.appendChild(ta);ta.select();document.execCommand('copy');document.body.removeChild(ta);
+    alert('✓ Datos copiados para registro en SIS.');
+  });
+}
+
+showSection('landing');
+</script>
+</body>
+</html>
