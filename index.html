@@ -1004,12 +1004,17 @@ document.querySelectorAll('a[href^="#"]').forEach(a => {
 });
 
 /* ── COUNTRY CONFIG ── */
+const STRIPE_LINK_EUR = "https://buy.stripe.com/6oU00k5F79pj1F660267S03";
+const STRIPE_LINK_USD = "https://buy.stripe.com/8x28wQ3wZ30VcjK3RU67S0f";
+
 const PAYMENT_LINKS = {
-  es: "https://buy.stripe.com/6oU00k5F79pj1F660267S03",
-  pa: "https://buy.stripe.com/8x28wQ3wZ30VcjK3RU67S0f",
-  us: "https://buy.stripe.com/8x28wQ3wZ30VcjK3RU67S0f",
-  int_usd: "https://buy.stripe.com/8x28wQ3wZ30VcjK3RU67S0f",
-  int_eur: "https://buy.stripe.com/6oU00k5F79pj1F660267S03"
+  // España siempre cobra en EUR
+  es: STRIPE_LINK_EUR,
+  // Panamá y Estados Unidos cobran en USD
+  pa: STRIPE_LINK_USD,
+  us: STRIPE_LINK_USD,
+  int_usd: STRIPE_LINK_USD,
+  int_eur: STRIPE_LINK_EUR
 };
 
 const WHATSAPP_PHONE = "34624702715";
