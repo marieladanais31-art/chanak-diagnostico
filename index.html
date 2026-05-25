@@ -602,8 +602,8 @@ footer a{color:rgba(255,255,255,.42);text-decoration:underline}
     </div>
 
     <div class="hero-btns he he5">
-      <a id="stripe-payment-btn" href="#" target="_blank" rel="noopener" class="btn btn-stripe btn-lg">Pagar evaluación</a>
-      <a id="whatsapp-btn" href="#" target="_blank" rel="noopener" class="btn btn-green btn-lg">Solicitar información por WhatsApp</a>
+      <a id="stripe-payment-btn" href="https://buy.stripe.com/6oU00k5F79pj1F660267S03" target="_blank" rel="noopener" class="btn btn-stripe btn-lg">Pagar evaluación por 50 €</a>
+      <a id="whatsapp-btn" href="https://wa.me/34624702715?text=Hola%2C%20quiero%20informaci%C3%B3n%20sobre%20la%20Evaluaci%C3%B3n%20Acad%C3%A9mica%20Orientativa%20de%20Chanak." target="_blank" rel="noopener" class="btn btn-green btn-lg">Solicitar información por WhatsApp</a>
       <a href="https://www.chanakacademy.org" target="_blank" rel="noopener" class="btn btn-ghost btn-lg">Conocer programas Chanak</a>
     </div>
     <p class="hero-sub" style="margin-top:14px;margin-bottom:0;color:rgba(255,255,255,.65);font-size:.92rem;">
@@ -989,9 +989,17 @@ srEls.forEach(el => io.observe(el));
 /* ── SMOOTH SCROLL ── */
 document.querySelectorAll('a[href^="#"]').forEach(a => {
   a.addEventListener('click', e => {
+    const href = a.getAttribute('href');
+
+    // No interceptar botones externos que puedan actualizarse dinámicamente,
+    // como Stripe o WhatsApp.
+    if (!href || href === '#') return;
+
+    const t = document.querySelector(href);
+    if (!t) return;
+
     e.preventDefault();
-    const t = document.querySelector(a.getAttribute('href'));
-    if (t) t.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    t.scrollIntoView({ behavior: 'smooth', block: 'start' });
   });
 });
 
