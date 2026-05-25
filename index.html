@@ -587,9 +587,10 @@ footer a{color:rgba(255,255,255,.42);text-decoration:underline}
     <div class="country-switch he he3">
       <label for="country_selector">Selecciona tu país</label>
       <select id="country_selector">
-        <option value="espana">España</option>
-        <option value="panama">Panamá</option>
-        <option value="otro">Otro país</option>
+        <option value="es">España</option>
+        <option value="pa">Panamá</option>
+        <option value="us">Estados Unidos</option>
+        <option value="int">Internacional</option>
       </select>
       <div class="country-hint" id="country-hint"></div>
     </div>
@@ -601,10 +602,13 @@ footer a{color:rgba(255,255,255,.42);text-decoration:underline}
     </div>
 
     <div class="hero-btns he he5">
-      <a href="#formulario" class="btn btn-green btn-lg dynamic-cta">Solicitar evaluación por 50 €</a>
-      <a id="stripe-hero-btn" href="#" target="_blank" rel="noopener" class="btn btn-stripe btn-lg">Pagar ahora con Stripe</a>
+      <a id="stripe-payment-btn" href="#" target="_blank" rel="noopener" class="btn btn-stripe btn-lg">Pagar evaluación</a>
+      <a id="whatsapp-btn" href="#" target="_blank" rel="noopener" class="btn btn-green btn-lg">Solicitar información por WhatsApp</a>
       <a href="https://www.chanakacademy.org" target="_blank" rel="noopener" class="btn btn-ghost btn-lg">Conocer programas Chanak</a>
     </div>
+    <p class="hero-sub" style="margin-top:14px;margin-bottom:0;color:rgba(255,255,255,.65);font-size:.92rem;">
+      Después del pago, recibirás las instrucciones para acceder a la evaluación diagnóstica.
+    </p>
 
     <div class="hero-trust he he6">
       <div class="hero-trust-item"><span class="hero-check">✓</span>PEI inicial incluido</div>
@@ -954,9 +958,6 @@ footer a{color:rgba(255,255,255,.42);text-decoration:underline}
     <span class="pill">🌍 Dual Diploma</span>
   </div>
   <div class="after-btns" data-sr>
-    <a href="#formulario" class="btn btn-green btn-lg dynamic-cta">Solicitar evaluación por 50 €</a>
-    <a id="stripe-after-btn" href="#" target="_blank" rel="noopener" class="btn btn-stripe btn-lg">Pagar ahora con Stripe</a>
-    <a id="whatsapp-dynamic-btn" href="#" target="_blank" rel="noopener" class="btn btn-ghost btn-lg">Hablar por WhatsApp</a>
     <a href="https://www.chanakacademy.org" target="_blank" rel="noopener" class="btn btn-ghost btn-lg">Ver todos los programas →</a>
   </div>
 </div>
@@ -995,12 +996,23 @@ document.querySelectorAll('a[href^="#"]').forEach(a => {
 });
 
 /* ── COUNTRY CONFIG ── */
-const countryConfig = {
-  espana: {
+const PAYMENT_LINKS = {
+  es: "https://buy.stripe.com/6oU00k5F79pj1F660267S03",
+  pa: "https://buy.stripe.com/8x28wQ3wZ30VcjK3RU67S0f",
+  us: "https://buy.stripe.com/8x28wQ3wZ30VcjK3RU67S0f",
+  int_usd: "https://buy.stripe.com/8x28wQ3wZ30VcjK3RU67S0f",
+  int_eur: "https://buy.stripe.com/6oU00k5F79pj1F660267S03"
+};
+
+const WHATSAPP_PHONE = "34624702715";
+
+const COUNTRY_CONFIG = {
+  es: {
+    label: 'España',
     heroCopy: 'Evaluación diagnóstica académica para padres y familias homeschool, educación a distancia y familias que necesitan saber el nivel real de su hijo antes de tomar decisiones académicas importantes.',
     regular: 'Precio regular: 80 €',
     promo: '50 €',
-    cta: 'Solicitar evaluación por 50 €',
+    cta: 'Pagar evaluación por 50 €',
     topbar: 'Oferta de lanzamiento: 50 €',
     nav: 'Inscripción abierta · 50 €',
     package: 'Todo lo que necesitas para conocer el nivel real de tu hijo en un solo paquete de 50 €.',
@@ -1008,14 +1020,16 @@ const countryConfig = {
     formCountry: 'España',
     priceNote: 'Oferta de lanzamiento · Pago único',
     hint: '',
-    stripeUrl: 'https://buy.stripe.com/espana-evaluacion',
-    whatsapp: 'https://wa.me/34600000000?text=Hola%20Chanak%2C%20quiero%20solicitar%20la%20evaluaci%C3%B3n%20diagn%C3%B3stica%20de%2050%E2%82%AC.'
+    priceText: '50 €',
+    stripeUrl: PAYMENT_LINKS.es,
+    whatsappText: 'Hola, quiero información sobre la Evaluación Académica Orientativa de Chanak para España. Vi el precio de 50 €.'
   },
-  panama: {
+  pa: {
+    label: 'Panamá',
     heroCopy: 'Evaluación diagnóstica académica para familias en Panamá que desean conocer el nivel real de su hijo antes de iniciar un programa americano, Off-Campus, Middle School, High School o Dual Diploma.',
     regular: 'Precio regular: $80',
     promo: '$50',
-    cta: 'Solicitar evaluación por $50',
+    cta: 'Pagar evaluación por $50',
     topbar: 'Oferta de lanzamiento: $50',
     nav: 'Inscripción abierta · $50',
     package: 'Todo lo que necesitas para conocer el nivel real de tu hijo en un solo paquete de $50.',
@@ -1023,23 +1037,45 @@ const countryConfig = {
     formCountry: 'Panamá',
     priceNote: 'Oferta de lanzamiento · Pago único',
     hint: '',
-    stripeUrl: 'https://buy.stripe.com/panama-evaluacion',
-    whatsapp: 'https://wa.me/50760000000?text=Hola%20Chanak%2C%20quiero%20solicitar%20la%20evaluaci%C3%B3n%20diagn%C3%B3stica%20de%20%2450.'
+    priceText: '$50',
+    stripeUrl: PAYMENT_LINKS.pa,
+    whatsappText: 'Hola, quiero información sobre la Evaluación Académica Orientativa de Chanak para Panamá. Vi el precio de $50.'
   },
-  otro: {
+  us: {
+    label: 'Estados Unidos',
+    heroCopy: 'Academic diagnostic evaluation for families in the United States who need clarity about their child’s current level before making important academic decisions.',
+    regular: 'Precio regular: $80',
+    promo: '$50',
+    cta: 'Pagar evaluación por $50',
+    topbar: 'Launch offer: $50',
+    nav: 'Open enrollment · $50',
+    package: 'Everything you need to understand your child’s real academic level in one $50 package.',
+    confirm: 'Request received! A Chanak Academy advisor will contact you in less than 48 hours to complete payment ($50) and send your evaluation access instructions.',
+    formCountry: 'Estados Unidos',
+    priceNote: 'Oferta de lanzamiento · Pago único',
+    hint: '',
+    priceText: '$50',
+    stripeUrl: PAYMENT_LINKS.us,
+    whatsappText: 'Hello, I would like information about Chanak Academic Evaluation for the United States. I saw the price is $50.'
+  },
+  int: {
+    label: 'Internacional',
     heroCopy: 'Evaluación diagnóstica académica internacional para familias que desean conocer el nivel académico real de su hijo y recibir una recomendación de nivel.',
-    regular: 'Solicita información',
-    promo: 'Solicita información',
+    regular: 'Precio regular: $80 / 80 €',
+    promo: '$50 / 50 €',
     cta: 'Solicitar información',
-    topbar: 'Precio según país · Solicita información',
-    nav: 'Inscripción abierta · Solicita información',
-    package: 'Evaluación internacional con precio confirmado según país.',
+    topbar: 'Internacional: $50 / 50 €',
+    nav: 'Inscripción abierta · $50 / 50 €',
+    package: 'Evaluación internacional con pago en euros o dólares según prefieras.',
     confirm: '¡Solicitud recibida! Nuestro equipo te confirmará el precio y la forma de pago según tu país.',
-    formCountry: 'Otro',
-    priceNote: 'Nuestro equipo te confirmará el precio y la forma de pago según tu país.',
-    hint: 'Nuestro equipo te confirmará el precio y la forma de pago según tu país.',
-    stripeUrl: 'https://buy.stripe.com/internacional-evaluacion',
-    whatsapp: 'https://wa.me/17865550000?text=Hola%20Chanak%2C%20quiero%20informaci%C3%B3n%20de%20la%20evaluaci%C3%B3n%20diagn%C3%B3stica%20internacional.'
+    formCountry: 'Internacional',
+    priceNote: 'Si prefieres, puedes pagar en euros o en dólares.',
+    hint: 'Internacional: solicita información por WhatsApp o elige pago en EUR/USD.',
+    priceText: '$50 / 50 €',
+    stripeUrl: '',
+    stripeEurUrl: PAYMENT_LINKS.int_eur,
+    stripeUsdUrl: PAYMENT_LINKS.int_usd,
+    whatsappText: 'Hola, quiero información sobre la Evaluación Académica Orientativa de Chanak. Vi el precio de $50 / 50 €.'
   }
 };
 
@@ -1053,8 +1089,15 @@ function withUTM(baseUrl) {
   return url.toString();
 }
 
-function applyCountryConfig(country) {
-  const c = countryConfig[country];
+function updateWhatsAppLink(countryCode) {
+  const cfg = COUNTRY_CONFIG[countryCode] || COUNTRY_CONFIG.int;
+  const message = encodeURIComponent(cfg.whatsappText || `Hola, quiero información sobre la Evaluación Académica Orientativa de Chanak para ${cfg.label}. Vi el precio ${cfg.priceText}.`);
+  const btn = document.getElementById("whatsapp-btn");
+  if (btn) btn.href = `https://wa.me/${WHATSAPP_PHONE}?text=${message}`;
+}
+
+function applyCountryConfig(countryCode) {
+  const c = COUNTRY_CONFIG[countryCode] || COUNTRY_CONFIG.int;
   document.getElementById('hero-copy').textContent = c.heroCopy;
   document.getElementById('hero-price-was').textContent = c.regular;
   document.getElementById('hero-price-big').innerHTML = c.promo === '50 €' ? '<sup>€</sup>50' : (c.promo === '$50' ? '<sup>$</sup>50' : c.promo);
@@ -1070,9 +1113,15 @@ function applyCountryConfig(country) {
   document.querySelectorAll('.dynamic-cta').forEach(el => el.textContent = c.cta);
   document.getElementById('submit-btn').textContent = `${c.cta} →`;
   document.getElementById('pais').value = c.formCountry;
-  document.getElementById('stripe-hero-btn').href = withUTM(c.stripeUrl);
-  document.getElementById('stripe-after-btn').href = withUTM(c.stripeUrl);
-  document.getElementById('whatsapp-dynamic-btn').href = withUTM(c.whatsapp);
+  const stripeBtn = document.getElementById('stripe-payment-btn');
+  if (countryCode === 'int') {
+    stripeBtn.textContent = 'Solicitar información';
+    stripeBtn.href = `https://wa.me/${WHATSAPP_PHONE}`;
+  } else {
+    stripeBtn.textContent = c.cta;
+    stripeBtn.href = withUTM(c.stripeUrl);
+  }
+  updateWhatsAppLink(countryCode);
 }
 
 const countrySelector = document.getElementById('country_selector');
@@ -1082,7 +1131,7 @@ document.getElementById('pais').addEventListener('change', (e) => {
   document.getElementById('otro_pais').style.display = e.target.value === 'Otro' ? 'block' : 'none';
 });
 
-applyCountryConfig('espana');
+applyCountryConfig('es');
 
 /* ── FORM VALIDATION ── */
 function enviarFormulario() {
@@ -1110,7 +1159,7 @@ function enviarFormulario() {
     return;
   }
   const selected = countrySelector.value;
-  alert(countryConfig[selected].confirm);
+  alert((COUNTRY_CONFIG[selected] || COUNTRY_CONFIG.int).confirm);
 }
 </script>
 </body>
