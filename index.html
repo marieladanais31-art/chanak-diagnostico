@@ -1,1 +1,993 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Evaluación Diagnóstica Académica — Chanak International Academy</title>
+<meta name="description" content="¿Sabes realmente en qué nivel académico está tu hijo? Evaluación diagnóstica para familias homeschool y educación a distancia. 50 € · Chanak International Academy, Florida.">
 
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;0,900;1,700&family=DM+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+<style>
+/* ══════════════════════════════════════
+   TOKENS
+══════════════════════════════════════ */
+:root {
+  --navy:       #0e1f45;
+  --navy-mid:   #1a3270;
+  --navy-soft:  #1e4080;
+  --blue:       #2a7dbf;
+  --green:      #3d9138;
+  --green-mid:  #4eaa48;
+  --gold:       #d4922a;
+  --gold-pale:  #fff8e8;
+  --cream:      #f8f6f1;
+  --stone:      #f0ede6;
+  --white:      #ffffff;
+  --muted:      #6b7280;
+  --border:     #e2ddd5;
+  --shadow:     0 4px 20px rgba(14,31,69,.09);
+  --shadow-lg:  0 14px 52px rgba(14,31,69,.16);
+}
+
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{font-family:'DM Sans',sans-serif;color:var(--navy);background:var(--white);line-height:1.65;overflow-x:hidden}
+img{display:block;max-width:100%}
+a{color:inherit;text-decoration:none}
+
+/* ── LAYOUT ── */
+.wrap{max-width:1100px;margin:0 auto;padding:0 24px}
+
+/* ── BUTTONS ── */
+.btn{
+  display:inline-flex;align-items:center;justify-content:center;gap:8px;
+  font-family:'DM Sans',sans-serif;font-weight:600;font-size:.95rem;
+  padding:15px 32px;border-radius:50px;border:none;cursor:pointer;
+  transition:transform .2s,box-shadow .2s,background .2s;
+  text-decoration:none;white-space:nowrap;letter-spacing:.01em;
+}
+.btn:hover{transform:translateY(-2px)}
+.btn-green{
+  background:linear-gradient(135deg,var(--green) 0%,#2e7028 100%);
+  color:white;box-shadow:0 6px 22px rgba(61,145,56,.38);
+}
+.btn-green:hover{box-shadow:0 10px 30px rgba(61,145,56,.5)}
+.btn-navy{background:transparent;color:var(--navy);border:2px solid var(--navy)}
+.btn-navy:hover{background:var(--navy);color:white}
+.btn-ghost{background:rgba(255,255,255,.12);color:white;border:1.5px solid rgba(255,255,255,.3)}
+.btn-ghost:hover{background:rgba(255,255,255,.22)}
+.btn-lg{padding:18px 44px;font-size:1.05rem}
+.btn-sm{padding:10px 22px;font-size:.85rem}
+.btn-full{width:100%;justify-content:center}
+
+/* ── TOPBAR ── */
+.topbar{
+  background:var(--navy);color:rgba(255,255,255,.72);
+  font-size:.76rem;font-weight:500;letter-spacing:.03em;
+  padding:9px 24px;
+  display:flex;align-items:center;justify-content:center;gap:28px;flex-wrap:wrap;
+}
+.topbar-dot{
+  display:inline-block;width:6px;height:6px;border-radius:50%;
+  background:var(--green-mid);margin-right:7px;
+  animation:blink 2.5s infinite;
+}
+@keyframes blink{0%,100%{opacity:1}50%{opacity:.3}}
+
+/* ── NAVBAR ── */
+.navbar{
+  position:sticky;top:0;z-index:200;
+  background:rgba(255,255,255,.97);backdrop-filter:blur(14px);
+  border-bottom:1px solid var(--border);
+  padding:0 24px;
+}
+.navbar-inner{
+  max-width:1100px;margin:0 auto;
+  display:flex;align-items:center;justify-content:space-between;
+  height:68px;gap:12px;
+}
+.navbar-logo{height:46px;width:auto}
+.navbar-actions{display:flex;align-items:center;gap:10px;flex-wrap:wrap}
+.navbar-pill{
+  background:var(--gold-pale);color:var(--gold);
+  font-size:.74rem;font-weight:700;letter-spacing:.06em;
+  padding:6px 14px;border-radius:30px;
+  display:flex;align-items:center;gap:6px;
+  border:1px solid rgba(212,146,42,.25);
+}
+.navbar-pill::before{content:'●';font-size:.55rem;animation:blink 2.5s infinite}
+
+/* ══════════════════════════════════════
+   HERO
+══════════════════════════════════════ */
+.hero{
+  background:linear-gradient(140deg,#090f22 0%,#0e1f45 45%,#163568 100%);
+  position:relative;overflow:hidden;
+  padding:88px 24px 108px;text-align:center;
+}
+.hero-dots{
+  position:absolute;inset:0;pointer-events:none;
+  background-image:radial-gradient(rgba(255,255,255,.06) 1px,transparent 1px);
+  background-size:36px 36px;
+}
+.hero-glow{position:absolute;pointer-events:none;border-radius:50%}
+.hero-glow-a{
+  width:560px;height:560px;top:-180px;right:-120px;
+  background:radial-gradient(circle,rgba(61,145,56,.18) 0%,transparent 65%);
+}
+.hero-glow-b{
+  width:440px;height:440px;bottom:-160px;left:-80px;
+  background:radial-gradient(circle,rgba(42,125,191,.14) 0%,transparent 65%);
+}
+.hero-content{position:relative;z-index:2;max-width:860px;margin:0 auto}
+
+.hero-kicker{
+  display:inline-flex;align-items:center;gap:8px;
+  background:rgba(255,255,255,.08);border:1px solid rgba(255,255,255,.15);
+  color:rgba(255,255,255,.78);font-size:.75rem;font-weight:600;letter-spacing:.1em;
+  text-transform:uppercase;padding:7px 18px;border-radius:30px;margin-bottom:28px;
+}
+.hero-kicker-dot{width:7px;height:7px;border-radius:50%;background:var(--green-mid);animation:blink 2s infinite}
+
+.hero h1{
+  font-family:'Playfair Display',serif;
+  font-size:clamp(2.2rem,6vw,3.9rem);
+  font-weight:900;line-height:1.1;color:white;margin-bottom:22px;
+}
+.hero h1 em{font-style:italic;color:#90d0f0}
+
+.hero-sub{
+  font-size:clamp(1rem,2.5vw,1.18rem);
+  color:rgba(255,255,255,.72);font-weight:300;
+  max-width:660px;margin:0 auto 36px;
+}
+
+.hero-price{
+  display:inline-flex;flex-direction:column;align-items:center;
+  background:rgba(255,255,255,.09);border:1px solid rgba(255,255,255,.18);
+  backdrop-filter:blur(10px);border-radius:20px;padding:26px 52px;margin-bottom:34px;
+}
+.price-was{color:rgba(255,255,255,.4);font-size:.85rem;text-decoration:line-through;margin-bottom:2px}
+.price-big{font-size:3.4rem;font-weight:700;color:#ffd87a;line-height:1}
+.price-big sup{font-size:1.5rem;vertical-align:super}
+.price-note{color:rgba(255,255,255,.55);font-size:.78rem;margin-top:4px}
+
+.hero-btns{display:flex;flex-wrap:wrap;gap:12px;justify-content:center;margin-top:4px}
+
+.hero-trust{
+  display:flex;flex-wrap:wrap;justify-content:center;gap:20px;margin-top:32px;
+}
+.hero-trust-item{
+  display:flex;align-items:center;gap:7px;
+  color:rgba(255,255,255,.5);font-size:.8rem;
+}
+.hero-check{
+  width:20px;height:20px;border-radius:6px;
+  background:rgba(61,145,56,.28);border:1px solid rgba(61,145,56,.45);
+  display:flex;align-items:center;justify-content:center;font-size:.65rem;color:#6ed466;
+  flex-shrink:0;
+}
+
+/* ══════════════════════════════════════
+   TRUST STRIP
+══════════════════════════════════════ */
+.trust-strip{
+  background:var(--cream);border-bottom:1px solid var(--border);
+  padding:22px 24px;
+}
+.trust-strip-inner{
+  max-width:1100px;margin:0 auto;
+  display:flex;align-items:center;justify-content:center;
+  gap:32px;flex-wrap:wrap;
+}
+.trust-item{
+  display:flex;align-items:center;gap:10px;
+  font-size:.82rem;font-weight:500;color:var(--muted);
+}
+.trust-item img{height:42px;width:auto;opacity:.88}
+.trust-sep{width:1px;height:32px;background:var(--border)}
+.trust-icon{
+  width:32px;height:32px;border-radius:8px;
+  display:flex;align-items:center;justify-content:center;
+  font-size:1rem;background:white;border:1px solid var(--border);
+  box-shadow:var(--shadow);flex-shrink:0;
+}
+
+/* ══════════════════════════════════════
+   SECTIONS
+══════════════════════════════════════ */
+.section{padding:80px 24px}
+.section-alt{background:var(--cream)}
+.section-dark{background:var(--navy)}
+
+.eyebrow{
+  display:inline-flex;align-items:center;gap:8px;
+  font-size:.72rem;font-weight:700;letter-spacing:.14em;text-transform:uppercase;
+  color:var(--green);margin-bottom:14px;
+}
+.eyebrow::before{
+  content:'';display:inline-block;width:18px;height:2px;
+  background:linear-gradient(90deg,var(--green),var(--blue));border-radius:2px;
+}
+.section-dark .eyebrow{color:#7dd4f0}
+.section-dark .eyebrow::before{background:linear-gradient(90deg,#7dd4f0,var(--blue))}
+
+.section-title{
+  font-family:'Playfair Display',serif;
+  font-size:clamp(1.8rem,4vw,2.7rem);font-weight:700;
+  color:var(--navy);line-height:1.2;margin-bottom:16px;
+}
+.section-dark .section-title{color:white}
+
+.section-sub{
+  font-size:1.02rem;color:var(--muted);max-width:580px;line-height:1.7;
+  margin-bottom:48px;
+}
+.section-dark .section-sub{color:rgba(255,255,255,.58)}
+.centered{text-align:center}
+.centered .section-sub{margin-left:auto;margin-right:auto}
+
+/* ══════════════════════════════════════
+   BENEFITS GRID
+══════════════════════════════════════ */
+.benefits-grid{
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(196px,1fr));
+  gap:18px;
+}
+.benefit-card{
+  background:white;border:1px solid var(--border);
+  border-radius:18px;padding:28px 22px;
+  box-shadow:var(--shadow);
+  position:relative;overflow:hidden;
+  transition:transform .25s,box-shadow .25s;
+}
+.benefit-card::after{
+  content:'';position:absolute;bottom:0;left:0;right:0;height:3px;
+  background:linear-gradient(90deg,var(--green),var(--blue));
+  transform:scaleX(0);transform-origin:left;transition:transform .3s;
+}
+.benefit-card:hover{transform:translateY(-5px);box-shadow:var(--shadow-lg)}
+.benefit-card:hover::after{transform:scaleX(1)}
+.b-icon{
+  width:52px;height:52px;border-radius:14px;
+  display:flex;align-items:center;justify-content:center;
+  font-size:1.5rem;margin-bottom:16px;
+}
+.b1{background:linear-gradient(135deg,#dff0de,#c6e4f7)}
+.b2{background:linear-gradient(135deg,#fdefd5,#f9dbb8)}
+.b3{background:linear-gradient(135deg,#e0d9f5,#d0e4f7)}
+.b4{background:linear-gradient(135deg,#d5f0e0,#c3e8ee)}
+.b5{background:linear-gradient(135deg,#f5ddd9,#f9e8c0)}
+.benefit-card h3{font-size:.97rem;font-weight:600;color:var(--navy);margin-bottom:8px}
+.benefit-card p{font-size:.87rem;color:var(--muted);line-height:1.55}
+
+/* ══════════════════════════════════════
+   INCLUDED
+══════════════════════════════════════ */
+.included-grid{
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(296px,1fr));
+  gap:14px;
+}
+.inc-item{
+  background:rgba(255,255,255,.07);border:1px solid rgba(255,255,255,.1);
+  border-radius:14px;padding:22px 24px;
+  display:grid;grid-template-columns:40px 1fr;gap:16px;align-items:start;
+  transition:background .2s;
+}
+.inc-item:hover{background:rgba(255,255,255,.11)}
+.inc-num{
+  width:40px;height:40px;border-radius:10px;
+  background:linear-gradient(135deg,var(--green),var(--blue));
+  display:flex;align-items:center;justify-content:center;
+  font-weight:700;font-size:.82rem;color:white;flex-shrink:0;
+}
+.inc-item h4{font-size:.95rem;font-weight:600;color:white;margin-bottom:5px}
+.inc-item p{font-size:.84rem;color:rgba(255,255,255,.55);line-height:1.5}
+
+/* ══════════════════════════════════════
+   GEO CARDS  (2 cards only — Spain + Panama)
+══════════════════════════════════════ */
+.geo-grid{
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(360px,1fr));
+  gap:24px;
+  max-width:860px;margin:0 auto;
+}
+.geo-card{
+  border-radius:22px;overflow:hidden;
+  box-shadow:var(--shadow-lg);
+  transition:transform .25s,box-shadow .25s;
+}
+.geo-card:hover{transform:translateY(-5px);box-shadow:0 22px 64px rgba(14,31,69,.22)}
+.geo-head{padding:30px 28px 22px;position:relative}
+.geo-head::after{
+  content:'';position:absolute;bottom:0;left:28px;right:28px;height:1px;
+  background:rgba(255,255,255,.15);
+}
+.geo-flag{font-size:2.6rem;display:block;margin-bottom:12px}
+.geo-head h3{font-family:'Playfair Display',serif;font-size:1.45rem;color:white;margin-bottom:5px}
+.geo-head p{font-size:.84rem;color:rgba(255,255,255,.62);line-height:1.45}
+.geo-body{padding:22px 28px 28px}
+.geo-list{list-style:none}
+.geo-list li{
+  font-size:.91rem;color:rgba(255,255,255,.8);
+  padding:9px 0;border-bottom:1px solid rgba(255,255,255,.09);
+  display:flex;gap:11px;align-items:flex-start;line-height:1.5;
+}
+.geo-list li:last-child{border:none;padding-bottom:0}
+.geo-arrow{
+  flex-shrink:0;margin-top:2px;
+  width:20px;height:20px;border-radius:50%;
+  background:rgba(255,255,255,.13);
+  display:flex;align-items:center;justify-content:center;
+  font-size:.68rem;color:rgba(255,255,255,.7);
+}
+.geo-cta{margin-top:22px;width:100%;justify-content:center}
+.geo-spain{background:linear-gradient(155deg,#9b1c1c 0%,#c53030 100%)}
+.geo-panama{background:linear-gradient(155deg,#1e3a8a 0%,#2563eb 100%)}
+
+/* ══════════════════════════════════════
+   DOUBLE CTA
+══════════════════════════════════════ */
+.cta-grid{
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(320px,1fr));
+  gap:22px;margin-top:52px;
+}
+.cta-card{
+  border-radius:22px;padding:40px 36px;
+  display:flex;flex-direction:column;
+  transition:transform .25s,box-shadow .25s;
+}
+.cta-card:hover{transform:translateY(-5px)}
+.cta-dark{
+  background:linear-gradient(155deg,var(--navy) 0%,var(--navy-mid) 100%);
+  border:1px solid rgba(255,255,255,.1);box-shadow:var(--shadow-lg);
+}
+.cta-light{
+  background:white;border:2px solid var(--border);box-shadow:var(--shadow);
+}
+.cta-light:hover{box-shadow:var(--shadow-lg)}
+.cta-badge{
+  display:inline-flex;align-items:center;gap:6px;
+  font-size:.72rem;font-weight:700;letter-spacing:.07em;text-transform:uppercase;
+  padding:5px 13px;border-radius:30px;margin-bottom:20px;width:fit-content;
+}
+.cta-badge-gold{background:rgba(232,160,32,.16);color:#e8a020;border:1px solid rgba(232,160,32,.3)}
+.cta-badge-gray{background:var(--stone);color:var(--muted)}
+.cta-icon{font-size:2.6rem;margin-bottom:18px}
+.cta-dark h3{font-family:'Playfair Display',serif;font-size:1.5rem;color:white;margin-bottom:12px}
+.cta-light h3{font-family:'Playfair Display',serif;font-size:1.5rem;color:var(--navy);margin-bottom:12px}
+.cta-dark p{color:rgba(255,255,255,.62);font-size:.94rem;margin-bottom:28px;flex:1;line-height:1.65}
+.cta-light p{color:var(--muted);font-size:.94rem;margin-bottom:28px;flex:1;line-height:1.65}
+.cta-price{margin-bottom:24px}
+.cta-price-was{color:rgba(255,255,255,.35);font-size:.83rem;text-decoration:line-through}
+.cta-price-now{color:#ffd87a;font-size:2rem;font-weight:700;font-family:'Playfair Display',serif}
+.cta-price-tag{color:rgba(255,255,255,.4);font-size:.78rem;margin-left:6px}
+
+/* ══════════════════════════════════════
+   FORM
+══════════════════════════════════════ */
+.form-shell{
+  border-radius:28px;overflow:hidden;
+  box-shadow:var(--shadow-lg);
+  display:grid;grid-template-columns:1fr 1.45fr;
+}
+.form-side{
+  background:linear-gradient(160deg,#090f22 0%,#0e1f45 100%);
+  padding:48px 36px;
+  display:flex;flex-direction:column;justify-content:space-between;
+}
+.form-side h3{
+  font-family:'Playfair Display',serif;
+  font-size:1.75rem;color:white;margin-bottom:10px;
+}
+.form-side > p{color:rgba(255,255,255,.58);font-size:.93rem;margin-bottom:28px}
+.form-check-list{list-style:none}
+.form-check-list li{
+  color:rgba(255,255,255,.76);font-size:.88rem;
+  padding:8px 0;border-bottom:1px solid rgba(255,255,255,.07);
+  display:flex;gap:10px;align-items:center;
+}
+.form-check-list li:last-child{border:none}
+.chk{
+  width:22px;height:22px;border-radius:6px;flex-shrink:0;
+  background:rgba(61,145,56,.28);border:1px solid rgba(61,145,56,.45);
+  display:flex;align-items:center;justify-content:center;
+  font-size:.65rem;color:#6ed466;
+}
+.form-price-box{
+  background:rgba(212,146,42,.13);border:1px solid rgba(212,146,42,.35);
+  border-radius:14px;padding:18px;margin-top:24px;
+}
+.form-price-box .fpw{color:rgba(255,255,255,.36);font-size:.8rem;text-decoration:line-through}
+.form-price-box .fpn{color:#ffd87a;font-size:2rem;font-weight:700;font-family:'Playfair Display',serif}
+.form-price-box .fpl{color:rgba(255,255,255,.45);font-size:.75rem}
+
+.form-body{background:white;padding:40px 36px}
+.form-body h4{font-family:'Playfair Display',serif;font-size:1.4rem;color:var(--navy);margin-bottom:6px}
+.form-body > p{font-size:.88rem;color:var(--muted);margin-bottom:26px}
+.row2{display:grid;grid-template-columns:1fr 1fr;gap:14px;margin-bottom:14px}
+.fgroup{display:flex;flex-direction:column;gap:5px;margin-bottom:14px}
+.row2 .fgroup{margin-bottom:0}
+label{font-size:.75rem;font-weight:600;color:var(--navy);letter-spacing:.04em;text-transform:uppercase}
+input,select,textarea{
+  border:1.5px solid var(--border);border-radius:10px;
+  padding:12px 14px;font-family:'DM Sans',sans-serif;
+  font-size:.94rem;color:var(--navy);
+  background:#f8f7f4;transition:border-color .2s,background .2s;
+  outline:none;width:100%;
+}
+input:focus,select:focus,textarea:focus{
+  border-color:var(--green);background:white;
+  box-shadow:0 0 0 3px rgba(61,145,56,.1);
+}
+textarea{resize:vertical;min-height:88px}
+.btn-submit{
+  width:100%;background:linear-gradient(135deg,var(--green),#2e7028);
+  color:white;font-family:'DM Sans',sans-serif;font-size:1.02rem;font-weight:700;
+  padding:16px;border-radius:50px;border:none;cursor:pointer;
+  box-shadow:0 4px 18px rgba(61,145,56,.38);
+  transition:transform .2s,box-shadow .2s;margin-top:8px;
+}
+.btn-submit:hover{transform:translateY(-2px);box-shadow:0 8px 26px rgba(61,145,56,.5)}
+
+/* ══════════════════════════════════════
+   DISCLAIMER
+══════════════════════════════════════ */
+.disclaimer{
+  background:var(--gold-pale);border:1px solid rgba(212,146,42,.28);
+  border-radius:12px;padding:20px 24px;margin-top:20px;
+  display:flex;gap:14px;align-items:flex-start;
+}
+.disclaimer-icon{font-size:1.3rem;flex-shrink:0;margin-top:1px}
+.disclaimer p{font-size:.83rem;color:#7a5a0c;line-height:1.65}
+.disclaimer strong{color:#5c3d06}
+
+/* ══════════════════════════════════════
+   AFTER SECTION
+══════════════════════════════════════ */
+.after-section{
+  background:linear-gradient(140deg,var(--navy) 0%,var(--navy-mid) 100%);
+  padding:80px 24px;text-align:center;position:relative;overflow:hidden;
+}
+.after-section::before{
+  content:'';position:absolute;inset:0;
+  background:
+    radial-gradient(ellipse 55% 60% at 80% 50%,rgba(61,145,56,.14) 0%,transparent 65%),
+    radial-gradient(ellipse 50% 55% at 20% 50%,rgba(42,125,191,.12) 0%,transparent 65%);
+}
+.after-section>*{position:relative;z-index:1}
+.after-section h2{
+  font-family:'Playfair Display',serif;
+  font-size:clamp(1.7rem,4vw,2.5rem);color:white;margin-bottom:16px;
+}
+.after-section>p{
+  color:rgba(255,255,255,.65);max-width:680px;margin:0 auto 36px;font-size:.99rem;
+}
+.pills-row{display:flex;flex-wrap:wrap;justify-content:center;gap:10px;margin-bottom:36px}
+.pill{
+  background:rgba(255,255,255,.09);border:1px solid rgba(255,255,255,.18);
+  color:rgba(255,255,255,.82);font-size:.84rem;font-weight:500;
+  padding:9px 20px;border-radius:30px;transition:background .2s;
+}
+.pill:hover{background:rgba(255,255,255,.17)}
+.after-btns{display:flex;gap:14px;justify-content:center;flex-wrap:wrap}
+
+/* ══════════════════════════════════════
+   FOOTER
+══════════════════════════════════════ */
+footer{
+  background:#070d1e;color:rgba(255,255,255,.45);
+  padding:48px 24px 32px;text-align:center;
+}
+footer img{height:36px;opacity:.6;margin:0 auto 16px}
+footer p{font-size:.8rem;max-width:700px;margin:0 auto 8px;line-height:1.65}
+footer a{color:rgba(255,255,255,.42);text-decoration:underline}
+.footer-legal{font-size:.75rem;color:rgba(255,255,255,.28);margin-top:16px;border-top:1px solid rgba(255,255,255,.07);padding-top:16px}
+
+/* ══════════════════════════════════════
+   RESPONSIVE
+══════════════════════════════════════ */
+@media(max-width:760px){
+  .form-shell{grid-template-columns:1fr}
+  .form-side{padding:36px 24px}
+  .form-body{padding:32px 24px}
+  .row2{grid-template-columns:1fr}
+  .geo-grid{grid-template-columns:1fr}
+}
+@media(max-width:540px){
+  .navbar-pill{display:none}
+  .topbar{gap:14px;font-size:.72rem}
+  .hero{padding:72px 20px 88px}
+  .hero-btns{flex-direction:column;align-items:center}
+  .hero-btns .btn{width:100%;justify-content:center}
+  .section{padding:64px 20px}
+  .cta-grid{grid-template-columns:1fr}
+  .cta-card{padding:32px 26px}
+}
+
+/* ── SCROLL FADE ── */
+[data-sr]{opacity:0;transform:translateY(24px);transition:opacity .6s ease,transform .6s ease}
+[data-sr].in{opacity:1;transform:translateY(0)}
+
+/* ── HERO ENTRY ── */
+.he{opacity:0;transform:translateY(22px);animation:heUp .65s ease forwards}
+@keyframes heUp{to{opacity:1;transform:translateY(0)}}
+.he1{animation-delay:.04s}.he2{animation-delay:.16s}.he3{animation-delay:.28s}
+.he4{animation-delay:.40s}.he5{animation-delay:.52s}.he6{animation-delay:.64s}
+</style>
+</head>
+<body>
+
+<!-- TOPBAR -->
+<div class="topbar">
+  <span><span class="topbar-dot"></span>Chanak International Academy · FLDOE #134620 · Florida, EE. UU.</span>
+  <span><span class="topbar-dot"></span>Candidata Oficial a la Acreditación ante MSA-CESS</span>
+  <span><span class="topbar-dot"></span>Oferta de lanzamiento: 50 €</span>
+</div>
+
+<!-- NAVBAR -->
+<nav class="navbar">
+  <div class="navbar-inner">
+    <a href="https://www.chanakacademy.org" target="_blank" rel="noopener">
+      <img src="logo-chanak.png" alt="Chanak International Academy" class="navbar-logo">
+    </a>
+    <div class="navbar-actions">
+      <span class="navbar-pill">Inscripción abierta · 50 €</span>
+      <a href="#formulario" class="btn btn-green btn-sm">Solicitar evaluación</a>
+    </div>
+  </div>
+</nav>
+
+<!-- ════════════ HERO ════════════ -->
+<section class="hero">
+  <div class="hero-dots" aria-hidden="true"></div>
+  <div class="hero-glow hero-glow-a" aria-hidden="true"></div>
+  <div class="hero-glow hero-glow-b" aria-hidden="true"></div>
+
+  <div class="hero-content">
+    <div class="hero-kicker he he1">
+      <span class="hero-kicker-dot"></span>
+      Evaluación Diagnóstica Académica · Oferta de lanzamiento
+    </div>
+
+    <h1 class="he he2">
+      ¿Sabes realmente en qué<br>
+      <em>nivel académico</em> está tu hijo?
+    </h1>
+
+    <p class="hero-sub he he3">
+      Evaluación diagnóstica para padres y familias homeschool, educación a distancia y familias que necesitan saber el nivel real de su hijo antes de tomar decisiones académicas importantes.
+    </p>
+
+    <div class="hero-price he he4">
+      <span class="price-was">Precio regular: 80 €</span>
+      <div class="price-big"><sup>€</sup>50</div>
+      <span class="price-note">Oferta de lanzamiento · Pago único</span>
+    </div>
+
+    <div class="hero-btns he he5">
+      <a href="#formulario" class="btn btn-green btn-lg">Solicitar evaluación por 50 €</a>
+      <a href="https://www.chanakacademy.org" target="_blank" rel="noopener" class="btn btn-ghost btn-lg">Conocer programas Chanak</a>
+    </div>
+
+    <div class="hero-trust he he6">
+      <div class="hero-trust-item"><span class="hero-check">✓</span>PEI inicial incluido</div>
+      <div class="hero-trust-item"><span class="hero-check">✓</span>Certificación interna de dominio</div>
+      <div class="hero-trust-item"><span class="hero-check">✓</span>Recomendación de nivel/grado</div>
+    </div>
+  </div>
+</section>
+
+<!-- TRUST STRIP -->
+<div class="trust-strip">
+  <div class="trust-strip-inner">
+    <div class="trust-item">
+      <img src="3.png" alt="Middle States Association — Official Candidate for Accreditation">
+    </div>
+    <div class="trust-sep" aria-hidden="true"></div>
+    <div class="trust-item">
+      <div class="trust-icon">🛡️</div>
+      Escuela privada registrada en Florida, EE. UU.
+    </div>
+    <div class="trust-sep" aria-hidden="true"></div>
+    <div class="trust-item">
+      <div class="trust-icon">⏱️</div>
+      Resultados en menos de 48 h
+    </div>
+    <div class="trust-sep" aria-hidden="true"></div>
+    <div class="trust-item">
+      <div class="trust-icon">⭐</div>
+      FLDOE #134620 · MSA-CESS Candidate
+    </div>
+  </div>
+</div>
+
+<!-- ════════════ BENEFITS ════════════ -->
+<section class="section">
+  <div class="wrap">
+    <div data-sr>
+      <span class="eyebrow">¿Por qué evaluar ahora?</span>
+      <h2 class="section-title">Claridad académica real<br>antes de tu próxima decisión</h2>
+      <p class="section-sub">Como padre o madre, mereces saber exactamente en qué punto académico se encuentra tu hijo. Sin suposiciones, con un informe claro en mano.</p>
+    </div>
+    <div class="benefits-grid">
+      <div class="benefit-card" data-sr>
+        <div class="b-icon b1">🎯</div>
+        <h3>Nivel académico real</h3>
+        <p>Identifica con precisión el nivel actual de tu hijo mediante una evaluación estructurada y objetiva.</p>
+      </div>
+      <div class="benefit-card" data-sr>
+        <div class="b-icon b2">🔍</div>
+        <h3>Detecta lagunas de aprendizaje</h3>
+        <p>Descubre las áreas donde tu hijo necesita refuerzo antes de avanzar al siguiente grado.</p>
+      </div>
+      <div class="benefit-card" data-sr>
+        <div class="b-icon b3">📋</div>
+        <h3>PEI inicial</h3>
+        <p>Recibe un Plan Educativo Individual inicial con fortalezas y áreas de mejora identificadas.</p>
+      </div>
+      <div class="benefit-card" data-sr>
+        <div class="b-icon b4">🏅</div>
+        <h3>Certificación interna</h3>
+        <p>Obtén una certificación interna de dominio académico emitida por Chanak International Academy.</p>
+      </div>
+      <div class="benefit-card" data-sr>
+        <div class="b-icon b5">📐</div>
+        <h3>Recomendación de nivel</h3>
+        <p>Recibe un informe diagnóstico con recomendación formal de grado o nivel basada en los resultados.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ════════════ INCLUDED ════════════ -->
+<section class="section section-dark">
+  <div class="wrap">
+    <div class="centered" data-sr>
+      <span class="eyebrow">Contenido del paquete</span>
+      <h2 class="section-title">¿Qué incluye la evaluación?</h2>
+      <p class="section-sub">Todo lo que necesitas para conocer el nivel real de tu hijo en un solo paquete de 50 €.</p>
+    </div>
+    <div class="included-grid">
+      <div class="inc-item" data-sr>
+        <div class="inc-num">01</div>
+        <div>
+          <h4>Enlace de evaluación diagnóstica</h4>
+          <p>Acceso inmediato a la evaluación académica adaptada al nivel del estudiante.</p>
+        </div>
+      </div>
+      <div class="inc-item" data-sr>
+        <div class="inc-num">02</div>
+        <div>
+          <h4>Revisión académica personalizada</h4>
+          <p>Análisis detallado de los resultados por un orientador de Chanak Academy.</p>
+        </div>
+      </div>
+      <div class="inc-item" data-sr>
+        <div class="inc-num">03</div>
+        <div>
+          <h4>Plan Educativo Individual (PEI) inicial</h4>
+          <p>Documento con fortalezas académicas identificadas y plan de acción para áreas de mejora.</p>
+        </div>
+      </div>
+      <div class="inc-item" data-sr>
+        <div class="inc-num">04</div>
+        <div>
+          <h4>Certificación interna de dominio académico</h4>
+          <p>Documento emitido por Chanak International Academy que certifica el nivel de dominio del estudiante.</p>
+        </div>
+      </div>
+      <div class="inc-item" data-sr>
+        <div class="inc-num">05</div>
+        <div>
+          <h4>Recomendación académica de grado/nivel</h4>
+          <p>Informe diagnóstico con recomendación formal de nivel o grado según los resultados.</p>
+        </div>
+      </div>
+      <div class="inc-item" data-sr>
+        <div class="inc-num">06</div>
+        <div>
+          <h4>Orientación para próximos pasos</h4>
+          <p>Sesión de orientación personalizada para conocer el programa que mejor se adapta a tu hijo.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ════════════ GEO — SPAIN + PANAMA ONLY ════════════ -->
+<section class="section section-alt">
+  <div class="wrap">
+    <div class="centered" data-sr>
+      <span class="eyebrow">Para tu contexto específico</span>
+      <h2 class="section-title">Diseñada para familias<br>en España y Panamá</h2>
+      <p class="section-sub">Una evaluación pensada para padres que necesitan claridad antes de tomar decisiones académicas importantes.</p>
+    </div>
+
+    <div class="geo-grid">
+
+      <!-- ESPAÑA -->
+      <article class="geo-card geo-spain" data-sr>
+        <div class="geo-head">
+          <span class="geo-flag" aria-hidden="true">🇪🇸</span>
+          <h3>España</h3>
+          <p>Familias homeschool y educación en casa</p>
+        </div>
+        <div class="geo-body">
+          <ul class="geo-list">
+            <li><span class="geo-arrow" aria-hidden="true">→</span>Familias homeschool que necesitan conocer el nivel real de su hijo con una referencia académica estructurada y objetiva.</li>
+            <li><span class="geo-arrow" aria-hidden="true">→</span>Padres que educan en casa y desean detectar lagunas antes de avanzar al siguiente grado.</li>
+            <li><span class="geo-arrow" aria-hidden="true">→</span>Familias de educación a distancia que buscan orientación externa desde una escuela privada americana registrada en Florida.</li>
+            <li><span class="geo-arrow" aria-hidden="true">→</span>Padres que quieren tomar decisiones académicas informadas, no basadas en suposiciones.</li>
+          </ul>
+          <a href="#formulario" class="btn btn-ghost geo-cta">Solicitar evaluación por 50 €</a>
+        </div>
+      </article>
+
+      <!-- PANAMÁ -->
+      <article class="geo-card geo-panama" data-sr>
+        <div class="geo-head">
+          <span class="geo-flag" aria-hidden="true">🇵🇦</span>
+          <h3>Panamá</h3>
+          <p>Claridad académica y ruta hacia programas americanos</p>
+        </div>
+        <div class="geo-body">
+          <ul class="geo-list">
+            <li><span class="geo-arrow" aria-hidden="true">→</span>Familias que desean conocer el nivel académico real de su hijo antes de matricularlo en un programa.</li>
+            <li><span class="geo-arrow" aria-hidden="true">→</span>Padres cuyos hijos están considerando la transición hacia un programa académico americano.</li>
+            <li><span class="geo-arrow" aria-hidden="true">→</span>Familias interesadas en Off-Campus, Middle School, High School o Dual Diploma como primer paso para orientar la ruta académica.</li>
+            <li><span class="geo-arrow" aria-hidden="true">→</span>Padres que quieren una evaluación objetiva antes de tomar decisiones de inscripción importantes.</li>
+          </ul>
+          <a href="#formulario" class="btn btn-ghost geo-cta">Solicitar evaluación por 50 €</a>
+        </div>
+      </article>
+
+    </div>
+  </div>
+</section>
+
+<!-- ════════════ DOUBLE CTA ════════════ -->
+<section class="section">
+  <div class="wrap">
+    <div class="centered" data-sr>
+      <span class="eyebrow">Elige tu próximo paso</span>
+      <h2 class="section-title">Elige el siguiente paso<br>para tu familia</h2>
+      <p class="section-sub">Dos caminos. Ambos llevan a mayor claridad académica para tu hijo.</p>
+    </div>
+
+    <div class="cta-grid">
+      <!-- CTA 1: Evaluación -->
+      <div class="cta-card cta-dark" data-sr>
+        <span class="cta-badge cta-badge-gold">✦ Recomendado · Oferta de lanzamiento</span>
+        <div class="cta-icon" aria-hidden="true">📊</div>
+        <h3>Evaluación Diagnóstica Académica</h3>
+        <p>Para familias que desean conocer el nivel real del estudiante, detectar áreas de refuerzo y recibir una recomendación académica inicial con certificación interna de dominio.</p>
+        <div class="cta-price">
+          <div class="cta-price-was">Precio regular: 80 €</div>
+          <span class="cta-price-now">50 €</span>
+          <span class="cta-price-tag">oferta de lanzamiento</span>
+        </div>
+        <a href="#formulario" class="btn btn-green btn-full">
+          Solicitar evaluación por 50 €
+          <svg width="16" height="16" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+        </a>
+      </div>
+
+      <!-- CTA 2: Programas -->
+      <div class="cta-card cta-light" data-sr>
+        <span class="cta-badge cta-badge-gray">Programas académicos</span>
+        <div class="cta-icon" aria-hidden="true">🎓</div>
+        <h3>Conoce nuestros programas académicos</h3>
+        <p>Si estás buscando una alternativa educativa internacional, explora nuestros programas Elementary, Middle School, High School, Off-Campus y Dual Diploma. Aprende cómo Chanak Academy puede acompañar a tu familia.</p>
+        <a href="https://www.chanakacademy.org" target="_blank" rel="noopener" class="btn btn-navy btn-full">
+          Conocer programas Chanak
+          <svg width="13" height="13" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24" aria-hidden="true"><path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ════════════ FORM ════════════ -->
+<section class="section section-alt" id="formulario">
+  <div class="wrap">
+    <div data-sr>
+      <span class="eyebrow">Solicita tu evaluación</span>
+      <h2 class="section-title">Empieza hoy — cupos limitados</h2>
+      <p class="section-sub">Completa el formulario y un orientador de Chanak Academy se pondrá en contacto en menos de 48 horas.</p>
+    </div>
+
+    <div class="form-shell" data-sr>
+      <!-- SIDEBAR -->
+      <div class="form-side">
+        <div>
+          <h3>Evaluación Diagnóstica Académica</h3>
+          <p>Emitida por Chanak International Academy, escuela privada registrada en Florida, EE. UU., FLDOE #134620.</p>
+          <ul class="form-check-list">
+            <li><span class="chk">✓</span>Enlace de evaluación diagnóstica</li>
+            <li><span class="chk">✓</span>Revisión académica personalizada</li>
+            <li><span class="chk">✓</span>Plan Educativo Individual (PEI) inicial</li>
+            <li><span class="chk">✓</span>Certificación interna de dominio académico</li>
+            <li><span class="chk">✓</span>Recomendación de grado/nivel</li>
+            <li><span class="chk">✓</span>Orientación para próximos pasos</li>
+          </ul>
+        </div>
+        <div class="form-price-box">
+          <div class="fpw">Precio regular: 80 €</div>
+          <div class="fpn">50 €</div>
+          <div class="fpl">Oferta de lanzamiento · Pago único</div>
+        </div>
+      </div>
+
+      <!-- FORM -->
+      <div class="form-body">
+        <h4>Solicitar evaluación</h4>
+        <p>Todos los campos son necesarios para procesar tu solicitud.</p>
+
+        <div class="row2">
+          <div class="fgroup">
+            <label for="nombre_padre">Nombre del padre / madre</label>
+            <input type="text" id="nombre_padre" placeholder="Tu nombre completo" autocomplete="name">
+          </div>
+          <div class="fgroup">
+            <label for="email">Email</label>
+            <input type="email" id="email" placeholder="correo@ejemplo.com" autocomplete="email">
+          </div>
+        </div>
+
+        <div class="row2">
+          <div class="fgroup">
+            <label for="whatsapp">WhatsApp</label>
+            <input type="tel" id="whatsapp" placeholder="+34 600 000 000" autocomplete="tel">
+          </div>
+          <div class="fgroup">
+            <label for="pais">País</label>
+            <select id="pais" autocomplete="country-name">
+              <option value="">Seleccionar país…</option>
+              <option>España</option>
+              <option>Panamá</option>
+              <option>Colombia</option>
+              <option>México</option>
+              <option>Argentina</option>
+              <option>Chile</option>
+              <option>Estados Unidos</option>
+              <option>Otro</option>
+            </select>
+          </div>
+        </div>
+
+        <div class="row2">
+          <div class="fgroup">
+            <label for="nombre_estudiante">Nombre del estudiante</label>
+            <input type="text" id="nombre_estudiante" placeholder="Nombre de tu hijo/a">
+          </div>
+          <div class="fgroup">
+            <label for="edad">Edad del estudiante</label>
+            <input type="number" id="edad" placeholder="Ej: 12" min="4" max="20">
+          </div>
+        </div>
+
+        <div class="fgroup">
+          <label for="ultimo_grado">Último grado cursado</label>
+          <select id="ultimo_grado">
+            <option value="">Seleccionar grado…</option>
+            <option>Preescolar / Kindergarten</option>
+            <option>1.° grado / 1st Grade</option>
+            <option>2.° grado / 2nd Grade</option>
+            <option>3.° grado / 3rd Grade</option>
+            <option>4.° grado / 4th Grade</option>
+            <option>5.° grado / 5th Grade</option>
+            <option>6.° grado / 6th Grade</option>
+            <option>7.° grado / 7th Grade</option>
+            <option>8.° grado / 8th Grade</option>
+            <option>9.° grado / 9th Grade</option>
+            <option>10.° grado / 10th Grade</option>
+            <option>11.° grado / 11th Grade</option>
+            <option>12.° grado / 12th Grade</option>
+            <option>No estoy seguro/a</option>
+          </select>
+        </div>
+
+        <div class="fgroup">
+          <label for="motivo">Motivo de la evaluación</label>
+          <textarea id="motivo" placeholder="Ej: Mi hijo lleva 2 años en homeschool y quiero saber su nivel real antes de inscribirlo en un programa académico…"></textarea>
+        </div>
+
+        <button class="btn-submit" onclick="enviarFormulario()">
+          Solicitar evaluación por 50 € →
+        </button>
+
+        <div class="disclaimer">
+          <span class="disclaimer-icon" aria-hidden="true">⚠️</span>
+          <p>
+            <strong>Aviso legal:</strong> Este informe no constituye homologación oficial ante autoridades educativas del país. Es una <strong>certificación interna de dominio académico</strong> y recomendación de nivel emitida por <strong>Chanak International Academy</strong>, escuela privada registrada en el estado de Florida, EE. UU., FLDOE #134620.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ════════════ AFTER SECTION ════════════ -->
+<div class="after-section">
+  <h2 data-sr>Después del diagnóstico, ¿qué sigue?</h2>
+  <p data-sr>
+    Después del diagnóstico, podrás solicitar orientación personalizada para conocer cuál programa se ajusta mejor al perfil de tu hijo: Elementary, Middle School, High School, Off-Campus o Dual Diploma.
+  </p>
+  <div class="pills-row" data-sr>
+    <span class="pill">🏫 Elementary</span>
+    <span class="pill">📚 Middle School</span>
+    <span class="pill">🎓 High School</span>
+    <span class="pill">💻 Off-Campus</span>
+    <span class="pill">🌍 Dual Diploma</span>
+  </div>
+  <div class="after-btns" data-sr>
+    <a href="#formulario" class="btn btn-green btn-lg">Solicitar evaluación por 50 €</a>
+    <a href="https://www.chanakacademy.org" target="_blank" rel="noopener" class="btn btn-ghost btn-lg">Ver todos los programas →</a>
+  </div>
+</div>
+
+<!-- ════════════ FOOTER ════════════ -->
+<footer>
+  <img src="logo-chanak.png" alt="Chanak International Academy">
+  <p>© 2026 Chanak International Academy · Escuela privada registrada en el estado de Florida, EE. UU. · FLDOE #134620</p>
+  <p>Candidata Oficial a la Acreditación ante MSA-CESS · <a href="https://www.chanakacademy.org" target="_blank" rel="noopener">chanakacademy.org</a></p>
+  <p class="footer-legal">
+    Este informe no constituye homologación oficial ante autoridades educativas del país. Es una certificación interna de dominio académico y recomendación de nivel emitida por Chanak International Academy, escuela privada registrada en el estado de Florida, EE. UU., FLDOE #134620.
+  </p>
+</footer>
+
+<script>
+/* ── SCROLL FADE IN ── */
+const srEls = document.querySelectorAll('[data-sr]');
+const io = new IntersectionObserver((entries) => {
+  entries.forEach((e, i) => {
+    if (e.isIntersecting) {
+      e.target.style.transitionDelay = (i % 5) * 0.08 + 's';
+      e.target.classList.add('in');
+      io.unobserve(e.target);
+    }
+  });
+}, { threshold: 0.1, rootMargin: '0px 0px -32px 0px' });
+srEls.forEach(el => io.observe(el));
+
+/* ── SMOOTH SCROLL ── */
+document.querySelectorAll('a[href^="#"]').forEach(a => {
+  a.addEventListener('click', e => {
+    e.preventDefault();
+    const t = document.querySelector(a.getAttribute('href'));
+    if (t) t.scrollIntoView({ behavior: 'smooth', block: 'start' });
+  });
+});
+
+/* ── FORM VALIDATION ── */
+function enviarFormulario() {
+  const ids = ['nombre_padre','email','whatsapp','pais','nombre_estudiante','edad','ultimo_grado','motivo'];
+  let ok = true;
+  ids.forEach(id => {
+    const el = document.getElementById(id);
+    if (!el.value.trim()) {
+      el.style.borderColor = '#e53e3e';
+      el.style.background  = '#fff5f5';
+      ok = false;
+    } else {
+      el.style.borderColor = '';
+      el.style.background  = '';
+    }
+  });
+  if (!ok) {
+    alert('Por favor, completa todos los campos antes de continuar.');
+    return;
+  }
+  alert('¡Solicitud recibida! Un orientador de Chanak Academy se pondrá en contacto contigo en menos de 48 horas para completar el proceso de pago (50 €) y enviarte el enlace de evaluación.');
+}
+</script>
+</body>
+</html>
