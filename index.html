@@ -578,9 +578,10 @@ footer a{color:rgba(255,255,255,.42);text-decoration:underline}
     <div class="country-switch he he3">
       <label for="country_selector">Selecciona tu país</label>
       <select id="country_selector">
-        <option value="espana">España</option>
-        <option value="panama">Panamá</option>
-        <option value="otro">Otro país</option>
+        <option value="es">España</option>
+        <option value="pa">Panamá</option>
+        <option value="us">Estados Unidos</option>
+        <option value="int">Internacional</option>
       </select>
       <div class="country-hint" id="country-hint"></div>
     </div>
@@ -593,9 +594,10 @@ footer a{color:rgba(255,255,255,.42);text-decoration:underline}
 
     <div class="hero-btns he he5">
       <a href="#formulario" class="btn btn-green btn-lg dynamic-cta">Solicitar evaluación por 50 €</a>
-      <a id="stripe-hero-btn" href="#" target="_blank" rel="noopener" class="btn btn-stripe btn-lg">Pagar ahora con Stripe</a>
+      <a id="stripe-payment-btn" href="#" target="_blank" rel="noopener" class="btn btn-green btn-lg">Pagar evaluación</a>
       <a href="https://www.chanakacademy.org" target="_blank" rel="noopener" class="btn btn-ghost btn-lg">Conocer programas Chanak</a>
     </div>
+    <p class="country-hint he he6" id="payment-instructions">Después del pago, recibirás las instrucciones para acceder a la evaluación diagnóstica.</p>
 
     <div class="hero-trust he he6">
       <div class="hero-trust-item"><span class="hero-check">✓</span>PEI inicial incluido</div>
@@ -794,10 +796,11 @@ footer a{color:rgba(255,255,255,.42);text-decoration:underline}
           <span class="cta-price-now" id="cta-price-now">50 €</span>
           <span class="cta-price-tag">oferta de lanzamiento</span>
         </div>
-        <a href="#formulario" class="btn btn-green btn-full dynamic-cta">
-          Solicitar evaluación por 50 €
+        <a id="stripe-payment-btn-cta" class="btn btn-green btn-full" href="#" target="_blank" rel="noopener">
+          Pagar evaluación
           <svg width="16" height="16" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
         </a>
+        <p class="country-hint" id="payment-instructions-cta">Después del pago, recibirás las instrucciones para acceder a la evaluación diagnóstica.</p>
       </div>
 
       <!-- CTA 2: Programas -->
@@ -849,7 +852,7 @@ footer a{color:rgba(255,255,255,.42);text-decoration:underline}
       <!-- FORM -->
       <div class="form-body">
         <h4>Solicitar evaluación</h4>
-        <p>Todos los campos son necesarios para procesar tu solicitud.</p>
+        <p>Completa tus datos para solicitar información o confirmar el pago según tu país.</p>
 
         <div class="row2">
           <div class="fgroup">
@@ -873,6 +876,8 @@ footer a{color:rgba(255,255,255,.42);text-decoration:underline}
               <option value="">Seleccionar país…</option>
               <option value="España">España</option>
               <option value="Panamá">Panamá</option>
+              <option value="Estados Unidos">Estados Unidos</option>
+              <option value="Internacional">Internacional</option>
               <option value="Otro">Otro</option>
             </select>
             <input type="text" id="otro_pais" placeholder="Escribe tu país" style="display:none;margin-top:8px;">
@@ -916,9 +921,18 @@ footer a{color:rgba(255,255,255,.42);text-decoration:underline}
           <textarea id="motivo" placeholder="Ej: Mi hijo lleva 2 años en homeschool y quiero saber su nivel real antes de inscribirlo en un programa académico…"></textarea>
         </div>
 
+        <input type="hidden" id="pais_hidden" value="España">
+        <input type="hidden" id="currency_hidden" value="EUR">
+        <input type="hidden" id="price_hidden" value="50 €">
+
         <button class="btn-submit" id="submit-btn" onclick="enviarFormulario()">
-          Solicitar evaluación por 50 € →
+          Solicitar información →
         </button>
+        <div id="intl-payment-options" style="display:none;margin-top:12px;gap:8px;grid-template-columns:1fr 1fr;" class="row2">
+          <a id="intl-pay-eur" class="btn btn-sm btn-navy" href="#" target="_blank" rel="noopener">Pagar en euros</a>
+          <a id="intl-pay-usd" class="btn btn-sm btn-navy" href="#" target="_blank" rel="noopener">Pagar en dólares</a>
+        </div>
+        <p class="country-hint" id="payment-instructions-form" style="color:var(--muted);">Después del pago, recibirás las instrucciones para acceder a la evaluación diagnóstica.</p>
 
         <div class="disclaimer">
           <span class="disclaimer-icon" aria-hidden="true">⚠️</span>
@@ -946,7 +960,7 @@ footer a{color:rgba(255,255,255,.42);text-decoration:underline}
   </div>
   <div class="after-btns" data-sr>
     <a href="#formulario" class="btn btn-green btn-lg dynamic-cta">Solicitar evaluación por 50 €</a>
-    <a id="stripe-after-btn" href="#" target="_blank" rel="noopener" class="btn btn-stripe btn-lg">Pagar ahora con Stripe</a>
+    <a id="stripe-payment-btn-after" href="#" target="_blank" rel="noopener" class="btn btn-green btn-lg">Pagar evaluación</a>
     <a id="whatsapp-dynamic-btn" href="#" target="_blank" rel="noopener" class="btn btn-ghost btn-lg">Hablar por WhatsApp</a>
     <a href="https://www.chanakacademy.org" target="_blank" rel="noopener" class="btn btn-ghost btn-lg">Ver todos los programas →</a>
   </div>
@@ -986,55 +1000,23 @@ document.querySelectorAll('a[href^="#"]').forEach(a => {
 });
 
 /* ── COUNTRY CONFIG ── */
+const PAYMENT_LINKS = {
+  es: "https://buy.stripe.com/6oU00k5F79pj1F660267S03",
+  pa: "https://buy.stripe.com/8x28wQ3wZ30VcjK3RU67S0f",
+  us: "https://buy.stripe.com/8x28wQ3wZ30VcjK3RU67S0f",
+  int_usd: "https://buy.stripe.com/8x28wQ3wZ30VcjK3RU67S0f",
+  int_eur: "https://buy.stripe.com/6oU00k5F79pj1F660267S03"
+};
+
 const countryConfig = {
-  espana: {
-    heroCopy: 'Evaluación diagnóstica académica para padres y familias homeschool, educación a distancia y familias que necesitan saber el nivel real de su hijo antes de tomar decisiones académicas importantes.',
-    regular: 'Precio regular: 80 €',
-    promo: '50 €',
-    cta: 'Solicitar evaluación por 50 €',
-    topbar: 'Oferta de lanzamiento: 50 €',
-    nav: 'Inscripción abierta · 50 €',
-    package: 'Todo lo que necesitas para conocer el nivel real de tu hijo en un solo paquete de 50 €.',
-    confirm: '¡Solicitud recibida! Un orientador de Chanak Academy se pondrá en contacto contigo en menos de 48 horas para completar el proceso de pago (50 €) y enviarte el enlace de evaluación.',
-    formCountry: 'España',
-    priceNote: 'Oferta de lanzamiento · Pago único',
-    hint: '',
-    stripeUrl: 'https://buy.stripe.com/espana-evaluacion',
-    whatsapp: 'https://wa.me/34600000000?text=Hola%20Chanak%2C%20quiero%20solicitar%20la%20evaluaci%C3%B3n%20diagn%C3%B3stica%20de%2050%E2%82%AC.'
-  },
-  panama: {
-    heroCopy: 'Evaluación diagnóstica académica para familias en Panamá que desean conocer el nivel real de su hijo antes de iniciar un programa americano, Off-Campus, Middle School, High School o Dual Diploma.',
-    regular: 'Precio regular: $80',
-    promo: '$50',
-    cta: 'Solicitar evaluación por $50',
-    topbar: 'Oferta de lanzamiento: $50',
-    nav: 'Inscripción abierta · $50',
-    package: 'Todo lo que necesitas para conocer el nivel real de tu hijo en un solo paquete de $50.',
-    confirm: '¡Solicitud recibida! Un orientador de Chanak Academy se pondrá en contacto contigo en menos de 48 horas para completar el proceso de pago ($50) y enviarte el enlace de evaluación.',
-    formCountry: 'Panamá',
-    priceNote: 'Oferta de lanzamiento · Pago único',
-    hint: '',
-    stripeUrl: 'https://buy.stripe.com/panama-evaluacion',
-    whatsapp: 'https://wa.me/50760000000?text=Hola%20Chanak%2C%20quiero%20solicitar%20la%20evaluaci%C3%B3n%20diagn%C3%B3stica%20de%20%2450.'
-  },
-  otro: {
-    heroCopy: 'Evaluación diagnóstica académica internacional para familias que desean conocer el nivel académico real de su hijo y recibir una recomendación de nivel.',
-    regular: 'Solicita información',
-    promo: 'Solicita información',
-    cta: 'Solicitar información',
-    topbar: 'Precio según país · Solicita información',
-    nav: 'Inscripción abierta · Solicita información',
-    package: 'Evaluación internacional con precio confirmado según país.',
-    confirm: '¡Solicitud recibida! Nuestro equipo te confirmará el precio y la forma de pago según tu país.',
-    formCountry: 'Otro',
-    priceNote: 'Nuestro equipo te confirmará el precio y la forma de pago según tu país.',
-    hint: 'Nuestro equipo te confirmará el precio y la forma de pago según tu país.',
-    stripeUrl: 'https://buy.stripe.com/internacional-evaluacion',
-    whatsapp: 'https://wa.me/17865550000?text=Hola%20Chanak%2C%20quiero%20informaci%C3%B3n%20de%20la%20evaluaci%C3%B3n%20diagn%C3%B3stica%20internacional.'
-  }
+  es: {promo:'50 €', cta:'Pagar evaluación por 50 €', regular:'Precio regular: 80 €', priceNote:'Oferta de lanzamiento · Pago único', currency:'EUR', formCountry:'España', whatsapp:'https://wa.me/34600000000?text=Hola%20Chanak%2C%20quiero%20pagar%20la%20evaluaci%C3%B3n%20diagn%C3%B3stica%20por%2050%E2%82%AC.', stripeUrl:PAYMENT_LINKS.es},
+  pa: {promo:'$50', cta:'Pagar evaluación por $50', regular:'Precio regular: $80', priceNote:'Oferta de lanzamiento · Pago único', currency:'USD', formCountry:'Panamá', whatsapp:'https://wa.me/50760000000?text=Hola%20Chanak%2C%20quiero%20pagar%20la%20evaluaci%C3%B3n%20diagn%C3%B3stica%20por%20%2450.', stripeUrl:PAYMENT_LINKS.pa},
+  us: {promo:'$50', cta:'Pagar evaluación por $50', regular:'Precio regular: $80', priceNote:'Oferta de lanzamiento · Pago único', currency:'USD', formCountry:'Estados Unidos', whatsapp:'https://wa.me/17865550000?text=Hola%20Chanak%2C%20quiero%20pagar%20la%20evaluaci%C3%B3n%20diagn%C3%B3stica%20por%20%2450.', stripeUrl:PAYMENT_LINKS.us},
+  int: {promo:'$50 / 50 €', cta:'Solicitar información', regular:'Solicita información', priceNote:'Te orientamos sobre la mejor modalidad de pago.', currency:'USD/EUR', formCountry:'Internacional', whatsapp:'https://wa.me/17865550000?text=Hola%20Chanak%2C%20quiero%20solicitar%20informaci%C3%B3n%20de%20la%20evaluaci%C3%B3n%20diagn%C3%B3stica.', stripeUrl:'#'}
 };
 
 function withUTM(baseUrl) {
+  if (!baseUrl || baseUrl === '#') return '#';
   const url = new URL(baseUrl);
   const params = new URLSearchParams(window.location.search);
   ['utm_source','utm_medium','utm_campaign','utm_term','utm_content'].forEach((key) => {
@@ -1044,9 +1026,8 @@ function withUTM(baseUrl) {
   return url.toString();
 }
 
-function applyCountryConfig(country) {
-  const c = countryConfig[country];
-  document.getElementById('hero-copy').textContent = c.heroCopy;
+function applyCountryConfig(countryCode) {
+  const c = countryConfig[countryCode] || countryConfig.es;
   document.getElementById('hero-price-was').textContent = c.regular;
   document.getElementById('hero-price-big').innerHTML = c.promo === '50 €' ? '<sup>€</sup>50' : (c.promo === '$50' ? '<sup>$</sup>50' : c.promo);
   document.getElementById('cta-price-was').textContent = c.regular;
@@ -1054,26 +1035,40 @@ function applyCountryConfig(country) {
   document.getElementById('form-price-was').textContent = c.regular;
   document.getElementById('form-price-now').textContent = c.promo;
   document.getElementById('form-price-label').textContent = c.priceNote;
-  document.getElementById('topbar-offer').textContent = c.topbar;
-  document.getElementById('navbar-offer').textContent = c.nav;
-  document.getElementById('package-copy').textContent = c.package;
-  document.getElementById('country-hint').textContent = c.hint;
   document.querySelectorAll('.dynamic-cta').forEach(el => el.textContent = c.cta);
-  document.getElementById('submit-btn').textContent = `${c.cta} →`;
-  document.getElementById('pais').value = c.formCountry;
-  document.getElementById('stripe-hero-btn').href = withUTM(c.stripeUrl);
-  document.getElementById('stripe-after-btn').href = withUTM(c.stripeUrl);
+
+  const stripeHref = withUTM(c.stripeUrl);
+  const btnText = c.cta;
+  ['stripe-payment-btn','stripe-payment-btn-after','stripe-payment-btn-cta'].forEach((id)=>{
+    const b=document.getElementById(id);
+    if (!b) return;
+    b.href = stripeHref;
+    b.textContent = btnText;
+    if(id==='stripe-payment-btn-cta') b.innerHTML = `${btnText} <svg width="16" height="16" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M12 5l7 7-7 7"/></svg>`;
+  });
+
+  document.getElementById('submit-btn').textContent = `${countryCode === 'int' ? 'Solicitar información' : btnText} →`;
   document.getElementById('whatsapp-dynamic-btn').href = withUTM(c.whatsapp);
+  document.getElementById('whatsapp-dynamic-btn').textContent = 'Solicitar información por WhatsApp';
+
+  const intl = countryCode === 'int';
+  document.getElementById('intl-payment-options').style.display = intl ? 'grid' : 'none';
+  document.getElementById('intl-pay-eur').href = withUTM(PAYMENT_LINKS.int_eur);
+  document.getElementById('intl-pay-usd').href = withUTM(PAYMENT_LINKS.int_usd);
+
+  document.getElementById('pais').value = c.formCountry;
+  document.getElementById('pais_hidden').value = c.formCountry;
+  document.getElementById('currency_hidden').value = c.currency;
+  document.getElementById('price_hidden').value = c.promo;
 }
 
 const countrySelector = document.getElementById('country_selector');
 countrySelector.addEventListener('change', () => applyCountryConfig(countrySelector.value));
 
-document.getElementById('pais').addEventListener('change', (e) => {
-  document.getElementById('otro_pais').style.display = e.target.value === 'Otro' ? 'block' : 'none';
-});
-
-applyCountryConfig('espana');
+const pathCountryMap = { '/es': 'es', '/pa': 'pa', '/us': 'us', '/int': 'int' };
+const initialCountry = pathCountryMap[window.location.pathname.toLowerCase()] || 'es';
+countrySelector.value = initialCountry;
+applyCountryConfig(initialCountry);
 
 /* ── FORM VALIDATION ── */
 function enviarFormulario() {
