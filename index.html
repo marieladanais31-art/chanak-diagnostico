@@ -144,6 +144,10 @@ a{color:inherit;text-decoration:none}
   color:rgba(255,255,255,.72);font-weight:300;
   max-width:660px;margin:0 auto 36px;
 }
+.country-switch{max-width:420px;margin:0 auto 24px;text-align:left}
+.country-switch label{color:rgba(255,255,255,.84);font-size:.72rem;margin-bottom:6px;display:block}
+.country-switch select{background:rgba(255,255,255,.92);border:none}
+.country-hint{margin-top:8px;color:rgba(255,255,255,.55);font-size:.78rem}
 
 .hero-price{
   display:inline-flex;flex-direction:column;align-items:center;
@@ -529,7 +533,7 @@ footer a{color:rgba(255,255,255,.42);text-decoration:underline}
 <div class="topbar">
   <span><span class="topbar-dot"></span>Chanak International Academy · FLDOE #134620 · Florida, EE. UU.</span>
   <span><span class="topbar-dot"></span>Candidata Oficial a la Acreditación ante MSA-CESS</span>
-  <span><span class="topbar-dot"></span>Oferta de lanzamiento: 50 €</span>
+  <span><span class="topbar-dot"></span><span id="topbar-offer">Oferta de lanzamiento: 50 €</span></span>
 </div>
 
 <!-- NAVBAR -->
@@ -539,8 +543,8 @@ footer a{color:rgba(255,255,255,.42);text-decoration:underline}
       <img src="logo-chanak.png" alt="Chanak International Academy" class="navbar-logo">
     </a>
     <div class="navbar-actions">
-      <span class="navbar-pill">Inscripción abierta · 50 €</span>
-      <a href="#formulario" class="btn btn-green btn-sm">Solicitar evaluación</a>
+      <span class="navbar-pill" id="navbar-offer">Inscripción abierta · 50 €</span>
+      <a href="#formulario" class="btn btn-green btn-sm dynamic-cta">Solicitar evaluación por 50 €</a>
     </div>
   </div>
 </nav>
@@ -562,18 +566,28 @@ footer a{color:rgba(255,255,255,.42);text-decoration:underline}
       <em>nivel académico</em> está tu hijo?
     </h1>
 
-    <p class="hero-sub he he3">
-      Evaluación diagnóstica para padres y familias homeschool, educación a distancia y familias que necesitan saber el nivel real de su hijo antes de tomar decisiones académicas importantes.
+    <p class="hero-sub he he3" id="hero-copy">
+      Evaluación diagnóstica académica para padres y familias homeschool, educación a distancia y familias que necesitan saber el nivel real de su hijo antes de tomar decisiones académicas importantes.
     </p>
 
+    <div class="country-switch he he3">
+      <label for="country_selector">Selecciona tu país</label>
+      <select id="country_selector">
+        <option value="espana">España</option>
+        <option value="panama">Panamá</option>
+        <option value="otro">Otro país</option>
+      </select>
+      <div class="country-hint" id="country-hint"></div>
+    </div>
+
     <div class="hero-price he he4">
-      <span class="price-was">Precio regular: 80 €</span>
-      <div class="price-big"><sup>€</sup>50</div>
+      <span class="price-was" id="hero-price-was">Precio regular: 80 €</span>
+      <div class="price-big" id="hero-price-big"><sup>€</sup>50</div>
       <span class="price-note">Oferta de lanzamiento · Pago único</span>
     </div>
 
     <div class="hero-btns he he5">
-      <a href="#formulario" class="btn btn-green btn-lg">Solicitar evaluación por 50 €</a>
+      <a href="#formulario" class="btn btn-green btn-lg dynamic-cta">Solicitar evaluación por 50 €</a>
       <a href="https://www.chanakacademy.org" target="_blank" rel="noopener" class="btn btn-ghost btn-lg">Conocer programas Chanak</a>
     </div>
 
@@ -653,7 +667,7 @@ footer a{color:rgba(255,255,255,.42);text-decoration:underline}
     <div class="centered" data-sr>
       <span class="eyebrow">Contenido del paquete</span>
       <h2 class="section-title">¿Qué incluye la evaluación?</h2>
-      <p class="section-sub">Todo lo que necesitas para conocer el nivel real de tu hijo en un solo paquete de 50 €.</p>
+      <p class="section-sub"><span id="package-copy">Todo lo que necesitas para conocer el nivel real de tu hijo en un solo paquete de 50 €.</span></p>
     </div>
     <div class="included-grid">
       <div class="inc-item" data-sr>
@@ -727,7 +741,7 @@ footer a{color:rgba(255,255,255,.42);text-decoration:underline}
             <li><span class="geo-arrow" aria-hidden="true">→</span>Familias de educación a distancia que buscan orientación externa desde una escuela privada americana registrada en Florida.</li>
             <li><span class="geo-arrow" aria-hidden="true">→</span>Padres que quieren tomar decisiones académicas informadas, no basadas en suposiciones.</li>
           </ul>
-          <a href="#formulario" class="btn btn-ghost geo-cta">Solicitar evaluación por 50 €</a>
+          <a href="#formulario" class="btn btn-ghost geo-cta dynamic-cta">Solicitar evaluación por 50 €</a>
         </div>
       </article>
 
@@ -745,7 +759,7 @@ footer a{color:rgba(255,255,255,.42);text-decoration:underline}
             <li><span class="geo-arrow" aria-hidden="true">→</span>Familias interesadas en Off-Campus, Middle School, High School o Dual Diploma como primer paso para orientar la ruta académica.</li>
             <li><span class="geo-arrow" aria-hidden="true">→</span>Padres que quieren una evaluación objetiva antes de tomar decisiones de inscripción importantes.</li>
           </ul>
-          <a href="#formulario" class="btn btn-ghost geo-cta">Solicitar evaluación por 50 €</a>
+          <a href="#formulario" class="btn btn-ghost geo-cta dynamic-cta">Solicitar evaluación por 50 €</a>
         </div>
       </article>
 
@@ -770,11 +784,11 @@ footer a{color:rgba(255,255,255,.42);text-decoration:underline}
         <h3>Evaluación Diagnóstica Académica</h3>
         <p>Para familias que desean conocer el nivel real del estudiante, detectar áreas de refuerzo y recibir una recomendación académica inicial con certificación interna de dominio.</p>
         <div class="cta-price">
-          <div class="cta-price-was">Precio regular: 80 €</div>
-          <span class="cta-price-now">50 €</span>
+          <div class="cta-price-was" id="cta-price-was">Precio regular: 80 €</div>
+          <span class="cta-price-now" id="cta-price-now">50 €</span>
           <span class="cta-price-tag">oferta de lanzamiento</span>
         </div>
-        <a href="#formulario" class="btn btn-green btn-full">
+        <a href="#formulario" class="btn btn-green btn-full dynamic-cta">
           Solicitar evaluación por 50 €
           <svg width="16" height="16" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
         </a>
@@ -820,9 +834,9 @@ footer a{color:rgba(255,255,255,.42);text-decoration:underline}
           </ul>
         </div>
         <div class="form-price-box">
-          <div class="fpw">Precio regular: 80 €</div>
-          <div class="fpn">50 €</div>
-          <div class="fpl">Oferta de lanzamiento · Pago único</div>
+          <div class="fpw" id="form-price-was">Precio regular: 80 €</div>
+          <div class="fpn" id="form-price-now">50 €</div>
+          <div class="fpl" id="form-price-label">Oferta de lanzamiento · Pago único</div>
         </div>
       </div>
 
@@ -851,15 +865,11 @@ footer a{color:rgba(255,255,255,.42);text-decoration:underline}
             <label for="pais">País</label>
             <select id="pais" autocomplete="country-name">
               <option value="">Seleccionar país…</option>
-              <option>España</option>
-              <option>Panamá</option>
-              <option>Colombia</option>
-              <option>México</option>
-              <option>Argentina</option>
-              <option>Chile</option>
-              <option>Estados Unidos</option>
-              <option>Otro</option>
+              <option value="España">España</option>
+              <option value="Panamá">Panamá</option>
+              <option value="Otro">Otro</option>
             </select>
+            <input type="text" id="otro_pais" placeholder="Escribe tu país" style="display:none;margin-top:8px;">
           </div>
         </div>
 
@@ -900,7 +910,7 @@ footer a{color:rgba(255,255,255,.42);text-decoration:underline}
           <textarea id="motivo" placeholder="Ej: Mi hijo lleva 2 años en homeschool y quiero saber su nivel real antes de inscribirlo en un programa académico…"></textarea>
         </div>
 
-        <button class="btn-submit" onclick="enviarFormulario()">
+        <button class="btn-submit" id="submit-btn" onclick="enviarFormulario()">
           Solicitar evaluación por 50 € →
         </button>
 
@@ -929,7 +939,7 @@ footer a{color:rgba(255,255,255,.42);text-decoration:underline}
     <span class="pill">🌍 Dual Diploma</span>
   </div>
   <div class="after-btns" data-sr>
-    <a href="#formulario" class="btn btn-green btn-lg">Solicitar evaluación por 50 €</a>
+    <a href="#formulario" class="btn btn-green btn-lg dynamic-cta">Solicitar evaluación por 50 €</a>
     <a href="https://www.chanakacademy.org" target="_blank" rel="noopener" class="btn btn-ghost btn-lg">Ver todos los programas →</a>
   </div>
 </div>
@@ -967,6 +977,77 @@ document.querySelectorAll('a[href^="#"]').forEach(a => {
   });
 });
 
+/* ── COUNTRY CONFIG ── */
+const countryConfig = {
+  espana: {
+    heroCopy: 'Evaluación diagnóstica académica para padres y familias homeschool, educación a distancia y familias que necesitan saber el nivel real de su hijo antes de tomar decisiones académicas importantes.',
+    regular: 'Precio regular: 80 €',
+    promo: '50 €',
+    cta: 'Solicitar evaluación por 50 €',
+    topbar: 'Oferta de lanzamiento: 50 €',
+    nav: 'Inscripción abierta · 50 €',
+    package: 'Todo lo que necesitas para conocer el nivel real de tu hijo en un solo paquete de 50 €.',
+    confirm: '¡Solicitud recibida! Un orientador de Chanak Academy se pondrá en contacto contigo en menos de 48 horas para completar el proceso de pago (50 €) y enviarte el enlace de evaluación.',
+    formCountry: 'España',
+    priceNote: 'Oferta de lanzamiento · Pago único',
+    hint: ''
+  },
+  panama: {
+    heroCopy: 'Evaluación diagnóstica académica para familias en Panamá que desean conocer el nivel real de su hijo antes de iniciar un programa americano, Off-Campus, Middle School, High School o Dual Diploma.',
+    regular: 'Precio regular: $80',
+    promo: '$50',
+    cta: 'Solicitar evaluación por $50',
+    topbar: 'Oferta de lanzamiento: $50',
+    nav: 'Inscripción abierta · $50',
+    package: 'Todo lo que necesitas para conocer el nivel real de tu hijo en un solo paquete de $50.',
+    confirm: '¡Solicitud recibida! Un orientador de Chanak Academy se pondrá en contacto contigo en menos de 48 horas para completar el proceso de pago ($50) y enviarte el enlace de evaluación.',
+    formCountry: 'Panamá',
+    priceNote: 'Oferta de lanzamiento · Pago único',
+    hint: ''
+  },
+  otro: {
+    heroCopy: 'Evaluación diagnóstica académica internacional para familias que desean conocer el nivel académico real de su hijo y recibir una recomendación de nivel.',
+    regular: 'Solicita información',
+    promo: 'Solicita información',
+    cta: 'Solicitar información',
+    topbar: 'Precio según país · Solicita información',
+    nav: 'Inscripción abierta · Solicita información',
+    package: 'Evaluación internacional con precio confirmado según país.',
+    confirm: '¡Solicitud recibida! Nuestro equipo te confirmará el precio y la forma de pago según tu país.',
+    formCountry: 'Otro',
+    priceNote: 'Nuestro equipo te confirmará el precio y la forma de pago según tu país.',
+    hint: 'Nuestro equipo te confirmará el precio y la forma de pago según tu país.'
+  }
+};
+
+function applyCountryConfig(country) {
+  const c = countryConfig[country];
+  document.getElementById('hero-copy').textContent = c.heroCopy;
+  document.getElementById('hero-price-was').textContent = c.regular;
+  document.getElementById('hero-price-big').innerHTML = c.promo === '50 €' ? '<sup>€</sup>50' : (c.promo === '$50' ? '<sup>$</sup>50' : c.promo);
+  document.getElementById('cta-price-was').textContent = c.regular;
+  document.getElementById('cta-price-now').textContent = c.promo;
+  document.getElementById('form-price-was').textContent = c.regular;
+  document.getElementById('form-price-now').textContent = c.promo;
+  document.getElementById('form-price-label').textContent = c.priceNote;
+  document.getElementById('topbar-offer').textContent = c.topbar;
+  document.getElementById('navbar-offer').textContent = c.nav;
+  document.getElementById('package-copy').textContent = c.package;
+  document.getElementById('country-hint').textContent = c.hint;
+  document.querySelectorAll('.dynamic-cta').forEach(el => el.textContent = c.cta);
+  document.getElementById('submit-btn').textContent = `${c.cta} →`;
+  document.getElementById('pais').value = c.formCountry;
+}
+
+const countrySelector = document.getElementById('country_selector');
+countrySelector.addEventListener('change', () => applyCountryConfig(countrySelector.value));
+
+document.getElementById('pais').addEventListener('change', (e) => {
+  document.getElementById('otro_pais').style.display = e.target.value === 'Otro' ? 'block' : 'none';
+});
+
+applyCountryConfig('espana');
+
 /* ── FORM VALIDATION ── */
 function enviarFormulario() {
   const ids = ['nombre_padre','email','whatsapp','pais','nombre_estudiante','edad','ultimo_grado','motivo'];
@@ -982,11 +1063,18 @@ function enviarFormulario() {
       el.style.background  = '';
     }
   });
+  if (document.getElementById('pais').value === 'Otro' && !document.getElementById('otro_pais').value.trim()) {
+    const op = document.getElementById('otro_pais');
+    op.style.borderColor = '#e53e3e';
+    op.style.background = '#fff5f5';
+    ok = false;
+  }
   if (!ok) {
     alert('Por favor, completa todos los campos antes de continuar.');
     return;
   }
-  alert('¡Solicitud recibida! Un orientador de Chanak Academy se pondrá en contacto contigo en menos de 48 horas para completar el proceso de pago (50 €) y enviarte el enlace de evaluación.');
+  const selected = countrySelector.value;
+  alert(countryConfig[selected].confirm);
 }
 </script>
 </body>
