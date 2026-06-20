@@ -4,13 +4,37 @@
 <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=AW-18109980849"></script>
 <script>
-  window.dataLayer = window.dataLayer || [];
+window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
 
   gtag('config', 'AW-18109980849');
   gtag('config', 'GT-NSSXS5N6');
 </script>
+
+<!-- Meta Pixel Code — Chanak Diagnóstico + PEI -->
+<script>
+!function(f,b,e,v,n,t,s)
+{if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];
+s.parentNode.insertBefore(t,s)}(window, document,'script',
+'https://connect.facebook.net/en_US/fbevents.js');
+fbq('init', '1697477548238291');
+fbq('track', 'PageView');
+fbq('track', 'ViewContent', {
+  content_name: 'Chanak Evaluación Diagnóstica + PEI',
+  content_category: 'academic_diagnostic',
+  value: 50,
+  currency: 'EUR'
+});
+</script>
+<noscript><img height="1" width="1" style="display:none"
+src="https://www.facebook.com/tr?id=1697477548238291&ev=PageView&noscript=1"
+/></noscript>
+<!-- End Meta Pixel Code -->
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Evaluación Diagnóstica Académica — Chanak International Academy</title>
@@ -1103,6 +1127,15 @@ function withUTM(baseUrl) {
   return url.toString();
 }
 
+function trackMetaEvent(eventName, payload = {}) {
+  if (typeof fbq !== 'function') return;
+  fbq('track', eventName, {
+    content_name: 'Chanak Evaluación Diagnóstica + PEI',
+    content_category: 'academic_diagnostic',
+    ...payload
+  });
+}
+
 function updateWhatsAppLink(countryCode) {
   const cfg = COUNTRY_CONFIG[countryCode] || COUNTRY_CONFIG.int;
   const message = encodeURIComponent(cfg.whatsappText || `Hola, quiero información sobre la Evaluación Académica Orientativa de Chanak para ${cfg.label}. Vi el precio ${cfg.priceText}.`);
@@ -1147,6 +1180,21 @@ document.getElementById('pais').addEventListener('change', (e) => {
 
 applyCountryConfig('es');
 
+document.getElementById('whatsapp-btn')?.addEventListener('click', () => {
+  trackMetaEvent('Contact', {
+    method: 'whatsapp',
+    value: 50,
+    currency: 'EUR'
+  });
+});
+
+document.getElementById('stripe-payment-btn')?.addEventListener('click', () => {
+  trackMetaEvent('InitiateCheckout', {
+    value: 50,
+    currency: 'EUR'
+  });
+});
+
 /* ── FORM VALIDATION ── */
 function enviarFormulario() {
   const ids = ['nombre_padre','email','whatsapp','pais','nombre_estudiante','edad','ultimo_grado','motivo'];
@@ -1173,6 +1221,11 @@ function enviarFormulario() {
     return;
   }
   const selected = countrySelector.value;
+  trackMetaEvent('Lead', {
+    method: 'diagnostic_form',
+    value: 50,
+    currency: selected === 'es' ? 'EUR' : 'USD'
+  });
   alert((COUNTRY_CONFIG[selected] || COUNTRY_CONFIG.int).confirm);
 }
 </script>
