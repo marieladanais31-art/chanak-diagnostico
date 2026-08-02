@@ -294,6 +294,9 @@ h3.subsec{font-family:'Playfair Display',serif;font-size:1.05rem;color:var(--azu
 .toggle-switch input:checked+.toggle-track{background:var(--oro)}
 .toggle-switch input:checked+.toggle-track:before{transform:translateX(24px)}
 .bible-q-count{font-size:.74rem;color:var(--oro);font-weight:700;background:var(--oro2);border-radius:20px;padding:3px 10px;white-space:nowrap}
+/* ── CHANAK FLEX ── */
+.flex-note{margin-top:7px;background:var(--verde2);border:1px solid #16653440;border-left:3px solid var(--verde);border-radius:var(--r2);padding:9px 12px;font-size:.79rem;color:var(--verde);line-height:1.45}
+.flex-badge{display:inline-block;vertical-align:middle;background:var(--oro);color:#fff;border-radius:20px;padding:4px 13px;font-size:.68rem;font-weight:700;letter-spacing:.06em;text-transform:uppercase;font-family:'DM Sans',sans-serif;margin-left:9px}
 /* ── EXIT MODAL ── */
 .modal-overlay{position:fixed;inset:0;background:rgba(15,23,42,.55);z-index:9999;display:flex;align-items:center;justify-content:center;backdrop-filter:blur(3px);opacity:0;pointer-events:none;transition:opacity .22s}
 .modal-overlay.open{opacity:1;pointer-events:all}
@@ -386,13 +389,15 @@ h3.subsec{font-family:'Playfair Display',serif;font-size:1.05rem;color:var(--azu
         <option>1.º ESO / Grade 7</option><option>2.º ESO / Grade 8</option><option>3.º ESO / Grade 9</option>
       </select></div>
     <div class="fi"><label>País de referencia curricular</label>
-      <select id="f-pais">
+      <select id="f-pais" onchange="onPaisChange(this.value)">
         <option value="">-- Selecciona --</option>
         <option>España</option><option>Panamá</option><option>EE. UU. / Florida</option>
         <option>México</option><option>Colombia</option><option>Argentina</option>
         <option>Perú</option><option>Venezuela</option><option>Ecuador</option>
         <option>Costa Rica</option><option>Chile</option><option>Otro</option>
-      </select></div>
+      </select>
+      <div id="flex-note" class="flex-note hidden">✓ Vía americana seleccionada — este será tu <strong>Diagnóstico Chanak Flex</strong> (currículo core americano, FLDOE #134620).</div>
+      </div>
     <div class="fi"><label>Idioma(s) en el hogar</label><input type="text" id="f-idiomas" placeholder="Ej. Español, Inglés"></div>
     <div class="fi"><label>Nombre del padre / madre / tutor</label><input type="text" id="f-tutor" placeholder="Nombre completo"></div>
     <div class="fi"><label>Correo electrónico</label><input type="email" id="f-email" placeholder="correo@ejemplo.com"></div>
@@ -476,7 +481,7 @@ h3.subsec{font-family:'Playfair Display',serif;font-size:1.05rem;color:var(--azu
 <!-- ═══════════ RESULTADOS ═══════════ -->
 <div id="section-results" class="hidden">
 <div class="section-card container">
-  <div class="sec-title">Informe Diagnóstico</div>
+  <div class="sec-title">Informe Diagnóstico <span id="flex-report-badge" class="flex-badge hidden">Diagnóstico Chanak Flex</span></div>
   <p class="sec-sub">Evaluación Diagnóstica Académica Internacional — Chanak International Academy</p>
   <div class="res-grid">
     <div class="res-main">
@@ -613,6 +618,19 @@ function goToLevel(){
   showSection('level');
 }
 
+// ── Chanak Flex (vía americana) ──
+const FLEX_PAIS='EE. UU. / Florida';
+function onPaisChange(v){
+  const n=document.getElementById('flex-note');
+  if(!n)return;
+  n.classList.toggle('hidden', v!==FLEX_PAIS);
+}
+function updateFlexBadge(){
+  const b=document.getElementById('flex-report-badge');
+  if(!b)return;
+  b.classList.toggle('hidden', (SD&&SD.pais)!==FLEX_PAIS);
+}
+
 // ── Bible toggle ──
 function toggleBible(cb){
   const badge=document.getElementById('bible-q-badge');
@@ -653,6 +671,9 @@ function resetAll(){
   ['f-nombre','f-fecha','f-edad','f-curso','f-pais','f-idiomas','f-tutor','f-email','f-centro','f-mentor','f-obs'].forEach(id=>{
     const el=document.getElementById(id);if(el)el.value='';
   });
+  // Reset Chanak Flex indicators
+  const fn=document.getElementById('flex-note');if(fn)fn.classList.add('hidden');
+  const fb=document.getElementById('flex-report-badge');if(fb)fb.classList.add('hidden');
   // Reset level cards
   document.querySelectorAll('.lcard').forEach(c=>c.classList.remove('active'));
   const bs=document.getElementById('btn-start');if(bs)bs.disabled=true;
@@ -746,7 +767,7 @@ function submitTest(){
     mentor:document.getElementById('f-mentor').value||'N/D',
     centro:document.getElementById('f-centro').value||'N/D',
   };
-  renderResults();showSection('results');
+  renderResults();updateFlexBadge();showSection('results');
 }
 
 // ── LEVEL INFO ──
