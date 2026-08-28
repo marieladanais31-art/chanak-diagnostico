@@ -572,7 +572,7 @@ footer a{color:rgba(255,255,255,.42);text-decoration:underline}
 <div class="topbar">
   <span><span class="topbar-dot"></span>Chanak International Academy · FLDOE #134620 · Florida, EE. UU.</span>
   <span><span class="topbar-dot"></span>Candidata Oficial a la Acreditación ante MSA-CESS</span>
-  <span><span class="topbar-dot"></span><span id="topbar-offer">Oferta de lanzamiento: 50 €</span></span>
+  <span><span class="topbar-dot"></span><span id="topbar-offer">Evaluación Formativa y Orientación Pedagógica</span></span>
 </div>
 
 <!-- NAVBAR -->
@@ -582,8 +582,8 @@ footer a{color:rgba(255,255,255,.42);text-decoration:underline}
       <img src="logo-chanak.png" alt="Chanak International Academy" class="navbar-logo">
     </a>
     <div class="navbar-actions">
-      <span class="navbar-pill" id="navbar-offer">Inscripción abierta · 50 €</span>
-      <a href="#formulario" class="btn btn-green btn-sm dynamic-cta">Solicitar evaluación por 50 €</a>
+      <span class="navbar-pill" id="navbar-offer">Inscripción abierta</span>
+      <a href="#formulario" class="btn btn-green btn-sm dynamic-cta">Solicitar evaluación diagnóstica</a>
     </div>
   </div>
 </nav>
@@ -597,7 +597,7 @@ footer a{color:rgba(255,255,255,.42);text-decoration:underline}
   <div class="hero-content">
     <div class="hero-kicker he he1">
       <span class="hero-kicker-dot"></span>
-      Evaluación Diagnóstica Académica · Oferta de lanzamiento
+      Evaluación Diagnóstica Académica · Orientación Formativa
     </div>
 
     <h1 class="he he2">
@@ -621,24 +621,9 @@ footer a{color:rgba(255,255,255,.42);text-decoration:underline}
     </div>
 
     <div class="hero-price he he4">
-      <span class="price-was" id="hero-price-was">Precio regular: 80 €</span>
-      <div class="price-big" id="hero-price-big"><sup>€</sup>50</div>
-      <span class="price-note">Oferta de lanzamiento · Pago único</span>
-    </div>
-
-    <div class="hero-btns he he5">
-      <a id="stripe-payment-btn" href="#formulario" class="btn btn-stripe btn-lg">Solicitar evaluación diagnóstica</a>
-      <a id="whatsapp-btn" href="https://wa.me/34624702715?text=Hola%2C%20quiero%20informaci%C3%B3n%20sobre%20la%20Evaluaci%C3%B3n%20Acad%C3%A9mica%20Orientativa%20de%20Chanak." target="_blank" rel="noopener" class="btn btn-green btn-lg">Solicitar información por WhatsApp</a>
-      <a href="https://www.chanakacademy.org" target="_blank" rel="noopener" class="btn btn-ghost btn-lg">Conocer programas Chanak</a>
-    </div>
-    <p class="hero-sub" style="margin-top:14px;margin-bottom:0;color:rgba(255,255,255,.65);font-size:.92rem;">
-      Después del pago, recibirás las instrucciones para acceder a la evaluación diagnóstica.
-    </p>
-
-    <div class="hero-trust he he6">
-      <div class="hero-trust-item"><span class="hero-check">✓</span>PEI inicial incluido</div>
-      <div class="hero-trust-item"><span class="hero-check">✓</span>Certificación interna de dominio</div>
-      <div class="hero-trust-item"><span class="hero-check">✓</span>Recomendación de nivel/grado</div>
+      <span class="price-was" id="hero-price-was" style="display:none;"></span>
+      <div class="price-big" id="hero-price-big" style="font-size:2rem;letter-spacing:1px;">Evaluación Formativa</div>
+      <span class="price-note" id="form-price-label">Servicio Pedagógico y Orientación</span>
     </div>
   </div>
 </section>
@@ -1048,72 +1033,72 @@ const COUNTRY_CONFIG = {
   es: {
     label: 'España',
     heroCopy: 'Evaluación diagnóstica académica para padres y familias homeschool, educación a distancia y familias que necesitan saber el nivel real de su hijo antes de tomar decisiones académicas importantes.',
-    regular: 'Precio regular: 80 €',
-    promo: '50 €',
-    cta: 'Pagar evaluación por 50 €',
-    topbar: 'Oferta de lanzamiento: 50 €',
-    nav: 'Inscripción abierta · 50 €',
-    package: 'Todo lo que necesitas para conocer el nivel real de tu hijo en un solo paquete de 50 €.',
+    regular: '',
+    promo: 'Evaluación Formativa',
+    cta: 'Solicitar evaluación diagnóstica',
+    topbar: 'Evaluación Formativa y Orientación Pedagógica',
+    nav: 'Inscripción abierta',
+    package: 'Herramienta integral para conocer el nivel real de tu hijo.',
     confirm: '¡Solicitud recibida! Un orientador de Chanak Academy se pondrá en contacto contigo en menos de 48 horas para completar el proceso de pago (50 €) y enviarte el enlace de evaluación.',
     formCountry: 'España',
-    priceNote: 'Oferta de lanzamiento · Pago único',
+    priceNote: 'Servicio Pedagógico y Orientación',
     hint: '',
-    priceText: '50 €',
+    priceText: '',
     stripeUrl: PAYMENT_LINKS.es,
-    whatsappText: 'Hola, quiero información sobre la Evaluación Académica Orientativa de Chanak para España. Vi el precio de 50 €.'
+    whatsappText: 'Hola, quiero información sobre la Evaluación Académica Orientativa de Chanak para España. Deseo orientación formativa.'
   },
   pa: {
     label: 'Panamá',
     heroCopy: 'Evaluación diagnóstica académica para familias en Panamá que desean conocer el nivel real de su hijo antes de iniciar un programa americano, Off-Campus, Middle School, High School o Dual Diploma.',
-    regular: 'Precio regular: $80',
-    promo: '$50',
-    cta: 'Pagar evaluación por $50',
-    topbar: 'Oferta de lanzamiento: $50',
-    nav: 'Inscripción abierta · $50',
-    package: 'Todo lo que necesitas para conocer el nivel real de tu hijo en un solo paquete de $50.',
-    confirm: '¡Solicitud recibida! Un orientador de Chanak Academy se pondrá en contacto contigo en menos de 48 horas para completar el proceso de pago ($50) y enviarte el enlace de evaluación.',
+    regular: '',
+    promo: 'Evaluación Formativa',
+    cta: 'Solicitar evaluación diagnóstica',
+    topbar: 'Evaluación Formativa y Orientación Pedagógica',
+    nav: 'Inscripción abierta',
+    package: 'Herramienta integral para conocer el nivel real de tu hijo.',
+    confirm: '¡Solicitud recibida! Un orientador de Chanak Academy se pondrá en contacto contigo en menos de 48 horas para coordinar enviarte el enlace de evaluación.',
     formCountry: 'Panamá',
-    priceNote: 'Oferta de lanzamiento · Pago único',
+    priceNote: 'Servicio Pedagógico y Orientación',
     hint: '',
-    priceText: '$50',
+    priceText: '',
     stripeUrl: PAYMENT_LINKS.pa,
-    whatsappText: 'Hola, quiero información sobre la Evaluación Académica Orientativa de Chanak para Panamá. Vi el precio de $50.'
+    whatsappText: 'Hola, quiero información sobre la Evaluación Académica Orientativa de Chanak para Panamá. Deseo orientación formativa.'
   },
   us: {
     label: 'Estados Unidos',
     heroCopy: 'Academic diagnostic evaluation for families in the United States who need clarity about their child’s current level before making important academic decisions.',
-    regular: 'Precio regular: $80',
-    promo: '$50',
-    cta: 'Pagar evaluación por $50',
-    topbar: 'Launch offer: $50',
-    nav: 'Open enrollment · $50',
-    package: 'Everything you need to understand your child’s real academic level in one $50 package.',
+    regular: '',
+    promo: 'Evaluación Formativa',
+    cta: 'Solicitar evaluación diagnóstica',
+    topbar: 'Evaluación Formativa y Orientación Pedagógica',
+    nav: 'Inscripción abierta',
+    package: 'Herramienta integral para conocer el nivel real de tu hijo.',
     confirm: 'Request received! A Chanak Academy advisor will contact you in less than 48 hours to complete payment ($50) and send your evaluation access instructions.',
     formCountry: 'Estados Unidos',
-    priceNote: 'Oferta de lanzamiento · Pago único',
+    priceNote: 'Servicio Pedagógico y Orientación',
     hint: '',
-    priceText: '$50',
+    priceText: '',
     stripeUrl: PAYMENT_LINKS.us,
     whatsappText: 'Hello, I would like information about Chanak Academic Evaluation for the United States. I saw the price is $50.'
   },
   int: {
     label: 'Internacional',
     heroCopy: 'Evaluación diagnóstica académica internacional para familias que desean conocer el nivel académico real de su hijo y recibir una recomendación de nivel.',
-    regular: 'Precio regular: $80 / 80 €',
-    promo: '$50 / 50 €',
-    cta: 'Solicitar información',
-    topbar: 'Internacional: $50 / 50 €',
-    nav: 'Inscripción abierta · $50 / 50 €',
-    package: 'Evaluación internacional con pago en euros o dólares según prefieras.',
-    confirm: '¡Solicitud recibida! Nuestro equipo te confirmará el precio y la forma de pago según tu país.',
+    regular: '',
+    promo: 'Evaluación Formativa',
+    cta: 'Solicitar evaluación diagnóstica',
+    topbar: 'Evaluación Formativa y Orientación Pedagógica',
+    nav: 'Inscripción abierta',
+    package: 'Herramienta integral para conocer el nivel real de tu hijo.',
+    confirm: '¡Solicitud recibida! Nuestro equipo te enviará las instrucciones de acceso.',
     formCountry: 'Internacional',
-    priceNote: 'Si prefieres, puedes pagar en euros o en dólares.',
+    priceNote: 'Servicio Pedagógico y Orientación',
     hint: 'Internacional: solicita información por WhatsApp o elige pago en EUR/USD.',
-    priceText: '$50 / 50 €',
+    priceText: '',
     stripeUrl: '',
     stripeEurUrl: PAYMENT_LINKS.int_eur,
     stripeUsdUrl: PAYMENT_LINKS.int_usd,
-    whatsappText: 'Hola, quiero información sobre la Evaluación Académica Orientativa de Chanak. Vi el precio de $50 / 50 €.'
+    whatsappText: 'Hola, quiero información sobre la Evaluación Académica Orientativa de Chanak. Deseo orientación formativa.'
   }
 };
 
@@ -1138,7 +1123,7 @@ function trackMetaEvent(eventName, payload = {}) {
 
 function updateWhatsAppLink(countryCode) {
   const cfg = COUNTRY_CONFIG[countryCode] || COUNTRY_CONFIG.int;
-  const message = encodeURIComponent(cfg.whatsappText || `Hola, quiero información sobre la Evaluación Académica Orientativa de Chanak para ${cfg.label}. Vi el precio ${cfg.priceText}.`);
+  const message = encodeURIComponent(cfg.whatsappText || `Hola, quiero información sobre la Evaluación Académica Orientativa de Chanak para ${cfg.label}. Deseo orientación formativa.priceText}.`);
   const btn = document.getElementById("whatsapp-btn");
   if (btn) btn.href = `https://wa.me/${WHATSAPP_PHONE}?text=${message}`;
 }
@@ -1147,7 +1132,7 @@ function applyCountryConfig(countryCode) {
   const c = COUNTRY_CONFIG[countryCode] || COUNTRY_CONFIG.int;
   document.getElementById('hero-copy').textContent = c.heroCopy;
   document.getElementById('hero-price-was').textContent = c.regular;
-  document.getElementById('hero-price-big').innerHTML = c.promo === '50 €' ? '<sup>€</sup>50' : (c.promo === '$50' ? '<sup>$</sup>50' : c.promo);
+  document.getElementById('hero-price-big').textContent = 'Evaluación Formativa';
   document.getElementById('cta-price-was').textContent = c.regular;
   document.getElementById('cta-price-now').textContent = c.promo;
   document.getElementById('form-price-was').textContent = c.regular;
