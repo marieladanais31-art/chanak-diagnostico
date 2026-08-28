@@ -627,7 +627,7 @@ footer a{color:rgba(255,255,255,.42);text-decoration:underline}
     </div>
 
     <div class="hero-btns he he5">
-      <a id="stripe-payment-btn" href="https://buy.stripe.com/6oU00k5F79pj1F660267S03" target="_blank" rel="noopener" class="btn btn-stripe btn-lg">Pagar evaluación por 50 €</a>
+      <a id="stripe-payment-btn" href="#formulario" class="btn btn-stripe btn-lg">Solicitar evaluación diagnóstica</a>
       <a id="whatsapp-btn" href="https://wa.me/34624702715?text=Hola%2C%20quiero%20informaci%C3%B3n%20sobre%20la%20Evaluaci%C3%B3n%20Acad%C3%A9mica%20Orientativa%20de%20Chanak." target="_blank" rel="noopener" class="btn btn-green btn-lg">Solicitar información por WhatsApp</a>
       <a href="https://www.chanakacademy.org" target="_blank" rel="noopener" class="btn btn-ghost btn-lg">Conocer programas Chanak</a>
     </div>
@@ -1165,8 +1165,8 @@ function applyCountryConfig(countryCode) {
     stripeBtn.textContent = 'Solicitar información';
     stripeBtn.href = `https://wa.me/${WHATSAPP_PHONE}`;
   } else {
-    stripeBtn.textContent = c.cta;
-    stripeBtn.href = withUTM(c.stripeUrl);
+    stripeBtn.textContent = "Solicitar evaluación diagnóstica";
+    stripeBtn.href = "#formulario";
   }
   updateWhatsAppLink(countryCode);
 }
