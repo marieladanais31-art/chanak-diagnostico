@@ -84,3 +84,28 @@ test('las lagunas se expresan como unidades de aprendizaje y el punto de continu
   assert.equal(r.gaps[0].lu.id, 'LU-X-01-05');
   assert.equal(r.continueAt.id, 'LU-X-04-04');
 });
+
+const cblock = (level, okN, n = 20) => ({ level, units: Array.from({ length: n }, (_, i) => ({ correct: i < okN, area: ['grammar', 'vocabulary', 'reading', 'usage'][i % 4], lu: { id: `LU-CEFR-${C.CEFR[level - 1]}-${String(i + 1).padStart(2, '0')}` } })) });
+
+test('CEFR: sube de nivel mientras haya dominio y fija el nivel alcanzado', () => {
+  const blocks = [cblock(1, 19), cblock(2, 17), cblock(3, 14), cblock(4, 8, 20)];
+  assert.deepEqual(C.cefrNext(blocks), { action: 'ask', level: 5 });
+  const r = C.cefrResult(blocks);
+  assert.equal(r.code, 'B1'); // B2 con 40 % no alcanza el 65 %
+  assert.equal(r.borderline, false);
+  assert.equal(r.nextCode, 'B2');
+  assert.ok(r.gaps.every((g) => g.level <= 4));
+});
+
+test('CEFR: se detiene cuando dos niveles seguidos están por debajo de 50 % o uno por debajo de 35 %', () => {
+  assert.equal(C.cefrNext([cblock(1, 18), cblock(2, 6)]).action, 'done');
+  assert.equal(C.cefrNext([cblock(1, 18), cblock(2, 9), cblock(3, 9)]).action, 'done');
+  assert.equal(C.cefrNext([cblock(1, 18), cblock(2, 9)]).action, 'ask');
+  assert.equal(C.cefrNext([cblock(1, 20), cblock(2, 20), cblock(3, 20), cblock(4, 20), cblock(5, 15, 15), cblock(6, 15, 15)]).action, 'done');
+});
+
+test('CEFR: Pre-A1 y nivel en el límite', () => {
+  assert.equal(C.cefrResult([cblock(1, 8)]).code, 'Pre-A1');
+  const r = C.cefrResult([cblock(1, 20), cblock(2, 12)]);
+  assert.equal(r.code, 'A1'); assert.equal(r.borderline, true);
+});

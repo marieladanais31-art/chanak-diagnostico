@@ -5,6 +5,7 @@
   const $ = (id) => document.getElementById(id);
   const esc = (s) => String(s == null ? '' : s).replace(/[&<>"']/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
 
+  const SUBJ = () => S.plan.filter((x) => x !== 'comp'); // ['math','ela'] (Off-Campus) o ['cefr'] (Dual Diploma)
   // ── Estado ────────────────────────────────────────────────────────────────
   let LANG = 'es';
   const S = { form: {}, grade: 0, track: 'off', bible: false, us: false, plan: [], results: {}, comp: null, map: null, current: null, inProgress: false };
@@ -13,11 +14,11 @@
   // ── Textos ────────────────────────────────────────────────────────────────
   const TX = {
     es: {
-      subj: { math: 'Matemáticas', ela: 'Inglés y Lectura', comp: 'Áreas complementarias' },
+      subj: { math: 'Matemáticas', ela: 'Inglés y Lectura', cefr: 'Nivel de inglés (MCER)', comp: 'Áreas complementarias' },
       step: (n) => `Bloque ${n}`, ofQ: (a, b) => `Respondidas ${a} de ${b}`,
       next: 'Continuar →', finish: 'Ver resultados →', checking: 'Corrigiendo…',
       confirmBlank: 'Hay preguntas sin responder. Las que se dejen en blanco cuentan como no logradas. ¿Continuar?',
-      needName: 'Por favor, introduce el nombre del estudiante.', needGrade: 'Selecciona el curso declarado.', needMentor: 'Indica el mentor o evaluador.',
+      handwritingOff: 'Para que el mentor vea su letra, sube fotos claras (con buena luz) de: 1) una oración copiada y un párrafo de 4 a 5 líneas escrito a mano por el estudiante; 2) una hoja con las operaciones de Matemáticas hechas con procedimiento. Puedes subir hasta 15 archivos (JPG, PNG o PDF).', handwritingDual: 'Sube una foto clara de un párrafo de 8 a 10 líneas escrito a mano en inglés por el estudiante (tema libre: su rutina o su familia). Puedes subir hasta 15 archivos (JPG, PNG o PDF).', copyBtn: 'Descargar mi copia (PDF)', returnLink: 'Enlace para subir más fotos después', submitting: 'Enviando resultados…', needConsent: 'Debes autorizar el envío de los resultados a Chanak para continuar.', cefrIntro: 'Prueba de nivel de inglés (A1 a C2). Contesta con calma; si el nivel se vuelve muy difícil la prueba se detiene sola.', cefrNote: 'Esta prueba mide gramática, vocabulario, lectura y uso del idioma. No evalúa expresión oral ni escrita: el mentor las valora en la observación.', sentOk: 'Resultados enviados a coordinación', sentFail: 'No se pudieron enviar los resultados a Chanak. Descarga tu copia y vuelve a intentarlo.', retry: 'Reintentar envío', uploadTitle: 'Sube lo escrito por el estudiante', uploadOk: 'archivo(s) subido(s)', uploadErr: 'No se pudo subir', reviewedBy: 'Revisará', needName: 'Por favor, introduce el nombre del estudiante.', needGrade: 'Selecciona el curso declarado.', needMentor: 'Indica el mentor o evaluador.',
       netError: 'No se pudo conectar con el servidor del diagnóstico. Revisa la conexión e inténtalo de nuevo.',
       readAloud: 'Matemáticas está en inglés: si el estudiante todavía no lee inglés, un adulto puede leer los enunciados en voz alta.',
       mathIntro: 'Evaluación de Matemáticas (en inglés). Empieza por debajo del curso declarado para detectar lagunas y sube hasta su nivel.',
@@ -34,11 +35,11 @@
       startPoint: 'Punto de partida', perf: 'Nivel de desempeño',
     },
     en: {
-      subj: { math: 'Mathematics', ela: 'English & Reading', comp: 'Additional areas' },
+      subj: { math: 'Mathematics', ela: 'English & Reading', cefr: 'English level (CEFR)', comp: 'Additional areas' },
       step: (n) => `Block ${n}`, ofQ: (a, b) => `Answered ${a} of ${b}`,
       next: 'Continue →', finish: 'See results →', checking: 'Scoring…',
       confirmBlank: 'Some questions are unanswered. Blank answers count as not mastered. Continue?',
-      needName: "Please enter the student's name.", needGrade: 'Select the declared grade.', needMentor: 'Enter the mentor or evaluator.',
+      handwritingOff: "So the mentor can see the student's handwriting, upload clear photos (good light) of: 1) a copied sentence and a 4-5 line paragraph handwritten by the student; 2) a sheet with the Math problems worked out with procedure. Up to 15 files (JPG, PNG or PDF).", handwritingDual: "Upload a clear photo of an 8-10 line paragraph handwritten in English by the student (free topic: their routine or family). Up to 15 files (JPG, PNG or PDF).", copyBtn: 'Download my copy (PDF)', returnLink: 'Link to upload more photos later', submitting: 'Sending results…', needConsent: 'You must authorize sending the results to Chanak to continue.', cefrIntro: 'English level test (A1 to C2). Take your time; if the level becomes too hard the test stops by itself.', cefrNote: 'This test measures grammar, vocabulary, reading and use of English. It does not assess speaking or writing: the mentor evaluates those in the observation.', sentOk: 'Results sent to the review team', sentFail: 'The results could not be sent to Chanak. Download your copy and try again.', retry: 'Retry sending', uploadTitle: "Upload the student's handwriting", uploadOk: 'file(s) uploaded', uploadErr: 'Upload failed', reviewedBy: 'Reviewer', needName: "Please enter the student's name.", needGrade: 'Select the declared grade.', needMentor: 'Enter the mentor or evaluator.',
       netError: 'Could not reach the diagnostic server. Check your connection and try again.',
       readAloud: 'If the student cannot yet read English, an adult may read the questions aloud.',
       mathIntro: 'Mathematics assessment. It starts below the declared grade to find gaps, then moves up to grade level.',
@@ -117,6 +118,7 @@
     if (!f.nombre.trim()) { alert(T().needName); return; }
     if (f.curso === '') { alert(T().needGrade); return; }
     if (!f.mentor.trim()) { alert(T().needMentor); return; }
+    if (!$('f-consent').checked) { alert(T().needConsent); return; }
     S.form = f; S.grade = Number(f.curso); S.track = f.programa; S.us = f.pais === 'EE. UU. / Florida';
     buildPlan(); renderPlanSummary(); showSection('level');
   };
@@ -126,15 +128,15 @@
   }
   function buildPlan() {
     const plan = [];
-    if (S.track === 'dual') { if (S.form.ingles !== 'no') plan.push('ela'); }
+    if (S.track === 'dual') { plan.push('cefr'); }
     else { plan.push('math'); if (S.form.ingles !== 'no') plan.push('ela'); }
     plan.push('comp');
     S.plan = plan;
   }
   function renderPlanSummary() {
     const g = S.grade; const start = C.startLevel(g);
-    const rows = S.plan.filter((s) => s !== 'comp').map((s) => `<li><strong>${esc(T().subj[s])}</strong> — ${LANG === 'es' ? 'empieza en' : 'starts at'} ${esc(GRADE_LABEL(start))} → ${esc(GRADE_LABEL(g))}</li>`);
-    if (S.form.ingles === 'no') rows.push(`<li>${esc(T().skipENG)}</li>`);
+    const rows = S.plan.filter((s) => s !== 'comp').map((s) => (s === 'cefr' ? `<li><strong>${esc(T().subj.cefr)}</strong> — ${LANG === 'es' ? '110 preguntas, de A1 a C2' : '110 questions, A1 to C2'}</li>` : `<li><strong>${esc(T().subj[s])}</strong> — ${LANG === 'es' ? 'empieza en' : 'starts at'} ${esc(GRADE_LABEL(start))} → ${esc(GRADE_LABEL(g))}</li>`));
+    if (S.form.ingles === 'no' && S.track !== 'dual') rows.push(`<li>${esc(T().skipENG)}</li>`);
     rows.push(`<li><strong>${esc(T().subj.comp)}</strong> — ${esc(T().compIntro.replace(/^[^:]+: /, ''))}</li>`);
     $('plan-summary').innerHTML = `<ul class="plist">${rows.join('')}</ul>`;
   }
@@ -153,10 +155,10 @@
     window.addEventListener('beforeunload', onBeforeUnload);
     await loadMap();
     try {
-      for (const subj of S.plan) { if (subj === 'comp') await runComp(); else await runSubject(subj); }
+      for (const subj of S.plan) { if (subj === 'comp') await runComp(); else if (subj === 'cefr') await runCefr(); else await runSubject(subj); }
     } catch (e) { console.error(e); alert(T().netError); S.inProgress = false; return; }
     S.inProgress = false; window.removeEventListener('beforeunload', onBeforeUnload);
-    finalizeResults(); renderResults(); showSection('results');
+    finalizeResults(); renderResults(); showSection('results'); submitResults();
   };
 
   // Muestra un bloque de preguntas y devuelve las respuestas cuando el usuario continúa.
@@ -226,6 +228,23 @@
     throw new Error('Demasiados bloques');
   }
 
+
+  async function runCefr() {
+    const blocks = []; let level = 1; let n = 0;
+    for (let guard = 0; guard < 8; guard++) {
+      n++;
+      const data = await api(`/api/diag-items?subject=cefr&level=${level}&lang=en`);
+      const code = C.CEFR[level - 1];
+      const ans = await askBlock({ title: `${T().subj.cefr} · ${code}`, intro: T().cefrIntro, items: data.items, stepLabel: T().step(n), last: false });
+      const sc = await api('/api/diag-score', { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({ subject: 'cefr', level, answers: ans }) });
+      blocks.push({ level, units: sc.units });
+      const step = C.cefrNext(blocks);
+      if (step.action === 'done') break;
+      level = step.level;
+    }
+    S.results.cefr = C.cefrResult(blocks);
+  }
+
   async function runComp() {
     const band = S.grade <= 3 ? 1 : S.grade <= 6 ? 2 : S.grade <= 9 ? 3 : 4;
     const areas = S.track === 'dual' ? ['ei'] : null;
@@ -256,6 +275,7 @@
       const level = r.kinder || r.abcs ? 0 : r.performanceLevel;
       sum[s] = { level, eq: eqFor(level), res: r };
     });
+    if (S.results.cefr) sum.cefr = { level: S.results.cefr.level, eq: null, res: S.results.cefr };
     S.summary = sum;
   }
 
@@ -296,14 +316,30 @@
       ${(eqRows || refGaps || refPerf) ? `<details class="refs"><summary>${esc(T().refs)}</summary><table class="equiv-t"><tbody>${refGaps}${refPerf}${eqRows}</tbody></table></details>` : ''}</div>`;
   }
 
+
+  function cefrCard() {
+    const x = S.summary.cefr; if (!x) return '';
+    const r = x.res;
+    const bars = r.tested.map((c) => `<div class="arow"><div class="aname">${esc(c)}</div>${bar(pct(r.pct[c]))}<div class="apct">${pct(r.pct[c])}%</div></div>`).join('');
+    const areaNames = { grammar: LANG === 'es' ? 'Gramática' : 'Grammar', vocabulary: LANG === 'es' ? 'Vocabulario' : 'Vocabulary', reading: LANG === 'es' ? 'Lectura' : 'Reading', usage: LANG === 'es' ? 'Uso del idioma' : 'Use of English' };
+    const areaBars = Object.entries(r.areas).map(([a, v]) => `<div class="arow"><div class="aname">${esc(areaNames[a] || a)}</div>${bar(pct(v.c / v.t))}<div class="apct">${pct(v.c / v.t)}%</div></div>`).join('');
+    const gaps = r.gaps || [];
+    const gapCards = gaps.length ? `<div class="lu-list">${gaps.slice(0, 24).map((g) => `<div class="lu-item"><div class="lu-top"><span class="lu-chip">${esc(g.lu ? g.lu.id : '')}</span><span class="lu-lvl">${esc(g.cefr)}</span></div><div class="lu-concept">${esc(luConcept(g))}</div>${luText(g.lu, 'tip') ? `<div class="lu-tip"><strong>${esc(T().practice)}:</strong> ${esc(luText(g.lu, 'tip'))}</div>` : ''}</div>`).join('')}</div>` : `<p class="muted">${esc(T().noGaps)}</p>`;
+    const border = r.borderline ? `<div class="note">${LANG === 'es' ? `Cerca de ${esc(r.nextCode)}: con un poco de refuerzo puede alcanzarlo.` : `Close to ${esc(r.nextCode)}: a little reinforcement should get there.`}</div>` : '';
+    return `<div class="icard subj"><h4>${esc(T().subj.cefr)}</h4>
+      <p><span class="cefr-big">${esc(r.code)}</span> ${LANG === 'es' ? 'nivel estimado según el MCER' : 'estimated CEFR level'}</p>${border}<div class="note">${esc(T().cefrNote)}</div>
+      <div class="areas-list" style="margin-top:12px">${bars}</div><h5>${LANG === 'es' ? 'Por destreza' : 'By skill'}</h5><div class="areas-list">${areaBars}</div>
+      <h5>${esc(T().gaps)} (${gaps.length})</h5>${gapCards}</div>`;
+  }
+
   function renderResults() {
     if (!S.summary) return;
     const f = SD(); const fecha = new Date().toLocaleDateString(LANG === 'es' ? 'es-ES' : 'en-US', { day: '2-digit', month: 'long', year: 'numeric' });
     $('r-name').textContent = f.nombre; $('r-meta').textContent = `${f.curso} · ${f.pais || ''} · ${fecha}`;
     const alerts = [];
-    if (S.form.ingles === 'no') alerts.push(T().skipENG, T().abcRec);
+    if (S.form.ingles === 'no' && S.track !== 'dual') alerts.push(T().skipENG, T().abcRec);
     $('r-alerts').innerHTML = alerts.map((a) => `<div class="note">${esc(a)}</div>`).join('');
-    $('r-subjects').innerHTML = ['math', 'ela'].map(subjectCard).join('');
+    $('r-subjects').innerHTML = S.track === 'dual' ? cefrCard() : ['math', 'ela'].map(subjectCard).join('');
     // Áreas complementarias
     let comp = '';
     if (S.comp) {
@@ -318,6 +354,7 @@
   function strengthsAndNeeds() {
     const strong = [], need = [];
     ['math', 'ela'].forEach((s) => { const r = S.results[s]; if (!r) return; const p = r.overallPct != null ? r.overallPct : (r.kPct || 0); (p >= 0.8 ? strong : need).push(T().subj[s]); });
+    if (S.results.cefr) { const c = S.results.cefr; (c.level >= 3 ? strong : need).push(`${T().subj.cefr}: ${c.code}`); }
     if (S.comp) Object.entries(S.comp.by).forEach(([a, v]) => { (v.c / v.t >= 0.7 ? strong : need).push((AREA[LANG] || AREA.es)[a] || a); });
     return { strong, need };
   }
@@ -334,12 +371,17 @@
       lines.push(`${lbl}: ${GRADE_LABEL(x.level)}${at ? ' · ' + at : ''}${cons.length ? ' · ' + (LANG === 'es' ? 'reforzar' : 'reinforce') + ': ' + cons.join('; ') : ''}`);
       plan.push(`${lbl}: ${cons.length ? (LANG === 'es' ? 'reforzar ' : 'reinforce ') + cons.map((c) => c.split(' ')[0]).join(', ') + ' → ' : ''}${at}`);
     });
+    if (S.results.cefr) {
+      const c = S.results.cefr; const cons = c.gaps.map((g) => `${g.lu ? g.lu.id : ''} ${luConcept(g)}`.trim());
+      lines.push(`${T().subj.cefr}: ${c.code}${c.borderline ? ' (+)' : ''}${cons.length ? ' · ' + (LANG === 'es' ? 'reforzar' : 'reinforce') + ': ' + cons.slice(0, 12).join('; ') : ''}`);
+      plan.push(`${T().subj.cefr}: ${c.code} → ${c.nextCode || 'C2'}${cons.length ? ' · ' + (LANG === 'es' ? 'reforzar ' : 'reinforce ') + c.gaps.slice(0, 12).map((g) => g.lu && g.lu.id).filter(Boolean).join(', ') : ''}`);
+    }
     return {
-      source: 'chanak-diagnostico-v2', version: '2.1', date: new Date().toISOString().slice(0, 10),
+      source: 'chanak-diagnostico-v2', version: '2.2', date: new Date().toISOString().slice(0, 10),
       student: { name: f.nombre, birth_date: f.fecha || null, age: f.edad || null, declared_grade: Number(S.form.curso), country: f.pais || null, home_languages: f.idiomas || null, previous_school: f.centro || null },
       family: { guardian_name: f.tutor || null, email: f.email || null },
       track: S.track, english_reading_level: S.form.ingles, ui_language: LANG, us_version: S.us, mentor: f.mentor,
-      subjects: ['math', 'ela'].filter((s) => S.summary[s]).map((s) => {
+      subjects: ['math', 'ela'].filter((s) => S.summary[s] && S.results[s]).map((s) => {
         const r = S.summary[s].res; const eq = S.summary[s].eq; const key = s === 'ela' ? 'english' : 'math';
         return {
           subject: s, working_level: S.summary[s].level, kinder: r.kinder, abcs: r.abcs, found: r.found, capped: r.capped,
@@ -348,6 +390,7 @@
           references: { ace_performance_pace: r.performancePace || null, ace_range: eq ? eq.ace[key].pace_range : null, cle_level: eq ? eq.cle.languageArts * 100 : null, lifepac_level: eq ? eq.lifepac : null, florida: eq ? eq.florida : null },
         };
       }),
+      cefr: S.results.cefr ? { level: S.results.cefr.code, borderline: S.results.cefr.borderline, next_level: S.results.cefr.nextCode, level_pct: S.results.cefr.pct, areas: S.results.cefr.areas, learning_units_to_reinforce: S.results.cefr.gaps.map((g) => ({ ...luOut(g.lu), cefr: g.cefr, area: g.area })) } : null,
       complementary: S.comp ? Object.fromEntries(Object.entries(S.comp.by).map(([a, v]) => [a, { correct: v.c, total: v.t }])) : null,
       pei_fields: {
         diagnostic_results: lines.join('\n'), strength_areas: sn.strong.join(', '), improvement_areas: sn.need.join(', '),
@@ -366,15 +409,16 @@
     const L = LANG === 'es'
       ? { title: 'Plan Educativo Individualizado', issued: 'Emitido', student: 'Estudiante', age: 'Edad / Curso declarado', country: 'País de referencia', mentor: 'Mentor / Evaluador', start: 'Punto de partida por materia', summary: 'Resumen diagnóstico', strengths: 'Fortalezas', needs: 'Áreas a reforzar', goals: 'Objetivos prioritarios', plan: 'Plan de 8–12 semanas', obs: 'Observación del mentor', rec: 'Recomendación del mentor', voc: 'Intereses y vocación', sign: 'Firmas', y: 'años', none: '—', concepts: 'Conceptos a reforzar antes de avanzar', refs: 'Referencias (solo orientativas)' }
       : { title: 'Individualized Education Plan', issued: 'Issued', student: 'Student', age: 'Age / Declared grade', country: 'Reference country', mentor: 'Mentor / Evaluator', start: 'Starting point by subject', summary: 'Diagnostic summary', strengths: 'Strengths', needs: 'Areas to strengthen', goals: 'Priority goals', plan: '8–12 week plan', obs: "Mentor's observation", rec: "Mentor's recommendation", voc: 'Interests and vocation', sign: 'Signatures', y: 'years', none: '—', concepts: 'Concepts to reinforce before moving on', refs: 'References (indicative only)' };
-    const subs = ['math', 'ela'].filter((s) => S.summary[s]);
+    const subs = SUBJ().filter((s) => S.summary[s]);
     const startRows = subs.map((s) => {
       const x = S.summary[s]; const r = x.res;
+      if (s === 'cefr') return `<tr><td><strong>${esc(T().subj.cefr)}</strong></td><td>CEFR ${esc(r.code)}${r.borderline ? ' (+)' : ''}</td><td>${esc(String(r.gaps.length))}</td></tr>`;
       const where = r.kinder ? 'Kindergarten' : r.abcs ? 'Kindergarten ✓ → Level 1' : `${GRADE_LABEL(x.level)}${r.continueAt ? ' · ' + r.continueAt.id : ''}`;
       return `<tr><td><strong>${esc(T().subj[s])}</strong></td><td>${esc(where)}</td><td>${esc(String((r.gaps || []).length))}</td></tr>`;
     }).join('');
     const conceptBlocks = subs.map((s) => {
       const r = S.results[s]; if (!r || !r.gaps || !r.gaps.length) return '';
-      return `<h5 class="pei-h5">${esc(T().subj[s])}</h5><div class="lu-list">${r.gaps.map((g) => `<div class="lu-item"><div class="lu-top"><span class="lu-chip">${esc(g.lu ? g.lu.id : '')}</span><span class="lu-lvl">${esc(GRADE_LABEL(g.level))}</span></div><div class="lu-concept">${esc(luConcept(g))}</div>${luText(g.lu, 'tip') ? `<div class="lu-tip"><strong>${esc(T().practice)}:</strong> ${esc(luText(g.lu, 'tip'))}</div>` : ''}</div>`).join('')}</div>`;
+      return `<h5 class="pei-h5">${esc(T().subj[s])}</h5><div class="lu-list">${r.gaps.slice(0, 24).map((g) => `<div class="lu-item"><div class="lu-top"><span class="lu-chip">${esc(g.lu ? g.lu.id : '')}</span><span class="lu-lvl">${esc(g.cefr || GRADE_LABEL(g.level))}</span></div><div class="lu-concept">${esc(luConcept(g))}</div>${luText(g.lu, 'tip') ? `<div class="lu-tip"><strong>${esc(T().practice)}:</strong> ${esc(luText(g.lu, 'tip'))}</div>` : ''}</div>`).join('')}</div>`;
     }).join('');
     const goals = [];
     subs.forEach((s) => { const r = S.results[s]; if (r && r.gaps && r.gaps.length) goals.push(LANG === 'es' ? `${T().subj[s]}: reforzar ${r.gaps.length} concepto(s) antes de avanzar (${r.gaps.map((g) => g.lu && g.lu.id).filter(Boolean).join(', ')}).` : `${T().subj[s]}: reinforce ${r.gaps.length} concept(s) before moving on (${r.gaps.map((g) => g.lu && g.lu.id).filter(Boolean).join(', ')}).`); });
@@ -414,7 +458,7 @@ ${refRows ? `<div class="pblk refs-foot"><h3>${L.refs}</h3><table class="equiv-t
 
   window.buildCert = () => {
     const f = SD(); const fecha = new Date().toLocaleDateString(LANG === 'es' ? 'es-ES' : 'en-US', { day: '2-digit', month: 'long', year: 'numeric' });
-    const rows = ['math', 'ela'].filter((s) => S.summary[s]).map((s) => { const x = S.summary[s]; const r = x.res; return `<div class="cf"><div class="cl">${esc(T().subj[s])}</div><div class="cv">${r.kinder ? 'Kindergarten' : esc(GRADE_LABEL(x.level)) + (r.performancePace ? ' · PACE ' + r.performancePace : '')}</div></div>`; }).join('');
+    const rows = SUBJ().filter((s) => S.summary[s]).map((s) => { const x = S.summary[s]; const r = x.res; if (s === 'cefr') return `<div class="cf"><div class="cl">${esc(T().subj.cefr)}</div><div class="cv">CEFR ${esc(r.code)}</div></div>`; return `<div class="cf"><div class="cl">${esc(T().subj[s])}</div><div class="cv">${r.kinder ? 'Kindergarten' : esc(GRADE_LABEL(x.level)) + (r.performancePace ? ' · PACE ' + r.performancePace : '')}</div></div>`; }).join('');
     $('cert-content').innerHTML = `<div class="cert-wrap"><div class="cert-in">
       <div class="cert-top"><div class="cert-la"><div class="cert-lb">CIA</div><div><div class="cert-on">Chanak International Academy</div><div class="cert-or">FLDOE Reg. #134620 · MSA-CESS · Florida, USA</div></div></div><div class="cert-badge-box"><div class="tp">${LANG === 'es' ? 'Diagnóstico' : 'Diagnostic'}</div><div class="yr">${new Date().getFullYear()}</div></div></div>
       <div class="cert-body"><div class="cert-pre">${LANG === 'es' ? 'CERTIFICA QUE EL / LA ESTUDIANTE' : 'THIS CERTIFIES THAT THE STUDENT'}</div><div class="cert-sn">${esc(f.nombre)}</div>
@@ -444,5 +488,84 @@ ${refRows ? `<div class="pblk refs-foot"><h3>${L.refs}</h3><table class="equiv-t
     } catch { alert(T().netError); }
   };
 
-  document.addEventListener('DOMContentLoaded', () => { applyLang(); _show('landing'); });
+
+  // ── Envío a coordinación, subida de lo escrito y copia para la familia ─────
+  const BASE = location.origin + location.pathname;
+  async function postJson(url, body) {
+    const r = await fetch(url, { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify(body) });
+    const j = await r.json().catch(() => ({}));
+    if (!r.ok) { const e = new Error(j.error || ('HTTP ' + r.status)); e.status = r.status; throw e; }
+    return j;
+  }
+  async function submitResults() {
+    const box = $('r-sent');
+    box.className = 'note'; box.textContent = T().submitting;
+    try {
+      const payload = S.pei || buildPeiPayload(); S.pei = payload;
+      const out = await postJson('/api/diag-submit', { track: S.track, payload });
+      S.sub = { id: out.id, token: out.upload_token, route: out.route_email };
+      box.className = 'note ok'; box.innerHTML = `✓ ${esc(T().sentOk)} (<strong>${esc(out.route_email)}</strong>)`;
+      renderUploadPanel();
+    } catch (e) {
+      box.className = 'note warn'; box.innerHTML = `${esc(T().sentFail)} <button class="btn btn-s" style="padding:3px 12px" onclick="retrySubmit()">${esc(T().retry)}</button>`;
+    }
+    $('r-print-link').textContent = S.sub ? `${BASE}?s=${S.sub.id}&t=${S.sub.token}` : '';
+  }
+  window.retrySubmit = () => submitResults();
+
+  function renderUploadPanel() {
+    $('r-upload').classList.remove('hidden');
+    $('up-title').textContent = T().uploadTitle;
+    $('up-help').textContent = S.track === 'dual' ? T().handwritingDual : T().handwritingOff;
+  }
+
+  // Reduce las fotos del móvil (≈1600 px, JPEG) antes de subirlas.
+  function downscale(file) {
+    return new Promise((resolve, reject) => {
+      if (!/^image\//.test(file.type) || /heic|heif/i.test(file.type)) { reject(new Error('type')); return; }
+      const img = new Image(); const url = URL.createObjectURL(file);
+      img.onload = () => {
+        const max = 1600; const k = Math.min(1, max / Math.max(img.width, img.height));
+        const c = document.createElement('canvas'); c.width = Math.round(img.width * k); c.height = Math.round(img.height * k);
+        c.getContext('2d').drawImage(img, 0, 0, c.width, c.height); URL.revokeObjectURL(url);
+        c.toBlob((b) => (b ? resolve(b) : reject(new Error('blob'))), 'image/jpeg', 0.82);
+      };
+      img.onerror = () => { URL.revokeObjectURL(url); reject(new Error('img')); };
+      img.src = url;
+    });
+  }
+  const toB64 = (blob) => new Promise((resolve, reject) => { const r = new FileReader(); r.onload = () => resolve(String(r.result).split(',')[1]); r.onerror = reject; r.readAsDataURL(blob); });
+
+  window.uploadFiles = async (input) => {
+    const files = [...input.files]; if (!files.length || !S.sub) return;
+    const list = $('up-list'); let ok = 0;
+    for (const f of files) {
+      const row = document.createElement('div'); row.className = 'up-row'; row.textContent = f.name + ' …'; list.appendChild(row);
+      try {
+        let blob = f, mime = f.type;
+        if (/^image\//.test(f.type)) { blob = await downscale(f); mime = 'image/jpeg'; }
+        else if (f.type !== 'application/pdf') throw new Error('type');
+        if (blob.size > 3 * 1024 * 1024) throw new Error('size');
+        await postJson('/api/diag-upload', { id: S.sub.id, token: S.sub.token, name: f.name, mime, data: await toB64(blob), note: $('up-note').value.slice(0, 300) });
+        row.textContent = '✓ ' + f.name; ok++;
+      } catch (e) { row.textContent = `✗ ${f.name} — ${T().uploadErr}`; row.classList.add('bad'); }
+    }
+    input.value = '';
+    $('up-count').textContent = `${(Number($('up-count').dataset.n || 0) + ok)} ${T().uploadOk}`; $('up-count').dataset.n = Number($('up-count').dataset.n || 0) + ok;
+  };
+
+  window.downloadCopy = () => { if (S.sub) $('r-print-link').textContent = `${BASE}?s=${S.sub.id}&t=${S.sub.token}`; window.print(); };
+
+  // Página solo de subida: ?s=<id>&t=<token> (enlace de la copia impresa)
+  function uploadOnlyMode() {
+    const q = new URLSearchParams(location.search); const id = q.get('s'); const t = q.get('t');
+    if (!id || !t || !/^[0-9a-f-]{36}$/.test(id) || !/^[0-9a-f]{8,64}$/.test(t)) return false;
+    S.sub = { id, token: t }; S.track = q.get('p') === 'dual' ? 'dual' : 'off';
+    renderUploadPanel(); $('r-upload').classList.remove('hidden');
+    SECTIONS.forEach((x) => $('section-' + x).classList.add('hidden')); $('section-upload').classList.remove('hidden');
+    $('up-host').appendChild($('r-upload'));
+    return true;
+  }
+
+  document.addEventListener('DOMContentLoaded', () => { applyLang(); if (!uploadOnlyMode()) _show('landing'); });
 })();

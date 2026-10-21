@@ -18,7 +18,7 @@ function load() {
   return items;
 }
 
-const SUBJECTS = ['math', 'ela', 'comp'];
+const SUBJECTS = ['math', 'ela', 'comp', 'cefr'];
 // Opciones de las áreas complementarias: bible=1 incluye Biblia; areas='ei,science'; us=1 usa la variante de EE. UU.
 function itemsFor(subject, level, opts = {}) {
   let list = load().filter((it) => it.subject === subject && it.level === level);

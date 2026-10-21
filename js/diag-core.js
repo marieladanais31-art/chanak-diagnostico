@@ -115,5 +115,40 @@
     };
   }
 
-  return { MASTERY, RUN, startLevel, paceLevel, paceRange, sequence, findRun, next, finish, equivalences };
+
+  // ── Prueba de nivel de inglés (CEFR) para Dual Diploma ──────────────────
+  const CEFR = ['A1', 'A2', 'B1', 'B2', 'C1', 'C2'];
+  const CEFR_PASS = 0.65;
+  // blocks: [{ level: 1..6, units: [{ correct, area, lu }] }] en orden. Decide si hay que seguir con el siguiente nivel.
+  function cefrNext(blocks) {
+    const p = (b) => (b.units.length ? b.units.filter((u) => u.correct).length / b.units.length : 0);
+    const n = blocks.length;
+    if (n === 0) return { action: 'ask', level: 1 };
+    const last = blocks[n - 1];
+    if (last.level >= 6) return { action: 'done' };
+    const pl = p(last);
+    if (pl < 0.35) return { action: 'done' };
+    if (n >= 2 && pl < 0.5 && p(blocks[n - 2]) < 0.5) return { action: 'done' };
+    return { action: 'ask', level: last.level + 1 };
+  }
+  function cefrResult(blocks) {
+    const sorted = blocks.slice().sort((a, b) => a.level - b.level);
+    const pct = {};
+    sorted.forEach((b) => { pct[CEFR[b.level - 1]] = b.units.length ? b.units.filter((u) => u.correct).length / b.units.length : 0; });
+    let reached = 0;
+    for (const b of sorted) {
+      if (b.level !== reached + 1) break;
+      if (pct[CEFR[b.level - 1]] >= CEFR_PASS) reached = b.level; else break;
+    }
+    const nextCode = CEFR[reached];
+    const borderline = !!nextCode && pct[nextCode] !== undefined && pct[nextCode] >= 0.45 && pct[nextCode] < CEFR_PASS;
+    const areas = {};
+    sorted.forEach((b) => b.units.forEach((u) => { const a = u.area || 'x'; areas[a] = areas[a] || { c: 0, t: 0 }; areas[a].t++; if (u.correct) areas[a].c++; }));
+    // Conceptos a reforzar: fallos hasta un nivel por encima del alcanzado (lo que consolida el nivel y prepara el siguiente).
+    const gaps = sorted.filter((b) => b.level <= Math.min(6, reached + 1))
+      .flatMap((b) => b.units.filter((u) => !u.correct).map((u) => ({ lu: u.lu || null, level: b.level, cefr: CEFR[b.level - 1], area: u.area || null })));
+    return { level: reached, code: reached ? CEFR[reached - 1] : 'Pre-A1', borderline, nextCode: nextCode || null, pct, areas, gaps, tested: sorted.map((b) => CEFR[b.level - 1]) };
+  }
+
+  return { CEFR, CEFR_PASS, cefrNext, cefrResult, MASTERY, RUN, startLevel, paceLevel, paceRange, sequence, findRun, next, finish, equivalences };
 });
