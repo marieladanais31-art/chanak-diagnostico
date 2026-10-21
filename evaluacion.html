@@ -417,6 +417,7 @@ details.refs summary{cursor:pointer;color:var(--gris);font-weight:600}
 <div class="section-card container">
   <div class="sec-title" data-es="Datos del estudiante" data-en="Student information">Datos del estudiante</div>
   <p class="sec-sub" data-es="Completa la información antes de iniciar. Los datos se incluirán en el informe y en el PEI." data-en="Complete the information before starting. It will be included in the report and the IEP.">Completa la información antes de iniciar. Los datos se incluirán en el informe y en el PEI.</p>
+  <div id="link-banner" class="note ok hidden" data-es="✓ Enlace personal verificado. Revisa los datos y continúa." data-en="✓ Personal link verified. Review the details and continue.">✓ Enlace personal verificado. Revisa los datos y continúa.</div>
   <div class="fg">
     <div class="fi"><label data-es="Nombre completo *" data-en="Full name *">Nombre completo *</label><input type="text" id="f-nombre" data-ph-es="Nombre y apellidos" data-ph-en="First and last name" placeholder="Nombre y apellidos"></div>
     <div class="fi"><label data-es="Fecha de nacimiento" data-en="Date of birth">Fecha de nacimiento</label><input type="date" id="f-fecha"></div>
@@ -522,6 +523,16 @@ details.refs summary{cursor:pointer;color:var(--gris);font-weight:600}
     <button class="btn btn-o" onclick="showSection('mentor')" data-es="Observación del mentor →" data-en="Mentor observation →">Observación del mentor →</button>
     <button class="btn btn-p" onclick="downloadCopy()" data-es="⬇ Descargar mi copia (PDF)" data-en="⬇ Download my copy (PDF)">⬇ Descargar mi copia (PDF)</button>
   </div>
+</div>
+</div>
+
+<!-- ═══════════ SIN ENLACE ═══════════ -->
+<div id="section-gate" class="hidden">
+<div class="section-card container" style="text-align:center">
+  <div class="sec-title" id="gate-title"></div>
+  <p class="sec-sub" id="gate-msg"></p>
+  <p class="muted"><span id="gate-ask"></span> <a href="mailto:offcampus@chanakacademy.org">offcampus@chanakacademy.org</a> · <a href="mailto:dualdiploma@chanakacademy.org">dualdiploma@chanakacademy.org</a></p>
+  <div class="btn-row no-print" style="justify-content:center"><a class="btn btn-p" href="https://www.chanakacademy.org/#tarifas" id="gate-apply"></a></div>
 </div>
 </div>
 
