@@ -17,4 +17,4 @@
 
 **Banco de preguntas.** 308 preguntas originales de Matemáticas e Inglés (una por PACE, K–12) y 86 de áreas complementarias (bilingües). Todas llevan `source` (leído del diagnóstico ACE o deducido del Scope & Sequence ACE 2025). **Pendiente: revisión del mentor general antes de usar con familias.** Un ítem de Historia (dinosaurios) está en `hold` hasta que la dirección confirme el criterio.
 
-**Pruebas locales.** `node --test tests/` y `node tools-dev-server.js 8790` → http://localhost:8790/evaluacion.html
+**Pruebas locales.** `node --test tests/diag-core.test.mjs` y `node tools-dev-server.js 8790` → http://localhost:8790/evaluacion.html
