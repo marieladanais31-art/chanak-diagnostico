@@ -1,0 +1,2803 @@
+{
+ "version": "0.1-fase1",
+ "generated": "2026-10-21",
+ "nota_derechos": "Solo estructura (PACE, puntajes, habilidades en palabras propias). Sin preguntas, pasajes ni respuestas de ACE, CLE o LIFEPAC. No publicar.",
+ "dominio": {
+  "ace": "minimo ~80% del puntaje posible por PACE (inglés). Matemáticas: las fotos no traen \"posible\"; solo mínimo.",
+  "cle": "~70% por grado (Language Arts 1-4)",
+  "lifepac": "70/100 por nivel; <=6/10 en una unidad marca vacío",
+  "chanak_propuesto": 0.8
+ },
+ "punto_de_partida": {
+  "primaria": {
+   "grados": "1-6",
+   "retroceso_grados": 3
+  },
+  "secundaria": {
+   "grados": "7-12",
+   "retroceso_grados": 5
+  },
+  "minimo": "K/1",
+  "nota": "Interpretación pendiente de confirmar con Mariela"
+ },
+ "regla_ingles_bajo": {
+  "accion": "recomendar_reading_abc",
+  "umbral": 0.6,
+  "nota": "Si no domina el primer nivel de inglés, se recomienda Reading - ABC antes de seguir"
+ },
+ "cobertura": {
+  "ace_english": [
+   1001,
+   1096
+  ],
+  "ace_math": [
+   1001,
+   1072
+  ],
+  "faltante": "ACE inglés 1097-1144 y ACE matemáticas 1073-1144 (grados 7-12) no estaban en el material; CLE solo LA 1-4; LIFEPAC cubre Math 100-1200 y LA 100-800"
+ },
+ "inseguros": {
+  "english": [
+   1020,
+   1061,
+   1087
+  ],
+  "math": [
+   1001,
+   1018,
+   1020,
+   1026,
+   1031,
+   1032,
+   1033,
+   1044,
+   1050,
+   1054,
+   1055,
+   1045,
+   1046,
+   1047,
+   1048,
+   1067,
+   1068,
+   1070,
+   1071
+  ]
+ },
+ "grades": {
+  "1": {
+   "grade": 1,
+   "ace": {
+    "english": {
+     "pace_range": [
+      1001,
+      1012
+     ],
+     "covered": [
+      1001,
+      1002,
+      1003,
+      1004,
+      1005,
+      1006,
+      1007,
+      1008,
+      1009,
+      1010,
+      1011,
+      1012
+     ],
+     "missing": [],
+     "paces": [
+      {
+       "pace": 1001,
+       "possible": 20,
+       "minimum": 16,
+       "skills": [
+        "escribir letras minúsculas faltantes en orden alfabético"
+       ],
+       "seguro": true
+      },
+      {
+       "pace": 1002,
+       "possible": 6,
+       "minimum": 5,
+       "skills": [
+        "escribir sonidos iniciales y finales de palabras ilustradas",
+        "lectura en voz alta de una oración",
+        "copiar una oración"
+       ],
+       "seguro": true
+      },
+      {
+       "pace": 1003,
+       "possible": 3,
+       "minimum": 2,
+       "skills": [
+        "nombrar imágenes con vocal larga/corta a",
+        "escribir la palabra que corresponde a la imagen",
+        "discriminar sonidos vocálicos a"
+       ],
+       "seguro": true
+      },
+      {
+       "pace": 1004,
+       "possible": 5,
+       "minimum": 4,
+       "skills": [
+        "nombrar imágenes con sonidos vocálicos largos (a/i)",
+        "escribir palabras por sonido",
+        "leer una oración al supervisor y copiarla (escritura)"
+       ],
+       "seguro": true
+      },
+      {
+       "pace": 1005,
+       "possible": 3,
+       "minimum": 2,
+       "skills": [
+        "sonido ch y e corta/larga en palabras",
+        "escribir palabras a partir de imágenes"
+       ],
+       "seguro": true
+      },
+      {
+       "pace": 1006,
+       "possible": 3,
+       "minimum": 2,
+       "skills": [
+        "sonidos e larga/corta y s suave",
+        "escribir palabras a partir de imágenes"
+       ],
+       "seguro": true
+      },
+      {
+       "pace": 1007,
+       "possible": 4,
+       "minimum": 3,
+       "skills": [
+        "asociar imagen con palabra correcta",
+        "discriminar palabras de sonido parecido (terminaciones -ed/-ing, -ill/-alls)",
+        "lectura de palabras"
+       ],
+       "seguro": true
+      },
+      {
+       "pace": 1008,
+       "possible": 3,
+       "minimum": 2,
+       "skills": [
+        "sonidos y/i de vocal larga/corta",
+        "escribir palabras a partir de imágenes"
+       ],
+       "seguro": true
+      },
+      {
+       "pace": 1009,
+       "possible": 3,
+       "minimum": 2,
+       "skills": [
+        "sonidos o corta y oo",
+        "escribir palabras a partir de imágenes"
+       ],
+       "seguro": true
+      },
+      {
+       "pace": 1010,
+       "possible": 3,
+       "minimum": 2,
+       "skills": [
+        "sonido o larga",
+        "escribir palabras a partir de imágenes"
+       ],
+       "seguro": true
+      },
+      {
+       "pace": 1011,
+       "possible": 3,
+       "minimum": 2,
+       "skills": [
+        "sonidos u corta y oo corta",
+        "escribir palabras a partir de imágenes"
+       ],
+       "seguro": true
+      },
+      {
+       "pace": 1012,
+       "possible": 7,
+       "minimum": 6,
+       "skills": [
+        "sonidos oo larga y ou/ow",
+        "nombrar imagen y elegir palabra correcta",
+        "discriminar terminaciones (-ing/-ong, -ock, -ounce)"
+       ],
+       "seguro": true
+      }
+     ]
+    },
+    "math": {
+     "pace_range": [
+      1001,
+      1012
+     ],
+     "covered": [
+      1001,
+      1002,
+      1003,
+      1004,
+      1005,
+      1006,
+      1007,
+      1008,
+      1009,
+      1010,
+      1011,
+      1012
+     ],
+     "missing": [],
+     "paces": [
+      {
+       "pace": 1001,
+       "possible": null,
+       "minimum": 6,
+       "skills": [
+        "escribir en palabras los numeros 1 a 5",
+        "contar objetos hasta 5 y escribir la cifra"
+       ],
+       "seguro": false
+      },
+      {
+       "pace": 1002,
+       "possible": null,
+       "minimum": 5,
+       "skills": [
+        "escribir en palabras los numeros 6 a 9",
+        "contar objetos hasta 9 y escribir la cifra"
+       ],
+       "seguro": true
+      },
+      {
+       "pace": 1003,
+       "possible": null,
+       "minimum": 3,
+       "skills": [
+        "suma de un digito con resultado hasta 5 (hechos basicos muy simples)"
+       ],
+       "seguro": true
+      },
+      {
+       "pace": 1004,
+       "possible": null,
+       "minimum": 3,
+       "skills": [
+        "suma de un digito con resultado hasta 9",
+        "suma con un sumando 0 o 1"
+       ],
+       "seguro": true
+      },
+      {
+       "pace": 1005,
+       "possible": null,
+       "minimum": 3,
+       "skills": [
+        "resta de un digito (quitar) con minuendo hasta 9"
+       ],
+       "seguro": true
+      },
+      {
+       "pace": 1006,
+       "possible": null,
+       "minimum": 3,
+       "skills": [
+        "suma de un digito con resultado hasta 10",
+        "suma con cero",
+        "resta simple de un digito"
+       ],
+       "seguro": true
+      },
+      {
+       "pace": 1007,
+       "possible": null,
+       "minimum": 17,
+       "skills": [
+        "escribir en orden los numeros del 1 al 20"
+       ],
+       "seguro": true
+      },
+      {
+       "pace": 1008,
+       "possible": null,
+       "minimum": 6,
+       "skills": [
+        "suma de un digito con resultado entre 11 y 18 (cruzando la decena)"
+       ],
+       "seguro": true
+      },
+      {
+       "pace": 1009,
+       "possible": null,
+       "minimum": 6,
+       "skills": [
+        "resta con minuendo entre 11 y 18 (hechos hasta 18)"
+       ],
+       "seguro": true
+      },
+      {
+       "pace": 1010,
+       "possible": null,
+       "minimum": 4,
+       "skills": [
+        "leer la hora en punto en relojes analogicos",
+        "sumar monedas de 1 y 5 centavos"
+       ],
+       "seguro": true
+      },
+      {
+       "pace": 1011,
+       "possible": null,
+       "minimum": 5,
+       "skills": [
+        "relacionar numeros con su palabra (0 a 9)"
+       ],
+       "seguro": true
+      },
+      {
+       "pace": 1012,
+       "possible": null,
+       "minimum": 4,
+       "skills": [
+        "numero anterior, posterior y intermedio (rango 17-25 aprox.)"
+       ],
+       "seguro": true
+      }
+     ]
+    }
+   },
+   "cle": {
+    "language_arts": {
+     "level": 1,
+     "possible": 131,
+     "minimum": 92,
+     "pct": 70.2,
+     "skills": [
+      "Orden alfabetico (7)",
+      "Mayusculas (10)",
+      "Contracciones (9)",
+      "Sustantivos (3)",
+      "Puntuacion (3)",
+      "Oraciones (3)",
+      "Fonica: consonantes, vocales, digrafos, mezclas, vocales largas/cortas, letras mudas (58)",
+      "Palabras y afijos: raices, prefijos, sufijos, silabas, compuestas, ortografia (25)",
+      "Verbos (3)",
+      "Vocabulario (5)",
+      "Reconocimiento de palabras (5)"
+     ]
+    }
+   },
+   "lifepac": {
+    "level": 100,
+    "math_topics": [
+     "secuencias y orden de numeros hasta ~100",
+     "mayor/menor que",
+     "suma y resta basicas hasta 10-20",
+     "figuras y patrones simples",
+     "medir en pulgadas",
+     "valor posicional decenas/unidades",
+     "hora y dinero basico"
+    ],
+    "language_arts_topics": [
+     "alfabeto y letras faltantes",
+     "leer palabras y oraciones simples en voz alta",
+     "sonidos de letras (fonica basica)"
+    ],
+    "pass_points": 70,
+    "points_per_level": 100,
+    "gap_flag_points": 6
+   },
+   "florida": {
+    "status": "codigos_por_verificar_en_CPALMS"
+   }
+  },
+  "2": {
+   "grade": 2,
+   "ace": {
+    "english": {
+     "pace_range": [
+      1013,
+      1024
+     ],
+     "covered": [
+      1013,
+      1014,
+      1015,
+      1016,
+      1017,
+      1018,
+      1019,
+      1020,
+      1021,
+      1022,
+      1023,
+      1024
+     ],
+     "missing": [],
+     "paces": [
+      {
+       "pace": 1013,
+       "possible": 28,
+       "minimum": 22,
+       "skills": [
+        "escribir mayúsculas en orden alfabético",
+        "identificar vocales en palabras"
+       ],
+       "seguro": true
+      },
+      {
+       "pace": 1014,
+       "possible": 4,
+       "minimum": 3,
+       "skills": [
+        "puntuación final: punto y signo de interrogación según tipo de oración"
+       ],
+       "seguro": true
+      },
+      {
+       "pace": 1015,
+       "possible": 5,
+       "minimum": 4,
+       "skills": [
+        "elegir la forma verbal correcta (was/were, is/are)",
+        "uso de mayúsculas al inicio de oración y en nombres"
+       ],
+       "seguro": true
+      },
+      {
+       "pace": 1016,
+       "possible": 2,
+       "minimum": 2,
+       "skills": [
+        "elegir artículo a/an"
+       ],
+       "seguro": true
+      },
+      {
+       "pace": 1017,
+       "possible": 4,
+       "minimum": 3,
+       "skills": [
+        "escribir el nombre de la cosa (sustantivos) en un espacio"
+       ],
+       "seguro": true
+      },
+      {
+       "pace": 1018,
+       "possible": 4,
+       "minimum": 3,
+       "skills": [
+        "identificar nombres de personas (propios)",
+        "escribir nombres de lugares"
+       ],
+       "seguro": true
+      },
+      {
+       "pace": 1019,
+       "possible": 6,
+       "minimum": 5,
+       "skills": [
+        "preposiciones de lugar con imágenes",
+        "elegir la palabra de acción (verbo)",
+        "elegir palabra descriptiva (adjetivo)"
+       ],
+       "seguro": true
+      },
+      {
+       "pace": 1020,
+       "possible": 8,
+       "minimum": 6,
+       "skills": [
+        "unir sinónimos",
+        "unir antónimos"
+       ],
+       "seguro": false
+      },
+      {
+       "pace": 1021,
+       "possible": 4,
+       "minimum": 3,
+       "skills": [
+        "elegir la palabra correcta según la oración (concordancia no/any, may/can, does/do, is/are)"
+       ],
+       "seguro": true
+      },
+      {
+       "pace": 1022,
+       "possible": 4,
+       "minimum": 3,
+       "skills": [
+        "homófonos en contexto (completar espacios)"
+       ],
+       "seguro": true
+      },
+      {
+       "pace": 1023,
+       "possible": 7,
+       "minimum": 6,
+       "skills": [
+        "posesivo con apóstrofo y s",
+        "homófonos to/too/two"
+       ],
+       "seguro": true
+      },
+      {
+       "pace": 1024,
+       "possible": 6,
+       "minimum": 5,
+       "skills": [
+        "unir palabras que riman",
+        "tachar la palabra fuera de orden alfabético"
+       ],
+       "seguro": true
+      }
+     ]
+    },
+    "math": {
+     "pace_range": [
+      1013,
+      1024
+     ],
+     "covered": [
+      1013,
+      1014,
+      1015,
+      1016,
+      1017,
+      1018,
+      1020,
+      1021,
+      1022,
+      1023,
+      1024
+     ],
+     "missing": [
+      1019
+     ],
+     "paces": [
+      {
+       "pace": 1013,
+       "possible": null,
+       "minimum": 40,
+       "skills": [
+        "secuencia numerica del 1 al 100 completando faltantes"
+       ],
+       "seguro": true
+      },
+      {
+       "pace": 1014,
+       "possible": null,
+       "minimum": 7,
+       "skills": [
+        "suma de tres sumandos de un digito",
+        "suma de decenas redondas mas unidades",
+        "problema verbal de suma"
+       ],
+       "seguro": true
+      },
+      {
+       "pace": 1015,
+       "possible": null,
+       "minimum": 17,
+       "skills": [
+        "suma y resta de decenas o decenas con unidades sin llevar",
+        "numeros pares del 2 al 20",
+        "numeros impares del 1 al 19"
+       ],
+       "seguro": true
+      },
+      {
+       "pace": 1016,
+       "possible": null,
+       "minimum": 9,
+       "skills": [
+        "suma y resta de dos digitos",
+        "valor posicional: decenas y unidades",
+        "formar el numero a partir de decenas y unidades"
+       ],
+       "seguro": true
+      },
+      {
+       "pace": 1017,
+       "possible": null,
+       "minimum": 12,
+       "skills": [
+        "valor posicional: centenas, decenas y unidades con bloques",
+        "suma de tres digitos",
+        "resta de tres digitos",
+        "problemas verbales de suma y resta"
+       ],
+       "seguro": true
+      },
+      {
+       "pace": 1018,
+       "possible": null,
+       "minimum": 4,
+       "skills": [
+        "suma de dos digitos mas un digito con llevada",
+        "problema verbal de suma"
+       ],
+       "seguro": false
+      },
+      {
+       "pace": 1020,
+       "possible": null,
+       "minimum": 3,
+       "skills": [
+        "resta de dos digitos menos un digito con reagrupacion"
+       ],
+       "seguro": false
+      },
+      {
+       "pace": 1021,
+       "possible": null,
+       "minimum": 6,
+       "skills": [
+        "suma de dos y tres digitos con llevada (con sumandos de 1-2 digitos)"
+       ],
+       "seguro": true
+      },
+      {
+       "pace": 1022,
+       "possible": null,
+       "minimum": 6,
+       "skills": [
+        "suma de tres digitos con llevadas",
+        "numero anterior y posterior en el rango de las centenas"
+       ],
+       "seguro": true
+      },
+      {
+       "pace": 1023,
+       "possible": null,
+       "minimum": 6,
+       "skills": [
+        "leer la hora (cuartos y medias, minutos)",
+        "resta de dos y tres digitos con reagrupacion"
+       ],
+       "seguro": true
+      },
+      {
+       "pace": 1024,
+       "possible": null,
+       "minimum": 5,
+       "skills": [
+        "contar centavos con monedas de 10 y 25",
+        "medir longitud en pulgadas con regla",
+        "medir longitud en centimetros con regla"
+       ],
+       "seguro": true
+      }
+     ]
+    }
+   },
+   "cle": {
+    "language_arts": {
+     "level": 2,
+     "possible": 122,
+     "minimum": 85,
+     "pct": 69.7,
+     "skills": [
+      "Adjetivos (8)",
+      "Mayusculas y puntuacion (32)",
+      "Sustantivos y pronombres (9)",
+      "Fonica (10)",
+      "Division de palabras (7)",
+      "Oraciones (9)",
+      "Verbos (5)",
+      "Vocabulario (5)",
+      "Diccionario (4)",
+      "Destrezas de estudio (22)",
+      "Aplicaciones de escritura (11)"
+     ]
+    }
+   },
+   "lifepac": {
+    "level": 200,
+    "math_topics": [
+     "numeros hasta ~999 y en palabras",
+     "suma/resta con llevadas",
+     "familias de hechos",
+     "pares/impares y conteo de 2,5,10",
+     "fracciones simples y dinero (monedas)",
+     "tiempo y medidas (pie, yarda, libra)",
+     "redondeo a decenas",
+     "graficas y perimetro"
+    ],
+    "language_arts_topics": [
+     "digrafos y vocales",
+     "identificar verbos",
+     "plurales",
+     "rimas",
+     "pronunciacion de diccionario",
+     "pronombres",
+     "division de silabas",
+     "comprension de un parrafo"
+    ],
+    "pass_points": 70,
+    "points_per_level": 100,
+    "gap_flag_points": 6
+   },
+   "florida": {
+    "status": "codigos_por_verificar_en_CPALMS"
+   }
+  },
+  "3": {
+   "grade": 3,
+   "ace": {
+    "english": {
+     "pace_range": [
+      1025,
+      1036
+     ],
+     "covered": [
+      1025,
+      1026,
+      1027,
+      1028,
+      1029,
+      1030,
+      1031,
+      1032,
+      1033,
+      1034,
+      1035,
+      1036
+     ],
+     "missing": [],
+     "paces": [
+      {
+       "pace": 1025,
+       "possible": 29,
+       "minimum": 24,
+       "skills": [
+        "escribir en cursiva las letras minúsculas a partir del modelo de imprenta"
+       ],
+       "seguro": true
+      },
+      {
+       "pace": 1026,
+       "possible": 8,
+       "minimum": 6,
+       "skills": [
+        "distinguir oración completa de fragmento",
+        "puntuación final (punto, interrogación, exclamación)"
+       ],
+       "seguro": true
+      },
+      {
+       "pace": 1027,
+       "possible": 4,
+       "minimum": 3,
+       "skills": [
+        "subrayar el sustantivo sujeto"
+       ],
+       "seguro": true
+      },
+      {
+       "pace": 1028,
+       "possible": 5,
+       "minimum": 4,
+       "skills": [
+        "pronombres sujeto (he, she, it, we, they)"
+       ],
+       "seguro": true
+      },
+      {
+       "pace": 1029,
+       "possible": 4,
+       "minimum": 3,
+       "skills": [
+        "escribir adjetivos en el espacio",
+        "elegir verbo de acción",
+        "elegir verbo de estado (ser/estar)"
+       ],
+       "seguro": true
+      },
+      {
+       "pace": 1030,
+       "possible": 31,
+       "minimum": 25,
+       "skills": [
+        "escribir en cursiva las letras mayúsculas a partir del modelo de imprenta"
+       ],
+       "seguro": true
+      },
+      {
+       "pace": 1031,
+       "possible": 6,
+       "minimum": 5,
+       "skills": [
+        "antónimos",
+        "sinónimos"
+       ],
+       "seguro": true
+      },
+      {
+       "pace": 1032,
+       "possible": 6,
+       "minimum": 5,
+       "skills": [
+        "elegir el homónimo/homófono correcto en contexto"
+       ],
+       "seguro": true
+      },
+      {
+       "pace": 1033,
+       "possible": 8,
+       "minimum": 6,
+       "skills": [
+        "uso de mayúsculas en nombres propios, días, fiestas, títulos, iniciales y pronombre I"
+       ],
+       "seguro": true
+      },
+      {
+       "pace": 1034,
+       "possible": 7,
+       "minimum": 6,
+       "skills": [
+        "elegir verbo/palabra correcta (sit/set, let/leave, learn/teach)",
+        "its/it's, their/there"
+       ],
+       "seguro": true
+      },
+      {
+       "pace": 1035,
+       "possible": 16,
+       "minimum": 13,
+       "skills": [
+        "elegir palabra correcta (to/too/two, do/does, was/were, has/have)",
+        "abreviaturas",
+        "contracciones"
+       ],
+       "seguro": true
+      },
+      {
+       "pace": 1036,
+       "possible": 6,
+       "minimum": 5,
+       "skills": [
+        "partes de una carta amistosa",
+        "leer un sobre y extraer destinatario/remitente"
+       ],
+       "seguro": true
+      }
+     ]
+    },
+    "math": {
+     "pace_range": [
+      1025,
+      1036
+     ],
+     "covered": [
+      1026,
+      1027,
+      1028,
+      1029,
+      1030,
+      1031,
+      1032,
+      1033,
+      1034,
+      1035,
+      1036
+     ],
+     "missing": [
+      1025
+     ],
+     "paces": [
+      {
+       "pace": 1026,
+       "possible": null,
+       "minimum": 10,
+       "skills": [
+        "resta de tres digitos con reagrupacion",
+        "tabla del 2 (multiplicacion)"
+       ],
+       "seguro": false
+      },
+      {
+       "pace": 1027,
+       "possible": null,
+       "minimum": 16,
+       "skills": [
+        "suma y resta con numeros de cuatro digitos",
+        "multiplicacion por 0, 1 y 2",
+        "suma de tres digitos"
+       ],
+       "seguro": true
+      },
+      {
+       "pace": 1028,
+       "possible": null,
+       "minimum": 13,
+       "skills": [
+        "resta de tres digitos con reagrupacion",
+        "tabla del 3 (multiplicacion)"
+       ],
+       "seguro": true
+      },
+      {
+       "pace": 1029,
+       "possible": null,
+       "minimum": 13,
+       "skills": [
+        "tabla del 4 (multiplicacion)",
+        "resta de tres digitos",
+        "suma de columnas de 2 digitos"
+       ],
+       "seguro": true
+      },
+      {
+       "pace": 1030,
+       "possible": null,
+       "minimum": 17,
+       "skills": [
+        "tabla del 5 (multiplicacion)",
+        "suma de tres digitos con llevada",
+        "resta con reagrupacion",
+        "numeros romanos basicos (I, V, II, IV)"
+       ],
+       "seguro": true
+      },
+      {
+       "pace": 1031,
+       "possible": null,
+       "minimum": 18,
+       "skills": [
+        "tabla del 6 (multiplicacion)"
+       ],
+       "seguro": false
+      },
+      {
+       "pace": 1032,
+       "possible": null,
+       "minimum": 10,
+       "skills": [
+        "tabla del 7 (multiplicacion)"
+       ],
+       "seguro": false
+      },
+      {
+       "pace": 1033,
+       "possible": null,
+       "minimum": 10,
+       "skills": [
+        "tabla del 8 (multiplicacion)"
+       ],
+       "seguro": false
+      },
+      {
+       "pace": 1034,
+       "possible": null,
+       "minimum": 13,
+       "skills": [
+        "suma de columnas con varios sumandos de 2 y 3 digitos"
+       ],
+       "seguro": true
+      },
+      {
+       "pace": 1035,
+       "possible": null,
+       "minimum": 4,
+       "skills": [
+        "decir la hora en minutos pasadas y minutos para",
+        "contar centavos con monedas mixtas"
+       ],
+       "seguro": true
+      },
+      {
+       "pace": 1036,
+       "possible": null,
+       "minimum": 7,
+       "skills": [
+        "calcular costos sumando precios en centavos",
+        "equivalencias de capacidad: taza, pinta, cuarto, galon"
+       ],
+       "seguro": true
+      }
+     ]
+    }
+   },
+   "cle": {
+    "language_arts": {
+     "level": 3,
+     "possible": 169,
+     "minimum": 118,
+     "pct": 69.8,
+     "skills": [
+      "Adjetivos (17)",
+      "Mayusculas (12)",
+      "Sustantivos y pronombres (11)",
+      "Parrafos (12)",
+      "Puntuacion (19)",
+      "Oraciones (24)",
+      "Verbos (18)",
+      "Vocabulario (14)",
+      "Destrezas de estudio (13)",
+      "Aplicaciones de escritura (5)",
+      "Diccionario (10)",
+      "Poesia (14)"
+     ]
+    }
+   },
+   "lifepac": {
+    "level": 300,
+    "math_topics": [
+     "valor posicional hasta miles",
+     "suma y resta de numeros de varias cifras",
+     "multiplos y tablas",
+     "fracciones y decimales sencillos",
+     "numeros romanos",
+     "redondeo y estimacion",
+     "tiempo, temperatura, dinero, medicion y perimetro",
+     "figuras planas y solidas",
+     "problemas de dos pasos, probabilidad simple"
+    ],
+    "language_arts_topics": [
+     "identificar oraciones",
+     "unir para formar oraciones",
+     "lectura y comprension de oraciones",
+     "clasificar enunciados",
+     "palabras correctas",
+     "plurales y ortografia",
+     "palabras que no pertenecen a una clase"
+    ],
+    "pass_points": 70,
+    "points_per_level": 100,
+    "gap_flag_points": 6
+   },
+   "florida": {
+    "status": "codigos_por_verificar_en_CPALMS"
+   }
+  },
+  "4": {
+   "grade": 4,
+   "ace": {
+    "english": {
+     "pace_range": [
+      1037,
+      1048
+     ],
+     "covered": [
+      1037,
+      1038,
+      1039,
+      1040,
+      1041,
+      1042,
+      1043,
+      1044,
+      1045,
+      1046,
+      1047,
+      1048
+     ],
+     "missing": [],
+     "paces": [
+      {
+       "pace": 1037,
+       "possible": 6,
+       "minimum": 5,
+       "skills": [
+        "ordenar palabras alfabéticamente (escritura cursiva)"
+       ],
+       "seguro": true
+      },
+      {
+       "pace": 1038,
+       "possible": 6,
+       "minimum": 5,
+       "skills": [
+        "identificar oración completa",
+        "clasificar oraciones: declarativa, interrogativa, exclamativa"
+       ],
+       "seguro": true
+      },
+      {
+       "pace": 1039,
+       "possible": 14,
+       "minimum": 11,
+       "skills": [
+        "sustantivos comunes vs propios",
+        "sustantivos singulares vs plurales",
+        "subrayar sustantivo sujeto"
+       ],
+       "seguro": true
+      },
+      {
+       "pace": 1040,
+       "possible": 10,
+       "minimum": 8,
+       "skills": [
+        "identificar sujeto y verbo (acción o de estado) en la oración"
+       ],
+       "seguro": true
+      },
+      {
+       "pace": 1041,
+       "possible": 19,
+       "minimum": 15,
+       "skills": [
+        "subrayar adjetivos y artículos",
+        "elegir pronombre correcto"
+       ],
+       "seguro": true
+      },
+      {
+       "pace": 1042,
+       "possible": 13,
+       "minimum": 11,
+       "skills": [
+        "frases preposicionales",
+        "adverbios",
+        "interjecciones",
+        "conjunciones"
+       ],
+       "seguro": true
+      },
+      {
+       "pace": 1043,
+       "possible": 14,
+       "minimum": 11,
+       "skills": [
+        "contracciones",
+        "posesivo",
+        "mayúsculas en fechas y títulos/nombres"
+       ],
+       "seguro": true
+      },
+      {
+       "pace": 1044,
+       "possible": 10,
+       "minimum": 8,
+       "skills": [
+        "comillas en diálogo",
+        "comas y dos puntos",
+        "abreviaturas"
+       ],
+       "seguro": true
+      },
+      {
+       "pace": 1045,
+       "possible": 6,
+       "minimum": 5,
+       "skills": [
+        "antónimos",
+        "sinónimos",
+        "homófonos en contexto"
+       ],
+       "seguro": true
+      },
+      {
+       "pace": 1046,
+       "possible": 10,
+       "minimum": 8,
+       "skills": [
+        "elegir la palabra correcta en contexto (it's/its, don't/doesn't, set/sit, lay/lie, etc.)"
+       ],
+       "seguro": true
+      },
+      {
+       "pace": 1047,
+       "possible": 8,
+       "minimum": 6,
+       "skills": [
+        "formas verbales irregulares en contexto (presente, pasado, participio)"
+       ],
+       "seguro": true
+      },
+      {
+       "pace": 1048,
+       "possible": 6,
+       "minimum": 5,
+       "skills": [
+        "identificar partes de una carta comercial"
+       ],
+       "seguro": true
+      }
+     ]
+    },
+    "math": {
+     "pace_range": [
+      1037,
+      1048
+     ],
+     "covered": [
+      1037,
+      1038,
+      1039,
+      1040,
+      1041,
+      1042,
+      1043,
+      1044,
+      1045,
+      1046,
+      1047,
+      1048
+     ],
+     "missing": [],
+     "paces": [
+      {
+       "pace": 1037,
+       "possible": null,
+       "minimum": 7,
+       "skills": [
+        "multiplicar por 10"
+       ],
+       "seguro": true
+      },
+      {
+       "pace": 1038,
+       "possible": null,
+       "minimum": 14,
+       "skills": [
+        "multiplicar por 11",
+        "division basica entre 1 y 2"
+       ],
+       "seguro": true
+      },
+      {
+       "pace": 1039,
+       "possible": null,
+       "minimum": 7,
+       "skills": [
+        "division entre 3 (hechos basicos)"
+       ],
+       "seguro": true
+      },
+      {
+       "pace": 1040,
+       "possible": null,
+       "minimum": 10,
+       "skills": [
+        "multiplicar numero de dos digitos por un digito",
+        "division entre 4"
+       ],
+       "seguro": true
+      },
+      {
+       "pace": 1041,
+       "possible": null,
+       "minimum": 10,
+       "skills": [
+        "numeros romanos (13 a 19)",
+        "division entre 5"
+       ],
+       "seguro": true
+      },
+      {
+       "pace": 1042,
+       "possible": null,
+       "minimum": 10,
+       "skills": [
+        "multiplicar dos digitos por dos digitos",
+        "division entre 6"
+       ],
+       "seguro": true
+      },
+      {
+       "pace": 1043,
+       "possible": null,
+       "minimum": 7,
+       "skills": [
+        "division entre 7"
+       ],
+       "seguro": true
+      },
+      {
+       "pace": 1044,
+       "possible": null,
+       "minimum": 14,
+       "skills": [
+        "multiplicar tres digitos por un digito",
+        "division entre 8 y 3 con residuo",
+        "multiplicar multiplos de 10 por dos digitos"
+       ],
+       "seguro": false
+      },
+      {
+       "pace": 1045,
+       "possible": null,
+       "minimum": 10,
+       "skills": [
+        "tabla de division entre 9"
+       ],
+       "seguro": false
+      },
+      {
+       "pace": 1046,
+       "possible": null,
+       "minimum": 5,
+       "skills": [
+        "identificar fracciones unitarias en modelos circulares"
+       ],
+       "seguro": false
+      },
+      {
+       "pace": 1047,
+       "possible": null,
+       "minimum": 7,
+       "skills": [
+        "division basica",
+        "suma de fracciones con igual denominador",
+        "resta de fracciones con igual denominador"
+       ],
+       "seguro": false
+      },
+      {
+       "pace": 1048,
+       "possible": null,
+       "minimum": 1,
+       "skills": [
+        "contar dinero en dolares y centavos",
+        "calcular cambio"
+       ],
+       "seguro": false
+      }
+     ]
+    }
+   },
+   "cle": {
+    "language_arts": {
+     "level": 4,
+     "possible": 155,
+     "minimum": 108,
+     "pct": 69.7,
+     "skills": [
+      "Adjetivos (19)",
+      "Adverbios (12)",
+      "Mayusculas y puntuacion (24)",
+      "Sustantivos (11)",
+      "Pronombres (6)",
+      "Oraciones (23)",
+      "Verbos (18)",
+      "Vocabulario (14)",
+      "Destrezas de estudio (10)",
+      "Aplicaciones de escritura (14)",
+      "Poesia (4)"
+     ]
+    }
+   },
+   "lifepac": {
+    "level": 400,
+    "math_topics": [
+     "numeros de varios digitos y notacion expandida",
+     "redondeo a cientos/miles",
+     "multiplicacion y division",
+     "primos y multiplos",
+     "fracciones equivalentes y decimales",
+     "geometria: rayos, poligonos, dimensiones",
+     "patrones y orden de operaciones",
+     "problemas de texto"
+    ],
+    "language_arts_topics": [
+     "ordenar sucesos",
+     "orden alfabetico/diccionario",
+     "prefijos y sufijos",
+     "analisis de oraciones",
+     "corregir oraciones (puntuacion)",
+     "definiciones",
+     "adverbios y adjetivos"
+    ],
+    "pass_points": 70,
+    "points_per_level": 100,
+    "gap_flag_points": 6
+   },
+   "florida": {
+    "status": "codigos_por_verificar_en_CPALMS"
+   }
+  },
+  "5": {
+   "grade": 5,
+   "ace": {
+    "english": {
+     "pace_range": [
+      1049,
+      1060
+     ],
+     "covered": [
+      1049,
+      1050,
+      1051,
+      1052,
+      1053,
+      1054,
+      1055,
+      1056,
+      1057,
+      1058,
+      1059,
+      1060
+     ],
+     "missing": [],
+     "paces": [
+      {
+       "pace": 1049,
+       "possible": 18,
+       "minimum": 15,
+       "skills": [
+        "puntuación y tipo de oración",
+        "palabras guía de diccionario"
+       ],
+       "seguro": true
+      },
+      {
+       "pace": 1050,
+       "possible": 13,
+       "minimum": 11,
+       "skills": [
+        "sustantivo sujeto y otros sustantivos",
+        "pasar plural a singular y viceversa"
+       ],
+       "seguro": true
+      },
+      {
+       "pace": 1051,
+       "possible": 9,
+       "minimum": 7,
+       "skills": [
+        "identificar verbos y verbos auxiliares",
+        "tabla de formas de verbos regulares"
+       ],
+       "seguro": true
+      },
+      {
+       "pace": 1052,
+       "possible": 10,
+       "minimum": 8,
+       "skills": [
+        "diagramar sujeto y verbo",
+        "tabla de verbos irregulares",
+        "concordancia sustantivo-verbo en número"
+       ],
+       "seguro": true
+      },
+      {
+       "pace": 1053,
+       "possible": 12,
+       "minimum": 10,
+       "skills": [
+        "diagramar pronombre sujeto y verbo",
+        "concordancia pronombre-verbo",
+        "tipos de pronombres (interrogativo, demostrativo, indefinido)",
+        "casos del pronombre (subjetivo, objetivo, posesivo)"
+       ],
+       "seguro": true
+      },
+      {
+       "pace": 1054,
+       "possible": 12,
+       "minimum": 10,
+       "skills": [
+        "diagramar sujeto, verbo de acción y objeto directo (sustantivo)",
+        "diagramar con pronombres como sujeto y objeto directo"
+       ],
+       "seguro": true
+      },
+      {
+       "pace": 1055,
+       "possible": 14,
+       "minimum": 11,
+       "skills": [
+        "identificar sujeto simple y predicado simple",
+        "dividir sujeto completo y predicado completo",
+        "diagramar verbo copulativo con predicado nominal o pronombre"
+       ],
+       "seguro": true
+      },
+      {
+       "pace": 1056,
+       "possible": 21,
+       "minimum": 17,
+       "skills": [
+        "identificar adjetivos y artículos en un texto",
+        "reconocer adjetivo predicativo",
+        "diagramar sujeto, verbo y adjetivo predicativo"
+       ],
+       "seguro": true
+      },
+      {
+       "pace": 1057,
+       "possible": 19,
+       "minimum": 15,
+       "skills": [
+        "adverbios y adjetivos; convertir adjetivo en adverbio",
+        "formas de comparación",
+        "diagramar sustantivo con adjetivos y adverbios"
+       ],
+       "seguro": true
+      },
+      {
+       "pace": 1058,
+       "possible": 15,
+       "minimum": 12,
+       "skills": [
+        "conjunciones coordinantes e interjecciones",
+        "patrones de oración con frases preposicionales",
+        "verbos correctos (lay/lie, can/may, leave/let)",
+        "diagramar frase preposicional"
+       ],
+       "seguro": true
+      },
+      {
+       "pace": 1059,
+       "possible": 14,
+       "minimum": 11,
+       "skills": [
+        "mayúsculas",
+        "comas y dos puntos",
+        "comillas y títulos en cursiva"
+       ],
+       "seguro": true
+      },
+      {
+       "pace": 1060,
+       "possible": 22,
+       "minimum": 18,
+       "skills": [
+        "redacción de carta formal",
+        "palabras guía de diccionario",
+        "orden alfabético",
+        "sinónimos, antónimos, homófonos y heterónimos",
+        "sujeto y predicado simple/completo"
+       ],
+       "seguro": true
+      }
+     ]
+    },
+    "math": {
+     "pace_range": [
+      1049,
+      1060
+     ],
+     "covered": [
+      1049,
+      1050,
+      1051,
+      1052,
+      1053,
+      1054,
+      1055,
+      1056,
+      1057,
+      1058,
+      1059,
+      1060
+     ],
+     "missing": [],
+     "paces": [
+      {
+       "pace": 1049,
+       "possible": null,
+       "minimum": 2,
+       "skills": [
+        "hallar una parte unitaria de un conjunto de objetos usando division",
+        "relacionar fraccion unitaria con division entera"
+       ],
+       "seguro": true
+      },
+      {
+       "pace": 1050,
+       "possible": null,
+       "minimum": 4,
+       "skills": [
+        "resta de numeros grandes con reagrupacion",
+        "valor posicional hasta centenas de millar",
+        "numeros ordinales",
+        "fracciones equivalentes con modelos",
+        "comparar fracciones"
+       ],
+       "seguro": false
+      },
+      {
+       "pace": 1051,
+       "possible": null,
+       "minimum": 7,
+       "skills": [
+        "division con residuo expresado como fraccion",
+        "factores de un numero",
+        "propiedad conmutativa",
+        "simplificar fracciones con MCD",
+        "numeros primos"
+       ],
+       "seguro": true
+      },
+      {
+       "pace": 1052,
+       "possible": null,
+       "minimum": 8,
+       "skills": [
+        "redondeo a decenas",
+        "multiplicacion de varios digitos",
+        "division larga con residuo",
+        "suma y resta de fracciones con igual denominador",
+        "multiplos",
+        "probabilidad simple como fraccion"
+       ],
+       "seguro": true
+      },
+      {
+       "pace": 1053,
+       "possible": null,
+       "minimum": 7,
+       "skills": [
+        "comparar decimales y expresiones",
+        "multiplicar por potencias de 10",
+        "perimetro de figuras",
+        "multiplicacion por factores de 3 digitos"
+       ],
+       "seguro": true
+      },
+      {
+       "pace": 1054,
+       "possible": null,
+       "minimum": 5,
+       "skills": [
+        "convertir fracciones impropias y numeros mixtos",
+        "redondeo a centenas",
+        "reducir a terminos minimos"
+       ],
+       "seguro": false
+      },
+      {
+       "pace": 1055,
+       "possible": null,
+       "minimum": 10,
+       "skills": [
+        "multiplicar fracciones",
+        "division con residuo de 2 digitos",
+        "multiplicar por multiplos de 10",
+        "sumar y restar decimales en columna",
+        "porcentaje, decimal y fraccion",
+        "area de rectangulos",
+        "fracciones a decimales",
+        "comparar decimales"
+       ],
+       "seguro": false
+      },
+      {
+       "pace": 1056,
+       "possible": null,
+       "minimum": 12,
+       "skills": [
+        "numeros romanos",
+        "division larga",
+        "dividir entre 10 y 100",
+        "multiplicar numeros de 3 digitos",
+        "restar fracciones mixtas",
+        "multiplicar fracciones con cancelacion",
+        "rectas, rayos, paralelas y secantes",
+        "poligonos y congruencia"
+       ],
+       "seguro": true
+      },
+      {
+       "pace": 1057,
+       "possible": null,
+       "minimum": 10,
+       "skills": [
+        "relacion entre promedio y razon",
+        "suma y resta de numeros mixtos",
+        "multiplicar fracciones y enteros con cancelacion",
+        "lineas de simetria",
+        "figuras planas y solidas",
+        "figuras semejantes"
+       ],
+       "seguro": true
+      },
+      {
+       "pace": 1058,
+       "possible": null,
+       "minimum": 6,
+       "skills": [
+        "division con divisor de 2 digitos",
+        "multiplicar decimales",
+        "vocabulario de cuadrilateros",
+        "suma y resta de mixtos"
+       ],
+       "seguro": true
+      },
+      {
+       "pace": 1059,
+       "possible": null,
+       "minimum": 10,
+       "skills": [
+        "sumando faltante",
+        "division larga con divisor de 2 digitos",
+        "factor faltante",
+        "multiplicar fraccion mixta por entero y por fraccion",
+        "comparar decimales",
+        "redondear decimales a entero",
+        "a.m. y p.m."
+       ],
+       "seguro": true
+      },
+      {
+       "pace": 1060,
+       "possible": null,
+       "minimum": 6,
+       "skills": [
+        "contar y escribir cantidades de dinero",
+        "redondear dinero al dolar",
+        "conversion de unidades de medida"
+       ],
+       "seguro": true
+      }
+     ]
+    }
+   },
+   "cle": {},
+   "lifepac": {
+    "level": 500,
+    "math_topics": [
+     "valor posicional, suma y resta",
+     "multiplicar enteros y decimales",
+     "dividir enteros y decimales",
+     "algebra y graficas",
+     "medicion",
+     "factores y fracciones",
+     "operaciones con fracciones",
+     "analisis de datos y probabilidad",
+     "geometria",
+     "perimetro, area y volumen"
+    ],
+    "language_arts_topics": [
+     "comprension de lectura (relato)",
+     "esquemas/outline",
+     "puntuacion y exclamaciones",
+     "tiempos verbales regulares",
+     "parrafos y preguntas de comprension"
+    ],
+    "pass_points": 70,
+    "points_per_level": 100,
+    "gap_flag_points": 6
+   },
+   "florida": {
+    "status": "codigos_por_verificar_en_CPALMS"
+   }
+  },
+  "6": {
+   "grade": 6,
+   "ace": {
+    "english": {
+     "pace_range": [
+      1061,
+      1072
+     ],
+     "covered": [
+      1061,
+      1062,
+      1063,
+      1064,
+      1065,
+      1066,
+      1067,
+      1068,
+      1069,
+      1070,
+      1071,
+      1072
+     ],
+     "missing": [],
+     "paces": [
+      {
+       "pace": 1061,
+       "possible": 23,
+       "minimum": 18,
+       "skills": [
+        "palabras guía de diccionario",
+        "orden alfabético",
+        "relaciones entre palabras (sinónimos, antónimos, homófonos, heterónimos)",
+        "sujeto y predicado simple/completo"
+       ],
+       "seguro": false
+      },
+      {
+       "pace": 1062,
+       "possible": 17,
+       "minimum": 14,
+       "skills": [
+        "identificar sustantivos y su función en la oración",
+        "sustantivos colectivos",
+        "formar singular posesivo, plural y plural posesivo"
+       ],
+       "seguro": true
+      },
+      {
+       "pace": 1063,
+       "possible": 32,
+       "minimum": 26,
+       "skills": [
+        "identificar verbos de acción y copulativos",
+        "distinguir objeto directo e indirecto",
+        "adjetivo y sustantivo predicativos",
+        "diagramar sujeto, verbo y complemento"
+       ],
+       "seguro": true
+      },
+      {
+       "pace": 1064,
+       "possible": 18,
+       "minimum": 15,
+       "skills": [
+        "casos del pronombre (sujeto, objeto, posesivo)",
+        "pronombres interrogativos, relativos, demostrativos y reflexivos",
+        "antecedente del pronombre",
+        "concordancia con pronombres indefinidos"
+       ],
+       "seguro": true
+      },
+      {
+       "pace": 1065,
+       "possible": 21,
+       "minimum": 17,
+       "skills": [
+        "formas verbales regulares e irregulares (participios, pasado)",
+        "tiempos presente, pasado y futuro"
+       ],
+       "seguro": true
+      },
+      {
+       "pace": 1066,
+       "possible": 25,
+       "minimum": 20,
+       "skills": [
+        "tiempos perfectos (presente, pasado, futuro perfecto)",
+        "uso correcto de verbos problemáticos (sit/set, lie/lay, rise/raise)",
+        "concordancia sujeto-verbo"
+       ],
+       "seguro": true
+      },
+      {
+       "pace": 1067,
+       "possible": 11,
+       "minimum": 9,
+       "skills": [
+        "adjetivos",
+        "adverbios",
+        "frases preposicionales como adjetivo o adverbio",
+        "conjunciones coordinantes e interjecciones"
+       ],
+       "seguro": true
+      },
+      {
+       "pace": 1068,
+       "possible": 30,
+       "minimum": 24,
+       "skills": [
+        "identificar las ocho partes de la oración",
+        "diagramar oraciones con adjetivos, adverbios y frases preposicionales"
+       ],
+       "seguro": true
+      },
+      {
+       "pace": 1069,
+       "possible": 30,
+       "minimum": 24,
+       "skills": [
+        "uso de mayúsculas",
+        "comillas y puntuación final",
+        "punto y coma, dos puntos y apóstrofos",
+        "uso de comas en carta amistosa"
+       ],
+       "seguro": true
+      },
+      {
+       "pace": 1070,
+       "possible": 23,
+       "minimum": 18,
+       "skills": [
+        "analizar oración (frases preposicionales, sujeto, verbo)",
+        "fragmento vs oración completa",
+        "tipos de oración por finalidad",
+        "puntuación final",
+        "adverbios y uso correcto de palabras"
+       ],
+       "seguro": true
+      },
+      {
+       "pace": 1071,
+       "possible": 11,
+       "minimum": 9,
+       "skills": [
+        "frases preposicionales como adjetivo/adverbio",
+        "identificar cláusulas",
+        "palabra introductoria de cláusula",
+        "oración temática de un párrafo"
+       ],
+       "seguro": true
+      },
+      {
+       "pace": 1072,
+       "possible": 50,
+       "minimum": 40,
+       "skills": [
+        "corrección de mayúsculas y puntuación en carta formal",
+        "comas y puntuación final",
+        "completar un esquema (outline) con numeración romana, letras y números"
+       ],
+       "seguro": true
+      }
+     ]
+    },
+    "math": {
+     "pace_range": [
+      1061,
+      1072
+     ],
+     "covered": [
+      1061,
+      1062,
+      1063,
+      1064,
+      1065,
+      1066,
+      1067,
+      1068,
+      1069,
+      1070,
+      1071,
+      1072
+     ],
+     "missing": [],
+     "paces": [
+      {
+       "pace": 1061,
+       "possible": null,
+       "minimum": 7,
+       "skills": [
+        "valor posicional en millones",
+        "propiedades conmutativa y asociativa",
+        "operaciones inversas",
+        "primos y compuestos"
+       ],
+       "seguro": true
+      },
+      {
+       "pace": 1062,
+       "possible": null,
+       "minimum": 6,
+       "skills": [
+        "sumar o restar con cantidades de millones",
+        "multiplicar numeros de 3 y 4 digitos",
+        "redondear a multiplo de 1000",
+        "propiedad de identidad"
+       ],
+       "seguro": true
+      },
+      {
+       "pace": 1063,
+       "possible": null,
+       "minimum": 5,
+       "skills": [
+        "division con divisor de 3 digitos",
+        "comparar expresiones con orden de operaciones",
+        "productos cruzados para fracciones equivalentes",
+        "resta de numeros mixtos con reagrupacion",
+        "exponentes"
+       ],
+       "seguro": true
+      },
+      {
+       "pace": 1064,
+       "possible": null,
+       "minimum": 7,
+       "skills": [
+        "potencias de 10 y exponentes",
+        "division larga con cociente grande",
+        "minimo comun multiplo",
+        "fracciones decimales a decimales"
+       ],
+       "seguro": true
+      },
+      {
+       "pace": 1065,
+       "possible": null,
+       "minimum": 5,
+       "skills": [
+        "notacion estandar",
+        "redondeo de numeros grandes",
+        "suma de fracciones y mixtos",
+        "comparar decimales"
+       ],
+       "seguro": true
+      },
+      {
+       "pace": 1066,
+       "possible": null,
+       "minimum": 7,
+       "skills": [
+        "orden de operaciones con variables",
+        "reglas de divisibilidad",
+        "division de fracciones",
+        "redondeo de decimales",
+        "porcentaje a decimal y fraccion"
+       ],
+       "seguro": true
+      },
+      {
+       "pace": 1067,
+       "possible": null,
+       "minimum": 10,
+       "skills": [
+        "secuencias numericas",
+        "operaciones inversas para valor faltante",
+        "comparar fracciones con distinto denominador",
+        "dividir fracciones y mixtos",
+        "division con decimales",
+        "multiplicar y dividir por potencias de 10",
+        "entero y decimal a porcentaje"
+       ],
+       "seguro": false
+      },
+      {
+       "pace": 1068,
+       "possible": null,
+       "minimum": 6,
+       "skills": [
+        "valor posicional en miles de millones",
+        "operaciones inversas",
+        "proporciones con productos cruzados",
+        "dividir numeros mixtos",
+        "division con divisor decimal"
+       ],
+       "seguro": false
+      },
+      {
+       "pace": 1069,
+       "possible": null,
+       "minimum": 6,
+       "skills": [
+        "numeros negativos en la recta numerica",
+        "multiplicar fracciones con cancelacion",
+        "proporciones con incognita",
+        "division con residuo decimal",
+        "fraccion a decimal y a porcentaje"
+       ],
+       "seguro": true
+      },
+      {
+       "pace": 1070,
+       "possible": null,
+       "minimum": 5,
+       "skills": [
+        "estimar sumas y restas con decimales",
+        "decimales finitos y periodicos",
+        "comparar decimales, porcentajes y fracciones",
+        "porcentaje de un numero"
+       ],
+       "seguro": false
+      },
+      {
+       "pace": 1071,
+       "possible": null,
+       "minimum": 5,
+       "skills": [
+        "cuadrilateros: nombres y clasificacion",
+        "rectas paralelas y perpendiculares",
+        "clasificar angulos y estimar su medida",
+        "area de paralelogramos",
+        "clasificar triangulos"
+       ],
+       "seguro": false
+      },
+      {
+       "pace": 1072,
+       "possible": null,
+       "minimum": 7,
+       "skills": [
+        "partes del circulo: cuerda, diametro, radio",
+        "identificar cuerpos geometricos",
+        "volumen de prisma rectangular"
+       ],
+       "seguro": true
+      }
+     ]
+    }
+   },
+   "cle": {},
+   "lifepac": {
+    "level": 600,
+    "math_topics": [
+     "numeros enteros y operaciones (tema 601, titulo parcial)",
+     "analisis de datos",
+     "decimales",
+     "fracciones",
+     "operaciones con fracciones",
+     "razon, proporcion y porcentaje",
+     "probabilidad y geometria",
+     "geometria y medicion",
+     "enteros y transformaciones",
+     "ecuaciones y funciones"
+    ],
+    "language_arts_topics": [
+     "comprension con varias respuestas",
+     "prefijos/sufijos de palabras (p.ej. con vocabulario avanzado)",
+     "esquemas",
+     "correccion de oraciones",
+     "silabas y vocales",
+     "contracciones",
+     "informes: delimitar temas"
+    ],
+    "pass_points": 70,
+    "points_per_level": 100,
+    "gap_flag_points": 6
+   },
+   "florida": {
+    "status": "codigos_por_verificar_en_CPALMS"
+   }
+  },
+  "7": {
+   "grade": 7,
+   "ace": {
+    "english": {
+     "pace_range": [
+      1073,
+      1084
+     ],
+     "covered": [
+      1073,
+      1074,
+      1075,
+      1076,
+      1077,
+      1078,
+      1079,
+      1080,
+      1081,
+      1082,
+      1083,
+      1084
+     ],
+     "missing": [],
+     "paces": [
+      {
+       "pace": 1073,
+       "possible": 12,
+       "minimum": 10,
+       "skills": [
+        "oración completa vs fragmento",
+        "verbo de acción vs copulativo",
+        "voz activa y pasiva"
+       ],
+       "seguro": true
+      },
+      {
+       "pace": 1074,
+       "possible": 14,
+       "minimum": 11,
+       "skills": [
+        "formas de verbos regulares e irregulares",
+        "tiempo verbal presente, pasado, futuro"
+       ],
+       "seguro": true
+      },
+      {
+       "pace": 1075,
+       "possible": 6,
+       "minimum": 5,
+       "skills": [
+        "tiempos perfectos (presente, pasado, futuro perfecto)"
+       ],
+       "seguro": true
+      },
+      {
+       "pace": 1076,
+       "possible": 13,
+       "minimum": 11,
+       "skills": [
+        "función de sustantivos (sujeto, objeto, nominativo predicativo)",
+        "singular, posesivo y plural de sustantivos",
+        "verbos transitivos e intransitivos"
+       ],
+       "seguro": true
+      },
+      {
+       "pace": 1077,
+       "possible": 14,
+       "minimum": 11,
+       "skills": [
+        "pronombres personales nominativo y objetivo",
+        "tipos de pronombre (demostrativo, interrogativo, relativo, reflexivo)"
+       ],
+       "seguro": true
+      },
+      {
+       "pace": 1078,
+       "possible": 8,
+       "minimum": 6,
+       "skills": [
+        "adjetivo vs adverbio",
+        "grados de comparación",
+        "preposición, conjunción, interjección"
+       ],
+       "seguro": true
+      },
+      {
+       "pace": 1079,
+       "possible": 8,
+       "minimum": 6,
+       "skills": [
+        "identificar la parte de la oración de una palabra",
+        "diagramar oración compuesta"
+       ],
+       "seguro": true
+      },
+      {
+       "pace": 1080,
+       "possible": 14,
+       "minimum": 11,
+       "skills": [
+        "diagramar oración compleja",
+        "infinitivos, participios y gerundios",
+        "cláusulas sustantiva, adjetiva y adverbial"
+       ],
+       "seguro": true
+      },
+      {
+       "pace": 1081,
+       "possible": 8,
+       "minimum": 6,
+       "skills": [
+        "comillas y puntuación en diálogo",
+        "punto y coma, dos puntos, apóstrofos y guiones"
+       ],
+       "seguro": true
+      },
+      {
+       "pace": 1082,
+       "possible": 11,
+       "minimum": 9,
+       "skills": [
+        "oraciones simples, compuestas y complejas",
+        "sujeto y verbo",
+        "redacción de carta de aceptación a invitación"
+       ],
+       "seguro": true
+      },
+      {
+       "pace": 1083,
+       "possible": 3,
+       "minimum": 2,
+       "skills": [
+        "palabras guía y palabras de entrada en diccionario",
+        "oración temática de un párrafo"
+       ],
+       "seguro": true
+      },
+      {
+       "pace": 1084,
+       "possible": 13,
+       "minimum": 11,
+       "skills": [
+        "distinguir párrafo descriptivo vs explicativo",
+        "completar un esquema",
+        "escribir un esquema"
+       ],
+       "seguro": true
+      }
+     ]
+    },
+    "math": {
+     "pace_range": [
+      1073,
+      1084
+     ],
+     "covered": [],
+     "missing": [
+      1073,
+      1074,
+      1075,
+      1076,
+      1077,
+      1078,
+      1079,
+      1080,
+      1081,
+      1082,
+      1083,
+      1084
+     ],
+     "paces": []
+    }
+   },
+   "cle": {},
+   "lifepac": {
+    "level": 700,
+    "math_topics": [
+     "enteros",
+     "fracciones",
+     "decimales",
+     "patrones y ecuaciones",
+     "razones y proporciones",
+     "probabilidad y graficas",
+     "analisis de datos",
+     "geometria",
+     "medicion y area",
+     "area de superficie y volumen"
+    ],
+    "language_arts_topics": [
+     "sustantivos comunes",
+     "entonacion",
+     "prosa literaria (biografia)",
+     "tipos de oraciones y sujetos",
+     "palabras de sentimiento",
+     "puntuacion y mayusculas",
+     "no ficcion"
+    ],
+    "pass_points": 70,
+    "points_per_level": 100,
+    "gap_flag_points": 6
+   },
+   "florida": {
+    "status": "codigos_por_verificar_en_CPALMS"
+   }
+  },
+  "8": {
+   "grade": 8,
+   "ace": {
+    "english": {
+     "pace_range": [
+      1085,
+      1096
+     ],
+     "covered": [
+      1085,
+      1086,
+      1087,
+      1088,
+      1089,
+      1090,
+      1091,
+      1092,
+      1093,
+      1094,
+      1095,
+      1096
+     ],
+     "missing": [],
+     "paces": [
+      {
+       "pace": 1085,
+       "possible": 16,
+       "minimum": 13,
+       "skills": [
+        "sujeto y verbo",
+        "concordancia sujeto-verbo",
+        "diagramar sujeto y verbo compuestos",
+        "verbo de acción vs copulativo",
+        "transitivo vs intransitivo"
+       ],
+       "seguro": true
+      },
+      {
+       "pace": 1086,
+       "possible": 11,
+       "minimum": 9,
+       "skills": [
+        "voz activa y pasiva",
+        "verbos irregulares",
+        "forma verbal correcta",
+        "tiempo verbal"
+       ],
+       "seguro": true
+      },
+      {
+       "pace": 1087,
+       "possible": 15,
+       "minimum": 12,
+       "skills": [
+        "tiempos perfectos"
+       ],
+       "seguro": false
+      },
+      {
+       "pace": 1088,
+       "possible": 10,
+       "minimum": 8,
+       "skills": [
+        "verbos problemáticos (lie/lay, sit/set, etc.)"
+       ],
+       "seguro": true
+      },
+      {
+       "pace": 1089,
+       "possible": 13,
+       "minimum": 11,
+       "skills": [
+        "función de sustantivos en la oración (incluye aposición y vocativo)",
+        "singular posesivo, plural y plural posesivo"
+       ],
+       "seguro": true
+      },
+      {
+       "pace": 1090,
+       "possible": 16,
+       "minimum": 13,
+       "skills": [
+        "casos del pronombre personal",
+        "palabras confundibles (its/it's, your/you're)",
+        "antecedente",
+        "tipos de pronombre"
+       ],
+       "seguro": true
+      },
+      {
+       "pace": 1091,
+       "possible": 8,
+       "minimum": 6,
+       "skills": [
+        "identificar la parte de la oración de una palabra subrayada"
+       ],
+       "seguro": true
+      },
+      {
+       "pace": 1092,
+       "possible": 11,
+       "minimum": 9,
+       "skills": [
+        "diagramar oraciones simples y compuestas",
+        "oración completa, fragmento o fusionada (run-on)"
+       ],
+       "seguro": true
+      },
+      {
+       "pace": 1093,
+       "possible": 15,
+       "minimum": 12,
+       "skills": [
+        "completar diagrama de oración compleja",
+        "oración temática de párrafo"
+       ],
+       "seguro": true
+      },
+      {
+       "pace": 1094,
+       "possible": 7,
+       "minimum": 6,
+       "skills": [
+        "tipo de párrafo (narrativo, expositivo, descriptivo, persuasivo)"
+       ],
+       "seguro": true
+      },
+      {
+       "pace": 1095,
+       "possible": 20,
+       "minimum": 16,
+       "skills": [
+        "puntuación en diálogo y comas",
+        "subrayado, comillas, apóstrofos, guiones y rayas",
+        "formato correcto de carta amistosa y comercial"
+       ],
+       "seguro": true
+      },
+      {
+       "pace": 1096,
+       "possible": 45,
+       "minimum": 37,
+       "skills": [
+        "uso de mayúsculas",
+        "organizar y escribir un esquema (outline)"
+       ],
+       "seguro": true
+      }
+     ]
+    },
+    "math": {
+     "pace_range": [
+      1085,
+      1096
+     ],
+     "covered": [],
+     "missing": [
+      1085,
+      1086,
+      1087,
+      1088,
+      1089,
+      1090,
+      1091,
+      1092,
+      1093,
+      1094,
+      1095,
+      1096
+     ],
+     "paces": []
+    }
+   },
+   "cle": {},
+   "lifepac": {
+    "level": 800,
+    "math_topics": [
+     "pre-algebra: sistema de numeros reales",
+     "problemas con enteros",
+     "problemas con numeros racionales",
+     "razonamiento proporcional",
+     "mas funciones",
+     "medicion",
+     "geometria plana",
+     "medidas de solidos",
+     "analisis de datos",
+     "probabilidad"
+    ],
+    "language_arts_topics": [
+     "vocabulario avanzado (prueba READ de nivel superior)",
+     "literatura y composicion (resumen: el PDF no enumera titulos de unidad; solo confirmado nivel y vocabulario de lectura)"
+    ],
+    "pass_points": 70,
+    "points_per_level": 100,
+    "gap_flag_points": 6
+   },
+   "florida": {
+    "status": "codigos_por_verificar_en_CPALMS"
+   }
+  },
+  "9": {
+   "grade": 9,
+   "ace": {
+    "english": {
+     "pace_range": [
+      1097,
+      1108
+     ],
+     "covered": [],
+     "missing": [
+      1097,
+      1098,
+      1099,
+      1100,
+      1101,
+      1102,
+      1103,
+      1104,
+      1105,
+      1106,
+      1107,
+      1108
+     ],
+     "paces": []
+    },
+    "math": {
+     "pace_range": [
+      1097,
+      1108
+     ],
+     "covered": [],
+     "missing": [
+      1097,
+      1098,
+      1099,
+      1100,
+      1101,
+      1102,
+      1103,
+      1104,
+      1105,
+      1106,
+      1107,
+      1108
+     ],
+     "paces": []
+    }
+   },
+   "cle": {},
+   "lifepac": {
+    "level": 900,
+    "math_topics": [
+     "Algebra I: terminos y variables, valor absoluto, expresiones",
+     "simplificar y factorizar (MCD)",
+     "expresiones racionales",
+     "numeros irracionales",
+     "sistemas y graficas de ecuaciones lineales",
+     "completar el cuadrado / cuadraticas"
+    ],
+    "language_arts_topics": null,
+    "pass_points": 70,
+    "points_per_level": 100,
+    "gap_flag_points": 6
+   },
+   "florida": {
+    "status": "codigos_por_verificar_en_CPALMS"
+   }
+  },
+  "10": {
+   "grade": 10,
+   "ace": {
+    "english": {
+     "pace_range": [
+      1109,
+      1120
+     ],
+     "covered": [],
+     "missing": [
+      1109,
+      1110,
+      1111,
+      1112,
+      1113,
+      1114,
+      1115,
+      1116,
+      1117,
+      1118,
+      1119,
+      1120
+     ],
+     "paces": []
+    },
+    "math": {
+     "pace_range": [
+      1109,
+      1120
+     ],
+     "covered": [],
+     "missing": [
+      1109,
+      1110,
+      1111,
+      1112,
+      1113,
+      1114,
+      1115,
+      1116,
+      1117,
+      1118,
+      1119,
+      1120
+     ],
+     "paces": []
+    }
+   },
+   "cle": {},
+   "lifepac": {
+    "level": 1000,
+    "math_topics": [
+     "Geometria: logica y demostraciones, congruencia, razones, esferas y solidos, construcciones, area, geometria de coordenadas (punto medio)"
+    ],
+    "language_arts_topics": null,
+    "pass_points": 70,
+    "points_per_level": 100,
+    "gap_flag_points": 6
+   },
+   "florida": {
+    "status": "codigos_por_verificar_en_CPALMS"
+   }
+  },
+  "11": {
+   "grade": 11,
+   "ace": {
+    "english": {
+     "pace_range": [
+      1121,
+      1132
+     ],
+     "covered": [],
+     "missing": [
+      1121,
+      1122,
+      1123,
+      1124,
+      1125,
+      1126,
+      1127,
+      1128,
+      1129,
+      1130,
+      1131,
+      1132
+     ],
+     "paces": []
+    },
+    "math": {
+     "pace_range": [
+      1121,
+      1132
+     ],
+     "covered": [],
+     "missing": [
+      1121,
+      1122,
+      1123,
+      1124,
+      1125,
+      1126,
+      1127,
+      1128,
+      1129,
+      1130,
+      1131,
+      1132
+     ],
+     "paces": []
+    }
+   },
+   "cle": {},
+   "lifepac": {
+    "level": 1100,
+    "math_topics": [
+     "Algebra II: conjuntos, valor absoluto, funciones, exponentes, radicales, distancia, series aritmeticas, parabolas"
+    ],
+    "language_arts_topics": null,
+    "pass_points": 70,
+    "points_per_level": 100,
+    "gap_flag_points": 6
+   },
+   "florida": {
+    "status": "codigos_por_verificar_en_CPALMS"
+   }
+  },
+  "12": {
+   "grade": 12,
+   "ace": {
+    "english": {
+     "pace_range": [
+      1133,
+      1144
+     ],
+     "covered": [],
+     "missing": [
+      1133,
+      1134,
+      1135,
+      1136,
+      1137,
+      1138,
+      1139,
+      1140,
+      1141,
+      1142,
+      1143,
+      1144
+     ],
+     "paces": []
+    },
+    "math": {
+     "pace_range": [
+      1133,
+      1144
+     ],
+     "covered": [],
+     "missing": [
+      1133,
+      1134,
+      1135,
+      1136,
+      1137,
+      1138,
+      1139,
+      1140,
+      1141,
+      1142,
+      1143,
+      1144
+     ],
+     "paces": []
+    }
+   },
+   "cle": {},
+   "lifepac": {
+    "level": 1200,
+    "math_topics": [
+     "Matematicas avanzadas: dominio/rango, funciones, trigonometria (seno, coseno, identidades), vectores y navegacion, probabilidad, evaluacion de funciones"
+    ],
+    "language_arts_topics": null,
+    "pass_points": 70,
+    "points_per_level": 100,
+    "gap_flag_points": 6
+   },
+   "florida": {
+    "status": "codigos_por_verificar_en_CPALMS"
+   }
+  }
+ }
+}

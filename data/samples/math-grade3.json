@@ -1,0 +1,239 @@
+{
+ "level": 3,
+ "items": [
+  {
+   "id": "M3-01",
+   "subject": "math",
+   "grade_level": 3,
+   "strand": "Number Sense and Operations",
+   "skill": "multiplication facts 6 and 7",
+   "type": "numeric",
+   "prompt": "7 × 6 = ?",
+   "answer": 42,
+   "equivalencias": {
+    "ace_pace_provisional": "1031-1032",
+    "cle": null,
+    "lifepac_level": 300,
+    "florida": {
+     "strand": "Number Sense and Operations",
+     "code": null,
+     "status": "verificar_en_CPALMS"
+    }
+   },
+   "revision_docente": "pendiente"
+  },
+  {
+   "id": "M3-02",
+   "subject": "math",
+   "grade_level": 3,
+   "strand": "Number Sense and Operations",
+   "skill": "subtraction with regrouping, 3 digits",
+   "type": "numeric",
+   "prompt": "534 − 278 = ?",
+   "answer": 256,
+   "equivalencias": {
+    "ace_pace_provisional": "1028",
+    "cle": null,
+    "lifepac_level": 300,
+    "florida": {
+     "strand": "Number Sense and Operations",
+     "code": null,
+     "status": "verificar_en_CPALMS"
+    }
+   },
+   "revision_docente": "pendiente"
+  },
+  {
+   "id": "M3-03",
+   "subject": "math",
+   "grade_level": 3,
+   "strand": "Number Sense and Operations",
+   "skill": "multiplication facts 8 and 9",
+   "type": "numeric",
+   "prompt": "8 × 9 = ?",
+   "answer": 72,
+   "equivalencias": {
+    "ace_pace_provisional": "1033",
+    "cle": null,
+    "lifepac_level": 300,
+    "florida": {
+     "strand": "Number Sense and Operations",
+     "code": null,
+     "status": "verificar_en_CPALMS"
+    }
+   },
+   "revision_docente": "pendiente"
+  },
+  {
+   "id": "M3-04",
+   "subject": "math",
+   "grade_level": 3,
+   "strand": "Measurement",
+   "skill": "telling time to the quarter hour",
+   "type": "mcq",
+   "prompt": "The short hand points just past the 4 and the long hand points to the 3. What time is it?",
+   "answer": "4:15",
+   "equivalencias": {
+    "ace_pace_provisional": "1023",
+    "cle": null,
+    "lifepac_level": 300,
+    "florida": {
+     "strand": "Measurement",
+     "code": null,
+     "status": "verificar_en_CPALMS"
+    }
+   },
+   "revision_docente": "pendiente",
+   "options": [
+    "3:20",
+    "4:15",
+    "4:30",
+    "3:45"
+   ]
+  },
+  {
+   "id": "M3-05",
+   "subject": "math",
+   "grade_level": 3,
+   "strand": "Number Sense and Operations",
+   "skill": "division facts",
+   "type": "numeric",
+   "prompt": "24 ÷ 3 = ?",
+   "answer": 8,
+   "equivalencias": {
+    "ace_pace_provisional": "1039",
+    "cle": null,
+    "lifepac_level": 300,
+    "florida": {
+     "strand": "Number Sense and Operations",
+     "code": null,
+     "status": "verificar_en_CPALMS"
+    }
+   },
+   "revision_docente": "pendiente"
+  },
+  {
+   "id": "M3-06",
+   "subject": "math",
+   "grade_level": 3,
+   "strand": "Number Sense and Operations",
+   "skill": "rounding to the nearest ten",
+   "type": "numeric",
+   "prompt": "Round 467 to the nearest ten.",
+   "answer": 470,
+   "equivalencias": {
+    "ace_pace_provisional": null,
+    "cle": null,
+    "lifepac_level": 300,
+    "florida": {
+     "strand": "Number Sense and Operations",
+     "code": null,
+     "status": "verificar_en_CPALMS"
+    }
+   },
+   "revision_docente": "pendiente"
+  },
+  {
+   "id": "M3-07",
+   "subject": "math",
+   "grade_level": 3,
+   "strand": "Fractions",
+   "skill": "comparing fractions with the same denominator",
+   "type": "mcq",
+   "prompt": "Which fraction is greater?",
+   "answer": "3/4",
+   "equivalencias": {
+    "ace_pace_provisional": null,
+    "cle": null,
+    "lifepac_level": 300,
+    "florida": {
+     "strand": "Fractions",
+     "code": null,
+     "status": "verificar_en_CPALMS"
+    }
+   },
+   "revision_docente": "pendiente",
+   "options": [
+    "1/4",
+    "2/4",
+    "3/4",
+    "They are equal"
+   ]
+  },
+  {
+   "id": "M3-08",
+   "subject": "math",
+   "grade_level": 3,
+   "strand": "Algebraic Reasoning",
+   "skill": "multiplication word problem",
+   "type": "numeric",
+   "prompt": "Sam has 5 boxes. Each box has 6 pencils. How many pencils does Sam have in all?",
+   "answer": 30,
+   "equivalencias": {
+    "ace_pace_provisional": "1029-1033",
+    "cle": null,
+    "lifepac_level": 300,
+    "florida": {
+     "strand": "Algebraic Reasoning",
+     "code": null,
+     "status": "verificar_en_CPALMS"
+    }
+   },
+   "revision_docente": "pendiente"
+  },
+  {
+   "id": "M3-09",
+   "subject": "math",
+   "grade_level": 3,
+   "strand": "Measurement",
+   "skill": "customary length units",
+   "type": "mcq",
+   "prompt": "How many feet are in 1 yard?",
+   "answer": "3",
+   "equivalencias": {
+    "ace_pace_provisional": null,
+    "cle": null,
+    "lifepac_level": 300,
+    "florida": {
+     "strand": "Measurement",
+     "code": null,
+     "status": "verificar_en_CPALMS"
+    }
+   },
+   "revision_docente": "pendiente",
+   "options": [
+    "2",
+    "3",
+    "10",
+    "12"
+   ]
+  },
+  {
+   "id": "M3-10",
+   "subject": "math",
+   "grade_level": 3,
+   "strand": "Number Sense and Operations",
+   "skill": "place value",
+   "type": "mcq",
+   "prompt": "In the number 829, which place is the digit 2 in?",
+   "answer": "tens",
+   "equivalencias": {
+    "ace_pace_provisional": null,
+    "cle": null,
+    "lifepac_level": 300,
+    "florida": {
+     "strand": "Number Sense and Operations",
+     "code": null,
+     "status": "verificar_en_CPALMS"
+    }
+   },
+   "revision_docente": "pendiente",
+   "options": [
+    "ones",
+    "tens",
+    "hundreds",
+    "thousands"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,272 @@
+{
+ "level": 3,
+ "items": [
+  {
+   "id": "E3-01",
+   "subject": "english",
+   "grade_level": 3,
+   "strand": "Language",
+   "skill": "subject-verb agreement",
+   "type": "mcq",
+   "prompt": "Choose the correct word: She ___ to school every day.",
+   "answer": "goes",
+   "equivalencias": {
+    "ace_pace_provisional": "1019-1023",
+    "cle": null,
+    "lifepac_level": 300,
+    "florida": {
+     "strand": "Language",
+     "code": null,
+     "status": "verificar_en_CPALMS"
+    }
+   },
+   "revision_docente": "pendiente",
+   "options": [
+    "go",
+    "goes",
+    "going",
+    "gone"
+   ]
+  },
+  {
+   "id": "E3-02",
+   "subject": "english",
+   "grade_level": 3,
+   "strand": "Language",
+   "skill": "regular plurals",
+   "type": "mcq",
+   "prompt": "What is the plural of \"box\"?",
+   "answer": "boxes",
+   "equivalencias": {
+    "ace_pace_provisional": "1035-1040",
+    "cle": null,
+    "lifepac_level": 300,
+    "florida": {
+     "strand": "Language",
+     "code": null,
+     "status": "verificar_en_CPALMS"
+    }
+   },
+   "revision_docente": "pendiente",
+   "options": [
+    "boxs",
+    "boxes",
+    "boxies",
+    "box"
+   ]
+  },
+  {
+   "id": "E3-03",
+   "subject": "english",
+   "grade_level": 3,
+   "strand": "Foundations",
+   "skill": "capital letters and end punctuation",
+   "type": "mcq",
+   "prompt": "Which sentence is written correctly?",
+   "answer": "My dog is brown.",
+   "equivalencias": {
+    "ace_pace_provisional": "1013-1016",
+    "cle": null,
+    "lifepac_level": 300,
+    "florida": {
+     "strand": "Foundations",
+     "code": null,
+     "status": "verificar_en_CPALMS"
+    }
+   },
+   "revision_docente": "pendiente",
+   "options": [
+    "my dog is brown.",
+    "My dog is brown",
+    "My Dog is brown.",
+    "My dog is brown."
+   ]
+  },
+  {
+   "id": "E3-04",
+   "subject": "english",
+   "grade_level": 3,
+   "strand": "Reading Informational",
+   "skill": "literal comprehension",
+   "type": "mcq",
+   "prompt": "Read: \"Tom has a red kite. He flies it at the park on windy days. Last Sunday the wind was strong, and the kite flew very high.\" Why did the kite fly very high?",
+   "answer": "The wind was strong.",
+   "equivalencias": {
+    "ace_pace_provisional": "1049-1053",
+    "cle": null,
+    "lifepac_level": 300,
+    "florida": {
+     "strand": "Reading Informational",
+     "code": null,
+     "status": "verificar_en_CPALMS"
+    }
+   },
+   "revision_docente": "pendiente",
+   "options": [
+    "Tom ran very fast.",
+    "The wind was strong.",
+    "It was a red kite.",
+    "It was raining."
+   ]
+  },
+  {
+   "id": "E3-05",
+   "subject": "english",
+   "grade_level": 3,
+   "strand": "Vocabulary",
+   "skill": "antonyms",
+   "type": "mcq",
+   "prompt": "Which word means the opposite of \"hot\"?",
+   "answer": "cold",
+   "equivalencias": {
+    "ace_pace_provisional": "1017-1034",
+    "cle": null,
+    "lifepac_level": 300,
+    "florida": {
+     "strand": "Vocabulary",
+     "code": null,
+     "status": "verificar_en_CPALMS"
+    }
+   },
+   "revision_docente": "pendiente",
+   "options": [
+    "warm",
+    "cold",
+    "sunny",
+    "dry"
+   ]
+  },
+  {
+   "id": "E3-06",
+   "subject": "english",
+   "grade_level": 3,
+   "strand": "Language",
+   "skill": "identifying verbs",
+   "type": "mcq",
+   "prompt": "Which word is a verb? \"The bird sings loudly.\"",
+   "answer": "sings",
+   "equivalencias": {
+    "ace_pace_provisional": "1019-1023",
+    "cle": null,
+    "lifepac_level": 300,
+    "florida": {
+     "strand": "Language",
+     "code": null,
+     "status": "verificar_en_CPALMS"
+    }
+   },
+   "revision_docente": "pendiente",
+   "options": [
+    "The",
+    "bird",
+    "sings",
+    "loudly"
+   ]
+  },
+  {
+   "id": "E3-07",
+   "subject": "english",
+   "grade_level": 3,
+   "strand": "Vocabulary",
+   "skill": "homophones",
+   "type": "mcq",
+   "prompt": "Choose the correct word: I can ___ the bell ring.",
+   "answer": "hear",
+   "equivalencias": {
+    "ace_pace_provisional": "1041-1048",
+    "cle": null,
+    "lifepac_level": 300,
+    "florida": {
+     "strand": "Vocabulary",
+     "code": null,
+     "status": "verificar_en_CPALMS"
+    }
+   },
+   "revision_docente": "pendiente",
+   "options": [
+    "here",
+    "hear"
+   ]
+  },
+  {
+   "id": "E3-08",
+   "subject": "english",
+   "grade_level": 3,
+   "strand": "Language",
+   "skill": "contractions",
+   "type": "mcq",
+   "prompt": "What is the contraction for \"do not\"?",
+   "answer": "don't",
+   "equivalencias": {
+    "ace_pace_provisional": "1035-1040",
+    "cle": null,
+    "lifepac_level": 300,
+    "florida": {
+     "strand": "Language",
+     "code": null,
+     "status": "verificar_en_CPALMS"
+    }
+   },
+   "revision_docente": "pendiente",
+   "options": [
+    "dont",
+    "don't",
+    "do'nt",
+    "d'not"
+   ]
+  },
+  {
+   "id": "E3-09",
+   "subject": "english",
+   "grade_level": 3,
+   "strand": "Foundations",
+   "skill": "alphabetical order",
+   "type": "mcq",
+   "prompt": "Which word comes first in alphabetical order?",
+   "answer": "ant",
+   "equivalencias": {
+    "ace_pace_provisional": "1024-1040",
+    "cle": null,
+    "lifepac_level": 300,
+    "florida": {
+     "strand": "Foundations",
+     "code": null,
+     "status": "verificar_en_CPALMS"
+    }
+   },
+   "revision_docente": "pendiente",
+   "options": [
+    "apple",
+    "arm",
+    "ant"
+   ]
+  },
+  {
+   "id": "E3-10",
+   "subject": "english",
+   "grade_level": 3,
+   "strand": "Language",
+   "skill": "subject pronouns",
+   "type": "mcq",
+   "prompt": "Complete the sentence: Maria and I went to the park. ___ played games.",
+   "answer": "We",
+   "equivalencias": {
+    "ace_pace_provisional": "1030-1034",
+    "cle": null,
+    "lifepac_level": 300,
+    "florida": {
+     "strand": "Language",
+     "code": null,
+     "status": "verificar_en_CPALMS"
+    }
+   },
+   "revision_docente": "pendiente",
+   "options": [
+    "Us",
+    "We",
+    "They",
+    "Them"
+   ]
+  }
+ ]
+}
