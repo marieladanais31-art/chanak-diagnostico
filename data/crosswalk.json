@@ -213,7 +213,8 @@
        ],
        "seguro": true
       }
-     ]
+     ],
+     "status": "leido"
     },
     "math": {
      "pace_range": [
@@ -350,7 +351,8 @@
        ],
        "seguro": true
       }
-     ]
+     ],
+     "status": "leido"
     }
    },
    "cle": {
@@ -392,7 +394,8 @@
     ],
     "pass_points": 70,
     "points_per_level": 100,
-    "gap_flag_points": 6
+    "gap_flag_points": 6,
+    "status": "leido"
    },
    "florida": {
     "status": "codigos_por_verificar_en_CPALMS"
@@ -538,7 +541,8 @@
        ],
        "seguro": true
       }
-     ]
+     ],
+     "status": "leido"
     },
     "math": {
      "pace_range": [
@@ -675,7 +679,8 @@
        ],
        "seguro": true
       }
-     ]
+     ],
+     "status": "leido_con_huecos"
     }
    },
    "cle": {
@@ -723,7 +728,8 @@
     ],
     "pass_points": 70,
     "points_per_level": 100,
-    "gap_flag_points": 6
+    "gap_flag_points": 6,
+    "status": "leido"
    },
    "florida": {
     "status": "codigos_por_verificar_en_CPALMS"
@@ -869,7 +875,8 @@
        ],
        "seguro": true
       }
-     ]
+     ],
+     "status": "leido"
     },
     "math": {
      "pace_range": [
@@ -1003,7 +1010,8 @@
        ],
        "seguro": true
       }
-     ]
+     ],
+     "status": "leido_con_huecos"
     }
    },
    "cle": {
@@ -1052,7 +1060,8 @@
     ],
     "pass_points": 70,
     "points_per_level": 100,
-    "gap_flag_points": 6
+    "gap_flag_points": 6,
+    "status": "leido"
    },
    "florida": {
     "status": "codigos_por_verificar_en_CPALMS"
@@ -1203,7 +1212,8 @@
        ],
        "seguro": true
       }
-     ]
+     ],
+     "status": "leido"
     },
     "math": {
      "pace_range": [
@@ -1343,7 +1353,8 @@
        ],
        "seguro": false
       }
-     ]
+     ],
+     "status": "leido"
     }
    },
    "cle": {
@@ -1390,7 +1401,8 @@
     ],
     "pass_points": 70,
     "points_per_level": 100,
-    "gap_flag_points": 6
+    "gap_flag_points": 6,
+    "status": "leido"
    },
    "florida": {
     "status": "codigos_por_verificar_en_CPALMS"
@@ -1552,7 +1564,8 @@
        ],
        "seguro": true
       }
-     ]
+     ],
+     "status": "leido"
     },
     "math": {
      "pace_range": [
@@ -1732,7 +1745,8 @@
        ],
        "seguro": true
       }
-     ]
+     ],
+     "status": "leido"
     }
    },
    "cle": {},
@@ -1759,7 +1773,8 @@
     ],
     "pass_points": 70,
     "points_per_level": 100,
-    "gap_flag_points": 6
+    "gap_flag_points": 6,
+    "status": "leido"
    },
    "florida": {
     "status": "codigos_por_verificar_en_CPALMS"
@@ -1927,7 +1942,8 @@
        ],
        "seguro": true
       }
-     ]
+     ],
+     "status": "leido"
     },
     "math": {
      "pace_range": [
@@ -2101,7 +2117,8 @@
        ],
        "seguro": true
       }
-     ]
+     ],
+     "status": "leido"
     }
    },
    "cle": {},
@@ -2130,7 +2147,8 @@
     ],
     "pass_points": 70,
     "points_per_level": 100,
-    "gap_flag_points": 6
+    "gap_flag_points": 6,
+    "status": "leido"
    },
    "florida": {
     "status": "codigos_por_verificar_en_CPALMS"
@@ -2285,7 +2303,8 @@
        ],
        "seguro": true
       }
-     ]
+     ],
+     "status": "leido"
     },
     "math": {
      "pace_range": [
@@ -2307,7 +2326,9 @@
       1083,
       1084
      ],
-     "paces": []
+     "paces": [],
+     "status": "deducido",
+     "deduccion": "Sin cuadernillo ACE. Rango PACE por el mapa del SIS (12 PACE por grado); contenido a deducir de LIFEPAC nivel 700 y de la progresión de los grados anteriores. Revisar con un docente."
     }
    },
    "cle": {},
@@ -2336,7 +2357,8 @@
     ],
     "pass_points": 70,
     "points_per_level": 100,
-    "gap_flag_points": 6
+    "gap_flag_points": 6,
+    "status": "leido"
    },
    "florida": {
     "status": "codigos_por_verificar_en_CPALMS"
@@ -2490,7 +2512,8 @@
        ],
        "seguro": true
       }
-     ]
+     ],
+     "status": "leido"
     },
     "math": {
      "pace_range": [
@@ -2512,7 +2535,9 @@
       1095,
       1096
      ],
-     "paces": []
+     "paces": [],
+     "status": "deducido",
+     "deduccion": "Sin cuadernillo ACE. Rango PACE por el mapa del SIS (12 PACE por grado); contenido a deducir de LIFEPAC nivel 800 y de la progresión de los grados anteriores. Revisar con un docente."
     }
    },
    "cle": {},
@@ -2536,7 +2561,8 @@
     ],
     "pass_points": 70,
     "points_per_level": 100,
-    "gap_flag_points": 6
+    "gap_flag_points": 6,
+    "status": "leido"
    },
    "florida": {
     "status": "codigos_por_verificar_en_CPALMS"
@@ -2565,7 +2591,9 @@
       1107,
       1108
      ],
-     "paces": []
+     "paces": [],
+     "status": "deducido",
+     "deduccion": "Sin cuadernillo ACE. Rango PACE por el mapa del SIS (12 PACE por grado); contenido a deducir de LIFEPAC nivel 900 y de la progresión de los grados anteriores. Revisar con un docente."
     },
     "math": {
      "pace_range": [
@@ -2587,7 +2615,9 @@
       1107,
       1108
      ],
-     "paces": []
+     "paces": [],
+     "status": "deducido",
+     "deduccion": "Sin cuadernillo ACE. Rango PACE por el mapa del SIS (12 PACE por grado); contenido a deducir de LIFEPAC nivel 900 y de la progresión de los grados anteriores. Revisar con un docente."
     }
    },
    "cle": {},
@@ -2604,7 +2634,8 @@
     "language_arts_topics": null,
     "pass_points": 70,
     "points_per_level": 100,
-    "gap_flag_points": 6
+    "gap_flag_points": 6,
+    "status": "leido"
    },
    "florida": {
     "status": "codigos_por_verificar_en_CPALMS"
@@ -2633,7 +2664,9 @@
       1119,
       1120
      ],
-     "paces": []
+     "paces": [],
+     "status": "deducido",
+     "deduccion": "Sin cuadernillo ACE. Rango PACE por el mapa del SIS (12 PACE por grado); contenido a deducir de LIFEPAC nivel 1000 y de la progresión de los grados anteriores. Revisar con un docente."
     },
     "math": {
      "pace_range": [
@@ -2655,7 +2688,9 @@
       1119,
       1120
      ],
-     "paces": []
+     "paces": [],
+     "status": "deducido",
+     "deduccion": "Sin cuadernillo ACE. Rango PACE por el mapa del SIS (12 PACE por grado); contenido a deducir de LIFEPAC nivel 1000 y de la progresión de los grados anteriores. Revisar con un docente."
     }
    },
    "cle": {},
@@ -2667,7 +2702,8 @@
     "language_arts_topics": null,
     "pass_points": 70,
     "points_per_level": 100,
-    "gap_flag_points": 6
+    "gap_flag_points": 6,
+    "status": "leido"
    },
    "florida": {
     "status": "codigos_por_verificar_en_CPALMS"
@@ -2696,7 +2732,9 @@
       1131,
       1132
      ],
-     "paces": []
+     "paces": [],
+     "status": "deducido",
+     "deduccion": "Sin cuadernillo ACE. Rango PACE por el mapa del SIS (12 PACE por grado); contenido a deducir de LIFEPAC nivel 1100 y de la progresión de los grados anteriores. Revisar con un docente."
     },
     "math": {
      "pace_range": [
@@ -2718,7 +2756,9 @@
       1131,
       1132
      ],
-     "paces": []
+     "paces": [],
+     "status": "deducido",
+     "deduccion": "Sin cuadernillo ACE. Rango PACE por el mapa del SIS (12 PACE por grado); contenido a deducir de LIFEPAC nivel 1100 y de la progresión de los grados anteriores. Revisar con un docente."
     }
    },
    "cle": {},
@@ -2730,7 +2770,8 @@
     "language_arts_topics": null,
     "pass_points": 70,
     "points_per_level": 100,
-    "gap_flag_points": 6
+    "gap_flag_points": 6,
+    "status": "leido"
    },
    "florida": {
     "status": "codigos_por_verificar_en_CPALMS"
@@ -2759,7 +2800,9 @@
       1143,
       1144
      ],
-     "paces": []
+     "paces": [],
+     "status": "deducido",
+     "deduccion": "Sin cuadernillo ACE. Rango PACE por el mapa del SIS (12 PACE por grado); contenido a deducir de LIFEPAC nivel 1200 y de la progresión de los grados anteriores. Revisar con un docente."
     },
     "math": {
      "pace_range": [
@@ -2781,7 +2824,9 @@
       1143,
       1144
      ],
-     "paces": []
+     "paces": [],
+     "status": "deducido",
+     "deduccion": "Sin cuadernillo ACE. Rango PACE por el mapa del SIS (12 PACE por grado); contenido a deducir de LIFEPAC nivel 1200 y de la progresión de los grados anteriores. Revisar con un docente."
     }
    },
    "cle": {},
@@ -2793,7 +2838,8 @@
     "language_arts_topics": null,
     "pass_points": 70,
     "points_per_level": 100,
-    "gap_flag_points": 6
+    "gap_flag_points": 6,
+    "status": "leido"
    },
    "florida": {
     "status": "codigos_por_verificar_en_CPALMS"
