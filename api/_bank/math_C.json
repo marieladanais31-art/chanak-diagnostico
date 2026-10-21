@@ -18,7 +18,19 @@
    ],
    "answer": 2,
    "explain": "Multiply coefficients 3(-4) = -12 and add exponents: x^(2+1) y^(1+3) = -12x^3 y^4.",
-   "source": "deducido_scope_ace_2025"
+   "source": "deducido_scope_ace_2025",
+   "lu": {
+    "id": "LU-MATH-09-01",
+    "slot": 1,
+    "concept": {
+     "en": "Multiplying monomials with exponents",
+     "es": "Multiplicar monomios con exponentes"
+    },
+    "tip": {
+     "en": "Multiply the coefficients, then add exponents of matching variables; try five similar problems.",
+     "es": "Multiplica los coeficientes y suma los exponentes de variables iguales; prueba cinco problemas parecidos."
+    }
+   }
   },
   {
    "id": "MA-09-1098",
@@ -31,7 +43,19 @@
    "prompt": "Solve for x: 5(x - 2) - 3 = 2x + 8",
    "answer": 7,
    "explain": "5x - 13 = 2x + 8, so 3x = 21 and x = 7.",
-   "source": "deducido_scope_ace_2025"
+   "source": "deducido_scope_ace_2025",
+   "lu": {
+    "id": "LU-MATH-09-02",
+    "slot": 2,
+    "concept": {
+     "en": "Solving multi-step linear equations",
+     "es": "Resolver ecuaciones lineales de varios pasos"
+    },
+    "tip": {
+     "en": "Distribute, combine like terms, then isolate x; check each answer by substituting it back.",
+     "es": "Distribuye, reduce términos semejantes y despeja x; comprueba cada respuesta sustituyéndola."
+    }
+   }
   },
   {
    "id": "MA-09-1099",
@@ -50,7 +74,19 @@
    ],
    "answer": 1,
    "explain": "Multiply numerator and denominator by 2x: (2 + x)/(2 - x).",
-   "source": "deducido_scope_ace_2025"
+   "source": "deducido_scope_ace_2025",
+   "lu": {
+    "id": "LU-MATH-09-03",
+    "slot": 3,
+    "concept": {
+     "en": "Simplifying complex fractions",
+     "es": "Simplificar fracciones complejas"
+    },
+    "tip": {
+     "en": "Multiply top and bottom by the common denominator to clear the small fractions first.",
+     "es": "Multiplica numerador y denominador por el denominador común para eliminar primero las fracciones pequeñas."
+    }
+   }
   },
   {
    "id": "MA-09-1100",
@@ -63,7 +99,19 @@
    "prompt": "What is the slope of the line that passes through the points (-2, 5) and (4, -7)?",
    "answer": -2,
    "explain": "Slope = (-7 - 5)/(4 - (-2)) = -12/6 = -2.",
-   "source": "deducido_scope_ace_2025"
+   "source": "deducido_scope_ace_2025",
+   "lu": {
+    "id": "LU-MATH-09-04",
+    "slot": 4,
+    "concept": {
+     "en": "Finding slope from two points",
+     "es": "Hallar la pendiente con dos puntos"
+    },
+    "tip": {
+     "en": "Use rise over run, (y2 - y1)/(x2 - x1), and watch your negative signs.",
+     "es": "Usa cambio vertical entre cambio horizontal, (y2 - y1)/(x2 - x1), y cuida los signos negativos."
+    }
+   }
   },
   {
    "id": "MA-09-1101",
@@ -82,7 +130,19 @@
    ],
    "answer": 3,
    "explain": "(x - 7)(x + 2) = 0, so x = 7 or x = -2.",
-   "source": "deducido_scope_ace_2025"
+   "source": "deducido_scope_ace_2025",
+   "lu": {
+    "id": "LU-MATH-09-05",
+    "slot": 5,
+    "concept": {
+     "en": "Solving quadratics by factoring",
+     "es": "Resolver cuadráticas por factorización"
+    },
+    "tip": {
+     "en": "Find two numbers that multiply to c and add to b, then set each factor to zero.",
+     "es": "Busca dos números que multipliquen c y sumen b, y luego iguala cada factor a cero."
+    }
+   }
   },
   {
    "id": "MA-09-1102",
@@ -95,7 +155,19 @@
    "prompt": "A church youth group sold 120 tickets for a family dinner to raise money for a mission trip. Adult tickets cost $8 and student tickets cost $5. They collected $780 in all. How many adult tickets were sold?",
    "answer": 60,
    "explain": "8a + 5(120 - a) = 780, so 3a + 600 = 780, 3a = 180, a = 60.",
-   "source": "deducido_scope_ace_2025"
+   "source": "deducido_scope_ace_2025",
+   "lu": {
+    "id": "LU-MATH-09-06",
+    "slot": 6,
+    "concept": {
+     "en": "Turning word problems into equations",
+     "es": "Traducir problemas verbales a ecuaciones"
+    },
+    "tip": {
+     "en": "Define variables first, write what each phrase means, then build and solve the equation.",
+     "es": "Define primero las variables, escribe qué significa cada frase y luego plantea y resuelve la ecuación."
+    }
+   }
   },
   {
    "id": "MA-09-1103",
@@ -108,7 +180,19 @@
    "prompt": "A 13-foot ladder leans against a wall. The bottom of the ladder is 5 feet from the base of the wall. How many feet up the wall does the ladder reach?",
    "answer": 12,
    "explain": "h = sqrt(13^2 - 5^2) = sqrt(169 - 25) = sqrt(144) = 12.",
-   "source": "deducido_scope_ace_2025"
+   "source": "deducido_scope_ace_2025",
+   "lu": {
+    "id": "LU-MATH-09-07",
+    "slot": 7,
+    "concept": {
+     "en": "Using the Pythagorean Theorem",
+     "es": "Usar el teorema de Pitágoras"
+    },
+    "tip": {
+     "en": "Sketch the right triangle, label the hypotenuse, and apply a^2 + b^2 = c^2.",
+     "es": "Dibuja el triángulo rectángulo, marca la hipotenusa y aplica a^2 + b^2 = c^2."
+    }
+   }
   },
   {
    "id": "MA-09-1104",
@@ -127,7 +211,19 @@
    ],
    "answer": 0,
    "explain": "2x^3 + 8x^2 - 2x - 3x^2 - 12x + 3 = 2x^3 + 5x^2 - 14x + 3.",
-   "source": "deducido_scope_ace_2025"
+   "source": "deducido_scope_ace_2025",
+   "lu": {
+    "id": "LU-MATH-09-08",
+    "slot": 8,
+    "concept": {
+     "en": "Multiplying polynomials",
+     "es": "Multiplicar polinomios"
+    },
+    "tip": {
+     "en": "Distribute every term of the first factor across the second, then combine like terms carefully.",
+     "es": "Distribuye cada término del primer factor sobre el segundo y reduce con cuidado los términos semejantes."
+    }
+   }
   },
   {
    "id": "MA-09-1105",
@@ -146,7 +242,19 @@
    ],
    "answer": 1,
    "explain": "-3x <= 15; dividing by -3 reverses the sign, so x >= -5.",
-   "source": "deducido_scope_ace_2025"
+   "source": "deducido_scope_ace_2025",
+   "lu": {
+    "id": "LU-MATH-09-09",
+    "slot": 9,
+    "concept": {
+     "en": "Solving linear inequalities",
+     "es": "Resolver desigualdades lineales"
+    },
+    "tip": {
+     "en": "Solve like an equation, but flip the inequality sign when dividing by a negative number.",
+     "es": "Resuelve como una ecuación, pero invierte el signo de desigualdad al dividir entre un número negativo."
+    }
+   }
   },
   {
    "id": "MA-09-1106",
@@ -165,7 +273,19 @@
    ],
    "answer": 2,
    "explain": "Multiply by the reciprocal: (x+3)(x-3)(x+2)(x-2) / [(x+2)(x-3)] = (x + 3)(x - 2).",
-   "source": "deducido_scope_ace_2025"
+   "source": "deducido_scope_ace_2025",
+   "lu": {
+    "id": "LU-MATH-09-10",
+    "slot": 10,
+    "concept": {
+     "en": "Dividing rational expressions",
+     "es": "Dividir expresiones racionales"
+    },
+    "tip": {
+     "en": "Factor everything, multiply by the reciprocal, and cancel common factors before simplifying.",
+     "es": "Factoriza todo, multiplica por el recíproco y cancela factores comunes antes de simplificar."
+    }
+   }
   },
   {
    "id": "MA-09-1107",
@@ -184,7 +304,19 @@
    ],
    "answer": 3,
    "explain": "Perpendicular slope = -3/2; -1 = (-3/2)(4) + b gives b = 5, so y = (-3/2)x + 5.",
-   "source": "deducido_scope_ace_2025"
+   "source": "deducido_scope_ace_2025",
+   "lu": {
+    "id": "LU-MATH-09-11",
+    "slot": 11,
+    "concept": {
+     "en": "Equations of perpendicular lines",
+     "es": "Ecuaciones de rectas perpendiculares"
+    },
+    "tip": {
+     "en": "Use the negative reciprocal of the slope, then plug in the given point to find b.",
+     "es": "Usa el recíproco negativo de la pendiente y sustituye el punto dado para hallar b."
+    }
+   }
   },
   {
    "id": "MA-09-1108",
@@ -203,7 +335,19 @@
    ],
    "answer": 1,
    "explain": "x = [4 +/- sqrt(16 + 24)]/4 = [4 +/- 2sqrt(10)]/4 = (2 +/- sqrt(10))/2.",
-   "source": "deducido_scope_ace_2025"
+   "source": "deducido_scope_ace_2025",
+   "lu": {
+    "id": "LU-MATH-09-12",
+    "slot": 12,
+    "concept": {
+     "en": "Using the quadratic formula",
+     "es": "Usar la fórmula cuadrática"
+    },
+    "tip": {
+     "en": "Identify a, b, and c, substitute carefully, and simplify the discriminant step by step.",
+     "es": "Identifica a, b y c, sustituye con cuidado y simplifica el discriminante paso a paso."
+    }
+   }
   },
   {
    "id": "MA-10-1109",
@@ -222,7 +366,19 @@
    ],
    "answer": 2,
    "explain": "The contrapositive negates and switches both parts: if not rectangle, then not square.",
-   "source": "deducido_scope_ace_2025"
+   "source": "deducido_scope_ace_2025",
+   "lu": {
+    "id": "LU-MATH-10-01",
+    "slot": 1,
+    "concept": {
+     "en": "Writing contrapositive statements",
+     "es": "Escribir el contrarrecíproco"
+    },
+    "tip": {
+     "en": "Swap the hypothesis and conclusion, then negate both; practice with everyday if-then statements.",
+     "es": "Intercambia hipótesis y conclusión y niega ambas; practica con enunciados si-entonces de la vida diaria."
+    }
+   }
   },
   {
    "id": "MA-10-1110",
@@ -235,7 +391,19 @@
    "prompt": "In a triangle, the two remote interior angles measure 48 degrees and 67 degrees. What is the measure, in degrees, of the exterior angle at the third vertex?",
    "answer": 115,
    "explain": "Exterior angle = sum of remote interior angles = 48 + 67 = 115.",
-   "source": "deducido_scope_ace_2025"
+   "source": "deducido_scope_ace_2025",
+   "lu": {
+    "id": "LU-MATH-10-02",
+    "slot": 2,
+    "concept": {
+     "en": "Using the Exterior Angle Theorem",
+     "es": "Usar el teorema del ángulo exterior"
+    },
+    "tip": {
+     "en": "Remember an exterior angle equals the sum of the two remote interior angles; draw and label.",
+     "es": "Recuerda que un ángulo exterior es igual a la suma de los dos ángulos interiores no adyacentes; dibuja y rotula."
+    }
+   }
   },
   {
    "id": "MA-10-1111",
@@ -248,7 +416,19 @@
    "prompt": "An inscribed angle in a circle intercepts an arc that measures 110 degrees. What is the measure, in degrees, of the inscribed angle?",
    "answer": 55,
    "explain": "An inscribed angle is half its intercepted arc: 110/2 = 55.",
-   "source": "deducido_scope_ace_2025"
+   "source": "deducido_scope_ace_2025",
+   "lu": {
+    "id": "LU-MATH-10-03",
+    "slot": 3,
+    "concept": {
+     "en": "Inscribed angles and arcs",
+     "es": "Ángulos inscritos y arcos"
+    },
+    "tip": {
+     "en": "Remember an inscribed angle is half its intercepted arc; practice with several diagrams.",
+     "es": "Recuerda que un ángulo inscrito mide la mitad de su arco; practica con varios diagramas."
+    }
+   }
   },
   {
    "id": "MA-10-1112",
@@ -267,7 +447,19 @@
    ],
    "answer": 0,
    "explain": "pi r^2 = 36pi gives r = 6, so C = 2pi(6) = 12pi meters.",
-   "source": "deducido_scope_ace_2025"
+   "source": "deducido_scope_ace_2025",
+   "lu": {
+    "id": "LU-MATH-10-04",
+    "slot": 4,
+    "concept": {
+     "en": "Circle area and circumference",
+     "es": "Área y circunferencia del círculo"
+    },
+    "tip": {
+     "en": "Use the area to find the radius, then apply C = 2 pi r.",
+     "es": "Usa el área para hallar el radio y luego aplica C = 2 pi r."
+    }
+   }
   },
   {
    "id": "MA-10-1113",
@@ -280,7 +472,19 @@
    "prompt": "From point P outside a circle, a tangent segment PT has length 6. A secant from P meets the circle first at A and then at B, with PA = 4. What is the length of chord AB?",
    "answer": 5,
    "explain": "PT^2 = PA * PB: 36 = 4 * PB, so PB = 9 and AB = 9 - 4 = 5.",
-   "source": "deducido_scope_ace_2025"
+   "source": "deducido_scope_ace_2025",
+   "lu": {
+    "id": "LU-MATH-10-05",
+    "slot": 5,
+    "concept": {
+     "en": "Tangent-secant segment relationships",
+     "es": "Relación entre tangente y secante"
+    },
+    "tip": {
+     "en": "Practice the rule: tangent squared equals whole secant times its external part.",
+     "es": "Practica la regla: la tangente al cuadrado es igual a la secante completa por su parte externa."
+    }
+   }
   },
   {
    "id": "MA-10-1114",
@@ -299,7 +503,19 @@
    ],
    "answer": 3,
    "explain": "Chain p->q and q->r to get p->r: if it rains Saturday, the hall will be used.",
-   "source": "deducido_scope_ace_2025"
+   "source": "deducido_scope_ace_2025",
+   "lu": {
+    "id": "LU-MATH-10-06",
+    "slot": 6,
+    "concept": {
+     "en": "Applying the Law of Syllogism",
+     "es": "Aplicar la ley del silogismo"
+    },
+    "tip": {
+     "en": "Link if-then statements when one conclusion matches the next hypothesis; build chains from daily life.",
+     "es": "Encadena enunciados si-entonces cuando una conclusión coincide con la siguiente hipótesis; crea cadenas de la vida diaria."
+    }
+   }
   },
   {
    "id": "MA-10-1115",
@@ -312,7 +528,19 @@
    "prompt": "Each interior angle of a regular polygon measures 156 degrees. How many sides does the polygon have?",
    "answer": 15,
    "explain": "Each exterior angle = 180 - 156 = 24; n = 360/24 = 15.",
-   "source": "deducido_scope_ace_2025"
+   "source": "deducido_scope_ace_2025",
+   "lu": {
+    "id": "LU-MATH-10-07",
+    "slot": 7,
+    "concept": {
+     "en": "Sides of a regular polygon",
+     "es": "Lados de un polígono regular"
+    },
+    "tip": {
+     "en": "Find the exterior angle as 180 minus the interior, then divide 360 by it.",
+     "es": "Halla el ángulo exterior como 180 menos el interior y divide 360 entre ese valor."
+    }
+   }
   },
   {
    "id": "MA-10-1116",
@@ -325,7 +553,19 @@
    "prompt": "A chord of length 16 cm lies in a circle with radius 10 cm. What is the distance, in cm, from the center of the circle to the chord?",
    "answer": 6,
    "explain": "The perpendicular from the center bisects the chord: d = sqrt(10^2 - 8^2) = sqrt(36) = 6.",
-   "source": "deducido_scope_ace_2025"
+   "source": "deducido_scope_ace_2025",
+   "lu": {
+    "id": "LU-MATH-10-08",
+    "slot": 8,
+    "concept": {
+     "en": "Distance from circle center to chord",
+     "es": "Distancia del centro a una cuerda"
+    },
+    "tip": {
+     "en": "Draw the radius and half the chord to form a right triangle, then use Pythagoras.",
+     "es": "Dibuja el radio y la mitad de la cuerda para formar un triángulo rectángulo y usa Pitágoras."
+    }
+   }
   },
   {
    "id": "MA-10-1117",
@@ -344,7 +584,19 @@
    ],
    "answer": 1,
    "explain": "Area = (80/360)(pi)(9^2) = (2/9)(81pi) = 18pi square inches.",
-   "source": "deducido_scope_ace_2025"
+   "source": "deducido_scope_ace_2025",
+   "lu": {
+    "id": "LU-MATH-10-09",
+    "slot": 9,
+    "concept": {
+     "en": "Finding the area of a sector",
+     "es": "Área de un sector circular"
+    },
+    "tip": {
+     "en": "Multiply the circle's area by the fraction angle over 360.",
+     "es": "Multiplica el área del círculo por la fracción ángulo entre 360."
+    }
+   }
   },
   {
    "id": "MA-10-1118",
@@ -357,7 +609,19 @@
    "prompt": "Two secants are drawn to a circle from a point outside the circle. They intercept a far arc of 130 degrees and a near arc of 40 degrees. What is the measure, in degrees, of the angle formed at the outside point?",
    "answer": 45,
    "explain": "Angle = (far arc - near arc)/2 = (130 - 40)/2 = 45.",
-   "source": "deducido_scope_ace_2025"
+   "source": "deducido_scope_ace_2025",
+   "lu": {
+    "id": "LU-MATH-10-10",
+    "slot": 10,
+    "concept": {
+     "en": "Angles formed by two secants",
+     "es": "Ángulo formado por dos secantes"
+    },
+    "tip": {
+     "en": "Use half the difference of the far and near arcs; practice labeling arcs clearly.",
+     "es": "Usa la mitad de la diferencia entre el arco lejano y el cercano; practica rotulando bien los arcos."
+    }
+   }
   },
   {
    "id": "MA-10-1119",
@@ -376,7 +640,19 @@
    ],
    "answer": 0,
    "explain": "Adding the same quantity BC to both sides of an equation is the Addition Property of Equality.",
-   "source": "deducido_scope_ace_2025"
+   "source": "deducido_scope_ace_2025",
+   "lu": {
+    "id": "LU-MATH-10-11",
+    "slot": 11,
+    "concept": {
+     "en": "Justifying steps in a proof",
+     "es": "Justificar los pasos de una demostración"
+    },
+    "tip": {
+     "en": "Learn the names of key properties, such as addition and substitution, and match them to each step.",
+     "es": "Aprende el nombre de las propiedades clave, como suma y sustitución, y relaciónalas con cada paso."
+    }
+   }
   },
   {
    "id": "MA-10-1120",
@@ -389,7 +665,19 @@
    "prompt": "In parallelogram ABCD, angle A measures (3x + 10) degrees and angle B measures (5x - 6) degrees. What is the measure, in degrees, of angle B?",
    "answer": 104,
    "explain": "Consecutive angles are supplementary: 8x + 4 = 180, x = 22, so angle B = 5(22) - 6 = 104.",
-   "source": "deducido_scope_ace_2025"
+   "source": "deducido_scope_ace_2025",
+   "lu": {
+    "id": "LU-MATH-10-12",
+    "slot": 12,
+    "concept": {
+     "en": "Angle properties of parallelograms",
+     "es": "Propiedades de los ángulos del paralelogramo"
+    },
+    "tip": {
+     "en": "Remember consecutive angles add to 180 degrees; set up an equation and solve for x.",
+     "es": "Recuerda que los ángulos consecutivos suman 180 grados; plantea una ecuación y resuelve x."
+    }
+   }
   },
   {
    "id": "MA-11-1121",
@@ -408,7 +696,19 @@
    ],
    "answer": 1,
    "explain": "Only the grouping changes, not the order, so it is the Associative Property of Addition.",
-   "source": "deducido_scope_ace_2025"
+   "source": "deducido_scope_ace_2025",
+   "lu": {
+    "id": "LU-MATH-11-01",
+    "slot": 1,
+    "concept": {
+     "en": "Properties of real numbers",
+     "es": "Propiedades de los números reales"
+    },
+    "tip": {
+     "en": "Make flash cards for commutative, associative, and distributive properties with a quick example each.",
+     "es": "Haz tarjetas de las propiedades conmutativa, asociativa y distributiva con un ejemplo breve de cada una."
+    }
+   }
   },
   {
    "id": "MA-11-1122",
@@ -427,7 +727,19 @@
    ],
    "answer": 2,
    "explain": "3 - 12i + 2i - 8i^2 = 3 - 10i + 8 = 11 - 10i.",
-   "source": "deducido_scope_ace_2025"
+   "source": "deducido_scope_ace_2025",
+   "lu": {
+    "id": "LU-MATH-11-02",
+    "slot": 2,
+    "concept": {
+     "en": "Multiplying complex numbers",
+     "es": "Multiplicar números complejos"
+    },
+    "tip": {
+     "en": "Multiply like binomials, then replace i squared with negative one and combine terms.",
+     "es": "Multiplica como binomios, reemplaza i al cuadrado por menos uno y reduce términos."
+    }
+   }
   },
   {
    "id": "MA-11-1123",
@@ -446,7 +758,19 @@
    ],
    "answer": 3,
    "explain": "x = -b/(2a) = 12/4 = 3; f(3) = 18 - 36 + 7 = -11, so the vertex is (3, -11).",
-   "source": "deducido_scope_ace_2025"
+   "source": "deducido_scope_ace_2025",
+   "lu": {
+    "id": "LU-MATH-11-03",
+    "slot": 3,
+    "concept": {
+     "en": "Finding a parabola's vertex",
+     "es": "Hallar el vértice de una parábola"
+    },
+    "tip": {
+     "en": "Use x = -b/(2a) for the x-coordinate, then substitute to find y.",
+     "es": "Usa x = -b/(2a) para la coordenada x y luego sustituye para hallar y."
+    }
+   }
   },
   {
    "id": "MA-11-1124",
@@ -459,7 +783,19 @@
    "prompt": "An arithmetic sequence begins 7, 11, 15, 19, ... What is the 25th term?",
    "answer": 103,
    "explain": "a_n = a_1 + (n - 1)d = 7 + 24(4) = 103.",
-   "source": "deducido_scope_ace_2025"
+   "source": "deducido_scope_ace_2025",
+   "lu": {
+    "id": "LU-MATH-11-04",
+    "slot": 4,
+    "concept": {
+     "en": "Nth term of an arithmetic sequence",
+     "es": "Término n de una sucesión aritmética"
+    },
+    "tip": {
+     "en": "Find the common difference, then use a_n = a_1 + (n - 1)d with several examples.",
+     "es": "Halla la diferencia común y usa a_n = a_1 + (n - 1)d con varios ejemplos."
+    }
+   }
   },
   {
    "id": "MA-11-1125",
@@ -472,7 +808,19 @@
    "prompt": "Solve for x: log_2(x) + log_2(x - 2) = 3",
    "answer": 4,
    "explain": "log_2[x(x - 2)] = 3 gives x^2 - 2x - 8 = 0, so x = 4 (x = -2 is rejected because log of a negative is undefined).",
-   "source": "deducido_scope_ace_2025"
+   "source": "deducido_scope_ace_2025",
+   "lu": {
+    "id": "LU-MATH-11-05",
+    "slot": 5,
+    "concept": {
+     "en": "Solving logarithmic equations",
+     "es": "Resolver ecuaciones logarítmicas"
+    },
+    "tip": {
+     "en": "Combine logs with the product rule, rewrite in exponential form, then check for valid solutions.",
+     "es": "Combina logaritmos con la regla del producto, reescribe en forma exponencial y verifica que las soluciones sean válidas."
+    }
+   }
   },
   {
    "id": "MA-11-1126",
@@ -485,7 +833,19 @@
    "prompt": "A youth ministry has 8 volunteers. In how many different ways can a committee of 3 volunteers be chosen (order does not matter)?",
    "answer": 56,
    "explain": "C(8,3) = 8!/(3!5!) = 56.",
-   "source": "deducido_scope_ace_2025"
+   "source": "deducido_scope_ace_2025",
+   "lu": {
+    "id": "LU-MATH-11-06",
+    "slot": 6,
+    "concept": {
+     "en": "Counting combinations",
+     "es": "Contar combinaciones"
+    },
+    "tip": {
+     "en": "Use n choose r when order doesn't matter; practice with committee and team problems.",
+     "es": "Usa combinaciones cuando el orden no importa; practica con problemas de comités y equipos."
+    }
+   }
   },
   {
    "id": "MA-11-1127",
@@ -498,7 +858,19 @@
    "prompt": "Find the determinant of the 2x2 matrix with first row [3, -2] and second row [5, 4].",
    "answer": 22,
    "explain": "det = (3)(4) - (-2)(5) = 12 + 10 = 22.",
-   "source": "deducido_scope_ace_2025"
+   "source": "deducido_scope_ace_2025",
+   "lu": {
+    "id": "LU-MATH-11-07",
+    "slot": 7,
+    "concept": {
+     "en": "Evaluating a 2x2 determinant",
+     "es": "Calcular un determinante 2x2"
+    },
+    "tip": {
+     "en": "Use ad - bc, subtracting the cross products and being careful with signs.",
+     "es": "Usa ad - bc, restando los productos cruzados y cuidando los signos."
+    }
+   }
   },
   {
    "id": "MA-11-1128",
@@ -517,7 +889,19 @@
    ],
    "answer": 2,
    "explain": "A quotient of two rationals (nonzero divisor) is rational; 1/2 is not an integer and sqrt(2)/sqrt(2) = 1 is not irrational.",
-   "source": "deducido_scope_ace_2025"
+   "source": "deducido_scope_ace_2025",
+   "lu": {
+    "id": "LU-MATH-11-08",
+    "slot": 8,
+    "concept": {
+     "en": "Closure of number sets",
+     "es": "Cerradura de los conjuntos numéricos"
+    },
+    "tip": {
+     "en": "Test sets such as integers and rationals with sample operations to see if results stay inside.",
+     "es": "Prueba conjuntos como los enteros y los racionales con operaciones de ejemplo para ver si el resultado se queda dentro."
+    }
+   }
   },
   {
    "id": "MA-11-1129",
@@ -536,7 +920,19 @@
    ],
    "answer": 0,
    "explain": "Multiply by (3 + i)/(3 + i): 2(3 + i)/(9 + 1) = (6 + 2i)/10 = 3/5 + (1/5)i.",
-   "source": "deducido_scope_ace_2025"
+   "source": "deducido_scope_ace_2025",
+   "lu": {
+    "id": "LU-MATH-11-09",
+    "slot": 9,
+    "concept": {
+     "en": "Dividing complex numbers",
+     "es": "Dividir números complejos"
+    },
+    "tip": {
+     "en": "Multiply top and bottom by the conjugate to remove i from the denominator.",
+     "es": "Multiplica numerador y denominador por el conjugado para eliminar i del denominador."
+    }
+   }
   },
   {
    "id": "MA-11-1130",
@@ -549,7 +945,19 @@
    "prompt": "What is the remainder when P(x) = x^3 - 4x^2 + 2x + 5 is divided by (x - 3)?",
    "answer": 2,
    "explain": "By the Remainder Theorem, P(3) = 27 - 36 + 6 + 5 = 2.",
-   "source": "deducido_scope_ace_2025"
+   "source": "deducido_scope_ace_2025",
+   "lu": {
+    "id": "LU-MATH-11-10",
+    "slot": 10,
+    "concept": {
+     "en": "Using the Remainder Theorem",
+     "es": "Usar el teorema del resto"
+    },
+    "tip": {
+     "en": "Substitute the value into P(x) to get the remainder; compare with long division once.",
+     "es": "Sustituye el valor en P(x) para obtener el resto; compáralo una vez con la división larga."
+    }
+   }
   },
   {
    "id": "MA-11-1131",
@@ -562,7 +970,19 @@
    "prompt": "Find the sum of the infinite geometric series 24 + 12 + 6 + 3 + ...",
    "answer": 48,
    "explain": "r = 1/2, so S = a/(1 - r) = 24/(1/2) = 48.",
-   "source": "deducido_scope_ace_2025"
+   "source": "deducido_scope_ace_2025",
+   "lu": {
+    "id": "LU-MATH-11-11",
+    "slot": 11,
+    "concept": {
+     "en": "Sum of an infinite geometric series",
+     "es": "Suma de una serie geométrica infinita"
+    },
+    "tip": {
+     "en": "Find the ratio, confirm it is between -1 and 1, then use S = a/(1 - r).",
+     "es": "Halla la razón, confirma que está entre -1 y 1 y usa S = a/(1 - r)."
+    }
+   }
   },
   {
    "id": "MA-11-1132",
@@ -575,7 +995,19 @@
    "prompt": "Solve for x: 3^(2x - 1) = 27^(x - 2)",
    "answer": 5,
    "explain": "27^(x-2) = 3^(3x-6), so 2x - 1 = 3x - 6 and x = 5.",
-   "source": "deducido_scope_ace_2025"
+   "source": "deducido_scope_ace_2025",
+   "lu": {
+    "id": "LU-MATH-11-12",
+    "slot": 12,
+    "concept": {
+     "en": "Exponential equations with common bases",
+     "es": "Ecuaciones exponenciales con bases comunes"
+    },
+    "tip": {
+     "en": "Rewrite both sides with the same base, then set the exponents equal and solve.",
+     "es": "Reescribe ambos lados con la misma base, iguala los exponentes y resuelve."
+    }
+   }
   },
   {
    "id": "MA-12-1133",
@@ -588,7 +1020,19 @@
    "prompt": "In a right triangle, the hypotenuse is 20 cm and one acute angle measures 30 degrees. What is the length, in cm, of the side opposite the 30-degree angle?",
    "answer": 10,
    "explain": "opposite = 20 sin 30 = 20(1/2) = 10.",
-   "source": "deducido_scope_ace_2025"
+   "source": "deducido_scope_ace_2025",
+   "lu": {
+    "id": "LU-MATH-12-01",
+    "slot": 1,
+    "concept": {
+     "en": "Solving right triangles with trig",
+     "es": "Resolver triángulos rectángulos con trigonometría"
+    },
+    "tip": {
+     "en": "Pick sine, cosine, or tangent by the sides you know and the side you need.",
+     "es": "Elige seno, coseno o tangente según los lados que conoces y el que necesitas."
+    }
+   }
   },
   {
    "id": "MA-12-1134",
@@ -607,7 +1051,19 @@
    ],
    "answer": 1,
    "explain": "cos^2 = 1 - 9/25 = 16/25; cosine is negative in Quadrant II, so cos(theta) = -4/5.",
-   "source": "deducido_scope_ace_2025"
+   "source": "deducido_scope_ace_2025",
+   "lu": {
+    "id": "LU-MATH-12-02",
+    "slot": 2,
+    "concept": {
+     "en": "Pythagorean identity and quadrants",
+     "es": "Identidad pitagórica y cuadrantes"
+    },
+    "tip": {
+     "en": "Use sin^2 + cos^2 = 1 and check the quadrant to choose the correct sign.",
+     "es": "Usa sin^2 + cos^2 = 1 y revisa el cuadrante para elegir el signo correcto."
+    }
+   }
   },
   {
    "id": "MA-12-1135",
@@ -626,7 +1082,19 @@
    ],
    "answer": 3,
    "explain": "Amplitude = |3| = 3; period = 2pi/2 = pi.",
-   "source": "deducido_scope_ace_2025"
+   "source": "deducido_scope_ace_2025",
+   "lu": {
+    "id": "LU-MATH-12-03",
+    "slot": 3,
+    "concept": {
+     "en": "Amplitude and period of sine",
+     "es": "Amplitud y período de la función seno"
+    },
+    "tip": {
+     "en": "Read amplitude from the coefficient and period as 2 pi divided by the x-multiplier.",
+     "es": "Lee la amplitud en el coeficiente y el período como 2 pi dividido entre el multiplicador de x."
+    }
+   }
   },
   {
    "id": "MA-12-1136",
@@ -645,7 +1113,19 @@
    ],
    "answer": 0,
    "explain": "arccos has range [0, pi]; cos(2pi/3) = -1/2, so arccos(-1/2) = 2pi/3.",
-   "source": "deducido_scope_ace_2025"
+   "source": "deducido_scope_ace_2025",
+   "lu": {
+    "id": "LU-MATH-12-04",
+    "slot": 4,
+    "concept": {
+     "en": "Evaluating inverse cosine",
+     "es": "Evaluar el arcocoseno"
+    },
+    "tip": {
+     "en": "Use the unit circle and remember arccos answers lie between 0 and pi.",
+     "es": "Usa el círculo unitario y recuerda que las respuestas del arcocoseno están entre 0 y pi."
+    }
+   }
   },
   {
    "id": "MA-12-1137",
@@ -664,7 +1144,19 @@
    ],
    "answer": 2,
    "explain": "sin(x) = 1/2 at x = pi/6 and x = 5pi/6 in [0, 2pi).",
-   "source": "deducido_scope_ace_2025"
+   "source": "deducido_scope_ace_2025",
+   "lu": {
+    "id": "LU-MATH-12-05",
+    "slot": 5,
+    "concept": {
+     "en": "Solving basic trig equations",
+     "es": "Resolver ecuaciones trigonométricas básicas"
+    },
+    "tip": {
+     "en": "Isolate the trig function, find reference angles, and list every solution in the interval.",
+     "es": "Despeja la función trigonométrica, halla los ángulos de referencia y enumera todas las soluciones del intervalo."
+    }
+   }
   },
   {
    "id": "MA-12-1138",
@@ -683,7 +1175,19 @@
    ],
    "answer": 1,
    "explain": "r^2 = 4r cos(theta) gives x^2 + y^2 = 4x, i.e. (x - 2)^2 + y^2 = 4: a circle of radius 2 centered at (2, 0).",
-   "source": "deducido_scope_ace_2025"
+   "source": "deducido_scope_ace_2025",
+   "lu": {
+    "id": "LU-MATH-12-06",
+    "slot": 6,
+    "concept": {
+     "en": "Recognizing polar graphs",
+     "es": "Reconocer gráficas polares"
+    },
+    "tip": {
+     "en": "Plot a few points for r = a cos(theta) and compare the shape with a circle.",
+     "es": "Grafica algunos puntos de r = a cos(theta) y compara la forma con una circunferencia."
+    }
+   }
   },
   {
    "id": "MA-12-1139",
@@ -696,7 +1200,19 @@
    "prompt": "Use De Moivre's Theorem to evaluate (1 + i)^8. Enter the real number result.",
    "answer": 16,
    "explain": "1 + i = sqrt(2) cis(pi/4), so (1 + i)^8 = (sqrt 2)^8 cis(2pi) = 16.",
-   "source": "deducido_scope_ace_2025"
+   "source": "deducido_scope_ace_2025",
+   "lu": {
+    "id": "LU-MATH-12-07",
+    "slot": 7,
+    "concept": {
+     "en": "Using De Moivre's Theorem",
+     "es": "Usar el teorema de De Moivre"
+    },
+    "tip": {
+     "en": "Convert to polar form, raise the modulus to the power, multiply the angle, then convert back.",
+     "es": "Convierte a forma polar, eleva el módulo a la potencia, multiplica el ángulo y vuelve a la forma rectangular."
+    }
+   }
   },
   {
    "id": "MA-12-1140",
@@ -709,7 +1225,19 @@
    "prompt": "In triangle ABC, a = 5, b = 8, and angle C = 60 degrees. Find the length of side c.",
    "answer": 7,
    "explain": "c^2 = 25 + 64 - 2(5)(8)cos 60 = 89 - 40 = 49, so c = 7.",
-   "source": "deducido_scope_ace_2025"
+   "source": "deducido_scope_ace_2025",
+   "lu": {
+    "id": "LU-MATH-12-08",
+    "slot": 8,
+    "concept": {
+     "en": "Applying the Law of Cosines",
+     "es": "Aplicar la ley de los cosenos"
+    },
+    "tip": {
+     "en": "Use c^2 = a^2 + b^2 - 2ab cos C when you know two sides and the angle between them.",
+     "es": "Usa c^2 = a^2 + b^2 - 2ab cos C cuando conoces dos lados y el ángulo entre ellos."
+    }
+   }
   },
   {
    "id": "MA-12-1141",
@@ -728,7 +1256,19 @@
    ],
    "answer": 2,
    "explain": "1 - cos^2 x = sin^2 x, and sin^2 x/(sin x cos x) = sin x/cos x = tan x.",
-   "source": "deducido_scope_ace_2025"
+   "source": "deducido_scope_ace_2025",
+   "lu": {
+    "id": "LU-MATH-12-09",
+    "slot": 9,
+    "concept": {
+     "en": "Simplifying with trig identities",
+     "es": "Simplificar con identidades trigonométricas"
+    },
+    "tip": {
+     "en": "Rewrite using sin^2 + cos^2 = 1, then cancel; keep an identity cheat sheet handy.",
+     "es": "Reescribe con sin^2 + cos^2 = 1 y luego cancela; ten a mano una hoja de identidades."
+    }
+   }
   },
   {
    "id": "MA-12-1142",
@@ -747,7 +1287,19 @@
    ],
    "answer": 0,
    "explain": "Period = 2pi/3; 3x - pi = 3(x - pi/3) gives a shift pi/3 right; maximum = 2 + 1 = 3.",
-   "source": "deducido_scope_ace_2025"
+   "source": "deducido_scope_ace_2025",
+   "lu": {
+    "id": "LU-MATH-12-10",
+    "slot": 10,
+    "concept": {
+     "en": "Transformations of trig graphs",
+     "es": "Transformaciones de gráficas trigonométricas"
+    },
+    "tip": {
+     "en": "Factor the input to find the shift, then read amplitude, period, and midline step by step.",
+     "es": "Factoriza la entrada para hallar el desplazamiento y luego lee amplitud, período y línea media paso a paso."
+    }
+   }
   },
   {
    "id": "MA-12-1143",
@@ -766,7 +1318,19 @@
    ],
    "answer": 3,
    "explain": "Let sin(theta) = 5/13 with theta in Quadrant I; adjacent = sqrt(169 - 25) = 12, so tan(theta) = 5/12.",
-   "source": "deducido_scope_ace_2025"
+   "source": "deducido_scope_ace_2025",
+   "lu": {
+    "id": "LU-MATH-12-11",
+    "slot": 11,
+    "concept": {
+     "en": "Composite inverse trig values",
+     "es": "Valores de funciones trigonométricas inversas compuestas"
+    },
+    "tip": {
+     "en": "Draw a right triangle for the inverse angle, find the missing side, then read the ratio.",
+     "es": "Dibuja un triángulo rectángulo para el ángulo inverso, halla el lado faltante y lee la razón."
+    }
+   }
   },
   {
    "id": "MA-12-1144",
@@ -785,7 +1349,19 @@
    ],
    "answer": 1,
    "explain": "(2cos x + 1)(cos x - 1) = 0, so cos x = 1 (x = 0) or cos x = -1/2 (x = 2pi/3, 4pi/3).",
-   "source": "deducido_scope_ace_2025"
+   "source": "deducido_scope_ace_2025",
+   "lu": {
+    "id": "LU-MATH-12-12",
+    "slot": 12,
+    "concept": {
+     "en": "Quadratic-form trig equations",
+     "es": "Ecuaciones trigonométricas de forma cuadrática"
+    },
+    "tip": {
+     "en": "Substitute u for the trig function, factor the quadratic, then solve each resulting trig equation.",
+     "es": "Sustituye u por la función trigonométrica, factoriza la cuadrática y resuelve cada ecuación trigonométrica resultante."
+    }
+   }
   }
  ]
 }

@@ -18,7 +18,19 @@
    ],
    "answer": 1,
    "explain": "After 1066 the French-speaking Normans ruled England, so French vocabulary entered English, especially in law, government, and food.",
-   "source": "deducido_scope_ace_2025"
+   "source": "deducido_scope_ace_2025",
+   "lu": {
+    "id": "LU-ELA-09-01",
+    "slot": 1,
+    "concept": {
+     "en": "How Norman French shaped English",
+     "es": "Cómo el francés normando influyó en el inglés"
+    },
+    "tip": {
+     "en": "Read a short timeline of the Norman Conquest and list French-origin words you already use every day.",
+     "es": "Lee una línea de tiempo de la conquista normanda y anota palabras de origen francés que ya usas a diario."
+    }
+   }
   },
   {
    "id": "EN-09-1098",
@@ -37,7 +49,19 @@
    ],
    "answer": 2,
    "explain": "A concordance lists each place a word appears in a text such as the Bible.",
-   "source": "deducido_scope_ace_2025"
+   "source": "deducido_scope_ace_2025",
+   "lu": {
+    "id": "LU-ELA-09-02",
+    "slot": 2,
+    "concept": {
+     "en": "Choosing the right reference tool",
+     "es": "Elegir la herramienta de consulta adecuada"
+    },
+    "tip": {
+     "en": "Practice matching tasks to tools: concordance for word searches, atlas for places, thesaurus for synonyms, encyclopedia for overviews.",
+     "es": "Practica emparejar tareas con herramientas: concordancia para buscar palabras, atlas para lugares, tesauro para sinónimos, enciclopedia para panoramas."
+    }
+   }
   },
   {
    "id": "EN-09-1099",
@@ -56,7 +80,19 @@
    ],
    "answer": 0,
    "explain": "In a formal outline, a heading is divided only if it has at least two parts, so an A requires a B.",
-   "source": "deducido_scope_ace_2025"
+   "source": "deducido_scope_ace_2025",
+   "lu": {
+    "id": "LU-ELA-09-03",
+    "slot": 3,
+    "concept": {
+     "en": "Rules of formal outlining",
+     "es": "Reglas del esquema formal"
+    },
+    "tip": {
+     "en": "Remember that a subpoint needs a partner: outline an essay and check every A has a B.",
+     "es": "Recuerda que un subpunto necesita pareja: esquematiza un ensayo y verifica que cada A tenga su B."
+    }
+   }
   },
   {
    "id": "EN-09-1100",
@@ -75,7 +111,19 @@
    ],
    "answer": 3,
    "explain": "In 'were donated by a local family,' the subject receives the action, which is passive voice.",
-   "source": "deducido_scope_ace_2025"
+   "source": "deducido_scope_ace_2025",
+   "lu": {
+    "id": "LU-ELA-09-04",
+    "slot": 4,
+    "concept": {
+     "en": "Spotting passive voice",
+     "es": "Reconocer la voz pasiva"
+    },
+    "tip": {
+     "en": "Rewrite five sentences from active to passive and back, noticing who performs the action.",
+     "es": "Reescribe cinco oraciones de activa a pasiva y viceversa, fijándote en quién realiza la acción."
+    }
+   }
   },
   {
    "id": "EN-09-1101",
@@ -94,7 +142,19 @@
    ],
    "answer": 1,
    "explain": "The family responds to disaster with thankfulness and shared work, which supports the theme of gratitude and cooperation.",
-   "source": "deducido_scope_ace_2025"
+   "source": "deducido_scope_ace_2025",
+   "lu": {
+    "id": "LU-ELA-09-05",
+    "slot": 5,
+    "concept": {
+     "en": "Finding the theme of a story",
+     "es": "Hallar el tema de un relato"
+    },
+    "tip": {
+     "en": "After reading a story, write one sentence about the lesson the characters' choices teach.",
+     "es": "Después de leer un relato, escribe una frase sobre la lección que enseñan las decisiones de los personajes."
+    }
+   }
   },
   {
    "id": "EN-09-1102",
@@ -113,7 +173,19 @@
    ],
    "answer": 3,
    "explain": "The narrator uses 'he' and reveals only Marcus's thoughts, not the pastor's, which is third-person limited.",
-   "source": "deducido_scope_ace_2025"
+   "source": "deducido_scope_ace_2025",
+   "lu": {
+    "id": "LU-ELA-09-06",
+    "slot": 6,
+    "concept": {
+     "en": "Identifying point of view",
+     "es": "Identificar el punto de vista narrativo"
+    },
+    "tip": {
+     "en": "Check the pronouns: practice labeling passages as first person, third limited, or third omniscient.",
+     "es": "Fíjate en los pronombres: practica clasificando pasajes como primera persona, tercera limitada u omnisciente."
+    }
+   }
   },
   {
    "id": "EN-09-1103",
@@ -132,7 +204,19 @@
    ],
    "answer": 2,
    "explain": "It takes a clear, arguable position and previews specific reasons.",
-   "source": "deducido_scope_ace_2025"
+   "source": "deducido_scope_ace_2025",
+   "lu": {
+    "id": "LU-ELA-09-07",
+    "slot": 7,
+    "concept": {
+     "en": "Writing a strong thesis statement",
+     "es": "Redactar una buena tesis"
+    },
+    "tip": {
+     "en": "Turn a topic into a clear, arguable claim, then test whether someone could reasonably disagree.",
+     "es": "Convierte un tema en una afirmación clara y debatible, y comprueba si alguien podría razonablemente discrepar."
+    }
+   }
   },
   {
    "id": "EN-09-1104",
@@ -151,7 +235,19 @@
    ],
    "answer": 0,
    "explain": "A nonrestrictive clause that adds extra information is set off by commas on both sides.",
-   "source": "deducido_scope_ace_2025"
+   "source": "deducido_scope_ace_2025",
+   "lu": {
+    "id": "LU-ELA-09-08",
+    "slot": 8,
+    "concept": {
+     "en": "Commas with nonessential clauses",
+     "es": "Comas con cláusulas no restrictivas"
+    },
+    "tip": {
+     "en": "Practice deciding if a clause is essential; if the sentence works without it, set it off with commas.",
+     "es": "Practica decidir si una cláusula es esencial; si la oración funciona sin ella, sepárala con comas."
+    }
+   }
   },
   {
    "id": "EN-09-1105",
@@ -170,7 +266,19 @@
    ],
    "answer": 1,
    "explain": "Chaucer wrote in Middle English, the form used roughly from 1100 to 1500.",
-   "source": "deducido_scope_ace_2025"
+   "source": "deducido_scope_ace_2025",
+   "lu": {
+    "id": "LU-ELA-09-09",
+    "slot": 9,
+    "concept": {
+     "en": "Stages of the English language",
+     "es": "Etapas de la lengua inglesa"
+    },
+    "tip": {
+     "en": "Make a simple chart of Old, Middle, and Modern English with a sample text for each.",
+     "es": "Haz un cuadro sencillo de inglés antiguo, medio y moderno con un texto de ejemplo de cada uno."
+    }
+   }
   },
   {
    "id": "EN-09-1106",
@@ -189,7 +297,19 @@
    ],
    "answer": 2,
    "explain": "The etymology gives the origin and history of a word.",
-   "source": "deducido_scope_ace_2025"
+   "source": "deducido_scope_ace_2025",
+   "lu": {
+    "id": "LU-ELA-09-10",
+    "slot": 10,
+    "concept": {
+     "en": "Reading dictionary entries closely",
+     "es": "Leer con atención las entradas del diccionario"
+    },
+    "tip": {
+     "en": "Look up three words and name each part of the entry, especially the etymology.",
+     "es": "Busca tres palabras y nombra cada parte de la entrada, sobre todo la etimología."
+    }
+   }
   },
   {
    "id": "EN-09-1107",
@@ -208,7 +328,19 @@
    ],
    "answer": 0,
    "explain": "A strong essay answer restates the question and directly states the main points.",
-   "source": "deducido_scope_ace_2025"
+   "source": "deducido_scope_ace_2025",
+   "lu": {
+    "id": "LU-ELA-09-11",
+    "slot": 11,
+    "concept": {
+     "en": "Opening an essay answer well",
+     "es": "Comenzar bien una respuesta de ensayo"
+    },
+    "tip": {
+     "en": "Practice starting by restating the question as a direct statement that previews your points.",
+     "es": "Practica empezar reformulando la pregunta como una afirmación directa que anticipe tus puntos."
+    }
+   }
   },
   {
    "id": "EN-09-1108",
@@ -227,7 +359,19 @@
    ],
    "answer": 2,
    "explain": "The subjunctive uses 'were' for contrary-to-fact conditions: 'If I were in your place.'",
-   "source": "deducido_scope_ace_2025"
+   "source": "deducido_scope_ace_2025",
+   "lu": {
+    "id": "LU-ELA-09-12",
+    "slot": 12,
+    "concept": {
+     "en": "Using the subjunctive mood",
+     "es": "Usar el modo subjuntivo"
+    },
+    "tip": {
+     "en": "Write sentences with wishes and conditions, such as 'If I were...' and 'I suggest that he be...'.",
+     "es": "Escribe oraciones con deseos y condiciones, como 'If I were...' e 'I suggest that he be...'."
+    }
+   }
   },
   {
    "id": "EN-10-1109",
@@ -246,7 +390,19 @@
    ],
    "answer": 3,
    "explain": "The writer argues for a position and urges readers to act, which makes it persuasive.",
-   "source": "deducido_scope_ace_2025"
+   "source": "deducido_scope_ace_2025",
+   "lu": {
+    "id": "LU-ELA-10-01",
+    "slot": 1,
+    "concept": {
+     "en": "Recognizing types of paragraphs",
+     "es": "Reconocer tipos de párrafos"
+    },
+    "tip": {
+     "en": "Label paragraphs as narrative, descriptive, expository, or persuasive and note the clues that tell you.",
+     "es": "Clasifica párrafos como narrativos, descriptivos, expositivos o persuasivos y anota las pistas que lo indican."
+    }
+   }
   },
   {
    "id": "EN-10-1110",
@@ -265,7 +421,19 @@
    ],
    "answer": 1,
    "explain": "The source number connects each note to its source card, which holds the full citation information.",
-   "source": "deducido_scope_ace_2025"
+   "source": "deducido_scope_ace_2025",
+   "lu": {
+    "id": "LU-ELA-10-02",
+    "slot": 2,
+    "concept": {
+     "en": "Organizing research with note cards",
+     "es": "Organizar la investigación con fichas"
+    },
+    "tip": {
+     "en": "Number each source card, then mark every note card with its source number to track references.",
+     "es": "Numera cada ficha de fuente y marca cada ficha de notas con ese número para rastrear las referencias."
+    }
+   }
   },
   {
    "id": "EN-10-1111",
@@ -284,7 +452,19 @@
    ],
    "answer": 0,
    "explain": "The author found the right phrase for 'forgive' by watching the old man's merciful act.",
-   "source": "deducido_scope_ace_2025"
+   "source": "deducido_scope_ace_2025",
+   "lu": {
+    "id": "LU-ELA-10-03",
+    "slot": 3,
+    "concept": {
+     "en": "Inferring meaning from a memoir",
+     "es": "Inferir el significado en una memoria"
+    },
+    "tip": {
+     "en": "Underline clues in the text and ask what the author implies but never says directly.",
+     "es": "Subraya pistas en el texto y pregúntate qué insinúa el autor sin decirlo directamente."
+    }
+   }
   },
   {
    "id": "EN-10-1112",
@@ -303,7 +483,19 @@
    ],
    "answer": 2,
    "explain": "'Grandpa (S) gave (V) my sister (IO) his old Bible (DO).'",
-   "source": "deducido_scope_ace_2025"
+   "source": "deducido_scope_ace_2025",
+   "lu": {
+    "id": "LU-ELA-10-04",
+    "slot": 4,
+    "concept": {
+     "en": "Recognizing sentence patterns",
+     "es": "Reconocer patrones de oración"
+    },
+    "tip": {
+     "en": "Diagram sentences with indirect objects, asking 'to whom or for whom?' after the verb.",
+     "es": "Analiza oraciones con complemento indirecto, preguntando 'to whom or for whom?' después del verbo."
+    }
+   }
   },
   {
    "id": "EN-10-1113",
@@ -322,7 +514,19 @@
    ],
    "answer": 1,
    "explain": "The inverted pyramid places the most important information in the lead and less important details later.",
-   "source": "deducido_scope_ace_2025"
+   "source": "deducido_scope_ace_2025",
+   "lu": {
+    "id": "LU-ELA-10-05",
+    "slot": 5,
+    "concept": {
+     "en": "Structure of a news article",
+     "es": "Estructura de una noticia"
+    },
+    "tip": {
+     "en": "Read a news story and notice how the key facts of who, what, when, where, and why come first.",
+     "es": "Lee una noticia y observa cómo los datos clave (quién, qué, cuándo, dónde, por qué) aparecen primero."
+    }
+   }
   },
   {
    "id": "EN-10-1114",
@@ -341,7 +545,19 @@
    ],
    "answer": 3,
    "explain": "A business letter uses a formal salutation followed by a colon.",
-   "source": "deducido_scope_ace_2025"
+   "source": "deducido_scope_ace_2025",
+   "lu": {
+    "id": "LU-ELA-10-06",
+    "slot": 6,
+    "concept": {
+     "en": "Business letter conventions",
+     "es": "Normas de la carta formal"
+    },
+    "tip": {
+     "en": "Draft a job application letter, choosing a proper greeting when you don't know the recipient's name.",
+     "es": "Redacta una carta de solicitud de empleo, eligiendo un saludo adecuado cuando no conoces el nombre del destinatario."
+    }
+   }
   },
   {
    "id": "EN-10-1115",
@@ -360,7 +576,19 @@
    ],
    "answer": 1,
    "explain": "The 200s are the Dewey class for religion.",
-   "source": "deducido_scope_ace_2025"
+   "source": "deducido_scope_ace_2025",
+   "lu": {
+    "id": "LU-ELA-10-07",
+    "slot": 7,
+    "concept": {
+     "en": "Finding books by Dewey Decimal",
+     "es": "Ubicar libros con el sistema Dewey"
+    },
+    "tip": {
+     "en": "Visit a library and match the ten Dewey classes to the shelves where you find them.",
+     "es": "Visita una biblioteca y relaciona las diez clases Dewey con los estantes donde las encuentras."
+    }
+   }
   },
   {
    "id": "EN-10-1116",
@@ -379,7 +607,19 @@
    ],
    "answer": 0,
    "explain": "Fourteen lines of iambic pentameter arranged as three quatrains and a couplet define the Shakespearean (English) sonnet.",
-   "source": "deducido_scope_ace_2025"
+   "source": "deducido_scope_ace_2025",
+   "lu": {
+    "id": "LU-ELA-10-08",
+    "slot": 8,
+    "concept": {
+     "en": "Identifying poetic forms",
+     "es": "Identificar formas poéticas"
+    },
+    "tip": {
+     "en": "Compare sonnets, ballads, and haiku, counting lines, rhyme scheme, and meter in each.",
+     "es": "Compara sonetos, baladas y haikus, contando versos, esquema de rima y métrica en cada uno."
+    }
+   }
   },
   {
    "id": "EN-10-1117",
@@ -398,7 +638,19 @@
    ],
    "answer": 2,
    "explain": "Sentence 4 is about honey's history, not how bees communicate, so it breaks the paragraph's unity.",
-   "source": "deducido_scope_ace_2025"
+   "source": "deducido_scope_ace_2025",
+   "lu": {
+    "id": "LU-ELA-10-09",
+    "slot": 9,
+    "concept": {
+     "en": "Keeping paragraphs unified",
+     "es": "Mantener la unidad del párrafo"
+    },
+    "tip": {
+     "en": "Reread your paragraph and cross out any sentence that doesn't support the main idea.",
+     "es": "Relee tu párrafo y tacha cualquier oración que no apoye la idea principal."
+    }
+   }
   },
   {
    "id": "EN-10-1118",
@@ -417,7 +669,19 @@
    ],
    "answer": 2,
    "explain": "An autobiography is written by the subject about himself or herself, usually in first person.",
-   "source": "deducido_scope_ace_2025"
+   "source": "deducido_scope_ace_2025",
+   "lu": {
+    "id": "LU-ELA-10-10",
+    "slot": 10,
+    "concept": {
+     "en": "Biography versus autobiography",
+     "es": "Biografía frente a autobiografía"
+    },
+    "tip": {
+     "en": "Look for first-person clues like 'I' and personal memories to tell who is writing.",
+     "es": "Busca pistas en primera persona, como 'yo' y recuerdos personales, para saber quién escribe."
+    }
+   }
   },
   {
    "id": "EN-10-1119",
@@ -436,7 +700,19 @@
    ],
    "answer": 0,
    "explain": "Hannah begins by refusing to speak to the guard and ends by showing him kindness and feeling freed.",
-   "source": "deducido_scope_ace_2025"
+   "source": "deducido_scope_ace_2025",
+   "lu": {
+    "id": "LU-ELA-10-11",
+    "slot": 11,
+    "concept": {
+     "en": "Analyzing how characters change",
+     "es": "Analizar el cambio de los personajes"
+    },
+    "tip": {
+     "en": "Track a character's actions at the beginning and end, then explain what caused the change.",
+     "es": "Compara las acciones de un personaje al inicio y al final, y explica qué causó el cambio."
+    }
+   }
   },
   {
    "id": "EN-10-1120",
@@ -455,7 +731,19 @@
    ],
    "answer": 1,
    "explain": "'Pastor' follows the linking verb 'became' and renames the subject 'uncle,' so it is a predicate nominative.",
-   "source": "deducido_scope_ace_2025"
+   "source": "deducido_scope_ace_2025",
+   "lu": {
+    "id": "LU-ELA-10-12",
+    "slot": 12,
+    "concept": {
+     "en": "Identifying predicate nominatives",
+     "es": "Identificar el atributo del sujeto"
+    },
+    "tip": {
+     "en": "Find linking verbs and ask whether the word after them renames the subject.",
+     "es": "Busca los verbos copulativos y pregunta si la palabra que sigue renombra al sujeto."
+    }
+   }
   },
   {
    "id": "EN-11-1121",
@@ -474,7 +762,19 @@
    ],
    "answer": 1,
    "explain": "It begins with a subordinating conjunction and has no independent clause, so it cannot stand alone.",
-   "source": "deducido_scope_ace_2025"
+   "source": "deducido_scope_ace_2025",
+   "lu": {
+    "id": "LU-ELA-11-01",
+    "slot": 1,
+    "concept": {
+     "en": "Recognizing sentence fragments",
+     "es": "Reconocer fragmentos de oración"
+    },
+    "tip": {
+     "en": "Check each sentence for a subject, a verb, and a complete thought; fix any that lack one.",
+     "es": "Comprueba que cada oración tenga sujeto, verbo y un pensamiento completo; corrige las que no."
+    }
+   }
   },
   {
    "id": "EN-11-1122",
@@ -493,7 +793,19 @@
    ],
    "answer": 2,
    "explain": "Emerson and Thoreau were the leading Transcendentalists, who emphasized intuition, nature, and self-reliance.",
-   "source": "deducido_scope_ace_2025"
+   "source": "deducido_scope_ace_2025",
+   "lu": {
+    "id": "LU-ELA-11-02",
+    "slot": 2,
+    "concept": {
+     "en": "American Transcendentalism",
+     "es": "El trascendentalismo estadounidense"
+    },
+    "tip": {
+     "en": "Read a short Emerson or Thoreau passage and discuss its ideas about nature and self-reliance.",
+     "es": "Lee un breve pasaje de Emerson o Thoreau y conversa sobre sus ideas acerca de la naturaleza y la autosuficiencia."
+    }
+   }
   },
   {
    "id": "EN-11-1123",
@@ -512,7 +824,19 @@
    ],
    "answer": 2,
    "explain": "The speaker builds credibility by citing professional experience, which is an appeal to ethos.",
-   "source": "deducido_scope_ace_2025"
+   "source": "deducido_scope_ace_2025",
+   "lu": {
+    "id": "LU-ELA-11-03",
+    "slot": 3,
+    "concept": {
+     "en": "Recognizing rhetorical appeals",
+     "es": "Reconocer los recursos retóricos"
+    },
+    "tip": {
+     "en": "Label persuasive sentences as appeals to logic, emotion, or credibility, and explain your choice.",
+     "es": "Clasifica oraciones persuasivas como apelaciones a la lógica, la emoción o la credibilidad, y explica tu elección."
+    }
+   }
   },
   {
    "id": "EN-11-1124",
@@ -531,7 +855,19 @@
    ],
    "answer": 1,
    "explain": "The wobbling wheel and the steep road hint that a problem will happen later, which is foreshadowing.",
-   "source": "deducido_scope_ace_2025"
+   "source": "deducido_scope_ace_2025",
+   "lu": {
+    "id": "LU-ELA-11-04",
+    "slot": 4,
+    "concept": {
+     "en": "Noticing foreshadowing",
+     "es": "Detectar el presagio en un relato"
+    },
+    "tip": {
+     "en": "While reading, mark small details that hint at later events and predict what comes next.",
+     "es": "Mientras lees, marca detalles pequeños que anticipen hechos posteriores y predice lo que sigue."
+    }
+   }
   },
   {
    "id": "EN-11-1125",
@@ -550,7 +886,19 @@
    ],
    "answer": 3,
    "explain": "Specific data taken from a source must be cited; common knowledge and one's own ideas do not need citations.",
-   "source": "deducido_scope_ace_2025"
+   "source": "deducido_scope_ace_2025",
+   "lu": {
+    "id": "LU-ELA-11-05",
+    "slot": 5,
+    "concept": {
+     "en": "Knowing what to cite",
+     "es": "Saber qué citar en una investigación"
+    },
+    "tip": {
+     "en": "Practice separating common knowledge from specific facts, statistics, and ideas that need a citation.",
+     "es": "Practica distinguir el conocimiento común de los datos, estadísticas e ideas que necesitan cita."
+    }
+   }
   },
   {
    "id": "EN-11-1126",
@@ -569,7 +917,19 @@
    ],
    "answer": 2,
    "explain": "The request needs both signatures and must be in at least 48 hours before the 9:00 a.m. Saturday shift, which is Thursday 9:00 a.m.",
-   "source": "deducido_scope_ace_2025"
+   "source": "deducido_scope_ace_2025",
+   "lu": {
+    "id": "LU-ELA-11-06",
+    "slot": 6,
+    "concept": {
+     "en": "Reading workplace documents",
+     "es": "Leer documentos laborales"
+    },
+    "tip": {
+     "en": "Read real notices and underline deadlines, requirements, and who must act.",
+     "es": "Lee avisos reales y subraya plazos, requisitos y a quién le corresponde actuar."
+    }
+   }
   },
   {
    "id": "EN-11-1127",
@@ -588,7 +948,19 @@
    ],
    "answer": 0,
    "explain": "The pledge forces characters to choose Christlike actions even when it costs them money, status, or comfort.",
-   "source": "deducido_scope_ace_2025"
+   "source": "deducido_scope_ace_2025",
+   "lu": {
+    "id": "LU-ELA-11-07",
+    "slot": 7,
+    "concept": {
+     "en": "Central conflict in a classic novel",
+     "es": "Conflicto central en una novela clásica"
+    },
+    "tip": {
+     "en": "After each chapter, summarize the main choice characters face and what it costs them.",
+     "es": "Después de cada capítulo, resume la decisión principal que enfrentan los personajes y lo que les cuesta."
+    }
+   }
   },
   {
    "id": "EN-11-1128",
@@ -607,7 +979,19 @@
    ],
    "answer": 1,
    "explain": "An allegory is a story in which characters and events represent ideas, such as spiritual virtues and struggles.",
-   "source": "deducido_scope_ace_2025"
+   "source": "deducido_scope_ace_2025",
+   "lu": {
+    "id": "LU-ELA-11-08",
+    "slot": 8,
+    "concept": {
+     "en": "Understanding allegory",
+     "es": "Comprender la alegoría"
+    },
+    "tip": {
+     "en": "Match characters and places in a story to the ideas they symbolize.",
+     "es": "Relaciona personajes y lugares de un relato con las ideas que simbolizan."
+    }
+   }
   },
   {
    "id": "EN-11-1129",
@@ -626,7 +1010,19 @@
    ],
    "answer": 1,
    "explain": "Adding the coordinating conjunction 'so' after the comma correctly joins the two independent clauses.",
-   "source": "deducido_scope_ace_2025"
+   "source": "deducido_scope_ace_2025",
+   "lu": {
+    "id": "LU-ELA-11-09",
+    "slot": 9,
+    "concept": {
+     "en": "Fixing comma splices",
+     "es": "Corregir la coma que une oraciones"
+    },
+    "tip": {
+     "en": "Practice joining independent clauses with a semicolon, period, or comma plus conjunction.",
+     "es": "Practica unir cláusulas independientes con punto y coma, punto, o coma más conjunción."
+    }
+   }
   },
   {
    "id": "EN-11-1130",
@@ -645,7 +1041,19 @@
    ],
    "answer": 0,
    "explain": "Realism focused on accurate portrayals of ordinary life, and Twain and Howells are key Realists.",
-   "source": "deducido_scope_ace_2025"
+   "source": "deducido_scope_ace_2025",
+   "lu": {
+    "id": "LU-ELA-11-10",
+    "slot": 10,
+    "concept": {
+     "en": "American Realism",
+     "es": "El realismo estadounidense"
+    },
+    "tip": {
+     "en": "Read a short Twain passage and note how it shows ordinary people and everyday speech.",
+     "es": "Lee un breve pasaje de Twain y observa cómo retrata a gente común y el habla cotidiana."
+    }
+   }
   },
   {
    "id": "EN-11-1131",
@@ -664,7 +1072,19 @@
    ],
    "answer": 3,
    "explain": "Synthesis combines ideas from both sources into one connected claim.",
-   "source": "deducido_scope_ace_2025"
+   "source": "deducido_scope_ace_2025",
+   "lu": {
+    "id": "LU-ELA-11-11",
+    "slot": 11,
+    "concept": {
+     "en": "Synthesizing multiple sources",
+     "es": "Sintetizar varias fuentes"
+    },
+    "tip": {
+     "en": "Compare two articles on one topic and write a paragraph blending their ideas with your own point.",
+     "es": "Compara dos artículos sobre un tema y escribe un párrafo que combine sus ideas con tu propio punto de vista."
+    }
+   }
   },
   {
    "id": "EN-11-1132",
@@ -683,7 +1103,19 @@
    ],
    "answer": 2,
    "explain": "Ruth's actions, not direct statements, show kindness and a desire to include the new student.",
-   "source": "deducido_scope_ace_2025"
+   "source": "deducido_scope_ace_2025",
+   "lu": {
+    "id": "LU-ELA-11-12",
+    "slot": 12,
+    "concept": {
+     "en": "Indirect characterization",
+     "es": "Caracterización indirecta"
+    },
+    "tip": {
+     "en": "Notice what characters do, say, and how others react, then describe their personality from those clues.",
+     "es": "Observa lo que los personajes hacen, dicen y cómo reaccionan otros, y describe su personalidad a partir de esas pistas."
+    }
+   }
   },
   {
    "id": "EN-12-1133",
@@ -702,7 +1134,19 @@
    ],
    "answer": 0,
    "explain": "Beowulf is the best-known Old English epic; the others are Middle English, Renaissance/Puritan, and Romantic-era works.",
-   "source": "deducido_scope_ace_2025"
+   "source": "deducido_scope_ace_2025",
+   "lu": {
+    "id": "LU-ELA-12-01",
+    "slot": 1,
+    "concept": {
+     "en": "Old English literature",
+     "es": "Literatura del inglés antiguo"
+    },
+    "tip": {
+     "en": "Read a modern translation of Beowulf's opening and note its heroic themes and style.",
+     "es": "Lee una traducción moderna del inicio de Beowulf y observa sus temas heroicos y su estilo."
+    }
+   }
   },
   {
    "id": "EN-12-1134",
@@ -721,7 +1165,19 @@
    ],
    "answer": 1,
    "explain": "The one-word reply shows that 'laconic' means brief, using few words.",
-   "source": "deducido_scope_ace_2025"
+   "source": "deducido_scope_ace_2025",
+   "lu": {
+    "id": "LU-ELA-12-02",
+    "slot": 2,
+    "concept": {
+     "en": "Word meaning from context",
+     "es": "Deducir el significado por el contexto"
+    },
+    "tip": {
+     "en": "Circle clue words near an unfamiliar word and guess its meaning before checking a dictionary.",
+     "es": "Encierra las palabras pista cerca de un término desconocido e intenta deducir su significado antes de consultar el diccionario."
+    }
+   }
   },
   {
    "id": "EN-12-1135",
@@ -740,7 +1196,19 @@
    ],
    "answer": 2,
    "explain": "The paragraph explains a process step by step, which is exposition.",
-   "source": "deducido_scope_ace_2025"
+   "source": "deducido_scope_ace_2025",
+   "lu": {
+    "id": "LU-ELA-12-03",
+    "slot": 3,
+    "concept": {
+     "en": "Modes of discourse",
+     "es": "Modos del discurso"
+    },
+    "tip": {
+     "en": "Sort passages into narration, description, exposition, or argument and explain the author's purpose.",
+     "es": "Clasifica pasajes en narración, descripción, exposición o argumentación y explica el propósito del autor."
+    }
+   }
   },
   {
    "id": "EN-12-1136",
@@ -759,7 +1227,19 @@
    ],
    "answer": 1,
    "explain": "All three items are gerunds: reading, hiking, playing.",
-   "source": "deducido_scope_ace_2025"
+   "source": "deducido_scope_ace_2025",
+   "lu": {
+    "id": "LU-ELA-12-04",
+    "slot": 4,
+    "concept": {
+     "en": "Using parallel structure",
+     "es": "Usar la estructura paralela"
+    },
+    "tip": {
+     "en": "Check lists in your writing so every item uses the same grammatical form.",
+     "es": "Revisa las listas de tu escritura para que cada elemento use la misma forma gramatical."
+    }
+   }
   },
   {
    "id": "EN-12-1137",
@@ -778,7 +1258,19 @@
    ],
    "answer": 3,
    "explain": "'Stingy' suggests selfishness, while the other words suggest wise use of money.",
-   "source": "deducido_scope_ace_2025"
+   "source": "deducido_scope_ace_2025",
+   "lu": {
+    "id": "LU-ELA-12-05",
+    "slot": 5,
+    "concept": {
+     "en": "Word connotation",
+     "es": "Connotación de las palabras"
+    },
+    "tip": {
+     "en": "Compare synonym groups, such as thrifty and stingy, and explain the feeling each word carries.",
+     "es": "Compara grupos de sinónimos, como thrifty y stingy, y explica el matiz que cada palabra transmite."
+    }
+   }
   },
   {
    "id": "EN-12-1138",
@@ -797,7 +1289,19 @@
    ],
    "answer": 3,
    "explain": "The situation is ironic: endless sea water surrounds them, but none of it can quench their thirst.",
-   "source": "deducido_scope_ace_2025"
+   "source": "deducido_scope_ace_2025",
+   "lu": {
+    "id": "LU-ELA-12-06",
+    "slot": 6,
+    "concept": {
+     "en": "Irony in classic poetry",
+     "es": "La ironía en poesía clásica"
+    },
+    "tip": {
+     "en": "Look for the gap between what is said and what is true, and discuss why the poet creates it.",
+     "es": "Busca la diferencia entre lo que se dice y lo que es cierto, y conversa sobre por qué el poeta la crea."
+    }
+   }
   },
   {
    "id": "EN-12-1139",
@@ -816,7 +1320,19 @@
    ],
    "answer": 0,
    "explain": "The paradox signals that in the play things that look good may be evil, and the reverse.",
-   "source": "deducido_scope_ace_2025"
+   "source": "deducido_scope_ace_2025",
+   "lu": {
+    "id": "LU-ELA-12-07",
+    "slot": 7,
+    "concept": {
+     "en": "Theme in Shakespeare's Macbeth",
+     "es": "El tema en Macbeth de Shakespeare"
+    },
+    "tip": {
+     "en": "Rephrase memorable lines in plain words and connect them to the play's ideas about appearance and truth.",
+     "es": "Reformula frases memorables con tus palabras y relaciónalas con las ideas de la obra sobre apariencia y verdad."
+    }
+   }
   },
   {
    "id": "EN-12-1140",
@@ -835,7 +1351,19 @@
    ],
    "answer": 3,
    "explain": "Extemporaneous speaking uses prepared notes and a conversational style with eye contact.",
-   "source": "deducido_scope_ace_2025"
+   "source": "deducido_scope_ace_2025",
+   "lu": {
+    "id": "LU-ELA-12-08",
+    "slot": 8,
+    "concept": {
+     "en": "Delivering a speech from notes",
+     "es": "Pronunciar un discurso con apuntes"
+    },
+    "tip": {
+     "en": "Rehearse aloud with a few key-word cards, working on eye contact, pace, and clear voice.",
+     "es": "Ensaya en voz alta con pocas tarjetas de palabras clave, cuidando el contacto visual, el ritmo y la claridad."
+    }
+   }
   },
   {
    "id": "EN-12-1141",
@@ -854,7 +1382,19 @@
    ],
    "answer": 1,
    "explain": "Wordsworth and Coleridge launched English Romanticism, which valued emotion, imagination, and nature.",
-   "source": "deducido_scope_ace_2025"
+   "source": "deducido_scope_ace_2025",
+   "lu": {
+    "id": "LU-ELA-12-09",
+    "slot": 9,
+    "concept": {
+     "en": "British Romantic period",
+     "es": "El Romanticismo británico"
+    },
+    "tip": {
+     "en": "Read a short Wordsworth poem and note its focus on nature, emotion, and imagination.",
+     "es": "Lee un poema breve de Wordsworth y observa su enfoque en la naturaleza, la emoción y la imaginación."
+    }
+   }
   },
   {
    "id": "EN-12-1142",
@@ -873,7 +1413,19 @@
    ],
    "answer": 2,
    "explain": "Circum (around) + locution (speaking) = speaking around a point.",
-   "source": "deducido_scope_ace_2025"
+   "source": "deducido_scope_ace_2025",
+   "lu": {
+    "id": "LU-ELA-12-10",
+    "slot": 10,
+    "concept": {
+     "en": "Defining words using roots",
+     "es": "Definir palabras con raíces"
+    },
+    "tip": {
+     "en": "Learn common Latin and Greek roots and combine them to work out unfamiliar words.",
+     "es": "Aprende raíces latinas y griegas comunes y combínalas para descifrar palabras desconocidas."
+    }
+   }
   },
   {
    "id": "EN-12-1143",
@@ -892,7 +1444,19 @@
    ],
    "answer": 0,
    "explain": "Ad hominem attacks the person (his clothing) rather than his argument; the others are hasty generalization, false dilemma, and bandwagon.",
-   "source": "deducido_scope_ace_2025"
+   "source": "deducido_scope_ace_2025",
+   "lu": {
+    "id": "LU-ELA-12-11",
+    "slot": 11,
+    "concept": {
+     "en": "Spotting logical fallacies",
+     "es": "Detectar falacias lógicas"
+    },
+    "tip": {
+     "en": "Collect examples of fallacies like ad hominem and explain why each one fails to prove a point.",
+     "es": "Reúne ejemplos de falacias como el ad hominem y explica por qué ninguna demuestra el argumento."
+    }
+   }
   },
   {
    "id": "EN-12-1144",
@@ -911,7 +1475,19 @@
    ],
    "answer": 1,
    "explain": "After 'not only' and 'but also,' both parts should be the same form: two adjectives, 'exhausting' and 'rewarding.'",
-   "source": "deducido_scope_ace_2025"
+   "source": "deducido_scope_ace_2025",
+   "lu": {
+    "id": "LU-ELA-12-12",
+    "slot": 12,
+    "concept": {
+     "en": "Parallelism with correlative pairs",
+     "es": "Paralelismo con conjunciones correlativas"
+    },
+    "tip": {
+     "en": "Make sure the words after 'not only' and 'but also' share the same grammatical form.",
+     "es": "Asegúrate de que lo que sigue a 'not only' y 'but also' tenga la misma forma gramatical."
+    }
+   }
   }
  ]
 }

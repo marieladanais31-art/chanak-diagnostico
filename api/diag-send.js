@@ -10,13 +10,15 @@ const gradeLabel = (g) => (Number(g) === 0 ? 'Kindergarten' : `Grade ${g}`);
 function renderEmail(p, lang) {
   const es = lang !== 'en';
   const t = es
-    ? { subject: 'Resultados del diagnóstico académico — Chanak International Academy', hi: 'Estimada familia,', intro: 'Este es el resumen del diagnóstico académico de', start: 'Punto de partida', gaps: 'Lagunas a cubrir (PACE)', none: 'Sin lagunas', math: 'Matemáticas', ela: 'Inglés y Lectura', next: 'Su mentor revisará el PEI inicial con ustedes. El plan queda como borrador hasta su aprobación por coordinación.', foot: 'Chanak International Academy · FLDOE #134620. Resultados orientativos; no sustituyen una calificación oficial.' }
-    : { subject: 'Academic diagnostic results — Chanak International Academy', hi: 'Dear family,', intro: 'Here is the academic diagnostic summary for', start: 'Starting point', gaps: 'Gaps to cover (PACE)', none: 'No gaps', math: 'Mathematics', ela: 'English & Reading', next: 'Your mentor will review the initial IEP with you. The plan remains a draft until approved by the coordinator.', foot: 'Chanak International Academy · FLDOE #134620. Indicative results; they do not replace an official grade.' };
+    ? { subject: 'Resultados del diagnóstico académico — Chanak International Academy', hi: 'Estimada familia,', intro: 'Este es el resumen del diagnóstico académico de', start: 'Nivel de trabajo', gaps: 'Conceptos a reforzar antes de avanzar', none: 'Sin conceptos por reforzar', math: 'Matemáticas', ela: 'Inglés y Lectura', next: 'Su mentor revisará el PEI inicial con ustedes. El plan queda como borrador hasta su aprobación por coordinación.', foot: 'Chanak International Academy · FLDOE #134620. Resultados orientativos; no sustituyen una calificación oficial.' }
+    : { subject: 'Academic diagnostic results — Chanak International Academy', hi: 'Dear family,', intro: 'Here is the academic diagnostic summary for', start: 'Working level', gaps: 'Concepts to reinforce before moving on', none: 'No concepts to reinforce', math: 'Mathematics', ela: 'English & Reading', next: 'Your mentor will review the initial IEP with you. The plan remains a draft until approved by the coordinator.', foot: 'Chanak International Academy · FLDOE #134620. Indicative results; they do not replace an official grade.' };
   const name = esc(p.student && p.student.name);
   const rows = (p.subjects || []).map((s) => {
-    const where = s.kinder ? 'Kindergarten' : s.abcs ? 'Kindergarten ✓ → Level 1' : `${gradeLabel(s.performance_level)} · PACE ${s.performance_pace}`;
-    const gaps = (s.gaps || []).map((g) => g.pace).join(', ') || t.none;
-    return `<tr><td style="padding:6px 10px;border-bottom:1px solid #e5e7eb"><strong>${esc(s.subject === 'math' ? t.math : t.ela)}</strong></td><td style="padding:6px 10px;border-bottom:1px solid #e5e7eb">${esc(where)}</td><td style="padding:6px 10px;border-bottom:1px solid #e5e7eb">${esc(gaps)}</td></tr>`;
+    const cont = s.continue_at && s.continue_at.id ? ` · ${s.continue_at.id}` : '';
+    const where = s.kinder ? 'Kindergarten' : s.abcs ? 'Kindergarten ✓ → Level 1' : `${gradeLabel(s.working_level)}${cont}`;
+    const pick = (o) => (o && (o[es ? 'es' : 'en'] || o.en)) || '';
+    const gaps = (s.learning_units_to_reinforce || []).map((g) => `${esc(pick(g.concept))} (${esc(g.id)})`).join('<br>') || t.none;
+    return `<tr><td style="padding:6px 10px;border-bottom:1px solid #e5e7eb;vertical-align:top"><strong>${esc(s.subject === 'math' ? t.math : t.ela)}</strong></td><td style="padding:6px 10px;border-bottom:1px solid #e5e7eb;vertical-align:top">${esc(where)}</td><td style="padding:6px 10px;border-bottom:1px solid #e5e7eb">${gaps}</td></tr>`;
   }).join('');
   const f = p.pei_fields || {};
   const html = `<div style="font-family:Arial,sans-serif;color:#1f2937;max-width:640px;margin:auto"><h2 style="color:#1a3a5c">Chanak International Academy</h2><p>${t.hi}</p><p>${t.intro} <strong>${name}</strong>.</p>

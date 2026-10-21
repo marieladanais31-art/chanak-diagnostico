@@ -17,7 +17,19 @@
    ],
    "answer": 1,
    "explain": "Counting on from 5 gives 5 + 1 = 6.",
-   "source": "deducido"
+   "source": "deducido",
+   "lu": {
+    "id": "LU-MATH-00-01",
+    "slot": 1,
+    "concept": {
+     "en": "counting forward from a number",
+     "es": "contar hacia adelante desde un número"
+    },
+    "tip": {
+     "en": "Count steps, toys or snacks together and stop often to ask what number comes next.",
+     "es": "Cuenten escalones, juguetes o meriendas juntos y detengan el conteo para preguntar qué número sigue."
+    }
+   }
   },
   {
    "id": "MA-00-K02",
@@ -35,7 +47,19 @@
    ],
    "answer": 2,
    "explain": "max(8, 5) = 8, so 8 is greater.",
-   "source": "deducido"
+   "source": "deducido",
+   "lu": {
+    "id": "LU-MATH-00-02",
+    "slot": 2,
+    "concept": {
+     "en": "comparing two numbers up to 10",
+     "es": "comparar dos números hasta el 10"
+    },
+    "tip": {
+     "en": "Show two piles of small objects and ask which has more, then match the numbers to each pile.",
+     "es": "Muestren dos montones de objetos pequeños, pregunten cuál tiene más y relacionen cada montón con su número."
+    }
+   }
   },
   {
    "id": "MA-00-K03",
@@ -48,7 +72,19 @@
    "prompt": "Grandma bakes 3 muffins in the morning and 2 more muffins in the afternoon. How many muffins does she bake in all?",
    "answer": 5,
    "explain": "3 + 2 = 5.",
-   "source": "deducido"
+   "source": "deducido",
+   "lu": {
+    "id": "LU-MATH-00-03",
+    "slot": 3,
+    "concept": {
+     "en": "adding within 5 with stories",
+     "es": "sumar hasta 5 con historias"
+    },
+    "tip": {
+     "en": "Act out stories with toys or fingers, joining two small groups and counting how many in all.",
+     "es": "Representen historias con juguetes o dedos, juntando dos grupos pequeños y contando cuántos hay en total."
+    }
+   }
   },
   {
    "id": "MA-00-K04",
@@ -61,7 +97,19 @@
    "prompt": "There are 6 birds on a fence. 2 birds fly away. How many birds are still on the fence?",
    "answer": 4,
    "explain": "6 - 2 = 4.",
-   "source": "deducido"
+   "source": "deducido",
+   "lu": {
+    "id": "LU-MATH-00-04",
+    "slot": 4,
+    "concept": {
+     "en": "taking away within 10 with stories",
+     "es": "restar hasta 10 con historias"
+    },
+    "tip": {
+     "en": "Use counters or snacks, take some away in a story, and count what is left.",
+     "es": "Usen fichas o galletas, quiten algunas dentro de una historia y cuenten cuántas quedan."
+    }
+   }
   },
   {
    "id": "MA-00-K05",
@@ -79,7 +127,19 @@
    ],
    "answer": 1,
    "explain": "A triangle has exactly 3 sides and 3 corners (square has 4, circle has 0).",
-   "source": "deducido"
+   "source": "deducido",
+   "lu": {
+    "id": "LU-MATH-00-05",
+    "slot": 5,
+    "concept": {
+     "en": "recognizing a triangle",
+     "es": "reconocer un triángulo"
+    },
+    "tip": {
+     "en": "Go on a shape hunt around the house, counting the sides and corners of triangles you find.",
+     "es": "Salgan a cazar formas por la casa, contando los lados y esquinas de los triángulos que encuentren."
+    }
+   }
   },
   {
    "id": "MA-00-K06",
@@ -97,7 +157,19 @@
    ],
    "answer": 0,
    "explain": "Only a circle has 0 corners and 0 straight sides.",
-   "source": "deducido"
+   "source": "deducido",
+   "lu": {
+    "id": "LU-MATH-00-06",
+    "slot": 6,
+    "concept": {
+     "en": "recognizing a circle",
+     "es": "reconocer un círculo"
+    },
+    "tip": {
+     "en": "Find round things like plates and coins, and trace them to see they have no corners.",
+     "es": "Busquen objetos redondos como platos y monedas, y trácenlos para ver que no tienen esquinas."
+    }
+   }
   },
   {
    "id": "MA-00-K07",
@@ -115,7 +187,19 @@
    ],
    "answer": 2,
    "explain": "pencil > crayon > eraser, so the eraser is shortest.",
-   "source": "deducido"
+   "source": "deducido",
+   "lu": {
+    "id": "LU-MATH-00-07",
+    "slot": 7,
+    "concept": {
+     "en": "comparing lengths of objects",
+     "es": "comparar la longitud de objetos"
+    },
+    "tip": {
+     "en": "Line up three household items side by side and order them from longest to shortest.",
+     "es": "Pongan tres objetos de casa lado a lado y ordénenlos del más largo al más corto."
+    }
+   }
   },
   {
    "id": "MA-00-K08",
@@ -133,7 +217,19 @@
    ],
    "answer": 2,
    "explain": "Counting by tens: 40 + 10 = 50.",
-   "source": "deducido"
+   "source": "deducido",
+   "lu": {
+    "id": "LU-MATH-00-08",
+    "slot": 8,
+    "concept": {
+     "en": "counting by tens",
+     "es": "contar de diez en diez"
+    },
+    "tip": {
+     "en": "Count groups of ten, like ten buttons per cup, and say 10, 20, 30 as you add each cup.",
+     "es": "Cuenten grupos de diez, como diez botones por vaso, y digan 10, 20, 30 al añadir cada vaso."
+    }
+   }
   },
   {
    "id": "MA-00-K09",
@@ -151,7 +247,19 @@
    ],
    "answer": 0,
    "explain": "14 = 10 + 4, so 4 ones.",
-   "source": "deducido"
+   "source": "deducido",
+   "lu": {
+    "id": "LU-MATH-00-09",
+    "slot": 9,
+    "concept": {
+     "en": "understanding teen numbers as ten and ones",
+     "es": "entender los números del 11 al 19 como una decena y unidades"
+    },
+    "tip": {
+     "en": "Build teen numbers with ten counters in one cup plus extra ones, and say 'ten and four'.",
+     "es": "Formen números del 11 al 19 con diez fichas en un vaso más unidades, y digan 'diez y cuatro'."
+    }
+   }
   },
   {
    "id": "MA-00-K10",
@@ -169,7 +277,19 @@
    ],
    "answer": 1,
    "explain": "5 > 3, so there are more apples.",
-   "source": "deducido"
+   "source": "deducido",
+   "lu": {
+    "id": "LU-MATH-00-10",
+    "slot": 10,
+    "concept": {
+     "en": "comparing the size of two groups",
+     "es": "comparar la cantidad de dos grupos"
+    },
+    "tip": {
+     "en": "Match items one to one, like a spoon for each bowl, and see which group has extras.",
+     "es": "Emparejen elementos uno a uno, como una cuchara por plato, y vean qué grupo tiene sobrantes."
+    }
+   }
   },
   {
    "id": "MA-01-1001",
@@ -188,7 +308,19 @@
    ],
    "answer": 2,
    "explain": "There are 4 stars; 4 is written 'four'.",
-   "source": "leido_diagnostico_ace"
+   "source": "leido_diagnostico_ace",
+   "lu": {
+    "id": "LU-MATH-01-01",
+    "slot": 1,
+    "concept": {
+     "en": "counting objects and naming the number",
+     "es": "contar objetos y nombrar el número"
+    },
+    "tip": {
+     "en": "Count small objects aloud and then find the number word or card that matches the total.",
+     "es": "Cuenten objetos pequeños en voz alta y luego busquen la palabra o tarjeta del número que coincide."
+    }
+   }
   },
   {
    "id": "MA-01-1002",
@@ -207,7 +339,19 @@
    ],
    "answer": 1,
    "explain": "8 is written 'eight'.",
-   "source": "leido_diagnostico_ace"
+   "source": "leido_diagnostico_ace",
+   "lu": {
+    "id": "LU-MATH-01-02",
+    "slot": 2,
+    "concept": {
+     "en": "reading number words",
+     "es": "leer los nombres de los números"
+    },
+    "tip": {
+     "en": "Make cards with the numeral on one side and the word on the other, and play matching.",
+     "es": "Hagan tarjetas con el número de un lado y la palabra del otro, y jueguen a emparejarlas."
+    }
+   }
   },
   {
    "id": "MA-01-1003",
@@ -220,7 +364,19 @@
    "prompt": "2 + 3 = ?",
    "answer": 5,
    "explain": "2 + 3 = 5.",
-   "source": "leido_diagnostico_ace"
+   "source": "leido_diagnostico_ace",
+   "lu": {
+    "id": "LU-MATH-01-03",
+    "slot": 3,
+    "concept": {
+     "en": "adding facts that make 5",
+     "es": "sumas básicas hasta 5"
+    },
+    "tip": {
+     "en": "Use fingers or buttons to show all the ways to make 5, like 2 and 3.",
+     "es": "Usen los dedos o botones para mostrar todas las formas de formar 5, como 2 y 3."
+    }
+   }
   },
   {
    "id": "MA-01-1004",
@@ -233,7 +389,19 @@
    "prompt": "6 + 3 = ?",
    "answer": 9,
    "explain": "6 + 3 = 9.",
-   "source": "leido_diagnostico_ace"
+   "source": "leido_diagnostico_ace",
+   "lu": {
+    "id": "LU-MATH-01-04",
+    "slot": 4,
+    "concept": {
+     "en": "adding facts up to 9",
+     "es": "sumas básicas hasta 9"
+    },
+    "tip": {
+     "en": "Practice with dominoes or dice, adding the two sides and saying the number sentence aloud.",
+     "es": "Practiquen con dominós o dados, sumando ambos lados y diciendo la operación en voz alta."
+    }
+   }
   },
   {
    "id": "MA-01-1005",
@@ -246,7 +414,19 @@
    "prompt": "Ben had 8 crayons. He gave 3 crayons to his little sister. How many crayons does Ben have now?",
    "answer": 5,
    "explain": "8 - 3 = 5.",
-   "source": "leido_diagnostico_ace"
+   "source": "leido_diagnostico_ace",
+   "lu": {
+    "id": "LU-MATH-01-05",
+    "slot": 5,
+    "concept": {
+     "en": "subtracting within 9 in stories",
+     "es": "restar hasta 9 en problemas con historia"
+    },
+    "tip": {
+     "en": "Act out take-away stories with crayons or coins, removing some and counting what remains.",
+     "es": "Representen historias de quitar con crayones o monedas, retirando algunos y contando los que quedan."
+    }
+   }
   },
   {
    "id": "MA-01-1006",
@@ -259,7 +439,19 @@
    "prompt": "7 + 3 + 0 = ?",
    "answer": 10,
    "explain": "7 + 3 = 10, and adding 0 keeps it 10.",
-   "source": "leido_diagnostico_ace"
+   "source": "leido_diagnostico_ace",
+   "lu": {
+    "id": "LU-MATH-01-06",
+    "slot": 6,
+    "concept": {
+     "en": "adding facts that make 10",
+     "es": "sumas básicas que dan 10"
+    },
+    "tip": {
+     "en": "Play 'make ten' with cards or fingers: if I have 7, how many more reach 10?",
+     "es": "Jueguen a 'formar diez' con cartas o dedos: si tengo 7, ¿cuántos más hacen falta para llegar a 10?"
+    }
+   }
   },
   {
    "id": "MA-01-1007",
@@ -272,7 +464,19 @@
    "prompt": "What number is missing?\n14, 15, ___, 17, 18",
    "answer": 16,
    "explain": "The numbers go up by 1: 15 + 1 = 16.",
-   "source": "leido_diagnostico_ace"
+   "source": "leido_diagnostico_ace",
+   "lu": {
+    "id": "LU-MATH-01-07",
+    "slot": 7,
+    "concept": {
+     "en": "ordering numbers to 20",
+     "es": "ordenar números hasta el 20"
+    },
+    "tip": {
+     "en": "Write numbers 1 to 20 on cards, mix them up, and put them in order with one missing.",
+     "es": "Escriban los números del 1 al 20 en tarjetas, mézclenlas y ordénenlas, quitando una para que la adivine."
+    }
+   }
   },
   {
    "id": "MA-01-1008",
@@ -285,7 +489,19 @@
    "prompt": "The church children's choir has 9 girls and 6 boys. How many children are in the choir?",
    "answer": 15,
    "explain": "9 + 6 = 15.",
-   "source": "leido_diagnostico_ace"
+   "source": "leido_diagnostico_ace",
+   "lu": {
+    "id": "LU-MATH-01-08",
+    "slot": 8,
+    "concept": {
+     "en": "adding by making a ten",
+     "es": "sumar pasando la decena"
+    },
+    "tip": {
+     "en": "Move counters to fill a ten-frame first, like 9 plus 6 becomes 10 plus 5.",
+     "es": "Muevan fichas para llenar primero una decena, como 9 más 6 se convierte en 10 más 5."
+    }
+   }
   },
   {
    "id": "MA-01-1009",
@@ -298,7 +514,19 @@
    "prompt": "16 - 9 = ?",
    "answer": 7,
    "explain": "16 - 9 = 7 (check: 9 + 7 = 16).",
-   "source": "leido_diagnostico_ace"
+   "source": "leido_diagnostico_ace",
+   "lu": {
+    "id": "LU-MATH-01-09",
+    "slot": 9,
+    "concept": {
+     "en": "subtracting from teen numbers",
+     "es": "restar desde números del 11 al 19"
+    },
+    "tip": {
+     "en": "Use a ten-frame or counters to take away, going back to ten first and then the rest.",
+     "es": "Usen fichas o un marco de diez para quitar, volviendo primero a diez y luego quitando el resto."
+    }
+   }
   },
   {
    "id": "MA-01-1010",
@@ -317,7 +545,19 @@
    ],
    "answer": 3,
    "explain": "Long hand on 12 means 0 minutes; short hand on 3 means 3 o'clock: 3:00.",
-   "source": "leido_diagnostico_ace"
+   "source": "leido_diagnostico_ace",
+   "lu": {
+    "id": "LU-MATH-01-10",
+    "slot": 10,
+    "concept": {
+     "en": "telling time to the hour",
+     "es": "decir la hora en punto"
+    },
+    "tip": {
+     "en": "Use a real or paper clock, setting it to o'clock times during your daily routines.",
+     "es": "Usen un reloj real o de papel, poniendo horas en punto durante las rutinas del día."
+    }
+   }
   },
   {
    "id": "MA-01-1011",
@@ -336,7 +576,19 @@
    ],
    "answer": 0,
    "explain": "'six' is the number 6.",
-   "source": "leido_diagnostico_ace"
+   "source": "leido_diagnostico_ace",
+   "lu": {
+    "id": "LU-MATH-01-11",
+    "slot": 11,
+    "concept": {
+     "en": "matching number words to numerals",
+     "es": "relacionar nombres de números con numerales"
+    },
+    "tip": {
+     "en": "Write number words and digits on cards and match them, saying each one aloud.",
+     "es": "Escriban nombres de números y dígitos en tarjetas y empárejenlos, diciendo cada uno en voz alta."
+    }
+   }
   },
   {
    "id": "MA-01-1012",
@@ -349,7 +601,19 @@
    "prompt": "What number comes between 19 and 21?",
    "answer": 20,
    "explain": "19, 20, 21: the number between is 20.",
-   "source": "leido_diagnostico_ace"
+   "source": "leido_diagnostico_ace",
+   "lu": {
+    "id": "LU-MATH-01-12",
+    "slot": 12,
+    "concept": {
+     "en": "finding the number between two numbers",
+     "es": "encontrar el número que está entre otros dos"
+    },
+    "tip": {
+     "en": "Use a number line or hundreds chart, and ask which number lives between neighbors.",
+     "es": "Usen una recta numérica o tabla del 100 y pregunten qué número vive entre dos vecinos."
+    }
+   }
   },
   {
    "id": "MA-02-1013",
@@ -362,7 +626,19 @@
    "prompt": "What number is missing?\n88, 89, ___, 91, 92",
    "answer": 90,
    "explain": "Counting by ones: 89 + 1 = 90.",
-   "source": "leido_diagnostico_ace"
+   "source": "leido_diagnostico_ace",
+   "lu": {
+    "id": "LU-MATH-02-01",
+    "slot": 1,
+    "concept": {
+     "en": "completing number patterns to 100",
+     "es": "completar secuencias de números hasta 100"
+    },
+    "tip": {
+     "en": "Use a hundreds chart and cover a number with a coin, asking your child what is hidden.",
+     "es": "Usen una tabla del 100, tapen un número con una moneda y pregunten cuál está escondido."
+    }
+   }
   },
   {
    "id": "MA-02-1014",
@@ -375,7 +651,19 @@
    "prompt": "Ella picked 4 apples, her brother picked 3 apples, and Dad picked 5 apples. How many apples did they pick in all?",
    "answer": 12,
    "explain": "4 + 3 + 5 = 12.",
-   "source": "leido_diagnostico_ace"
+   "source": "leido_diagnostico_ace",
+   "lu": {
+    "id": "LU-MATH-02-02",
+    "slot": 2,
+    "concept": {
+     "en": "adding three one-digit numbers",
+     "es": "sumar tres números de una cifra"
+    },
+    "tip": {
+     "en": "Look for pairs that make ten first, then add the last number, using dice or cards.",
+     "es": "Busquen primero los pares que suman diez y luego añadan el último número, con dados o cartas."
+    }
+   }
   },
   {
    "id": "MA-02-1015",
@@ -394,7 +682,19 @@
    ],
    "answer": 2,
    "explain": "17 is not divisible by 2 (17 = 2 x 8 + 1); the others are even.",
-   "source": "leido_diagnostico_ace"
+   "source": "leido_diagnostico_ace",
+   "lu": {
+    "id": "LU-MATH-02-03",
+    "slot": 3,
+    "concept": {
+     "en": "telling odd and even numbers",
+     "es": "distinguir números pares e impares"
+    },
+    "tip": {
+     "en": "Pair up counters; if one is left over, the number is odd. Try with different numbers.",
+     "es": "Emparejen fichas; si sobra una, el número es impar. Prueben con distintos números."
+    }
+   }
   },
   {
    "id": "MA-02-1016",
@@ -413,7 +713,19 @@
    ],
    "answer": 1,
    "explain": "6 x 10 + 3 = 63.",
-   "source": "leido_diagnostico_ace"
+   "source": "leido_diagnostico_ace",
+   "lu": {
+    "id": "LU-MATH-02-04",
+    "slot": 4,
+    "concept": {
+     "en": "place value with tens and ones",
+     "es": "valor posicional de decenas y unidades"
+    },
+    "tip": {
+     "en": "Bundle sticks into tens and loose ones, and build numbers like 63 from bundles.",
+     "es": "Hagan atados de diez palitos y unidades sueltas, y formen números como 63 con ellos."
+    }
+   }
   },
   {
    "id": "MA-02-1017",
@@ -426,7 +738,19 @@
    "prompt": "Jake has 3 hundreds flats, 5 tens rods, and 8 ones cubes. What number do his blocks show?",
    "answer": 358,
    "explain": "300 + 50 + 8 = 358.",
-   "source": "leido_diagnostico_ace"
+   "source": "leido_diagnostico_ace",
+   "lu": {
+    "id": "LU-MATH-02-05",
+    "slot": 5,
+    "concept": {
+     "en": "place value to hundreds",
+     "es": "valor posicional hasta las centenas"
+    },
+    "tip": {
+     "en": "Use paper hundreds, tens and ones, or play money, to build and read three-digit numbers.",
+     "es": "Usen papelitos de centenas, decenas y unidades, o dinero de juguete, para formar y leer números de tres cifras."
+    }
+   }
   },
   {
    "id": "MA-02-1018",
@@ -439,7 +763,19 @@
    "prompt": "47 + 8 = ?",
    "answer": 55,
    "explain": "47 + 8 = 55 (7 + 8 = 15, carry 1 ten).",
-   "source": "leido_diagnostico_ace"
+   "source": "leido_diagnostico_ace",
+   "lu": {
+    "id": "LU-MATH-02-06",
+    "slot": 6,
+    "concept": {
+     "en": "adding with regrouping to make a ten",
+     "es": "sumar con reagrupación a la decena"
+    },
+    "tip": {
+     "en": "Add the ones first, trade ten ones for a ten with counters, and then add the tens.",
+     "es": "Sumen primero las unidades, cambien diez unidades por una decena con fichas y luego sumen las decenas."
+    }
+   }
   },
   {
    "id": "MA-02-1019",
@@ -452,7 +788,19 @@
    "prompt": "Sara has 2 quarters, 1 dime, and 3 pennies. How many cents does she have?",
    "answer": 63,
    "explain": "2 x 25 + 10 + 3 = 63 cents.",
-   "source": "deducido_scope_ace_2025"
+   "source": "deducido_scope_ace_2025",
+   "lu": {
+    "id": "LU-MATH-02-07",
+    "slot": 7,
+    "concept": {
+     "en": "counting coins including quarters",
+     "es": "contar monedas, incluidas las de 25"
+    },
+    "tip": {
+     "en": "Play store with real coins, counting from the biggest coin to the smallest.",
+     "es": "Jueguen a la tienda con monedas reales, contando desde la más grande hasta la más pequeña."
+    }
+   }
   },
   {
    "id": "MA-02-1020",
@@ -465,7 +813,19 @@
    "prompt": "52 - 7 = ?",
    "answer": 45,
    "explain": "52 - 7 = 45 (regroup a ten: 12 - 7 = 5).",
-   "source": "leido_diagnostico_ace"
+   "source": "leido_diagnostico_ace",
+   "lu": {
+    "id": "LU-MATH-02-08",
+    "slot": 8,
+    "concept": {
+     "en": "subtracting with regrouping",
+     "es": "restar con reagrupación"
+    },
+    "tip": {
+     "en": "Trade a ten for ten ones with base-ten blocks or sticks before taking away.",
+     "es": "Cambien una decena por diez unidades con bloques o palitos antes de quitar."
+    }
+   }
   },
   {
    "id": "MA-02-1021",
@@ -478,7 +838,19 @@
    "prompt": "136 + 47 = ?",
    "answer": 183,
    "explain": "136 + 47 = 183.",
-   "source": "leido_diagnostico_ace"
+   "source": "leido_diagnostico_ace",
+   "lu": {
+    "id": "LU-MATH-02-09",
+    "slot": 9,
+    "concept": {
+     "en": "adding three-digit and two-digit numbers",
+     "es": "sumar números de 3 y 2 cifras"
+    },
+    "tip": {
+     "en": "Line up digits by place on grid paper and carry from ones to tens carefully.",
+     "es": "Alineen los dígitos por posición en papel cuadriculado y reagrupen con cuidado de unidades a decenas."
+    }
+   }
   },
   {
    "id": "MA-02-1022",
@@ -491,7 +863,19 @@
    "prompt": "278 + 354 = ?",
    "answer": 632,
    "explain": "278 + 354 = 632 (regroup ones and tens).",
-   "source": "leido_diagnostico_ace"
+   "source": "leido_diagnostico_ace",
+   "lu": {
+    "id": "LU-MATH-02-10",
+    "slot": 10,
+    "concept": {
+     "en": "adding three-digit numbers with two regroupings",
+     "es": "suma de números de 3 cifras con dos reagrupaciones"
+    },
+    "tip": {
+     "en": "Use play money to add hundreds, tens and ones and trade up when there are ten.",
+     "es": "Usen dinero de juguete para sumar centenas, decenas y unidades, cambiando cuando haya diez."
+    }
+   }
   },
   {
    "id": "MA-02-1023",
@@ -510,7 +894,19 @@
    ],
    "answer": 1,
    "explain": "Long hand on 6 = 6 x 5 = 30 minutes; short hand past 7: 7:30.",
-   "source": "leido_diagnostico_ace"
+   "source": "leido_diagnostico_ace",
+   "lu": {
+    "id": "LU-MATH-02-11",
+    "slot": 11,
+    "concept": {
+     "en": "telling time to the half hour",
+     "es": "decir la hora y media"
+    },
+    "tip": {
+     "en": "Move a clock hand to half past times, noticing the hour hand sits between two numbers.",
+     "es": "Muevan las manecillas a horas y media, notando que la manecilla corta queda entre dos números."
+    }
+   }
   },
   {
    "id": "MA-02-1024",
@@ -523,7 +919,19 @@
    "prompt": "A ribbon lies along a centimeter ruler. Its left end is at the 2 cm mark and its right end is at the 9 cm mark. How many centimeters long is the ribbon?",
    "answer": 7,
    "explain": "9 - 2 = 7 cm (length is the distance between the ends).",
-   "source": "leido_diagnostico_ace"
+   "source": "leido_diagnostico_ace",
+   "lu": {
+    "id": "LU-MATH-02-12",
+    "slot": 12,
+    "concept": {
+     "en": "measuring length in centimeters",
+     "es": "medir longitudes en centímetros"
+    },
+    "tip": {
+     "en": "Measure household objects with a ruler, starting each at zero or finding the difference between marks.",
+     "es": "Midan objetos de casa con una regla, empezando en cero o buscando la diferencia entre las marcas."
+    }
+   }
   },
   {
    "id": "MA-03-1025",
@@ -536,7 +944,19 @@
    "prompt": "389 + 456 = ?",
    "answer": 845,
    "explain": "389 + 456 = 845.",
-   "source": "deducido_scope_ace_2025"
+   "source": "deducido_scope_ace_2025",
+   "lu": {
+    "id": "LU-MATH-03-01",
+    "slot": 1,
+    "concept": {
+     "en": "adding three-digit numbers with regrouping",
+     "es": "suma de números de 3 cifras con reagrupación"
+    },
+    "tip": {
+     "en": "Add the ones, tens and hundreds in order, carrying when a column reaches ten, using grid paper.",
+     "es": "Sumen unidades, decenas y centenas en orden, reagrupando cuando una columna llegue a diez, en papel cuadriculado."
+    }
+   }
   },
   {
    "id": "MA-03-1026",
@@ -549,7 +969,19 @@
    "prompt": "Each bicycle has 2 wheels. How many wheels are on 9 bicycles?",
    "answer": 18,
    "explain": "9 x 2 = 18.",
-   "source": "leido_diagnostico_ace"
+   "source": "leido_diagnostico_ace",
+   "lu": {
+    "id": "LU-MATH-03-02",
+    "slot": 2,
+    "concept": {
+     "en": "multiplying by 2 in real situations",
+     "es": "multiplicar por 2 en situaciones reales"
+    },
+    "tip": {
+     "en": "Count by twos with shoes, gloves or wheels, and connect it to doubles and skip counting.",
+     "es": "Cuenten de dos en dos con zapatos, guantes o ruedas, y relaciónenlo con dobles y saltos de conteo."
+    }
+   }
   },
   {
    "id": "MA-03-1027",
@@ -562,7 +994,19 @@
    "prompt": "3,476 + 2,385 = ?",
    "answer": 5861,
    "explain": "3476 + 2385 = 5861.",
-   "source": "leido_diagnostico_ace"
+   "source": "leido_diagnostico_ace",
+   "lu": {
+    "id": "LU-MATH-03-03",
+    "slot": 3,
+    "concept": {
+     "en": "adding four-digit numbers",
+     "es": "suma de números de 4 cifras"
+    },
+    "tip": {
+     "en": "Write numbers in neat columns and add ones, tens, hundreds, then thousands, carrying as needed.",
+     "es": "Escriban los números en columnas ordenadas y sumen unidades, decenas, centenas y millares, reagrupando cuando haga falta."
+    }
+   }
   },
   {
    "id": "MA-03-1028",
@@ -575,7 +1019,19 @@
    "prompt": "600 - 247 = ?",
    "answer": 353,
    "explain": "600 - 247 = 353 (check: 353 + 247 = 600).",
-   "source": "leido_diagnostico_ace"
+   "source": "leido_diagnostico_ace",
+   "lu": {
+    "id": "LU-MATH-03-04",
+    "slot": 4,
+    "concept": {
+     "en": "subtracting across zeros",
+     "es": "restar con ceros en el minuendo"
+    },
+    "tip": {
+     "en": "Show 600 as 5 hundreds, 9 tens and 10 ones with play money, then subtract.",
+     "es": "Representen 600 como 5 centenas, 9 decenas y 10 unidades con dinero de juguete, y luego resten."
+    }
+   }
   },
   {
    "id": "MA-03-1029",
@@ -588,7 +1044,19 @@
    "prompt": "4 x 6 = ?",
    "answer": 24,
    "explain": "4 x 6 = 24.",
-   "source": "leido_diagnostico_ace"
+   "source": "leido_diagnostico_ace",
+   "lu": {
+    "id": "LU-MATH-03-05",
+    "slot": 5,
+    "concept": {
+     "en": "multiplication facts for 4",
+     "es": "tabla de multiplicar del 4"
+    },
+    "tip": {
+     "en": "Practice skip counting by fours and double the twos facts, using short daily rounds.",
+     "es": "Practiquen contar de cuatro en cuatro y dupliquen la tabla del 2, en rondas cortas cada día."
+    }
+   }
   },
   {
    "id": "MA-03-1030",
@@ -607,7 +1075,19 @@
    ],
    "answer": 2,
    "explain": "IV = 5 - 1 = 4; VI = 6, III = 3, XI = 11.",
-   "source": "leido_diagnostico_ace"
+   "source": "leido_diagnostico_ace",
+   "lu": {
+    "id": "LU-MATH-03-06",
+    "slot": 6,
+    "concept": {
+     "en": "reading basic Roman numerals",
+     "es": "leer números romanos básicos"
+    },
+    "tip": {
+     "en": "Look for Roman numerals on clocks, book chapters and buildings, and write the numbers 1 to 10.",
+     "es": "Busquen números romanos en relojes, capítulos y edificios, y escriban del 1 al 10."
+    }
+   }
   },
   {
    "id": "MA-03-1031",
@@ -620,7 +1100,19 @@
    "prompt": "6 x 7 = ?",
    "answer": 42,
    "explain": "6 x 7 = 42.",
-   "source": "leido_diagnostico_ace"
+   "source": "leido_diagnostico_ace",
+   "lu": {
+    "id": "LU-MATH-03-07",
+    "slot": 7,
+    "concept": {
+     "en": "multiplication facts for 6",
+     "es": "tabla de multiplicar del 6"
+    },
+    "tip": {
+     "en": "Build on the fives facts and add one more group, practicing with flash cards or a song.",
+     "es": "Partan de la tabla del 5 y añadan un grupo más, practicando con tarjetas o una canción."
+    }
+   }
   },
   {
    "id": "MA-03-1032",
@@ -633,7 +1125,19 @@
    "prompt": "7 x 8 = ?",
    "answer": 56,
    "explain": "7 x 8 = 56.",
-   "source": "leido_diagnostico_ace"
+   "source": "leido_diagnostico_ace",
+   "lu": {
+    "id": "LU-MATH-03-08",
+    "slot": 8,
+    "concept": {
+     "en": "multiplication facts for 7",
+     "es": "tabla de multiplicar del 7"
+    },
+    "tip": {
+     "en": "Practice a few sevens facts at a time with flash cards, rhymes, or a hundreds chart.",
+     "es": "Practiquen unas pocas multiplicaciones del 7 a la vez con tarjetas, rimas o una tabla del 100."
+    }
+   }
   },
   {
    "id": "MA-03-1033",
@@ -646,7 +1150,19 @@
    "prompt": "8 x 9 = ?",
    "answer": 72,
    "explain": "8 x 9 = 72.",
-   "source": "leido_diagnostico_ace"
+   "source": "leido_diagnostico_ace",
+   "lu": {
+    "id": "LU-MATH-03-09",
+    "slot": 9,
+    "concept": {
+     "en": "multiplication facts for 8",
+     "es": "tabla de multiplicar del 8"
+    },
+    "tip": {
+     "en": "Double the fours facts to find the eights, then practice with quick cards and games.",
+     "es": "Dupliquen la tabla del 4 para hallar la del 8 y practiquen con tarjetas rápidas y juegos."
+    }
+   }
   },
   {
    "id": "MA-03-1034",
@@ -659,7 +1175,19 @@
    "prompt": "45 + 132 + 28 + 206 = ?",
    "answer": 411,
    "explain": "45 + 132 + 28 + 206 = 411.",
-   "source": "leido_diagnostico_ace"
+   "source": "leido_diagnostico_ace",
+   "lu": {
+    "id": "LU-MATH-03-10",
+    "slot": 10,
+    "concept": {
+     "en": "adding several numbers in columns",
+     "es": "sumar varios números en columnas"
+    },
+    "tip": {
+     "en": "Line up digits in columns, add each column from the ones place, and carry the extra.",
+     "es": "Alineen los dígitos en columnas, sumen cada una desde las unidades y lleven lo que sobre."
+    }
+   }
   },
   {
    "id": "MA-03-1035",
@@ -678,7 +1206,19 @@
    ],
    "answer": 3,
    "explain": "20 minutes before 5:00 is 4:(60 - 20) = 4:40.",
-   "source": "leido_diagnostico_ace"
+   "source": "leido_diagnostico_ace",
+   "lu": {
+    "id": "LU-MATH-03-11",
+    "slot": 11,
+    "concept": {
+     "en": "telling time in minutes before the hour",
+     "es": "decir la hora con minutos para la hora"
+    },
+    "tip": {
+     "en": "Use a practice clock to show times like 'ten to six', counting back from the next hour.",
+     "es": "Usen un reloj de práctica para mostrar horas como 'ten to six', contando hacia atrás desde la hora siguiente."
+    }
+   }
   },
   {
    "id": "MA-03-1036",
@@ -697,7 +1237,19 @@
    ],
    "answer": 1,
    "explain": "2 cups = 1 pint and 2 pints = 1 quart, so 2 x 2 = 4 cups.",
-   "source": "leido_diagnostico_ace"
+   "source": "leido_diagnostico_ace",
+   "lu": {
+    "id": "LU-MATH-03-12",
+    "slot": 12,
+    "concept": {
+     "en": "converting cups, pints and quarts",
+     "es": "equivalencias entre tazas, pintas y cuartos"
+    },
+    "tip": {
+     "en": "Fill measuring cups in the kitchen to see how many cups fill a pint or quart.",
+     "es": "Llenen tazas medidoras en la cocina para ver cuántas llenan una pinta o un cuarto."
+    }
+   }
   },
   {
    "id": "MA-04-1037",
@@ -710,7 +1262,19 @@
    "prompt": "47 x 10 = ?",
    "answer": 470,
    "explain": "47 x 10 = 470.",
-   "source": "leido_diagnostico_ace"
+   "source": "leido_diagnostico_ace",
+   "lu": {
+    "id": "LU-MATH-04-01",
+    "slot": 1,
+    "concept": {
+     "en": "multiplying a number by 10",
+     "es": "multiplicar un número por 10"
+    },
+    "tip": {
+     "en": "Notice what happens to digits when you multiply by ten, using play money or a place-value chart.",
+     "es": "Observen qué pasa con los dígitos al multiplicar por diez, con dinero de juguete o una tabla de valor posicional."
+    }
+   }
   },
   {
    "id": "MA-04-1038",
@@ -723,7 +1287,19 @@
    "prompt": "11 x 8 = ?",
    "answer": 88,
    "explain": "11 x 8 = 88.",
-   "source": "leido_diagnostico_ace"
+   "source": "leido_diagnostico_ace",
+   "lu": {
+    "id": "LU-MATH-04-02",
+    "slot": 2,
+    "concept": {
+     "en": "multiplication facts for 11",
+     "es": "tabla de multiplicar del 11"
+    },
+    "tip": {
+     "en": "Spot the pattern in 11 x 1 through 11 x 9 and then practice with quick daily rounds.",
+     "es": "Descubran el patrón de 11 x 1 a 11 x 9 y practiquen en rondas rápidas cada día."
+    }
+   }
   },
   {
    "id": "MA-04-1039",
@@ -736,7 +1312,19 @@
    "prompt": "27 / 3 = ?",
    "answer": 9,
    "explain": "27 / 3 = 9 because 3 x 9 = 27.",
-   "source": "leido_diagnostico_ace"
+   "source": "leido_diagnostico_ace",
+   "lu": {
+    "id": "LU-MATH-04-03",
+    "slot": 3,
+    "concept": {
+     "en": "division facts for 3",
+     "es": "tabla de dividir entre 3"
+    },
+    "tip": {
+     "en": "Share groups of objects equally among three plates and link each result to the threes multiplication facts.",
+     "es": "Repartan objetos en partes iguales entre tres platos y relacionen cada resultado con la tabla del 3."
+    }
+   }
   },
   {
    "id": "MA-04-1040",
@@ -749,7 +1337,19 @@
    "prompt": "34 x 6 = ?",
    "answer": 204,
    "explain": "34 x 6 = 204.",
-   "source": "leido_diagnostico_ace"
+   "source": "leido_diagnostico_ace",
+   "lu": {
+    "id": "LU-MATH-04-04",
+    "slot": 4,
+    "concept": {
+     "en": "multiplying two digits by one digit",
+     "es": "multiplicar un número de 2 cifras por uno de 1 cifra"
+    },
+    "tip": {
+     "en": "Break the number into tens and ones, multiply each part, then add, like 30 x 6 plus 4 x 6.",
+     "es": "Separen el número en decenas y unidades, multipliquen cada parte y sumen, como 30 x 6 más 4 x 6."
+    }
+   }
   },
   {
    "id": "MA-04-1041",
@@ -762,7 +1362,19 @@
    "prompt": "What number does the Roman numeral XIV stand for?",
    "answer": 14,
    "explain": "XIV = 10 + (5 - 1) = 14.",
-   "source": "leido_diagnostico_ace"
+   "source": "leido_diagnostico_ace",
+   "lu": {
+    "id": "LU-MATH-04-05",
+    "slot": 5,
+    "concept": {
+     "en": "reading Roman numerals up to 19",
+     "es": "leer números romanos hasta el 19"
+    },
+    "tip": {
+     "en": "Practice writing numbers 11 to 19 as X plus the smaller numeral, like XIV for fourteen.",
+     "es": "Practiquen escribir del 11 al 19 como X más el numeral menor, como XIV para catorce."
+    }
+   }
   },
   {
    "id": "MA-04-1042",
@@ -775,7 +1387,19 @@
    "prompt": "23 x 14 = ?",
    "answer": 322,
    "explain": "23 x 14 = 230 + 92 = 322.",
-   "source": "leido_diagnostico_ace"
+   "source": "leido_diagnostico_ace",
+   "lu": {
+    "id": "LU-MATH-04-06",
+    "slot": 6,
+    "concept": {
+     "en": "multiplying two-digit numbers",
+     "es": "multiplicar números de 2 cifras"
+    },
+    "tip": {
+     "en": "Use a box or grid to multiply tens and ones separately, then add the pieces together.",
+     "es": "Usen una cuadrícula para multiplicar por separado decenas y unidades, y luego sumen las partes."
+    }
+   }
   },
   {
    "id": "MA-04-1043",
@@ -788,7 +1412,19 @@
    "prompt": "Mom shares 56 cookies equally among 7 tables at the church picnic. How many cookies go on each table?",
    "answer": 8,
    "explain": "56 / 7 = 8 because 7 x 8 = 56.",
-   "source": "leido_diagnostico_ace"
+   "source": "leido_diagnostico_ace",
+   "lu": {
+    "id": "LU-MATH-04-07",
+    "slot": 7,
+    "concept": {
+     "en": "division facts for 7 in word problems",
+     "es": "tabla de dividir entre 7 en problemas con historia"
+    },
+    "tip": {
+     "en": "Share items equally at mealtime and connect each division to the sevens multiplication facts.",
+     "es": "Repartan cosas en partes iguales a la hora de comer y relacionen cada división con la tabla del 7."
+    }
+   }
   },
   {
    "id": "MA-04-1044",
@@ -807,7 +1443,19 @@
    ],
    "answer": 2,
    "explain": "8 x 3 = 24 and 29 - 24 = 5, so 3 R 5.",
-   "source": "leido_diagnostico_ace"
+   "source": "leido_diagnostico_ace",
+   "lu": {
+    "id": "LU-MATH-04-08",
+    "slot": 8,
+    "concept": {
+     "en": "dividing with a remainder",
+     "es": "dividir con residuo"
+    },
+    "tip": {
+     "en": "Share small objects equally, then count the leftovers, and say what is left over.",
+     "es": "Repartan objetos pequeños en partes iguales, cuenten los que sobran y digan cuántos quedan."
+    }
+   }
   },
   {
    "id": "MA-04-1045",
@@ -820,7 +1468,19 @@
    "prompt": "54 / 9 = ?",
    "answer": 6,
    "explain": "54 / 9 = 6 because 9 x 6 = 54.",
-   "source": "leido_diagnostico_ace"
+   "source": "leido_diagnostico_ace",
+   "lu": {
+    "id": "LU-MATH-04-09",
+    "slot": 9,
+    "concept": {
+     "en": "division facts for 9",
+     "es": "tabla de dividir entre 9"
+    },
+    "tip": {
+     "en": "Link division to the nines multiplication facts and use the finger trick to check answers.",
+     "es": "Relacionen la división con la tabla del 9 y usen el truco de los dedos para comprobar."
+    }
+   }
   },
   {
    "id": "MA-04-1046",
@@ -839,7 +1499,19 @@
    ],
    "answer": 0,
    "explain": "1 slice out of 8 equal slices = 1/8.",
-   "source": "leido_diagnostico_ace"
+   "source": "leido_diagnostico_ace",
+   "lu": {
+    "id": "LU-MATH-04-10",
+    "slot": 10,
+    "concept": {
+     "en": "understanding a unit fraction",
+     "es": "entender una fracción unitaria"
+    },
+    "tip": {
+     "en": "Cut a pizza, sandwich or paper into equal parts and name one piece, like one eighth.",
+     "es": "Corten una pizza, un sándwich o un papel en partes iguales y nombren una parte, como un octavo."
+    }
+   }
   },
   {
    "id": "MA-04-1047",
@@ -858,7 +1530,19 @@
    ],
    "answer": 2,
    "explain": "Add numerators, keep denominator: 3/8 + 4/8 = 7/8.",
-   "source": "leido_diagnostico_ace"
+   "source": "leido_diagnostico_ace",
+   "lu": {
+    "id": "LU-MATH-04-11",
+    "slot": 11,
+    "concept": {
+     "en": "adding fractions with the same denominator",
+     "es": "sumar fracciones con el mismo denominador"
+    },
+    "tip": {
+     "en": "Use fraction strips or a cut-up paper to add pieces of the same size, keeping the bottom number.",
+     "es": "Usen tiras de fracciones o papel recortado para sumar partes del mismo tamaño, manteniendo el denominador."
+    }
+   }
   },
   {
    "id": "MA-04-1048",
@@ -877,7 +1561,19 @@
    ],
    "answer": 3,
    "explain": "$5.00 - $2.65 = $2.35.",
-   "source": "leido_diagnostico_ace"
+   "source": "leido_diagnostico_ace",
+   "lu": {
+    "id": "LU-MATH-04-12",
+    "slot": 12,
+    "concept": {
+     "en": "calculating change from a purchase",
+     "es": "calcular el cambio de una compra"
+    },
+    "tip": {
+     "en": "Play store with real coins and bills, counting up from the price to the amount paid.",
+     "es": "Jueguen a la tienda con monedas y billetes reales, contando desde el precio hasta lo pagado."
+    }
+   }
   }
  ]
 }

@@ -1,0 +1,5858 @@
+{
+ "version": "1.0",
+ "note": "Catálogo base de unidades de aprendizaje (LU) de Chanak: semilla de la plataforma. Una LU por concepto diagnóstico; las referencias externas (ACE PACE) son solo orientativas.",
+ "units": [
+  {
+   "id": "LU-ELA-00-01",
+   "subject": "ela",
+   "level": 0,
+   "slot": 1,
+   "concept": {
+    "en": "knowing the order of the alphabet",
+    "es": "conocer el orden del abecedario"
+   },
+   "tip": {
+    "en": "Sing the alphabet song together, then pause and ask what comes next, using magnetic letters or cards in order.",
+    "es": "Canten juntos la canción del abecedario, hagan pausas para preguntar qué letra sigue y ordenen letras magnéticas o tarjetas."
+   },
+   "florida_strand": "ELA.K.F",
+   "refs": {
+    "ace_pace": null
+   },
+   "origin": "deducido"
+  },
+  {
+   "id": "LU-ELA-00-02",
+   "subject": "ela",
+   "level": 0,
+   "slot": 2,
+   "concept": {
+    "en": "matching beginning sounds in words",
+    "es": "reconocer sonidos iniciales iguales"
+   },
+   "tip": {
+    "en": "Play 'I spy' with first sounds: find household objects that start with the same sound as the child's name.",
+    "es": "Jueguen a 'veo veo' con el primer sonido: busquen objetos de casa que empiecen con el mismo sonido que su nombre."
+   },
+   "florida_strand": "ELA.K.F",
+   "refs": {
+    "ace_pace": null
+   },
+   "origin": "deducido"
+  },
+  {
+   "id": "LU-ELA-00-03",
+   "subject": "ela",
+   "level": 0,
+   "slot": 3,
+   "concept": {
+    "en": "recognizing rhyming words",
+    "es": "reconocer palabras que riman"
+   },
+   "tip": {
+    "en": "Read rhyming books aloud and pause before the rhyme so your child can guess it; make silly rhyme chains.",
+    "es": "Lean libros con rimas en voz alta, pausen antes de la rima para que adivine y inventen cadenas de rimas divertidas."
+   },
+   "florida_strand": "ELA.K.F",
+   "refs": {
+    "ace_pace": null
+   },
+   "origin": "deducido"
+  },
+  {
+   "id": "LU-ELA-00-04",
+   "subject": "ela",
+   "level": 0,
+   "slot": 4,
+   "concept": {
+    "en": "matching ending sounds in words",
+    "es": "reconocer sonidos finales iguales"
+   },
+   "tip": {
+    "en": "Say two words and ask whether they end the same; sort small toys by their last sound.",
+    "es": "Digan dos palabras y pregunten si terminan igual; clasifiquen juguetes pequeños según su último sonido."
+   },
+   "florida_strand": "ELA.K.F",
+   "refs": {
+    "ace_pace": null
+   },
+   "origin": "deducido"
+  },
+  {
+   "id": "LU-ELA-00-05",
+   "subject": "ela",
+   "level": 0,
+   "slot": 5,
+   "concept": {
+    "en": "blending sounds into simple words",
+    "es": "unir sonidos para formar palabras sencillas"
+   },
+   "tip": {
+    "en": "Stretch out sounds slowly, like /m/ /a/ /p/, and let your child squeeze them together to say the word.",
+    "es": "Alarguen los sonidos despacio, como /m/ /a/ /p/, y dejen que el niño los junte para decir la palabra."
+   },
+   "florida_strand": "ELA.K.F",
+   "refs": {
+    "ace_pace": null
+   },
+   "origin": "deducido"
+  },
+  {
+   "id": "LU-ELA-00-06",
+   "subject": "ela",
+   "level": 0,
+   "slot": 6,
+   "concept": {
+    "en": "counting syllables in words",
+    "es": "contar las sílabas de una palabra"
+   },
+   "tip": {
+    "en": "Clap, stomp or tap the beats in family names and favorite foods, then count the beats together.",
+    "es": "Den palmadas o pasos al ritmo de los nombres de la familia y comidas favoritas, y cuenten los golpes juntos."
+   },
+   "florida_strand": "ELA.K.F",
+   "refs": {
+    "ace_pace": null
+   },
+   "origin": "deducido"
+  },
+  {
+   "id": "LU-ELA-00-07",
+   "subject": "ela",
+   "level": 0,
+   "slot": 7,
+   "concept": {
+    "en": "how books and print are read",
+    "es": "cómo se leen los libros y el texto"
+   },
+   "tip": {
+    "en": "While reading together, run your finger under the words from left to right and let your child turn the pages.",
+    "es": "Al leer juntos, pasen el dedo bajo las palabras de izquierda a derecha y dejen que pase las páginas."
+   },
+   "florida_strand": "ELA.K.F",
+   "refs": {
+    "ace_pace": null
+   },
+   "origin": "deducido"
+  },
+  {
+   "id": "LU-ELA-00-08",
+   "subject": "ela",
+   "level": 0,
+   "slot": 8,
+   "concept": {
+    "en": "recognizing common sight words",
+    "es": "reconocer palabras de uso frecuente"
+   },
+   "tip": {
+    "en": "Make flash cards for words like 'and' and 'the' and hunt for them in a favorite storybook.",
+    "es": "Hagan tarjetas con palabras como 'and' y 'the' y búsquenlas juntos en un cuento favorito."
+   },
+   "florida_strand": "ELA.K.F",
+   "refs": {
+    "ace_pace": null
+   },
+   "origin": "deducido"
+  },
+  {
+   "id": "LU-ELA-00-09",
+   "subject": "ela",
+   "level": 0,
+   "slot": 9,
+   "concept": {
+    "en": "understanding a short story heard aloud",
+    "es": "comprender un cuento corto que se escucha"
+   },
+   "tip": {
+    "en": "After reading a short story aloud, ask who, what and where questions, and let your child retell it.",
+    "es": "Después de leer un cuento corto, hagan preguntas de quién, qué y dónde, y pidan que lo cuente con sus palabras."
+   },
+   "florida_strand": "ELA.K.R",
+   "refs": {
+    "ace_pace": null
+   },
+   "origin": "deducido"
+  },
+  {
+   "id": "LU-ELA-00-10",
+   "subject": "ela",
+   "level": 0,
+   "slot": 10,
+   "concept": {
+    "en": "sorting words into categories",
+    "es": "clasificar palabras por categorías"
+   },
+   "tip": {
+    "en": "Sort toys, foods or picture cards into groups like fruits, animals and clothes, and name each group.",
+    "es": "Clasifiquen juguetes, comidas o tarjetas en grupos como frutas, animales y ropa, y pongan nombre a cada grupo."
+   },
+   "florida_strand": "ELA.K.V",
+   "refs": {
+    "ace_pace": null
+   },
+   "origin": "deducido"
+  },
+  {
+   "id": "LU-ELA-01-01",
+   "subject": "ela",
+   "level": 1,
+   "slot": 1,
+   "concept": {
+    "en": "finding a missing letter in the alphabet",
+    "es": "encontrar una letra que falta en el abecedario"
+   },
+   "tip": {
+    "en": "Lay out alphabet cards in a row, hide one, and let your child find which letter is missing.",
+    "es": "Pongan tarjetas del abecedario en fila, escondan una y pidan al niño que descubra qué letra falta."
+   },
+   "florida_strand": "ELA.1.F",
+   "refs": {
+    "ace_pace": 1001
+   },
+   "origin": "leido_diagnostico_ace"
+  },
+  {
+   "id": "LU-ELA-01-02",
+   "subject": "ela",
+   "level": 1,
+   "slot": 2,
+   "concept": {
+    "en": "reading and understanding a simple sentence",
+    "es": "leer y comprender una oración sencilla"
+   },
+   "tip": {
+    "en": "Read short sentences together and ask a simple question about each one, like who or what.",
+    "es": "Lean oraciones cortas juntos y hagan una pregunta sencilla sobre cada una, como quién o qué."
+   },
+   "florida_strand": "ELA.1.R",
+   "refs": {
+    "ace_pace": 1002
+   },
+   "origin": "leido_diagnostico_ace"
+  },
+  {
+   "id": "LU-ELA-01-03",
+   "subject": "ela",
+   "level": 1,
+   "slot": 3,
+   "concept": {
+    "en": "hearing long and short a sounds",
+    "es": "distinguir el sonido largo y corto de la a"
+   },
+   "tip": {
+    "en": "Collect word pairs like 'cap' and 'cape' and sort them into short a and long a piles.",
+    "es": "Reúnan pares de palabras como 'cap' y 'cape' y clasifíquenlas en montones de a corta y a larga."
+   },
+   "florida_strand": "ELA.1.F",
+   "refs": {
+    "ace_pace": 1003
+   },
+   "origin": "leido_diagnostico_ace"
+  },
+  {
+   "id": "LU-ELA-01-04",
+   "subject": "ela",
+   "level": 1,
+   "slot": 4,
+   "concept": {
+    "en": "hearing the short i sound",
+    "es": "identificar el sonido corto de la i"
+   },
+   "tip": {
+    "en": "Go on a short i word hunt in a favorite book, listening for words like 'sit' and 'big'.",
+    "es": "Busquen en un libro favorito palabras con i corta, como 'sit' y 'big', escuchando bien el sonido."
+   },
+   "florida_strand": "ELA.1.F",
+   "refs": {
+    "ace_pace": 1004
+   },
+   "origin": "leido_diagnostico_ace"
+  },
+  {
+   "id": "LU-ELA-01-05",
+   "subject": "ela",
+   "level": 1,
+   "slot": 5,
+   "concept": {
+    "en": "reading the 'ch' sound with short e",
+    "es": "leer el sonido 'ch' con e corta"
+   },
+   "tip": {
+    "en": "Practice words like 'chest' and 'check' with letter tiles, building and reading them aloud.",
+    "es": "Practiquen palabras como 'chest' y 'check' con fichas de letras, armándolas y leyéndolas en voz alta."
+   },
+   "florida_strand": "ELA.1.F",
+   "refs": {
+    "ace_pace": 1005
+   },
+   "origin": "leido_diagnostico_ace"
+  },
+  {
+   "id": "LU-ELA-01-06",
+   "subject": "ela",
+   "level": 1,
+   "slot": 6,
+   "concept": {
+    "en": "knowing when c sounds like s",
+    "es": "saber cuándo la c suena como s"
+   },
+   "tip": {
+    "en": "Notice that c before e, i or y often says /s/; list words like 'city' and 'face'.",
+    "es": "Noten que la c antes de e, i o y suele sonar /s/; hagan una lista con palabras como 'city' y 'face'."
+   },
+   "florida_strand": "ELA.1.F",
+   "refs": {
+    "ace_pace": 1006
+   },
+   "origin": "leido_diagnostico_ace"
+  },
+  {
+   "id": "LU-ELA-01-07",
+   "subject": "ela",
+   "level": 1,
+   "slot": 7,
+   "concept": {
+    "en": "adding -ing to action words",
+    "es": "añadir -ing a las palabras de acción"
+   },
+   "tip": {
+    "en": "Act out actions and say what you are doing, such as 'I am jumping', then write the -ing word.",
+    "es": "Representen acciones y digan lo que hacen, como 'I am jumping', y luego escriban la palabra con -ing."
+   },
+   "florida_strand": "ELA.1.F",
+   "refs": {
+    "ace_pace": 1007
+   },
+   "origin": "leido_diagnostico_ace"
+  },
+  {
+   "id": "LU-ELA-01-08",
+   "subject": "ela",
+   "level": 1,
+   "slot": 8,
+   "concept": {
+    "en": "hearing y as a long i sound",
+    "es": "reconocer la y con sonido de i larga"
+   },
+   "tip": {
+    "en": "Read words like 'my', 'fly' and 'try' aloud and sort them from words where y sounds different.",
+    "es": "Lean en voz alta palabras como 'my', 'fly' y 'try' y sepárenlas de las que suenan distinto."
+   },
+   "florida_strand": "ELA.1.F",
+   "refs": {
+    "ace_pace": 1008
+   },
+   "origin": "leido_diagnostico_ace"
+  },
+  {
+   "id": "LU-ELA-01-09",
+   "subject": "ela",
+   "level": 1,
+   "slot": 9,
+   "concept": {
+    "en": "hearing the long oo sound",
+    "es": "reconocer el sonido largo de oo"
+   },
+   "tip": {
+    "en": "Make a list of rhyming 'oo' words like moon, spoon and zoo, and draw a picture for each.",
+    "es": "Hagan una lista de palabras con oo que riman, como moon, spoon y zoo, y dibujen cada una."
+   },
+   "florida_strand": "ELA.1.F",
+   "refs": {
+    "ace_pace": 1009
+   },
+   "origin": "leido_diagnostico_ace"
+  },
+  {
+   "id": "LU-ELA-01-10",
+   "subject": "ela",
+   "level": 1,
+   "slot": 10,
+   "concept": {
+    "en": "reading long o spelled oa",
+    "es": "leer palabras con o larga escrita oa"
+   },
+   "tip": {
+    "en": "Build words like boat, coat and road with letter tiles and read them aloud together.",
+    "es": "Formen palabras como boat, coat y road con fichas de letras y léanlas juntos en voz alta."
+   },
+   "florida_strand": "ELA.1.F",
+   "refs": {
+    "ace_pace": 1010
+   },
+   "origin": "leido_diagnostico_ace"
+  },
+  {
+   "id": "LU-ELA-01-11",
+   "subject": "ela",
+   "level": 1,
+   "slot": 11,
+   "concept": {
+    "en": "hearing the short oo sound",
+    "es": "reconocer el sonido corto de oo"
+   },
+   "tip": {
+    "en": "Compare 'book' and 'moon' aloud, then find other short oo words like 'foot' and 'cook'.",
+    "es": "Comparen 'book' y 'moon' en voz alta y busquen otras palabras con oo corta como 'foot' y 'cook'."
+   },
+   "florida_strand": "ELA.1.F",
+   "refs": {
+    "ace_pace": 1011
+   },
+   "origin": "leido_diagnostico_ace"
+  },
+  {
+   "id": "LU-ELA-01-12",
+   "subject": "ela",
+   "level": 1,
+   "slot": 12,
+   "concept": {
+    "en": "hearing the ou and ow sound",
+    "es": "reconocer el sonido ou y ow"
+   },
+   "tip": {
+    "en": "Read words like cow, house and cloud, and see how ow and ou often make the same sound.",
+    "es": "Lean palabras como cow, house y cloud, y observen que ow y ou suelen sonar igual."
+   },
+   "florida_strand": "ELA.1.F",
+   "refs": {
+    "ace_pace": 1012
+   },
+   "origin": "leido_diagnostico_ace"
+  },
+  {
+   "id": "LU-ELA-02-01",
+   "subject": "ela",
+   "level": 2,
+   "slot": 1,
+   "concept": {
+    "en": "finding vowels in words",
+    "es": "encontrar las vocales en las palabras"
+   },
+   "tip": {
+    "en": "Write words on paper and circle the vowels a, e, i, o, u with a colored pencil.",
+    "es": "Escriban palabras en papel y rodeen las vocales a, e, i, o, u con un lápiz de color."
+   },
+   "florida_strand": "ELA.2.F",
+   "refs": {
+    "ace_pace": 1013
+   },
+   "origin": "leido_diagnostico_ace"
+  },
+  {
+   "id": "LU-ELA-02-02",
+   "subject": "ela",
+   "level": 2,
+   "slot": 2,
+   "concept": {
+    "en": "choosing the right end punctuation",
+    "es": "elegir la puntuación final correcta"
+   },
+   "tip": {
+    "en": "Read sentences aloud with expression and decide together whether each needs a period, question mark or exclamation mark.",
+    "es": "Lean oraciones en voz alta con expresión y decidan juntos si llevan punto, signo de pregunta o de exclamación."
+   },
+   "florida_strand": "ELA.2.C",
+   "refs": {
+    "ace_pace": 1014
+   },
+   "origin": "leido_diagnostico_ace"
+  },
+  {
+   "id": "LU-ELA-02-03",
+   "subject": "ela",
+   "level": 2,
+   "slot": 3,
+   "concept": {
+    "en": "using was and were correctly",
+    "es": "usar was y were correctamente"
+   },
+   "tip": {
+    "en": "Say sentences about one person and about many, like 'He was' and 'They were', and practice both.",
+    "es": "Digan oraciones sobre una persona y sobre varias, como 'He was' y 'They were', y practiquen ambas."
+   },
+   "florida_strand": "ELA.2.C",
+   "refs": {
+    "ace_pace": 1015
+   },
+   "origin": "leido_diagnostico_ace"
+  },
+  {
+   "id": "LU-ELA-02-04",
+   "subject": "ela",
+   "level": 2,
+   "slot": 4,
+   "concept": {
+    "en": "choosing a or an",
+    "es": "elegir entre a y an"
+   },
+   "tip": {
+    "en": "Look around the house and say 'a' or 'an' before each object; an goes before vowel sounds.",
+    "es": "Miren alrededor de la casa y digan 'a' o 'an' antes de cada objeto; 'an' va antes de sonidos de vocal."
+   },
+   "florida_strand": "ELA.2.C",
+   "refs": {
+    "ace_pace": 1016
+   },
+   "origin": "leido_diagnostico_ace"
+  },
+  {
+   "id": "LU-ELA-02-05",
+   "subject": "ela",
+   "level": 2,
+   "slot": 5,
+   "concept": {
+    "en": "finding nouns in sentences",
+    "es": "identificar sustantivos en las oraciones"
+   },
+   "tip": {
+    "en": "Hunt for naming words, people, places and things, in a page of a book and underline them.",
+    "es": "Busquen en una página de un libro las palabras que nombran personas, lugares y cosas, y subráyenlas."
+   },
+   "florida_strand": "ELA.2.C",
+   "refs": {
+    "ace_pace": 1017
+   },
+   "origin": "leido_diagnostico_ace"
+  },
+  {
+   "id": "LU-ELA-02-06",
+   "subject": "ela",
+   "level": 2,
+   "slot": 6,
+   "concept": {
+    "en": "recognizing proper nouns",
+    "es": "reconocer nombres propios"
+   },
+   "tip": {
+    "en": "Write names of people, towns and holidays and notice they begin with capital letters.",
+    "es": "Escriban nombres de personas, pueblos y fiestas y noten que empiezan con letra mayúscula."
+   },
+   "florida_strand": "ELA.2.C",
+   "refs": {
+    "ace_pace": 1018
+   },
+   "origin": "leido_diagnostico_ace"
+  },
+  {
+   "id": "LU-ELA-02-07",
+   "subject": "ela",
+   "level": 2,
+   "slot": 7,
+   "concept": {
+    "en": "finding action verbs",
+    "es": "identificar verbos de acción"
+   },
+   "tip": {
+    "en": "Play charades with action words like jump and swim, then find the action word in a sentence.",
+    "es": "Jueguen a las mímicas con verbos como jump y swim, y luego busquen el verbo en una oración."
+   },
+   "florida_strand": "ELA.2.C",
+   "refs": {
+    "ace_pace": 1019
+   },
+   "origin": "leido_diagnostico_ace"
+  },
+  {
+   "id": "LU-ELA-02-08",
+   "subject": "ela",
+   "level": 2,
+   "slot": 8,
+   "concept": {
+    "en": "finding words with similar meanings",
+    "es": "encontrar palabras con significado parecido"
+   },
+   "tip": {
+    "en": "Play a word-twin game: say a word like 'big' and take turns naming words that mean almost the same.",
+    "es": "Jueguen a las palabras gemelas: digan una palabra como 'big' y túrnense para nombrar otras de significado parecido."
+   },
+   "florida_strand": "ELA.2.V",
+   "refs": {
+    "ace_pace": 1020
+   },
+   "origin": "leido_diagnostico_ace"
+  },
+  {
+   "id": "LU-ELA-02-09",
+   "subject": "ela",
+   "level": 2,
+   "slot": 9,
+   "concept": {
+    "en": "choosing do or does",
+    "es": "elegir entre do y does"
+   },
+   "tip": {
+    "en": "Practice questions aloud: 'Do you...' and 'Does she...', noticing that does goes with one person.",
+    "es": "Practiquen preguntas en voz alta: 'Do you...' y 'Does she...', notando que 'does' va con una sola persona."
+   },
+   "florida_strand": "ELA.2.C",
+   "refs": {
+    "ace_pace": 1021
+   },
+   "origin": "leido_diagnostico_ace"
+  },
+  {
+   "id": "LU-ELA-02-10",
+   "subject": "ela",
+   "level": 2,
+   "slot": 10,
+   "concept": {
+    "en": "choosing the right sound-alike word",
+    "es": "elegir la palabra correcta entre homófonos"
+   },
+   "tip": {
+    "en": "Make picture cards for pairs like blew and blue, and use each in a sentence you say aloud.",
+    "es": "Hagan tarjetas con dibujos de pares como blew y blue y usen cada una en una oración dicha en voz alta."
+   },
+   "florida_strand": "ELA.2.V",
+   "refs": {
+    "ace_pace": 1022
+   },
+   "origin": "leido_diagnostico_ace"
+  },
+  {
+   "id": "LU-ELA-02-11",
+   "subject": "ela",
+   "level": 2,
+   "slot": 11,
+   "concept": {
+    "en": "using an apostrophe to show ownership",
+    "es": "usar el apóstrofo para indicar posesión"
+   },
+   "tip": {
+    "en": "Label belongings like 'Mom's cup' and 'Dad's hat' with sticky notes to see the apostrophe at work.",
+    "es": "Etiqueten objetos como 'Mom's cup' y 'Dad's hat' con notas adhesivas para ver el apóstrofo en acción."
+   },
+   "florida_strand": "ELA.2.C",
+   "refs": {
+    "ace_pace": 1023
+   },
+   "origin": "leido_diagnostico_ace"
+  },
+  {
+   "id": "LU-ELA-02-12",
+   "subject": "ela",
+   "level": 2,
+   "slot": 12,
+   "concept": {
+    "en": "putting words in alphabetical order",
+    "es": "ordenar palabras alfabéticamente"
+   },
+   "tip": {
+    "en": "Write family or pet names on cards and arrange them in ABC order by first letter.",
+    "es": "Escriban nombres de familiares o mascotas en tarjetas y ordénenlas según su primera letra."
+   },
+   "florida_strand": "ELA.2.V",
+   "refs": {
+    "ace_pace": 1024
+   },
+   "origin": "leido_diagnostico_ace"
+  },
+  {
+   "id": "LU-ELA-03-01",
+   "subject": "ela",
+   "level": 3,
+   "slot": 1,
+   "concept": {
+    "en": "alphabetizing to the third letter",
+    "es": "ordenar alfabéticamente hasta la tercera letra"
+   },
+   "tip": {
+    "en": "Practice with words sharing first letters, like 'cap', 'car' and 'cat', and compare letter by letter.",
+    "es": "Practiquen con palabras que comparten las primeras letras, como 'cap', 'car' y 'cat', comparando letra por letra."
+   },
+   "florida_strand": "ELA.3.V",
+   "refs": {
+    "ace_pace": 1025
+   },
+   "origin": "leido_diagnostico_ace"
+  },
+  {
+   "id": "LU-ELA-03-02",
+   "subject": "ela",
+   "level": 3,
+   "slot": 2,
+   "concept": {
+    "en": "telling complete sentences from fragments",
+    "es": "distinguir oraciones completas de fragmentos"
+   },
+   "tip": {
+    "en": "Ask 'Who or what? What did they do?' for each group of words to check it is complete.",
+    "es": "Pregunten '¿Quién o qué? ¿Qué hizo?' en cada grupo de palabras para comprobar que está completo."
+   },
+   "florida_strand": "ELA.3.C",
+   "refs": {
+    "ace_pace": 1026
+   },
+   "origin": "leido_diagnostico_ace"
+  },
+  {
+   "id": "LU-ELA-03-03",
+   "subject": "ela",
+   "level": 3,
+   "slot": 3,
+   "concept": {
+    "en": "finding the subject of a sentence",
+    "es": "encontrar el sujeto de una oración"
+   },
+   "tip": {
+    "en": "Ask 'Who or what is this sentence about?' with sentences from a favorite book, then underline the answer.",
+    "es": "Pregunten '¿De quién o de qué trata la oración?' con frases de un libro favorito y subrayen la respuesta."
+   },
+   "florida_strand": "ELA.3.C",
+   "refs": {
+    "ace_pace": 1027
+   },
+   "origin": "leido_diagnostico_ace"
+  },
+  {
+   "id": "LU-ELA-03-04",
+   "subject": "ela",
+   "level": 3,
+   "slot": 4,
+   "concept": {
+    "en": "using subject pronouns like we and they",
+    "es": "usar pronombres como we y they"
+   },
+   "tip": {
+    "en": "Replace names in sentences with pronouns, such as 'Maria and I' becoming 'we', and read them aloud.",
+    "es": "Cambien nombres por pronombres en oraciones, como 'Maria and I' por 'we', y léanlas en voz alta."
+   },
+   "florida_strand": "ELA.3.C",
+   "refs": {
+    "ace_pace": 1028
+   },
+   "origin": "leido_diagnostico_ace"
+  },
+  {
+   "id": "LU-ELA-03-05",
+   "subject": "ela",
+   "level": 3,
+   "slot": 5,
+   "concept": {
+    "en": "recognizing being verbs",
+    "es": "reconocer los verbos de estado (to be)"
+   },
+   "tip": {
+    "en": "Make a poster of being verbs (am, is, are, was, were) and spot them in a short story.",
+    "es": "Hagan un cartel con los verbos am, is, are, was, were y búsquenlos en un cuento corto."
+   },
+   "florida_strand": "ELA.3.C",
+   "refs": {
+    "ace_pace": 1029
+   },
+   "origin": "leido_diagnostico_ace"
+  },
+  {
+   "id": "LU-ELA-03-06",
+   "subject": "ela",
+   "level": 3,
+   "slot": 6,
+   "concept": {
+    "en": "spelling common words correctly",
+    "es": "escribir correctamente palabras comunes"
+   },
+   "tip": {
+    "en": "Practice a few everyday words each week with look, say, cover, write and check.",
+    "es": "Practiquen unas pocas palabras comunes cada semana: mirar, decir, tapar, escribir y comprobar."
+   },
+   "florida_strand": "ELA.3.C",
+   "refs": {
+    "ace_pace": 1030
+   },
+   "origin": "leido_diagnostico_ace"
+  },
+  {
+   "id": "LU-ELA-03-07",
+   "subject": "ela",
+   "level": 3,
+   "slot": 7,
+   "concept": {
+    "en": "finding opposite words in a passage",
+    "es": "encontrar palabras opuestas en un texto"
+   },
+   "tip": {
+    "en": "Play an opposites game with words like hot and cold, then hunt for opposites in a short paragraph.",
+    "es": "Jueguen a los opuestos con palabras como hot y cold y luego búsquenlos en un párrafo corto."
+   },
+   "florida_strand": "ELA.3.V",
+   "refs": {
+    "ace_pace": 1031
+   },
+   "origin": "leido_diagnostico_ace"
+  },
+  {
+   "id": "LU-ELA-03-08",
+   "subject": "ela",
+   "level": 3,
+   "slot": 8,
+   "concept": {
+    "en": "choosing the right sound-alike word",
+    "es": "elegir la palabra correcta entre homófonos"
+   },
+   "tip": {
+    "en": "Keep a list of pairs like hear and here and write a funny sentence for each one.",
+    "es": "Hagan una lista de pares como hear y here y escriban una oración divertida para cada uno."
+   },
+   "florida_strand": "ELA.3.V",
+   "refs": {
+    "ace_pace": 1032
+   },
+   "origin": "leido_diagnostico_ace"
+  },
+  {
+   "id": "LU-ELA-03-09",
+   "subject": "ela",
+   "level": 3,
+   "slot": 9,
+   "concept": {
+    "en": "using capital letters correctly",
+    "es": "usar mayúsculas correctamente"
+   },
+   "tip": {
+    "en": "Write about your family trip and check that names, holidays and titles start with capitals.",
+    "es": "Escriban sobre un paseo familiar y revisen que nombres, fiestas y títulos empiecen con mayúscula."
+   },
+   "florida_strand": "ELA.3.C",
+   "refs": {
+    "ace_pace": 1033
+   },
+   "origin": "leido_diagnostico_ace"
+  },
+  {
+   "id": "LU-ELA-03-10",
+   "subject": "ela",
+   "level": 3,
+   "slot": 10,
+   "concept": {
+    "en": "choosing its or it's",
+    "es": "elegir entre its e it's"
+   },
+   "tip": {
+    "en": "Remember that it's means 'it is'; try reading the sentence with 'it is' to check.",
+    "es": "Recuerden que it's significa 'it is'; lean la oración con 'it is' para comprobar cuál corresponde."
+   },
+   "florida_strand": "ELA.3.C",
+   "refs": {
+    "ace_pace": 1034
+   },
+   "origin": "leido_diagnostico_ace"
+  },
+  {
+   "id": "LU-ELA-03-11",
+   "subject": "ela",
+   "level": 3,
+   "slot": 11,
+   "concept": {
+    "en": "forming contractions",
+    "es": "formar contracciones"
+   },
+   "tip": {
+    "en": "Make word cards like 'they will' and 'they'll' and match them, noticing the apostrophe replaces letters.",
+    "es": "Hagan tarjetas como 'they will' y 'they'll' y empárejenlas, notando que el apóstrofo reemplaza letras."
+   },
+   "florida_strand": "ELA.3.C",
+   "refs": {
+    "ace_pace": 1035
+   },
+   "origin": "leido_diagnostico_ace"
+  },
+  {
+   "id": "LU-ELA-03-12",
+   "subject": "ela",
+   "level": 3,
+   "slot": 12,
+   "concept": {
+    "en": "reading an envelope address",
+    "es": "leer los datos de un sobre"
+   },
+   "tip": {
+    "en": "Write and address a real letter to a grandparent, placing sender and receiver in the right spots.",
+    "es": "Escriban y dirijan una carta real a un abuelo, colocando remitente y destinatario en su lugar."
+   },
+   "florida_strand": "ELA.3.R",
+   "refs": {
+    "ace_pace": 1036
+   },
+   "origin": "leido_diagnostico_ace"
+  },
+  {
+   "id": "LU-ELA-04-01",
+   "subject": "ela",
+   "level": 4,
+   "slot": 1,
+   "concept": {
+    "en": "alphabetizing beyond the third letter",
+    "es": "ordenar alfabéticamente más allá de la tercera letra"
+   },
+   "tip": {
+    "en": "Alphabetize longer words like 'plant', 'plane' and 'plank' by comparing each letter in turn.",
+    "es": "Ordenen palabras largas como 'plant', 'plane' y 'plank' comparando cada letra por turno."
+   },
+   "florida_strand": "ELA.4.V",
+   "refs": {
+    "ace_pace": 1037
+   },
+   "origin": "leido_diagnostico_ace"
+  },
+  {
+   "id": "LU-ELA-04-02",
+   "subject": "ela",
+   "level": 4,
+   "slot": 2,
+   "concept": {
+    "en": "recognizing kinds of sentences",
+    "es": "reconocer los tipos de oraciones"
+   },
+   "tip": {
+    "en": "Read dialogue aloud and label sentences as telling, asking or exclaiming by how they sound.",
+    "es": "Lean un diálogo en voz alta y clasifiquen las oraciones como enunciativas, preguntas o exclamaciones según su sonido."
+   },
+   "florida_strand": "ELA.4.C",
+   "refs": {
+    "ace_pace": 1038
+   },
+   "origin": "leido_diagnostico_ace"
+  },
+  {
+   "id": "LU-ELA-04-03",
+   "subject": "ela",
+   "level": 4,
+   "slot": 3,
+   "concept": {
+    "en": "identifying plural nouns",
+    "es": "identificar sustantivos en plural"
+   },
+   "tip": {
+    "en": "Find nouns naming more than one thing in a page of reading and circle them.",
+    "es": "Busquen en una página de lectura los sustantivos que nombran más de una cosa y rodéenlos."
+   },
+   "florida_strand": "ELA.4.C",
+   "refs": {
+    "ace_pace": 1039
+   },
+   "origin": "leido_diagnostico_ace"
+  },
+  {
+   "id": "LU-ELA-04-04",
+   "subject": "ela",
+   "level": 4,
+   "slot": 4,
+   "concept": {
+    "en": "finding the subject and verb",
+    "es": "encontrar el sujeto y el verbo"
+   },
+   "tip": {
+    "en": "Cover the extra words in a sentence until only the who and the action remain.",
+    "es": "Tapen las palabras extra de una oración hasta que queden solo el quién y la acción."
+   },
+   "florida_strand": "ELA.4.C",
+   "refs": {
+    "ace_pace": 1040
+   },
+   "origin": "leido_diagnostico_ace"
+  },
+  {
+   "id": "LU-ELA-04-05",
+   "subject": "ela",
+   "level": 4,
+   "slot": 5,
+   "concept": {
+    "en": "choosing the right pronoun after a verb",
+    "es": "elegir el pronombre correcto tras el verbo"
+   },
+   "tip": {
+    "en": "Try the sentence with only one person, such as 'gave it to me', to pick me or I.",
+    "es": "Prueben la oración con una sola persona, como 'gave it to me', para elegir entre me e I."
+   },
+   "florida_strand": "ELA.4.C",
+   "refs": {
+    "ace_pace": 1041
+   },
+   "origin": "leido_diagnostico_ace"
+  },
+  {
+   "id": "LU-ELA-04-06",
+   "subject": "ela",
+   "level": 4,
+   "slot": 6,
+   "concept": {
+    "en": "recognizing adverbs",
+    "es": "reconocer los adverbios"
+   },
+   "tip": {
+    "en": "Act out verbs in different ways, like walking slowly or quickly, and name the word that tells how.",
+    "es": "Representen verbos de distintas formas, como caminar slowly o quickly, y nombren la palabra que dice cómo."
+   },
+   "florida_strand": "ELA.4.C",
+   "refs": {
+    "ace_pace": 1042
+   },
+   "origin": "leido_diagnostico_ace"
+  },
+  {
+   "id": "LU-ELA-04-07",
+   "subject": "ela",
+   "level": 4,
+   "slot": 7,
+   "concept": {
+    "en": "using apostrophes correctly",
+    "es": "usar bien los apóstrofos"
+   },
+   "tip": {
+    "en": "Sort examples into contractions and ownership words, and explain why each apostrophe is there.",
+    "es": "Clasifiquen ejemplos en contracciones y palabras de posesión, explicando por qué lleva apóstrofo cada una."
+   },
+   "florida_strand": "ELA.4.C",
+   "refs": {
+    "ace_pace": 1043
+   },
+   "origin": "leido_diagnostico_ace"
+  },
+  {
+   "id": "LU-ELA-04-08",
+   "subject": "ela",
+   "level": 4,
+   "slot": 8,
+   "concept": {
+    "en": "punctuating dialogue",
+    "es": "puntuar los diálogos"
+   },
+   "tip": {
+    "en": "Write a short conversation between two family members, using quotation marks around the exact spoken words.",
+    "es": "Escriban una conversación corta entre dos familiares, con comillas alrededor de las palabras exactas que se dicen."
+   },
+   "florida_strand": "ELA.4.C",
+   "refs": {
+    "ace_pace": 1044
+   },
+   "origin": "leido_diagnostico_ace"
+  },
+  {
+   "id": "LU-ELA-04-09",
+   "subject": "ela",
+   "level": 4,
+   "slot": 9,
+   "concept": {
+    "en": "choosing the right sound-alike word",
+    "es": "elegir la palabra correcta entre homófonos"
+   },
+   "tip": {
+    "en": "Practice pairs like through and threw by writing a short story that uses each one.",
+    "es": "Practiquen pares como through y threw escribiendo un cuento corto que use cada uno."
+   },
+   "florida_strand": "ELA.4.V",
+   "refs": {
+    "ace_pace": 1045
+   },
+   "origin": "leido_diagnostico_ace"
+  },
+  {
+   "id": "LU-ELA-04-10",
+   "subject": "ela",
+   "level": 4,
+   "slot": 10,
+   "concept": {
+    "en": "choosing lie or lay",
+    "es": "elegir entre lie y lay"
+   },
+   "tip": {
+    "en": "Remember that lie means to rest yourself; say 'I lie down' and try a few sentences.",
+    "es": "Recuerden que lie significa descansar uno mismo; digan 'I lie down' y prueben varias oraciones."
+   },
+   "florida_strand": "ELA.4.C",
+   "refs": {
+    "ace_pace": 1046
+   },
+   "origin": "leido_diagnostico_ace"
+  },
+  {
+   "id": "LU-ELA-04-11",
+   "subject": "ela",
+   "level": 4,
+   "slot": 11,
+   "concept": {
+    "en": "using past participle verbs",
+    "es": "usar el participio pasado de los verbos"
+   },
+   "tip": {
+    "en": "Practice 'have/had' plus a verb, like 'had rung' and 'had eaten', with a list of common irregular verbs.",
+    "es": "Practiquen 'have/had' más un verbo, como 'had rung' y 'had eaten', con una lista de verbos irregulares comunes."
+   },
+   "florida_strand": "ELA.4.C",
+   "refs": {
+    "ace_pace": 1047
+   },
+   "origin": "leido_diagnostico_ace"
+  },
+  {
+   "id": "LU-ELA-04-12",
+   "subject": "ela",
+   "level": 4,
+   "slot": 12,
+   "concept": {
+    "en": "parts of a business letter",
+    "es": "partes de una carta formal"
+   },
+   "tip": {
+    "en": "Write a thank-you letter to your church or a friend, labeling the greeting, body, closing and signature.",
+    "es": "Escriban una carta de agradecimiento a su iglesia o a un amigo, marcando saludo, cuerpo, despedida y firma."
+   },
+   "florida_strand": "ELA.4.C",
+   "refs": {
+    "ace_pace": 1048
+   },
+   "origin": "leido_diagnostico_ace"
+  },
+  {
+   "id": "LU-ELA-05-01",
+   "subject": "ela",
+   "level": 5,
+   "slot": 1,
+   "concept": {
+    "en": "Questions and their end punctuation",
+    "es": "Las preguntas y su puntuación final"
+   },
+   "tip": {
+    "en": "Have your child write five questions about the day and check each ends with a question mark.",
+    "es": "Pida que escriba cinco preguntas sobre el día y revise que cada una termine con signo de interrogación."
+   },
+   "florida_strand": "ELA.5.C",
+   "refs": {
+    "ace_pace": 1049
+   },
+   "origin": "leido_diagnostico_ace"
+  },
+  {
+   "id": "LU-ELA-05-02",
+   "subject": "ela",
+   "level": 5,
+   "slot": 2,
+   "concept": {
+    "en": "Irregular plural nouns",
+    "es": "Plurales irregulares de los sustantivos"
+   },
+   "tip": {
+    "en": "Make a list of tricky plurals like mouse, child, and foot, and use each one in a sentence.",
+    "es": "Hagan una lista de plurales difíciles como ratón, luz o lápiz y usen cada uno en una oración."
+   },
+   "florida_strand": "ELA.5.C",
+   "refs": {
+    "ace_pace": 1050
+   },
+   "origin": "leido_diagnostico_ace"
+  },
+  {
+   "id": "LU-ELA-05-03",
+   "subject": "ela",
+   "level": 5,
+   "slot": 3,
+   "concept": {
+    "en": "Helping verbs in a sentence",
+    "es": "Verbos auxiliares en una oración"
+   },
+   "tip": {
+    "en": "Underline the helping verbs in sentences from a favorite book, such as will, was, and have.",
+    "es": "Subraye los verbos auxiliares en oraciones de un libro favorito, como ha, estaba o va a."
+   },
+   "florida_strand": "ELA.5.C",
+   "refs": {
+    "ace_pace": 1051
+   },
+   "origin": "leido_diagnostico_ace"
+  },
+  {
+   "id": "LU-ELA-05-04",
+   "subject": "ela",
+   "level": 5,
+   "slot": 4,
+   "concept": {
+    "en": "Making verbs agree with subjects",
+    "es": "Concordancia entre sujeto y verbo"
+   },
+   "tip": {
+    "en": "Read sentences aloud and ask whether the subject is one or many, then pick the matching verb.",
+    "es": "Lea oraciones en voz alta y pregunte si el sujeto es uno o varios; luego elija el verbo que concuerda."
+   },
+   "florida_strand": "ELA.5.C",
+   "refs": {
+    "ace_pace": 1052
+   },
+   "origin": "leido_diagnostico_ace"
+  },
+  {
+   "id": "LU-ELA-05-05",
+   "subject": "ela",
+   "level": 5,
+   "slot": 5,
+   "concept": {
+    "en": "Choosing me, him, her, or them",
+    "es": "Elegir el pronombre correcto como objeto"
+   },
+   "tip": {
+    "en": "Try the sentence with only the pronoun, like 'Dad drove me,' to hear which choice sounds right.",
+    "es": "Pruebe la oración solo con el pronombre, como 'Papá me llevó', para oír cuál opción suena bien."
+   },
+   "florida_strand": "ELA.5.C",
+   "refs": {
+    "ace_pace": 1053
+   },
+   "origin": "leido_diagnostico_ace"
+  },
+  {
+   "id": "LU-ELA-05-06",
+   "subject": "ela",
+   "level": 5,
+   "slot": 6,
+   "concept": {
+    "en": "Finding the direct object",
+    "es": "Encontrar el complemento directo"
+   },
+   "tip": {
+    "en": "Ask 'who or what receives the action?' after the verb in simple sentences, then sketch a small diagram.",
+    "es": "Tras el verbo pregunte '¿qué o a quién recibe la acción?' en oraciones simples y haga un diagrama sencillo."
+   },
+   "florida_strand": "ELA.5.C",
+   "refs": {
+    "ace_pace": 1054
+   },
+   "origin": "leido_diagnostico_ace"
+  },
+  {
+   "id": "LU-ELA-05-07",
+   "subject": "ela",
+   "level": 5,
+   "slot": 7,
+   "concept": {
+    "en": "The complete subject of a sentence",
+    "es": "El sujeto completo de una oración"
+   },
+   "tip": {
+    "en": "Ask 'who or what is this about?' and include every word that describes it, before the verb part.",
+    "es": "Pregunte '¿de quién o de qué se habla?' e incluya todas las palabras que lo describen antes del verbo."
+   },
+   "florida_strand": "ELA.5.C",
+   "refs": {
+    "ace_pace": 1055
+   },
+   "origin": "leido_diagnostico_ace"
+  },
+  {
+   "id": "LU-ELA-05-08",
+   "subject": "ela",
+   "level": 5,
+   "slot": 8,
+   "concept": {
+    "en": "Predicate adjectives after linking verbs",
+    "es": "Adjetivos después de verbos copulativos"
+   },
+   "tip": {
+    "en": "Practice with verbs like is, felt, and tasted, then name the describing word that follows each one.",
+    "es": "Practique con verbos como es, estaba o parecía y señale la palabra descriptiva que sigue a cada uno."
+   },
+   "florida_strand": "ELA.5.C",
+   "refs": {
+    "ace_pace": 1056
+   },
+   "origin": "leido_diagnostico_ace"
+  },
+  {
+   "id": "LU-ELA-05-09",
+   "subject": "ela",
+   "level": 5,
+   "slot": 9,
+   "concept": {
+    "en": "Comparing with -er, -est, more, most",
+    "es": "Formas de comparar: más, el más, -er/-est"
+   },
+   "tip": {
+    "en": "Compare three objects at home aloud, using forms like taller, tallest, and more helpful correctly.",
+    "es": "Compare tres objetos de casa en voz alta usando formas como más alto, el más alto y más amable."
+   },
+   "florida_strand": "ELA.5.C",
+   "refs": {
+    "ace_pace": 1057
+   },
+   "origin": "leido_diagnostico_ace"
+  },
+  {
+   "id": "LU-ELA-05-10",
+   "subject": "ela",
+   "level": 5,
+   "slot": 10,
+   "concept": {
+    "en": "Using lie and lay correctly",
+    "es": "Usar bien los verbos lie y lay"
+   },
+   "tip": {
+    "en": "Remember that 'lay' needs an object, like lay the book down, while 'lie' means to rest.",
+    "es": "Recuerde que 'lay' lleva objeto (poner algo) y 'lie' significa recostarse; practiquen con ejemplos cotidianos."
+   },
+   "florida_strand": "ELA.5.C",
+   "refs": {
+    "ace_pace": 1058
+   },
+   "origin": "leido_diagnostico_ace"
+  },
+  {
+   "id": "LU-ELA-05-11",
+   "subject": "ela",
+   "level": 5,
+   "slot": 11,
+   "concept": {
+    "en": "Capitals and commas in dates and places",
+    "es": "Mayúsculas y comas en fechas y lugares"
+   },
+   "tip": {
+    "en": "Have your child write today's date and your city and state in a sentence, adding commas.",
+    "es": "Pida que escriba la fecha de hoy y su ciudad en una oración, colocando bien mayúsculas y comas."
+   },
+   "florida_strand": "ELA.5.C",
+   "refs": {
+    "ace_pace": 1059
+   },
+   "origin": "leido_diagnostico_ace"
+  },
+  {
+   "id": "LU-ELA-05-12",
+   "subject": "ela",
+   "level": 5,
+   "slot": 12,
+   "concept": {
+    "en": "Words spelled alike, said differently",
+    "es": "Palabras que se escriben igual y suenan distinto"
+   },
+   "tip": {
+    "en": "Find words like wind, tear, or bow in books and say each meaning with its own pronunciation.",
+    "es": "Busque en libros palabras como wind, tear o bow y diga cada significado con su pronunciación."
+   },
+   "florida_strand": "ELA.5.V",
+   "refs": {
+    "ace_pace": 1060
+   },
+   "origin": "leido_diagnostico_ace"
+  },
+  {
+   "id": "LU-ELA-06-01",
+   "subject": "ela",
+   "level": 6,
+   "slot": 1,
+   "concept": {
+    "en": "Putting words in alphabetical order",
+    "es": "Ordenar palabras alfabéticamente"
+   },
+   "tip": {
+    "en": "Alphabetize ten family names or grocery items, looking at the second and third letters when needed.",
+    "es": "Ordenen alfabéticamente diez nombres o productos del mercado, mirando la segunda y tercera letra si hace falta."
+   },
+   "florida_strand": "ELA.6.V",
+   "refs": {
+    "ace_pace": 1061
+   },
+   "origin": "leido_diagnostico_ace"
+  },
+  {
+   "id": "LU-ELA-06-02",
+   "subject": "ela",
+   "level": 6,
+   "slot": 2,
+   "concept": {
+    "en": "Plural possessive nouns",
+    "es": "Posesivos de sustantivos en plural"
+   },
+   "tip": {
+    "en": "Practice phrases like the boys' toys and the children's toys, noting where the apostrophe goes.",
+    "es": "Practiquen frases como 'the boys' toys' y 'the children's toys', notando dónde va el apóstrofo."
+   },
+   "florida_strand": "ELA.6.C",
+   "refs": {
+    "ace_pace": 1062
+   },
+   "origin": "leido_diagnostico_ace"
+  },
+  {
+   "id": "LU-ELA-06-03",
+   "subject": "ela",
+   "level": 6,
+   "slot": 3,
+   "concept": {
+    "en": "Spotting the indirect object",
+    "es": "Reconocer el complemento indirecto"
+   },
+   "tip": {
+    "en": "Ask 'to whom or for whom?' after the verb in sentences with gave, sent, or told.",
+    "es": "Pregunte '¿a quién o para quién?' después del verbo en oraciones con gave, sent o told."
+   },
+   "florida_strand": "ELA.6.C",
+   "refs": {
+    "ace_pace": 1063
+   },
+   "origin": "leido_diagnostico_ace"
+  },
+  {
+   "id": "LU-ELA-06-04",
+   "subject": "ela",
+   "level": 6,
+   "slot": 4,
+   "concept": {
+    "en": "Pronouns that match their nouns",
+    "es": "Pronombres que concuerdan con su sustantivo"
+   },
+   "tip": {
+    "en": "Check words like each, everyone, and somebody, and choose a matching singular pronoun in practice sentences.",
+    "es": "Revisen palabras como each, everyone y somebody y elijan el pronombre singular que concuerda en oraciones de práctica."
+   },
+   "florida_strand": "ELA.6.C",
+   "refs": {
+    "ace_pace": 1064
+   },
+   "origin": "leido_diagnostico_ace"
+  },
+  {
+   "id": "LU-ELA-06-05",
+   "subject": "ela",
+   "level": 6,
+   "slot": 5,
+   "concept": {
+    "en": "Correct past participle forms",
+    "es": "Formas correctas del participio pasado"
+   },
+   "tip": {
+    "en": "Practice verb sets like go, went, gone with 'have' sentences, such as 'I have gone'.",
+    "es": "Practiquen series como go, went, gone con oraciones con 'have', como 'I have gone'."
+   },
+   "florida_strand": "ELA.6.C",
+   "refs": {
+    "ace_pace": 1065
+   },
+   "origin": "leido_diagnostico_ace"
+  },
+  {
+   "id": "LU-ELA-06-06",
+   "subject": "ela",
+   "level": 6,
+   "slot": 6,
+   "concept": {
+    "en": "Choosing rise or raise",
+    "es": "Elegir entre rise y raise"
+   },
+   "tip": {
+    "en": "Remember that 'raise' lifts something, while 'rise' goes up by itself, like the sun.",
+    "es": "Recuerde que 'raise' es levantar algo y 'rise' es subir por sí solo, como el sol."
+   },
+   "florida_strand": "ELA.6.C",
+   "refs": {
+    "ace_pace": 1066
+   },
+   "origin": "leido_diagnostico_ace"
+  },
+  {
+   "id": "LU-ELA-06-07",
+   "subject": "ela",
+   "level": 6,
+   "slot": 7,
+   "concept": {
+    "en": "Prepositional phrases as adjectives",
+    "es": "Frases preposicionales que describen"
+   },
+   "tip": {
+    "en": "Ask which noun the phrase describes, and practice adding phrases like 'with the blue door' to nouns.",
+    "es": "Pregunte qué sustantivo describe la frase y practique añadiendo frases como 'con la puerta azul' a sustantivos."
+   },
+   "florida_strand": "ELA.6.C",
+   "refs": {
+    "ace_pace": 1067
+   },
+   "origin": "leido_diagnostico_ace"
+  },
+  {
+   "id": "LU-ELA-06-08",
+   "subject": "ela",
+   "level": 6,
+   "slot": 8,
+   "concept": {
+    "en": "Placing modifiers in a diagram",
+    "es": "Ubicar modificadores en un diagrama"
+   },
+   "tip": {
+    "en": "Circle each describing word and draw an arrow to the word it modifies before diagramming.",
+    "es": "Encierre cada palabra descriptiva y dibuje una flecha a la palabra que modifica antes de diagramar."
+   },
+   "florida_strand": "ELA.6.C",
+   "refs": {
+    "ace_pace": 1068
+   },
+   "origin": "leido_diagnostico_ace"
+  },
+  {
+   "id": "LU-ELA-06-09",
+   "subject": "ela",
+   "level": 6,
+   "slot": 9,
+   "concept": {
+    "en": "Using semicolons correctly",
+    "es": "Uso correcto del punto y coma"
+   },
+   "tip": {
+    "en": "Join two closely related complete sentences with a semicolon, and test that each half stands alone.",
+    "es": "Una dos oraciones completas muy relacionadas con punto y coma y compruebe que cada mitad se entienda sola."
+   },
+   "florida_strand": "ELA.6.C",
+   "refs": {
+    "ace_pace": 1069
+   },
+   "origin": "leido_diagnostico_ace"
+  },
+  {
+   "id": "LU-ELA-06-10",
+   "subject": "ela",
+   "level": 6,
+   "slot": 10,
+   "concept": {
+    "en": "Telling fragments from sentences",
+    "es": "Distinguir fragmentos de oraciones completas"
+   },
+   "tip": {
+    "en": "Ask whether the group of words has a subject and a verb and tells a complete thought.",
+    "es": "Pregunte si el grupo de palabras tiene sujeto y verbo y expresa una idea completa."
+   },
+   "florida_strand": "ELA.6.C",
+   "refs": {
+    "ace_pace": 1070
+   },
+   "origin": "leido_diagnostico_ace"
+  },
+  {
+   "id": "LU-ELA-06-11",
+   "subject": "ela",
+   "level": 6,
+   "slot": 11,
+   "concept": {
+    "en": "Writing a strong topic sentence",
+    "es": "Escribir una buena oración temática"
+   },
+   "tip": {
+    "en": "Read a paragraph first, then write one sentence that captures its main idea for the opening.",
+    "es": "Lea primero el párrafo y escriba una oración que resuma su idea principal para abrirlo."
+   },
+   "florida_strand": "ELA.6.C",
+   "refs": {
+    "ace_pace": 1071
+   },
+   "origin": "leido_diagnostico_ace"
+  },
+  {
+   "id": "LU-ELA-06-12",
+   "subject": "ela",
+   "level": 6,
+   "slot": 12,
+   "concept": {
+    "en": "Organizing ideas in an outline",
+    "es": "Organizar ideas en un esquema"
+   },
+   "tip": {
+    "en": "Outline a short paragraph together, using numerals for main topics and letters and numbers for details.",
+    "es": "Hagan juntos el esquema de un párrafo corto: números romanos para temas, letras y números para detalles."
+   },
+   "florida_strand": "ELA.6.C",
+   "refs": {
+    "ace_pace": 1072
+   },
+   "origin": "leido_diagnostico_ace"
+  },
+  {
+   "id": "LU-ELA-07-01",
+   "subject": "ela",
+   "level": 7,
+   "slot": 1,
+   "concept": {
+    "en": "Recognizing passive voice",
+    "es": "Reconocer la voz pasiva"
+   },
+   "tip": {
+    "en": "Ask whether the subject does the action or receives it, and rewrite sentences both ways.",
+    "es": "Pregunte si el sujeto realiza o recibe la acción y reescriban las oraciones de ambas formas."
+   },
+   "florida_strand": "ELA.7.C",
+   "refs": {
+    "ace_pace": 1073
+   },
+   "origin": "leido_diagnostico_ace"
+  },
+  {
+   "id": "LU-ELA-07-02",
+   "subject": "ela",
+   "level": 7,
+   "slot": 2,
+   "concept": {
+    "en": "Irregular past tense verbs",
+    "es": "Verbos irregulares en pasado"
+   },
+   "tip": {
+    "en": "Keep a growing list of verbs like ran, wrote, and brought and use each in a sentence.",
+    "es": "Lleven una lista de verbos irregulares como ran, wrote y brought y usen cada uno en una oración."
+   },
+   "florida_strand": "ELA.7.C",
+   "refs": {
+    "ace_pace": 1074
+   },
+   "origin": "leido_diagnostico_ace"
+  },
+  {
+   "id": "LU-ELA-07-03",
+   "subject": "ela",
+   "level": 7,
+   "slot": 3,
+   "concept": {
+    "en": "The future perfect tense",
+    "es": "El futuro perfecto"
+   },
+   "tip": {
+    "en": "Practice 'will have' sentences about goals, like 'By Friday, I will have finished my book.'",
+    "es": "Practiquen oraciones con 'will have' sobre metas, como 'By Friday, I will have finished my book'."
+   },
+   "florida_strand": "ELA.7.C",
+   "refs": {
+    "ace_pace": 1075
+   },
+   "origin": "leido_diagnostico_ace"
+  },
+  {
+   "id": "LU-ELA-07-04",
+   "subject": "ela",
+   "level": 7,
+   "slot": 4,
+   "concept": {
+    "en": "Transitive and intransitive verbs",
+    "es": "Verbos transitivos e intransitivos"
+   },
+   "tip": {
+    "en": "After each verb ask 'what?' or 'whom?'; if there is no answer, the verb is intransitive.",
+    "es": "Después de cada verbo pregunte '¿qué?' o '¿a quién?'; si no hay respuesta, es intransitivo."
+   },
+   "florida_strand": "ELA.7.C",
+   "refs": {
+    "ace_pace": 1076
+   },
+   "origin": "leido_diagnostico_ace"
+  },
+  {
+   "id": "LU-ELA-07-05",
+   "subject": "ela",
+   "level": 7,
+   "slot": 5,
+   "concept": {
+    "en": "Relative pronouns who, whom, which",
+    "es": "Pronombres relativos who, whom y which"
+   },
+   "tip": {
+    "en": "Find who, which, and that in a reading passage and name the noun each one points back to.",
+    "es": "Busque who, which y that en una lectura y diga a qué sustantivo se refiere cada uno."
+   },
+   "florida_strand": "ELA.7.C",
+   "refs": {
+    "ace_pace": 1077
+   },
+   "origin": "leido_diagnostico_ace"
+  },
+  {
+   "id": "LU-ELA-07-06",
+   "subject": "ela",
+   "level": 7,
+   "slot": 6,
+   "concept": {
+    "en": "Choosing adjective or adverb",
+    "es": "Elegir entre adjetivo y adverbio"
+   },
+   "tip": {
+    "en": "Ask whether the word describes a noun or tells how an action is done, then choose accordingly.",
+    "es": "Pregunte si la palabra describe un sustantivo o dice cómo se hace la acción, y elija en consecuencia."
+   },
+   "florida_strand": "ELA.7.C",
+   "refs": {
+    "ace_pace": 1078
+   },
+   "origin": "leido_diagnostico_ace"
+  },
+  {
+   "id": "LU-ELA-07-07",
+   "subject": "ela",
+   "level": 7,
+   "slot": 7,
+   "concept": {
+    "en": "Diagramming compound sentences",
+    "es": "Diagramar oraciones compuestas"
+   },
+   "tip": {
+    "en": "Split a compound sentence at its conjunction and diagram each clause on its own line.",
+    "es": "Divida la oración compuesta en la conjunción y diagrame cada cláusula en su propia línea."
+   },
+   "florida_strand": "ELA.7.C",
+   "refs": {
+    "ace_pace": 1079
+   },
+   "origin": "leido_diagnostico_ace"
+  },
+  {
+   "id": "LU-ELA-07-08",
+   "subject": "ela",
+   "level": 7,
+   "slot": 8,
+   "concept": {
+    "en": "Gerunds used as nouns",
+    "es": "Gerundios usados como sustantivos"
+   },
+   "tip": {
+    "en": "Find -ing words that act as nouns, like 'Reading is fun,' and compare them with -ing verbs.",
+    "es": "Busquen palabras en -ing que funcionen como sustantivos, como 'Reading is fun', y compárenlas con verbos en -ing."
+   },
+   "florida_strand": "ELA.7.C",
+   "refs": {
+    "ace_pace": 1080
+   },
+   "origin": "leido_diagnostico_ace"
+  },
+  {
+   "id": "LU-ELA-07-09",
+   "subject": "ela",
+   "level": 7,
+   "slot": 9,
+   "concept": {
+    "en": "Punctuating interrupted dialogue",
+    "es": "Puntuar diálogos interrumpidos"
+   },
+   "tip": {
+    "en": "Write a short conversation with 'she said' in the middle, checking commas and quotation marks.",
+    "es": "Escriba una conversación corta con 'she said' en medio, revisando comas y comillas."
+   },
+   "florida_strand": "ELA.7.C",
+   "refs": {
+    "ace_pace": 1081
+   },
+   "origin": "leido_diagnostico_ace"
+  },
+  {
+   "id": "LU-ELA-07-10",
+   "subject": "ela",
+   "level": 7,
+   "slot": 10,
+   "concept": {
+    "en": "Complex sentences with two clauses",
+    "es": "Oraciones complejas con dos cláusulas"
+   },
+   "tip": {
+    "en": "Look for words like because, although, and when that start a clause that cannot stand alone.",
+    "es": "Busquen palabras como because, although y when que inician una cláusula que no puede estar sola."
+   },
+   "florida_strand": "ELA.7.C",
+   "refs": {
+    "ace_pace": 1082
+   },
+   "origin": "leido_diagnostico_ace"
+  },
+  {
+   "id": "LU-ELA-07-11",
+   "subject": "ela",
+   "level": 7,
+   "slot": 11,
+   "concept": {
+    "en": "Understanding dictionary entries",
+    "es": "Entender las entradas del diccionario"
+   },
+   "tip": {
+    "en": "Look up three words together and explain the pronunciation guide and part-of-speech abbreviations in each entry.",
+    "es": "Busquen tres palabras juntos y expliquen la guía de pronunciación y las abreviaturas de categoría en cada entrada."
+   },
+   "florida_strand": "ELA.7.V",
+   "refs": {
+    "ace_pace": 1083
+   },
+   "origin": "leido_diagnostico_ace"
+  },
+  {
+   "id": "LU-ELA-07-12",
+   "subject": "ela",
+   "level": 7,
+   "slot": 12,
+   "concept": {
+    "en": "Recognizing how-to paragraphs",
+    "es": "Reconocer párrafos de instrucciones"
+   },
+   "tip": {
+    "en": "Write simple steps for a task at home using first, next, then, and finally.",
+    "es": "Escriba pasos sencillos para una tarea del hogar usando primero, luego, después y finalmente."
+   },
+   "florida_strand": "ELA.7.R",
+   "refs": {
+    "ace_pace": 1084
+   },
+   "origin": "leido_diagnostico_ace"
+  },
+  {
+   "id": "LU-ELA-08-01",
+   "subject": "ela",
+   "level": 8,
+   "slot": 1,
+   "concept": {
+    "en": "Agreement with neither/nor subjects",
+    "es": "Concordancia con sujetos neither/nor"
+   },
+   "tip": {
+    "en": "Remember the verb agrees with the subject closest to it, and practice with short examples.",
+    "es": "Recuerde que el verbo concuerda con el sujeto más cercano y practique con ejemplos cortos."
+   },
+   "florida_strand": "ELA.8.C",
+   "refs": {
+    "ace_pace": 1085
+   },
+   "origin": "leido_diagnostico_ace"
+  },
+  {
+   "id": "LU-ELA-08-02",
+   "subject": "ela",
+   "level": 8,
+   "slot": 2,
+   "concept": {
+    "en": "Changing active to passive voice",
+    "es": "Cambiar de voz activa a pasiva"
+   },
+   "tip": {
+    "en": "Move the receiver of the action to the front and add a form of 'be' plus the past participle.",
+    "es": "Pase quien recibe la acción al inicio y agregue una forma de 'be' más el participio pasado."
+   },
+   "florida_strand": "ELA.8.C",
+   "refs": {
+    "ace_pace": 1086
+   },
+   "origin": "leido_diagnostico_ace"
+  },
+  {
+   "id": "LU-ELA-08-03",
+   "subject": "ela",
+   "level": 8,
+   "slot": 3,
+   "concept": {
+    "en": "Using the past perfect tense",
+    "es": "Usar el pasado perfecto"
+   },
+   "tip": {
+    "en": "Write sentences about two past events, using 'had' for the one that happened first.",
+    "es": "Escriba oraciones sobre dos hechos pasados usando 'had' para el que ocurrió primero."
+   },
+   "florida_strand": "ELA.8.C",
+   "refs": {
+    "ace_pace": 1087
+   },
+   "origin": "leido_diagnostico_ace"
+  },
+  {
+   "id": "LU-ELA-08-04",
+   "subject": "ela",
+   "level": 8,
+   "slot": 4,
+   "concept": {
+    "en": "Lie and lay in past forms",
+    "es": "Formas pasadas de lie y lay"
+   },
+   "tip": {
+    "en": "Chart lie, lay, lain and lay, laid, laid side by side, and write a sentence for each.",
+    "es": "Haga una tabla con lie, lay, lain y lay, laid, laid, y escriba una oración para cada forma."
+   },
+   "florida_strand": "ELA.8.C",
+   "refs": {
+    "ace_pace": 1088
+   },
+   "origin": "leido_diagnostico_ace"
+  },
+  {
+   "id": "LU-ELA-08-05",
+   "subject": "ela",
+   "level": 8,
+   "slot": 5,
+   "concept": {
+    "en": "Nouns of direct address",
+    "es": "Vocativo: nombrar a quien se habla"
+   },
+   "tip": {
+    "en": "Write sentences that call someone by name and notice the comma that sets the name apart.",
+    "es": "Escriba oraciones que llamen a alguien por su nombre y note la coma que lo separa."
+   },
+   "florida_strand": "ELA.8.C",
+   "refs": {
+    "ace_pace": 1089
+   },
+   "origin": "leido_diagnostico_ace"
+  },
+  {
+   "id": "LU-ELA-08-06",
+   "subject": "ela",
+   "level": 8,
+   "slot": 6,
+   "concept": {
+    "en": "Its/it's and your/you're",
+    "es": "Its/it's y your/you're"
+   },
+   "tip": {
+    "en": "Test each choice by reading it as 'it is' or 'you are'; if that fits, use the apostrophe.",
+    "es": "Pruebe cada opción leyéndola como 'it is' o 'you are'; si encaja, se usa apóstrofo."
+   },
+   "florida_strand": "ELA.8.C",
+   "refs": {
+    "ace_pace": 1090
+   },
+   "origin": "leido_diagnostico_ace"
+  },
+  {
+   "id": "LU-ELA-08-07",
+   "subject": "ela",
+   "level": 8,
+   "slot": 7,
+   "concept": {
+    "en": "Identifying parts of speech in context",
+    "es": "Identificar categorías gramaticales en contexto"
+   },
+   "tip": {
+    "en": "Ask what job a word does in its sentence; the same word can be a noun, adverb, or adjective.",
+    "es": "Pregunte qué función cumple la palabra en la oración; una misma palabra puede ser sustantivo, adverbio o adjetivo."
+   },
+   "florida_strand": "ELA.8.C",
+   "refs": {
+    "ace_pace": 1091
+   },
+   "origin": "leido_diagnostico_ace"
+  },
+  {
+   "id": "LU-ELA-08-08",
+   "subject": "ela",
+   "level": 8,
+   "slot": 8,
+   "concept": {
+    "en": "Spotting and fixing run-on sentences",
+    "es": "Detectar y corregir oraciones encadenadas"
+   },
+   "tip": {
+    "en": "Find two complete thoughts joined without proper punctuation, then separate them or add a conjunction.",
+    "es": "Busque dos ideas completas unidas sin puntuación y sepárelas o agregue una conjunción."
+   },
+   "florida_strand": "ELA.8.C",
+   "refs": {
+    "ace_pace": 1092
+   },
+   "origin": "leido_diagnostico_ace"
+  },
+  {
+   "id": "LU-ELA-08-09",
+   "subject": "ela",
+   "level": 8,
+   "slot": 9,
+   "concept": {
+    "en": "Diagramming adverb clauses",
+    "es": "Diagramar cláusulas adverbiales"
+   },
+   "tip": {
+    "en": "Find the clause that tells when, why, or how, and place it below the main clause.",
+    "es": "Encuentre la cláusula que dice cuándo, por qué o cómo y colóquela debajo de la cláusula principal."
+   },
+   "florida_strand": "ELA.8.C",
+   "refs": {
+    "ace_pace": 1093
+   },
+   "origin": "leido_diagnostico_ace"
+  },
+  {
+   "id": "LU-ELA-08-10",
+   "subject": "ela",
+   "level": 8,
+   "slot": 10,
+   "concept": {
+    "en": "Recognizing persuasive writing",
+    "es": "Reconocer la escritura persuasiva"
+   },
+   "tip": {
+    "en": "Look for a clear opinion backed by reasons, and write a short paragraph persuading someone about something you value.",
+    "es": "Busque una opinión clara respaldada con razones y escriba un párrafo corto para persuadir sobre algo que valore."
+   },
+   "florida_strand": "ELA.8.R",
+   "refs": {
+    "ace_pace": 1094
+   },
+   "origin": "leido_diagnostico_ace"
+  },
+  {
+   "id": "LU-ELA-08-11",
+   "subject": "ela",
+   "level": 8,
+   "slot": 11,
+   "concept": {
+    "en": "Closing a business letter correctly",
+    "es": "Cerrar correctamente una carta formal"
+   },
+   "tip": {
+    "en": "Practice closings like 'Sincerely,' with a capital first letter and a comma, then a signature.",
+    "es": "Practique despedidas como 'Sincerely,' con mayúscula inicial y coma, seguidas de la firma."
+   },
+   "florida_strand": "ELA.8.C",
+   "refs": {
+    "ace_pace": 1095
+   },
+   "origin": "leido_diagnostico_ace"
+  },
+  {
+   "id": "LU-ELA-08-12",
+   "subject": "ela",
+   "level": 8,
+   "slot": 12,
+   "concept": {
+    "en": "Capitalizing proper nouns",
+    "es": "Mayúsculas en nombres propios"
+   },
+   "tip": {
+    "en": "Capitalize specific names of people, places, and holidays, and keep general words like 'city' lowercase.",
+    "es": "Use mayúscula en nombres específicos de personas, lugares y fiestas, y minúscula en palabras generales como 'ciudad'."
+   },
+   "florida_strand": "ELA.8.C",
+   "refs": {
+    "ace_pace": 1096
+   },
+   "origin": "leido_diagnostico_ace"
+  },
+  {
+   "id": "LU-ELA-09-01",
+   "subject": "ela",
+   "level": 9,
+   "slot": 1,
+   "concept": {
+    "en": "How Norman French shaped English",
+    "es": "Cómo el francés normando influyó en el inglés"
+   },
+   "tip": {
+    "en": "Read a short timeline of the Norman Conquest and list French-origin words you already use every day.",
+    "es": "Lee una línea de tiempo de la conquista normanda y anota palabras de origen francés que ya usas a diario."
+   },
+   "florida_strand": "ELA.912.V",
+   "refs": {
+    "ace_pace": 1097
+   },
+   "origin": "deducido_scope_ace_2025"
+  },
+  {
+   "id": "LU-ELA-09-02",
+   "subject": "ela",
+   "level": 9,
+   "slot": 2,
+   "concept": {
+    "en": "Choosing the right reference tool",
+    "es": "Elegir la herramienta de consulta adecuada"
+   },
+   "tip": {
+    "en": "Practice matching tasks to tools: concordance for word searches, atlas for places, thesaurus for synonyms, encyclopedia for overviews.",
+    "es": "Practica emparejar tareas con herramientas: concordancia para buscar palabras, atlas para lugares, tesauro para sinónimos, enciclopedia para panoramas."
+   },
+   "florida_strand": "ELA.912.V",
+   "refs": {
+    "ace_pace": 1098
+   },
+   "origin": "deducido_scope_ace_2025"
+  },
+  {
+   "id": "LU-ELA-09-03",
+   "subject": "ela",
+   "level": 9,
+   "slot": 3,
+   "concept": {
+    "en": "Rules of formal outlining",
+    "es": "Reglas del esquema formal"
+   },
+   "tip": {
+    "en": "Remember that a subpoint needs a partner: outline an essay and check every A has a B.",
+    "es": "Recuerda que un subpunto necesita pareja: esquematiza un ensayo y verifica que cada A tenga su B."
+   },
+   "florida_strand": "ELA.912.C",
+   "refs": {
+    "ace_pace": 1099
+   },
+   "origin": "deducido_scope_ace_2025"
+  },
+  {
+   "id": "LU-ELA-09-04",
+   "subject": "ela",
+   "level": 9,
+   "slot": 4,
+   "concept": {
+    "en": "Spotting passive voice",
+    "es": "Reconocer la voz pasiva"
+   },
+   "tip": {
+    "en": "Rewrite five sentences from active to passive and back, noticing who performs the action.",
+    "es": "Reescribe cinco oraciones de activa a pasiva y viceversa, fijándote en quién realiza la acción."
+   },
+   "florida_strand": "ELA.912.C",
+   "refs": {
+    "ace_pace": 1100
+   },
+   "origin": "deducido_scope_ace_2025"
+  },
+  {
+   "id": "LU-ELA-09-05",
+   "subject": "ela",
+   "level": 9,
+   "slot": 5,
+   "concept": {
+    "en": "Finding the theme of a story",
+    "es": "Hallar el tema de un relato"
+   },
+   "tip": {
+    "en": "After reading a story, write one sentence about the lesson the characters' choices teach.",
+    "es": "Después de leer un relato, escribe una frase sobre la lección que enseñan las decisiones de los personajes."
+   },
+   "florida_strand": "ELA.912.R",
+   "refs": {
+    "ace_pace": 1101
+   },
+   "origin": "deducido_scope_ace_2025"
+  },
+  {
+   "id": "LU-ELA-09-06",
+   "subject": "ela",
+   "level": 9,
+   "slot": 6,
+   "concept": {
+    "en": "Identifying point of view",
+    "es": "Identificar el punto de vista narrativo"
+   },
+   "tip": {
+    "en": "Check the pronouns: practice labeling passages as first person, third limited, or third omniscient.",
+    "es": "Fíjate en los pronombres: practica clasificando pasajes como primera persona, tercera limitada u omnisciente."
+   },
+   "florida_strand": "ELA.912.R",
+   "refs": {
+    "ace_pace": 1102
+   },
+   "origin": "deducido_scope_ace_2025"
+  },
+  {
+   "id": "LU-ELA-09-07",
+   "subject": "ela",
+   "level": 9,
+   "slot": 7,
+   "concept": {
+    "en": "Writing a strong thesis statement",
+    "es": "Redactar una buena tesis"
+   },
+   "tip": {
+    "en": "Turn a topic into a clear, arguable claim, then test whether someone could reasonably disagree.",
+    "es": "Convierte un tema en una afirmación clara y debatible, y comprueba si alguien podría razonablemente discrepar."
+   },
+   "florida_strand": "ELA.912.C",
+   "refs": {
+    "ace_pace": 1103
+   },
+   "origin": "deducido_scope_ace_2025"
+  },
+  {
+   "id": "LU-ELA-09-08",
+   "subject": "ela",
+   "level": 9,
+   "slot": 8,
+   "concept": {
+    "en": "Commas with nonessential clauses",
+    "es": "Comas con cláusulas no restrictivas"
+   },
+   "tip": {
+    "en": "Practice deciding if a clause is essential; if the sentence works without it, set it off with commas.",
+    "es": "Practica decidir si una cláusula es esencial; si la oración funciona sin ella, sepárala con comas."
+   },
+   "florida_strand": "ELA.912.C",
+   "refs": {
+    "ace_pace": 1104
+   },
+   "origin": "deducido_scope_ace_2025"
+  },
+  {
+   "id": "LU-ELA-09-09",
+   "subject": "ela",
+   "level": 9,
+   "slot": 9,
+   "concept": {
+    "en": "Stages of the English language",
+    "es": "Etapas de la lengua inglesa"
+   },
+   "tip": {
+    "en": "Make a simple chart of Old, Middle, and Modern English with a sample text for each.",
+    "es": "Haz un cuadro sencillo de inglés antiguo, medio y moderno con un texto de ejemplo de cada uno."
+   },
+   "florida_strand": "ELA.912.V",
+   "refs": {
+    "ace_pace": 1105
+   },
+   "origin": "deducido_scope_ace_2025"
+  },
+  {
+   "id": "LU-ELA-09-10",
+   "subject": "ela",
+   "level": 9,
+   "slot": 10,
+   "concept": {
+    "en": "Reading dictionary entries closely",
+    "es": "Leer con atención las entradas del diccionario"
+   },
+   "tip": {
+    "en": "Look up three words and name each part of the entry, especially the etymology.",
+    "es": "Busca tres palabras y nombra cada parte de la entrada, sobre todo la etimología."
+   },
+   "florida_strand": "ELA.912.V",
+   "refs": {
+    "ace_pace": 1106
+   },
+   "origin": "deducido_scope_ace_2025"
+  },
+  {
+   "id": "LU-ELA-09-11",
+   "subject": "ela",
+   "level": 9,
+   "slot": 11,
+   "concept": {
+    "en": "Opening an essay answer well",
+    "es": "Comenzar bien una respuesta de ensayo"
+   },
+   "tip": {
+    "en": "Practice starting by restating the question as a direct statement that previews your points.",
+    "es": "Practica empezar reformulando la pregunta como una afirmación directa que anticipe tus puntos."
+   },
+   "florida_strand": "ELA.912.C",
+   "refs": {
+    "ace_pace": 1107
+   },
+   "origin": "deducido_scope_ace_2025"
+  },
+  {
+   "id": "LU-ELA-09-12",
+   "subject": "ela",
+   "level": 9,
+   "slot": 12,
+   "concept": {
+    "en": "Using the subjunctive mood",
+    "es": "Usar el modo subjuntivo"
+   },
+   "tip": {
+    "en": "Write sentences with wishes and conditions, such as 'If I were...' and 'I suggest that he be...'.",
+    "es": "Escribe oraciones con deseos y condiciones, como 'If I were...' e 'I suggest that he be...'."
+   },
+   "florida_strand": "ELA.912.C",
+   "refs": {
+    "ace_pace": 1108
+   },
+   "origin": "deducido_scope_ace_2025"
+  },
+  {
+   "id": "LU-ELA-10-01",
+   "subject": "ela",
+   "level": 10,
+   "slot": 1,
+   "concept": {
+    "en": "Recognizing types of paragraphs",
+    "es": "Reconocer tipos de párrafos"
+   },
+   "tip": {
+    "en": "Label paragraphs as narrative, descriptive, expository, or persuasive and note the clues that tell you.",
+    "es": "Clasifica párrafos como narrativos, descriptivos, expositivos o persuasivos y anota las pistas que lo indican."
+   },
+   "florida_strand": "ELA.912.C",
+   "refs": {
+    "ace_pace": 1109
+   },
+   "origin": "deducido_scope_ace_2025"
+  },
+  {
+   "id": "LU-ELA-10-02",
+   "subject": "ela",
+   "level": 10,
+   "slot": 2,
+   "concept": {
+    "en": "Organizing research with note cards",
+    "es": "Organizar la investigación con fichas"
+   },
+   "tip": {
+    "en": "Number each source card, then mark every note card with its source number to track references.",
+    "es": "Numera cada ficha de fuente y marca cada ficha de notas con ese número para rastrear las referencias."
+   },
+   "florida_strand": "ELA.912.C",
+   "refs": {
+    "ace_pace": 1110
+   },
+   "origin": "deducido_scope_ace_2025"
+  },
+  {
+   "id": "LU-ELA-10-03",
+   "subject": "ela",
+   "level": 10,
+   "slot": 3,
+   "concept": {
+    "en": "Inferring meaning from a memoir",
+    "es": "Inferir el significado en una memoria"
+   },
+   "tip": {
+    "en": "Underline clues in the text and ask what the author implies but never says directly.",
+    "es": "Subraya pistas en el texto y pregúntate qué insinúa el autor sin decirlo directamente."
+   },
+   "florida_strand": "ELA.912.R",
+   "refs": {
+    "ace_pace": 1111
+   },
+   "origin": "deducido_scope_ace_2025"
+  },
+  {
+   "id": "LU-ELA-10-04",
+   "subject": "ela",
+   "level": 10,
+   "slot": 4,
+   "concept": {
+    "en": "Recognizing sentence patterns",
+    "es": "Reconocer patrones de oración"
+   },
+   "tip": {
+    "en": "Diagram sentences with indirect objects, asking 'to whom or for whom?' after the verb.",
+    "es": "Analiza oraciones con complemento indirecto, preguntando 'to whom or for whom?' después del verbo."
+   },
+   "florida_strand": "ELA.912.C",
+   "refs": {
+    "ace_pace": 1112
+   },
+   "origin": "deducido_scope_ace_2025"
+  },
+  {
+   "id": "LU-ELA-10-05",
+   "subject": "ela",
+   "level": 10,
+   "slot": 5,
+   "concept": {
+    "en": "Structure of a news article",
+    "es": "Estructura de una noticia"
+   },
+   "tip": {
+    "en": "Read a news story and notice how the key facts of who, what, when, where, and why come first.",
+    "es": "Lee una noticia y observa cómo los datos clave (quién, qué, cuándo, dónde, por qué) aparecen primero."
+   },
+   "florida_strand": "ELA.912.C",
+   "refs": {
+    "ace_pace": 1113
+   },
+   "origin": "deducido_scope_ace_2025"
+  },
+  {
+   "id": "LU-ELA-10-06",
+   "subject": "ela",
+   "level": 10,
+   "slot": 6,
+   "concept": {
+    "en": "Business letter conventions",
+    "es": "Normas de la carta formal"
+   },
+   "tip": {
+    "en": "Draft a job application letter, choosing a proper greeting when you don't know the recipient's name.",
+    "es": "Redacta una carta de solicitud de empleo, eligiendo un saludo adecuado cuando no conoces el nombre del destinatario."
+   },
+   "florida_strand": "ELA.912.C",
+   "refs": {
+    "ace_pace": 1114
+   },
+   "origin": "deducido_scope_ace_2025"
+  },
+  {
+   "id": "LU-ELA-10-07",
+   "subject": "ela",
+   "level": 10,
+   "slot": 7,
+   "concept": {
+    "en": "Finding books by Dewey Decimal",
+    "es": "Ubicar libros con el sistema Dewey"
+   },
+   "tip": {
+    "en": "Visit a library and match the ten Dewey classes to the shelves where you find them.",
+    "es": "Visita una biblioteca y relaciona las diez clases Dewey con los estantes donde las encuentras."
+   },
+   "florida_strand": "ELA.912.V",
+   "refs": {
+    "ace_pace": 1115
+   },
+   "origin": "deducido_scope_ace_2025"
+  },
+  {
+   "id": "LU-ELA-10-08",
+   "subject": "ela",
+   "level": 10,
+   "slot": 8,
+   "concept": {
+    "en": "Identifying poetic forms",
+    "es": "Identificar formas poéticas"
+   },
+   "tip": {
+    "en": "Compare sonnets, ballads, and haiku, counting lines, rhyme scheme, and meter in each.",
+    "es": "Compara sonetos, baladas y haikus, contando versos, esquema de rima y métrica en cada uno."
+   },
+   "florida_strand": "ELA.912.R",
+   "refs": {
+    "ace_pace": 1116
+   },
+   "origin": "deducido_scope_ace_2025"
+  },
+  {
+   "id": "LU-ELA-10-09",
+   "subject": "ela",
+   "level": 10,
+   "slot": 9,
+   "concept": {
+    "en": "Keeping paragraphs unified",
+    "es": "Mantener la unidad del párrafo"
+   },
+   "tip": {
+    "en": "Reread your paragraph and cross out any sentence that doesn't support the main idea.",
+    "es": "Relee tu párrafo y tacha cualquier oración que no apoye la idea principal."
+   },
+   "florida_strand": "ELA.912.C",
+   "refs": {
+    "ace_pace": 1117
+   },
+   "origin": "deducido_scope_ace_2025"
+  },
+  {
+   "id": "LU-ELA-10-10",
+   "subject": "ela",
+   "level": 10,
+   "slot": 10,
+   "concept": {
+    "en": "Biography versus autobiography",
+    "es": "Biografía frente a autobiografía"
+   },
+   "tip": {
+    "en": "Look for first-person clues like 'I' and personal memories to tell who is writing.",
+    "es": "Busca pistas en primera persona, como 'yo' y recuerdos personales, para saber quién escribe."
+   },
+   "florida_strand": "ELA.912.R",
+   "refs": {
+    "ace_pace": 1118
+   },
+   "origin": "deducido_scope_ace_2025"
+  },
+  {
+   "id": "LU-ELA-10-11",
+   "subject": "ela",
+   "level": 10,
+   "slot": 11,
+   "concept": {
+    "en": "Analyzing how characters change",
+    "es": "Analizar el cambio de los personajes"
+   },
+   "tip": {
+    "en": "Track a character's actions at the beginning and end, then explain what caused the change.",
+    "es": "Compara las acciones de un personaje al inicio y al final, y explica qué causó el cambio."
+   },
+   "florida_strand": "ELA.912.R",
+   "refs": {
+    "ace_pace": 1119
+   },
+   "origin": "deducido_scope_ace_2025"
+  },
+  {
+   "id": "LU-ELA-10-12",
+   "subject": "ela",
+   "level": 10,
+   "slot": 12,
+   "concept": {
+    "en": "Identifying predicate nominatives",
+    "es": "Identificar el atributo del sujeto"
+   },
+   "tip": {
+    "en": "Find linking verbs and ask whether the word after them renames the subject.",
+    "es": "Busca los verbos copulativos y pregunta si la palabra que sigue renombra al sujeto."
+   },
+   "florida_strand": "ELA.912.C",
+   "refs": {
+    "ace_pace": 1120
+   },
+   "origin": "deducido_scope_ace_2025"
+  },
+  {
+   "id": "LU-ELA-11-01",
+   "subject": "ela",
+   "level": 11,
+   "slot": 1,
+   "concept": {
+    "en": "Recognizing sentence fragments",
+    "es": "Reconocer fragmentos de oración"
+   },
+   "tip": {
+    "en": "Check each sentence for a subject, a verb, and a complete thought; fix any that lack one.",
+    "es": "Comprueba que cada oración tenga sujeto, verbo y un pensamiento completo; corrige las que no."
+   },
+   "florida_strand": "ELA.912.C",
+   "refs": {
+    "ace_pace": 1121
+   },
+   "origin": "deducido_scope_ace_2025"
+  },
+  {
+   "id": "LU-ELA-11-02",
+   "subject": "ela",
+   "level": 11,
+   "slot": 2,
+   "concept": {
+    "en": "American Transcendentalism",
+    "es": "El trascendentalismo estadounidense"
+   },
+   "tip": {
+    "en": "Read a short Emerson or Thoreau passage and discuss its ideas about nature and self-reliance.",
+    "es": "Lee un breve pasaje de Emerson o Thoreau y conversa sobre sus ideas acerca de la naturaleza y la autosuficiencia."
+   },
+   "florida_strand": "ELA.912.R",
+   "refs": {
+    "ace_pace": 1122
+   },
+   "origin": "deducido_scope_ace_2025"
+  },
+  {
+   "id": "LU-ELA-11-03",
+   "subject": "ela",
+   "level": 11,
+   "slot": 3,
+   "concept": {
+    "en": "Recognizing rhetorical appeals",
+    "es": "Reconocer los recursos retóricos"
+   },
+   "tip": {
+    "en": "Label persuasive sentences as appeals to logic, emotion, or credibility, and explain your choice.",
+    "es": "Clasifica oraciones persuasivas como apelaciones a la lógica, la emoción o la credibilidad, y explica tu elección."
+   },
+   "florida_strand": "ELA.912.R",
+   "refs": {
+    "ace_pace": 1123
+   },
+   "origin": "deducido_scope_ace_2025"
+  },
+  {
+   "id": "LU-ELA-11-04",
+   "subject": "ela",
+   "level": 11,
+   "slot": 4,
+   "concept": {
+    "en": "Noticing foreshadowing",
+    "es": "Detectar el presagio en un relato"
+   },
+   "tip": {
+    "en": "While reading, mark small details that hint at later events and predict what comes next.",
+    "es": "Mientras lees, marca detalles pequeños que anticipen hechos posteriores y predice lo que sigue."
+   },
+   "florida_strand": "ELA.912.R",
+   "refs": {
+    "ace_pace": 1124
+   },
+   "origin": "deducido_scope_ace_2025"
+  },
+  {
+   "id": "LU-ELA-11-05",
+   "subject": "ela",
+   "level": 11,
+   "slot": 5,
+   "concept": {
+    "en": "Knowing what to cite",
+    "es": "Saber qué citar en una investigación"
+   },
+   "tip": {
+    "en": "Practice separating common knowledge from specific facts, statistics, and ideas that need a citation.",
+    "es": "Practica distinguir el conocimiento común de los datos, estadísticas e ideas que necesitan cita."
+   },
+   "florida_strand": "ELA.912.C",
+   "refs": {
+    "ace_pace": 1125
+   },
+   "origin": "deducido_scope_ace_2025"
+  },
+  {
+   "id": "LU-ELA-11-06",
+   "subject": "ela",
+   "level": 11,
+   "slot": 6,
+   "concept": {
+    "en": "Reading workplace documents",
+    "es": "Leer documentos laborales"
+   },
+   "tip": {
+    "en": "Read real notices and underline deadlines, requirements, and who must act.",
+    "es": "Lee avisos reales y subraya plazos, requisitos y a quién le corresponde actuar."
+   },
+   "florida_strand": "ELA.912.R",
+   "refs": {
+    "ace_pace": 1126
+   },
+   "origin": "deducido_scope_ace_2025"
+  },
+  {
+   "id": "LU-ELA-11-07",
+   "subject": "ela",
+   "level": 11,
+   "slot": 7,
+   "concept": {
+    "en": "Central conflict in a classic novel",
+    "es": "Conflicto central en una novela clásica"
+   },
+   "tip": {
+    "en": "After each chapter, summarize the main choice characters face and what it costs them.",
+    "es": "Después de cada capítulo, resume la decisión principal que enfrentan los personajes y lo que les cuesta."
+   },
+   "florida_strand": "ELA.912.R",
+   "refs": {
+    "ace_pace": 1127
+   },
+   "origin": "deducido_scope_ace_2025"
+  },
+  {
+   "id": "LU-ELA-11-08",
+   "subject": "ela",
+   "level": 11,
+   "slot": 8,
+   "concept": {
+    "en": "Understanding allegory",
+    "es": "Comprender la alegoría"
+   },
+   "tip": {
+    "en": "Match characters and places in a story to the ideas they symbolize.",
+    "es": "Relaciona personajes y lugares de un relato con las ideas que simbolizan."
+   },
+   "florida_strand": "ELA.912.R",
+   "refs": {
+    "ace_pace": 1128
+   },
+   "origin": "deducido_scope_ace_2025"
+  },
+  {
+   "id": "LU-ELA-11-09",
+   "subject": "ela",
+   "level": 11,
+   "slot": 9,
+   "concept": {
+    "en": "Fixing comma splices",
+    "es": "Corregir la coma que une oraciones"
+   },
+   "tip": {
+    "en": "Practice joining independent clauses with a semicolon, period, or comma plus conjunction.",
+    "es": "Practica unir cláusulas independientes con punto y coma, punto, o coma más conjunción."
+   },
+   "florida_strand": "ELA.912.C",
+   "refs": {
+    "ace_pace": 1129
+   },
+   "origin": "deducido_scope_ace_2025"
+  },
+  {
+   "id": "LU-ELA-11-10",
+   "subject": "ela",
+   "level": 11,
+   "slot": 10,
+   "concept": {
+    "en": "American Realism",
+    "es": "El realismo estadounidense"
+   },
+   "tip": {
+    "en": "Read a short Twain passage and note how it shows ordinary people and everyday speech.",
+    "es": "Lee un breve pasaje de Twain y observa cómo retrata a gente común y el habla cotidiana."
+   },
+   "florida_strand": "ELA.912.R",
+   "refs": {
+    "ace_pace": 1130
+   },
+   "origin": "deducido_scope_ace_2025"
+  },
+  {
+   "id": "LU-ELA-11-11",
+   "subject": "ela",
+   "level": 11,
+   "slot": 11,
+   "concept": {
+    "en": "Synthesizing multiple sources",
+    "es": "Sintetizar varias fuentes"
+   },
+   "tip": {
+    "en": "Compare two articles on one topic and write a paragraph blending their ideas with your own point.",
+    "es": "Compara dos artículos sobre un tema y escribe un párrafo que combine sus ideas con tu propio punto de vista."
+   },
+   "florida_strand": "ELA.912.C",
+   "refs": {
+    "ace_pace": 1131
+   },
+   "origin": "deducido_scope_ace_2025"
+  },
+  {
+   "id": "LU-ELA-11-12",
+   "subject": "ela",
+   "level": 11,
+   "slot": 12,
+   "concept": {
+    "en": "Indirect characterization",
+    "es": "Caracterización indirecta"
+   },
+   "tip": {
+    "en": "Notice what characters do, say, and how others react, then describe their personality from those clues.",
+    "es": "Observa lo que los personajes hacen, dicen y cómo reaccionan otros, y describe su personalidad a partir de esas pistas."
+   },
+   "florida_strand": "ELA.912.R",
+   "refs": {
+    "ace_pace": 1132
+   },
+   "origin": "deducido_scope_ace_2025"
+  },
+  {
+   "id": "LU-ELA-12-01",
+   "subject": "ela",
+   "level": 12,
+   "slot": 1,
+   "concept": {
+    "en": "Old English literature",
+    "es": "Literatura del inglés antiguo"
+   },
+   "tip": {
+    "en": "Read a modern translation of Beowulf's opening and note its heroic themes and style.",
+    "es": "Lee una traducción moderna del inicio de Beowulf y observa sus temas heroicos y su estilo."
+   },
+   "florida_strand": "ELA.912.R",
+   "refs": {
+    "ace_pace": 1133
+   },
+   "origin": "deducido_scope_ace_2025"
+  },
+  {
+   "id": "LU-ELA-12-02",
+   "subject": "ela",
+   "level": 12,
+   "slot": 2,
+   "concept": {
+    "en": "Word meaning from context",
+    "es": "Deducir el significado por el contexto"
+   },
+   "tip": {
+    "en": "Circle clue words near an unfamiliar word and guess its meaning before checking a dictionary.",
+    "es": "Encierra las palabras pista cerca de un término desconocido e intenta deducir su significado antes de consultar el diccionario."
+   },
+   "florida_strand": "ELA.912.V",
+   "refs": {
+    "ace_pace": 1134
+   },
+   "origin": "deducido_scope_ace_2025"
+  },
+  {
+   "id": "LU-ELA-12-03",
+   "subject": "ela",
+   "level": 12,
+   "slot": 3,
+   "concept": {
+    "en": "Modes of discourse",
+    "es": "Modos del discurso"
+   },
+   "tip": {
+    "en": "Sort passages into narration, description, exposition, or argument and explain the author's purpose.",
+    "es": "Clasifica pasajes en narración, descripción, exposición o argumentación y explica el propósito del autor."
+   },
+   "florida_strand": "ELA.912.C",
+   "refs": {
+    "ace_pace": 1135
+   },
+   "origin": "deducido_scope_ace_2025"
+  },
+  {
+   "id": "LU-ELA-12-04",
+   "subject": "ela",
+   "level": 12,
+   "slot": 4,
+   "concept": {
+    "en": "Using parallel structure",
+    "es": "Usar la estructura paralela"
+   },
+   "tip": {
+    "en": "Check lists in your writing so every item uses the same grammatical form.",
+    "es": "Revisa las listas de tu escritura para que cada elemento use la misma forma gramatical."
+   },
+   "florida_strand": "ELA.912.C",
+   "refs": {
+    "ace_pace": 1136
+   },
+   "origin": "deducido_scope_ace_2025"
+  },
+  {
+   "id": "LU-ELA-12-05",
+   "subject": "ela",
+   "level": 12,
+   "slot": 5,
+   "concept": {
+    "en": "Word connotation",
+    "es": "Connotación de las palabras"
+   },
+   "tip": {
+    "en": "Compare synonym groups, such as thrifty and stingy, and explain the feeling each word carries.",
+    "es": "Compara grupos de sinónimos, como thrifty y stingy, y explica el matiz que cada palabra transmite."
+   },
+   "florida_strand": "ELA.912.V",
+   "refs": {
+    "ace_pace": 1137
+   },
+   "origin": "deducido_scope_ace_2025"
+  },
+  {
+   "id": "LU-ELA-12-06",
+   "subject": "ela",
+   "level": 12,
+   "slot": 6,
+   "concept": {
+    "en": "Irony in classic poetry",
+    "es": "La ironía en poesía clásica"
+   },
+   "tip": {
+    "en": "Look for the gap between what is said and what is true, and discuss why the poet creates it.",
+    "es": "Busca la diferencia entre lo que se dice y lo que es cierto, y conversa sobre por qué el poeta la crea."
+   },
+   "florida_strand": "ELA.912.R",
+   "refs": {
+    "ace_pace": 1138
+   },
+   "origin": "deducido_scope_ace_2025"
+  },
+  {
+   "id": "LU-ELA-12-07",
+   "subject": "ela",
+   "level": 12,
+   "slot": 7,
+   "concept": {
+    "en": "Theme in Shakespeare's Macbeth",
+    "es": "El tema en Macbeth de Shakespeare"
+   },
+   "tip": {
+    "en": "Rephrase memorable lines in plain words and connect them to the play's ideas about appearance and truth.",
+    "es": "Reformula frases memorables con tus palabras y relaciónalas con las ideas de la obra sobre apariencia y verdad."
+   },
+   "florida_strand": "ELA.912.R",
+   "refs": {
+    "ace_pace": 1139
+   },
+   "origin": "deducido_scope_ace_2025"
+  },
+  {
+   "id": "LU-ELA-12-08",
+   "subject": "ela",
+   "level": 12,
+   "slot": 8,
+   "concept": {
+    "en": "Delivering a speech from notes",
+    "es": "Pronunciar un discurso con apuntes"
+   },
+   "tip": {
+    "en": "Rehearse aloud with a few key-word cards, working on eye contact, pace, and clear voice.",
+    "es": "Ensaya en voz alta con pocas tarjetas de palabras clave, cuidando el contacto visual, el ritmo y la claridad."
+   },
+   "florida_strand": "ELA.912.C",
+   "refs": {
+    "ace_pace": 1140
+   },
+   "origin": "deducido_scope_ace_2025"
+  },
+  {
+   "id": "LU-ELA-12-09",
+   "subject": "ela",
+   "level": 12,
+   "slot": 9,
+   "concept": {
+    "en": "British Romantic period",
+    "es": "El Romanticismo británico"
+   },
+   "tip": {
+    "en": "Read a short Wordsworth poem and note its focus on nature, emotion, and imagination.",
+    "es": "Lee un poema breve de Wordsworth y observa su enfoque en la naturaleza, la emoción y la imaginación."
+   },
+   "florida_strand": "ELA.912.R",
+   "refs": {
+    "ace_pace": 1141
+   },
+   "origin": "deducido_scope_ace_2025"
+  },
+  {
+   "id": "LU-ELA-12-10",
+   "subject": "ela",
+   "level": 12,
+   "slot": 10,
+   "concept": {
+    "en": "Defining words using roots",
+    "es": "Definir palabras con raíces"
+   },
+   "tip": {
+    "en": "Learn common Latin and Greek roots and combine them to work out unfamiliar words.",
+    "es": "Aprende raíces latinas y griegas comunes y combínalas para descifrar palabras desconocidas."
+   },
+   "florida_strand": "ELA.912.V",
+   "refs": {
+    "ace_pace": 1142
+   },
+   "origin": "deducido_scope_ace_2025"
+  },
+  {
+   "id": "LU-ELA-12-11",
+   "subject": "ela",
+   "level": 12,
+   "slot": 11,
+   "concept": {
+    "en": "Spotting logical fallacies",
+    "es": "Detectar falacias lógicas"
+   },
+   "tip": {
+    "en": "Collect examples of fallacies like ad hominem and explain why each one fails to prove a point.",
+    "es": "Reúne ejemplos de falacias como el ad hominem y explica por qué ninguna demuestra el argumento."
+   },
+   "florida_strand": "ELA.912.R",
+   "refs": {
+    "ace_pace": 1143
+   },
+   "origin": "deducido_scope_ace_2025"
+  },
+  {
+   "id": "LU-ELA-12-12",
+   "subject": "ela",
+   "level": 12,
+   "slot": 12,
+   "concept": {
+    "en": "Parallelism with correlative pairs",
+    "es": "Paralelismo con conjunciones correlativas"
+   },
+   "tip": {
+    "en": "Make sure the words after 'not only' and 'but also' share the same grammatical form.",
+    "es": "Asegúrate de que lo que sigue a 'not only' y 'but also' tenga la misma forma gramatical."
+   },
+   "florida_strand": "ELA.912.C",
+   "refs": {
+    "ace_pace": 1144
+   },
+   "origin": "deducido_scope_ace_2025"
+  },
+  {
+   "id": "LU-MATH-00-01",
+   "subject": "math",
+   "level": 0,
+   "slot": 1,
+   "concept": {
+    "en": "counting forward from a number",
+    "es": "contar hacia adelante desde un número"
+   },
+   "tip": {
+    "en": "Count steps, toys or snacks together and stop often to ask what number comes next.",
+    "es": "Cuenten escalones, juguetes o meriendas juntos y detengan el conteo para preguntar qué número sigue."
+   },
+   "florida_strand": "MA.K.NSO",
+   "refs": {
+    "ace_pace": null
+   },
+   "origin": "deducido"
+  },
+  {
+   "id": "LU-MATH-00-02",
+   "subject": "math",
+   "level": 0,
+   "slot": 2,
+   "concept": {
+    "en": "comparing two numbers up to 10",
+    "es": "comparar dos números hasta el 10"
+   },
+   "tip": {
+    "en": "Show two piles of small objects and ask which has more, then match the numbers to each pile.",
+    "es": "Muestren dos montones de objetos pequeños, pregunten cuál tiene más y relacionen cada montón con su número."
+   },
+   "florida_strand": "MA.K.NSO",
+   "refs": {
+    "ace_pace": null
+   },
+   "origin": "deducido"
+  },
+  {
+   "id": "LU-MATH-00-03",
+   "subject": "math",
+   "level": 0,
+   "slot": 3,
+   "concept": {
+    "en": "adding within 5 with stories",
+    "es": "sumar hasta 5 con historias"
+   },
+   "tip": {
+    "en": "Act out stories with toys or fingers, joining two small groups and counting how many in all.",
+    "es": "Representen historias con juguetes o dedos, juntando dos grupos pequeños y contando cuántos hay en total."
+   },
+   "florida_strand": "MA.K.AR",
+   "refs": {
+    "ace_pace": null
+   },
+   "origin": "deducido"
+  },
+  {
+   "id": "LU-MATH-00-04",
+   "subject": "math",
+   "level": 0,
+   "slot": 4,
+   "concept": {
+    "en": "taking away within 10 with stories",
+    "es": "restar hasta 10 con historias"
+   },
+   "tip": {
+    "en": "Use counters or snacks, take some away in a story, and count what is left.",
+    "es": "Usen fichas o galletas, quiten algunas dentro de una historia y cuenten cuántas quedan."
+   },
+   "florida_strand": "MA.K.AR",
+   "refs": {
+    "ace_pace": null
+   },
+   "origin": "deducido"
+  },
+  {
+   "id": "LU-MATH-00-05",
+   "subject": "math",
+   "level": 0,
+   "slot": 5,
+   "concept": {
+    "en": "recognizing a triangle",
+    "es": "reconocer un triángulo"
+   },
+   "tip": {
+    "en": "Go on a shape hunt around the house, counting the sides and corners of triangles you find.",
+    "es": "Salgan a cazar formas por la casa, contando los lados y esquinas de los triángulos que encuentren."
+   },
+   "florida_strand": "MA.K.GR",
+   "refs": {
+    "ace_pace": null
+   },
+   "origin": "deducido"
+  },
+  {
+   "id": "LU-MATH-00-06",
+   "subject": "math",
+   "level": 0,
+   "slot": 6,
+   "concept": {
+    "en": "recognizing a circle",
+    "es": "reconocer un círculo"
+   },
+   "tip": {
+    "en": "Find round things like plates and coins, and trace them to see they have no corners.",
+    "es": "Busquen objetos redondos como platos y monedas, y trácenlos para ver que no tienen esquinas."
+   },
+   "florida_strand": "MA.K.GR",
+   "refs": {
+    "ace_pace": null
+   },
+   "origin": "deducido"
+  },
+  {
+   "id": "LU-MATH-00-07",
+   "subject": "math",
+   "level": 0,
+   "slot": 7,
+   "concept": {
+    "en": "comparing lengths of objects",
+    "es": "comparar la longitud de objetos"
+   },
+   "tip": {
+    "en": "Line up three household items side by side and order them from longest to shortest.",
+    "es": "Pongan tres objetos de casa lado a lado y ordénenlos del más largo al más corto."
+   },
+   "florida_strand": "MA.K.M",
+   "refs": {
+    "ace_pace": null
+   },
+   "origin": "deducido"
+  },
+  {
+   "id": "LU-MATH-00-08",
+   "subject": "math",
+   "level": 0,
+   "slot": 8,
+   "concept": {
+    "en": "counting by tens",
+    "es": "contar de diez en diez"
+   },
+   "tip": {
+    "en": "Count groups of ten, like ten buttons per cup, and say 10, 20, 30 as you add each cup.",
+    "es": "Cuenten grupos de diez, como diez botones por vaso, y digan 10, 20, 30 al añadir cada vaso."
+   },
+   "florida_strand": "MA.K.NSO",
+   "refs": {
+    "ace_pace": null
+   },
+   "origin": "deducido"
+  },
+  {
+   "id": "LU-MATH-00-09",
+   "subject": "math",
+   "level": 0,
+   "slot": 9,
+   "concept": {
+    "en": "understanding teen numbers as ten and ones",
+    "es": "entender los números del 11 al 19 como una decena y unidades"
+   },
+   "tip": {
+    "en": "Build teen numbers with ten counters in one cup plus extra ones, and say 'ten and four'.",
+    "es": "Formen números del 11 al 19 con diez fichas en un vaso más unidades, y digan 'diez y cuatro'."
+   },
+   "florida_strand": "MA.K.NSO",
+   "refs": {
+    "ace_pace": null
+   },
+   "origin": "deducido"
+  },
+  {
+   "id": "LU-MATH-00-10",
+   "subject": "math",
+   "level": 0,
+   "slot": 10,
+   "concept": {
+    "en": "comparing the size of two groups",
+    "es": "comparar la cantidad de dos grupos"
+   },
+   "tip": {
+    "en": "Match items one to one, like a spoon for each bowl, and see which group has extras.",
+    "es": "Emparejen elementos uno a uno, como una cuchara por plato, y vean qué grupo tiene sobrantes."
+   },
+   "florida_strand": "MA.K.DP",
+   "refs": {
+    "ace_pace": null
+   },
+   "origin": "deducido"
+  },
+  {
+   "id": "LU-MATH-01-01",
+   "subject": "math",
+   "level": 1,
+   "slot": 1,
+   "concept": {
+    "en": "counting objects and naming the number",
+    "es": "contar objetos y nombrar el número"
+   },
+   "tip": {
+    "en": "Count small objects aloud and then find the number word or card that matches the total.",
+    "es": "Cuenten objetos pequeños en voz alta y luego busquen la palabra o tarjeta del número que coincide."
+   },
+   "florida_strand": "MA.1.NSO",
+   "refs": {
+    "ace_pace": 1001
+   },
+   "origin": "leido_diagnostico_ace"
+  },
+  {
+   "id": "LU-MATH-01-02",
+   "subject": "math",
+   "level": 1,
+   "slot": 2,
+   "concept": {
+    "en": "reading number words",
+    "es": "leer los nombres de los números"
+   },
+   "tip": {
+    "en": "Make cards with the numeral on one side and the word on the other, and play matching.",
+    "es": "Hagan tarjetas con el número de un lado y la palabra del otro, y jueguen a emparejarlas."
+   },
+   "florida_strand": "MA.1.NSO",
+   "refs": {
+    "ace_pace": 1002
+   },
+   "origin": "leido_diagnostico_ace"
+  },
+  {
+   "id": "LU-MATH-01-03",
+   "subject": "math",
+   "level": 1,
+   "slot": 3,
+   "concept": {
+    "en": "adding facts that make 5",
+    "es": "sumas básicas hasta 5"
+   },
+   "tip": {
+    "en": "Use fingers or buttons to show all the ways to make 5, like 2 and 3.",
+    "es": "Usen los dedos o botones para mostrar todas las formas de formar 5, como 2 y 3."
+   },
+   "florida_strand": "MA.1.NSO",
+   "refs": {
+    "ace_pace": 1003
+   },
+   "origin": "leido_diagnostico_ace"
+  },
+  {
+   "id": "LU-MATH-01-04",
+   "subject": "math",
+   "level": 1,
+   "slot": 4,
+   "concept": {
+    "en": "adding facts up to 9",
+    "es": "sumas básicas hasta 9"
+   },
+   "tip": {
+    "en": "Practice with dominoes or dice, adding the two sides and saying the number sentence aloud.",
+    "es": "Practiquen con dominós o dados, sumando ambos lados y diciendo la operación en voz alta."
+   },
+   "florida_strand": "MA.1.NSO",
+   "refs": {
+    "ace_pace": 1004
+   },
+   "origin": "leido_diagnostico_ace"
+  },
+  {
+   "id": "LU-MATH-01-05",
+   "subject": "math",
+   "level": 1,
+   "slot": 5,
+   "concept": {
+    "en": "subtracting within 9 in stories",
+    "es": "restar hasta 9 en problemas con historia"
+   },
+   "tip": {
+    "en": "Act out take-away stories with crayons or coins, removing some and counting what remains.",
+    "es": "Representen historias de quitar con crayones o monedas, retirando algunos y contando los que quedan."
+   },
+   "florida_strand": "MA.1.AR",
+   "refs": {
+    "ace_pace": 1005
+   },
+   "origin": "leido_diagnostico_ace"
+  },
+  {
+   "id": "LU-MATH-01-06",
+   "subject": "math",
+   "level": 1,
+   "slot": 6,
+   "concept": {
+    "en": "adding facts that make 10",
+    "es": "sumas básicas que dan 10"
+   },
+   "tip": {
+    "en": "Play 'make ten' with cards or fingers: if I have 7, how many more reach 10?",
+    "es": "Jueguen a 'formar diez' con cartas o dedos: si tengo 7, ¿cuántos más hacen falta para llegar a 10?"
+   },
+   "florida_strand": "MA.1.NSO",
+   "refs": {
+    "ace_pace": 1006
+   },
+   "origin": "leido_diagnostico_ace"
+  },
+  {
+   "id": "LU-MATH-01-07",
+   "subject": "math",
+   "level": 1,
+   "slot": 7,
+   "concept": {
+    "en": "ordering numbers to 20",
+    "es": "ordenar números hasta el 20"
+   },
+   "tip": {
+    "en": "Write numbers 1 to 20 on cards, mix them up, and put them in order with one missing.",
+    "es": "Escriban los números del 1 al 20 en tarjetas, mézclenlas y ordénenlas, quitando una para que la adivine."
+   },
+   "florida_strand": "MA.1.NSO",
+   "refs": {
+    "ace_pace": 1007
+   },
+   "origin": "leido_diagnostico_ace"
+  },
+  {
+   "id": "LU-MATH-01-08",
+   "subject": "math",
+   "level": 1,
+   "slot": 8,
+   "concept": {
+    "en": "adding by making a ten",
+    "es": "sumar pasando la decena"
+   },
+   "tip": {
+    "en": "Move counters to fill a ten-frame first, like 9 plus 6 becomes 10 plus 5.",
+    "es": "Muevan fichas para llenar primero una decena, como 9 más 6 se convierte en 10 más 5."
+   },
+   "florida_strand": "MA.1.AR",
+   "refs": {
+    "ace_pace": 1008
+   },
+   "origin": "leido_diagnostico_ace"
+  },
+  {
+   "id": "LU-MATH-01-09",
+   "subject": "math",
+   "level": 1,
+   "slot": 9,
+   "concept": {
+    "en": "subtracting from teen numbers",
+    "es": "restar desde números del 11 al 19"
+   },
+   "tip": {
+    "en": "Use a ten-frame or counters to take away, going back to ten first and then the rest.",
+    "es": "Usen fichas o un marco de diez para quitar, volviendo primero a diez y luego quitando el resto."
+   },
+   "florida_strand": "MA.1.NSO",
+   "refs": {
+    "ace_pace": 1009
+   },
+   "origin": "leido_diagnostico_ace"
+  },
+  {
+   "id": "LU-MATH-01-10",
+   "subject": "math",
+   "level": 1,
+   "slot": 10,
+   "concept": {
+    "en": "telling time to the hour",
+    "es": "decir la hora en punto"
+   },
+   "tip": {
+    "en": "Use a real or paper clock, setting it to o'clock times during your daily routines.",
+    "es": "Usen un reloj real o de papel, poniendo horas en punto durante las rutinas del día."
+   },
+   "florida_strand": "MA.1.M",
+   "refs": {
+    "ace_pace": 1010
+   },
+   "origin": "leido_diagnostico_ace"
+  },
+  {
+   "id": "LU-MATH-01-11",
+   "subject": "math",
+   "level": 1,
+   "slot": 11,
+   "concept": {
+    "en": "matching number words to numerals",
+    "es": "relacionar nombres de números con numerales"
+   },
+   "tip": {
+    "en": "Write number words and digits on cards and match them, saying each one aloud.",
+    "es": "Escriban nombres de números y dígitos en tarjetas y empárejenlos, diciendo cada uno en voz alta."
+   },
+   "florida_strand": "MA.1.NSO",
+   "refs": {
+    "ace_pace": 1011
+   },
+   "origin": "leido_diagnostico_ace"
+  },
+  {
+   "id": "LU-MATH-01-12",
+   "subject": "math",
+   "level": 1,
+   "slot": 12,
+   "concept": {
+    "en": "finding the number between two numbers",
+    "es": "encontrar el número que está entre otros dos"
+   },
+   "tip": {
+    "en": "Use a number line or hundreds chart, and ask which number lives between neighbors.",
+    "es": "Usen una recta numérica o tabla del 100 y pregunten qué número vive entre dos vecinos."
+   },
+   "florida_strand": "MA.1.NSO",
+   "refs": {
+    "ace_pace": 1012
+   },
+   "origin": "leido_diagnostico_ace"
+  },
+  {
+   "id": "LU-MATH-02-01",
+   "subject": "math",
+   "level": 2,
+   "slot": 1,
+   "concept": {
+    "en": "completing number patterns to 100",
+    "es": "completar secuencias de números hasta 100"
+   },
+   "tip": {
+    "en": "Use a hundreds chart and cover a number with a coin, asking your child what is hidden.",
+    "es": "Usen una tabla del 100, tapen un número con una moneda y pregunten cuál está escondido."
+   },
+   "florida_strand": "MA.2.NSO",
+   "refs": {
+    "ace_pace": 1013
+   },
+   "origin": "leido_diagnostico_ace"
+  },
+  {
+   "id": "LU-MATH-02-02",
+   "subject": "math",
+   "level": 2,
+   "slot": 2,
+   "concept": {
+    "en": "adding three one-digit numbers",
+    "es": "sumar tres números de una cifra"
+   },
+   "tip": {
+    "en": "Look for pairs that make ten first, then add the last number, using dice or cards.",
+    "es": "Busquen primero los pares que suman diez y luego añadan el último número, con dados o cartas."
+   },
+   "florida_strand": "MA.2.AR",
+   "refs": {
+    "ace_pace": 1014
+   },
+   "origin": "leido_diagnostico_ace"
+  },
+  {
+   "id": "LU-MATH-02-03",
+   "subject": "math",
+   "level": 2,
+   "slot": 3,
+   "concept": {
+    "en": "telling odd and even numbers",
+    "es": "distinguir números pares e impares"
+   },
+   "tip": {
+    "en": "Pair up counters; if one is left over, the number is odd. Try with different numbers.",
+    "es": "Emparejen fichas; si sobra una, el número es impar. Prueben con distintos números."
+   },
+   "florida_strand": "MA.2.NSO",
+   "refs": {
+    "ace_pace": 1015
+   },
+   "origin": "leido_diagnostico_ace"
+  },
+  {
+   "id": "LU-MATH-02-04",
+   "subject": "math",
+   "level": 2,
+   "slot": 4,
+   "concept": {
+    "en": "place value with tens and ones",
+    "es": "valor posicional de decenas y unidades"
+   },
+   "tip": {
+    "en": "Bundle sticks into tens and loose ones, and build numbers like 63 from bundles.",
+    "es": "Hagan atados de diez palitos y unidades sueltas, y formen números como 63 con ellos."
+   },
+   "florida_strand": "MA.2.NSO",
+   "refs": {
+    "ace_pace": 1016
+   },
+   "origin": "leido_diagnostico_ace"
+  },
+  {
+   "id": "LU-MATH-02-05",
+   "subject": "math",
+   "level": 2,
+   "slot": 5,
+   "concept": {
+    "en": "place value to hundreds",
+    "es": "valor posicional hasta las centenas"
+   },
+   "tip": {
+    "en": "Use paper hundreds, tens and ones, or play money, to build and read three-digit numbers.",
+    "es": "Usen papelitos de centenas, decenas y unidades, o dinero de juguete, para formar y leer números de tres cifras."
+   },
+   "florida_strand": "MA.2.NSO",
+   "refs": {
+    "ace_pace": 1017
+   },
+   "origin": "leido_diagnostico_ace"
+  },
+  {
+   "id": "LU-MATH-02-06",
+   "subject": "math",
+   "level": 2,
+   "slot": 6,
+   "concept": {
+    "en": "adding with regrouping to make a ten",
+    "es": "sumar con reagrupación a la decena"
+   },
+   "tip": {
+    "en": "Add the ones first, trade ten ones for a ten with counters, and then add the tens.",
+    "es": "Sumen primero las unidades, cambien diez unidades por una decena con fichas y luego sumen las decenas."
+   },
+   "florida_strand": "MA.2.NSO",
+   "refs": {
+    "ace_pace": 1018
+   },
+   "origin": "leido_diagnostico_ace"
+  },
+  {
+   "id": "LU-MATH-02-07",
+   "subject": "math",
+   "level": 2,
+   "slot": 7,
+   "concept": {
+    "en": "counting coins including quarters",
+    "es": "contar monedas, incluidas las de 25"
+   },
+   "tip": {
+    "en": "Play store with real coins, counting from the biggest coin to the smallest.",
+    "es": "Jueguen a la tienda con monedas reales, contando desde la más grande hasta la más pequeña."
+   },
+   "florida_strand": "MA.2.M",
+   "refs": {
+    "ace_pace": 1019
+   },
+   "origin": "deducido_scope_ace_2025"
+  },
+  {
+   "id": "LU-MATH-02-08",
+   "subject": "math",
+   "level": 2,
+   "slot": 8,
+   "concept": {
+    "en": "subtracting with regrouping",
+    "es": "restar con reagrupación"
+   },
+   "tip": {
+    "en": "Trade a ten for ten ones with base-ten blocks or sticks before taking away.",
+    "es": "Cambien una decena por diez unidades con bloques o palitos antes de quitar."
+   },
+   "florida_strand": "MA.2.NSO",
+   "refs": {
+    "ace_pace": 1020
+   },
+   "origin": "leido_diagnostico_ace"
+  },
+  {
+   "id": "LU-MATH-02-09",
+   "subject": "math",
+   "level": 2,
+   "slot": 9,
+   "concept": {
+    "en": "adding three-digit and two-digit numbers",
+    "es": "sumar números de 3 y 2 cifras"
+   },
+   "tip": {
+    "en": "Line up digits by place on grid paper and carry from ones to tens carefully.",
+    "es": "Alineen los dígitos por posición en papel cuadriculado y reagrupen con cuidado de unidades a decenas."
+   },
+   "florida_strand": "MA.2.NSO",
+   "refs": {
+    "ace_pace": 1021
+   },
+   "origin": "leido_diagnostico_ace"
+  },
+  {
+   "id": "LU-MATH-02-10",
+   "subject": "math",
+   "level": 2,
+   "slot": 10,
+   "concept": {
+    "en": "adding three-digit numbers with two regroupings",
+    "es": "suma de números de 3 cifras con dos reagrupaciones"
+   },
+   "tip": {
+    "en": "Use play money to add hundreds, tens and ones and trade up when there are ten.",
+    "es": "Usen dinero de juguete para sumar centenas, decenas y unidades, cambiando cuando haya diez."
+   },
+   "florida_strand": "MA.2.NSO",
+   "refs": {
+    "ace_pace": 1022
+   },
+   "origin": "leido_diagnostico_ace"
+  },
+  {
+   "id": "LU-MATH-02-11",
+   "subject": "math",
+   "level": 2,
+   "slot": 11,
+   "concept": {
+    "en": "telling time to the half hour",
+    "es": "decir la hora y media"
+   },
+   "tip": {
+    "en": "Move a clock hand to half past times, noticing the hour hand sits between two numbers.",
+    "es": "Muevan las manecillas a horas y media, notando que la manecilla corta queda entre dos números."
+   },
+   "florida_strand": "MA.2.M",
+   "refs": {
+    "ace_pace": 1023
+   },
+   "origin": "leido_diagnostico_ace"
+  },
+  {
+   "id": "LU-MATH-02-12",
+   "subject": "math",
+   "level": 2,
+   "slot": 12,
+   "concept": {
+    "en": "measuring length in centimeters",
+    "es": "medir longitudes en centímetros"
+   },
+   "tip": {
+    "en": "Measure household objects with a ruler, starting each at zero or finding the difference between marks.",
+    "es": "Midan objetos de casa con una regla, empezando en cero o buscando la diferencia entre las marcas."
+   },
+   "florida_strand": "MA.2.M",
+   "refs": {
+    "ace_pace": 1024
+   },
+   "origin": "leido_diagnostico_ace"
+  },
+  {
+   "id": "LU-MATH-03-01",
+   "subject": "math",
+   "level": 3,
+   "slot": 1,
+   "concept": {
+    "en": "adding three-digit numbers with regrouping",
+    "es": "suma de números de 3 cifras con reagrupación"
+   },
+   "tip": {
+    "en": "Add the ones, tens and hundreds in order, carrying when a column reaches ten, using grid paper.",
+    "es": "Sumen unidades, decenas y centenas en orden, reagrupando cuando una columna llegue a diez, en papel cuadriculado."
+   },
+   "florida_strand": "MA.3.NSO",
+   "refs": {
+    "ace_pace": 1025
+   },
+   "origin": "deducido_scope_ace_2025"
+  },
+  {
+   "id": "LU-MATH-03-02",
+   "subject": "math",
+   "level": 3,
+   "slot": 2,
+   "concept": {
+    "en": "multiplying by 2 in real situations",
+    "es": "multiplicar por 2 en situaciones reales"
+   },
+   "tip": {
+    "en": "Count by twos with shoes, gloves or wheels, and connect it to doubles and skip counting.",
+    "es": "Cuenten de dos en dos con zapatos, guantes o ruedas, y relaciónenlo con dobles y saltos de conteo."
+   },
+   "florida_strand": "MA.3.AR",
+   "refs": {
+    "ace_pace": 1026
+   },
+   "origin": "leido_diagnostico_ace"
+  },
+  {
+   "id": "LU-MATH-03-03",
+   "subject": "math",
+   "level": 3,
+   "slot": 3,
+   "concept": {
+    "en": "adding four-digit numbers",
+    "es": "suma de números de 4 cifras"
+   },
+   "tip": {
+    "en": "Write numbers in neat columns and add ones, tens, hundreds, then thousands, carrying as needed.",
+    "es": "Escriban los números en columnas ordenadas y sumen unidades, decenas, centenas y millares, reagrupando cuando haga falta."
+   },
+   "florida_strand": "MA.3.NSO",
+   "refs": {
+    "ace_pace": 1027
+   },
+   "origin": "leido_diagnostico_ace"
+  },
+  {
+   "id": "LU-MATH-03-04",
+   "subject": "math",
+   "level": 3,
+   "slot": 4,
+   "concept": {
+    "en": "subtracting across zeros",
+    "es": "restar con ceros en el minuendo"
+   },
+   "tip": {
+    "en": "Show 600 as 5 hundreds, 9 tens and 10 ones with play money, then subtract.",
+    "es": "Representen 600 como 5 centenas, 9 decenas y 10 unidades con dinero de juguete, y luego resten."
+   },
+   "florida_strand": "MA.3.NSO",
+   "refs": {
+    "ace_pace": 1028
+   },
+   "origin": "leido_diagnostico_ace"
+  },
+  {
+   "id": "LU-MATH-03-05",
+   "subject": "math",
+   "level": 3,
+   "slot": 5,
+   "concept": {
+    "en": "multiplication facts for 4",
+    "es": "tabla de multiplicar del 4"
+   },
+   "tip": {
+    "en": "Practice skip counting by fours and double the twos facts, using short daily rounds.",
+    "es": "Practiquen contar de cuatro en cuatro y dupliquen la tabla del 2, en rondas cortas cada día."
+   },
+   "florida_strand": "MA.3.NSO",
+   "refs": {
+    "ace_pace": 1029
+   },
+   "origin": "leido_diagnostico_ace"
+  },
+  {
+   "id": "LU-MATH-03-06",
+   "subject": "math",
+   "level": 3,
+   "slot": 6,
+   "concept": {
+    "en": "reading basic Roman numerals",
+    "es": "leer números romanos básicos"
+   },
+   "tip": {
+    "en": "Look for Roman numerals on clocks, book chapters and buildings, and write the numbers 1 to 10.",
+    "es": "Busquen números romanos en relojes, capítulos y edificios, y escriban del 1 al 10."
+   },
+   "florida_strand": "MA.3.NSO",
+   "refs": {
+    "ace_pace": 1030
+   },
+   "origin": "leido_diagnostico_ace"
+  },
+  {
+   "id": "LU-MATH-03-07",
+   "subject": "math",
+   "level": 3,
+   "slot": 7,
+   "concept": {
+    "en": "multiplication facts for 6",
+    "es": "tabla de multiplicar del 6"
+   },
+   "tip": {
+    "en": "Build on the fives facts and add one more group, practicing with flash cards or a song.",
+    "es": "Partan de la tabla del 5 y añadan un grupo más, practicando con tarjetas o una canción."
+   },
+   "florida_strand": "MA.3.NSO",
+   "refs": {
+    "ace_pace": 1031
+   },
+   "origin": "leido_diagnostico_ace"
+  },
+  {
+   "id": "LU-MATH-03-08",
+   "subject": "math",
+   "level": 3,
+   "slot": 8,
+   "concept": {
+    "en": "multiplication facts for 7",
+    "es": "tabla de multiplicar del 7"
+   },
+   "tip": {
+    "en": "Practice a few sevens facts at a time with flash cards, rhymes, or a hundreds chart.",
+    "es": "Practiquen unas pocas multiplicaciones del 7 a la vez con tarjetas, rimas o una tabla del 100."
+   },
+   "florida_strand": "MA.3.NSO",
+   "refs": {
+    "ace_pace": 1032
+   },
+   "origin": "leido_diagnostico_ace"
+  },
+  {
+   "id": "LU-MATH-03-09",
+   "subject": "math",
+   "level": 3,
+   "slot": 9,
+   "concept": {
+    "en": "multiplication facts for 8",
+    "es": "tabla de multiplicar del 8"
+   },
+   "tip": {
+    "en": "Double the fours facts to find the eights, then practice with quick cards and games.",
+    "es": "Dupliquen la tabla del 4 para hallar la del 8 y practiquen con tarjetas rápidas y juegos."
+   },
+   "florida_strand": "MA.3.NSO",
+   "refs": {
+    "ace_pace": 1033
+   },
+   "origin": "leido_diagnostico_ace"
+  },
+  {
+   "id": "LU-MATH-03-10",
+   "subject": "math",
+   "level": 3,
+   "slot": 10,
+   "concept": {
+    "en": "adding several numbers in columns",
+    "es": "sumar varios números en columnas"
+   },
+   "tip": {
+    "en": "Line up digits in columns, add each column from the ones place, and carry the extra.",
+    "es": "Alineen los dígitos en columnas, sumen cada una desde las unidades y lleven lo que sobre."
+   },
+   "florida_strand": "MA.3.NSO",
+   "refs": {
+    "ace_pace": 1034
+   },
+   "origin": "leido_diagnostico_ace"
+  },
+  {
+   "id": "LU-MATH-03-11",
+   "subject": "math",
+   "level": 3,
+   "slot": 11,
+   "concept": {
+    "en": "telling time in minutes before the hour",
+    "es": "decir la hora con minutos para la hora"
+   },
+   "tip": {
+    "en": "Use a practice clock to show times like 'ten to six', counting back from the next hour.",
+    "es": "Usen un reloj de práctica para mostrar horas como 'ten to six', contando hacia atrás desde la hora siguiente."
+   },
+   "florida_strand": "MA.3.M",
+   "refs": {
+    "ace_pace": 1035
+   },
+   "origin": "leido_diagnostico_ace"
+  },
+  {
+   "id": "LU-MATH-03-12",
+   "subject": "math",
+   "level": 3,
+   "slot": 12,
+   "concept": {
+    "en": "converting cups, pints and quarts",
+    "es": "equivalencias entre tazas, pintas y cuartos"
+   },
+   "tip": {
+    "en": "Fill measuring cups in the kitchen to see how many cups fill a pint or quart.",
+    "es": "Llenen tazas medidoras en la cocina para ver cuántas llenan una pinta o un cuarto."
+   },
+   "florida_strand": "MA.3.M",
+   "refs": {
+    "ace_pace": 1036
+   },
+   "origin": "leido_diagnostico_ace"
+  },
+  {
+   "id": "LU-MATH-04-01",
+   "subject": "math",
+   "level": 4,
+   "slot": 1,
+   "concept": {
+    "en": "multiplying a number by 10",
+    "es": "multiplicar un número por 10"
+   },
+   "tip": {
+    "en": "Notice what happens to digits when you multiply by ten, using play money or a place-value chart.",
+    "es": "Observen qué pasa con los dígitos al multiplicar por diez, con dinero de juguete o una tabla de valor posicional."
+   },
+   "florida_strand": "MA.4.NSO",
+   "refs": {
+    "ace_pace": 1037
+   },
+   "origin": "leido_diagnostico_ace"
+  },
+  {
+   "id": "LU-MATH-04-02",
+   "subject": "math",
+   "level": 4,
+   "slot": 2,
+   "concept": {
+    "en": "multiplication facts for 11",
+    "es": "tabla de multiplicar del 11"
+   },
+   "tip": {
+    "en": "Spot the pattern in 11 x 1 through 11 x 9 and then practice with quick daily rounds.",
+    "es": "Descubran el patrón de 11 x 1 a 11 x 9 y practiquen en rondas rápidas cada día."
+   },
+   "florida_strand": "MA.4.NSO",
+   "refs": {
+    "ace_pace": 1038
+   },
+   "origin": "leido_diagnostico_ace"
+  },
+  {
+   "id": "LU-MATH-04-03",
+   "subject": "math",
+   "level": 4,
+   "slot": 3,
+   "concept": {
+    "en": "division facts for 3",
+    "es": "tabla de dividir entre 3"
+   },
+   "tip": {
+    "en": "Share groups of objects equally among three plates and link each result to the threes multiplication facts.",
+    "es": "Repartan objetos en partes iguales entre tres platos y relacionen cada resultado con la tabla del 3."
+   },
+   "florida_strand": "MA.4.NSO",
+   "refs": {
+    "ace_pace": 1039
+   },
+   "origin": "leido_diagnostico_ace"
+  },
+  {
+   "id": "LU-MATH-04-04",
+   "subject": "math",
+   "level": 4,
+   "slot": 4,
+   "concept": {
+    "en": "multiplying two digits by one digit",
+    "es": "multiplicar un número de 2 cifras por uno de 1 cifra"
+   },
+   "tip": {
+    "en": "Break the number into tens and ones, multiply each part, then add, like 30 x 6 plus 4 x 6.",
+    "es": "Separen el número en decenas y unidades, multipliquen cada parte y sumen, como 30 x 6 más 4 x 6."
+   },
+   "florida_strand": "MA.4.NSO",
+   "refs": {
+    "ace_pace": 1040
+   },
+   "origin": "leido_diagnostico_ace"
+  },
+  {
+   "id": "LU-MATH-04-05",
+   "subject": "math",
+   "level": 4,
+   "slot": 5,
+   "concept": {
+    "en": "reading Roman numerals up to 19",
+    "es": "leer números romanos hasta el 19"
+   },
+   "tip": {
+    "en": "Practice writing numbers 11 to 19 as X plus the smaller numeral, like XIV for fourteen.",
+    "es": "Practiquen escribir del 11 al 19 como X más el numeral menor, como XIV para catorce."
+   },
+   "florida_strand": "MA.4.NSO",
+   "refs": {
+    "ace_pace": 1041
+   },
+   "origin": "leido_diagnostico_ace"
+  },
+  {
+   "id": "LU-MATH-04-06",
+   "subject": "math",
+   "level": 4,
+   "slot": 6,
+   "concept": {
+    "en": "multiplying two-digit numbers",
+    "es": "multiplicar números de 2 cifras"
+   },
+   "tip": {
+    "en": "Use a box or grid to multiply tens and ones separately, then add the pieces together.",
+    "es": "Usen una cuadrícula para multiplicar por separado decenas y unidades, y luego sumen las partes."
+   },
+   "florida_strand": "MA.4.NSO",
+   "refs": {
+    "ace_pace": 1042
+   },
+   "origin": "leido_diagnostico_ace"
+  },
+  {
+   "id": "LU-MATH-04-07",
+   "subject": "math",
+   "level": 4,
+   "slot": 7,
+   "concept": {
+    "en": "division facts for 7 in word problems",
+    "es": "tabla de dividir entre 7 en problemas con historia"
+   },
+   "tip": {
+    "en": "Share items equally at mealtime and connect each division to the sevens multiplication facts.",
+    "es": "Repartan cosas en partes iguales a la hora de comer y relacionen cada división con la tabla del 7."
+   },
+   "florida_strand": "MA.4.AR",
+   "refs": {
+    "ace_pace": 1043
+   },
+   "origin": "leido_diagnostico_ace"
+  },
+  {
+   "id": "LU-MATH-04-08",
+   "subject": "math",
+   "level": 4,
+   "slot": 8,
+   "concept": {
+    "en": "dividing with a remainder",
+    "es": "dividir con residuo"
+   },
+   "tip": {
+    "en": "Share small objects equally, then count the leftovers, and say what is left over.",
+    "es": "Repartan objetos pequeños en partes iguales, cuenten los que sobran y digan cuántos quedan."
+   },
+   "florida_strand": "MA.4.NSO",
+   "refs": {
+    "ace_pace": 1044
+   },
+   "origin": "leido_diagnostico_ace"
+  },
+  {
+   "id": "LU-MATH-04-09",
+   "subject": "math",
+   "level": 4,
+   "slot": 9,
+   "concept": {
+    "en": "division facts for 9",
+    "es": "tabla de dividir entre 9"
+   },
+   "tip": {
+    "en": "Link division to the nines multiplication facts and use the finger trick to check answers.",
+    "es": "Relacionen la división con la tabla del 9 y usen el truco de los dedos para comprobar."
+   },
+   "florida_strand": "MA.4.NSO",
+   "refs": {
+    "ace_pace": 1045
+   },
+   "origin": "leido_diagnostico_ace"
+  },
+  {
+   "id": "LU-MATH-04-10",
+   "subject": "math",
+   "level": 4,
+   "slot": 10,
+   "concept": {
+    "en": "understanding a unit fraction",
+    "es": "entender una fracción unitaria"
+   },
+   "tip": {
+    "en": "Cut a pizza, sandwich or paper into equal parts and name one piece, like one eighth.",
+    "es": "Corten una pizza, un sándwich o un papel en partes iguales y nombren una parte, como un octavo."
+   },
+   "florida_strand": "MA.4.FR",
+   "refs": {
+    "ace_pace": 1046
+   },
+   "origin": "leido_diagnostico_ace"
+  },
+  {
+   "id": "LU-MATH-04-11",
+   "subject": "math",
+   "level": 4,
+   "slot": 11,
+   "concept": {
+    "en": "adding fractions with the same denominator",
+    "es": "sumar fracciones con el mismo denominador"
+   },
+   "tip": {
+    "en": "Use fraction strips or a cut-up paper to add pieces of the same size, keeping the bottom number.",
+    "es": "Usen tiras de fracciones o papel recortado para sumar partes del mismo tamaño, manteniendo el denominador."
+   },
+   "florida_strand": "MA.4.FR",
+   "refs": {
+    "ace_pace": 1047
+   },
+   "origin": "leido_diagnostico_ace"
+  },
+  {
+   "id": "LU-MATH-04-12",
+   "subject": "math",
+   "level": 4,
+   "slot": 12,
+   "concept": {
+    "en": "calculating change from a purchase",
+    "es": "calcular el cambio de una compra"
+   },
+   "tip": {
+    "en": "Play store with real coins and bills, counting up from the price to the amount paid.",
+    "es": "Jueguen a la tienda con monedas y billetes reales, contando desde el precio hasta lo pagado."
+   },
+   "florida_strand": "MA.4.M",
+   "refs": {
+    "ace_pace": 1048
+   },
+   "origin": "leido_diagnostico_ace"
+  },
+  {
+   "id": "LU-MATH-05-01",
+   "subject": "math",
+   "level": 5,
+   "slot": 1,
+   "concept": {
+    "en": "Finding a fraction of a group",
+    "es": "Hallar una fracción de un grupo"
+   },
+   "tip": {
+    "en": "Share a set of objects into equal groups to find 1/4 or 1/3 of the total.",
+    "es": "Repartan objetos en grupos iguales para hallar 1/4 o 1/3 del total."
+   },
+   "florida_strand": "MA.5.FR",
+   "refs": {
+    "ace_pace": 1049
+   },
+   "origin": "leido_diagnostico_ace"
+  },
+  {
+   "id": "LU-MATH-05-02",
+   "subject": "math",
+   "level": 5,
+   "slot": 2,
+   "concept": {
+    "en": "Comparing fractions with unlike denominators",
+    "es": "Comparar fracciones con distinto denominador"
+   },
+   "tip": {
+    "en": "Rewrite fractions with a common denominator or use fraction strips to see which is larger.",
+    "es": "Reescriba las fracciones con un denominador común o use tiras de fracciones para ver cuál es mayor."
+   },
+   "florida_strand": "MA.5.FR",
+   "refs": {
+    "ace_pace": 1050
+   },
+   "origin": "leido_diagnostico_ace"
+  },
+  {
+   "id": "LU-MATH-05-03",
+   "subject": "math",
+   "level": 5,
+   "slot": 3,
+   "concept": {
+    "en": "Simplifying fractions to lowest terms",
+    "es": "Simplificar fracciones"
+   },
+   "tip": {
+    "en": "Divide the top and bottom by the same largest number until no common factor remains.",
+    "es": "Divida numerador y denominador entre el mayor número común hasta que ya no haya factor en común."
+   },
+   "florida_strand": "MA.5.FR",
+   "refs": {
+    "ace_pace": 1051
+   },
+   "origin": "leido_diagnostico_ace"
+  },
+  {
+   "id": "LU-MATH-05-04",
+   "subject": "math",
+   "level": 5,
+   "slot": 4,
+   "concept": {
+    "en": "Long division with remainders",
+    "es": "División larga con residuo"
+   },
+   "tip": {
+    "en": "Work through divide, multiply, subtract, bring down, and check by multiplying then adding the remainder.",
+    "es": "Repita dividir, multiplicar, restar y bajar la cifra, y compruebe multiplicando y sumando el residuo."
+   },
+   "florida_strand": "MA.5.NSO",
+   "refs": {
+    "ace_pace": 1052
+   },
+   "origin": "leido_diagnostico_ace"
+  },
+  {
+   "id": "LU-MATH-05-05",
+   "subject": "math",
+   "level": 5,
+   "slot": 5,
+   "concept": {
+    "en": "Multiplying decimals by 10, 100, 1,000",
+    "es": "Multiplicar decimales por 10, 100 y 1.000"
+   },
+   "tip": {
+    "en": "Notice that the decimal point moves one place right for each zero in the power of ten.",
+    "es": "Observe que la coma decimal se mueve un lugar a la derecha por cada cero."
+   },
+   "florida_strand": "MA.5.NSO",
+   "refs": {
+    "ace_pace": 1053
+   },
+   "origin": "leido_diagnostico_ace"
+  },
+  {
+   "id": "LU-MATH-05-06",
+   "subject": "math",
+   "level": 5,
+   "slot": 6,
+   "concept": {
+    "en": "Improper fractions and mixed numbers",
+    "es": "Fracciones impropias y números mixtos"
+   },
+   "tip": {
+    "en": "Divide the numerator by the denominator; the answer is the whole number and the remainder is the fraction.",
+    "es": "Divida el numerador entre el denominador: el cociente es el entero y el residuo forma la fracción."
+   },
+   "florida_strand": "MA.5.FR",
+   "refs": {
+    "ace_pace": 1054
+   },
+   "origin": "leido_diagnostico_ace"
+  },
+  {
+   "id": "LU-MATH-05-07",
+   "subject": "math",
+   "level": 5,
+   "slot": 7,
+   "concept": {
+    "en": "Finding the area of a rectangle",
+    "es": "Hallar el área de un rectángulo"
+   },
+   "tip": {
+    "en": "Multiply length by width, and measure a room or table at home to practice.",
+    "es": "Multiplique largo por ancho y midan una habitación o mesa de casa para practicar."
+   },
+   "florida_strand": "MA.5.GR",
+   "refs": {
+    "ace_pace": 1055
+   },
+   "origin": "leido_diagnostico_ace"
+  },
+  {
+   "id": "LU-MATH-05-08",
+   "subject": "math",
+   "level": 5,
+   "slot": 8,
+   "concept": {
+    "en": "Subtracting mixed numbers with regrouping",
+    "es": "Restar números mixtos reagrupando"
+   },
+   "tip": {
+    "en": "Find a common denominator first, then borrow one whole when the top fraction is too small.",
+    "es": "Busque primero un denominador común y tome un entero prestado cuando la fracción de arriba sea menor."
+   },
+   "florida_strand": "MA.5.FR",
+   "refs": {
+    "ace_pace": 1056
+   },
+   "origin": "leido_diagnostico_ace"
+  },
+  {
+   "id": "LU-MATH-05-09",
+   "subject": "math",
+   "level": 5,
+   "slot": 9,
+   "concept": {
+    "en": "Adding mixed numbers, unlike denominators",
+    "es": "Sumar números mixtos con distinto denominador"
+   },
+   "tip": {
+    "en": "Rewrite fractions with a common denominator, add the parts, then simplify any extra wholes.",
+    "es": "Reescriba las fracciones con denominador común, sume las partes y simplifique los enteros sobrantes."
+   },
+   "florida_strand": "MA.5.FR",
+   "refs": {
+    "ace_pace": 1057
+   },
+   "origin": "leido_diagnostico_ace"
+  },
+  {
+   "id": "LU-MATH-05-10",
+   "subject": "math",
+   "level": 5,
+   "slot": 10,
+   "concept": {
+    "en": "Multiplying decimals by decimals",
+    "es": "Multiplicar decimales"
+   },
+   "tip": {
+    "en": "Multiply as whole numbers, then count the decimal places in both factors to place the point.",
+    "es": "Multiplique como enteros y cuente los decimales de ambos factores para colocar la coma."
+   },
+   "florida_strand": "MA.5.NSO",
+   "refs": {
+    "ace_pace": 1058
+   },
+   "origin": "leido_diagnostico_ace"
+  },
+  {
+   "id": "LU-MATH-05-11",
+   "subject": "math",
+   "level": 5,
+   "slot": 11,
+   "concept": {
+    "en": "Finding a missing factor",
+    "es": "Hallar un factor desconocido"
+   },
+   "tip": {
+    "en": "Use division to undo multiplication, and check the answer by multiplying back.",
+    "es": "Use la división para deshacer la multiplicación y compruebe multiplicando de nuevo."
+   },
+   "florida_strand": "MA.5.AR",
+   "refs": {
+    "ace_pace": 1059
+   },
+   "origin": "leido_diagnostico_ace"
+  },
+  {
+   "id": "LU-MATH-05-12",
+   "subject": "math",
+   "level": 5,
+   "slot": 12,
+   "concept": {
+    "en": "Converting yards, feet, and inches",
+    "es": "Convertir yardas, pies y pulgadas"
+   },
+   "tip": {
+    "en": "Change yards to feet, add the feet, then multiply by 12 to get inches.",
+    "es": "Cambie yardas a pies, sume los pies y multiplique por 12 para obtener pulgadas."
+   },
+   "florida_strand": "MA.5.M",
+   "refs": {
+    "ace_pace": 1060
+   },
+   "origin": "leido_diagnostico_ace"
+  },
+  {
+   "id": "LU-MATH-06-01",
+   "subject": "math",
+   "level": 6,
+   "slot": 1,
+   "concept": {
+    "en": "Prime and composite numbers",
+    "es": "Números primos y compuestos"
+   },
+   "tip": {
+    "en": "Test whether a number has any factors besides 1 and itself, using divisibility rules.",
+    "es": "Compruebe si un número tiene otros factores además de 1 y él mismo, usando los criterios de divisibilidad."
+   },
+   "florida_strand": "MA.6.NSO",
+   "refs": {
+    "ace_pace": 1061
+   },
+   "origin": "leido_diagnostico_ace"
+  },
+  {
+   "id": "LU-MATH-06-02",
+   "subject": "math",
+   "level": 6,
+   "slot": 2,
+   "concept": {
+    "en": "Rounding to the nearest thousand",
+    "es": "Redondear a los miles"
+   },
+   "tip": {
+    "en": "Look at the hundreds digit: five or more rounds up, less than five stays.",
+    "es": "Mire la cifra de las centenas: si es cinco o más se sube, si es menos se queda igual."
+   },
+   "florida_strand": "MA.6.NSO",
+   "refs": {
+    "ace_pace": 1062
+   },
+   "origin": "leido_diagnostico_ace"
+  },
+  {
+   "id": "LU-MATH-06-03",
+   "subject": "math",
+   "level": 6,
+   "slot": 3,
+   "concept": {
+    "en": "Exponents and order of operations",
+    "es": "Exponentes y orden de operaciones"
+   },
+   "tip": {
+    "en": "Evaluate exponents first, then multiplication and division, then addition and subtraction, writing each step.",
+    "es": "Resuelva primero los exponentes, luego multiplicación y división, y después suma y resta, escribiendo cada paso."
+   },
+   "florida_strand": "MA.6.AR",
+   "refs": {
+    "ace_pace": 1063
+   },
+   "origin": "leido_diagnostico_ace"
+  },
+  {
+   "id": "LU-MATH-06-04",
+   "subject": "math",
+   "level": 6,
+   "slot": 4,
+   "concept": {
+    "en": "Finding the least common multiple",
+    "es": "Hallar el mínimo común múltiplo"
+   },
+   "tip": {
+    "en": "List multiples of each number until you find the first one they share.",
+    "es": "Escriba los múltiplos de cada número hasta encontrar el primero que comparten."
+   },
+   "florida_strand": "MA.6.NSO",
+   "refs": {
+    "ace_pace": 1064
+   },
+   "origin": "leido_diagnostico_ace"
+  },
+  {
+   "id": "LU-MATH-06-05",
+   "subject": "math",
+   "level": 6,
+   "slot": 5,
+   "concept": {
+    "en": "Adding mixed numbers, unlike denominators",
+    "es": "Sumar números mixtos con distinto denominador"
+   },
+   "tip": {
+    "en": "Find the least common denominator, add fractions and wholes separately, and regroup if needed.",
+    "es": "Halle el denominador común más pequeño, sume fracciones y enteros por separado y reagrupe si hace falta."
+   },
+   "florida_strand": "MA.6.FR",
+   "refs": {
+    "ace_pace": 1065
+   },
+   "origin": "leido_diagnostico_ace"
+  },
+  {
+   "id": "LU-MATH-06-06",
+   "subject": "math",
+   "level": 6,
+   "slot": 6,
+   "concept": {
+    "en": "Dividing one fraction by another",
+    "es": "Dividir fracciones"
+   },
+   "tip": {
+    "en": "Multiply by the reciprocal of the second fraction, then simplify the answer.",
+    "es": "Multiplique por el recíproco de la segunda fracción y simplifique el resultado."
+   },
+   "florida_strand": "MA.6.FR",
+   "refs": {
+    "ace_pace": 1066
+   },
+   "origin": "leido_diagnostico_ace"
+  },
+  {
+   "id": "LU-MATH-06-07",
+   "subject": "math",
+   "level": 6,
+   "slot": 7,
+   "concept": {
+    "en": "Dividing by a decimal",
+    "es": "Dividir entre un decimal"
+   },
+   "tip": {
+    "en": "Move the decimal point in both numbers the same number of places to make the divisor whole.",
+    "es": "Mueva la coma decimal en ambos números el mismo número de lugares hasta que el divisor sea entero."
+   },
+   "florida_strand": "MA.6.NSO",
+   "refs": {
+    "ace_pace": 1067
+   },
+   "origin": "leido_diagnostico_ace"
+  },
+  {
+   "id": "LU-MATH-06-08",
+   "subject": "math",
+   "level": 6,
+   "slot": 8,
+   "concept": {
+    "en": "Solving proportions with cross products",
+    "es": "Resolver proporciones"
+   },
+   "tip": {
+    "en": "Use cross products or find the number that scales the first fraction to the second.",
+    "es": "Use productos cruzados o halle el número que lleva la primera fracción a la segunda."
+   },
+   "florida_strand": "MA.6.AR",
+   "refs": {
+    "ace_pace": 1068
+   },
+   "origin": "leido_diagnostico_ace"
+  },
+  {
+   "id": "LU-MATH-06-09",
+   "subject": "math",
+   "level": 6,
+   "slot": 9,
+   "concept": {
+    "en": "Ordering negative numbers",
+    "es": "Ordenar números negativos"
+   },
+   "tip": {
+    "en": "Place numbers on a number line; the farther left a number is, the smaller it is.",
+    "es": "Ubique los números en una recta numérica; mientras más a la izquierda, menor es el valor."
+   },
+   "florida_strand": "MA.6.NSO",
+   "refs": {
+    "ace_pace": 1069
+   },
+   "origin": "leido_diagnostico_ace"
+  },
+  {
+   "id": "LU-MATH-06-10",
+   "subject": "math",
+   "level": 6,
+   "slot": 10,
+   "concept": {
+    "en": "Finding a percent of a number",
+    "es": "Calcular un porcentaje de un número"
+   },
+   "tip": {
+    "en": "Change the percent to a decimal and multiply, or find 10% and build from there.",
+    "es": "Convierta el porcentaje a decimal y multiplique, o halle el 10% y construya desde ahí."
+   },
+   "florida_strand": "MA.6.FR",
+   "refs": {
+    "ace_pace": 1070
+   },
+   "origin": "leido_diagnostico_ace"
+  },
+  {
+   "id": "LU-MATH-06-11",
+   "subject": "math",
+   "level": 6,
+   "slot": 11,
+   "concept": {
+    "en": "Area of a parallelogram",
+    "es": "Área de un paralelogramo"
+   },
+   "tip": {
+    "en": "Multiply base by the straight-up height, not by the slanted side.",
+    "es": "Multiplique la base por la altura perpendicular, no por el lado inclinado."
+   },
+   "florida_strand": "MA.6.GR",
+   "refs": {
+    "ace_pace": 1071
+   },
+   "origin": "leido_diagnostico_ace"
+  },
+  {
+   "id": "LU-MATH-06-12",
+   "subject": "math",
+   "level": 6,
+   "slot": 12,
+   "concept": {
+    "en": "Volume of a rectangular prism",
+    "es": "Volumen de un prisma rectangular"
+   },
+   "tip": {
+    "en": "Multiply length, width, and height, and try it with a box from the kitchen.",
+    "es": "Multiplique largo, ancho y alto, y pruébelo con una caja de la cocina."
+   },
+   "florida_strand": "MA.6.GR",
+   "refs": {
+    "ace_pace": 1072
+   },
+   "origin": "leido_diagnostico_ace"
+  },
+  {
+   "id": "LU-MATH-07-01",
+   "subject": "math",
+   "level": 7,
+   "slot": 1,
+   "concept": {
+    "en": "Multiplying and dividing integers",
+    "es": "Multiplicar y dividir enteros"
+   },
+   "tip": {
+    "en": "Remember same signs give positive and different signs give negative, then follow order of operations.",
+    "es": "Recuerde: signos iguales dan positivo, distintos dan negativo; luego siga el orden de operaciones."
+   },
+   "florida_strand": "MA.7.NSO",
+   "refs": {
+    "ace_pace": 1073
+   },
+   "origin": "deducido_scope_ace_2025"
+  },
+  {
+   "id": "LU-MATH-07-02",
+   "subject": "math",
+   "level": 7,
+   "slot": 2,
+   "concept": {
+    "en": "Finding percent increase",
+    "es": "Hallar el aumento porcentual"
+   },
+   "tip": {
+    "en": "Subtract to find the change, divide by the original amount, then convert to a percent.",
+    "es": "Reste para hallar el cambio, divida entre la cantidad original y convierta a porcentaje."
+   },
+   "florida_strand": "MA.7.NSO",
+   "refs": {
+    "ace_pace": 1074
+   },
+   "origin": "deducido_scope_ace_2025"
+  },
+  {
+   "id": "LU-MATH-07-03",
+   "subject": "math",
+   "level": 7,
+   "slot": 3,
+   "concept": {
+    "en": "Finding the median",
+    "es": "Hallar la mediana"
+   },
+   "tip": {
+    "en": "Put the data in order first, then find the middle value, averaging two when needed.",
+    "es": "Ordene primero los datos y halle el valor central, promediando los dos del medio si hace falta."
+   },
+   "florida_strand": "MA.7.DP",
+   "refs": {
+    "ace_pace": 1075
+   },
+   "origin": "deducido_scope_ace_2025"
+  },
+  {
+   "id": "LU-MATH-07-04",
+   "subject": "math",
+   "level": 7,
+   "slot": 4,
+   "concept": {
+    "en": "Calculating sale prices and discounts",
+    "es": "Calcular precios con descuento"
+   },
+   "tip": {
+    "en": "Find the discount amount by multiplying, then subtract it from the original price.",
+    "es": "Halle el monto del descuento multiplicando y réstelo del precio original."
+   },
+   "florida_strand": "MA.7.NSO",
+   "refs": {
+    "ace_pace": 1076
+   },
+   "origin": "deducido_scope_ace_2025"
+  },
+  {
+   "id": "LU-MATH-07-05",
+   "subject": "math",
+   "level": 7,
+   "slot": 5,
+   "concept": {
+    "en": "Circumference of a circle",
+    "es": "Circunferencia de un círculo"
+   },
+   "tip": {
+    "en": "Multiply pi by the diameter, and measure round objects at home to practice.",
+    "es": "Multiplique pi por el diámetro y midan objetos redondos de casa para practicar."
+   },
+   "florida_strand": "MA.7.GR",
+   "refs": {
+    "ace_pace": 1077
+   },
+   "origin": "deducido_scope_ace_2025"
+  },
+  {
+   "id": "LU-MATH-07-06",
+   "subject": "math",
+   "level": 7,
+   "slot": 6,
+   "concept": {
+    "en": "Budgeting with percents",
+    "es": "Presupuesto usando porcentajes"
+   },
+   "tip": {
+    "en": "Find each percent of the income, add them, and subtract the total from the income.",
+    "es": "Calcule cada porcentaje del ingreso, súmelos y reste el total del ingreso."
+   },
+   "florida_strand": "MA.7.NSO",
+   "refs": {
+    "ace_pace": 1078
+   },
+   "origin": "deducido_scope_ace_2025"
+  },
+  {
+   "id": "LU-MATH-07-07",
+   "subject": "math",
+   "level": 7,
+   "slot": 7,
+   "concept": {
+    "en": "Converting milliliters to liters",
+    "es": "Convertir mililitros a litros"
+   },
+   "tip": {
+    "en": "Multiply for the total, then divide by 1,000 to change milliliters into liters.",
+    "es": "Multiplique para el total y divida entre 1.000 para pasar de mililitros a litros."
+   },
+   "florida_strand": "MA.7.M",
+   "refs": {
+    "ace_pace": 1079
+   },
+   "origin": "deducido_scope_ace_2025"
+  },
+  {
+   "id": "LU-MATH-07-08",
+   "subject": "math",
+   "level": 7,
+   "slot": 8,
+   "concept": {
+    "en": "Equations with variables on both sides",
+    "es": "Ecuaciones con variables en ambos lados"
+   },
+   "tip": {
+    "en": "Move variable terms to one side, constants to the other, and check by substituting.",
+    "es": "Pase los términos con variable a un lado y las constantes al otro, y compruebe sustituyendo."
+   },
+   "florida_strand": "MA.7.AR",
+   "refs": {
+    "ace_pace": 1080
+   },
+   "origin": "deducido_scope_ace_2025"
+  },
+  {
+   "id": "LU-MATH-07-09",
+   "subject": "math",
+   "level": 7,
+   "slot": 9,
+   "concept": {
+    "en": "Adding positive and negative fractions",
+    "es": "Sumar fracciones positivas y negativas"
+   },
+   "tip": {
+    "en": "Use a number line or compare absolute values, keeping the sign of the larger one.",
+    "es": "Use una recta numérica o compare valores absolutos, conservando el signo del mayor."
+   },
+   "florida_strand": "MA.7.NSO",
+   "refs": {
+    "ace_pace": 1081
+   },
+   "origin": "deducido_scope_ace_2025"
+  },
+  {
+   "id": "LU-MATH-07-10",
+   "subject": "math",
+   "level": 7,
+   "slot": 10,
+   "concept": {
+    "en": "Finding a percent from two numbers",
+    "es": "Hallar qué porcentaje es una cantidad de otra"
+   },
+   "tip": {
+    "en": "Divide the part by the whole, then multiply the decimal by 100.",
+    "es": "Divida la parte entre el total y multiplique el decimal por 100."
+   },
+   "florida_strand": "MA.7.NSO",
+   "refs": {
+    "ace_pace": 1082
+   },
+   "origin": "deducido_scope_ace_2025"
+  },
+  {
+   "id": "LU-MATH-07-11",
+   "subject": "math",
+   "level": 7,
+   "slot": 11,
+   "concept": {
+    "en": "Reading a stem-and-leaf plot",
+    "es": "Leer un diagrama de tallo y hojas"
+   },
+   "tip": {
+    "en": "Find the largest and smallest values in the plot, then subtract to get the range.",
+    "es": "Halle el valor mayor y el menor del diagrama y réstelos para obtener el rango."
+   },
+   "florida_strand": "MA.7.DP",
+   "refs": {
+    "ace_pace": 1083
+   },
+   "origin": "deducido_scope_ace_2025"
+  },
+  {
+   "id": "LU-MATH-07-12",
+   "subject": "math",
+   "level": 7,
+   "slot": 12,
+   "concept": {
+    "en": "Calculating a percent commission",
+    "es": "Calcular una comisión porcentual"
+   },
+   "tip": {
+    "en": "Change the percent to a decimal and multiply by the sales amount.",
+    "es": "Convierta el porcentaje a decimal y multiplique por el monto de las ventas."
+   },
+   "florida_strand": "MA.7.NSO",
+   "refs": {
+    "ace_pace": 1084
+   },
+   "origin": "deducido_scope_ace_2025"
+  },
+  {
+   "id": "LU-MATH-08-01",
+   "subject": "math",
+   "level": 8,
+   "slot": 1,
+   "concept": {
+    "en": "Prime factorization with exponents",
+    "es": "Factorización prima con exponentes"
+   },
+   "tip": {
+    "en": "Use a factor tree, then group repeated primes using exponents.",
+    "es": "Use un árbol de factores y agrupe los primos repetidos con exponentes."
+   },
+   "florida_strand": "MA.8.NSO",
+   "refs": {
+    "ace_pace": 1085
+   },
+   "origin": "deducido_scope_ace_2025"
+  },
+  {
+   "id": "LU-MATH-08-02",
+   "subject": "math",
+   "level": 8,
+   "slot": 2,
+   "concept": {
+    "en": "Estimating square roots",
+    "es": "Estimar raíces cuadradas"
+   },
+   "tip": {
+    "en": "Memorize perfect squares up to 144 and see which two the number falls between.",
+    "es": "Memorice los cuadrados perfectos hasta 144 y vea entre cuáles dos queda el número."
+   },
+   "florida_strand": "MA.8.NSO",
+   "refs": {
+    "ace_pace": 1086
+   },
+   "origin": "deducido_scope_ace_2025"
+  },
+  {
+   "id": "LU-MATH-08-03",
+   "subject": "math",
+   "level": 8,
+   "slot": 3,
+   "concept": {
+    "en": "Solving multi-step equations",
+    "es": "Resolver ecuaciones de varios pasos"
+   },
+   "tip": {
+    "en": "Distribute first, combine like terms, then isolate x, checking the answer at the end.",
+    "es": "Distribuya primero, combine términos semejantes y despeje x, comprobando al final."
+   },
+   "florida_strand": "MA.8.AR",
+   "refs": {
+    "ace_pace": 1087
+   },
+   "origin": "deducido_scope_ace_2025"
+  },
+  {
+   "id": "LU-MATH-08-04",
+   "subject": "math",
+   "level": 8,
+   "slot": 4,
+   "concept": {
+    "en": "Using scale on maps",
+    "es": "Usar la escala en mapas"
+   },
+   "tip": {
+    "en": "Multiply the map distance by the miles each inch represents.",
+    "es": "Multiplique la distancia del mapa por las millas que representa cada pulgada."
+   },
+   "florida_strand": "MA.8.AR",
+   "refs": {
+    "ace_pace": 1088
+   },
+   "origin": "deducido_scope_ace_2025"
+  },
+  {
+   "id": "LU-MATH-08-05",
+   "subject": "math",
+   "level": 8,
+   "slot": 5,
+   "concept": {
+    "en": "Pythagorean theorem for hypotenuse",
+    "es": "Teorema de Pitágoras para la hipotenusa"
+   },
+   "tip": {
+    "en": "Square both legs, add them, then take the square root to find the longest side.",
+    "es": "Eleve al cuadrado ambos catetos, súmelos y saque la raíz cuadrada para hallar el lado mayor."
+   },
+   "florida_strand": "MA.8.GR",
+   "refs": {
+    "ace_pace": 1089
+   },
+   "origin": "deducido_scope_ace_2025"
+  },
+  {
+   "id": "LU-MATH-08-06",
+   "subject": "math",
+   "level": 8,
+   "slot": 6,
+   "concept": {
+    "en": "Using the mean to find a value",
+    "es": "Usar el promedio para hallar un valor"
+   },
+   "tip": {
+    "en": "Find each total by multiplying mean by count, then subtract the totals.",
+    "es": "Halle cada suma multiplicando promedio por cantidad y reste las sumas."
+   },
+   "florida_strand": "MA.8.DP",
+   "refs": {
+    "ace_pace": 1090
+   },
+   "origin": "deducido_scope_ace_2025"
+  },
+  {
+   "id": "LU-MATH-08-07",
+   "subject": "math",
+   "level": 8,
+   "slot": 7,
+   "concept": {
+    "en": "Counting groups where order doesn't matter",
+    "es": "Contar combinaciones"
+   },
+   "tip": {
+    "en": "List small groups systematically, or use the combinations method when order does not matter.",
+    "es": "Liste grupos pequeños de forma ordenada o use el método de combinaciones cuando el orden no importa."
+   },
+   "florida_strand": "MA.8.DP",
+   "refs": {
+    "ace_pace": 1091
+   },
+   "origin": "deducido_scope_ace_2025"
+  },
+  {
+   "id": "LU-MATH-08-08",
+   "subject": "math",
+   "level": 8,
+   "slot": 8,
+   "concept": {
+    "en": "Translating and reflecting points",
+    "es": "Trasladar y reflejar puntos"
+   },
+   "tip": {
+    "en": "Plot the point on a grid, slide it, then flip it over the axis, step by step.",
+    "es": "Ubique el punto en una cuadrícula, deslícelo y voltéelo sobre el eje, paso a paso."
+   },
+   "florida_strand": "MA.8.GR",
+   "refs": {
+    "ace_pace": 1092
+   },
+   "origin": "deducido_scope_ace_2025"
+  },
+  {
+   "id": "LU-MATH-08-09",
+   "subject": "math",
+   "level": 8,
+   "slot": 9,
+   "concept": {
+    "en": "Converting Celsius to Fahrenheit",
+    "es": "Convertir Celsius a Fahrenheit"
+   },
+   "tip": {
+    "en": "Substitute the temperature into the formula, multiply first, then add 32.",
+    "es": "Sustituya la temperatura en la fórmula, multiplique primero y luego sume 32."
+   },
+   "florida_strand": "MA.8.M",
+   "refs": {
+    "ace_pace": 1093
+   },
+   "origin": "deducido_scope_ace_2025"
+  },
+  {
+   "id": "LU-MATH-08-10",
+   "subject": "math",
+   "level": 8,
+   "slot": 10,
+   "concept": {
+    "en": "Compound interest over time",
+    "es": "Interés compuesto a lo largo del tiempo"
+   },
+   "tip": {
+    "en": "Calculate each year's interest on the new balance, adding it before the next year.",
+    "es": "Calcule el interés de cada año sobre el nuevo saldo y súmelo antes del año siguiente."
+   },
+   "florida_strand": "MA.8.NSO",
+   "refs": {
+    "ace_pace": 1094
+   },
+   "origin": "deducido_scope_ace_2025"
+  },
+  {
+   "id": "LU-MATH-08-11",
+   "subject": "math",
+   "level": 8,
+   "slot": 11,
+   "concept": {
+    "en": "Recognizing irrational numbers",
+    "es": "Reconocer números irracionales"
+   },
+   "tip": {
+    "en": "Remember irrational numbers have decimals that never end or repeat, like pi and square roots of non-squares.",
+    "es": "Recuerde que los irracionales tienen decimales que no terminan ni se repiten, como pi y raíces no exactas."
+   },
+   "florida_strand": "MA.8.NSO",
+   "refs": {
+    "ace_pace": 1095
+   },
+   "origin": "deducido_scope_ace_2025"
+  },
+  {
+   "id": "LU-MATH-08-12",
+   "subject": "math",
+   "level": 8,
+   "slot": 12,
+   "concept": {
+    "en": "Multiplying in scientific notation",
+    "es": "Multiplicar en notación científica"
+   },
+   "tip": {
+    "en": "Multiply the numbers, add the exponents, then adjust so the first number is between 1 and 10.",
+    "es": "Multiplique los números, sume los exponentes y ajuste para que el primer número esté entre 1 y 10."
+   },
+   "florida_strand": "MA.8.NSO",
+   "refs": {
+    "ace_pace": 1096
+   },
+   "origin": "deducido_scope_ace_2025"
+  },
+  {
+   "id": "LU-MATH-09-01",
+   "subject": "math",
+   "level": 9,
+   "slot": 1,
+   "concept": {
+    "en": "Multiplying monomials with exponents",
+    "es": "Multiplicar monomios con exponentes"
+   },
+   "tip": {
+    "en": "Multiply the coefficients, then add exponents of matching variables; try five similar problems.",
+    "es": "Multiplica los coeficientes y suma los exponentes de variables iguales; prueba cinco problemas parecidos."
+   },
+   "florida_strand": "MA.912.AR",
+   "refs": {
+    "ace_pace": 1097
+   },
+   "origin": "deducido_scope_ace_2025"
+  },
+  {
+   "id": "LU-MATH-09-02",
+   "subject": "math",
+   "level": 9,
+   "slot": 2,
+   "concept": {
+    "en": "Solving multi-step linear equations",
+    "es": "Resolver ecuaciones lineales de varios pasos"
+   },
+   "tip": {
+    "en": "Distribute, combine like terms, then isolate x; check each answer by substituting it back.",
+    "es": "Distribuye, reduce términos semejantes y despeja x; comprueba cada respuesta sustituyéndola."
+   },
+   "florida_strand": "MA.912.AR",
+   "refs": {
+    "ace_pace": 1098
+   },
+   "origin": "deducido_scope_ace_2025"
+  },
+  {
+   "id": "LU-MATH-09-03",
+   "subject": "math",
+   "level": 9,
+   "slot": 3,
+   "concept": {
+    "en": "Simplifying complex fractions",
+    "es": "Simplificar fracciones complejas"
+   },
+   "tip": {
+    "en": "Multiply top and bottom by the common denominator to clear the small fractions first.",
+    "es": "Multiplica numerador y denominador por el denominador común para eliminar primero las fracciones pequeñas."
+   },
+   "florida_strand": "MA.912.AR",
+   "refs": {
+    "ace_pace": 1099
+   },
+   "origin": "deducido_scope_ace_2025"
+  },
+  {
+   "id": "LU-MATH-09-04",
+   "subject": "math",
+   "level": 9,
+   "slot": 4,
+   "concept": {
+    "en": "Finding slope from two points",
+    "es": "Hallar la pendiente con dos puntos"
+   },
+   "tip": {
+    "en": "Use rise over run, (y2 - y1)/(x2 - x1), and watch your negative signs.",
+    "es": "Usa cambio vertical entre cambio horizontal, (y2 - y1)/(x2 - x1), y cuida los signos negativos."
+   },
+   "florida_strand": "MA.912.F",
+   "refs": {
+    "ace_pace": 1100
+   },
+   "origin": "deducido_scope_ace_2025"
+  },
+  {
+   "id": "LU-MATH-09-05",
+   "subject": "math",
+   "level": 9,
+   "slot": 5,
+   "concept": {
+    "en": "Solving quadratics by factoring",
+    "es": "Resolver cuadráticas por factorización"
+   },
+   "tip": {
+    "en": "Find two numbers that multiply to c and add to b, then set each factor to zero.",
+    "es": "Busca dos números que multipliquen c y sumen b, y luego iguala cada factor a cero."
+   },
+   "florida_strand": "MA.912.AR",
+   "refs": {
+    "ace_pace": 1101
+   },
+   "origin": "deducido_scope_ace_2025"
+  },
+  {
+   "id": "LU-MATH-09-06",
+   "subject": "math",
+   "level": 9,
+   "slot": 6,
+   "concept": {
+    "en": "Turning word problems into equations",
+    "es": "Traducir problemas verbales a ecuaciones"
+   },
+   "tip": {
+    "en": "Define variables first, write what each phrase means, then build and solve the equation.",
+    "es": "Define primero las variables, escribe qué significa cada frase y luego plantea y resuelve la ecuación."
+   },
+   "florida_strand": "MA.912.AR",
+   "refs": {
+    "ace_pace": 1102
+   },
+   "origin": "deducido_scope_ace_2025"
+  },
+  {
+   "id": "LU-MATH-09-07",
+   "subject": "math",
+   "level": 9,
+   "slot": 7,
+   "concept": {
+    "en": "Using the Pythagorean Theorem",
+    "es": "Usar el teorema de Pitágoras"
+   },
+   "tip": {
+    "en": "Sketch the right triangle, label the hypotenuse, and apply a^2 + b^2 = c^2.",
+    "es": "Dibuja el triángulo rectángulo, marca la hipotenusa y aplica a^2 + b^2 = c^2."
+   },
+   "florida_strand": "MA.912.GR",
+   "refs": {
+    "ace_pace": 1103
+   },
+   "origin": "deducido_scope_ace_2025"
+  },
+  {
+   "id": "LU-MATH-09-08",
+   "subject": "math",
+   "level": 9,
+   "slot": 8,
+   "concept": {
+    "en": "Multiplying polynomials",
+    "es": "Multiplicar polinomios"
+   },
+   "tip": {
+    "en": "Distribute every term of the first factor across the second, then combine like terms carefully.",
+    "es": "Distribuye cada término del primer factor sobre el segundo y reduce con cuidado los términos semejantes."
+   },
+   "florida_strand": "MA.912.AR",
+   "refs": {
+    "ace_pace": 1104
+   },
+   "origin": "deducido_scope_ace_2025"
+  },
+  {
+   "id": "LU-MATH-09-09",
+   "subject": "math",
+   "level": 9,
+   "slot": 9,
+   "concept": {
+    "en": "Solving linear inequalities",
+    "es": "Resolver desigualdades lineales"
+   },
+   "tip": {
+    "en": "Solve like an equation, but flip the inequality sign when dividing by a negative number.",
+    "es": "Resuelve como una ecuación, pero invierte el signo de desigualdad al dividir entre un número negativo."
+   },
+   "florida_strand": "MA.912.AR",
+   "refs": {
+    "ace_pace": 1105
+   },
+   "origin": "deducido_scope_ace_2025"
+  },
+  {
+   "id": "LU-MATH-09-10",
+   "subject": "math",
+   "level": 9,
+   "slot": 10,
+   "concept": {
+    "en": "Dividing rational expressions",
+    "es": "Dividir expresiones racionales"
+   },
+   "tip": {
+    "en": "Factor everything, multiply by the reciprocal, and cancel common factors before simplifying.",
+    "es": "Factoriza todo, multiplica por el recíproco y cancela factores comunes antes de simplificar."
+   },
+   "florida_strand": "MA.912.AR",
+   "refs": {
+    "ace_pace": 1106
+   },
+   "origin": "deducido_scope_ace_2025"
+  },
+  {
+   "id": "LU-MATH-09-11",
+   "subject": "math",
+   "level": 9,
+   "slot": 11,
+   "concept": {
+    "en": "Equations of perpendicular lines",
+    "es": "Ecuaciones de rectas perpendiculares"
+   },
+   "tip": {
+    "en": "Use the negative reciprocal of the slope, then plug in the given point to find b.",
+    "es": "Usa el recíproco negativo de la pendiente y sustituye el punto dado para hallar b."
+   },
+   "florida_strand": "MA.912.F",
+   "refs": {
+    "ace_pace": 1107
+   },
+   "origin": "deducido_scope_ace_2025"
+  },
+  {
+   "id": "LU-MATH-09-12",
+   "subject": "math",
+   "level": 9,
+   "slot": 12,
+   "concept": {
+    "en": "Using the quadratic formula",
+    "es": "Usar la fórmula cuadrática"
+   },
+   "tip": {
+    "en": "Identify a, b, and c, substitute carefully, and simplify the discriminant step by step.",
+    "es": "Identifica a, b y c, sustituye con cuidado y simplifica el discriminante paso a paso."
+   },
+   "florida_strand": "MA.912.AR",
+   "refs": {
+    "ace_pace": 1108
+   },
+   "origin": "deducido_scope_ace_2025"
+  },
+  {
+   "id": "LU-MATH-10-01",
+   "subject": "math",
+   "level": 10,
+   "slot": 1,
+   "concept": {
+    "en": "Writing contrapositive statements",
+    "es": "Escribir el contrarrecíproco"
+   },
+   "tip": {
+    "en": "Swap the hypothesis and conclusion, then negate both; practice with everyday if-then statements.",
+    "es": "Intercambia hipótesis y conclusión y niega ambas; practica con enunciados si-entonces de la vida diaria."
+   },
+   "florida_strand": "MA.912.LT",
+   "refs": {
+    "ace_pace": 1109
+   },
+   "origin": "deducido_scope_ace_2025"
+  },
+  {
+   "id": "LU-MATH-10-02",
+   "subject": "math",
+   "level": 10,
+   "slot": 2,
+   "concept": {
+    "en": "Using the Exterior Angle Theorem",
+    "es": "Usar el teorema del ángulo exterior"
+   },
+   "tip": {
+    "en": "Remember an exterior angle equals the sum of the two remote interior angles; draw and label.",
+    "es": "Recuerda que un ángulo exterior es igual a la suma de los dos ángulos interiores no adyacentes; dibuja y rotula."
+   },
+   "florida_strand": "MA.912.GR",
+   "refs": {
+    "ace_pace": 1110
+   },
+   "origin": "deducido_scope_ace_2025"
+  },
+  {
+   "id": "LU-MATH-10-03",
+   "subject": "math",
+   "level": 10,
+   "slot": 3,
+   "concept": {
+    "en": "Inscribed angles and arcs",
+    "es": "Ángulos inscritos y arcos"
+   },
+   "tip": {
+    "en": "Remember an inscribed angle is half its intercepted arc; practice with several diagrams.",
+    "es": "Recuerda que un ángulo inscrito mide la mitad de su arco; practica con varios diagramas."
+   },
+   "florida_strand": "MA.912.GR",
+   "refs": {
+    "ace_pace": 1111
+   },
+   "origin": "deducido_scope_ace_2025"
+  },
+  {
+   "id": "LU-MATH-10-04",
+   "subject": "math",
+   "level": 10,
+   "slot": 4,
+   "concept": {
+    "en": "Circle area and circumference",
+    "es": "Área y circunferencia del círculo"
+   },
+   "tip": {
+    "en": "Use the area to find the radius, then apply C = 2 pi r.",
+    "es": "Usa el área para hallar el radio y luego aplica C = 2 pi r."
+   },
+   "florida_strand": "MA.912.GR",
+   "refs": {
+    "ace_pace": 1112
+   },
+   "origin": "deducido_scope_ace_2025"
+  },
+  {
+   "id": "LU-MATH-10-05",
+   "subject": "math",
+   "level": 10,
+   "slot": 5,
+   "concept": {
+    "en": "Tangent-secant segment relationships",
+    "es": "Relación entre tangente y secante"
+   },
+   "tip": {
+    "en": "Practice the rule: tangent squared equals whole secant times its external part.",
+    "es": "Practica la regla: la tangente al cuadrado es igual a la secante completa por su parte externa."
+   },
+   "florida_strand": "MA.912.GR",
+   "refs": {
+    "ace_pace": 1113
+   },
+   "origin": "deducido_scope_ace_2025"
+  },
+  {
+   "id": "LU-MATH-10-06",
+   "subject": "math",
+   "level": 10,
+   "slot": 6,
+   "concept": {
+    "en": "Applying the Law of Syllogism",
+    "es": "Aplicar la ley del silogismo"
+   },
+   "tip": {
+    "en": "Link if-then statements when one conclusion matches the next hypothesis; build chains from daily life.",
+    "es": "Encadena enunciados si-entonces cuando una conclusión coincide con la siguiente hipótesis; crea cadenas de la vida diaria."
+   },
+   "florida_strand": "MA.912.LT",
+   "refs": {
+    "ace_pace": 1114
+   },
+   "origin": "deducido_scope_ace_2025"
+  },
+  {
+   "id": "LU-MATH-10-07",
+   "subject": "math",
+   "level": 10,
+   "slot": 7,
+   "concept": {
+    "en": "Sides of a regular polygon",
+    "es": "Lados de un polígono regular"
+   },
+   "tip": {
+    "en": "Find the exterior angle as 180 minus the interior, then divide 360 by it.",
+    "es": "Halla el ángulo exterior como 180 menos el interior y divide 360 entre ese valor."
+   },
+   "florida_strand": "MA.912.GR",
+   "refs": {
+    "ace_pace": 1115
+   },
+   "origin": "deducido_scope_ace_2025"
+  },
+  {
+   "id": "LU-MATH-10-08",
+   "subject": "math",
+   "level": 10,
+   "slot": 8,
+   "concept": {
+    "en": "Distance from circle center to chord",
+    "es": "Distancia del centro a una cuerda"
+   },
+   "tip": {
+    "en": "Draw the radius and half the chord to form a right triangle, then use Pythagoras.",
+    "es": "Dibuja el radio y la mitad de la cuerda para formar un triángulo rectángulo y usa Pitágoras."
+   },
+   "florida_strand": "MA.912.GR",
+   "refs": {
+    "ace_pace": 1116
+   },
+   "origin": "deducido_scope_ace_2025"
+  },
+  {
+   "id": "LU-MATH-10-09",
+   "subject": "math",
+   "level": 10,
+   "slot": 9,
+   "concept": {
+    "en": "Finding the area of a sector",
+    "es": "Área de un sector circular"
+   },
+   "tip": {
+    "en": "Multiply the circle's area by the fraction angle over 360.",
+    "es": "Multiplica el área del círculo por la fracción ángulo entre 360."
+   },
+   "florida_strand": "MA.912.GR",
+   "refs": {
+    "ace_pace": 1117
+   },
+   "origin": "deducido_scope_ace_2025"
+  },
+  {
+   "id": "LU-MATH-10-10",
+   "subject": "math",
+   "level": 10,
+   "slot": 10,
+   "concept": {
+    "en": "Angles formed by two secants",
+    "es": "Ángulo formado por dos secantes"
+   },
+   "tip": {
+    "en": "Use half the difference of the far and near arcs; practice labeling arcs clearly.",
+    "es": "Usa la mitad de la diferencia entre el arco lejano y el cercano; practica rotulando bien los arcos."
+   },
+   "florida_strand": "MA.912.GR",
+   "refs": {
+    "ace_pace": 1118
+   },
+   "origin": "deducido_scope_ace_2025"
+  },
+  {
+   "id": "LU-MATH-10-11",
+   "subject": "math",
+   "level": 10,
+   "slot": 11,
+   "concept": {
+    "en": "Justifying steps in a proof",
+    "es": "Justificar los pasos de una demostración"
+   },
+   "tip": {
+    "en": "Learn the names of key properties, such as addition and substitution, and match them to each step.",
+    "es": "Aprende el nombre de las propiedades clave, como suma y sustitución, y relaciónalas con cada paso."
+   },
+   "florida_strand": "MA.912.LT",
+   "refs": {
+    "ace_pace": 1119
+   },
+   "origin": "deducido_scope_ace_2025"
+  },
+  {
+   "id": "LU-MATH-10-12",
+   "subject": "math",
+   "level": 10,
+   "slot": 12,
+   "concept": {
+    "en": "Angle properties of parallelograms",
+    "es": "Propiedades de los ángulos del paralelogramo"
+   },
+   "tip": {
+    "en": "Remember consecutive angles add to 180 degrees; set up an equation and solve for x.",
+    "es": "Recuerda que los ángulos consecutivos suman 180 grados; plantea una ecuación y resuelve x."
+   },
+   "florida_strand": "MA.912.GR",
+   "refs": {
+    "ace_pace": 1120
+   },
+   "origin": "deducido_scope_ace_2025"
+  },
+  {
+   "id": "LU-MATH-11-01",
+   "subject": "math",
+   "level": 11,
+   "slot": 1,
+   "concept": {
+    "en": "Properties of real numbers",
+    "es": "Propiedades de los números reales"
+   },
+   "tip": {
+    "en": "Make flash cards for commutative, associative, and distributive properties with a quick example each.",
+    "es": "Haz tarjetas de las propiedades conmutativa, asociativa y distributiva con un ejemplo breve de cada una."
+   },
+   "florida_strand": "MA.912.AR",
+   "refs": {
+    "ace_pace": 1121
+   },
+   "origin": "deducido_scope_ace_2025"
+  },
+  {
+   "id": "LU-MATH-11-02",
+   "subject": "math",
+   "level": 11,
+   "slot": 2,
+   "concept": {
+    "en": "Multiplying complex numbers",
+    "es": "Multiplicar números complejos"
+   },
+   "tip": {
+    "en": "Multiply like binomials, then replace i squared with negative one and combine terms.",
+    "es": "Multiplica como binomios, reemplaza i al cuadrado por menos uno y reduce términos."
+   },
+   "florida_strand": "MA.912.AR",
+   "refs": {
+    "ace_pace": 1122
+   },
+   "origin": "deducido_scope_ace_2025"
+  },
+  {
+   "id": "LU-MATH-11-03",
+   "subject": "math",
+   "level": 11,
+   "slot": 3,
+   "concept": {
+    "en": "Finding a parabola's vertex",
+    "es": "Hallar el vértice de una parábola"
+   },
+   "tip": {
+    "en": "Use x = -b/(2a) for the x-coordinate, then substitute to find y.",
+    "es": "Usa x = -b/(2a) para la coordenada x y luego sustituye para hallar y."
+   },
+   "florida_strand": "MA.912.F",
+   "refs": {
+    "ace_pace": 1123
+   },
+   "origin": "deducido_scope_ace_2025"
+  },
+  {
+   "id": "LU-MATH-11-04",
+   "subject": "math",
+   "level": 11,
+   "slot": 4,
+   "concept": {
+    "en": "Nth term of an arithmetic sequence",
+    "es": "Término n de una sucesión aritmética"
+   },
+   "tip": {
+    "en": "Find the common difference, then use a_n = a_1 + (n - 1)d with several examples.",
+    "es": "Halla la diferencia común y usa a_n = a_1 + (n - 1)d con varios ejemplos."
+   },
+   "florida_strand": "MA.912.F",
+   "refs": {
+    "ace_pace": 1124
+   },
+   "origin": "deducido_scope_ace_2025"
+  },
+  {
+   "id": "LU-MATH-11-05",
+   "subject": "math",
+   "level": 11,
+   "slot": 5,
+   "concept": {
+    "en": "Solving logarithmic equations",
+    "es": "Resolver ecuaciones logarítmicas"
+   },
+   "tip": {
+    "en": "Combine logs with the product rule, rewrite in exponential form, then check for valid solutions.",
+    "es": "Combina logaritmos con la regla del producto, reescribe en forma exponencial y verifica que las soluciones sean válidas."
+   },
+   "florida_strand": "MA.912.F",
+   "refs": {
+    "ace_pace": 1125
+   },
+   "origin": "deducido_scope_ace_2025"
+  },
+  {
+   "id": "LU-MATH-11-06",
+   "subject": "math",
+   "level": 11,
+   "slot": 6,
+   "concept": {
+    "en": "Counting combinations",
+    "es": "Contar combinaciones"
+   },
+   "tip": {
+    "en": "Use n choose r when order doesn't matter; practice with committee and team problems.",
+    "es": "Usa combinaciones cuando el orden no importa; practica con problemas de comités y equipos."
+   },
+   "florida_strand": "MA.912.DP",
+   "refs": {
+    "ace_pace": 1126
+   },
+   "origin": "deducido_scope_ace_2025"
+  },
+  {
+   "id": "LU-MATH-11-07",
+   "subject": "math",
+   "level": 11,
+   "slot": 7,
+   "concept": {
+    "en": "Evaluating a 2x2 determinant",
+    "es": "Calcular un determinante 2x2"
+   },
+   "tip": {
+    "en": "Use ad - bc, subtracting the cross products and being careful with signs.",
+    "es": "Usa ad - bc, restando los productos cruzados y cuidando los signos."
+   },
+   "florida_strand": "MA.912.AR",
+   "refs": {
+    "ace_pace": 1127
+   },
+   "origin": "deducido_scope_ace_2025"
+  },
+  {
+   "id": "LU-MATH-11-08",
+   "subject": "math",
+   "level": 11,
+   "slot": 8,
+   "concept": {
+    "en": "Closure of number sets",
+    "es": "Cerradura de los conjuntos numéricos"
+   },
+   "tip": {
+    "en": "Test sets such as integers and rationals with sample operations to see if results stay inside.",
+    "es": "Prueba conjuntos como los enteros y los racionales con operaciones de ejemplo para ver si el resultado se queda dentro."
+   },
+   "florida_strand": "MA.912.AR",
+   "refs": {
+    "ace_pace": 1128
+   },
+   "origin": "deducido_scope_ace_2025"
+  },
+  {
+   "id": "LU-MATH-11-09",
+   "subject": "math",
+   "level": 11,
+   "slot": 9,
+   "concept": {
+    "en": "Dividing complex numbers",
+    "es": "Dividir números complejos"
+   },
+   "tip": {
+    "en": "Multiply top and bottom by the conjugate to remove i from the denominator.",
+    "es": "Multiplica numerador y denominador por el conjugado para eliminar i del denominador."
+   },
+   "florida_strand": "MA.912.AR",
+   "refs": {
+    "ace_pace": 1129
+   },
+   "origin": "deducido_scope_ace_2025"
+  },
+  {
+   "id": "LU-MATH-11-10",
+   "subject": "math",
+   "level": 11,
+   "slot": 10,
+   "concept": {
+    "en": "Using the Remainder Theorem",
+    "es": "Usar el teorema del resto"
+   },
+   "tip": {
+    "en": "Substitute the value into P(x) to get the remainder; compare with long division once.",
+    "es": "Sustituye el valor en P(x) para obtener el resto; compáralo una vez con la división larga."
+   },
+   "florida_strand": "MA.912.F",
+   "refs": {
+    "ace_pace": 1130
+   },
+   "origin": "deducido_scope_ace_2025"
+  },
+  {
+   "id": "LU-MATH-11-11",
+   "subject": "math",
+   "level": 11,
+   "slot": 11,
+   "concept": {
+    "en": "Sum of an infinite geometric series",
+    "es": "Suma de una serie geométrica infinita"
+   },
+   "tip": {
+    "en": "Find the ratio, confirm it is between -1 and 1, then use S = a/(1 - r).",
+    "es": "Halla la razón, confirma que está entre -1 y 1 y usa S = a/(1 - r)."
+   },
+   "florida_strand": "MA.912.F",
+   "refs": {
+    "ace_pace": 1131
+   },
+   "origin": "deducido_scope_ace_2025"
+  },
+  {
+   "id": "LU-MATH-11-12",
+   "subject": "math",
+   "level": 11,
+   "slot": 12,
+   "concept": {
+    "en": "Exponential equations with common bases",
+    "es": "Ecuaciones exponenciales con bases comunes"
+   },
+   "tip": {
+    "en": "Rewrite both sides with the same base, then set the exponents equal and solve.",
+    "es": "Reescribe ambos lados con la misma base, iguala los exponentes y resuelve."
+   },
+   "florida_strand": "MA.912.F",
+   "refs": {
+    "ace_pace": 1132
+   },
+   "origin": "deducido_scope_ace_2025"
+  },
+  {
+   "id": "LU-MATH-12-01",
+   "subject": "math",
+   "level": 12,
+   "slot": 1,
+   "concept": {
+    "en": "Solving right triangles with trig",
+    "es": "Resolver triángulos rectángulos con trigonometría"
+   },
+   "tip": {
+    "en": "Pick sine, cosine, or tangent by the sides you know and the side you need.",
+    "es": "Elige seno, coseno o tangente según los lados que conoces y el que necesitas."
+   },
+   "florida_strand": "MA.912.T",
+   "refs": {
+    "ace_pace": 1133
+   },
+   "origin": "deducido_scope_ace_2025"
+  },
+  {
+   "id": "LU-MATH-12-02",
+   "subject": "math",
+   "level": 12,
+   "slot": 2,
+   "concept": {
+    "en": "Pythagorean identity and quadrants",
+    "es": "Identidad pitagórica y cuadrantes"
+   },
+   "tip": {
+    "en": "Use sin^2 + cos^2 = 1 and check the quadrant to choose the correct sign.",
+    "es": "Usa sin^2 + cos^2 = 1 y revisa el cuadrante para elegir el signo correcto."
+   },
+   "florida_strand": "MA.912.T",
+   "refs": {
+    "ace_pace": 1134
+   },
+   "origin": "deducido_scope_ace_2025"
+  },
+  {
+   "id": "LU-MATH-12-03",
+   "subject": "math",
+   "level": 12,
+   "slot": 3,
+   "concept": {
+    "en": "Amplitude and period of sine",
+    "es": "Amplitud y período de la función seno"
+   },
+   "tip": {
+    "en": "Read amplitude from the coefficient and period as 2 pi divided by the x-multiplier.",
+    "es": "Lee la amplitud en el coeficiente y el período como 2 pi dividido entre el multiplicador de x."
+   },
+   "florida_strand": "MA.912.T",
+   "refs": {
+    "ace_pace": 1135
+   },
+   "origin": "deducido_scope_ace_2025"
+  },
+  {
+   "id": "LU-MATH-12-04",
+   "subject": "math",
+   "level": 12,
+   "slot": 4,
+   "concept": {
+    "en": "Evaluating inverse cosine",
+    "es": "Evaluar el arcocoseno"
+   },
+   "tip": {
+    "en": "Use the unit circle and remember arccos answers lie between 0 and pi.",
+    "es": "Usa el círculo unitario y recuerda que las respuestas del arcocoseno están entre 0 y pi."
+   },
+   "florida_strand": "MA.912.T",
+   "refs": {
+    "ace_pace": 1136
+   },
+   "origin": "deducido_scope_ace_2025"
+  },
+  {
+   "id": "LU-MATH-12-05",
+   "subject": "math",
+   "level": 12,
+   "slot": 5,
+   "concept": {
+    "en": "Solving basic trig equations",
+    "es": "Resolver ecuaciones trigonométricas básicas"
+   },
+   "tip": {
+    "en": "Isolate the trig function, find reference angles, and list every solution in the interval.",
+    "es": "Despeja la función trigonométrica, halla los ángulos de referencia y enumera todas las soluciones del intervalo."
+   },
+   "florida_strand": "MA.912.T",
+   "refs": {
+    "ace_pace": 1137
+   },
+   "origin": "deducido_scope_ace_2025"
+  },
+  {
+   "id": "LU-MATH-12-06",
+   "subject": "math",
+   "level": 12,
+   "slot": 6,
+   "concept": {
+    "en": "Recognizing polar graphs",
+    "es": "Reconocer gráficas polares"
+   },
+   "tip": {
+    "en": "Plot a few points for r = a cos(theta) and compare the shape with a circle.",
+    "es": "Grafica algunos puntos de r = a cos(theta) y compara la forma con una circunferencia."
+   },
+   "florida_strand": "MA.912.T",
+   "refs": {
+    "ace_pace": 1138
+   },
+   "origin": "deducido_scope_ace_2025"
+  },
+  {
+   "id": "LU-MATH-12-07",
+   "subject": "math",
+   "level": 12,
+   "slot": 7,
+   "concept": {
+    "en": "Using De Moivre's Theorem",
+    "es": "Usar el teorema de De Moivre"
+   },
+   "tip": {
+    "en": "Convert to polar form, raise the modulus to the power, multiply the angle, then convert back.",
+    "es": "Convierte a forma polar, eleva el módulo a la potencia, multiplica el ángulo y vuelve a la forma rectangular."
+   },
+   "florida_strand": "MA.912.T",
+   "refs": {
+    "ace_pace": 1139
+   },
+   "origin": "deducido_scope_ace_2025"
+  },
+  {
+   "id": "LU-MATH-12-08",
+   "subject": "math",
+   "level": 12,
+   "slot": 8,
+   "concept": {
+    "en": "Applying the Law of Cosines",
+    "es": "Aplicar la ley de los cosenos"
+   },
+   "tip": {
+    "en": "Use c^2 = a^2 + b^2 - 2ab cos C when you know two sides and the angle between them.",
+    "es": "Usa c^2 = a^2 + b^2 - 2ab cos C cuando conoces dos lados y el ángulo entre ellos."
+   },
+   "florida_strand": "MA.912.T",
+   "refs": {
+    "ace_pace": 1140
+   },
+   "origin": "deducido_scope_ace_2025"
+  },
+  {
+   "id": "LU-MATH-12-09",
+   "subject": "math",
+   "level": 12,
+   "slot": 9,
+   "concept": {
+    "en": "Simplifying with trig identities",
+    "es": "Simplificar con identidades trigonométricas"
+   },
+   "tip": {
+    "en": "Rewrite using sin^2 + cos^2 = 1, then cancel; keep an identity cheat sheet handy.",
+    "es": "Reescribe con sin^2 + cos^2 = 1 y luego cancela; ten a mano una hoja de identidades."
+   },
+   "florida_strand": "MA.912.T",
+   "refs": {
+    "ace_pace": 1141
+   },
+   "origin": "deducido_scope_ace_2025"
+  },
+  {
+   "id": "LU-MATH-12-10",
+   "subject": "math",
+   "level": 12,
+   "slot": 10,
+   "concept": {
+    "en": "Transformations of trig graphs",
+    "es": "Transformaciones de gráficas trigonométricas"
+   },
+   "tip": {
+    "en": "Factor the input to find the shift, then read amplitude, period, and midline step by step.",
+    "es": "Factoriza la entrada para hallar el desplazamiento y luego lee amplitud, período y línea media paso a paso."
+   },
+   "florida_strand": "MA.912.T",
+   "refs": {
+    "ace_pace": 1142
+   },
+   "origin": "deducido_scope_ace_2025"
+  },
+  {
+   "id": "LU-MATH-12-11",
+   "subject": "math",
+   "level": 12,
+   "slot": 11,
+   "concept": {
+    "en": "Composite inverse trig values",
+    "es": "Valores de funciones trigonométricas inversas compuestas"
+   },
+   "tip": {
+    "en": "Draw a right triangle for the inverse angle, find the missing side, then read the ratio.",
+    "es": "Dibuja un triángulo rectángulo para el ángulo inverso, halla el lado faltante y lee la razón."
+   },
+   "florida_strand": "MA.912.T",
+   "refs": {
+    "ace_pace": 1143
+   },
+   "origin": "deducido_scope_ace_2025"
+  },
+  {
+   "id": "LU-MATH-12-12",
+   "subject": "math",
+   "level": 12,
+   "slot": 12,
+   "concept": {
+    "en": "Quadratic-form trig equations",
+    "es": "Ecuaciones trigonométricas de forma cuadrática"
+   },
+   "tip": {
+    "en": "Substitute u for the trig function, factor the quadratic, then solve each resulting trig equation.",
+    "es": "Sustituye u por la función trigonométrica, factoriza la cuadrática y resuelve cada ecuación trigonométrica resultante."
+   },
+   "florida_strand": "MA.912.T",
+   "refs": {
+    "ace_pace": 1144
+   },
+   "origin": "deducido_scope_ace_2025"
+  }
+ ]
+}

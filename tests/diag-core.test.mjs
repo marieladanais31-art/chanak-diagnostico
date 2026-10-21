@@ -6,7 +6,7 @@ const C = require('../js/diag-core.js');
 
 const block = (level, wrongAces = [], n = 12) => {
   const [lo] = C.paceRange(level);
-  return { level, units: Array.from({ length: n }, (_, i) => ({ ace: lo + i, correct: !wrongAces.includes(lo + i), skill: 's' + i })) };
+  return { level, units: Array.from({ length: n }, (_, i) => ({ ace: lo + i, correct: !wrongAces.includes(lo + i), skill: 's' + i, lu: { id: `LU-X-${String(level).padStart(2, '0')}-${String(i + 1).padStart(2, '0')}` } })) };
 };
 
 test('punto de partida: 3 niveles abajo en primaria, 5 en secundaria', () => {
@@ -76,4 +76,11 @@ test('Kindergarten: <80 % → programa Kindergarten; ≥80 % → ABCs y continú
   assert.deepEqual([r.action, r.level], ['ask', 1]);
   r = C.next({ grade: 0, blocks: [k(9)] });
   assert.equal(r.action, 'done'); assert.equal(r.result.abcs, true);
+});
+
+test('las lagunas se expresan como unidades de aprendizaje y el punto de continuación también', () => {
+  const state = { grade: 4, blocks: [block(1, [1005]), block(2), block(3), block(4, [1040, 1041, 1042])] };
+  const r = C.next(state).result;
+  assert.equal(r.gaps[0].lu.id, 'LU-X-01-05');
+  assert.equal(r.continueAt.id, 'LU-X-04-04');
 });

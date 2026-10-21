@@ -24,7 +24,7 @@
       elaIntro: 'Evaluación de Inglés y Lectura. Empieza por debajo del curso declarado para detectar lagunas y sube hasta su nivel.',
       compIntro: 'Áreas complementarias: Ciencias, Geografía, Historia e Inteligencia Emocional.',
       supervisor: 'Supervisión: sin límite de tiempo total; descansos de 10–15 min cada 45 min. Usar lápiz y papel para los cálculos.',
-      level: 'Nivel', pace: 'PACE', gaps: 'Lagunas por cubrir', noGaps: 'Sin lagunas detectadas',
+      level: 'Nivel', pace: 'PACE', gaps: 'Conceptos a reforzar antes de avanzar', noGaps: 'No se detectaron conceptos por reforzar', continueAt: 'Continuar en la unidad', workLevel: 'Nivel de trabajo', refs: 'Referencias (ACE · CLE · LIFEPAC · Florida)', practice: 'Qué practicar', lu: 'Unidad de aprendizaje',
       skipENG: 'Se omitió la prueba de inglés (la familia indicó que todavía no lee inglés).',
       abcRec: 'Recomendación: programa Reading – ABC (lectura inicial en inglés) antes de continuar con el currículo en inglés.',
       kinderRec: 'Recomendación: programa de Kindergarten (preparación de lectura y matemáticas) antes del nivel 1.',
@@ -45,7 +45,7 @@
       elaIntro: 'English & Reading assessment. It starts below the declared grade to find gaps, then moves up to grade level.',
       compIntro: 'Additional areas: Science, Geography, History and Emotional Intelligence.',
       supervisor: 'Supervision: no overall time limit; take a 10–15 min break every 45 min. Use pencil and paper for calculations.',
-      level: 'Level', pace: 'PACE', gaps: 'Gaps to cover', noGaps: 'No gaps detected',
+      level: 'Level', pace: 'PACE', gaps: 'Concepts to reinforce before moving on', noGaps: 'No concepts to reinforce were detected', continueAt: 'Continue at unit', workLevel: 'Working level', refs: 'References (ACE · CLE · LIFEPAC · Florida)', practice: 'What to practice', lu: 'Learning Unit',
       skipENG: 'The English test was skipped (the family reported the student does not read English yet).',
       abcRec: 'Recommendation: Reading – ABC program (early reading in English) before continuing with the English-language curriculum.',
       kinderRec: 'Recommendation: Kindergarten program (reading and math readiness) before Level 1.',
@@ -241,6 +241,11 @@
   // ── Resultados ────────────────────────────────────────────────────────────
   const SD = () => ({ ...S.form, curso: S.form.curso === '' ? '' : GRADE_LABEL(Number(S.form.curso)) });
   function eqFor(level) { return C.equivalences(level, S.map) || null; }
+
+  // Unidad de aprendizaje (LU): el concepto Chanak. ACE/PACE, CLE y LIFEPAC son solo referencia.
+  const cap = (t) => (t ? t.charAt(0).toUpperCase() + t.slice(1) : t);
+  const luText = (lu, k) => (lu && lu[k] ? cap(lu[k][LANG] || lu[k].en || '') : '');
+  const luConcept = (g) => luText(g.lu, 'concept') || g.skill || '';
   const pct = (x) => Math.round((x || 0) * 100);
   const bar = (p) => `<div class="abb"><div class="abf ${p >= 80 ? 'f-verde' : p >= 65 ? 'f-azul' : p >= 50 ? 'f-amarillo' : 'f-rojo'}" style="width:${p}%"></div></div>`;
 
@@ -257,28 +262,38 @@
   function subjectCard(s) {
     const x = S.summary[s]; if (!x) return '';
     const r = x.res; const eq = x.eq; const lvl = x.level;
-    const deduced = eq && eq.ace[s === 'ela' ? 'english' : 'math'] && eq.ace[s === 'ela' ? 'english' : 'math'].status === 'deducido';
-    let head, notes = [];
-    if (r.kinder) { head = `${esc(T().perf)}: <strong>Kindergarten</strong>`; notes.push(T().kinderRec); }
-    else if (r.abcs) { head = `${esc(T().perf)}: <strong>Kindergarten ✓</strong>`; notes.push(T().abcsOk); }
-    else head = `${esc(T().perf)}: <strong>${esc(GRADE_LABEL(lvl))}</strong> · ${esc(T().startPoint)} <strong>PACE ${r.performancePace}</strong>`;
+    const key = s === 'ela' ? 'english' : 'math';
+    const deduced = eq && eq.ace[key] && eq.ace[key].status === 'deducido';
+    const notes = [];
+    let head;
+    if (r.kinder) { head = `${esc(T().workLevel)}: <strong>Kindergarten</strong>`; notes.push(T().kinderRec); }
+    else if (r.abcs) { head = `${esc(T().workLevel)}: <strong>Kindergarten ✓</strong>`; notes.push(T().abcsOk); }
+    else {
+      const at = r.continueAt;
+      head = `${esc(T().workLevel)}: <strong>${esc(GRADE_LABEL(lvl))}</strong>` + (at ? `<br>${esc(T().continueAt)}: <span class="lu-chip">${esc(at.id)}</span> ${esc(luText(at, 'concept'))}` : '');
+    }
     if (r.capped) notes.push(T().cappedNote);
     if (s === 'ela' && (r.kinder || (r.found && r.performanceLevel <= 1 && S.grade >= 3))) notes.push(T().abcRec);
     if (deduced) notes.push(T().deduced);
     const gaps = r.gaps || [];
-    const gapRows = gaps.length ? `<table class="equiv-t"><thead><tr><th>PACE</th><th>${LANG === 'es' ? 'Habilidad' : 'Skill'}</th><th>${LANG === 'es' ? 'Nivel' : 'Level'}</th><th>Florida</th></tr></thead><tbody>${gaps.map((g) => `<tr><td>${g.pace}</td><td>${esc(g.skill)}</td><td>${esc(GRADE_LABEL(g.level))}</td><td>${esc(g.strand || '')}</td></tr>`).join('')}</tbody></table>` : `<p class="muted">${esc(T().noGaps)}</p>`;
+    const gapCards = gaps.length
+      ? `<div class="lu-list">${gaps.map((g) => `<div class="lu-item"><div class="lu-top"><span class="lu-chip">${esc(g.lu ? g.lu.id : '')}</span><span class="lu-lvl">${esc(GRADE_LABEL(g.level))}</span></div><div class="lu-concept">${esc(luConcept(g))}</div>${luText(g.lu, 'tip') ? `<div class="lu-tip"><strong>${esc(T().practice)}:</strong> ${esc(luText(g.lu, 'tip'))}</div>` : ''}</div>`).join('')}</div>`
+      : `<p class="muted">${esc(T().noGaps)}</p>`;
     const lv = r.tested.map((l) => `<div class="arow"><div class="aname">${esc(GRADE_LABEL(l))}</div>${bar(pct(r.levelPct[l]))}<div class="apct">${pct(r.levelPct[l])}%</div></div>`).join('');
+    // Referencias externas: abajo y en pequeño
+    const refGaps = gaps.length ? `<tr><td><strong>${LANG === 'es' ? 'Lagunas (ACE PACE)' : 'Gaps (ACE PACE)'}</strong></td><td>${gaps.map((g) => `${esc(g.lu ? g.lu.id : '')} → ${g.pace}`).join(' · ')}</td></tr>` : '';
+    const refPerf = !r.kinder && !r.abcs && r.performancePace ? `<tr><td><strong>${LANG === 'es' ? 'Continuar (ACE PACE)' : 'Continue (ACE PACE)'}</strong></td><td>${r.performancePace}</td></tr>` : '';
     const eqRows = eq ? `
-      <tr><td><strong>ACE</strong></td><td>PACE ${eq.ace[s === 'ela' ? 'english' : 'math'].pace_range[0]}–${eq.ace[s === 'ela' ? 'english' : 'math'].pace_range[1]}</td></tr>
+      <tr><td><strong>ACE</strong></td><td>PACE ${eq.ace[key].pace_range[0]}–${eq.ace[key].pace_range[1]}</td></tr>
       <tr><td><strong>CLE</strong></td><td>${s === 'ela' ? 'Language Arts' : 'Math'} ${eq.cle.languageArts * 100}</td></tr>
       <tr><td><strong>LIFEPAC</strong></td><td>${s === 'ela' ? 'Language Arts' : 'Math'} ${eq.lifepac}</td></tr>
-      <tr><td><strong>Florida</strong></td><td>${esc(eq.florida)}</td></tr>
+      <tr><td><strong>Florida</strong></td><td>${esc(eq.florida)}${gaps.length ? ' · ' + [...new Set(gaps.map((g) => g.strand).filter(Boolean))].map(esc).join(', ') : ''}</td></tr>
       <tr><td><strong>Chanak</strong></td><td>${esc(SCOPE[s][LANG][lvl] || '')}</td></tr>` : '';
     return `<div class="icard subj"><h4>${esc(T().subj[s])}</h4><p>${head}</p>
       ${notes.map((n) => `<div class="note">${esc(n)}</div>`).join('')}
-      <div class="areas-list" style="margin-top:12px">${lv}</div>
-      ${eqRows ? `<table class="equiv-t"><thead><tr><th>${LANG === 'es' ? 'Sistema' : 'System'}</th><th>${LANG === 'es' ? 'Equivalencia' : 'Equivalent'}</th></tr></thead><tbody>${eqRows}</tbody></table>` : ''}
-      <h5>${esc(T().gaps)} (${gaps.length})</h5>${gapRows}</div>`;
+      <h5>${esc(T().gaps)} (${gaps.length})</h5>${gapCards}
+      <div class="areas-list" style="margin-top:14px">${lv}</div>
+      ${(eqRows || refGaps || refPerf) ? `<details class="refs"><summary>${esc(T().refs)}</summary><table class="equiv-t"><tbody>${refGaps}${refPerf}${eqRows}</tbody></table></details>` : ''}</div>`;
   }
 
   function renderResults() {
@@ -306,35 +321,40 @@
     if (S.comp) Object.entries(S.comp.by).forEach(([a, v]) => { (v.c / v.t >= 0.7 ? strong : need).push((AREA[LANG] || AREA.es)[a] || a); });
     return { strong, need };
   }
+  const luOut = (lu) => (lu ? { id: lu.id, concept: lu.concept, tip: lu.tip } : null);
   function buildPeiPayload() {
     const f = SD(); const sn = strengthsAndNeeds();
     const lines = [], plan = [];
     ['math', 'ela'].forEach((s) => {
-      const x = S.summary[s]; if (!x) return; const r = x.res;
-      const lbl = T().subj[s];
+      const x = S.summary[s]; if (!x) return; const r = x.res; const lbl = T().subj[s];
+      const cons = (r.gaps || []).map((g) => `${g.lu ? g.lu.id : ''} ${luConcept(g)}`.trim());
       if (r.kinder) { lines.push(`${lbl}: Kindergarten program`); plan.push(`${lbl}: Kindergarten`); return; }
-      if (r.abcs) { lines.push(`${lbl}: Kindergarten ✓ → Level 1`); plan.push(`${lbl}: Level 1 (PACE 1001)`); return; }
-      lines.push(`${lbl}: ${GRADE_LABEL(x.level)} · PACE ${r.performancePace}${r.gaps.length ? ` · gaps: ${r.gaps.map((g) => g.pace).join(', ')}` : ''}`);
-      plan.push(`${lbl}: ${r.gaps.length ? 'gap PACEs ' + r.gaps.map((g) => g.pace).join(', ') + ' → ' : ''}PACE ${r.performancePace}`);
+      if (r.abcs) { lines.push(`${lbl}: Kindergarten ✓ → Level 1`); plan.push(`${lbl}: Level 1`); return; }
+      const at = r.continueAt ? r.continueAt.id : '';
+      lines.push(`${lbl}: ${GRADE_LABEL(x.level)}${at ? ' · ' + at : ''}${cons.length ? ' · ' + (LANG === 'es' ? 'reforzar' : 'reinforce') + ': ' + cons.join('; ') : ''}`);
+      plan.push(`${lbl}: ${cons.length ? (LANG === 'es' ? 'reforzar ' : 'reinforce ') + cons.map((c) => c.split(' ')[0]).join(', ') + ' → ' : ''}${at}`);
     });
-    const sisArea = (o) => o;
-    return sisArea({
-      source: 'chanak-diagnostico-v2', version: '2.0', date: new Date().toISOString().slice(0, 10),
+    return {
+      source: 'chanak-diagnostico-v2', version: '2.1', date: new Date().toISOString().slice(0, 10),
       student: { name: f.nombre, birth_date: f.fecha || null, age: f.edad || null, declared_grade: Number(S.form.curso), country: f.pais || null, home_languages: f.idiomas || null, previous_school: f.centro || null },
       family: { guardian_name: f.tutor || null, email: f.email || null },
       track: S.track, english_reading_level: S.form.ingles, ui_language: LANG, us_version: S.us, mentor: f.mentor,
       subjects: ['math', 'ela'].filter((s) => S.summary[s]).map((s) => {
-        const r = S.summary[s].res; const eq = S.summary[s].eq;
-        return { subject: s, performance_level: S.summary[s].level, performance_pace: r.performancePace, kinder: r.kinder, abcs: r.abcs, found: r.found, capped: r.capped, tested_levels: r.tested, level_pct: r.levelPct,
-          gaps: r.gaps, equivalences: eq ? { ace_range: eq.ace[s === 'ela' ? 'english' : 'math'].pace_range, cle_level: eq.cle.languageArts * 100, lifepac_level: eq.lifepac, florida: eq.florida } : null };
+        const r = S.summary[s].res; const eq = S.summary[s].eq; const key = s === 'ela' ? 'english' : 'math';
+        return {
+          subject: s, working_level: S.summary[s].level, kinder: r.kinder, abcs: r.abcs, found: r.found, capped: r.capped,
+          continue_at: luOut(r.continueAt), tested_levels: r.tested, level_pct: r.levelPct,
+          learning_units_to_reinforce: (r.gaps || []).map((g) => ({ ...luOut(g.lu), level: g.level, strand: g.strand, refs: { ace_pace: g.pace } })),
+          references: { ace_performance_pace: r.performancePace || null, ace_range: eq ? eq.ace[key].pace_range : null, cle_level: eq ? eq.cle.languageArts * 100 : null, lifepac_level: eq ? eq.lifepac : null, florida: eq ? eq.florida : null },
+        };
       }),
       complementary: S.comp ? Object.fromEntries(Object.entries(S.comp.by).map(([a, v]) => [a, { correct: v.c, total: v.t }])) : null,
       pei_fields: {
         diagnostic_results: lines.join('\n'), strength_areas: sn.strong.join(', '), improvement_areas: sn.need.join(', '),
         subject_plan: plan.join('\n'), vocational_interest: f.intereses || null, required_adaptations: S.form.ingles === 'no' ? 'Reading – ABC (English reading readiness)' : null,
-        curriculum_base: 'A.C.E. (Accelerated Christian Education)', grade_level: GRADE_LABEL(Number(S.form.curso)),
+        curriculum_base: 'Chanak Learning Units (mastery-based)', grade_level: GRADE_LABEL(Number(S.form.curso)),
       },
-    });
+    };
   }
 
   window.generatePEI = () => {
@@ -344,22 +364,32 @@
     const fecha = new Date().toLocaleDateString(LANG === 'es' ? 'es-ES' : 'en-US', { day: '2-digit', month: 'long', year: 'numeric' });
     const sn = strengthsAndNeeds();
     const L = LANG === 'es'
-      ? { title: 'Plan Educativo Individualizado', issued: 'Emitido', student: 'Estudiante', age: 'Edad / Curso declarado', country: 'País de referencia', mentor: 'Mentor / Evaluador', start: 'Punto de partida por materia', summary: 'Resumen diagnóstico', strengths: 'Fortalezas', needs: 'Áreas a reforzar', goals: 'Objetivos prioritarios', plan: 'Plan de 8–12 semanas', obs: 'Observación del mentor', rec: 'Recomendación del mentor', voc: 'Intereses y vocación', sign: 'Firmas', gapsLbl: 'Lagunas', y: 'años', none: '—' }
-      : { title: 'Individualized Education Plan', issued: 'Issued', student: 'Student', age: 'Age / Declared grade', country: 'Reference country', mentor: 'Mentor / Evaluator', start: 'Starting point by subject', summary: 'Diagnostic summary', strengths: 'Strengths', needs: 'Areas to strengthen', goals: 'Priority goals', plan: '8–12 week plan', obs: "Mentor's observation", rec: "Mentor's recommendation", voc: 'Interests and vocation', sign: 'Signatures', gapsLbl: 'Gaps', y: 'years', none: '—' };
-    const startRows = ['math', 'ela'].filter((s) => S.summary[s]).map((s) => {
+      ? { title: 'Plan Educativo Individualizado', issued: 'Emitido', student: 'Estudiante', age: 'Edad / Curso declarado', country: 'País de referencia', mentor: 'Mentor / Evaluador', start: 'Punto de partida por materia', summary: 'Resumen diagnóstico', strengths: 'Fortalezas', needs: 'Áreas a reforzar', goals: 'Objetivos prioritarios', plan: 'Plan de 8–12 semanas', obs: 'Observación del mentor', rec: 'Recomendación del mentor', voc: 'Intereses y vocación', sign: 'Firmas', y: 'años', none: '—', concepts: 'Conceptos a reforzar antes de avanzar', refs: 'Referencias (solo orientativas)' }
+      : { title: 'Individualized Education Plan', issued: 'Issued', student: 'Student', age: 'Age / Declared grade', country: 'Reference country', mentor: 'Mentor / Evaluator', start: 'Starting point by subject', summary: 'Diagnostic summary', strengths: 'Strengths', needs: 'Areas to strengthen', goals: 'Priority goals', plan: '8–12 week plan', obs: "Mentor's observation", rec: "Mentor's recommendation", voc: 'Interests and vocation', sign: 'Signatures', y: 'years', none: '—', concepts: 'Concepts to reinforce before moving on', refs: 'References (indicative only)' };
+    const subs = ['math', 'ela'].filter((s) => S.summary[s]);
+    const startRows = subs.map((s) => {
       const x = S.summary[s]; const r = x.res;
-      const where = r.kinder ? 'Kindergarten' : r.abcs ? 'Kindergarten ✓ → Level 1' : `${GRADE_LABEL(x.level)} · PACE ${r.performancePace}`;
-      const gp = r.gaps && r.gaps.length ? r.gaps.map((g) => g.pace).join(', ') : L.none;
-      return `<tr><td><strong>${esc(T().subj[s])}</strong></td><td>${esc(where)}</td><td>${esc(gp)}</td></tr>`;
+      const where = r.kinder ? 'Kindergarten' : r.abcs ? 'Kindergarten ✓ → Level 1' : `${GRADE_LABEL(x.level)}${r.continueAt ? ' · ' + r.continueAt.id : ''}`;
+      return `<tr><td><strong>${esc(T().subj[s])}</strong></td><td>${esc(where)}</td><td>${esc(String((r.gaps || []).length))}</td></tr>`;
+    }).join('');
+    const conceptBlocks = subs.map((s) => {
+      const r = S.results[s]; if (!r || !r.gaps || !r.gaps.length) return '';
+      return `<h5 class="pei-h5">${esc(T().subj[s])}</h5><div class="lu-list">${r.gaps.map((g) => `<div class="lu-item"><div class="lu-top"><span class="lu-chip">${esc(g.lu ? g.lu.id : '')}</span><span class="lu-lvl">${esc(GRADE_LABEL(g.level))}</span></div><div class="lu-concept">${esc(luConcept(g))}</div>${luText(g.lu, 'tip') ? `<div class="lu-tip"><strong>${esc(T().practice)}:</strong> ${esc(luText(g.lu, 'tip'))}</div>` : ''}</div>`).join('')}</div>`;
     }).join('');
     const goals = [];
-    ['math', 'ela'].forEach((s) => { const r = S.results[s]; if (r && r.gaps && r.gaps.length) goals.push(LANG === 'es' ? `${T().subj[s]}: cubrir ${r.gaps.length} laguna(s) antes de avanzar (PACE ${r.gaps.map((g) => g.pace).join(', ')}).` : `${T().subj[s]}: close ${r.gaps.length} gap(s) before advancing (PACE ${r.gaps.map((g) => g.pace).join(', ')}).`); });
+    subs.forEach((s) => { const r = S.results[s]; if (r && r.gaps && r.gaps.length) goals.push(LANG === 'es' ? `${T().subj[s]}: reforzar ${r.gaps.length} concepto(s) antes de avanzar (${r.gaps.map((g) => g.lu && g.lu.id).filter(Boolean).join(', ')}).` : `${T().subj[s]}: reinforce ${r.gaps.length} concept(s) before moving on (${r.gaps.map((g) => g.lu && g.lu.id).filter(Boolean).join(', ')}).`); });
     if (S.form.ingles === 'no') goals.push(T().abcRec);
     goals.push(LANG === 'es' ? 'Aprendizaje por dominio (80 %) con revisión semanal del progreso.' : 'Mastery learning (80%) with weekly progress review.');
     goals.push(LANG === 'es' ? 'Fortalecer autonomía de estudio, hábitos y carácter (Life Skills & Leadership).' : 'Strengthen study autonomy, habits and character (Life Skills & Leadership).');
     const weeks = LANG === 'es'
-      ? [['Semanas 1–2', 'Presentación del plan a la familia, línea base y prescripción de PACE de lagunas.'], ['Semanas 3–5', 'Cubrir lagunas prioritarias con aprendizaje por dominio; revisión semanal con el mentor.'], ['Semanas 6–8', 'Incorporar el nivel de desempeño en Matemáticas e Inglés y consolidar las áreas complementarias.'], ['Semanas 9–12', 'Evaluación de progreso, ajuste del plan y re-diagnóstico si el alumno avanza con 94 % o más.']]
-      : [['Weeks 1–2', 'Plan presentation to the family, baseline and prescription of gap PACEs.'], ['Weeks 3–5', 'Close priority gaps with mastery learning; weekly mentor review.'], ['Weeks 6–8', 'Move into performance level in Math and English; consolidate additional areas.'], ['Weeks 9–12', 'Progress evaluation, plan adjustment and re-diagnosis if the student advances at 94% or higher.']];
+      ? [['Semanas 1–2', 'Presentación del plan a la familia, línea base y asignación de las unidades de aprendizaje a reforzar.'], ['Semanas 3–5', 'Reforzar los conceptos prioritarios con aprendizaje por dominio; revisión semanal con el mentor.'], ['Semanas 6–8', 'Avanzar a las unidades del nivel de trabajo en Matemáticas e Inglés y consolidar las áreas complementarias.'], ['Semanas 9–12', 'Evaluación de progreso, ajuste del plan y nueva evaluación si el alumno domina las unidades con 94 % o más.']]
+      : [['Weeks 1–2', 'Plan presentation to the family, baseline and assignment of the learning units to reinforce.'], ['Weeks 3–5', 'Reinforce the priority concepts with mastery learning; weekly mentor review.'], ['Weeks 6–8', 'Move into the working-level units in Math and English; consolidate additional areas.'], ['Weeks 9–12', 'Progress evaluation, plan adjustment and re-assessment if the student masters the units at 94% or higher.']];
+    const refRows = subs.map((s) => {
+      const x = S.summary[s]; const r = x.res; const eq = x.eq; const key = s === 'ela' ? 'english' : 'math';
+      if (!eq) return '';
+      const gp = (r.gaps || []).map((g) => g.pace).join(', ');
+      return `<tr><td><strong>${esc(T().subj[s])}</strong></td><td>ACE ${eq.ace[key].pace_range[0]}–${eq.ace[key].pace_range[1]}${r.performancePace ? ' · ' + r.performancePace : ''}${gp ? ' (' + gp + ')' : ''}</td><td>CLE ${eq.cle.languageArts * 100}</td><td>LIFEPAC ${eq.lifepac}</td><td>${esc(eq.florida)}</td></tr>`;
+    }).join('');
     $('pei-content').innerHTML = `
 <div class="pei-hdr"><div class="pei-la"><div class="pei-lb">CIA</div><div class="pei-org"><strong>Chanak International Academy</strong>FLDOE #134620 · ${LANG === 'es' ? 'Evaluación Diagnóstica' : 'Diagnostic Assessment'}</div></div><div class="pei-ta"><h2>${L.title}</h2><span>${L.issued}: ${esc(fecha)}</span></div></div>
 <div class="pei-dg">
@@ -370,13 +400,15 @@
   <div class="pdi"><label>Track</label><p>${S.track === 'dual' ? 'Dual Diploma' : 'Off-Campus'}</p></div>
   <div class="pdi"><label>${LANG === 'es' ? 'Duración del plan' : 'Plan length'}</label><p>8–12 ${LANG === 'es' ? 'semanas' : 'weeks'}</p></div>
 </div>
-<div class="pblk"><h3>${L.start}</h3><table class="equiv-t"><thead><tr><th>${LANG === 'es' ? 'Materia' : 'Subject'}</th><th>${LANG === 'es' ? 'Punto de partida' : 'Starting point'}</th><th>${L.gapsLbl} (PACE)</th></tr></thead><tbody>${startRows}</tbody></table></div>
+<div class="pblk"><h3>${L.start}</h3><table class="equiv-t"><thead><tr><th>${LANG === 'es' ? 'Materia' : 'Subject'}</th><th>${LANG === 'es' ? 'Nivel de trabajo y unidad' : 'Working level and unit'}</th><th>${LANG === 'es' ? 'Conceptos a reforzar' : 'Concepts to reinforce'}</th></tr></thead><tbody>${startRows}</tbody></table></div>
+${conceptBlocks ? `<div class="pblk"><h3>${L.concepts}</h3>${conceptBlocks}</div>` : ''}
 <div class="pblk"><h3>${L.summary}</h3><div class="pbox"><strong>${L.strengths}:</strong> ${esc(sn.strong.join(', ') || L.none)}<br><strong>${L.needs}:</strong> ${esc(sn.need.join(', ') || L.none)}<br><br><em>${L.obs}: ${esc(mObs)}</em></div></div>
 <div class="pblk"><h3>${L.goals}</h3><ul class="plist">${goals.map((g) => `<li>${esc(g)}</li>`).join('')}</ul></div>
 <div class="pblk"><h3>${L.plan}</h3><div class="sem-grid">${weeks.map(([a, b]) => `<div class="scard"><div class="per">${a}</div><p>${esc(b)}</p></div>`).join('')}</div></div>
 ${f.intereses ? `<div class="pblk"><h3>${L.voc}</h3><div class="pbox">${esc(f.intereses)}</div></div>` : ''}
 <div class="pblk"><h3>${L.rec}</h3><div class="pbox">${esc(mRec)}</div></div>
-<div class="pblk"><h3>${L.sign}</h3><div class="sign-row"><div>${LANG === 'es' ? 'Dirección' : 'Director'}<span></span></div><div>${LANG === 'es' ? 'Mentor' : 'Mentor'}<span></span></div><div>${LANG === 'es' ? 'Familia' : 'Family'}<span></span></div></div></div>`;
+<div class="pblk"><h3>${L.sign}</h3><div class="sign-row"><div>${LANG === 'es' ? 'Dirección' : 'Director'}<span></span></div><div>Mentor<span></span></div><div>${LANG === 'es' ? 'Familia' : 'Family'}<span></span></div></div></div>
+${refRows ? `<div class="pblk refs-foot"><h3>${L.refs}</h3><table class="equiv-t"><tbody>${refRows}</tbody></table></div>` : ''}`;
     showSection('pei');
   };
 
