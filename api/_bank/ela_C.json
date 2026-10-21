@@ -1,0 +1,917 @@
+{
+ "band": "ela_C",
+ "items": [
+  {
+   "id": "EN-09-1097",
+   "subject": "ela",
+   "level": 9,
+   "ace": 1097,
+   "skill": "Norman influence on English vocabulary",
+   "florida": "ELA.912.V",
+   "type": "mcq",
+   "prompt": "Which historical event brought thousands of French words, such as 'court,' 'justice,' and 'beef,' into the English language?",
+   "options": [
+    "The arrival of the Anglo-Saxons in Britain",
+    "The Norman Conquest of England in 1066",
+    "The invention of the printing press",
+    "The founding of the American colonies"
+   ],
+   "answer": 1,
+   "explain": "After 1066 the French-speaking Normans ruled England, so French vocabulary entered English, especially in law, government, and food.",
+   "source": "deducido_scope_ace_2025"
+  },
+  {
+   "id": "EN-09-1098",
+   "subject": "ela",
+   "level": 9,
+   "ace": 1098,
+   "skill": "choosing the right reference tool",
+   "florida": "ELA.912.V",
+   "type": "mcq",
+   "prompt": "A student wants to find every verse in the Bible that contains the word 'shepherd.' Which reference tool is best for this task?",
+   "options": [
+    "A thesaurus",
+    "An atlas",
+    "A concordance",
+    "An almanac"
+   ],
+   "answer": 2,
+   "explain": "A concordance lists each place a word appears in a text such as the Bible.",
+   "source": "deducido_scope_ace_2025"
+  },
+  {
+   "id": "EN-09-1099",
+   "subject": "ela",
+   "level": 9,
+   "ace": 1099,
+   "skill": "formal outline structure rules",
+   "florida": "ELA.912.C",
+   "type": "mcq",
+   "prompt": "A student is writing a formal outline for an essay. Under main heading 'I. Causes of the Flood,' she has written only one subpoint, 'A. Heavy spring rains.' What rule of formal outlining should she follow?",
+   "options": [
+    "Every subpoint A must be followed by at least a subpoint B.",
+    "Each main heading may have only one subpoint.",
+    "Subpoints should be written as complete paragraphs.",
+    "Main headings should use lowercase letters."
+   ],
+   "answer": 0,
+   "explain": "In a formal outline, a heading is divided only if it has at least two parts, so an A requires a B.",
+   "source": "deducido_scope_ace_2025"
+  },
+  {
+   "id": "EN-09-1100",
+   "subject": "ela",
+   "level": 9,
+   "ace": 1100,
+   "skill": "identifying passive voice",
+   "florida": "ELA.912.C",
+   "type": "mcq",
+   "prompt": "Which sentence is written in the passive voice?",
+   "options": [
+    "The deacons repaired the church roof last summer.",
+    "Our family will serve dinner at the shelter on Friday.",
+    "The volunteers have painted the classroom walls.",
+    "The new hymnals were donated by a local family."
+   ],
+   "answer": 3,
+   "explain": "In 'were donated by a local family,' the subject receives the action, which is passive voice.",
+   "source": "deducido_scope_ace_2025"
+  },
+  {
+   "id": "EN-09-1101",
+   "subject": "ela",
+   "level": 9,
+   "ace": 1101,
+   "skill": "theme in a survival novel",
+   "florida": "ELA.912.R",
+   "type": "mcq",
+   "prompt": "Read the passage.\n\nAfter the storm drove their ship onto the rocks, the family stood on the empty shore with only a few barrels and tools. The father did not complain; he gathered his sons and asked each one to name something they could still be thankful for. The eldest pointed to the fresh spring nearby, the youngest to the goats that had swum ashore. By evening they had built a shelter from sailcloth and driftwood, and before sleeping they thanked God together for sparing their lives.\n\nWhich theme is best supported by the passage?",
+   "options": [
+    "Wealth is the key to surviving hardship.",
+    "Gratitude and teamwork help people endure trials.",
+    "Nature is always cruel to those who travel.",
+    "Children should never be trusted with work."
+   ],
+   "answer": 1,
+   "explain": "The family responds to disaster with thankfulness and shared work, which supports the theme of gratitude and cooperation.",
+   "source": "deducido_scope_ace_2025"
+  },
+  {
+   "id": "EN-09-1102",
+   "subject": "ela",
+   "level": 9,
+   "ace": 1102,
+   "skill": "identifying narrative point of view",
+   "florida": "ELA.912.R",
+   "type": "mcq",
+   "prompt": "Read the passage.\n\nMarcus stared at the empty bench where his grandfather used to sit. He wondered whether anyone else at church even noticed it was empty. The pastor smiled at him as he passed, but Marcus could not tell what the pastor was thinking.\n\nFrom which point of view is the passage told?",
+   "options": [
+    "First person",
+    "Second person",
+    "Third-person omniscient",
+    "Third-person limited"
+   ],
+   "answer": 3,
+   "explain": "The narrator uses 'he' and reveals only Marcus's thoughts, not the pastor's, which is third-person limited.",
+   "source": "deducido_scope_ace_2025"
+  },
+  {
+   "id": "EN-09-1103",
+   "subject": "ela",
+   "level": 9,
+   "ace": 1103,
+   "skill": "evaluating a thesis statement",
+   "florida": "ELA.912.C",
+   "type": "mcq",
+   "prompt": "Which is the strongest thesis statement for an argumentative essay?",
+   "options": [
+    "This essay is about school uniforms.",
+    "School uniforms have been around for a long time in many countries.",
+    "Schools should adopt uniforms because they reduce distractions, lower family costs, and build a sense of community.",
+    "Some people like school uniforms and some people do not like them."
+   ],
+   "answer": 2,
+   "explain": "It takes a clear, arguable position and previews specific reasons.",
+   "source": "deducido_scope_ace_2025"
+  },
+  {
+   "id": "EN-09-1104",
+   "subject": "ela",
+   "level": 9,
+   "ace": 1104,
+   "skill": "punctuating nonrestrictive clauses",
+   "florida": "ELA.912.C",
+   "type": "mcq",
+   "prompt": "Which sentence is punctuated correctly?",
+   "options": [
+    "My grandmother, who taught Sunday school for forty years, still remembers every student's name.",
+    "My grandmother who taught Sunday school for forty years, still remembers every student's name.",
+    "My grandmother, who taught Sunday school for forty years still remembers every student's name.",
+    "My grandmother who taught Sunday school, for forty years, still remembers every student's name."
+   ],
+   "answer": 0,
+   "explain": "A nonrestrictive clause that adds extra information is set off by commas on both sides.",
+   "source": "deducido_scope_ace_2025"
+  },
+  {
+   "id": "EN-09-1105",
+   "subject": "ela",
+   "level": 9,
+   "ace": 1105,
+   "skill": "periods of the English language",
+   "florida": "ELA.912.V",
+   "type": "mcq",
+   "prompt": "Geoffrey Chaucer's The Canterbury Tales (late 1300s) is a famous example of literature written in which stage of the English language?",
+   "options": [
+    "Old English",
+    "Middle English",
+    "Early Modern English",
+    "Present-Day English"
+   ],
+   "answer": 1,
+   "explain": "Chaucer wrote in Middle English, the form used roughly from 1100 to 1500.",
+   "source": "deducido_scope_ace_2025"
+  },
+  {
+   "id": "EN-09-1106",
+   "subject": "ela",
+   "level": 9,
+   "ace": 1106,
+   "skill": "parts of a dictionary entry",
+   "florida": "ELA.912.V",
+   "type": "mcq",
+   "prompt": "Which part of a dictionary entry tells you that the word 'gospel' comes from the Old English 'godspel,' meaning 'good news'?",
+   "options": [
+    "The pronunciation key",
+    "The part-of-speech label",
+    "The etymology",
+    "The usage note"
+   ],
+   "answer": 2,
+   "explain": "The etymology gives the origin and history of a word.",
+   "source": "deducido_scope_ace_2025"
+  },
+  {
+   "id": "EN-09-1107",
+   "subject": "ela",
+   "level": 9,
+   "ace": 1107,
+   "skill": "writing an essay-answer opening",
+   "florida": "ELA.912.C",
+   "type": "mcq",
+   "prompt": "A test question says: 'Explain two reasons the early church grew rapidly in the first century.' Which sentence is the best way to begin an essay answer?",
+   "options": [
+    "The early church grew rapidly in the first century for two main reasons: the bold preaching of the apostles and the love believers showed one another.",
+    "There are many interesting things to learn about history.",
+    "I think this is a good question, and I will try my best to answer it.",
+    "Rome was a large empire with many roads and cities."
+   ],
+   "answer": 0,
+   "explain": "A strong essay answer restates the question and directly states the main points.",
+   "source": "deducido_scope_ace_2025"
+  },
+  {
+   "id": "EN-09-1108",
+   "subject": "ela",
+   "level": 9,
+   "ace": 1108,
+   "skill": "using the subjunctive mood",
+   "florida": "ELA.912.C",
+   "type": "mcq",
+   "prompt": "Which sentence correctly uses the subjunctive mood?",
+   "options": [
+    "If I was the captain, I would change course.",
+    "The coach insisted that every player arrives on time.",
+    "If I were in your place, I would apologize to her.",
+    "I wish that it was Saturday already."
+   ],
+   "answer": 2,
+   "explain": "The subjunctive uses 'were' for contrary-to-fact conditions: 'If I were in your place.'",
+   "source": "deducido_scope_ace_2025"
+  },
+  {
+   "id": "EN-10-1109",
+   "subject": "ela",
+   "level": 10,
+   "ace": 1109,
+   "skill": "identifying kinds of paragraphs",
+   "florida": "ELA.912.C",
+   "type": "mcq",
+   "prompt": "Read the paragraph.\n\nEvery family should set aside one evening a week for a shared meal without phones. Studies of teenagers suggest that regular family dinners are linked to better grades and stronger relationships. Moreover, a quiet table invites real conversation, prayer, and laughter. Surely an hour a week is a small price for such great rewards.\n\nWhat kind of paragraph is this?",
+   "options": [
+    "Narrative",
+    "Descriptive",
+    "Expository",
+    "Persuasive"
+   ],
+   "answer": 3,
+   "explain": "The writer argues for a position and urges readers to act, which makes it persuasive.",
+   "source": "deducido_scope_ace_2025"
+  },
+  {
+   "id": "EN-10-1110",
+   "subject": "ela",
+   "level": 10,
+   "ace": 1110,
+   "skill": "purpose of note and source cards",
+   "florida": "ELA.912.C",
+   "type": "mcq",
+   "prompt": "When researching, a student writes the number '3' at the top of several note cards. What is the main purpose of that number?",
+   "options": [
+    "It shows how many quotations are on the card.",
+    "It links each note to the matching source card so the source can be cited.",
+    "It ranks the note by how important it is.",
+    "It tells which page of the final paper the note will go on."
+   ],
+   "answer": 1,
+   "explain": "The source number connects each note to its source card, which holds the full citation information.",
+   "source": "deducido_scope_ace_2025"
+  },
+  {
+   "id": "EN-10-1111",
+   "subject": "ela",
+   "level": 10,
+   "ace": 1111,
+   "skill": "inferring meaning in a memoir",
+   "florida": "ELA.912.R",
+   "type": "mcq",
+   "prompt": "Read the passage from a missionary's memoir (an original text).\n\nFor months I tried to explain the word 'forgive' to the villagers, but no word in their language seemed to fit. One afternoon an old man returned a goat that his neighbor had stolen years before. 'Why?' I asked. He answered, 'I have untied his debt from his neck.' That evening I wrote those words into my translation, and for the first time the people understood the gospel I had come to share.\n\nWhat can the reader infer from the passage?",
+   "options": [
+    "The author learned the meaning of the villagers' expression from an everyday act of mercy.",
+    "The author decided to stop translating and return home.",
+    "The old man was angry that his goat had been stolen.",
+    "The villagers already had a written Bible in their language."
+   ],
+   "answer": 0,
+   "explain": "The author found the right phrase for 'forgive' by watching the old man's merciful act.",
+   "source": "deducido_scope_ace_2025"
+  },
+  {
+   "id": "EN-10-1112",
+   "subject": "ela",
+   "level": 10,
+   "ace": 1112,
+   "skill": "recognizing sentence patterns",
+   "florida": "ELA.912.C",
+   "type": "mcq",
+   "prompt": "Which sentence follows the pattern Subject - Verb - Indirect Object - Direct Object (S-V-IO-DO)?",
+   "options": [
+    "The choir sang beautifully.",
+    "Elena is the youth leader.",
+    "Grandpa gave my sister his old Bible.",
+    "The students elected Daniel president."
+   ],
+   "answer": 2,
+   "explain": "'Grandpa (S) gave (V) my sister (IO) his old Bible (DO).'",
+   "source": "deducido_scope_ace_2025"
+  },
+  {
+   "id": "EN-10-1113",
+   "subject": "ela",
+   "level": 10,
+   "ace": 1113,
+   "skill": "structure of a news article",
+   "florida": "ELA.912.C",
+   "type": "mcq",
+   "prompt": "A reporter writes a news article in the 'inverted pyramid' style. Where should the most important facts (who, what, when, where) appear?",
+   "options": [
+    "In the headline only",
+    "In the lead, at the very beginning of the article",
+    "In the middle paragraphs",
+    "In the final paragraph"
+   ],
+   "answer": 1,
+   "explain": "The inverted pyramid places the most important information in the lead and less important details later.",
+   "source": "deducido_scope_ace_2025"
+  },
+  {
+   "id": "EN-10-1114",
+   "subject": "ela",
+   "level": 10,
+   "ace": 1114,
+   "skill": "business letter conventions",
+   "florida": "ELA.912.C",
+   "type": "mcq",
+   "prompt": "A student is writing a letter of application for a summer job but does not know the manager's name. Which salutation is correct for this business letter?",
+   "options": [
+    "Hey there,",
+    "Dear Friend,",
+    "To whom it may concern;",
+    "Dear Hiring Manager:"
+   ],
+   "answer": 3,
+   "explain": "A business letter uses a formal salutation followed by a colon.",
+   "source": "deducido_scope_ace_2025"
+  },
+  {
+   "id": "EN-10-1115",
+   "subject": "ela",
+   "level": 10,
+   "ace": 1115,
+   "skill": "Dewey Decimal classification",
+   "florida": "ELA.912.V",
+   "type": "mcq",
+   "prompt": "In a library that uses the Dewey Decimal System, in which number range would you look for a book about the history of Christianity?",
+   "options": [
+    "000-099",
+    "200-299",
+    "500-599",
+    "800-899"
+   ],
+   "answer": 1,
+   "explain": "The 200s are the Dewey class for religion.",
+   "source": "deducido_scope_ace_2025"
+  },
+  {
+   "id": "EN-10-1116",
+   "subject": "ela",
+   "level": 10,
+   "ace": 1116,
+   "skill": "identifying poetic forms",
+   "florida": "ELA.912.R",
+   "type": "mcq",
+   "prompt": "A poem has fourteen lines written in iambic pentameter, three quatrains, and a final rhyming couplet. What form is it?",
+   "options": [
+    "Shakespearean sonnet",
+    "Haiku",
+    "Limerick",
+    "Free verse"
+   ],
+   "answer": 0,
+   "explain": "Fourteen lines of iambic pentameter arranged as three quatrains and a couplet define the Shakespearean (English) sonnet.",
+   "source": "deducido_scope_ace_2025"
+  },
+  {
+   "id": "EN-10-1117",
+   "subject": "ela",
+   "level": 10,
+   "ace": 1117,
+   "skill": "paragraph unity",
+   "florida": "ELA.912.C",
+   "type": "mcq",
+   "prompt": "Read the paragraph.\n\n(1) Honeybees communicate through a remarkable 'waggle dance.' (2) When a bee finds flowers, it returns to the hive and moves in a figure-eight pattern. (3) The angle of the dance shows the direction of the food compared to the sun. (4) Honey has been used as a sweetener for thousands of years. (5) The length of the waggle tells other bees how far away the flowers are.\n\nWhich sentence should be removed to improve the unity of the paragraph?",
+   "options": [
+    "Sentence 2",
+    "Sentence 3",
+    "Sentence 4",
+    "Sentence 5"
+   ],
+   "answer": 2,
+   "explain": "Sentence 4 is about honey's history, not how bees communicate, so it breaks the paragraph's unity.",
+   "source": "deducido_scope_ace_2025"
+  },
+  {
+   "id": "EN-10-1118",
+   "subject": "ela",
+   "level": 10,
+   "ace": 1118,
+   "skill": "biography versus autobiography",
+   "florida": "ELA.912.R",
+   "type": "mcq",
+   "prompt": "Which sentence most likely comes from an autobiography rather than a biography?",
+   "options": [
+    "She was born in a small farming town in 1921.",
+    "Historians agree that his early years shaped his later work.",
+    "I still remember the morning my father first took me fishing.",
+    "After the war, he moved his family to Chicago."
+   ],
+   "answer": 2,
+   "explain": "An autobiography is written by the subject about himself or herself, usually in first person.",
+   "source": "deducido_scope_ace_2025"
+  },
+  {
+   "id": "EN-10-1119",
+   "subject": "ela",
+   "level": 10,
+   "ace": 1119,
+   "skill": "analyzing character change",
+   "florida": "ELA.912.R",
+   "type": "mcq",
+   "prompt": "Read the passage (an original text).\n\nFor years Hannah refused to speak to the guard who had once mistreated her family. When she saw him at the market, old, thin, and alone, her first thought was to walk away. Instead, remembering the words 'Forgive, as you have been forgiven,' she bought him bread and sat with him while he ate. He wept, and she felt a weight lift from her own heart.\n\nHow does Hannah change in the passage?",
+   "options": [
+    "She moves from bitterness to forgiveness.",
+    "She moves from trust to suspicion.",
+    "She moves from wealth to poverty.",
+    "She moves from courage to fear."
+   ],
+   "answer": 0,
+   "explain": "Hannah begins by refusing to speak to the guard and ends by showing him kindness and feeling freed.",
+   "source": "deducido_scope_ace_2025"
+  },
+  {
+   "id": "EN-10-1120",
+   "subject": "ela",
+   "level": 10,
+   "ace": 1120,
+   "skill": "identifying predicate nominatives",
+   "florida": "ELA.912.C",
+   "type": "mcq",
+   "prompt": "Which sentence contains a predicate nominative?",
+   "options": [
+    "The garden looks lovely in spring.",
+    "My uncle became a pastor last year.",
+    "The children carried the baskets home.",
+    "We gave the visitors a warm welcome."
+   ],
+   "answer": 1,
+   "explain": "'Pastor' follows the linking verb 'became' and renames the subject 'uncle,' so it is a predicate nominative.",
+   "source": "deducido_scope_ace_2025"
+  },
+  {
+   "id": "EN-11-1121",
+   "subject": "ela",
+   "level": 11,
+   "ace": 1121,
+   "skill": "identifying sentence fragments",
+   "florida": "ELA.912.C",
+   "type": "mcq",
+   "prompt": "Which of the following is a sentence fragment?",
+   "options": [
+    "The youth group packed boxes for the food bank.",
+    "Because the bridge had washed out during the night.",
+    "After lunch, we hiked to the top of the ridge.",
+    "Rain fell, and the river began to rise."
+   ],
+   "answer": 1,
+   "explain": "It begins with a subordinating conjunction and has no independent clause, so it cannot stand alone.",
+   "source": "deducido_scope_ace_2025"
+  },
+  {
+   "id": "EN-11-1122",
+   "subject": "ela",
+   "level": 11,
+   "ace": 1122,
+   "skill": "American Transcendentalism",
+   "florida": "ELA.912.R",
+   "type": "mcq",
+   "prompt": "Which American literary movement of the mid-1800s, led by writers such as Ralph Waldo Emerson and Henry David Thoreau, stressed intuition, self-reliance, and the spiritual value of nature?",
+   "options": [
+    "Puritanism",
+    "Realism",
+    "Transcendentalism",
+    "Modernism"
+   ],
+   "answer": 2,
+   "explain": "Emerson and Thoreau were the leading Transcendentalists, who emphasized intuition, nature, and self-reliance.",
+   "source": "deducido_scope_ace_2025"
+  },
+  {
+   "id": "EN-11-1123",
+   "subject": "ela",
+   "level": 11,
+   "ace": 1123,
+   "skill": "recognizing rhetorical appeals",
+   "florida": "ELA.912.R",
+   "type": "mcq",
+   "prompt": "A speaker is persuading a city council to fund a new clinic. Which sentence relies mainly on ethos (the speaker's credibility)?",
+   "options": [
+    "Imagine a mother holding a feverish child with nowhere to go at midnight.",
+    "The nearest emergency room is forty minutes away by car.",
+    "As a nurse who has served this community for twenty-two years, I have seen this need firsthand.",
+    "If we do nothing, more families will suffer every single year."
+   ],
+   "answer": 2,
+   "explain": "The speaker builds credibility by citing professional experience, which is an appeal to ethos.",
+   "source": "deducido_scope_ace_2025"
+  },
+  {
+   "id": "EN-11-1124",
+   "subject": "ela",
+   "level": 11,
+   "ace": 1124,
+   "skill": "recognizing foreshadowing",
+   "florida": "ELA.912.R",
+   "type": "mcq",
+   "prompt": "Read the passage (an original text).\n\nAs the wagon rolled out of town, Jacob noticed that the left wheel wobbled slightly. 'It'll hold,' his brother said, waving the worry away. Jacob glanced at the steep mountain road ahead and said nothing, but he kept his eyes on that wheel for the rest of the morning.\n\nWhat is the main effect of the detail about the wobbling wheel?",
+   "options": [
+    "It describes the setting of the town in detail.",
+    "It foreshadows possible trouble on the journey ahead.",
+    "It reveals that the brothers dislike each other.",
+    "It shows the story is told in first person."
+   ],
+   "answer": 1,
+   "explain": "The wobbling wheel and the steep road hint that a problem will happen later, which is foreshadowing.",
+   "source": "deducido_scope_ace_2025"
+  },
+  {
+   "id": "EN-11-1125",
+   "subject": "ela",
+   "level": 11,
+   "ace": 1125,
+   "skill": "knowing what to cite in research",
+   "florida": "ELA.912.C",
+   "type": "mcq",
+   "prompt": "A student is writing a research paper on water shortages. Which of the following must be cited?",
+   "options": [
+    "The fact that water freezes at 32 degrees Fahrenheit",
+    "The student's own opinion in the conclusion",
+    "The fact that Florida is a state in the United States",
+    "A statistic from a 2023 government report on aquifer levels"
+   ],
+   "answer": 3,
+   "explain": "Specific data taken from a source must be cited; common knowledge and one's own ideas do not need citations.",
+   "source": "deducido_scope_ace_2025"
+  },
+  {
+   "id": "EN-11-1126",
+   "subject": "ela",
+   "level": 11,
+   "ace": 1126,
+   "skill": "reading workplace documents",
+   "florida": "ELA.912.R",
+   "type": "mcq",
+   "prompt": "Read the notice (an original document).\n\nEMPLOYEE NOTICE: Shift-swap requests must be submitted to a supervisor at least 48 hours before the shift begins. Requests made with less notice will be approved only in a medical emergency. Both employees must sign the swap form. Approved swaps will be posted on the break-room schedule.\n\nLena wants to trade her Saturday 9:00 a.m. shift with a coworker. Based on the notice, what must she do?",
+   "options": [
+    "Post the change on the break-room schedule herself by Saturday morning.",
+    "Text the supervisor on Friday night to explain the change.",
+    "Submit a form signed by both employees by Thursday 9:00 a.m.",
+    "Find a coworker and switch without telling anyone."
+   ],
+   "answer": 2,
+   "explain": "The request needs both signatures and must be in at least 48 hours before the 9:00 a.m. Saturday shift, which is Thursday 9:00 a.m.",
+   "source": "deducido_scope_ace_2025"
+  },
+  {
+   "id": "EN-11-1127",
+   "subject": "ela",
+   "level": 11,
+   "ace": 1127,
+   "skill": "central conflict in In His Steps",
+   "florida": "ELA.912.R",
+   "type": "mcq",
+   "prompt": "In Charles M. Sheldon's novel In His Steps (1896), members of a church pledge that for one year they will ask 'What would Jesus do?' before every decision and then act on the answer, whatever it costs them. A newspaper editor, for example, stops printing stories that he believes are harmful, even though he loses readers and money.\n\nWhich conflict is central to the novel, based on this description?",
+   "options": [
+    "Characters struggle between following Christ's example and protecting their own comfort and success.",
+    "Characters struggle to survive a natural disaster in their town.",
+    "Characters compete with one another to win an election.",
+    "Characters try to solve a mystery about a stolen fortune."
+   ],
+   "answer": 0,
+   "explain": "The pledge forces characters to choose Christlike actions even when it costs them money, status, or comfort.",
+   "source": "deducido_scope_ace_2025"
+  },
+  {
+   "id": "EN-11-1128",
+   "subject": "ela",
+   "level": 11,
+   "ace": 1128,
+   "skill": "identifying allegory",
+   "florida": "ELA.912.R",
+   "type": "mcq",
+   "prompt": "In John Bunyan's The Pilgrim's Progress, a man named Christian travels from the City of Destruction to the Celestial City, meeting characters named Faithful, Hopeful, and Giant Despair. This kind of work, in which characters and events stand for abstract ideas, is called",
+   "options": [
+    "a parody",
+    "an allegory",
+    "a satire",
+    "a biography"
+   ],
+   "answer": 1,
+   "explain": "An allegory is a story in which characters and events represent ideas, such as spiritual virtues and struggles.",
+   "source": "deducido_scope_ace_2025"
+  },
+  {
+   "id": "EN-11-1129",
+   "subject": "ela",
+   "level": 11,
+   "ace": 1129,
+   "skill": "correcting a comma splice",
+   "florida": "ELA.912.C",
+   "type": "mcq",
+   "prompt": "Which option correctly fixes this comma splice?\n\n'The storm knocked out the power, the family read by candlelight.'",
+   "options": [
+    "The storm knocked out the power the family read by candlelight.",
+    "The storm knocked out the power, so the family read by candlelight.",
+    "The storm knocked out the power, and, the family read by candlelight.",
+    "The storm, knocked out the power, the family read by candlelight."
+   ],
+   "answer": 1,
+   "explain": "Adding the coordinating conjunction 'so' after the comma correctly joins the two independent clauses.",
+   "source": "deducido_scope_ace_2025"
+  },
+  {
+   "id": "EN-11-1130",
+   "subject": "ela",
+   "level": 11,
+   "ace": 1130,
+   "skill": "American Realism",
+   "florida": "ELA.912.R",
+   "type": "mcq",
+   "prompt": "After the Civil War, writers such as Mark Twain and William Dean Howells tried to portray ordinary people and everyday life truthfully, using regional dialects and common settings. Which literary period does this describe?",
+   "options": [
+    "Realism",
+    "Romanticism",
+    "Puritanism",
+    "The Harlem Renaissance"
+   ],
+   "answer": 0,
+   "explain": "Realism focused on accurate portrayals of ordinary life, and Twain and Howells are key Realists.",
+   "source": "deducido_scope_ace_2025"
+  },
+  {
+   "id": "EN-11-1131",
+   "subject": "ela",
+   "level": 11,
+   "ace": 1131,
+   "skill": "synthesizing sources in an essay",
+   "florida": "ELA.912.C",
+   "type": "mcq",
+   "prompt": "A student is writing a synthesis essay on whether teens should have part-time jobs. Source A says jobs teach responsibility. Source B says long work hours can lower grades. Which sentence best synthesizes the two sources?",
+   "options": [
+    "Source A says jobs teach responsibility.",
+    "Many teenagers in America have jobs.",
+    "Source B is better than Source A because it uses more numbers.",
+    "While part-time work can build responsibility (Source A), limiting hours is important so grades do not suffer (Source B)."
+   ],
+   "answer": 3,
+   "explain": "Synthesis combines ideas from both sources into one connected claim.",
+   "source": "deducido_scope_ace_2025"
+  },
+  {
+   "id": "EN-11-1132",
+   "subject": "ela",
+   "level": 11,
+   "ace": 1132,
+   "skill": "indirect characterization",
+   "florida": "ELA.912.R",
+   "type": "mcq",
+   "prompt": "Read the passage (an original text).\n\nWhen the new girl dropped her tray in the cafeteria, the room went silent. Ruth set down her own lunch, knelt on the sticky floor, and began picking up the scattered grapes. 'Come sit with us,' she said quietly, handing the girl a napkin.\n\nWhat does Ruth's behavior reveal about her character?",
+   "options": [
+    "She is careless and clumsy.",
+    "She is shy and wants to be left alone.",
+    "She is compassionate and welcoming.",
+    "She is proud and wants attention."
+   ],
+   "answer": 2,
+   "explain": "Ruth's actions, not direct statements, show kindness and a desire to include the new student.",
+   "source": "deducido_scope_ace_2025"
+  },
+  {
+   "id": "EN-12-1133",
+   "subject": "ela",
+   "level": 12,
+   "ace": 1133,
+   "skill": "Old English literary period",
+   "florida": "ELA.912.R",
+   "type": "mcq",
+   "prompt": "Which work belongs to the Old English (Anglo-Saxon) period of British literature?",
+   "options": [
+    "Beowulf",
+    "The Canterbury Tales",
+    "Paradise Lost",
+    "Pride and Prejudice"
+   ],
+   "answer": 0,
+   "explain": "Beowulf is the best-known Old English epic; the others are Middle English, Renaissance/Puritan, and Romantic-era works.",
+   "source": "deducido_scope_ace_2025"
+  },
+  {
+   "id": "EN-12-1134",
+   "subject": "ela",
+   "level": 12,
+   "ace": 1134,
+   "skill": "determining word meaning from context",
+   "florida": "ELA.912.V",
+   "type": "mcq",
+   "prompt": "Read the sentence.\n\n'When the reporter asked whether the team would quit, the coach's laconic reply was simply, \"No.\"'\n\nWhat does 'laconic' most nearly mean?",
+   "options": [
+    "Angry and loud",
+    "Using very few words",
+    "Long and detailed",
+    "Uncertain and confused"
+   ],
+   "answer": 1,
+   "explain": "The one-word reply shows that 'laconic' means brief, using few words.",
+   "source": "deducido_scope_ace_2025"
+  },
+  {
+   "id": "EN-12-1135",
+   "subject": "ela",
+   "level": 12,
+   "ace": 1135,
+   "skill": "identifying modes of discourse",
+   "florida": "ELA.912.C",
+   "type": "mcq",
+   "prompt": "Read the paragraph.\n\nTo replant a seedling, first water it well so the roots hold together. Next, dig a hole twice as wide as the pot. Then gently tip the seedling out, set it in the hole at the same depth, and press the soil firmly around it. Finally, water it again to remove air pockets.\n\nWhich mode of writing is this paragraph?",
+   "options": [
+    "Narration",
+    "Description",
+    "Exposition",
+    "Persuasion"
+   ],
+   "answer": 2,
+   "explain": "The paragraph explains a process step by step, which is exposition.",
+   "source": "deducido_scope_ace_2025"
+  },
+  {
+   "id": "EN-12-1136",
+   "subject": "ela",
+   "level": 12,
+   "ace": 1136,
+   "skill": "recognizing parallel structure",
+   "florida": "ELA.912.C",
+   "type": "mcq",
+   "prompt": "Which sentence uses correct parallel structure?",
+   "options": [
+    "She enjoys reading, to hike, and the piano.",
+    "She enjoys reading, hiking, and playing the piano.",
+    "She enjoys to read, hiking, and she plays the piano.",
+    "She enjoys reading, hikes, and to play the piano."
+   ],
+   "answer": 1,
+   "explain": "All three items are gerunds: reading, hiking, playing.",
+   "source": "deducido_scope_ace_2025"
+  },
+  {
+   "id": "EN-12-1137",
+   "subject": "ela",
+   "level": 12,
+   "ace": 1137,
+   "skill": "connotation of synonyms",
+   "florida": "ELA.912.V",
+   "type": "mcq",
+   "prompt": "The words below have similar denotations. Which word has the most negative connotation?",
+   "options": [
+    "Thrifty",
+    "Economical",
+    "Frugal",
+    "Stingy"
+   ],
+   "answer": 3,
+   "explain": "'Stingy' suggests selfishness, while the other words suggest wise use of money.",
+   "source": "deducido_scope_ace_2025"
+  },
+  {
+   "id": "EN-12-1138",
+   "subject": "ela",
+   "level": 12,
+   "ace": 1138,
+   "skill": "irony in The Rime of the Ancient Mariner",
+   "florida": "ELA.912.R",
+   "type": "mcq",
+   "prompt": "In Samuel Taylor Coleridge's The Rime of the Ancient Mariner, the becalmed sailors cry, 'Water, water, every where, / Nor any drop to drink.' What makes these lines ironic?",
+   "options": [
+    "The sailors are about to reach a fresh-water spring.",
+    "The ship is sinking because it is full of rainwater.",
+    "The sailors refuse to drink because they are stubborn.",
+    "The sailors are surrounded by water yet dying of thirst because it is salt water."
+   ],
+   "answer": 3,
+   "explain": "The situation is ironic: endless sea water surrounds them, but none of it can quench their thirst.",
+   "source": "deducido_scope_ace_2025"
+  },
+  {
+   "id": "EN-12-1139",
+   "subject": "ela",
+   "level": 12,
+   "ace": 1139,
+   "skill": "theme in Shakespeare's Macbeth",
+   "florida": "ELA.912.R",
+   "type": "mcq",
+   "prompt": "Early in Shakespeare's Macbeth, the witches chant, 'Fair is foul, and foul is fair.' Which theme of the play does this paradox introduce?",
+   "options": [
+    "Appearances can be deceiving, and good and evil may be hard to tell apart.",
+    "True love always overcomes every obstacle.",
+    "Hard work is always rewarded with success.",
+    "Nature is peaceful and unaffected by human choices."
+   ],
+   "answer": 0,
+   "explain": "The paradox signals that in the play things that look good may be evil, and the reverse.",
+   "source": "deducido_scope_ace_2025"
+  },
+  {
+   "id": "EN-12-1140",
+   "subject": "ela",
+   "level": 12,
+   "ace": 1140,
+   "skill": "effective speech delivery",
+   "florida": "ELA.912.C",
+   "type": "mcq",
+   "prompt": "A student will give a speech using brief notes rather than reading a full script or memorizing every word. Which delivery method is this, and why is it often recommended?",
+   "options": [
+    "Manuscript delivery, because it guarantees no mistakes",
+    "Impromptu delivery, because it needs no preparation",
+    "Memorized delivery, because it sounds the most natural",
+    "Extemporaneous delivery, because it is prepared yet allows eye contact and a natural tone"
+   ],
+   "answer": 3,
+   "explain": "Extemporaneous speaking uses prepared notes and a conversational style with eye contact.",
+   "source": "deducido_scope_ace_2025"
+  },
+  {
+   "id": "EN-12-1141",
+   "subject": "ela",
+   "level": 12,
+   "ace": 1141,
+   "skill": "British Romantic period",
+   "florida": "ELA.912.R",
+   "type": "mcq",
+   "prompt": "Which British literary period, including poets such as William Wordsworth and Samuel Taylor Coleridge, emphasized emotion, imagination, and the beauty of nature?",
+   "options": [
+    "The Restoration",
+    "The Romantic period",
+    "The Victorian period",
+    "The Modern period"
+   ],
+   "answer": 1,
+   "explain": "Wordsworth and Coleridge launched English Romanticism, which valued emotion, imagination, and nature.",
+   "source": "deducido_scope_ace_2025"
+  },
+  {
+   "id": "EN-12-1142",
+   "subject": "ela",
+   "level": 12,
+   "ace": 1142,
+   "skill": "using roots to define words",
+   "florida": "ELA.912.V",
+   "type": "mcq",
+   "prompt": "Using word parts (circum- = around; loqu/locut = speak), what does 'circumlocution' most nearly mean?",
+   "options": [
+    "Speaking clearly and directly",
+    "Traveling around the world",
+    "Talking around a subject instead of stating it plainly",
+    "Speaking in a loud, forceful voice"
+   ],
+   "answer": 2,
+   "explain": "Circum (around) + locution (speaking) = speaking around a point.",
+   "source": "deducido_scope_ace_2025"
+  },
+  {
+   "id": "EN-12-1143",
+   "subject": "ela",
+   "level": 12,
+   "ace": 1143,
+   "skill": "identifying logical fallacies",
+   "florida": "ELA.912.R",
+   "type": "mcq",
+   "prompt": "Which statement is an example of an ad hominem fallacy?",
+   "options": [
+    "We should not accept Mr. Lee's plan for the budget, because he dresses badly.",
+    "Two of my friends got sick after eating sushi, so all sushi is unsafe.",
+    "Either we cancel the trip or everyone will get hurt.",
+    "Everyone is buying this phone, so it must be the best one."
+   ],
+   "answer": 0,
+   "explain": "Ad hominem attacks the person (his clothing) rather than his argument; the others are hasty generalization, false dilemma, and bandwagon.",
+   "source": "deducido_scope_ace_2025"
+  },
+  {
+   "id": "EN-12-1144",
+   "subject": "ela",
+   "level": 12,
+   "ace": 1144,
+   "skill": "parallelism with correlative conjunctions",
+   "florida": "ELA.912.C",
+   "type": "mcq",
+   "prompt": "Which revision of the sentence uses correct parallelism?\n\n'The mission trip was not only exhausting but also it rewarded us.'",
+   "options": [
+    "The mission trip not only was exhausting but also it was rewarding.",
+    "The mission trip was not only exhausting but also rewarding.",
+    "The mission trip was not only exhausting, it also rewarded us.",
+    "Not only the mission trip was exhausting but also rewarding."
+   ],
+   "answer": 1,
+   "explain": "After 'not only' and 'but also,' both parts should be the same form: two adjectives, 'exhausting' and 'rewarding.'",
+   "source": "deducido_scope_ace_2025"
+  }
+ ]
+}

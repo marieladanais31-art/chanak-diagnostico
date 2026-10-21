@@ -1,0 +1,917 @@
+{
+ "band": "ela_B",
+ "items": [
+  {
+   "id": "EN-05-1049",
+   "subject": "ela",
+   "level": 5,
+   "ace": 1049,
+   "skill": "Identify interrogative sentence and punctuation",
+   "florida": "ELA.5.C",
+   "type": "mcq",
+   "prompt": "Which sentence is an interrogative sentence with the correct end punctuation?",
+   "options": [
+    "Please pass the bread to Grandma.",
+    "Did you feed the puppy this morning?",
+    "What a beautiful sunset we saw!",
+    "Where the children played after church."
+   ],
+   "answer": 1,
+   "explain": "An interrogative sentence asks a question and ends with a question mark; the last choice is a fragment.",
+   "source": "leido_diagnostico_ace"
+  },
+  {
+   "id": "EN-05-1050",
+   "subject": "ela",
+   "level": 5,
+   "ace": 1050,
+   "skill": "Form irregular plural nouns",
+   "florida": "ELA.5.C",
+   "type": "mcq",
+   "prompt": "Which sentence uses the correct plural form of a noun?",
+   "options": [
+    "The farmer counted six sheeps in the field.",
+    "Three mouses hid behind the barn door.",
+    "Two wolves howled under the bright moon.",
+    "Mother bought five loafs of bread."
+   ],
+   "answer": 2,
+   "explain": "Wolf becomes wolves; the correct plurals of the others are sheep, mice, and loaves.",
+   "source": "leido_diagnostico_ace"
+  },
+  {
+   "id": "EN-05-1051",
+   "subject": "ela",
+   "level": 5,
+   "ace": 1051,
+   "skill": "Identify helping verbs",
+   "florida": "ELA.5.C",
+   "type": "mcq",
+   "prompt": "Read the sentence: \"The choir will be singing at the church picnic.\" Which words are the helping (auxiliary) verbs?",
+   "options": [
+    "be singing",
+    "will be",
+    "will singing",
+    "singing at"
+   ],
+   "answer": 1,
+   "explain": "Will and be help the main verb singing.",
+   "source": "leido_diagnostico_ace"
+  },
+  {
+   "id": "EN-05-1052",
+   "subject": "ela",
+   "level": 5,
+   "ace": 1052,
+   "skill": "Subject-verb agreement in number",
+   "florida": "ELA.5.C",
+   "type": "mcq",
+   "prompt": "Choose the verb that agrees with the subject: \"The bells in the old tower ____ every Sunday morning.\"",
+   "options": [
+    "rings",
+    "is ringing",
+    "has rung",
+    "ring"
+   ],
+   "answer": 3,
+   "explain": "The subject is bells (plural), not tower, so the plural verb ring is needed.",
+   "source": "leido_diagnostico_ace"
+  },
+  {
+   "id": "EN-05-1053",
+   "subject": "ela",
+   "level": 5,
+   "ace": 1053,
+   "skill": "Use objective case pronouns",
+   "florida": "ELA.5.C",
+   "type": "mcq",
+   "prompt": "Choose the correct pronoun: \"Dad drove Sam and ____ to the library.\"",
+   "options": [
+    "me",
+    "I",
+    "myself",
+    "mine"
+   ],
+   "answer": 0,
+   "explain": "The pronoun is a direct object of drove, so the objective case me is correct (Dad drove me).",
+   "source": "leido_diagnostico_ace"
+  },
+  {
+   "id": "EN-05-1054",
+   "subject": "ela",
+   "level": 5,
+   "ace": 1054,
+   "skill": "Find direct object for diagramming",
+   "florida": "ELA.5.C",
+   "type": "mcq",
+   "prompt": "On a sentence diagram, the subject, verb, and direct object sit on the base line, and the direct object comes after a short line that does not cross the base line. In the sentence \"Every morning, Noah feeds the hungry chickens,\" which word goes after that short line?",
+   "options": [
+    "Noah",
+    "feeds",
+    "chickens",
+    "morning"
+   ],
+   "answer": 2,
+   "explain": "Chickens receives the action of feeds, so it is the direct object.",
+   "source": "leido_diagnostico_ace"
+  },
+  {
+   "id": "EN-05-1055",
+   "subject": "ela",
+   "level": 5,
+   "ace": 1055,
+   "skill": "Identify complete subject",
+   "florida": "ELA.5.C",
+   "type": "mcq",
+   "prompt": "What is the complete subject of this sentence? \"The tall oak tree beside our church lost all its leaves in October.\"",
+   "options": [
+    "The tall oak tree",
+    "tree",
+    "oak tree beside our church lost",
+    "The tall oak tree beside our church"
+   ],
+   "answer": 3,
+   "explain": "The complete subject is the simple subject tree plus all the words that describe it, ending before the verb lost.",
+   "source": "leido_diagnostico_ace"
+  },
+  {
+   "id": "EN-05-1056",
+   "subject": "ela",
+   "level": 5,
+   "ace": 1056,
+   "skill": "Recognize predicate adjective",
+   "florida": "ELA.5.C",
+   "type": "mcq",
+   "prompt": "In the sentence \"The lemonade tasted sour,\" what is the word \"sour\"?",
+   "options": [
+    "predicate adjective",
+    "direct object",
+    "adverb",
+    "predicate noun"
+   ],
+   "answer": 0,
+   "explain": "Tasted is a linking verb here, and sour describes the subject lemonade, so it is a predicate adjective.",
+   "source": "leido_diagnostico_ace"
+  },
+  {
+   "id": "EN-05-1057",
+   "subject": "ela",
+   "level": 5,
+   "ace": 1057,
+   "skill": "Use correct forms of comparison",
+   "florida": "ELA.5.C",
+   "type": "mcq",
+   "prompt": "Which sentence uses the correct form of comparison?",
+   "options": [
+    "Of the three puppies, Max is the most smallest.",
+    "Lily runs faster than her older brother.",
+    "This is the more beautiful flower of all.",
+    "Ben sang more louder than anyone else."
+   ],
+   "answer": 1,
+   "explain": "Faster compares two people correctly; the others double the comparison or use the wrong degree.",
+   "source": "leido_diagnostico_ace"
+  },
+  {
+   "id": "EN-05-1058",
+   "subject": "ela",
+   "level": 5,
+   "ace": 1058,
+   "skill": "Choose lie or lay correctly",
+   "florida": "ELA.5.C",
+   "type": "mcq",
+   "prompt": "Choose the correct verb: \"After lunch, Grandpa likes to ____ down on the couch.\"",
+   "options": [
+    "lay",
+    "laid",
+    "lain",
+    "lie"
+   ],
+   "answer": 3,
+   "explain": "Lie means to rest or recline and takes no object; lay needs an object.",
+   "source": "leido_diagnostico_ace"
+  },
+  {
+   "id": "EN-05-1059",
+   "subject": "ela",
+   "level": 5,
+   "ace": 1059,
+   "skill": "Capitalization and commas in dates and places",
+   "florida": "ELA.5.C",
+   "type": "mcq",
+   "prompt": "Which sentence uses capital letters and commas correctly?",
+   "options": [
+    "On Monday, March 3, we visited Uncle Ray in Ocala, Florida.",
+    "On monday, March 3 we visited uncle Ray in Ocala Florida.",
+    "On Monday March 3, we visited Uncle ray in ocala, Florida.",
+    "on Monday, march 3, we visited Uncle Ray, in Ocala Florida."
+   ],
+   "answer": 0,
+   "explain": "Days, months, titles with names, and places are capitalized; commas separate the date and the city from the state.",
+   "source": "leido_diagnostico_ace"
+  },
+  {
+   "id": "EN-05-1060",
+   "subject": "ela",
+   "level": 5,
+   "ace": 1060,
+   "skill": "Identify a heteronym in context",
+   "florida": "ELA.5.V",
+   "type": "mcq",
+   "prompt": "Heteronyms are words that are spelled the same but are pronounced differently and have different meanings. Which word is used as a heteronym in this sentence? \"We had to wind the kite string tightly because the wind was so strong.\"",
+   "options": [
+    "kite",
+    "strong",
+    "wind",
+    "tightly"
+   ],
+   "answer": 2,
+   "explain": "Wind (to turn, long i) and wind (moving air, short i) are spelled alike but sound different and mean different things.",
+   "source": "leido_diagnostico_ace"
+  },
+  {
+   "id": "EN-06-1061",
+   "subject": "ela",
+   "level": 6,
+   "ace": 1061,
+   "skill": "Arrange words in alphabetical order",
+   "florida": "ELA.6.V",
+   "type": "mcq",
+   "prompt": "Which list of words is in correct alphabetical order?",
+   "options": [
+    "prayer, praise, preach, present",
+    "praise, preach, prayer, present",
+    "present, preach, prayer, praise",
+    "praise, prayer, preach, present"
+   ],
+   "answer": 3,
+   "explain": "Compare letter by letter: prai- comes before pray-, pra- before pre-, and prea- before pres-.",
+   "source": "leido_diagnostico_ace"
+  },
+  {
+   "id": "EN-06-1062",
+   "subject": "ela",
+   "level": 6,
+   "ace": 1062,
+   "skill": "Form plural possessive nouns",
+   "florida": "ELA.6.C",
+   "type": "mcq",
+   "prompt": "Which phrase correctly shows toys that belong to more than one child?",
+   "options": [
+    "the childrens' toys",
+    "the children's toys",
+    "the childs' toys",
+    "the childrens toys"
+   ],
+   "answer": 1,
+   "explain": "Children is already plural and does not end in s, so add an apostrophe and s: children's.",
+   "source": "leido_diagnostico_ace"
+  },
+  {
+   "id": "EN-06-1063",
+   "subject": "ela",
+   "level": 6,
+   "ace": 1063,
+   "skill": "Identify the indirect object",
+   "florida": "ELA.6.C",
+   "type": "mcq",
+   "prompt": "What is the indirect object in this sentence? \"Aunt Ruth gave the twins a new Bible.\"",
+   "options": [
+    "twins",
+    "Bible",
+    "gave",
+    "Aunt Ruth"
+   ],
+   "answer": 0,
+   "explain": "Bible is the direct object (what was given); twins tells to whom it was given, so it is the indirect object.",
+   "source": "leido_diagnostico_ace"
+  },
+  {
+   "id": "EN-06-1064",
+   "subject": "ela",
+   "level": 6,
+   "ace": 1064,
+   "skill": "Agreement with indefinite pronouns",
+   "florida": "ELA.6.C",
+   "type": "mcq",
+   "prompt": "Choose the pronoun that agrees with its antecedent: \"Each of the boys brought ____ own lunch to the field trip.\"",
+   "options": [
+    "their",
+    "its",
+    "his",
+    "our"
+   ],
+   "answer": 2,
+   "explain": "Each is singular and refers to boys, so the singular masculine pronoun his agrees.",
+   "source": "leido_diagnostico_ace"
+  },
+  {
+   "id": "EN-06-1065",
+   "subject": "ela",
+   "level": 6,
+   "ace": 1065,
+   "skill": "Use correct past participle",
+   "florida": "ELA.6.C",
+   "type": "mcq",
+   "prompt": "Which sentence uses the correct verb form?",
+   "options": [
+    "By morning, the pond had froze solid.",
+    "By morning, the pond had freezed solid.",
+    "By morning, the pond has froze solid.",
+    "By morning, the pond had frozen solid."
+   ],
+   "answer": 3,
+   "explain": "Freeze is irregular: freeze, froze, (had) frozen. The helping verb had needs the past participle frozen.",
+   "source": "leido_diagnostico_ace"
+  },
+  {
+   "id": "EN-06-1066",
+   "subject": "ela",
+   "level": 6,
+   "ace": 1066,
+   "skill": "Choose rise or raise correctly",
+   "florida": "ELA.6.C",
+   "type": "mcq",
+   "prompt": "Choose the correct verb: \"Every morning, Dad ____ the flag in front of the school.\"",
+   "options": [
+    "rises",
+    "raises",
+    "rose",
+    "risen"
+   ],
+   "answer": 1,
+   "explain": "Raise takes an object (the flag); rise never takes an object.",
+   "source": "leido_diagnostico_ace"
+  },
+  {
+   "id": "EN-06-1067",
+   "subject": "ela",
+   "level": 6,
+   "ace": 1067,
+   "skill": "Prepositional phrase used as adjective",
+   "florida": "ELA.6.C",
+   "type": "mcq",
+   "prompt": "In the sentence \"The girl with the red umbrella waved to us,\" how is the phrase \"with the red umbrella\" used?",
+   "options": [
+    "as an adjective phrase describing girl",
+    "as an adverb phrase describing waved",
+    "as an adverb phrase describing us",
+    "as a noun phrase acting as the subject"
+   ],
+   "answer": 0,
+   "explain": "The phrase tells which girl, so it modifies the noun girl and acts as an adjective.",
+   "source": "leido_diagnostico_ace"
+  },
+  {
+   "id": "EN-06-1068",
+   "subject": "ela",
+   "level": 6,
+   "ace": 1068,
+   "skill": "Place modifiers in a diagram",
+   "florida": "ELA.6.C",
+   "type": "mcq",
+   "prompt": "On a sentence diagram, adjectives and adverbs are written on slanted lines under the word they describe. In the sentence \"The small kitten purred very softly,\" under which word would \"very\" be placed?",
+   "options": [
+    "kitten",
+    "purred",
+    "softly",
+    "small"
+   ],
+   "answer": 2,
+   "explain": "Very tells how softly, so it is an adverb modifying the adverb softly.",
+   "source": "leido_diagnostico_ace"
+  },
+  {
+   "id": "EN-06-1069",
+   "subject": "ela",
+   "level": 6,
+   "ace": 1069,
+   "skill": "Use semicolons correctly",
+   "florida": "ELA.6.C",
+   "type": "mcq",
+   "prompt": "Which sentence uses a semicolon correctly?",
+   "options": [
+    "We packed; the van and drove to camp.",
+    "Bring these items; a flashlight, a towel, and a Bible.",
+    "Although it rained; we still went to camp.",
+    "We packed the van; then we drove to camp."
+   ],
+   "answer": 3,
+   "explain": "A semicolon joins two complete sentences; the list needs a colon and the dependent clause needs a comma.",
+   "source": "leido_diagnostico_ace"
+  },
+  {
+   "id": "EN-06-1070",
+   "subject": "ela",
+   "level": 6,
+   "ace": 1070,
+   "skill": "Distinguish fragment from sentence",
+   "florida": "ELA.6.C",
+   "type": "mcq",
+   "prompt": "Which of the following is a sentence fragment?",
+   "options": [
+    "The bus was late.",
+    "Because the bus was late this morning.",
+    "Run!",
+    "We waited at the corner."
+   ],
+   "answer": 1,
+   "explain": "It begins with because and does not finish a complete thought; Run! is a complete command with the subject you understood.",
+   "source": "leido_diagnostico_ace"
+  },
+  {
+   "id": "EN-06-1071",
+   "subject": "ela",
+   "level": 6,
+   "ace": 1071,
+   "skill": "Choose a topic sentence",
+   "florida": "ELA.6.C",
+   "type": "mcq",
+   "prompt": "Read the paragraph. Which sentence would be the best topic sentence to begin it?\n\n\"____ They carry pollen from flower to flower, which helps plants make seeds. Without them, many fruits and vegetables would not grow. The honey they make also feeds families around the world.\"",
+   "options": [
+    "Some people are afraid of bee stings.",
+    "Flowers come in many colors and shapes.",
+    "Bees are among the most helpful creatures God made.",
+    "My uncle keeps three beehives behind his barn."
+   ],
+   "answer": 2,
+   "explain": "Every supporting sentence explains how bees help, so the topic sentence must state that main idea.",
+   "source": "leido_diagnostico_ace"
+  },
+  {
+   "id": "EN-06-1072",
+   "subject": "ela",
+   "level": 6,
+   "ace": 1072,
+   "skill": "Complete a standard outline",
+   "florida": "ELA.6.C",
+   "type": "mcq",
+   "prompt": "In a standard outline, main topics use Roman numerals (I., II.), subtopics use capital letters (A., B.), and details are listed under the subtopics. Which label goes on the first detail written directly under subtopic \"A.\"?",
+   "options": [
+    "a.",
+    "1.",
+    "II.",
+    "B."
+   ],
+   "answer": 1,
+   "explain": "The order of levels is I., A., 1., a.; the first level under a capital letter uses the Arabic numeral 1.",
+   "source": "leido_diagnostico_ace"
+  },
+  {
+   "id": "EN-07-1073",
+   "subject": "ela",
+   "level": 7,
+   "ace": 1073,
+   "skill": "Identify passive voice",
+   "florida": "ELA.7.C",
+   "type": "mcq",
+   "prompt": "Which sentence is written in the passive voice?",
+   "options": [
+    "Pastor Lee wrote the letter.",
+    "Pastor Lee is writing a letter.",
+    "The letter was written by Pastor Lee.",
+    "Pastor Lee will write the letter."
+   ],
+   "answer": 2,
+   "explain": "In the passive voice the subject (letter) receives the action, using a form of be plus the past participle.",
+   "source": "leido_diagnostico_ace"
+  },
+  {
+   "id": "EN-07-1074",
+   "subject": "ela",
+   "level": 7,
+   "ace": 1074,
+   "skill": "Use irregular past tense",
+   "florida": "ELA.7.C",
+   "type": "mcq",
+   "prompt": "Which sentence uses the correct past tense verb?",
+   "options": [
+    "Yesterday the choir sung three hymns.",
+    "Yesterday the choir has sang three hymns.",
+    "Yesterday the choir singed three hymns.",
+    "Yesterday the choir sang three hymns."
+   ],
+   "answer": 3,
+   "explain": "Sing is irregular: sing, sang, (has) sung. Simple past with yesterday needs sang.",
+   "source": "leido_diagnostico_ace"
+  },
+  {
+   "id": "EN-07-1075",
+   "subject": "ela",
+   "level": 7,
+   "ace": 1075,
+   "skill": "Identify future perfect tense",
+   "florida": "ELA.7.C",
+   "type": "mcq",
+   "prompt": "What is the tense of the verb in this sentence? \"By next June, Elena will have read the entire New Testament.\"",
+   "options": [
+    "future perfect",
+    "past perfect",
+    "present perfect",
+    "simple future"
+   ],
+   "answer": 0,
+   "explain": "Will have plus the past participle read shows an action completed before a future time.",
+   "source": "leido_diagnostico_ace"
+  },
+  {
+   "id": "EN-07-1076",
+   "subject": "ela",
+   "level": 7,
+   "ace": 1076,
+   "skill": "Distinguish transitive and intransitive verbs",
+   "florida": "ELA.7.C",
+   "type": "mcq",
+   "prompt": "In which sentence is the verb intransitive (it has no direct object)?",
+   "options": [
+    "Mom baked fresh bread.",
+    "The baby slept peacefully.",
+    "The coach blew the whistle.",
+    "We painted the fence white."
+   ],
+   "answer": 1,
+   "explain": "Slept has no object; peacefully is an adverb. The other verbs act on bread, whistle, and fence.",
+   "source": "leido_diagnostico_ace"
+  },
+  {
+   "id": "EN-07-1077",
+   "subject": "ela",
+   "level": 7,
+   "ace": 1077,
+   "skill": "Identify relative pronouns",
+   "florida": "ELA.7.C",
+   "type": "mcq",
+   "prompt": "What kind of pronoun is \"who\" in this sentence? \"The man who fixed our roof attends our church.\"",
+   "options": [
+    "interrogative",
+    "demonstrative",
+    "reflexive",
+    "relative"
+   ],
+   "answer": 3,
+   "explain": "Who begins a clause that describes the noun man, so it is a relative pronoun, not a question word.",
+   "source": "leido_diagnostico_ace"
+  },
+  {
+   "id": "EN-07-1078",
+   "subject": "ela",
+   "level": 7,
+   "ace": 1078,
+   "skill": "Choose adjective or adverb",
+   "florida": "ELA.7.C",
+   "type": "mcq",
+   "prompt": "Choose the correct word: \"Hannah did ____ on her spelling test.\"",
+   "options": [
+    "good",
+    "well",
+    "goodly",
+    "more good"
+   ],
+   "answer": 1,
+   "explain": "The word describes the verb did, so the adverb well is needed; good is an adjective.",
+   "source": "leido_diagnostico_ace"
+  },
+  {
+   "id": "EN-07-1079",
+   "subject": "ela",
+   "level": 7,
+   "ace": 1079,
+   "skill": "Diagram a compound sentence",
+   "florida": "ELA.7.C",
+   "type": "mcq",
+   "prompt": "When a compound sentence is diagrammed, each independent clause gets its own base line, and the two clauses are joined by a dotted line with the conjunction written on it. In the sentence \"Mark washed the dishes, but Ana swept the floor,\" which word is written on the dotted line?",
+   "options": [
+    "but",
+    "Ana",
+    "dishes",
+    "swept"
+   ],
+   "answer": 0,
+   "explain": "But is the coordinating conjunction joining the two independent clauses.",
+   "source": "leido_diagnostico_ace"
+  },
+  {
+   "id": "EN-07-1080",
+   "subject": "ela",
+   "level": 7,
+   "ace": 1080,
+   "skill": "Identify gerunds",
+   "florida": "ELA.7.C",
+   "type": "mcq",
+   "prompt": "In the sentence \"Swimming in the lake is Jacob's favorite summer activity,\" what is the word \"Swimming\"?",
+   "options": [
+    "participle",
+    "infinitive",
+    "gerund",
+    "adverb"
+   ],
+   "answer": 2,
+   "explain": "Swimming is a verb form ending in -ing used as a noun (the subject of is), so it is a gerund.",
+   "source": "leido_diagnostico_ace"
+  },
+  {
+   "id": "EN-07-1081",
+   "subject": "ela",
+   "level": 7,
+   "ace": 1081,
+   "skill": "Punctuate interrupted dialogue",
+   "florida": "ELA.7.C",
+   "type": "mcq",
+   "prompt": "Which sentence is punctuated correctly?",
+   "options": [
+    "\"Please close the gate\" said Mr. Diaz, \"before the goats escape.\"",
+    "\"Please close the gate,\" said Mr. Diaz. \"before the goats escape.\"",
+    "\"Please close the gate,\" said Mr. Diaz, \"Before the goats escape\".",
+    "\"Please close the gate,\" said Mr. Diaz, \"before the goats escape.\""
+   ],
+   "answer": 3,
+   "explain": "An interrupted quotation uses commas around the speaker tag, continues in lowercase, and places the period inside the quotation marks.",
+   "source": "leido_diagnostico_ace"
+  },
+  {
+   "id": "EN-07-1082",
+   "subject": "ela",
+   "level": 7,
+   "ace": 1082,
+   "skill": "Identify a complex sentence",
+   "florida": "ELA.7.C",
+   "type": "mcq",
+   "prompt": "Which sentence is a complex sentence?",
+   "options": [
+    "When the storm passed, we went outside to look for a rainbow.",
+    "The storm passed, and we went outside.",
+    "We went outside after lunch.",
+    "The storm passed; we went outside."
+   ],
+   "answer": 0,
+   "explain": "It has one independent clause and one dependent clause (When the storm passed); the others are compound or simple.",
+   "source": "leido_diagnostico_ace"
+  },
+  {
+   "id": "EN-07-1083",
+   "subject": "ela",
+   "level": 7,
+   "ace": 1083,
+   "skill": "Read a dictionary entry",
+   "florida": "ELA.7.V",
+   "type": "mcq",
+   "prompt": "A dictionary entry reads: \"gath-er (GATH-er) v. to bring together into one group.\" What does the abbreviation \"v.\" tell you?",
+   "options": [
+    "the pronunciation",
+    "the part of speech",
+    "the word origin",
+    "the number of syllables"
+   ],
+   "answer": 1,
+   "explain": "Abbreviations such as n., v., and adj. give the part of speech; v. means verb.",
+   "source": "leido_diagnostico_ace"
+  },
+  {
+   "id": "EN-07-1084",
+   "subject": "ela",
+   "level": 7,
+   "ace": 1084,
+   "skill": "Distinguish explanatory paragraph type",
+   "florida": "ELA.7.R",
+   "type": "mcq",
+   "prompt": "Read the paragraph. What kind of paragraph is it?\n\n\"To build a simple birdhouse, first cut six boards to the right size. Next, nail the sides to the floor piece. Then attach the roof, leaving a small gap at the top for air. Finally, drill an entrance hole about one and a half inches wide.\"",
+   "options": [
+    "descriptive",
+    "narrative",
+    "explanatory",
+    "persuasive"
+   ],
+   "answer": 2,
+   "explain": "It explains how to do something step by step using order words, so it is explanatory.",
+   "source": "leido_diagnostico_ace"
+  },
+  {
+   "id": "EN-08-1085",
+   "subject": "ela",
+   "level": 8,
+   "ace": 1085,
+   "skill": "Agreement with neither/nor subjects",
+   "florida": "ELA.8.C",
+   "type": "mcq",
+   "prompt": "Choose the verb that agrees with the subject: \"Neither the pastor nor the deacons ____ able to attend the meeting.\"",
+   "options": [
+    "was",
+    "were",
+    "is",
+    "has been"
+   ],
+   "answer": 1,
+   "explain": "With neither/nor, the verb agrees with the nearer subject, deacons, which is plural.",
+   "source": "leido_diagnostico_ace"
+  },
+  {
+   "id": "EN-08-1086",
+   "subject": "ela",
+   "level": 8,
+   "ace": 1086,
+   "skill": "Convert active to passive voice",
+   "florida": "ELA.8.C",
+   "type": "mcq",
+   "prompt": "Which sentence correctly rewrites \"The volunteers built the new playground\" in the passive voice without changing the tense?",
+   "options": [
+    "The new playground built the volunteers.",
+    "The volunteers were building the new playground.",
+    "The new playground is being built by the volunteers.",
+    "The new playground was built by the volunteers."
+   ],
+   "answer": 3,
+   "explain": "Passive past tense uses was plus the past participle built, with the original subject in a by phrase.",
+   "source": "leido_diagnostico_ace"
+  },
+  {
+   "id": "EN-08-1087",
+   "subject": "ela",
+   "level": 8,
+   "ace": 1087,
+   "skill": "Use past perfect tense",
+   "florida": "ELA.8.C",
+   "type": "mcq",
+   "prompt": "Which sentence uses the past perfect tense correctly?",
+   "options": [
+    "Before the guests arrived, Mom had set the table.",
+    "Before the guests arrived, Mom has set the table.",
+    "Before the guests had arrived, Mom will have set the table.",
+    "Before the guests arrived, Mom will set the table."
+   ],
+   "answer": 0,
+   "explain": "The past perfect (had set) shows an action finished before another past action (arrived).",
+   "source": "leido_diagnostico_ace"
+  },
+  {
+   "id": "EN-08-1088",
+   "subject": "ela",
+   "level": 8,
+   "ace": 1088,
+   "skill": "Use lie and lay forms",
+   "florida": "ELA.8.C",
+   "type": "mcq",
+   "prompt": "Choose the correct verb: \"The tired hikers had ____ in the shade for an hour.\"",
+   "options": [
+    "laid",
+    "lied",
+    "lain",
+    "layed"
+   ],
+   "answer": 2,
+   "explain": "Lie (to recline) has the forms lie, lay, (had) lain; laid belongs to lay, which needs an object.",
+   "source": "leido_diagnostico_ace"
+  },
+  {
+   "id": "EN-08-1089",
+   "subject": "ela",
+   "level": 8,
+   "ace": 1089,
+   "skill": "Identify noun of direct address",
+   "florida": "ELA.8.C",
+   "type": "mcq",
+   "prompt": "In the sentence \"Caleb, please bring the hymnals to the front,\" what is the function of the noun \"Caleb\"?",
+   "options": [
+    "appositive",
+    "direct object",
+    "subject",
+    "noun of direct address"
+   ],
+   "answer": 3,
+   "explain": "Caleb names the person spoken to; the subject is the understood you.",
+   "source": "leido_diagnostico_ace"
+  },
+  {
+   "id": "EN-08-1090",
+   "subject": "ela",
+   "level": 8,
+   "ace": 1090,
+   "skill": "Use its/it's and your/you're",
+   "florida": "ELA.8.C",
+   "type": "mcq",
+   "prompt": "Which sentence uses its/it's and your/you're correctly?",
+   "options": [
+    "It's time to thank your teachers for their hard work.",
+    "The bird built it's nest in the rafters.",
+    "Your going to love the new library.",
+    "The dog wagged its tail when you're brother came home."
+   ],
+   "answer": 0,
+   "explain": "It's means it is and your shows ownership; the other sentences confuse the possessive and the contraction.",
+   "source": "leido_diagnostico_ace"
+  },
+  {
+   "id": "EN-08-1091",
+   "subject": "ela",
+   "level": 8,
+   "ace": 1091,
+   "skill": "Identify part of speech in context",
+   "florida": "ELA.8.C",
+   "type": "mcq",
+   "prompt": "What part of speech is the word in capital letters? \"The children ran OUTSIDE after the rain stopped.\"",
+   "options": [
+    "preposition",
+    "adverb",
+    "noun",
+    "adjective"
+   ],
+   "answer": 1,
+   "explain": "Outside tells where the children ran and has no object, so it is an adverb modifying ran.",
+   "source": "leido_diagnostico_ace"
+  },
+  {
+   "id": "EN-08-1092",
+   "subject": "ela",
+   "level": 8,
+   "ace": 1092,
+   "skill": "Identify a run-on sentence",
+   "florida": "ELA.8.C",
+   "type": "mcq",
+   "prompt": "Which of the following is a run-on sentence?",
+   "options": [
+    "The rain stopped, so we went for a walk.",
+    "After the rain stopped, we went for a walk.",
+    "The rain stopped we went for a walk.",
+    "The rain stopped; we went for a walk."
+   ],
+   "answer": 2,
+   "explain": "Two independent clauses are joined with no punctuation or conjunction.",
+   "source": "leido_diagnostico_ace"
+  },
+  {
+   "id": "EN-08-1093",
+   "subject": "ela",
+   "level": 8,
+   "ace": 1093,
+   "skill": "Diagram an adverb clause",
+   "florida": "ELA.8.C",
+   "type": "mcq",
+   "prompt": "In a diagram of a complex sentence, an adverb clause sits on its own base line below the main clause. A dotted line connects the clause's verb to the word it modifies, and the subordinating conjunction is written on the dotted line. In the sentence \"We sang hymns while Dad played the piano,\" which word is written on the dotted line?",
+   "options": [
+    "sang",
+    "while",
+    "Dad",
+    "played"
+   ],
+   "answer": 1,
+   "explain": "While is the subordinating conjunction that introduces the adverb clause.",
+   "source": "leido_diagnostico_ace"
+  },
+  {
+   "id": "EN-08-1094",
+   "subject": "ela",
+   "level": 8,
+   "ace": 1094,
+   "skill": "Identify a persuasive paragraph",
+   "florida": "ELA.8.R",
+   "type": "mcq",
+   "prompt": "Read the paragraph. What type of paragraph is it?\n\n\"Our town library should stay open on Saturday afternoons. Many students work or study during the week and cannot visit before closing time. Families could spend time reading together instead of in front of screens. A few extra hours would cost little, but the benefits would last for years. Please ask the town council to support this plan.\"",
+   "options": [
+    "expository",
+    "persuasive",
+    "narrative",
+    "descriptive"
+   ],
+   "answer": 1,
+   "explain": "The writer states an opinion, gives reasons, and asks readers to take action.",
+   "source": "leido_diagnostico_ace"
+  },
+  {
+   "id": "EN-08-1095",
+   "subject": "ela",
+   "level": 8,
+   "ace": 1095,
+   "skill": "Punctuate a business letter closing",
+   "florida": "ELA.8.C",
+   "type": "mcq",
+   "prompt": "Which closing is written correctly for a business letter?",
+   "options": [
+    "Sincerely Yours,",
+    "sincerely yours,",
+    "Sincerely yours,",
+    "Sincerely yours;"
+   ],
+   "answer": 2,
+   "explain": "Only the first word of a closing is capitalized, and the closing is followed by a comma.",
+   "source": "leido_diagnostico_ace"
+  },
+  {
+   "id": "EN-08-1096",
+   "subject": "ela",
+   "level": 8,
+   "ace": 1096,
+   "skill": "Capitalize proper nouns correctly",
+   "florida": "ELA.8.C",
+   "type": "mcq",
+   "prompt": "Which sentence uses capital letters correctly?",
+   "options": [
+    "Last summer my family drove north to visit Lake Michigan.",
+    "Last Summer my family drove North to visit Lake Michigan.",
+    "Last summer my Family drove north to visit lake Michigan.",
+    "last summer my family drove north to visit Lake michigan."
+   ],
+   "answer": 0,
+   "explain": "Seasons and compass directions are lowercase; the proper name Lake Michigan is capitalized.",
+   "source": "leido_diagnostico_ace"
+  }
+ ]
+}

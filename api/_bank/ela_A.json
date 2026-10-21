@@ -1,0 +1,1097 @@
+{
+ "band": "ela_A",
+ "items": [
+  {
+   "id": "EN-00-K01",
+   "subject": "ela",
+   "level": 0,
+   "ace": null,
+   "skill": "Letter order in the alphabet",
+   "florida": "ELA.K.F",
+   "type": "mcq",
+   "prompt": "Say: Which letter comes right after B in the alphabet?",
+   "options": [
+    "A",
+    "C",
+    "D"
+   ],
+   "answer": 1,
+   "explain": "The alphabet goes A, B, C, so C comes right after B.",
+   "source": "deducido"
+  },
+  {
+   "id": "EN-00-K02",
+   "subject": "ela",
+   "level": 0,
+   "ace": null,
+   "skill": "Identify matching beginning sounds",
+   "florida": "ELA.K.F",
+   "type": "mcq",
+   "prompt": "Say: Listen to the word 'sun'. Which word starts with the same sound as 'sun'?",
+   "options": [
+    "sock",
+    "map",
+    "cup"
+   ],
+   "answer": 0,
+   "explain": "Sun and sock both begin with the /s/ sound.",
+   "source": "deducido"
+  },
+  {
+   "id": "EN-00-K03",
+   "subject": "ela",
+   "level": 0,
+   "ace": null,
+   "skill": "Recognize rhyming words",
+   "florida": "ELA.K.F",
+   "type": "mcq",
+   "prompt": "Say: Which word rhymes with 'cat'?",
+   "options": [
+    "dog",
+    "cup",
+    "hat"
+   ],
+   "answer": 2,
+   "explain": "Cat and hat share the same ending sound -at.",
+   "source": "deducido"
+  },
+  {
+   "id": "EN-00-K04",
+   "subject": "ela",
+   "level": 0,
+   "ace": null,
+   "skill": "Identify matching ending sounds",
+   "florida": "ELA.K.F",
+   "type": "mcq",
+   "prompt": "Say: Listen to the word 'bed'. Which word ends with the same sound as 'bed'?",
+   "options": [
+    "lip",
+    "lid",
+    "log"
+   ],
+   "answer": 1,
+   "explain": "Bed and lid both end with the /d/ sound.",
+   "source": "deducido"
+  },
+  {
+   "id": "EN-00-K05",
+   "subject": "ela",
+   "level": 0,
+   "ace": null,
+   "skill": "Blend sounds into CVC word",
+   "florida": "ELA.K.F",
+   "type": "mcq",
+   "prompt": "Say: Listen to these sounds: /p/ /i/ /g/. Put them together. What word do they make?",
+   "options": [
+    "pig",
+    "peg",
+    "big"
+   ],
+   "answer": 0,
+   "explain": "/p/ + /i/ + /g/ blends to make 'pig'.",
+   "source": "deducido"
+  },
+  {
+   "id": "EN-00-K06",
+   "subject": "ela",
+   "level": 0,
+   "ace": null,
+   "skill": "Count syllables in a word",
+   "florida": "ELA.K.F",
+   "type": "mcq",
+   "prompt": "Say: Clap the parts of the word 'rabbit': rab-bit. How many claps (syllables) do you hear?",
+   "options": [
+    "1",
+    "2",
+    "3"
+   ],
+   "answer": 1,
+   "explain": "Rab-bit has two syllables.",
+   "source": "deducido"
+  },
+  {
+   "id": "EN-00-K07",
+   "subject": "ela",
+   "level": 0,
+   "ace": null,
+   "skill": "Concepts of print: reading direction",
+   "florida": "ELA.K.F",
+   "type": "mcq",
+   "prompt": "Say: When we read a page in an English book, where do we start reading?",
+   "options": [
+    "At the bottom of the page",
+    "At the top left of the page",
+    "In the middle of the page"
+   ],
+   "answer": 1,
+   "explain": "English is read from the top left, moving left to right.",
+   "source": "deducido"
+  },
+  {
+   "id": "EN-00-K08",
+   "subject": "ela",
+   "level": 0,
+   "ace": null,
+   "skill": "Recognize a high-frequency word",
+   "florida": "ELA.K.F",
+   "type": "mcq",
+   "prompt": "Say: Point to the word 'and'. (Show the child the three printed words.)",
+   "options": [
+    "can",
+    "and",
+    "an"
+   ],
+   "answer": 1,
+   "explain": "The printed word a-n-d spells 'and'.",
+   "source": "deducido"
+  },
+  {
+   "id": "EN-00-K09",
+   "subject": "ela",
+   "level": 0,
+   "ace": null,
+   "skill": "Answer question about heard sentences",
+   "florida": "ELA.K.R",
+   "type": "mcq",
+   "prompt": "Say: Listen. 'Ben has a red ball. He gives the ball to his little sister, Joy.' Who gets the ball?",
+   "options": [
+    "Mom",
+    "Ben",
+    "Joy"
+   ],
+   "answer": 2,
+   "explain": "Ben gives the ball to Joy, so Joy gets it.",
+   "source": "deducido"
+  },
+  {
+   "id": "EN-00-K10",
+   "subject": "ela",
+   "level": 0,
+   "ace": null,
+   "skill": "Sort words into a category",
+   "florida": "ELA.K.V",
+   "type": "mcq",
+   "prompt": "Say: Which one is a fruit?",
+   "options": [
+    "apple",
+    "chair",
+    "shoe"
+   ],
+   "answer": 0,
+   "explain": "An apple is a fruit; a chair and a shoe are not food.",
+   "source": "deducido"
+  },
+  {
+   "id": "EN-01-1001",
+   "subject": "ela",
+   "level": 1,
+   "ace": 1001,
+   "skill": "Identify missing lowercase letter",
+   "florida": "ELA.1.F",
+   "type": "mcq",
+   "prompt": "Which letter is missing? d, e, __, g",
+   "options": [
+    "h",
+    "c",
+    "f",
+    "i"
+   ],
+   "answer": 2,
+   "explain": "Alphabetical order is d, e, f, g.",
+   "source": "leido_diagnostico_ace"
+  },
+  {
+   "id": "EN-01-1002",
+   "subject": "ela",
+   "level": 1,
+   "ace": 1002,
+   "skill": "Read and understand a simple sentence",
+   "florida": "ELA.1.R",
+   "type": "mcq",
+   "prompt": "Read the sentence: 'Pam has a pet pup.' What does Pam have?",
+   "options": [
+    "a pet cat",
+    "a pet pup",
+    "a pet pig",
+    "a big map"
+   ],
+   "answer": 1,
+   "explain": "The sentence says Pam has a pet pup.",
+   "source": "leido_diagnostico_ace"
+  },
+  {
+   "id": "EN-01-1003",
+   "subject": "ela",
+   "level": 1,
+   "ace": 1003,
+   "skill": "Distinguish long a from short a",
+   "florida": "ELA.1.F",
+   "type": "mcq",
+   "prompt": "Which word has the long a sound, as in 'cake'?",
+   "options": [
+    "can",
+    "rain",
+    "hat",
+    "bag"
+   ],
+   "answer": 1,
+   "explain": "In 'rain' the letters ai make the long a sound; the others have short a.",
+   "source": "leido_diagnostico_ace"
+  },
+  {
+   "id": "EN-01-1004",
+   "subject": "ela",
+   "level": 1,
+   "ace": 1004,
+   "skill": "Find short i in a sentence",
+   "florida": "ELA.1.F",
+   "type": "mcq",
+   "prompt": "Read the sentence: 'Mike will ride his bike to the lake.' Which word has the short i sound?",
+   "options": [
+    "Mike",
+    "ride",
+    "will",
+    "bike"
+   ],
+   "answer": 2,
+   "explain": "'Will' has a short i; Mike, ride and bike have a long i.",
+   "source": "leido_diagnostico_ace"
+  },
+  {
+   "id": "EN-01-1005",
+   "subject": "ela",
+   "level": 1,
+   "ace": 1005,
+   "skill": "Identify ch with short e",
+   "florida": "ELA.1.F",
+   "type": "mcq",
+   "prompt": "Which word begins with the 'ch' sound and has a short e sound?",
+   "options": [
+    "cheek",
+    "shell",
+    "chain",
+    "chest"
+   ],
+   "answer": 3,
+   "explain": "'Chest' begins with ch and has a short e; cheek has long e, shell begins with sh, chain has long a.",
+   "source": "leido_diagnostico_ace"
+  },
+  {
+   "id": "EN-01-1006",
+   "subject": "ela",
+   "level": 1,
+   "ace": 1006,
+   "skill": "Recognize soft c sound",
+   "florida": "ELA.1.F",
+   "type": "mcq",
+   "prompt": "In which word does the letter c make the /s/ sound?",
+   "options": [
+    "cat",
+    "face",
+    "cup",
+    "cot"
+   ],
+   "answer": 1,
+   "explain": "In 'face' the c is followed by e, so it makes the soft /s/ sound.",
+   "source": "leido_diagnostico_ace"
+  },
+  {
+   "id": "EN-01-1007",
+   "subject": "ela",
+   "level": 1,
+   "ace": 1007,
+   "skill": "Choose correct -ing word ending",
+   "florida": "ELA.1.F",
+   "type": "mcq",
+   "prompt": "Choose the word that best completes the sentence: Right now, Sam is ___ a picture for Grandma.",
+   "options": [
+    "paints",
+    "painted",
+    "painting",
+    "paint"
+   ],
+   "answer": 2,
+   "explain": "'Is' with 'right now' needs the -ing form: is painting.",
+   "source": "leido_diagnostico_ace"
+  },
+  {
+   "id": "EN-01-1008",
+   "subject": "ela",
+   "level": 1,
+   "ace": 1008,
+   "skill": "Recognize y as long i",
+   "florida": "ELA.1.F",
+   "type": "mcq",
+   "prompt": "In which word does the letter y make the long i sound?",
+   "options": [
+    "yes",
+    "fly",
+    "yard",
+    "yell"
+   ],
+   "answer": 1,
+   "explain": "At the end of 'fly', y says long i; in the others y says /y/.",
+   "source": "leido_diagnostico_ace"
+  },
+  {
+   "id": "EN-01-1009",
+   "subject": "ela",
+   "level": 1,
+   "ace": 1009,
+   "skill": "Distinguish long oo sound",
+   "florida": "ELA.1.F",
+   "type": "mcq",
+   "prompt": "Which word has the same vowel sound as 'moon'?",
+   "options": [
+    "hop",
+    "book",
+    "bone",
+    "spoon"
+   ],
+   "answer": 3,
+   "explain": "'Spoon' has the long oo sound like moon; book has short oo.",
+   "source": "leido_diagnostico_ace"
+  },
+  {
+   "id": "EN-01-1010",
+   "subject": "ela",
+   "level": 1,
+   "ace": 1010,
+   "skill": "Identify long o vowel team",
+   "florida": "ELA.1.F",
+   "type": "mcq",
+   "prompt": "Which word has the long o sound, as in 'boat'?",
+   "options": [
+    "road",
+    "hot",
+    "dog",
+    "top"
+   ],
+   "answer": 0,
+   "explain": "In 'road' the oa team makes the long o sound; the others have short o.",
+   "source": "leido_diagnostico_ace"
+  },
+  {
+   "id": "EN-01-1011",
+   "subject": "ela",
+   "level": 1,
+   "ace": 1011,
+   "skill": "Identify short oo sound",
+   "florida": "ELA.1.F",
+   "type": "mcq",
+   "prompt": "Which word has the same vowel sound as 'book'?",
+   "options": [
+    "moon",
+    "cut",
+    "wood",
+    "road"
+   ],
+   "answer": 2,
+   "explain": "'Wood' and 'book' share the short oo sound.",
+   "source": "leido_diagnostico_ace"
+  },
+  {
+   "id": "EN-01-1012",
+   "subject": "ela",
+   "level": 1,
+   "ace": 1012,
+   "skill": "Identify ou/ow vowel sound",
+   "florida": "ELA.1.F",
+   "type": "mcq",
+   "prompt": "Which word has the same vowel sound as 'cow'?",
+   "options": [
+    "snow",
+    "show",
+    "grow",
+    "house"
+   ],
+   "answer": 3,
+   "explain": "The ou in 'house' sounds like the ow in 'cow'; snow, show and grow have long o.",
+   "source": "leido_diagnostico_ace"
+  },
+  {
+   "id": "EN-02-1013",
+   "subject": "ela",
+   "level": 2,
+   "ace": 1013,
+   "skill": "Identify vowels in a word",
+   "florida": "ELA.2.F",
+   "type": "mcq",
+   "prompt": "How many vowels are in the word 'garden'?",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "answer": 1,
+   "explain": "G-a-r-d-e-n has two vowels: a and e.",
+   "source": "leido_diagnostico_ace"
+  },
+  {
+   "id": "EN-02-1014",
+   "subject": "ela",
+   "level": 2,
+   "ace": 1014,
+   "skill": "Choose correct end punctuation",
+   "florida": "ELA.2.C",
+   "type": "mcq",
+   "prompt": "Which sentence needs a question mark at the end?",
+   "options": [
+    "We went to the park",
+    "The dog is asleep",
+    "Where is my blue coat",
+    "Dad made pancakes"
+   ],
+   "answer": 2,
+   "explain": "'Where is my blue coat' asks something, so it needs a question mark.",
+   "source": "leido_diagnostico_ace"
+  },
+  {
+   "id": "EN-02-1015",
+   "subject": "ela",
+   "level": 2,
+   "ace": 1015,
+   "skill": "Choose was or were",
+   "florida": "ELA.2.C",
+   "type": "mcq",
+   "prompt": "Choose the correct word: The children ___ singing in church last Sunday.",
+   "options": [
+    "was",
+    "were",
+    "is",
+    "be"
+   ],
+   "answer": 1,
+   "explain": "'Children' is plural and the time is past, so 'were' is correct.",
+   "source": "leido_diagnostico_ace"
+  },
+  {
+   "id": "EN-02-1016",
+   "subject": "ela",
+   "level": 2,
+   "ace": 1016,
+   "skill": "Choose article a or an",
+   "florida": "ELA.2.C",
+   "type": "mcq",
+   "prompt": "Choose the word that completes the sentence: Grandpa ate ___ orange after lunch.",
+   "options": [
+    "an",
+    "a",
+    "two",
+    "many"
+   ],
+   "answer": 0,
+   "explain": "'Orange' begins with a vowel sound, so we use 'an'.",
+   "source": "leido_diagnostico_ace"
+  },
+  {
+   "id": "EN-02-1017",
+   "subject": "ela",
+   "level": 2,
+   "ace": 1017,
+   "skill": "Identify a noun in a sentence",
+   "florida": "ELA.2.C",
+   "type": "mcq",
+   "prompt": "Which word in this sentence is a noun? 'We walked quickly to the old bridge.'",
+   "options": [
+    "walked",
+    "quickly",
+    "old",
+    "bridge"
+   ],
+   "answer": 3,
+   "explain": "'Bridge' names a thing, so it is a noun.",
+   "source": "leido_diagnostico_ace"
+  },
+  {
+   "id": "EN-02-1018",
+   "subject": "ela",
+   "level": 2,
+   "ace": 1018,
+   "skill": "Identify a proper noun",
+   "florida": "ELA.2.C",
+   "type": "mcq",
+   "prompt": "Which word in this sentence is a proper noun? 'My best friend Lucy lives near the river.'",
+   "options": [
+    "friend",
+    "Lucy",
+    "lives",
+    "river"
+   ],
+   "answer": 1,
+   "explain": "'Lucy' names a specific person, so it is a proper noun.",
+   "source": "leido_diagnostico_ace"
+  },
+  {
+   "id": "EN-02-1019",
+   "subject": "ela",
+   "level": 2,
+   "ace": 1019,
+   "skill": "Identify an action verb",
+   "florida": "ELA.2.C",
+   "type": "mcq",
+   "prompt": "Which word is an action word (verb)? 'The little puppy jumped over the fence.'",
+   "options": [
+    "jumped",
+    "little",
+    "puppy",
+    "over"
+   ],
+   "answer": 0,
+   "explain": "'Jumped' tells what the puppy did.",
+   "source": "leido_diagnostico_ace"
+  },
+  {
+   "id": "EN-02-1020",
+   "subject": "ela",
+   "level": 2,
+   "ace": 1020,
+   "skill": "Find a synonym in context",
+   "florida": "ELA.2.V",
+   "type": "mcq",
+   "prompt": "Read: 'Hannah was glad when her grandmother came to visit. She hugged her and smiled all day.' Which word means almost the same as 'glad'?",
+   "options": [
+    "happy",
+    "tired",
+    "angry",
+    "quiet"
+   ],
+   "answer": 0,
+   "explain": "'Glad' and 'happy' are synonyms; the hugging and smiling show it.",
+   "source": "leido_diagnostico_ace"
+  },
+  {
+   "id": "EN-02-1021",
+   "subject": "ela",
+   "level": 2,
+   "ace": 1021,
+   "skill": "Choose do or does",
+   "florida": "ELA.2.C",
+   "type": "mcq",
+   "prompt": "Choose the correct word: ___ your sister like to read?",
+   "options": [
+    "Is",
+    "Do",
+    "Are",
+    "Does"
+   ],
+   "answer": 3,
+   "explain": "'Sister' is singular, so the question begins with 'Does'.",
+   "source": "leido_diagnostico_ace"
+  },
+  {
+   "id": "EN-02-1022",
+   "subject": "ela",
+   "level": 2,
+   "ace": 1022,
+   "skill": "Choose correct homophone in context",
+   "florida": "ELA.2.V",
+   "type": "mcq",
+   "prompt": "Choose the correct word: Last night the wind ___ the leaves off the tree.",
+   "options": [
+    "blue",
+    "bloo",
+    "blew",
+    "blown"
+   ],
+   "answer": 2,
+   "explain": "'Blew' is the past tense of blow; 'blue' is a color.",
+   "source": "leido_diagnostico_ace"
+  },
+  {
+   "id": "EN-02-1023",
+   "subject": "ela",
+   "level": 2,
+   "ace": 1023,
+   "skill": "Use apostrophe for singular possessive",
+   "florida": "ELA.2.C",
+   "type": "mcq",
+   "prompt": "Which sentence is written correctly?",
+   "options": [
+    "The dogs bone is under the porch.",
+    "The dog's bone is under the porch.",
+    "The dogs' bone are under the porch.",
+    "The dog bone's is under the porch."
+   ],
+   "answer": 1,
+   "explain": "One dog owns the bone, so we write dog's, and 'bone is' agrees.",
+   "source": "leido_diagnostico_ace"
+  },
+  {
+   "id": "EN-02-1024",
+   "subject": "ela",
+   "level": 2,
+   "ace": 1024,
+   "skill": "Recognize alphabetical order",
+   "florida": "ELA.2.V",
+   "type": "mcq",
+   "prompt": "Which list of words is in alphabetical order?",
+   "options": [
+    "dog, cup, bell, ant",
+    "ant, cup, bell, dog",
+    "bell, ant, cup, dog",
+    "ant, bell, cup, dog"
+   ],
+   "answer": 3,
+   "explain": "a, b, c, d is alphabetical: ant, bell, cup, dog.",
+   "source": "leido_diagnostico_ace"
+  },
+  {
+   "id": "EN-03-1025",
+   "subject": "ela",
+   "level": 3,
+   "ace": 1025,
+   "skill": "Alphabetize words to third letter",
+   "florida": "ELA.3.V",
+   "type": "mcq",
+   "prompt": "Which word comes FIRST in alphabetical order?",
+   "options": [
+    "bread",
+    "bring",
+    "brave",
+    "brown"
+   ],
+   "answer": 2,
+   "explain": "All begin with br; the third letters are e, i, a, o, and a comes first. (Cursive handwriting cannot be assessed in text, so alphabetizing is measured instead.)",
+   "source": "leido_diagnostico_ace"
+  },
+  {
+   "id": "EN-03-1026",
+   "subject": "ela",
+   "level": 3,
+   "ace": 1026,
+   "skill": "Distinguish sentence from fragment",
+   "florida": "ELA.3.C",
+   "type": "mcq",
+   "prompt": "Which group of words is a complete sentence?",
+   "options": [
+    "Running down the hill.",
+    "The tall oak tree.",
+    "Because it was raining.",
+    "Joel shared his lunch."
+   ],
+   "answer": 3,
+   "explain": "'Joel shared his lunch.' has a subject and a verb and a complete thought.",
+   "source": "leido_diagnostico_ace"
+  },
+  {
+   "id": "EN-03-1027",
+   "subject": "ela",
+   "level": 3,
+   "ace": 1027,
+   "skill": "Identify the subject noun",
+   "florida": "ELA.3.C",
+   "type": "mcq",
+   "prompt": "What is the subject of this sentence? 'Every morning, the farmer feeds his cows.'",
+   "options": [
+    "morning",
+    "farmer",
+    "cows",
+    "feeds"
+   ],
+   "answer": 1,
+   "explain": "The farmer is the one who does the action (feeds).",
+   "source": "leido_diagnostico_ace"
+  },
+  {
+   "id": "EN-03-1028",
+   "subject": "ela",
+   "level": 3,
+   "ace": 1028,
+   "skill": "Replace nouns with subject pronoun",
+   "florida": "ELA.3.C",
+   "type": "mcq",
+   "prompt": "Which pronoun can take the place of 'Maria and I' in this sentence? 'Maria and I sang a song at church.'",
+   "options": [
+    "They",
+    "Us",
+    "We",
+    "Them"
+   ],
+   "answer": 2,
+   "explain": "'Maria and I' is a subject that includes the speaker, so 'We' is correct.",
+   "source": "leido_diagnostico_ace"
+  },
+  {
+   "id": "EN-03-1029",
+   "subject": "ela",
+   "level": 3,
+   "ace": 1029,
+   "skill": "Identify a being verb",
+   "florida": "ELA.3.C",
+   "type": "mcq",
+   "prompt": "Which word is a being (state-of-being) verb? 'The kittens were sleepy after their meal.'",
+   "options": [
+    "kittens",
+    "sleepy",
+    "were",
+    "meal"
+   ],
+   "answer": 2,
+   "explain": "'Were' is a form of 'be'; it links the kittens to 'sleepy'.",
+   "source": "leido_diagnostico_ace"
+  },
+  {
+   "id": "EN-03-1030",
+   "subject": "ela",
+   "level": 3,
+   "ace": 1030,
+   "skill": "Spell a high-frequency word correctly",
+   "florida": "ELA.3.C",
+   "type": "mcq",
+   "prompt": "Which word is spelled correctly?",
+   "options": [
+    "because",
+    "becuase",
+    "becaus",
+    "beecause"
+   ],
+   "answer": 0,
+   "explain": "The correct spelling is b-e-c-a-u-s-e. (Cursive capitals cannot be assessed in text, so spelling is measured instead.)",
+   "source": "leido_diagnostico_ace"
+  },
+  {
+   "id": "EN-03-1031",
+   "subject": "ela",
+   "level": 3,
+   "ace": 1031,
+   "skill": "Find an antonym in a passage",
+   "florida": "ELA.3.V",
+   "type": "mcq",
+   "prompt": "Read: 'At first, the path up the hill was smooth. Near the top, it became rough and full of rocks.' Which word in the passage is an antonym of 'smooth'?",
+   "options": [
+    "path",
+    "rough",
+    "rocks",
+    "top"
+   ],
+   "answer": 1,
+   "explain": "'Rough' means the opposite of 'smooth'.",
+   "source": "leido_diagnostico_ace"
+  },
+  {
+   "id": "EN-03-1032",
+   "subject": "ela",
+   "level": 3,
+   "ace": 1032,
+   "skill": "Choose correct homophone in context",
+   "florida": "ELA.3.V",
+   "type": "mcq",
+   "prompt": "Choose the correct word: We could not ___ the music because the room was so noisy.",
+   "options": [
+    "hear",
+    "here",
+    "hair",
+    "heard"
+   ],
+   "answer": 0,
+   "explain": "'Hear' means to listen with your ears; 'here' is a place.",
+   "source": "leido_diagnostico_ace"
+  },
+  {
+   "id": "EN-03-1033",
+   "subject": "ela",
+   "level": 3,
+   "ace": 1033,
+   "skill": "Capitalize holidays, titles and names",
+   "florida": "ELA.3.C",
+   "type": "mcq",
+   "prompt": "Which sentence uses capital letters correctly?",
+   "options": [
+    "On thanksgiving day, we visited aunt Ruth.",
+    "On Thanksgiving day, We visited Aunt ruth.",
+    "On Thanksgiving Day, we visited Aunt Ruth.",
+    "on Thanksgiving Day, we visited aunt ruth."
+   ],
+   "answer": 2,
+   "explain": "Holidays, titles used with names, names, and the first word of a sentence are capitalized.",
+   "source": "leido_diagnostico_ace"
+  },
+  {
+   "id": "EN-03-1034",
+   "subject": "ela",
+   "level": 3,
+   "ace": 1034,
+   "skill": "Choose its or it's",
+   "florida": "ELA.3.C",
+   "type": "mcq",
+   "prompt": "Choose the correct word: The robin built ___ nest in the maple tree.",
+   "options": [
+    "it's",
+    "its",
+    "its'",
+    "it is"
+   ],
+   "answer": 1,
+   "explain": "'Its' shows ownership; 'it's' means 'it is'.",
+   "source": "leido_diagnostico_ace"
+  },
+  {
+   "id": "EN-03-1035",
+   "subject": "ela",
+   "level": 3,
+   "ace": 1035,
+   "skill": "Form a contraction",
+   "florida": "ELA.3.C",
+   "type": "mcq",
+   "prompt": "What is the contraction for 'they will'?",
+   "options": [
+    "theyl'l",
+    "the'll",
+    "they'ill",
+    "they'll"
+   ],
+   "answer": 3,
+   "explain": "The apostrophe replaces 'wi' in 'will': they'll.",
+   "source": "leido_diagnostico_ace"
+  },
+  {
+   "id": "EN-03-1036",
+   "subject": "ela",
+   "level": 3,
+   "ace": 1036,
+   "skill": "Read an envelope for recipient",
+   "florida": "ELA.3.R",
+   "type": "mcq",
+   "prompt": "An envelope has a name and address in the upper left corner: 'Ruth Allen, 12 Pine Street, Ocala, FL'. In the center it has: 'Mr. David Cole, 45 Lake Road, Tampa, FL'. Who will receive this letter?",
+   "options": [
+    "the mail carrier",
+    "Ruth Allen",
+    "the post office",
+    "David Cole"
+   ],
+   "answer": 3,
+   "explain": "The address in the center belongs to the receiver; the upper left is the sender's return address.",
+   "source": "leido_diagnostico_ace"
+  },
+  {
+   "id": "EN-04-1037",
+   "subject": "ela",
+   "level": 4,
+   "ace": 1037,
+   "skill": "Alphabetize words beyond third letter",
+   "florida": "ELA.4.V",
+   "type": "mcq",
+   "prompt": "Which word would come LAST in alphabetical order?",
+   "options": [
+    "shelter",
+    "shadow",
+    "shell",
+    "shepherd"
+   ],
+   "answer": 3,
+   "explain": "Order is shadow, shell, shelter, shepherd; 'shep' comes after 'shel'.",
+   "source": "leido_diagnostico_ace"
+  },
+  {
+   "id": "EN-04-1038",
+   "subject": "ela",
+   "level": 4,
+   "ace": 1038,
+   "skill": "Classify sentence types in a passage",
+   "florida": "ELA.4.C",
+   "type": "mcq",
+   "prompt": "Read: 'Mia helped her neighbor plant tomatoes. \"Will they grow by summer?\" she asked. Mr. Ortiz smiled. \"Water them every day!\"' Which sentence from the passage is interrogative?",
+   "options": [
+    "Mia helped her neighbor plant tomatoes.",
+    "Will they grow by summer?",
+    "Mr. Ortiz smiled.",
+    "Water them every day!"
+   ],
+   "answer": 1,
+   "explain": "An interrogative sentence asks a question and ends with a question mark.",
+   "source": "leido_diagnostico_ace"
+  },
+  {
+   "id": "EN-04-1039",
+   "subject": "ela",
+   "level": 4,
+   "ace": 1039,
+   "skill": "Identify plural common noun",
+   "florida": "ELA.4.C",
+   "type": "mcq",
+   "prompt": "Which word in this sentence is a plural common noun? 'On Friday, Pastor Lee read a story to the children at Grace Church.'",
+   "options": [
+    "children",
+    "Friday",
+    "Pastor Lee",
+    "Grace Church"
+   ],
+   "answer": 0,
+   "explain": "'Children' is plural and not a specific name; the others are proper nouns.",
+   "source": "leido_diagnostico_ace"
+  },
+  {
+   "id": "EN-04-1040",
+   "subject": "ela",
+   "level": 4,
+   "ace": 1040,
+   "skill": "Identify simple subject and verb",
+   "florida": "ELA.4.C",
+   "type": "mcq",
+   "prompt": "What are the simple subject and the verb in this sentence? 'The busy bees in the garden make sweet honey.'",
+   "options": [
+    "garden / make",
+    "bees / make",
+    "bees / honey",
+    "busy / sweet"
+   ],
+   "answer": 1,
+   "explain": "'Bees' is who does the action and 'make' is the verb; 'garden' is inside a prepositional phrase.",
+   "source": "leido_diagnostico_ace"
+  },
+  {
+   "id": "EN-04-1041",
+   "subject": "ela",
+   "level": 4,
+   "ace": 1041,
+   "skill": "Choose correct object pronoun",
+   "florida": "ELA.4.C",
+   "type": "mcq",
+   "prompt": "Choose the correct pronoun: Mom gave the tickets to Isaac and ___.",
+   "options": [
+    "I",
+    "mine",
+    "me",
+    "myself"
+   ],
+   "answer": 2,
+   "explain": "After the preposition 'to', use the object pronoun 'me'.",
+   "source": "leido_diagnostico_ace"
+  },
+  {
+   "id": "EN-04-1042",
+   "subject": "ela",
+   "level": 4,
+   "ace": 1042,
+   "skill": "Identify an adverb",
+   "florida": "ELA.4.C",
+   "type": "mcq",
+   "prompt": "Which word is an adverb? 'The choir sang softly during the evening service.'",
+   "options": [
+    "choir",
+    "during",
+    "evening",
+    "softly"
+   ],
+   "answer": 3,
+   "explain": "'Softly' tells how the choir sang, so it is an adverb.",
+   "source": "leido_diagnostico_ace"
+  },
+  {
+   "id": "EN-04-1043",
+   "subject": "ela",
+   "level": 4,
+   "ace": 1043,
+   "skill": "Use apostrophes correctly",
+   "florida": "ELA.4.C",
+   "type": "mcq",
+   "prompt": "Which sentence uses an apostrophe correctly?",
+   "options": [
+    "My brother's bike has a flat tire.",
+    "The girls's coats are wet.",
+    "Ben doesnt know the answer.",
+    "We cant' stay long."
+   ],
+   "answer": 0,
+   "explain": "'Brother's' correctly shows that the bike belongs to the brother.",
+   "source": "leido_diagnostico_ace"
+  },
+  {
+   "id": "EN-04-1044",
+   "subject": "ela",
+   "level": 4,
+   "ace": 1044,
+   "skill": "Punctuate dialogue with quotation marks",
+   "florida": "ELA.4.C",
+   "type": "mcq",
+   "prompt": "Which sentence is punctuated correctly?",
+   "options": [
+    "\"Please pass the bread\" said Grandma.",
+    "\"Please pass the bread,\" said Grandma.",
+    "Please pass the bread, \"said Grandma.\"",
+    "\"Please pass the bread,\" said Grandma"
+   ],
+   "answer": 1,
+   "explain": "The spoken words are in quotation marks with a comma inside, and the sentence ends with a period.",
+   "source": "leido_diagnostico_ace"
+  },
+  {
+   "id": "EN-04-1045",
+   "subject": "ela",
+   "level": 4,
+   "ace": 1045,
+   "skill": "Choose correct homophone in context",
+   "florida": "ELA.4.V",
+   "type": "mcq",
+   "prompt": "Choose the correct word: We walked ___ the gate into the garden.",
+   "options": [
+    "threw",
+    "thorough",
+    "through",
+    "throw"
+   ],
+   "answer": 2,
+   "explain": "'Through' means from one side to the other; 'threw' is the past of throw.",
+   "source": "leido_diagnostico_ace"
+  },
+  {
+   "id": "EN-04-1046",
+   "subject": "ela",
+   "level": 4,
+   "ace": 1046,
+   "skill": "Choose lie or lay",
+   "florida": "ELA.4.C",
+   "type": "mcq",
+   "prompt": "Choose the correct word: After the long hike, Dad wanted to ___ down on the couch.",
+   "options": [
+    "lay",
+    "lie",
+    "laid",
+    "lain"
+   ],
+   "answer": 1,
+   "explain": "'Lie' means to rest and takes no object; 'lay' needs an object.",
+   "source": "leido_diagnostico_ace"
+  },
+  {
+   "id": "EN-04-1047",
+   "subject": "ela",
+   "level": 4,
+   "ace": 1047,
+   "skill": "Use irregular past participle",
+   "florida": "ELA.4.C",
+   "type": "mcq",
+   "prompt": "Choose the correct verb: By the time we arrived, the bell had already ___.",
+   "options": [
+    "rang",
+    "rung",
+    "ringed",
+    "ring"
+   ],
+   "answer": 1,
+   "explain": "After 'had', use the past participle of ring: rung.",
+   "source": "leido_diagnostico_ace"
+  },
+  {
+   "id": "EN-04-1048",
+   "subject": "ela",
+   "level": 4,
+   "ace": 1048,
+   "skill": "Identify parts of a business letter",
+   "florida": "ELA.4.C",
+   "type": "mcq",
+   "prompt": "In a business letter, which part comes right before the writer's signature?",
+   "options": [
+    "the heading",
+    "the inside address",
+    "the closing, such as 'Sincerely,'",
+    "the greeting"
+   ],
+   "answer": 2,
+   "explain": "The closing comes just before the signature; the heading, inside address and greeting come at the top.",
+   "source": "leido_diagnostico_ace"
+  }
+ ]
+}
