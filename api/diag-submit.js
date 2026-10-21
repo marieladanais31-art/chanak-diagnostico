@@ -28,14 +28,17 @@ module.exports = async (req, res) => {
   if (req.method !== 'POST') { res.status(405).json({ error: 'Usa POST' }); return; }
   let body = req.body; if (typeof body === 'string') { try { body = JSON.parse(body); } catch { body = null; } }
   const track = body && body.track; const payload = body && body.payload;
+  const linkToken = body && /^[0-9a-f]{16,64}$/.test(String(body.link_token || '')) ? String(body.link_token) : null;
   if (!['off', 'dual'].includes(track) || !payload || typeof payload !== 'object' || JSON.stringify(payload).length > 180000) { res.status(400).json({ error: 'Datos no válidos' }); return; }
   if (process.env.DIAG_MOCK === '1') { res.status(200).json({ id: '00000000-0000-4000-8000-000000000001', upload_token: '0123456789abcdef', route_email: ROUTE[track], notified: false, mock: true }); return; }
   if (!supa.configured()) { res.status(501).json({ error: 'El envío al SIS aún no está configurado (SUPABASE_URL, SUPABASE_ANON_KEY).' }); return; }
   try {
-    const out = await supa.rpc('submit_diagnostic', { p_track: track, p_payload: payload });
-    const notified = await notify(ROUTE[track], { ...payload, track }, out.id);
-    res.status(200).json({ id: out.id, upload_token: out.upload_token, route_email: out.route_email || ROUTE[track], notified });
+    const out = await supa.rpc('submit_diagnostic', linkToken ? { p_track: track, p_payload: payload, p_link_token: linkToken } : { p_track: track, p_payload: payload });
+    const realTrack = out.track || track;
+    const notified = await notify(ROUTE[realTrack], { ...payload, track: realTrack }, out.id);
+    res.status(200).json({ id: out.id, upload_token: out.upload_token, route_email: out.route_email || ROUTE[realTrack], notified });
   } catch (e) {
+    if (/enlace/i.test(String(e.message))) { res.status(403).json({ error: 'El enlace del diagnóstico no es válido, ya se usó o venció. Pida uno nuevo.' }); return; }
     res.status(502).json({ error: 'No se pudo guardar el diagnóstico' });
   }
 };

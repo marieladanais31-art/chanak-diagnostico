@@ -24,3 +24,10 @@ El informe y el PEI hablan de **conceptos a reforzar**, expresados como unidades
 - `docs/learning-units.json` es el catálogo semilla: 308 LU (id, materia, nivel, orden, concepto ES/EN, consejo de práctica ES/EN, eje de Florida, referencia ACE). Cada pregunta del banco lleva su `lu`.
 - El payload para el SIS trae `learning_units_to_reinforce` y `continue_at` con esos ids; las referencias externas van en `references`.
 - Una LU por concepto diagnóstico hoy; la plataforma podrá añadir más LU por concepto (práctica, repaso, evaluación M.L.) sin cambiar los ids.
+
+## Enlaces personales (flujo de entrada)
+- **Off-Campus:** el diagnóstico va incluido. Al enviar la matrícula en el SIS se crea un enlace y se envía por correo; también aparece en la pantalla de "Solicitud recibida".
+- **Dual Diploma:** la familia paga primero la evaluación (Stripe: ES 35 €, PA 50 USD, MX 850 MXN, EE. UU. 58 USD, con `client_reference_id = DX-<folio>`). Al confirmarse el pago, el webhook del SIS crea el enlace y lo envía. El pago de la evaluación NO marca la matrícula como pagada ni se descuenta de ella.
+- El enlace es de un solo uso (se consume al entregar), vence a los 30 días y fija el programa y la ruta de revisión.
+- `evaluacion.html?k=<token>` precarga nombre, curso y correo. Sin enlace: si `diagnostic_settings.require_link` es `false` la página sigue abierta (modo transición); si es `true` muestra "Necesitas tu enlace personal".
+- Coordinación puede crear enlaces a mano en el SIS (Matrícula → Diagnósticos → Crear enlace).

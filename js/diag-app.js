@@ -84,7 +84,7 @@
   window.setLang = setLang;
 
   // ── Navegación ────────────────────────────────────────────────────────────
-  const SECTIONS = ['landing', 'form', 'level', 'test', 'results', 'mentor', 'pei', 'cert'];
+  const SECTIONS = ['landing', 'form', 'level', 'test', 'results', 'mentor', 'pei', 'cert', 'gate'];
   function showSection(n) {
     if (S.inProgress && !['test', 'results', 'mentor', 'pei', 'cert'].includes(n)) { S.pendingExit = n; $('exit-modal').classList.add('open'); return; }
     _show(n);
@@ -502,7 +502,7 @@ ${refRows ? `<div class="pblk refs-foot"><h3>${L.refs}</h3><table class="equiv-t
     box.className = 'note'; box.textContent = T().submitting;
     try {
       const payload = S.pei || buildPeiPayload(); S.pei = payload;
-      const out = await postJson('/api/diag-submit', { track: S.track, payload });
+      const out = await postJson('/api/diag-submit', { track: S.track, payload, link_token: S.link ? S.link.token : undefined });
       S.sub = { id: out.id, token: out.upload_token, route: out.route_email };
       box.className = 'note ok'; box.innerHTML = `✓ ${esc(T().sentOk)} (<strong>${esc(out.route_email)}</strong>)`;
       renderUploadPanel();
@@ -567,5 +567,36 @@ ${refRows ? `<div class="pblk refs-foot"><h3>${L.refs}</h3><table class="equiv-t
     return true;
   }
 
-  document.addEventListener('DOMContentLoaded', () => { applyLang(); if (!uploadOnlyMode()) _show('landing'); });
+  // ── Enlace personal: el programa, el nombre y el curso vienen del enlace (matrícula o pago de la evaluación) ──
+  const GATE_TX = {
+    es: { title: 'Necesitas tu enlace personal', body: 'El diagnóstico se hace con un enlace personal que te llega por correo al matricularte (Off-Campus) o al pagar la evaluación (Dual Diploma).', used: 'Este enlace ya se utilizó. Si necesitas repetirlo, pide uno nuevo.', expired: 'Este enlace venció. Pide uno nuevo.', void: 'Este enlace ya no es válido. Pide uno nuevo.', ask: 'Si ya te matriculaste o pagaste y no te llegó, escribe a', apply: 'Ir a la matrícula' },
+    en: { title: 'You need your personal link', body: 'The diagnostic uses a personal link emailed to you when you enroll (Off-Campus) or pay for the evaluation (Dual Diploma).', used: 'This link has already been used. If you need to retake it, ask for a new one.', expired: 'This link has expired. Ask for a new one.', void: 'This link is no longer valid. Ask for a new one.', ask: 'If you already enrolled or paid and did not receive it, write to', apply: 'Go to enrollment' },
+  };
+  function showGate(reason) {
+    const g = GATE_TX[LANG]; const msg = reason && g[reason] ? g[reason] : g.body;
+    $('gate-title').textContent = g.title; $('gate-msg').textContent = msg;
+    $('gate-ask').textContent = g.ask; $('gate-apply').textContent = g.apply;
+    SECTIONS.forEach((x) => $('section-' + x).classList.add('hidden')); $('section-gate').classList.remove('hidden');
+  }
+  window.__regate = () => showGate(S.gateReason);
+  async function initLink() {
+    const k = new URLSearchParams(location.search).get('k');
+    try {
+      if (!k) {
+        const cfg = await api('/api/diag-link');
+        if (cfg && cfg.require_link) { S.gateReason = null; showGate(null); return true; }
+        return false; // página abierta (mientras require_link esté apagado)
+      }
+      const info = await api('/api/diag-link?k=' + encodeURIComponent(k));
+      if (!info.valid) { S.gateReason = info.reason; showGate(info.reason); return true; }
+      S.link = { token: k, track: info.track };
+      const set = (id, v) => { const e = $(id); if (e && v != null && v !== '') e.value = v; };
+      set('f-nombre', info.student_name); set('f-email', info.family_email);
+      if (info.declared_grade != null) set('f-curso', String(info.declared_grade));
+      set('f-programa', info.track); $('f-programa').disabled = true;
+      $('link-banner').classList.remove('hidden');
+      _show('form'); return true;
+    } catch { return false; } // si el servicio no responde, no se bloquea a la familia
+  }
+  document.addEventListener('DOMContentLoaded', async () => { applyLang(); if (uploadOnlyMode()) return; if (!(await initLink())) _show('landing'); });
 })();
