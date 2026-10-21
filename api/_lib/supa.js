@@ -5,7 +5,9 @@ const configured = () => !!(URL_() && KEY());
 const headers = (extra = {}) => ({ apikey: KEY(), Authorization: `Bearer ${KEY()}`, ...extra });
 
 async function rpc(fn, args) {
-  const r = await fetch(`${URL_()}/rest/v1/rpc/${fn}`, { method: 'POST', headers: headers({ 'Content-Type': 'application/json' }), body: JSON.stringify(args) });
+  let r;
+  try { r = await fetch(`${URL_()}/rest/v1/rpc/${fn}`, { method: 'POST', headers: headers({ 'Content-Type': 'application/json' }), body: JSON.stringify(args) }); }
+  catch (err) { const e = new Error('No se pudo conectar con Supabase (revisa SUPABASE_URL)'); e.status = 0; throw e; }
   const text = await r.text();
   let json = null; try { json = JSON.parse(text); } catch { /* ignore */ }
   if (!r.ok) { const e = new Error((json && json.message) || `HTTP ${r.status}`); e.status = r.status; throw e; }
