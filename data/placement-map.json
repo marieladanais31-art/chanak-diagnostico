@@ -1,0 +1,284 @@
+{
+ "version": "0.1-fase1",
+ "dominio": {
+  "chanak": 0.8,
+  "ace": 0.8,
+  "cle": 0.7,
+  "lifepac": 0.7
+ },
+ "punto_de_partida": {
+  "primaria": {
+   "grados": "1-6",
+   "retroceso_grados": 3
+  },
+  "secundaria": {
+   "grados": "7-12",
+   "retroceso_grados": 5
+  },
+  "minimo": "K/1",
+  "nota": "Interpretación pendiente de confirmar con Mariela"
+ },
+ "regla_ingles_bajo": {
+  "accion": "recomendar_reading_abc",
+  "umbral": 0.6,
+  "nota": "Si no domina el primer nivel de inglés, se recomienda Reading - ABC antes de seguir"
+ },
+ "grades": {
+  "1": {
+   "ace": {
+    "english": {
+     "pace_range": [
+      1001,
+      1012
+     ],
+     "status": "leido"
+    },
+    "math": {
+     "pace_range": [
+      1001,
+      1012
+     ],
+     "status": "leido"
+    }
+   },
+   "cle_language_arts": {
+    "level": 1,
+    "minimum": 92,
+    "possible": 131
+   },
+   "lifepac_level": 100
+  },
+  "2": {
+   "ace": {
+    "english": {
+     "pace_range": [
+      1013,
+      1024
+     ],
+     "status": "leido"
+    },
+    "math": {
+     "pace_range": [
+      1013,
+      1024
+     ],
+     "status": "leido_con_huecos"
+    }
+   },
+   "cle_language_arts": {
+    "level": 2,
+    "minimum": 85,
+    "possible": 122
+   },
+   "lifepac_level": 200
+  },
+  "3": {
+   "ace": {
+    "english": {
+     "pace_range": [
+      1025,
+      1036
+     ],
+     "status": "leido"
+    },
+    "math": {
+     "pace_range": [
+      1025,
+      1036
+     ],
+     "status": "leido_con_huecos"
+    }
+   },
+   "cle_language_arts": {
+    "level": 3,
+    "minimum": 118,
+    "possible": 169
+   },
+   "lifepac_level": 300
+  },
+  "4": {
+   "ace": {
+    "english": {
+     "pace_range": [
+      1037,
+      1048
+     ],
+     "status": "leido"
+    },
+    "math": {
+     "pace_range": [
+      1037,
+      1048
+     ],
+     "status": "leido"
+    }
+   },
+   "cle_language_arts": {
+    "level": 4,
+    "minimum": 108,
+    "possible": 155
+   },
+   "lifepac_level": 400
+  },
+  "5": {
+   "ace": {
+    "english": {
+     "pace_range": [
+      1049,
+      1060
+     ],
+     "status": "leido"
+    },
+    "math": {
+     "pace_range": [
+      1049,
+      1060
+     ],
+     "status": "leido"
+    }
+   },
+   "cle_language_arts": null,
+   "lifepac_level": 500
+  },
+  "6": {
+   "ace": {
+    "english": {
+     "pace_range": [
+      1061,
+      1072
+     ],
+     "status": "leido"
+    },
+    "math": {
+     "pace_range": [
+      1061,
+      1072
+     ],
+     "status": "leido"
+    }
+   },
+   "cle_language_arts": null,
+   "lifepac_level": 600
+  },
+  "7": {
+   "ace": {
+    "english": {
+     "pace_range": [
+      1073,
+      1084
+     ],
+     "status": "leido"
+    },
+    "math": {
+     "pace_range": [
+      1073,
+      1084
+     ],
+     "status": "deducido"
+    }
+   },
+   "cle_language_arts": null,
+   "lifepac_level": 700
+  },
+  "8": {
+   "ace": {
+    "english": {
+     "pace_range": [
+      1085,
+      1096
+     ],
+     "status": "leido"
+    },
+    "math": {
+     "pace_range": [
+      1085,
+      1096
+     ],
+     "status": "deducido"
+    }
+   },
+   "cle_language_arts": null,
+   "lifepac_level": 800
+  },
+  "9": {
+   "ace": {
+    "english": {
+     "pace_range": [
+      1097,
+      1108
+     ],
+     "status": "deducido"
+    },
+    "math": {
+     "pace_range": [
+      1097,
+      1108
+     ],
+     "status": "deducido"
+    }
+   },
+   "cle_language_arts": null,
+   "lifepac_level": 900
+  },
+  "10": {
+   "ace": {
+    "english": {
+     "pace_range": [
+      1109,
+      1120
+     ],
+     "status": "deducido"
+    },
+    "math": {
+     "pace_range": [
+      1109,
+      1120
+     ],
+     "status": "deducido"
+    }
+   },
+   "cle_language_arts": null,
+   "lifepac_level": 1000
+  },
+  "11": {
+   "ace": {
+    "english": {
+     "pace_range": [
+      1121,
+      1132
+     ],
+     "status": "deducido"
+    },
+    "math": {
+     "pace_range": [
+      1121,
+      1132
+     ],
+     "status": "deducido"
+    }
+   },
+   "cle_language_arts": null,
+   "lifepac_level": 1100
+  },
+  "12": {
+   "ace": {
+    "english": {
+     "pace_range": [
+      1133,
+      1144
+     ],
+     "status": "deducido"
+    },
+    "math": {
+     "pace_range": [
+      1133,
+      1144
+     ],
+     "status": "deducido"
+    }
+   },
+   "cle_language_arts": null,
+   "lifepac_level": 1200
+  }
+ }
+}

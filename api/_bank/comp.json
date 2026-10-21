@@ -1,0 +1,2269 @@
+{
+ "areas": {
+  "science": "Science",
+  "geography": "Geography",
+  "history": "History",
+  "ei": "Emotional Intelligence",
+  "bible": "Bible"
+ },
+ "items": [
+  {
+   "id": "CP-01-SCI-01",
+   "subject": "comp",
+   "level": 1,
+   "area": "science",
+   "type": "mcq",
+   "prompt": {
+    "es": "¿Cuál de estos es un ser vivo?",
+    "en": "Which of these is a living thing?"
+   },
+   "options": {
+    "es": [
+     "Una piedra",
+     "Una silla",
+     "Un árbol",
+     "Una nube"
+    ],
+    "en": [
+     "A rock",
+     "A chair",
+     "A tree",
+     "A cloud"
+    ]
+   },
+   "answer": 2
+  },
+  {
+   "id": "CP-01-SCI-02",
+   "subject": "comp",
+   "level": 1,
+   "area": "science",
+   "type": "mcq",
+   "prompt": {
+    "es": "¿Cuál es la parte de la planta que absorbe el agua del suelo?",
+    "en": "Which part of a plant soaks up water from the soil?"
+   },
+   "options": {
+    "es": [
+     "Las hojas",
+     "Las flores",
+     "Las raíces",
+     "El tallo"
+    ],
+    "en": [
+     "The leaves",
+     "The flowers",
+     "The roots",
+     "The stem"
+    ]
+   },
+   "answer": 2
+  },
+  {
+   "id": "CP-01-SCI-03",
+   "subject": "comp",
+   "level": 1,
+   "area": "science",
+   "type": "mcq",
+   "prompt": {
+    "es": "En el ciclo del agua, ¿cómo se llama el proceso por el que el agua sube al cielo?",
+    "en": "In the water cycle, what is the name of the process that lifts water up into the sky?"
+   },
+   "options": {
+    "es": [
+     "Precipitación",
+     "Condensación",
+     "Evaporación",
+     "Filtración"
+    ],
+    "en": [
+     "Precipitation",
+     "Condensation",
+     "Evaporation",
+     "Infiltration"
+    ]
+   },
+   "answer": 2
+  },
+  {
+   "id": "CP-01-SCI-04",
+   "subject": "comp",
+   "level": 1,
+   "area": "science",
+   "type": "mcq",
+   "prompt": {
+    "es": "¿Cuál de estos animales es un mamífero?",
+    "en": "Which of these animals is a mammal?"
+   },
+   "options": {
+    "es": [
+     "Águila",
+     "Rana",
+     "Tiburón",
+     "Perro"
+    ],
+    "en": [
+     "Eagle",
+     "Frog",
+     "Shark",
+     "Dog"
+    ]
+   },
+   "answer": 3
+  },
+  {
+   "id": "CP-01-GEO-01",
+   "subject": "comp",
+   "level": 1,
+   "area": "geography",
+   "type": "mcq",
+   "prompt": {
+    "es": "¿Cuántos continentes hay en el mundo?",
+    "en": "How many continents are there in the world?"
+   },
+   "options": {
+    "es": [
+     "4",
+     "5",
+     "6",
+     "7"
+    ],
+    "en": [
+     "4",
+     "5",
+     "6",
+     "7"
+    ]
+   },
+   "answer": 2,
+   "us_alt": {
+    "prompt": {
+     "es": "¿Cuántos continentes hay en el mundo, según se enseña en EE. UU.?",
+     "en": "How many continents are there in the world, as taught in U.S. schools?"
+    },
+    "options": {
+     "es": [
+      "5",
+      "6",
+      "7",
+      "8"
+     ],
+     "en": [
+      "5",
+      "6",
+      "7",
+      "8"
+     ]
+    },
+    "answer": 2
+   }
+  },
+  {
+   "id": "CP-01-GEO-02",
+   "subject": "comp",
+   "level": 1,
+   "area": "geography",
+   "type": "mcq",
+   "prompt": {
+    "es": "Si el sol sale por el Este, ¿en qué dirección se pone?",
+    "en": "If the sun rises in the East, in which direction does it set?"
+   },
+   "options": {
+    "es": [
+     "Norte",
+     "Sur",
+     "Oeste",
+     "Este"
+    ],
+    "en": [
+     "North",
+     "South",
+     "West",
+     "East"
+    ]
+   },
+   "answer": 2
+  },
+  {
+   "id": "CP-01-GEO-03",
+   "subject": "comp",
+   "level": 1,
+   "area": "geography",
+   "type": "mcq",
+   "prompt": {
+    "es": "¿Cuál de estos es un océano?",
+    "en": "Which of these is an ocean?"
+   },
+   "options": {
+    "es": [
+     "Amazonas",
+     "Mediterráneo",
+     "Pacífico",
+     "Nilo"
+    ],
+    "en": [
+     "Amazon",
+     "Mediterranean",
+     "Pacific",
+     "Nile"
+    ]
+   },
+   "answer": 2
+  },
+  {
+   "id": "CP-01-HIS-01",
+   "subject": "comp",
+   "level": 1,
+   "area": "history",
+   "type": "mcq",
+   "prompt": {
+    "es": "¿En qué período vivieron los dinosaurios?",
+    "en": "During which time period did dinosaurs live?"
+   },
+   "options": {
+    "es": [
+     "Hace 200 años",
+     "En la Edad Media",
+     "En la Era Mesozoica, hace millones de años",
+     "En el siglo XX"
+    ],
+    "en": [
+     "200 years ago",
+     "In the Middle Ages",
+     "In the Mesozoic Era, millions of years ago",
+     "In the 20th century"
+    ]
+   },
+   "answer": 2,
+   "hold": "Revisar con dirección: la respuesta implica era Mesozoica (millones de años)"
+  },
+  {
+   "id": "CP-01-HIS-02",
+   "subject": "comp",
+   "level": 1,
+   "area": "history",
+   "type": "mcq",
+   "prompt": {
+    "es": "¿Dónde se construyeron las pirámides más famosas del mundo antiguo?",
+    "en": "Where were the most famous pyramids of the ancient world built?"
+   },
+   "options": {
+    "es": [
+     "China",
+     "Grecia",
+     "Egipto",
+     "Roma"
+    ],
+    "en": [
+     "China",
+     "Greece",
+     "Egypt",
+     "Rome"
+    ]
+   },
+   "answer": 2
+  },
+  {
+   "id": "CP-01-HIS-03",
+   "subject": "comp",
+   "level": 1,
+   "area": "history",
+   "type": "mcq",
+   "prompt": {
+    "es": "En una línea del tiempo, los eventos se ordenan de:",
+    "en": "On a timeline, events are arranged from:"
+   },
+   "options": {
+    "es": [
+     "Mayor a menor número",
+     "Más reciente a más antiguo",
+     "Más antiguo a más reciente",
+     "Por orden alfabético"
+    ],
+    "en": [
+     "Largest to smallest number",
+     "Most recent to oldest",
+     "Oldest to most recent",
+     "In alphabetical order"
+    ]
+   },
+   "answer": 2
+  },
+  {
+   "id": "CP-01-EI-01",
+   "subject": "comp",
+   "level": 1,
+   "area": "ei",
+   "type": "mcq",
+   "prompt": {
+    "es": "Si un compañero llora porque perdió su juguete, ¿qué sería lo más empático?",
+    "en": "If a classmate is crying because he lost his toy, what would be the most caring thing to do?"
+   },
+   "options": {
+    "es": [
+     "Reírse de él",
+     "Ignorarlo",
+     "Preguntarle cómo se siente y ofrecerle ayuda",
+     "Decirle que fue su culpa"
+    ],
+    "en": [
+     "Laugh at him",
+     "Ignore him",
+     "Ask how he feels and offer to help",
+     "Tell him it was his fault"
+    ]
+   },
+   "answer": 2
+  },
+  {
+   "id": "CP-01-EI-02",
+   "subject": "comp",
+   "level": 1,
+   "area": "ei",
+   "type": "mcq",
+   "prompt": {
+    "es": "Cuando estás enojado, ¿qué es mejor hacer antes de reaccionar?",
+    "en": "When you are angry, what is best to do before you react?"
+   },
+   "options": {
+    "es": [
+     "Gritar inmediatamente",
+     "Respirar profundo y calmarte",
+     "Pelear con quien te enojó",
+     "Llorar todo el día"
+    ],
+    "en": [
+     "Yell right away",
+     "Take a deep breath and calm down",
+     "Fight the person who made you mad",
+     "Cry all day"
+    ]
+   },
+   "answer": 1
+  },
+  {
+   "id": "CP-01-EI-03",
+   "subject": "comp",
+   "level": 1,
+   "area": "ei",
+   "type": "mcq",
+   "prompt": {
+    "es": "Dos amigos quieren jugar juegos diferentes. ¿Cuál es la mejor solución?",
+    "en": "Two friends want to play different games. What is the best solution?"
+   },
+   "options": {
+    "es": [
+     "Que uno se vaya",
+     "Que discutan hasta que uno gane",
+     "Que busquen un juego que los dos disfruten",
+     "Que nadie juegue"
+    ],
+    "en": [
+     "One of them leaves",
+     "They argue until one wins",
+     "They find a game they both enjoy",
+     "Nobody plays"
+    ]
+   },
+   "answer": 2
+  },
+  {
+   "id": "CP-01-EI-04",
+   "subject": "comp",
+   "level": 1,
+   "area": "ei",
+   "type": "mcq",
+   "prompt": {
+    "es": "¿Cuál de estas es una emoción?",
+    "en": "Which of these is an emotion?"
+   },
+   "options": {
+    "es": [
+     "Correr",
+     "Alegría",
+     "Libro",
+     "Mesa"
+    ],
+    "en": [
+     "Running",
+     "Joy",
+     "Book",
+     "Table"
+    ]
+   },
+   "answer": 1
+  },
+  {
+   "id": "CP-01-BIB-01",
+   "subject": "comp",
+   "level": 1,
+   "area": "bible",
+   "type": "mcq",
+   "prompt": {
+    "es": "¿Cuántos libros tiene la Biblia en total?",
+    "en": "How many books are there in the Bible in all?"
+   },
+   "options": {
+    "es": [
+     "39",
+     "66",
+     "27",
+     "73"
+    ],
+    "en": [
+     "39",
+     "66",
+     "27",
+     "73"
+    ]
+   },
+   "answer": 1
+  },
+  {
+   "id": "CP-01-BIB-02",
+   "subject": "comp",
+   "level": 1,
+   "area": "bible",
+   "type": "mcq",
+   "prompt": {
+    "es": "¿Quién fue el primer hombre creado por Dios según la Biblia?",
+    "en": "According to the Bible, who was the first man God created?"
+   },
+   "options": {
+    "es": [
+     "Abraham",
+     "Moisés",
+     "Adán",
+     "Noé"
+    ],
+    "en": [
+     "Abraham",
+     "Moses",
+     "Adam",
+     "Noah"
+    ]
+   },
+   "answer": 2
+  },
+  {
+   "id": "CP-01-BIB-03",
+   "subject": "comp",
+   "level": 1,
+   "area": "bible",
+   "type": "mcq",
+   "prompt": {
+    "es": "¿En qué libro de la Biblia se narra la historia de Noé y el arca?",
+    "en": "In which book of the Bible is the story of Noah and the ark told?"
+   },
+   "options": {
+    "es": [
+     "Éxodo",
+     "Salmos",
+     "Génesis",
+     "Proverbios"
+    ],
+    "en": [
+     "Exodus",
+     "Psalms",
+     "Genesis",
+     "Proverbs"
+    ]
+   },
+   "answer": 2
+  },
+  {
+   "id": "CP-01-BIB-04",
+   "subject": "comp",
+   "level": 1,
+   "area": "bible",
+   "type": "mcq",
+   "prompt": {
+    "es": "¿Cuántos discípulos principales tenía Jesús?",
+    "en": "How many main disciples did Jesus have?"
+   },
+   "options": {
+    "es": [
+     "7",
+     "10",
+     "12",
+     "14"
+    ],
+    "en": [
+     "7",
+     "10",
+     "12",
+     "14"
+    ]
+   },
+   "answer": 2
+  },
+  {
+   "id": "CP-02-SCI-01",
+   "subject": "comp",
+   "level": 2,
+   "area": "science",
+   "type": "mcq",
+   "prompt": {
+    "es": "¿Cuál es la función principal de la clorofila en las plantas?",
+    "en": "What is the main job of chlorophyll in plants?"
+   },
+   "options": {
+    "es": [
+     "Absorber agua del suelo",
+     "Capturar luz solar para la fotosíntesis",
+     "Proteger las hojas de insectos",
+     "Transportar minerales"
+    ],
+    "en": [
+     "Absorbing water from the soil",
+     "Capturing sunlight for photosynthesis",
+     "Protecting leaves from insects",
+     "Carrying minerals"
+    ]
+   },
+   "answer": 1
+  },
+  {
+   "id": "CP-02-SCI-02",
+   "subject": "comp",
+   "level": 2,
+   "area": "science",
+   "type": "mcq",
+   "prompt": {
+    "es": "¿Qué tipo de energía produce el Sol principalmente?",
+    "en": "What kind of energy does the Sun mainly give off?"
+   },
+   "options": {
+    "es": [
+     "Energía química",
+     "Energía radiante (luz y calor)",
+     "Energía eléctrica",
+     "Energía mecánica"
+    ],
+    "en": [
+     "Chemical energy",
+     "Radiant energy (light and heat)",
+     "Electrical energy",
+     "Mechanical energy"
+    ]
+   },
+   "answer": 1
+  },
+  {
+   "id": "CP-02-SCI-03",
+   "subject": "comp",
+   "level": 2,
+   "area": "science",
+   "type": "mcq",
+   "prompt": {
+    "es": "Los reptiles son animales de sangre:",
+    "en": "Reptiles are animals with ______ blood:"
+   },
+   "options": {
+    "es": [
+     "Caliente",
+     "Fría",
+     "Tibia",
+     "Variable"
+    ],
+    "en": [
+     "Warm",
+     "Cold",
+     "Lukewarm",
+     "Variable"
+    ]
+   },
+   "answer": 1
+  },
+  {
+   "id": "CP-02-SCI-04",
+   "subject": "comp",
+   "level": 2,
+   "area": "science",
+   "type": "mcq",
+   "prompt": {
+    "es": "¿Cuál es la unidad básica de los seres vivos?",
+    "en": "What is the basic unit of all living things?"
+   },
+   "options": {
+    "es": [
+     "El tejido",
+     "El órgano",
+     "La célula",
+     "El átomo"
+    ],
+    "en": [
+     "The tissue",
+     "The organ",
+     "The cell",
+     "The atom"
+    ]
+   },
+   "answer": 2
+  },
+  {
+   "id": "CP-02-SCI-05",
+   "subject": "comp",
+   "level": 2,
+   "area": "science",
+   "type": "mcq",
+   "prompt": {
+    "es": "¿Qué capa de la atmósfera nos protege de los rayos ultravioleta?",
+    "en": "Which layer of the atmosphere protects us from ultraviolet rays?"
+   },
+   "options": {
+    "es": [
+     "Tropósfera",
+     "Estratósfera / Capa de ozono",
+     "Ionósfera",
+     "Exósfera"
+    ],
+    "en": [
+     "Troposphere",
+     "Stratosphere / Ozone layer",
+     "Ionosphere",
+     "Exosphere"
+    ]
+   },
+   "answer": 1
+  },
+  {
+   "id": "CP-02-GEO-01",
+   "subject": "comp",
+   "level": 2,
+   "area": "geography",
+   "type": "mcq",
+   "prompt": {
+    "es": "¿Cuál es el río más largo del mundo?",
+    "en": "What is the longest river in the world?"
+   },
+   "options": {
+    "es": [
+     "El Nilo",
+     "El Amazonas",
+     "El Yangtsé",
+     "El Misisipi"
+    ],
+    "en": [
+     "The Nile",
+     "The Amazon",
+     "The Yangtze",
+     "The Mississippi"
+    ]
+   },
+   "answer": 0
+  },
+  {
+   "id": "CP-02-GEO-02",
+   "subject": "comp",
+   "level": 2,
+   "area": "geography",
+   "type": "mcq",
+   "prompt": {
+    "es": "¿Qué instrumento se usa para medir la presión atmosférica?",
+    "en": "Which instrument is used to measure atmospheric (air) pressure?"
+   },
+   "options": {
+    "es": [
+     "Termómetro",
+     "Barómetro",
+     "Brújula",
+     "Higrómetro"
+    ],
+    "en": [
+     "Thermometer",
+     "Barometer",
+     "Compass",
+     "Hygrometer"
+    ]
+   },
+   "answer": 1
+  },
+  {
+   "id": "CP-02-GEO-03",
+   "subject": "comp",
+   "level": 2,
+   "area": "geography",
+   "type": "mcq",
+   "prompt": {
+    "es": "¿Cuáles son los paralelos especiales del planeta Tierra?",
+    "en": "Which are the special lines of latitude on planet Earth?"
+   },
+   "options": {
+    "es": [
+     "El meridiano de Greenwich y el antimeridiano",
+     "El Ecuador, los Trópicos y los Círculos Polares",
+     "El Ecuador y el meridiano de Greenwich",
+     "Los trópicos y los polos"
+    ],
+    "en": [
+     "The Prime Meridian and the antimeridian",
+     "The Equator, the Tropics, and the Polar Circles",
+     "The Equator and the Prime Meridian",
+     "The tropics and the poles"
+    ]
+   },
+   "answer": 1
+  },
+  {
+   "id": "CP-02-GEO-04",
+   "subject": "comp",
+   "level": 2,
+   "area": "geography",
+   "type": "mcq",
+   "prompt": {
+    "es": "¿Cuál es el continente más pequeño del mundo?",
+    "en": "What is the smallest continent in the world?"
+   },
+   "options": {
+    "es": [
+     "Europa",
+     "Antártida",
+     "Oceanía / Australia",
+     "América Central"
+    ],
+    "en": [
+     "Europe",
+     "Antarctica",
+     "Oceania / Australia",
+     "Central America"
+    ]
+   },
+   "answer": 2
+  },
+  {
+   "id": "CP-02-HIS-01",
+   "subject": "comp",
+   "level": 2,
+   "area": "history",
+   "type": "mcq",
+   "prompt": {
+    "es": "¿A qué civilización antigua pertenece el Coliseo?",
+    "en": "Which ancient civilization built the Colosseum?"
+   },
+   "options": {
+    "es": [
+     "Griega",
+     "Romana",
+     "Egipcia",
+     "Persa"
+    ],
+    "en": [
+     "Greek",
+     "Roman",
+     "Egyptian",
+     "Persian"
+    ]
+   },
+   "answer": 1
+  },
+  {
+   "id": "CP-02-HIS-02",
+   "subject": "comp",
+   "level": 2,
+   "area": "history",
+   "type": "mcq",
+   "prompt": {
+    "es": "¿En qué siglo ocurrió la Revolución Francesa?",
+    "en": "In which century did the French Revolution take place?"
+   },
+   "options": {
+    "es": [
+     "Siglo XVI",
+     "Siglo XVII",
+     "Siglo XVIII",
+     "Siglo XIX"
+    ],
+    "en": [
+     "16th century",
+     "17th century",
+     "18th century",
+     "19th century"
+    ]
+   },
+   "answer": 2
+  },
+  {
+   "id": "CP-02-HIS-03",
+   "subject": "comp",
+   "level": 2,
+   "area": "history",
+   "type": "mcq",
+   "prompt": {
+    "es": "¿Cuál fue el primer medio de comunicación de masas?",
+    "en": "What was the first mass communication medium?"
+   },
+   "options": {
+    "es": [
+     "La televisión",
+     "La imprenta de Gutenberg",
+     "El telégrafo",
+     "La radio"
+    ],
+    "en": [
+     "Television",
+     "Gutenberg's printing press",
+     "The telegraph",
+     "Radio"
+    ]
+   },
+   "answer": 1
+  },
+  {
+   "id": "CP-02-HIS-04",
+   "subject": "comp",
+   "level": 2,
+   "area": "history",
+   "type": "mcq",
+   "prompt": {
+    "es": "Las civilizaciones mesopotámicas se desarrollaron entre los ríos:",
+    "en": "The Mesopotamian civilizations developed between the rivers:"
+   },
+   "options": {
+    "es": [
+     "Nilo y Congo",
+     "Tigris y Éufrates",
+     "Indo y Ganges",
+     "Huang He y Yangtsé"
+    ],
+    "en": [
+     "Nile and Congo",
+     "Tigris and Euphrates",
+     "Indus and Ganges",
+     "Yellow and Yangtze"
+    ]
+   },
+   "answer": 1
+  },
+  {
+   "id": "CP-02-EI-01",
+   "subject": "comp",
+   "level": 2,
+   "area": "ei",
+   "type": "mcq",
+   "prompt": {
+    "es": "¿Qué significa tener inteligencia emocional?",
+    "en": "What does it mean to have emotional intelligence?"
+   },
+   "options": {
+    "es": [
+     "Ser muy inteligente en matemáticas",
+     "Tener muchos amigos",
+     "Reconocer y manejar las propias emociones y entender las de los demás",
+     "No mostrar nunca emociones"
+    ],
+    "en": [
+     "Being very good at math",
+     "Having lots of friends",
+     "Recognizing and managing your own emotions and understanding other people's",
+     "Never showing any emotions"
+    ]
+   },
+   "answer": 2
+  },
+  {
+   "id": "CP-02-EI-02",
+   "subject": "comp",
+   "level": 2,
+   "area": "ei",
+   "type": "mcq",
+   "prompt": {
+    "es": "Si alguien te critica tu trabajo, ¿cuál es la respuesta más madura?",
+    "en": "If someone criticizes your work, what is the most mature response?"
+   },
+   "options": {
+    "es": [
+     "Ignorar completamente la crítica",
+     "Ponerse a la defensiva y discutir",
+     "Escuchar, reflexionar y decidir si es válida",
+     "Llorar y abandonar el trabajo"
+    ],
+    "en": [
+     "Completely ignore the criticism",
+     "Get defensive and argue",
+     "Listen, think it over, and decide whether it is fair",
+     "Cry and give up on the work"
+    ]
+   },
+   "answer": 2
+  },
+  {
+   "id": "CP-02-EI-03",
+   "subject": "comp",
+   "level": 2,
+   "area": "ei",
+   "type": "mcq",
+   "prompt": {
+    "es": "¿Cuál de estas actitudes describe mejor la resiliencia?",
+    "en": "Which of these attitudes best describes resilience?"
+   },
+   "options": {
+    "es": [
+     "Rendirse ante las dificultades",
+     "Recuperarse y aprender de los fracasos",
+     "Evitar todo lo difícil",
+     "Depender de otros para resolver problemas"
+    ],
+    "en": [
+     "Giving up when things get hard",
+     "Bouncing back and learning from failures",
+     "Avoiding anything difficult",
+     "Relying on others to solve your problems"
+    ]
+   },
+   "answer": 1
+  },
+  {
+   "id": "CP-02-EI-04",
+   "subject": "comp",
+   "level": 2,
+   "area": "ei",
+   "type": "mcq",
+   "prompt": {
+    "es": "¿Qué es la empatía?",
+    "en": "What is empathy?"
+   },
+   "options": {
+    "es": [
+     "Imponer tu opinión a los demás",
+     "Sentir lo que otros sienten y entender su perspectiva",
+     "Ser simpático y contar chistes",
+     "No preocuparte por los demás"
+    ],
+    "en": [
+     "Pushing your opinion on others",
+     "Sharing what others feel and understanding their point of view",
+     "Being friendly and telling jokes",
+     "Not worrying about other people"
+    ]
+   },
+   "answer": 1
+  },
+  {
+   "id": "CP-02-BIB-01",
+   "subject": "comp",
+   "level": 2,
+   "area": "bible",
+   "type": "mcq",
+   "prompt": {
+    "es": "¿Cuántos libros tiene el Antiguo Testamento?",
+    "en": "How many books are in the Old Testament?"
+   },
+   "options": {
+    "es": [
+     "27",
+     "39",
+     "66",
+     "46"
+    ],
+    "en": [
+     "27",
+     "39",
+     "66",
+     "46"
+    ]
+   },
+   "answer": 1
+  },
+  {
+   "id": "CP-02-BIB-02",
+   "subject": "comp",
+   "level": 2,
+   "area": "bible",
+   "type": "mcq",
+   "prompt": {
+    "es": "¿Cuál es el libro más largo de la Biblia?",
+    "en": "What is the longest book in the Bible?"
+   },
+   "options": {
+    "es": [
+     "Isaías",
+     "Jeremías",
+     "Salmos",
+     "Génesis"
+    ],
+    "en": [
+     "Isaiah",
+     "Jeremiah",
+     "Psalms",
+     "Genesis"
+    ]
+   },
+   "answer": 2
+  },
+  {
+   "id": "CP-02-BIB-03",
+   "subject": "comp",
+   "level": 2,
+   "area": "bible",
+   "type": "mcq",
+   "prompt": {
+    "es": "¿En qué libro de la Biblia se encuentran los Diez Mandamientos por primera vez?",
+    "en": "In which book of the Bible do we first find the Ten Commandments?"
+   },
+   "options": {
+    "es": [
+     "Levítico",
+     "Números",
+     "Deuteronomio",
+     "Éxodo"
+    ],
+    "en": [
+     "Leviticus",
+     "Numbers",
+     "Deuteronomy",
+     "Exodus"
+    ]
+   },
+   "answer": 3
+  },
+  {
+   "id": "CP-02-BIB-04",
+   "subject": "comp",
+   "level": 2,
+   "area": "bible",
+   "type": "mcq",
+   "prompt": {
+    "es": "¿Quién escribió la mayor parte de las cartas del Nuevo Testamento?",
+    "en": "Who wrote most of the letters (epistles) of the New Testament?"
+   },
+   "options": {
+    "es": [
+     "Pedro",
+     "Juan",
+     "Pablo",
+     "Santiago"
+    ],
+    "en": [
+     "Peter",
+     "John",
+     "Paul",
+     "James"
+    ]
+   },
+   "answer": 2
+  },
+  {
+   "id": "CP-02-BIB-05",
+   "subject": "comp",
+   "level": 2,
+   "area": "bible",
+   "type": "mcq",
+   "prompt": {
+    "es": "¿Cuál fue el primer milagro de Jesús según el Evangelio de Juan?",
+    "en": "According to the Gospel of John, what was Jesus' first miracle?"
+   },
+   "options": {
+    "es": [
+     "Caminar sobre el agua",
+     "Sanar a un ciego",
+     "Convertir agua en vino en Caná",
+     "Resucitar a Lázaro"
+    ],
+    "en": [
+     "Walking on water",
+     "Healing a blind man",
+     "Turning water into wine at Cana",
+     "Raising Lazarus from the dead"
+    ]
+   },
+   "answer": 2
+  },
+  {
+   "id": "CP-03-SCI-01",
+   "subject": "comp",
+   "level": 3,
+   "area": "science",
+   "type": "mcq",
+   "prompt": {
+    "es": "¿Cuál es la diferencia entre mezcla homogénea y heterogénea?",
+    "en": "What is the difference between a homogeneous and a heterogeneous mixture?"
+   },
+   "options": {
+    "es": [
+     "En la homogénea los componentes se ven a simple vista",
+     "En la heterogénea los componentes no se distinguen",
+     "En la homogénea los componentes son uniformes e indistinguibles; en la heterogénea se pueden distinguir",
+     "No existe diferencia"
+    ],
+    "en": [
+     "In a homogeneous mixture the parts can be seen with the naked eye",
+     "In a heterogeneous mixture the parts cannot be told apart",
+     "In a homogeneous mixture the parts are uniform and indistinguishable; in a heterogeneous mixture they can be told apart",
+     "There is no difference"
+    ]
+   },
+   "answer": 2
+  },
+  {
+   "id": "CP-03-SCI-02",
+   "subject": "comp",
+   "level": 3,
+   "area": "science",
+   "type": "mcq",
+   "prompt": {
+    "es": "¿Qué tipo de reacción química ocurre cuando el hierro se oxida?",
+    "en": "What type of chemical reaction takes place when iron rusts?"
+   },
+   "options": {
+    "es": [
+     "Síntesis",
+     "Reducción",
+     "Combustión",
+     "Oxidación-reducción (redox)"
+    ],
+    "en": [
+     "Synthesis",
+     "Reduction",
+     "Combustion",
+     "Oxidation-reduction (redox)"
+    ]
+   },
+   "answer": 3
+  },
+  {
+   "id": "CP-03-SCI-03",
+   "subject": "comp",
+   "level": 3,
+   "area": "science",
+   "type": "mcq",
+   "prompt": {
+    "es": "¿Cuál es la función de las mitocondrias en la célula?",
+    "en": "What is the function of the mitochondria in a cell?"
+   },
+   "options": {
+    "es": [
+     "Síntesis de proteínas",
+     "Producción de energía (ATP) mediante respiración celular",
+     "Control del material genético",
+     "Transporte de sustancias"
+    ],
+    "en": [
+     "Making proteins",
+     "Producing energy (ATP) through cellular respiration",
+     "Controlling the genetic material",
+     "Transporting substances"
+    ]
+   },
+   "answer": 1
+  },
+  {
+   "id": "CP-03-SCI-04",
+   "subject": "comp",
+   "level": 3,
+   "area": "science",
+   "type": "mcq",
+   "prompt": {
+    "es": "La fotosíntesis produce principalmente:",
+    "en": "Photosynthesis mainly produces:"
+   },
+   "options": {
+    "es": [
+     "CO₂ y agua",
+     "Glucosa y oxígeno",
+     "Nitrógeno y glucosa",
+     "Agua y proteínas"
+    ],
+    "en": [
+     "CO₂ and water",
+     "Glucose and oxygen",
+     "Nitrogen and glucose",
+     "Water and proteins"
+    ]
+   },
+   "answer": 1
+  },
+  {
+   "id": "CP-03-SCI-05",
+   "subject": "comp",
+   "level": 3,
+   "area": "science",
+   "type": "mcq",
+   "prompt": {
+    "es": "¿Cuál es la diferencia entre velocidad y aceleración?",
+    "en": "What is the difference between velocity and acceleration?"
+   },
+   "options": {
+    "es": [
+     "No hay diferencia",
+     "La velocidad es el cambio de aceleración",
+     "La velocidad indica cuán rápido se mueve algo; la aceleración indica el cambio de velocidad en el tiempo",
+     "La aceleración solo existe en caída libre"
+    ],
+    "en": [
+     "There is no difference",
+     "Velocity is the change in acceleration",
+     "Velocity tells how fast something is moving; acceleration is how its velocity changes over time",
+     "Acceleration only exists in free fall"
+    ]
+   },
+   "answer": 2
+  },
+  {
+   "id": "CP-03-SCI-06",
+   "subject": "comp",
+   "level": 3,
+   "area": "science",
+   "type": "mcq",
+   "prompt": {
+    "es": "¿Qué ley describe: «Todo objeto en reposo permanece en reposo, y todo objeto en movimiento continúa a menos que actúe una fuerza sobre él»?",
+    "en": "Which law states: \"An object at rest stays at rest, and an object in motion keeps moving, unless a force acts on it\"?"
+   },
+   "options": {
+    "es": [
+     "Segunda ley de Newton",
+     "Tercera ley de Newton",
+     "Primera ley de Newton (inercia)",
+     "Ley de gravitación universal"
+    ],
+    "en": [
+     "Newton's Second Law",
+     "Newton's Third Law",
+     "Newton's First Law (inertia)",
+     "Law of Universal Gravitation"
+    ]
+   },
+   "answer": 2
+  },
+  {
+   "id": "CP-03-SCI-07",
+   "subject": "comp",
+   "level": 3,
+   "area": "science",
+   "type": "mcq",
+   "prompt": {
+    "es": "¿Qué es un ecosistema?",
+    "en": "What is an ecosystem?"
+   },
+   "options": {
+    "es": [
+     "Un conjunto de animales en un zoológico",
+     "El conjunto de seres vivos y su entorno físico interactuando como sistema",
+     "Solo los elementos abióticos de un lugar",
+     "La capa vegetal de la Tierra"
+    ],
+    "en": [
+     "A group of animals in a zoo",
+     "All the living things and their physical surroundings interacting as a system",
+     "Only the nonliving parts of a place",
+     "The layer of plants covering the Earth"
+    ]
+   },
+   "answer": 1
+  },
+  {
+   "id": "CP-03-GEO-01",
+   "subject": "comp",
+   "level": 3,
+   "area": "geography",
+   "type": "mcq",
+   "prompt": {
+    "es": "¿Qué es el PIB (Producto Interior Bruto)?",
+    "en": "What is GDP (Gross Domestic Product)?"
+   },
+   "options": {
+    "es": [
+     "La deuda de un país",
+     "El valor total de todos los bienes y servicios producidos en un país en un período",
+     "El presupuesto del gobierno",
+     "Las exportaciones menos las importaciones"
+    ],
+    "en": [
+     "A country's debt",
+     "The total value of all goods and services produced in a country in a given period",
+     "The government's budget",
+     "Exports minus imports"
+    ]
+   },
+   "answer": 1
+  },
+  {
+   "id": "CP-03-GEO-02",
+   "subject": "comp",
+   "level": 3,
+   "area": "geography",
+   "type": "mcq",
+   "prompt": {
+    "es": "¿Cuál es la principal característica de un clima mediterráneo?",
+    "en": "What is the main characteristic of a Mediterranean climate?"
+   },
+   "options": {
+    "es": [
+     "Veranos fríos e inviernos cálidos",
+     "Lluvias todo el año y temperaturas constantes",
+     "Veranos secos y calurosos, inviernos suaves y lluviosos",
+     "Ausencia total de precipitaciones"
+    ],
+    "en": [
+     "Cold summers and warm winters",
+     "Rain all year and steady temperatures",
+     "Hot, dry summers and mild, rainy winters",
+     "No precipitation at all"
+    ]
+   },
+   "answer": 2
+  },
+  {
+   "id": "CP-03-GEO-03",
+   "subject": "comp",
+   "level": 3,
+   "area": "geography",
+   "type": "mcq",
+   "prompt": {
+    "es": "¿Qué tipo de roca se forma por solidificación del magma?",
+    "en": "What type of rock forms when magma cools and solidifies?"
+   },
+   "options": {
+    "es": [
+     "Sedimentaria",
+     "Metamórfica",
+     "Ígnea o magmática",
+     "Calcárea"
+    ],
+    "en": [
+     "Sedimentary",
+     "Metamorphic",
+     "Igneous",
+     "Limestone"
+    ]
+   },
+   "answer": 2
+  },
+  {
+   "id": "CP-03-GEO-04",
+   "subject": "comp",
+   "level": 3,
+   "area": "geography",
+   "type": "mcq",
+   "prompt": {
+    "es": "¿Qué es la tasa de natalidad?",
+    "en": "What is the birth rate?"
+   },
+   "options": {
+    "es": [
+     "El número de personas que fallecen por cada 1.000 hab.",
+     "El número de nacimientos por cada 1.000 hab. en un año",
+     "El crecimiento total de la población",
+     "La migración neta de un país"
+    ],
+    "en": [
+     "The number of people who die per 1,000 inhabitants",
+     "The number of births per 1,000 inhabitants in a year",
+     "The total growth of the population",
+     "A country's net migration"
+    ]
+   },
+   "answer": 1
+  },
+  {
+   "id": "CP-03-GEO-05",
+   "subject": "comp",
+   "level": 3,
+   "area": "geography",
+   "type": "mcq",
+   "prompt": {
+    "es": "¿Cuál es el organismo internacional creado para mantener la paz y la seguridad mundial?",
+    "en": "Which international organization was created to maintain world peace and security?"
+   },
+   "options": {
+    "es": [
+     "Banco Mundial",
+     "Fondo Monetario Internacional",
+     "Organización de las Naciones Unidas (ONU)",
+     "OTAN"
+    ],
+    "en": [
+     "World Bank",
+     "International Monetary Fund",
+     "United Nations (UN)",
+     "NATO"
+    ]
+   },
+   "answer": 2
+  },
+  {
+   "id": "CP-03-HIS-01",
+   "subject": "comp",
+   "level": 3,
+   "area": "history",
+   "type": "mcq",
+   "prompt": {
+    "es": "¿Cuál fue la causa principal de la Primera Guerra Mundial (1914–1918)?",
+    "en": "What was the main cause of World War I (1914–1918)?"
+   },
+   "options": {
+    "es": [
+     "La invasión de Polonia por Alemania",
+     "El asesinato del Archiduque Francisco Fernando y el sistema de alianzas europeas",
+     "La Revolución Rusa",
+     "La crisis económica de 1929"
+    ],
+    "en": [
+     "Germany's invasion of Poland",
+     "The assassination of Archduke Franz Ferdinand and Europe's system of alliances",
+     "The Russian Revolution",
+     "The economic crisis of 1929"
+    ]
+   },
+   "answer": 1
+  },
+  {
+   "id": "CP-03-HIS-02",
+   "subject": "comp",
+   "level": 3,
+   "area": "history",
+   "type": "mcq",
+   "prompt": {
+    "es": "¿Qué fue la Ilustración?",
+    "en": "What was the Enlightenment?"
+   },
+   "options": {
+    "es": [
+     "Un movimiento artístico del siglo XIX",
+     "Un movimiento intelectual del siglo XVIII que defendió la razón, la libertad y el progreso",
+     "Una reforma religiosa del siglo XVI",
+     "Una revolución industrial en Inglaterra"
+    ],
+    "en": [
+     "A 19th-century art movement",
+     "An 18th-century intellectual movement that championed reason, liberty, and progress",
+     "A 16th-century religious reform",
+     "An industrial revolution in England"
+    ]
+   },
+   "answer": 1
+  },
+  {
+   "id": "CP-03-HIS-03",
+   "subject": "comp",
+   "level": 3,
+   "area": "history",
+   "type": "mcq",
+   "prompt": {
+    "es": "¿En qué año cayó el Muro de Berlín?",
+    "en": "In what year did the Berlin Wall fall?"
+   },
+   "options": {
+    "es": [
+     "1985",
+     "1987",
+     "1989",
+     "1991"
+    ],
+    "en": [
+     "1985",
+     "1987",
+     "1989",
+     "1991"
+    ]
+   },
+   "answer": 2
+  },
+  {
+   "id": "CP-03-HIS-04",
+   "subject": "comp",
+   "level": 3,
+   "area": "history",
+   "type": "mcq",
+   "prompt": {
+    "es": "¿Cuál es la diferencia entre monarquía absoluta y monarquía constitucional?",
+    "en": "What is the difference between an absolute monarchy and a constitutional monarchy?"
+   },
+   "options": {
+    "es": [
+     "No hay diferencia",
+     "En la absoluta el rey tiene poder ilimitado; en la constitucional el poder está limitado por una ley fundamental",
+     "En la constitucional el rey no existe",
+     "En la absoluta hay elecciones populares"
+    ],
+    "en": [
+     "There is no difference",
+     "In an absolute monarchy the king has unlimited power; in a constitutional monarchy his power is limited by a fundamental law",
+     "In a constitutional monarchy there is no king",
+     "In an absolute monarchy there are popular elections"
+    ]
+   },
+   "answer": 1
+  },
+  {
+   "id": "CP-03-HIS-05",
+   "subject": "comp",
+   "level": 3,
+   "area": "history",
+   "type": "mcq",
+   "prompt": {
+    "es": "¿Cuál fue la consecuencia más significativa de la Revolución Industrial del siglo XIX?",
+    "en": "What was the most significant result of the 19th-century Industrial Revolution?"
+   },
+   "options": {
+    "es": [
+     "La desaparición del comercio internacional",
+     "La formación de la clase obrera y el surgimiento del capitalismo industrial",
+     "El fin de todas las monarquías europeas",
+     "La colonización de América"
+    ],
+    "en": [
+     "The end of international trade",
+     "The rise of the working class and of industrial capitalism",
+     "The end of all European monarchies",
+     "The colonization of the Americas"
+    ]
+   },
+   "answer": 1
+  },
+  {
+   "id": "CP-03-EI-01",
+   "subject": "comp",
+   "level": 3,
+   "area": "ei",
+   "type": "mcq",
+   "prompt": {
+    "es": "¿Cuál es la diferencia entre emoción y sentimiento?",
+    "en": "What is the difference between an emotion and a feeling?"
+   },
+   "options": {
+    "es": [
+     "Son exactamente lo mismo",
+     "Las emociones son respuestas automáticas e inmediatas; los sentimientos son su interpretación consciente y duradera",
+     "Los sentimientos son negativos y las emociones positivas",
+     "Las emociones son cognitivas y los sentimientos fisiológicos"
+    ],
+    "en": [
+     "They are exactly the same thing",
+     "Emotions are automatic, immediate responses; feelings are our conscious, longer-lasting interpretation of them",
+     "Feelings are negative and emotions are positive",
+     "Emotions are cognitive and feelings are physiological"
+    ]
+   },
+   "answer": 1
+  },
+  {
+   "id": "CP-03-EI-02",
+   "subject": "comp",
+   "level": 3,
+   "area": "ei",
+   "type": "mcq",
+   "prompt": {
+    "es": "Ante una situación de estrés intenso, ¿cuál es la estrategia cognitiva más efectiva?",
+    "en": "In a highly stressful situation, which is the most effective thinking strategy?"
+   },
+   "options": {
+    "es": [
+     "Ignorar el problema completamente",
+     "Reevaluar la situación desde una perspectiva más objetiva",
+     "Reaccionar impulsivamente para liberar tensión",
+     "Evitar todo lo que cause estrés"
+    ],
+    "en": [
+     "Ignore the problem completely",
+     "Reassess the situation from a more objective point of view",
+     "React impulsively to release tension",
+     "Avoid everything that causes stress"
+    ]
+   },
+   "answer": 1
+  },
+  {
+   "id": "CP-03-EI-03",
+   "subject": "comp",
+   "level": 3,
+   "area": "ei",
+   "type": "mcq",
+   "prompt": {
+    "es": "¿Qué es la asertividad?",
+    "en": "What is assertiveness?"
+   },
+   "options": {
+    "es": [
+     "Imponer los propios deseos sin escuchar a los demás",
+     "Comunicar lo que uno piensa y siente de manera directa, honesta y respetuosa",
+     "Evitar conflictos cediendo siempre ante los demás",
+     "Responder con agresividad cuando algo nos molesta"
+    ],
+    "en": [
+     "Forcing your wishes on others without listening",
+     "Saying what you think and feel in a direct, honest, and respectful way",
+     "Avoiding conflict by always giving in",
+     "Responding aggressively when something bothers you"
+    ]
+   },
+   "answer": 1
+  },
+  {
+   "id": "CP-03-EI-04",
+   "subject": "comp",
+   "level": 3,
+   "area": "ei",
+   "type": "mcq",
+   "prompt": {
+    "es": "Según el modelo de Daniel Goleman, ¿cuántos componentes principales tiene la inteligencia emocional?",
+    "en": "According to Daniel Goleman's model, how many main components does emotional intelligence have?"
+   },
+   "options": {
+    "es": [
+     "3",
+     "4",
+     "5",
+     "6"
+    ],
+    "en": [
+     "3",
+     "4",
+     "5",
+     "6"
+    ]
+   },
+   "answer": 2
+  },
+  {
+   "id": "CP-03-EI-05",
+   "subject": "comp",
+   "level": 3,
+   "area": "ei",
+   "type": "mcq",
+   "prompt": {
+    "es": "¿Cuál de estos comportamientos demuestra mayor madurez emocional?",
+    "en": "Which of these behaviors shows the greatest emotional maturity?"
+   },
+   "options": {
+    "es": [
+     "Nunca mostrar emociones en público",
+     "Reconocer el propio error y pedir disculpas sinceramente",
+     "Siempre estar de buen humor sin importar las circunstancias",
+     "Evitar relaciones que puedan generar conflictos"
+    ],
+    "en": [
+     "Never showing emotions in public",
+     "Admitting your own mistake and sincerely apologizing",
+     "Always being in a good mood no matter what",
+     "Avoiding relationships that might lead to conflict"
+    ]
+   },
+   "answer": 1
+  },
+  {
+   "id": "CP-03-BIB-01",
+   "subject": "comp",
+   "level": 3,
+   "area": "bible",
+   "type": "mcq",
+   "prompt": {
+    "es": "¿Qué significa la palabra «evangelio»?",
+    "en": "What does the word \"gospel\" mean?"
+   },
+   "options": {
+    "es": [
+     "Promesa sagrada",
+     "Buena noticia",
+     "Libro sagrado",
+     "Palabra de Dios"
+    ],
+    "en": [
+     "Sacred promise",
+     "Good news",
+     "Holy book",
+     "Word of God"
+    ]
+   },
+   "answer": 1
+  },
+  {
+   "id": "CP-03-BIB-02",
+   "subject": "comp",
+   "level": 3,
+   "area": "bible",
+   "type": "mcq",
+   "prompt": {
+    "es": "¿Cuál es el versículo más conocido del Nuevo Testamento, frecuentemente llamado «el evangelio en miniatura»?",
+    "en": "Which is the best-known verse of the New Testament, often called \"the gospel in miniature\"?"
+   },
+   "options": {
+    "es": [
+     "Romanos 8:28",
+     "Mateo 5:3",
+     "Juan 3:16",
+     "Filipenses 4:13"
+    ],
+    "en": [
+     "Romans 8:28",
+     "Matthew 5:3",
+     "John 3:16",
+     "Philippians 4:13"
+    ]
+   },
+   "answer": 2
+  },
+  {
+   "id": "CP-03-BIB-03",
+   "subject": "comp",
+   "level": 3,
+   "area": "bible",
+   "type": "mcq",
+   "prompt": {
+    "es": "¿En qué idioma fue escrito originalmente el Nuevo Testamento?",
+    "en": "In what language was the New Testament originally written?"
+   },
+   "options": {
+    "es": [
+     "Latín",
+     "Hebreo",
+     "Arameo",
+     "Griego koiné"
+    ],
+    "en": [
+     "Latin",
+     "Hebrew",
+     "Aramaic",
+     "Koine Greek"
+    ]
+   },
+   "answer": 3
+  },
+  {
+   "id": "CP-03-BIB-04",
+   "subject": "comp",
+   "level": 3,
+   "area": "bible",
+   "type": "mcq",
+   "prompt": {
+    "es": "¿Cuál es la diferencia entre los Evangelios Sinópticos y el Evangelio de Juan?",
+    "en": "What is the difference between the Synoptic Gospels and the Gospel of John?"
+   },
+   "options": {
+    "es": [
+     "Solo Juan narra milagros de Jesús",
+     "Mateo, Marcos y Lucas comparten una perspectiva narrativa similar; Juan tiene un enfoque teológico y simbólico propio",
+     "Juan fue escrito antes que los otros tres",
+     "Los sinópticos no mencionan la resurrección"
+    ],
+    "en": [
+     "Only John tells of Jesus' miracles",
+     "Matthew, Mark, and Luke share a similar narrative viewpoint; John has its own theological and symbolic approach",
+     "John was written before the other three",
+     "The Synoptics do not mention the resurrection"
+    ]
+   },
+   "answer": 1
+  },
+  {
+   "id": "CP-03-BIB-05",
+   "subject": "comp",
+   "level": 3,
+   "area": "bible",
+   "type": "mcq",
+   "prompt": {
+    "es": "¿Qué enseña el Sermón del Monte en Mateo 5–7?",
+    "en": "What does the Sermon on the Mount in Matthew 5–7 teach?"
+   },
+   "options": {
+    "es": [
+     "Las reglas del templo de Jerusalén",
+     "La ética del reino de Dios: bienaventuranzas, amor al prójimo, oración y confianza en Dios",
+     "Los milagros que hizo Jesús en Galilea",
+     "La historia de la creación del mundo"
+    ],
+    "en": [
+     "The rules of the temple in Jerusalem",
+     "The ethics of God's kingdom: the Beatitudes, love for neighbor, prayer, and trust in God",
+     "The miracles Jesus performed in Galilee",
+     "The story of the creation of the world"
+    ]
+   },
+   "answer": 1
+  },
+  {
+   "id": "CP-04-SCI-01",
+   "subject": "comp",
+   "level": 4,
+   "area": "science",
+   "type": "mcq",
+   "prompt": {
+    "es": "En una reacción química, la ley de conservación de la masa establece que:",
+    "en": "In a chemical reaction, the law of conservation of mass states that:"
+   },
+   "options": {
+    "es": [
+     "la masa total de los reactivos es igual a la masa total de los productos",
+     "la masa de los productos siempre es mayor que la de los reactivos",
+     "la masa desaparece cuando se libera energía en forma de calor",
+     "la masa de los gases no cuenta en los cálculos"
+    ],
+    "en": [
+     "the total mass of the reactants equals the total mass of the products",
+     "the mass of the products is always greater than that of the reactants",
+     "mass disappears when energy is released as heat",
+     "the mass of gases does not count in calculations"
+    ]
+   },
+   "answer": 0
+  },
+  {
+   "id": "CP-04-SCI-02",
+   "subject": "comp",
+   "level": 4,
+   "area": "science",
+   "type": "mcq",
+   "prompt": {
+    "es": "Un carrito de 2 kg acelera a 3 m/s² sobre una superficie sin fricción. ¿Cuál es la fuerza neta que actúa sobre él?",
+    "en": "A 2 kg cart accelerates at 3 m/s² on a frictionless surface. What is the net force acting on it?"
+   },
+   "options": {
+    "es": [
+     "1,5 N",
+     "5 N",
+     "6 N",
+     "9 N"
+    ],
+    "en": [
+     "1.5 N",
+     "5 N",
+     "6 N",
+     "9 N"
+    ]
+   },
+   "answer": 2
+  },
+  {
+   "id": "CP-04-SCI-03",
+   "subject": "comp",
+   "level": 4,
+   "area": "science",
+   "type": "mcq",
+   "prompt": {
+    "es": "¿Cuál es la función principal de una enzima en el cuerpo?",
+    "en": "What is the main function of an enzyme in the body?"
+   },
+   "options": {
+    "es": [
+     "Almacenar energía a largo plazo",
+     "Acelerar una reacción química al reducir su energía de activación",
+     "Transportar oxígeno en la sangre",
+     "Almacenar la información genética"
+    ],
+    "en": [
+     "Storing energy for the long term",
+     "Speeding up a chemical reaction by lowering its activation energy",
+     "Carrying oxygen in the blood",
+     "Storing genetic information"
+    ]
+   },
+   "answer": 1
+  },
+  {
+   "id": "CP-04-SCI-04",
+   "subject": "comp",
+   "level": 4,
+   "area": "science",
+   "type": "mcq",
+   "prompt": {
+    "es": "En una cadena alimentaria, ¿qué porcentaje aproximado de la energía pasa de un nivel trófico al siguiente?",
+    "en": "In a food chain, about what percentage of energy is passed from one trophic level to the next?"
+   },
+   "options": {
+    "es": [
+     "1 %",
+     "10 %",
+     "50 %",
+     "90 %"
+    ],
+    "en": [
+     "1%",
+     "10%",
+     "50%",
+     "90%"
+    ]
+   },
+   "answer": 1
+  },
+  {
+   "id": "CP-04-GEO-01",
+   "subject": "comp",
+   "level": 4,
+   "area": "geography",
+   "type": "mcq",
+   "prompt": {
+    "es": "¿Qué es el «Cinturón de Fuego del Pacífico»?",
+    "en": "What is the \"Ring of Fire\" of the Pacific?"
+   },
+   "options": {
+    "es": [
+     "Una corriente marina cálida del Pacífico",
+     "Una cadena de desiertos costeros",
+     "Una zona con gran actividad volcánica y sísmica alrededor del océano Pacífico",
+     "Una ruta comercial marítima antigua"
+    ],
+    "en": [
+     "A warm ocean current in the Pacific",
+     "A chain of coastal deserts",
+     "A zone of intense volcanic and earthquake activity around the Pacific Ocean",
+     "An ancient sea trade route"
+    ]
+   },
+   "answer": 2
+  },
+  {
+   "id": "CP-04-GEO-02",
+   "subject": "comp",
+   "level": 4,
+   "area": "geography",
+   "type": "mcq",
+   "prompt": {
+    "es": "¿Qué mide la latitud de un lugar?",
+    "en": "What does the latitude of a place measure?"
+   },
+   "options": {
+    "es": [
+     "Su distancia angular al este o al oeste del meridiano de Greenwich",
+     "Su altura sobre el nivel del mar",
+     "Su distancia angular al norte o al sur del Ecuador",
+     "La cantidad de lluvia que recibe al año"
+    ],
+    "en": [
+     "Its angular distance east or west of the Prime Meridian",
+     "Its height above sea level",
+     "Its angular distance north or south of the Equator",
+     "The amount of rain it receives each year"
+    ]
+   },
+   "answer": 2
+  },
+  {
+   "id": "CP-04-GEO-03",
+   "subject": "comp",
+   "level": 4,
+   "area": "geography",
+   "type": "mcq",
+   "prompt": {
+    "es": "Si en Nueva York (UTC−5) son las 3:00 p. m., ¿qué hora es en Londres (UTC+0)? (Ambas en horario estándar.)",
+    "en": "If it is 3:00 p.m. in New York (UTC−5), what time is it in London (UTC+0)? (Both on standard time.)"
+   },
+   "options": {
+    "es": [
+     "10:00 a. m.",
+     "12:00 p. m.",
+     "8:00 p. m.",
+     "11:00 p. m."
+    ],
+    "en": [
+     "10:00 a.m.",
+     "12:00 p.m.",
+     "8:00 p.m.",
+     "11:00 p.m."
+    ]
+   },
+   "answer": 2
+  },
+  {
+   "id": "CP-04-HIS-01",
+   "subject": "comp",
+   "level": 4,
+   "area": "history",
+   "type": "mcq",
+   "prompt": {
+    "es": "¿Qué documento de 1787 estableció la estructura del gobierno federal de Estados Unidos?",
+    "en": "Which document of 1787 established the structure of the United States federal government?"
+   },
+   "options": {
+    "es": [
+     "La Declaración de Independencia",
+     "Los Artículos de la Confederación",
+     "La Constitución de EE. UU.",
+     "La Carta de Derechos (Bill of Rights)"
+    ],
+    "en": [
+     "The Declaration of Independence",
+     "The Articles of Confederation",
+     "The U.S. Constitution",
+     "The Bill of Rights"
+    ]
+   },
+   "answer": 2
+  },
+  {
+   "id": "CP-04-HIS-02",
+   "subject": "comp",
+   "level": 4,
+   "area": "history",
+   "type": "mcq",
+   "prompt": {
+    "es": "¿Qué principio del gobierno de EE. UU. reparte el poder entre las ramas ejecutiva, legislativa y judicial para que ninguna abuse de él?",
+    "en": "Which principle of U.S. government divides power among the executive, legislative, and judicial branches so that none can abuse it?"
+   },
+   "options": {
+    "es": [
+     "Federalismo",
+     "Separación de poderes con pesos y contrapesos",
+     "Soberanía popular",
+     "Sufragio universal"
+    ],
+    "en": [
+     "Federalism",
+     "Separation of powers with checks and balances",
+     "Popular sovereignty",
+     "Universal suffrage"
+    ]
+   },
+   "answer": 1
+  },
+  {
+   "id": "CP-04-HIS-03",
+   "subject": "comp",
+   "level": 4,
+   "area": "history",
+   "type": "mcq",
+   "prompt": {
+    "es": "¿Qué acontecimiento de 1517 suele considerarse el inicio de la Reforma Protestante?",
+    "en": "Which event of 1517 is generally considered the start of the Protestant Reformation?"
+   },
+   "options": {
+    "es": [
+     "El Concilio de Nicea",
+     "La publicación de las 95 tesis de Martín Lutero",
+     "La firma de la Carta Magna",
+     "La Paz de Westfalia"
+    ],
+    "en": [
+     "The Council of Nicaea",
+     "The posting of Martin Luther's 95 Theses",
+     "The signing of the Magna Carta",
+     "The Peace of Westphalia"
+    ]
+   },
+   "answer": 1
+  },
+  {
+   "id": "CP-04-EI-01",
+   "subject": "comp",
+   "level": 4,
+   "area": "ei",
+   "type": "mcq",
+   "prompt": {
+    "es": "Estás muy molesto con un amigo y quieres escribirle un mensaje. ¿Cuál es la mejor práctica de autorregulación?",
+    "en": "You are very upset with a friend and want to send a message. What is the best self-regulation practice?"
+   },
+   "options": {
+    "es": [
+     "Enviarlo de inmediato para ser sincero",
+     "Esperar a calmarte, releerlo y reformularlo con respeto antes de enviarlo",
+     "Publicarlo para que otros opinen",
+     "No volver a hablarle nunca"
+    ],
+    "en": [
+     "Send it right away to be honest",
+     "Wait until you are calm, reread it, and reword it respectfully before sending",
+     "Post it publicly so others can weigh in",
+     "Never speak to that friend again"
+    ]
+   },
+   "answer": 1
+  },
+  {
+   "id": "CP-04-EI-02",
+   "subject": "comp",
+   "level": 4,
+   "area": "ei",
+   "type": "mcq",
+   "prompt": {
+    "es": "¿Qué caracteriza a una «mentalidad de crecimiento» (growth mindset)?",
+    "en": "What characterizes a \"growth mindset\"?"
+   },
+   "options": {
+    "es": [
+     "Creer que el talento es fijo y no puede cambiar",
+     "Evitar los retos para no equivocarse",
+     "Creer que con esfuerzo, estrategia y práctica se puede mejorar",
+     "Compararse siempre con los demás para sentirse mejor"
+    ],
+    "en": [
+     "Believing talent is fixed and cannot change",
+     "Avoiding challenges so as not to make mistakes",
+     "Believing you can improve through effort, strategy, and practice",
+     "Always comparing yourself with others to feel better"
+    ]
+   },
+   "answer": 2
+  },
+  {
+   "id": "CP-04-EI-03",
+   "subject": "comp",
+   "level": 4,
+   "area": "ei",
+   "type": "mcq",
+   "prompt": {
+    "es": "¿Cuál es un ejemplo de escucha activa?",
+    "en": "Which is an example of active listening?"
+   },
+   "options": {
+    "es": [
+     "Pensar en tu respuesta mientras la otra persona habla",
+     "Mirar a quien habla, no interrumpir y resumir lo que entendiste",
+     "Terminar sus frases para ir más rápido",
+     "Revisar el teléfono mientras habla"
+    ],
+    "en": [
+     "Thinking about your reply while the other person talks",
+     "Looking at the speaker, not interrupting, and summarizing what you understood",
+     "Finishing their sentences to save time",
+     "Checking your phone while they talk"
+    ]
+   },
+   "answer": 1
+  },
+  {
+   "id": "CP-04-EI-04",
+   "subject": "comp",
+   "level": 4,
+   "area": "ei",
+   "type": "mcq",
+   "prompt": {
+    "es": "Tienes un proyecto importante con fecha límite próxima y te sientes abrumado. ¿Qué estrategia es más saludable?",
+    "en": "You have an important project due soon and feel overwhelmed. Which strategy is healthiest?"
+   },
+   "options": {
+    "es": [
+     "Dejarlo para la última noche y trabajar sin dormir",
+     "Dividirlo en tareas pequeñas, planificar tu tiempo y pedir ayuda si la necesitas",
+     "Fingir que no existe hasta que pase el estrés",
+     "Culparte por no haber empezado antes y rendirte"
+    ],
+    "en": [
+     "Leave it for the last night and work without sleeping",
+     "Break it into small tasks, plan your time, and ask for help if you need it",
+     "Pretend it does not exist until the stress passes",
+     "Blame yourself for not starting sooner and give up"
+    ]
+   },
+   "answer": 1
+  },
+  {
+   "id": "CP-04-BIB-01",
+   "subject": "comp",
+   "level": 4,
+   "area": "bible",
+   "type": "mcq",
+   "prompt": {
+    "es": "¿Qué profeta desafió a los profetas de Baal en el monte Carmelo?",
+    "en": "Which prophet challenged the prophets of Baal on Mount Carmel?"
+   },
+   "options": {
+    "es": [
+     "Eliseo",
+     "Elías",
+     "Isaías",
+     "Jeremías"
+    ],
+    "en": [
+     "Elisha",
+     "Elijah",
+     "Isaiah",
+     "Jeremiah"
+    ]
+   },
+   "answer": 1
+  },
+  {
+   "id": "CP-04-BIB-02",
+   "subject": "comp",
+   "level": 4,
+   "area": "bible",
+   "type": "mcq",
+   "prompt": {
+    "es": "¿En qué carta del Nuevo Testamento se encuentra la afirmación «por gracia sois salvos por medio de la fe» (2:8)?",
+    "en": "In which New Testament letter do we find the statement \"For by grace you have been saved through faith\" (2:8)?"
+   },
+   "options": {
+    "es": [
+     "Gálatas",
+     "Santiago",
+     "Efesios",
+     "Hebreos"
+    ],
+    "en": [
+     "Galatians",
+     "James",
+     "Ephesians",
+     "Hebrews"
+    ]
+   },
+   "answer": 2
+  },
+  {
+   "id": "CP-04-BIB-03",
+   "subject": "comp",
+   "level": 4,
+   "area": "bible",
+   "type": "mcq",
+   "prompt": {
+    "es": "¿Cuál de estas cualidades aparece en la lista del fruto del Espíritu de Gálatas 5:22-23?",
+    "en": "Which of these qualities appears in the list of the fruit of the Spirit in Galatians 5:22–23?"
+   },
+   "options": {
+    "es": [
+     "Elocuencia",
+     "Prosperidad",
+     "Dominio propio",
+     "Valentía"
+    ],
+    "en": [
+     "Eloquence",
+     "Prosperity",
+     "Self-control",
+     "Bravery"
+    ]
+   },
+   "answer": 2
+  },
+  {
+   "id": "CP-04-BIB-04",
+   "subject": "comp",
+   "level": 4,
+   "area": "bible",
+   "type": "mcq",
+   "prompt": {
+    "es": "¿Qué significa el título «Cristo» (en hebreo, «Mesías»)?",
+    "en": "What does the title \"Christ\" (in Hebrew, \"Messiah\") mean?"
+   },
+   "options": {
+    "es": [
+     "Maestro",
+     "Pastor",
+     "Profeta",
+     "Ungido"
+    ],
+    "en": [
+     "Teacher",
+     "Shepherd",
+     "Prophet",
+     "Anointed One"
+    ]
+   },
+   "answer": 3
+  },
+  {
+   "id": "CP-04-BIB-05",
+   "subject": "comp",
+   "level": 4,
+   "area": "bible",
+   "type": "mcq",
+   "prompt": {
+    "es": "¿Qué acontecimiento narrado en el libro de Hechos describe la llegada del Espíritu Santo sobre los discípulos?",
+    "en": "Which event in the book of Acts describes the coming of the Holy Spirit upon the disciples?"
+   },
+   "options": {
+    "es": [
+     "La Pascua",
+     "Pentecostés",
+     "La fiesta de los Tabernáculos",
+     "El concilio de Jerusalén"
+    ],
+    "en": [
+     "The Passover",
+     "Pentecost",
+     "The Feast of Tabernacles",
+     "The Council of Jerusalem"
+    ]
+   },
+   "answer": 1
+  }
+ ]
+}

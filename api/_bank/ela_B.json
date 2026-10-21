@@ -1,0 +1,1493 @@
+{
+ "band": "ela_B",
+ "items": [
+  {
+   "id": "EN-05-1049",
+   "subject": "ela",
+   "level": 5,
+   "ace": 1049,
+   "skill": "Identify interrogative sentence and punctuation",
+   "florida": "ELA.5.C",
+   "type": "mcq",
+   "prompt": "Which sentence is an interrogative sentence with the correct end punctuation?",
+   "options": [
+    "Please pass the bread to Grandma.",
+    "Did you feed the puppy this morning?",
+    "What a beautiful sunset we saw!",
+    "Where the children played after church."
+   ],
+   "answer": 1,
+   "explain": "An interrogative sentence asks a question and ends with a question mark; the last choice is a fragment.",
+   "source": "leido_diagnostico_ace",
+   "lu": {
+    "id": "LU-ELA-05-01",
+    "slot": 1,
+    "concept": {
+     "en": "Questions and their end punctuation",
+     "es": "Las preguntas y su puntuación final"
+    },
+    "tip": {
+     "en": "Have your child write five questions about the day and check each ends with a question mark.",
+     "es": "Pida que escriba cinco preguntas sobre el día y revise que cada una termine con signo de interrogación."
+    }
+   }
+  },
+  {
+   "id": "EN-05-1050",
+   "subject": "ela",
+   "level": 5,
+   "ace": 1050,
+   "skill": "Form irregular plural nouns",
+   "florida": "ELA.5.C",
+   "type": "mcq",
+   "prompt": "Which sentence uses the correct plural form of a noun?",
+   "options": [
+    "The farmer counted six sheeps in the field.",
+    "Three mouses hid behind the barn door.",
+    "Two wolves howled under the bright moon.",
+    "Mother bought five loafs of bread."
+   ],
+   "answer": 2,
+   "explain": "Wolf becomes wolves; the correct plurals of the others are sheep, mice, and loaves.",
+   "source": "leido_diagnostico_ace",
+   "lu": {
+    "id": "LU-ELA-05-02",
+    "slot": 2,
+    "concept": {
+     "en": "Irregular plural nouns",
+     "es": "Plurales irregulares de los sustantivos"
+    },
+    "tip": {
+     "en": "Make a list of tricky plurals like mouse, child, and foot, and use each one in a sentence.",
+     "es": "Hagan una lista de plurales difíciles como ratón, luz o lápiz y usen cada uno en una oración."
+    }
+   }
+  },
+  {
+   "id": "EN-05-1051",
+   "subject": "ela",
+   "level": 5,
+   "ace": 1051,
+   "skill": "Identify helping verbs",
+   "florida": "ELA.5.C",
+   "type": "mcq",
+   "prompt": "Read the sentence: \"The choir will be singing at the church picnic.\" Which words are the helping (auxiliary) verbs?",
+   "options": [
+    "be singing",
+    "will be",
+    "will singing",
+    "singing at"
+   ],
+   "answer": 1,
+   "explain": "Will and be help the main verb singing.",
+   "source": "leido_diagnostico_ace",
+   "lu": {
+    "id": "LU-ELA-05-03",
+    "slot": 3,
+    "concept": {
+     "en": "Helping verbs in a sentence",
+     "es": "Verbos auxiliares en una oración"
+    },
+    "tip": {
+     "en": "Underline the helping verbs in sentences from a favorite book, such as will, was, and have.",
+     "es": "Subraye los verbos auxiliares en oraciones de un libro favorito, como ha, estaba o va a."
+    }
+   }
+  },
+  {
+   "id": "EN-05-1052",
+   "subject": "ela",
+   "level": 5,
+   "ace": 1052,
+   "skill": "Subject-verb agreement in number",
+   "florida": "ELA.5.C",
+   "type": "mcq",
+   "prompt": "Choose the verb that agrees with the subject: \"The bells in the old tower ____ every Sunday morning.\"",
+   "options": [
+    "rings",
+    "is ringing",
+    "has rung",
+    "ring"
+   ],
+   "answer": 3,
+   "explain": "The subject is bells (plural), not tower, so the plural verb ring is needed.",
+   "source": "leido_diagnostico_ace",
+   "lu": {
+    "id": "LU-ELA-05-04",
+    "slot": 4,
+    "concept": {
+     "en": "Making verbs agree with subjects",
+     "es": "Concordancia entre sujeto y verbo"
+    },
+    "tip": {
+     "en": "Read sentences aloud and ask whether the subject is one or many, then pick the matching verb.",
+     "es": "Lea oraciones en voz alta y pregunte si el sujeto es uno o varios; luego elija el verbo que concuerda."
+    }
+   }
+  },
+  {
+   "id": "EN-05-1053",
+   "subject": "ela",
+   "level": 5,
+   "ace": 1053,
+   "skill": "Use objective case pronouns",
+   "florida": "ELA.5.C",
+   "type": "mcq",
+   "prompt": "Choose the correct pronoun: \"Dad drove Sam and ____ to the library.\"",
+   "options": [
+    "me",
+    "I",
+    "myself",
+    "mine"
+   ],
+   "answer": 0,
+   "explain": "The pronoun is a direct object of drove, so the objective case me is correct (Dad drove me).",
+   "source": "leido_diagnostico_ace",
+   "lu": {
+    "id": "LU-ELA-05-05",
+    "slot": 5,
+    "concept": {
+     "en": "Choosing me, him, her, or them",
+     "es": "Elegir el pronombre correcto como objeto"
+    },
+    "tip": {
+     "en": "Try the sentence with only the pronoun, like 'Dad drove me,' to hear which choice sounds right.",
+     "es": "Pruebe la oración solo con el pronombre, como 'Papá me llevó', para oír cuál opción suena bien."
+    }
+   }
+  },
+  {
+   "id": "EN-05-1054",
+   "subject": "ela",
+   "level": 5,
+   "ace": 1054,
+   "skill": "Find direct object for diagramming",
+   "florida": "ELA.5.C",
+   "type": "mcq",
+   "prompt": "On a sentence diagram, the subject, verb, and direct object sit on the base line, and the direct object comes after a short line that does not cross the base line. In the sentence \"Every morning, Noah feeds the hungry chickens,\" which word goes after that short line?",
+   "options": [
+    "Noah",
+    "feeds",
+    "chickens",
+    "morning"
+   ],
+   "answer": 2,
+   "explain": "Chickens receives the action of feeds, so it is the direct object.",
+   "source": "leido_diagnostico_ace",
+   "lu": {
+    "id": "LU-ELA-05-06",
+    "slot": 6,
+    "concept": {
+     "en": "Finding the direct object",
+     "es": "Encontrar el complemento directo"
+    },
+    "tip": {
+     "en": "Ask 'who or what receives the action?' after the verb in simple sentences, then sketch a small diagram.",
+     "es": "Tras el verbo pregunte '¿qué o a quién recibe la acción?' en oraciones simples y haga un diagrama sencillo."
+    }
+   }
+  },
+  {
+   "id": "EN-05-1055",
+   "subject": "ela",
+   "level": 5,
+   "ace": 1055,
+   "skill": "Identify complete subject",
+   "florida": "ELA.5.C",
+   "type": "mcq",
+   "prompt": "What is the complete subject of this sentence? \"The tall oak tree beside our church lost all its leaves in October.\"",
+   "options": [
+    "The tall oak tree",
+    "tree",
+    "oak tree beside our church lost",
+    "The tall oak tree beside our church"
+   ],
+   "answer": 3,
+   "explain": "The complete subject is the simple subject tree plus all the words that describe it, ending before the verb lost.",
+   "source": "leido_diagnostico_ace",
+   "lu": {
+    "id": "LU-ELA-05-07",
+    "slot": 7,
+    "concept": {
+     "en": "The complete subject of a sentence",
+     "es": "El sujeto completo de una oración"
+    },
+    "tip": {
+     "en": "Ask 'who or what is this about?' and include every word that describes it, before the verb part.",
+     "es": "Pregunte '¿de quién o de qué se habla?' e incluya todas las palabras que lo describen antes del verbo."
+    }
+   }
+  },
+  {
+   "id": "EN-05-1056",
+   "subject": "ela",
+   "level": 5,
+   "ace": 1056,
+   "skill": "Recognize predicate adjective",
+   "florida": "ELA.5.C",
+   "type": "mcq",
+   "prompt": "In the sentence \"The lemonade tasted sour,\" what is the word \"sour\"?",
+   "options": [
+    "predicate adjective",
+    "direct object",
+    "adverb",
+    "predicate noun"
+   ],
+   "answer": 0,
+   "explain": "Tasted is a linking verb here, and sour describes the subject lemonade, so it is a predicate adjective.",
+   "source": "leido_diagnostico_ace",
+   "lu": {
+    "id": "LU-ELA-05-08",
+    "slot": 8,
+    "concept": {
+     "en": "Predicate adjectives after linking verbs",
+     "es": "Adjetivos después de verbos copulativos"
+    },
+    "tip": {
+     "en": "Practice with verbs like is, felt, and tasted, then name the describing word that follows each one.",
+     "es": "Practique con verbos como es, estaba o parecía y señale la palabra descriptiva que sigue a cada uno."
+    }
+   }
+  },
+  {
+   "id": "EN-05-1057",
+   "subject": "ela",
+   "level": 5,
+   "ace": 1057,
+   "skill": "Use correct forms of comparison",
+   "florida": "ELA.5.C",
+   "type": "mcq",
+   "prompt": "Which sentence uses the correct form of comparison?",
+   "options": [
+    "Of the three puppies, Max is the most smallest.",
+    "Lily runs faster than her older brother.",
+    "This is the more beautiful flower of all.",
+    "Ben sang more louder than anyone else."
+   ],
+   "answer": 1,
+   "explain": "Faster compares two people correctly; the others double the comparison or use the wrong degree.",
+   "source": "leido_diagnostico_ace",
+   "lu": {
+    "id": "LU-ELA-05-09",
+    "slot": 9,
+    "concept": {
+     "en": "Comparing with -er, -est, more, most",
+     "es": "Formas de comparar: más, el más, -er/-est"
+    },
+    "tip": {
+     "en": "Compare three objects at home aloud, using forms like taller, tallest, and more helpful correctly.",
+     "es": "Compare tres objetos de casa en voz alta usando formas como más alto, el más alto y más amable."
+    }
+   }
+  },
+  {
+   "id": "EN-05-1058",
+   "subject": "ela",
+   "level": 5,
+   "ace": 1058,
+   "skill": "Choose lie or lay correctly",
+   "florida": "ELA.5.C",
+   "type": "mcq",
+   "prompt": "Choose the correct verb: \"After lunch, Grandpa likes to ____ down on the couch.\"",
+   "options": [
+    "lay",
+    "laid",
+    "lain",
+    "lie"
+   ],
+   "answer": 3,
+   "explain": "Lie means to rest or recline and takes no object; lay needs an object.",
+   "source": "leido_diagnostico_ace",
+   "lu": {
+    "id": "LU-ELA-05-10",
+    "slot": 10,
+    "concept": {
+     "en": "Using lie and lay correctly",
+     "es": "Usar bien los verbos lie y lay"
+    },
+    "tip": {
+     "en": "Remember that 'lay' needs an object, like lay the book down, while 'lie' means to rest.",
+     "es": "Recuerde que 'lay' lleva objeto (poner algo) y 'lie' significa recostarse; practiquen con ejemplos cotidianos."
+    }
+   }
+  },
+  {
+   "id": "EN-05-1059",
+   "subject": "ela",
+   "level": 5,
+   "ace": 1059,
+   "skill": "Capitalization and commas in dates and places",
+   "florida": "ELA.5.C",
+   "type": "mcq",
+   "prompt": "Which sentence uses capital letters and commas correctly?",
+   "options": [
+    "On Monday, March 3, we visited Uncle Ray in Ocala, Florida.",
+    "On monday, March 3 we visited uncle Ray in Ocala Florida.",
+    "On Monday March 3, we visited Uncle ray in ocala, Florida.",
+    "on Monday, march 3, we visited Uncle Ray, in Ocala Florida."
+   ],
+   "answer": 0,
+   "explain": "Days, months, titles with names, and places are capitalized; commas separate the date and the city from the state.",
+   "source": "leido_diagnostico_ace",
+   "lu": {
+    "id": "LU-ELA-05-11",
+    "slot": 11,
+    "concept": {
+     "en": "Capitals and commas in dates and places",
+     "es": "Mayúsculas y comas en fechas y lugares"
+    },
+    "tip": {
+     "en": "Have your child write today's date and your city and state in a sentence, adding commas.",
+     "es": "Pida que escriba la fecha de hoy y su ciudad en una oración, colocando bien mayúsculas y comas."
+    }
+   }
+  },
+  {
+   "id": "EN-05-1060",
+   "subject": "ela",
+   "level": 5,
+   "ace": 1060,
+   "skill": "Identify a heteronym in context",
+   "florida": "ELA.5.V",
+   "type": "mcq",
+   "prompt": "Heteronyms are words that are spelled the same but are pronounced differently and have different meanings. Which word is used as a heteronym in this sentence? \"We had to wind the kite string tightly because the wind was so strong.\"",
+   "options": [
+    "kite",
+    "strong",
+    "wind",
+    "tightly"
+   ],
+   "answer": 2,
+   "explain": "Wind (to turn, long i) and wind (moving air, short i) are spelled alike but sound different and mean different things.",
+   "source": "leido_diagnostico_ace",
+   "lu": {
+    "id": "LU-ELA-05-12",
+    "slot": 12,
+    "concept": {
+     "en": "Words spelled alike, said differently",
+     "es": "Palabras que se escriben igual y suenan distinto"
+    },
+    "tip": {
+     "en": "Find words like wind, tear, or bow in books and say each meaning with its own pronunciation.",
+     "es": "Busque en libros palabras como wind, tear o bow y diga cada significado con su pronunciación."
+    }
+   }
+  },
+  {
+   "id": "EN-06-1061",
+   "subject": "ela",
+   "level": 6,
+   "ace": 1061,
+   "skill": "Arrange words in alphabetical order",
+   "florida": "ELA.6.V",
+   "type": "mcq",
+   "prompt": "Which list of words is in correct alphabetical order?",
+   "options": [
+    "prayer, praise, preach, present",
+    "praise, preach, prayer, present",
+    "present, preach, prayer, praise",
+    "praise, prayer, preach, present"
+   ],
+   "answer": 3,
+   "explain": "Compare letter by letter: prai- comes before pray-, pra- before pre-, and prea- before pres-.",
+   "source": "leido_diagnostico_ace",
+   "lu": {
+    "id": "LU-ELA-06-01",
+    "slot": 1,
+    "concept": {
+     "en": "Putting words in alphabetical order",
+     "es": "Ordenar palabras alfabéticamente"
+    },
+    "tip": {
+     "en": "Alphabetize ten family names or grocery items, looking at the second and third letters when needed.",
+     "es": "Ordenen alfabéticamente diez nombres o productos del mercado, mirando la segunda y tercera letra si hace falta."
+    }
+   }
+  },
+  {
+   "id": "EN-06-1062",
+   "subject": "ela",
+   "level": 6,
+   "ace": 1062,
+   "skill": "Form plural possessive nouns",
+   "florida": "ELA.6.C",
+   "type": "mcq",
+   "prompt": "Which phrase correctly shows toys that belong to more than one child?",
+   "options": [
+    "the childrens' toys",
+    "the children's toys",
+    "the childs' toys",
+    "the childrens toys"
+   ],
+   "answer": 1,
+   "explain": "Children is already plural and does not end in s, so add an apostrophe and s: children's.",
+   "source": "leido_diagnostico_ace",
+   "lu": {
+    "id": "LU-ELA-06-02",
+    "slot": 2,
+    "concept": {
+     "en": "Plural possessive nouns",
+     "es": "Posesivos de sustantivos en plural"
+    },
+    "tip": {
+     "en": "Practice phrases like the boys' toys and the children's toys, noting where the apostrophe goes.",
+     "es": "Practiquen frases como 'the boys' toys' y 'the children's toys', notando dónde va el apóstrofo."
+    }
+   }
+  },
+  {
+   "id": "EN-06-1063",
+   "subject": "ela",
+   "level": 6,
+   "ace": 1063,
+   "skill": "Identify the indirect object",
+   "florida": "ELA.6.C",
+   "type": "mcq",
+   "prompt": "What is the indirect object in this sentence? \"Aunt Ruth gave the twins a new Bible.\"",
+   "options": [
+    "twins",
+    "Bible",
+    "gave",
+    "Aunt Ruth"
+   ],
+   "answer": 0,
+   "explain": "Bible is the direct object (what was given); twins tells to whom it was given, so it is the indirect object.",
+   "source": "leido_diagnostico_ace",
+   "lu": {
+    "id": "LU-ELA-06-03",
+    "slot": 3,
+    "concept": {
+     "en": "Spotting the indirect object",
+     "es": "Reconocer el complemento indirecto"
+    },
+    "tip": {
+     "en": "Ask 'to whom or for whom?' after the verb in sentences with gave, sent, or told.",
+     "es": "Pregunte '¿a quién o para quién?' después del verbo en oraciones con gave, sent o told."
+    }
+   }
+  },
+  {
+   "id": "EN-06-1064",
+   "subject": "ela",
+   "level": 6,
+   "ace": 1064,
+   "skill": "Agreement with indefinite pronouns",
+   "florida": "ELA.6.C",
+   "type": "mcq",
+   "prompt": "Choose the pronoun that agrees with its antecedent: \"Each of the boys brought ____ own lunch to the field trip.\"",
+   "options": [
+    "their",
+    "its",
+    "his",
+    "our"
+   ],
+   "answer": 2,
+   "explain": "Each is singular and refers to boys, so the singular masculine pronoun his agrees.",
+   "source": "leido_diagnostico_ace",
+   "lu": {
+    "id": "LU-ELA-06-04",
+    "slot": 4,
+    "concept": {
+     "en": "Pronouns that match their nouns",
+     "es": "Pronombres que concuerdan con su sustantivo"
+    },
+    "tip": {
+     "en": "Check words like each, everyone, and somebody, and choose a matching singular pronoun in practice sentences.",
+     "es": "Revisen palabras como each, everyone y somebody y elijan el pronombre singular que concuerda en oraciones de práctica."
+    }
+   }
+  },
+  {
+   "id": "EN-06-1065",
+   "subject": "ela",
+   "level": 6,
+   "ace": 1065,
+   "skill": "Use correct past participle",
+   "florida": "ELA.6.C",
+   "type": "mcq",
+   "prompt": "Which sentence uses the correct verb form?",
+   "options": [
+    "By morning, the pond had froze solid.",
+    "By morning, the pond had freezed solid.",
+    "By morning, the pond has froze solid.",
+    "By morning, the pond had frozen solid."
+   ],
+   "answer": 3,
+   "explain": "Freeze is irregular: freeze, froze, (had) frozen. The helping verb had needs the past participle frozen.",
+   "source": "leido_diagnostico_ace",
+   "lu": {
+    "id": "LU-ELA-06-05",
+    "slot": 5,
+    "concept": {
+     "en": "Correct past participle forms",
+     "es": "Formas correctas del participio pasado"
+    },
+    "tip": {
+     "en": "Practice verb sets like go, went, gone with 'have' sentences, such as 'I have gone'.",
+     "es": "Practiquen series como go, went, gone con oraciones con 'have', como 'I have gone'."
+    }
+   }
+  },
+  {
+   "id": "EN-06-1066",
+   "subject": "ela",
+   "level": 6,
+   "ace": 1066,
+   "skill": "Choose rise or raise correctly",
+   "florida": "ELA.6.C",
+   "type": "mcq",
+   "prompt": "Choose the correct verb: \"Every morning, Dad ____ the flag in front of the school.\"",
+   "options": [
+    "rises",
+    "raises",
+    "rose",
+    "risen"
+   ],
+   "answer": 1,
+   "explain": "Raise takes an object (the flag); rise never takes an object.",
+   "source": "leido_diagnostico_ace",
+   "lu": {
+    "id": "LU-ELA-06-06",
+    "slot": 6,
+    "concept": {
+     "en": "Choosing rise or raise",
+     "es": "Elegir entre rise y raise"
+    },
+    "tip": {
+     "en": "Remember that 'raise' lifts something, while 'rise' goes up by itself, like the sun.",
+     "es": "Recuerde que 'raise' es levantar algo y 'rise' es subir por sí solo, como el sol."
+    }
+   }
+  },
+  {
+   "id": "EN-06-1067",
+   "subject": "ela",
+   "level": 6,
+   "ace": 1067,
+   "skill": "Prepositional phrase used as adjective",
+   "florida": "ELA.6.C",
+   "type": "mcq",
+   "prompt": "In the sentence \"The girl with the red umbrella waved to us,\" how is the phrase \"with the red umbrella\" used?",
+   "options": [
+    "as an adjective phrase describing girl",
+    "as an adverb phrase describing waved",
+    "as an adverb phrase describing us",
+    "as a noun phrase acting as the subject"
+   ],
+   "answer": 0,
+   "explain": "The phrase tells which girl, so it modifies the noun girl and acts as an adjective.",
+   "source": "leido_diagnostico_ace",
+   "lu": {
+    "id": "LU-ELA-06-07",
+    "slot": 7,
+    "concept": {
+     "en": "Prepositional phrases as adjectives",
+     "es": "Frases preposicionales que describen"
+    },
+    "tip": {
+     "en": "Ask which noun the phrase describes, and practice adding phrases like 'with the blue door' to nouns.",
+     "es": "Pregunte qué sustantivo describe la frase y practique añadiendo frases como 'con la puerta azul' a sustantivos."
+    }
+   }
+  },
+  {
+   "id": "EN-06-1068",
+   "subject": "ela",
+   "level": 6,
+   "ace": 1068,
+   "skill": "Place modifiers in a diagram",
+   "florida": "ELA.6.C",
+   "type": "mcq",
+   "prompt": "On a sentence diagram, adjectives and adverbs are written on slanted lines under the word they describe. In the sentence \"The small kitten purred very softly,\" under which word would \"very\" be placed?",
+   "options": [
+    "kitten",
+    "purred",
+    "softly",
+    "small"
+   ],
+   "answer": 2,
+   "explain": "Very tells how softly, so it is an adverb modifying the adverb softly.",
+   "source": "leido_diagnostico_ace",
+   "lu": {
+    "id": "LU-ELA-06-08",
+    "slot": 8,
+    "concept": {
+     "en": "Placing modifiers in a diagram",
+     "es": "Ubicar modificadores en un diagrama"
+    },
+    "tip": {
+     "en": "Circle each describing word and draw an arrow to the word it modifies before diagramming.",
+     "es": "Encierre cada palabra descriptiva y dibuje una flecha a la palabra que modifica antes de diagramar."
+    }
+   }
+  },
+  {
+   "id": "EN-06-1069",
+   "subject": "ela",
+   "level": 6,
+   "ace": 1069,
+   "skill": "Use semicolons correctly",
+   "florida": "ELA.6.C",
+   "type": "mcq",
+   "prompt": "Which sentence uses a semicolon correctly?",
+   "options": [
+    "We packed; the van and drove to camp.",
+    "Bring these items; a flashlight, a towel, and a Bible.",
+    "Although it rained; we still went to camp.",
+    "We packed the van; then we drove to camp."
+   ],
+   "answer": 3,
+   "explain": "A semicolon joins two complete sentences; the list needs a colon and the dependent clause needs a comma.",
+   "source": "leido_diagnostico_ace",
+   "lu": {
+    "id": "LU-ELA-06-09",
+    "slot": 9,
+    "concept": {
+     "en": "Using semicolons correctly",
+     "es": "Uso correcto del punto y coma"
+    },
+    "tip": {
+     "en": "Join two closely related complete sentences with a semicolon, and test that each half stands alone.",
+     "es": "Una dos oraciones completas muy relacionadas con punto y coma y compruebe que cada mitad se entienda sola."
+    }
+   }
+  },
+  {
+   "id": "EN-06-1070",
+   "subject": "ela",
+   "level": 6,
+   "ace": 1070,
+   "skill": "Distinguish fragment from sentence",
+   "florida": "ELA.6.C",
+   "type": "mcq",
+   "prompt": "Which of the following is a sentence fragment?",
+   "options": [
+    "The bus was late.",
+    "Because the bus was late this morning.",
+    "Run!",
+    "We waited at the corner."
+   ],
+   "answer": 1,
+   "explain": "It begins with because and does not finish a complete thought; Run! is a complete command with the subject you understood.",
+   "source": "leido_diagnostico_ace",
+   "lu": {
+    "id": "LU-ELA-06-10",
+    "slot": 10,
+    "concept": {
+     "en": "Telling fragments from sentences",
+     "es": "Distinguir fragmentos de oraciones completas"
+    },
+    "tip": {
+     "en": "Ask whether the group of words has a subject and a verb and tells a complete thought.",
+     "es": "Pregunte si el grupo de palabras tiene sujeto y verbo y expresa una idea completa."
+    }
+   }
+  },
+  {
+   "id": "EN-06-1071",
+   "subject": "ela",
+   "level": 6,
+   "ace": 1071,
+   "skill": "Choose a topic sentence",
+   "florida": "ELA.6.C",
+   "type": "mcq",
+   "prompt": "Read the paragraph. Which sentence would be the best topic sentence to begin it?\n\n\"____ They carry pollen from flower to flower, which helps plants make seeds. Without them, many fruits and vegetables would not grow. The honey they make also feeds families around the world.\"",
+   "options": [
+    "Some people are afraid of bee stings.",
+    "Flowers come in many colors and shapes.",
+    "Bees are among the most helpful creatures God made.",
+    "My uncle keeps three beehives behind his barn."
+   ],
+   "answer": 2,
+   "explain": "Every supporting sentence explains how bees help, so the topic sentence must state that main idea.",
+   "source": "leido_diagnostico_ace",
+   "lu": {
+    "id": "LU-ELA-06-11",
+    "slot": 11,
+    "concept": {
+     "en": "Writing a strong topic sentence",
+     "es": "Escribir una buena oración temática"
+    },
+    "tip": {
+     "en": "Read a paragraph first, then write one sentence that captures its main idea for the opening.",
+     "es": "Lea primero el párrafo y escriba una oración que resuma su idea principal para abrirlo."
+    }
+   }
+  },
+  {
+   "id": "EN-06-1072",
+   "subject": "ela",
+   "level": 6,
+   "ace": 1072,
+   "skill": "Complete a standard outline",
+   "florida": "ELA.6.C",
+   "type": "mcq",
+   "prompt": "In a standard outline, main topics use Roman numerals (I., II.), subtopics use capital letters (A., B.), and details are listed under the subtopics. Which label goes on the first detail written directly under subtopic \"A.\"?",
+   "options": [
+    "a.",
+    "1.",
+    "II.",
+    "B."
+   ],
+   "answer": 1,
+   "explain": "The order of levels is I., A., 1., a.; the first level under a capital letter uses the Arabic numeral 1.",
+   "source": "leido_diagnostico_ace",
+   "lu": {
+    "id": "LU-ELA-06-12",
+    "slot": 12,
+    "concept": {
+     "en": "Organizing ideas in an outline",
+     "es": "Organizar ideas en un esquema"
+    },
+    "tip": {
+     "en": "Outline a short paragraph together, using numerals for main topics and letters and numbers for details.",
+     "es": "Hagan juntos el esquema de un párrafo corto: números romanos para temas, letras y números para detalles."
+    }
+   }
+  },
+  {
+   "id": "EN-07-1073",
+   "subject": "ela",
+   "level": 7,
+   "ace": 1073,
+   "skill": "Identify passive voice",
+   "florida": "ELA.7.C",
+   "type": "mcq",
+   "prompt": "Which sentence is written in the passive voice?",
+   "options": [
+    "Pastor Lee wrote the letter.",
+    "Pastor Lee is writing a letter.",
+    "The letter was written by Pastor Lee.",
+    "Pastor Lee will write the letter."
+   ],
+   "answer": 2,
+   "explain": "In the passive voice the subject (letter) receives the action, using a form of be plus the past participle.",
+   "source": "leido_diagnostico_ace",
+   "lu": {
+    "id": "LU-ELA-07-01",
+    "slot": 1,
+    "concept": {
+     "en": "Recognizing passive voice",
+     "es": "Reconocer la voz pasiva"
+    },
+    "tip": {
+     "en": "Ask whether the subject does the action or receives it, and rewrite sentences both ways.",
+     "es": "Pregunte si el sujeto realiza o recibe la acción y reescriban las oraciones de ambas formas."
+    }
+   }
+  },
+  {
+   "id": "EN-07-1074",
+   "subject": "ela",
+   "level": 7,
+   "ace": 1074,
+   "skill": "Use irregular past tense",
+   "florida": "ELA.7.C",
+   "type": "mcq",
+   "prompt": "Which sentence uses the correct past tense verb?",
+   "options": [
+    "Yesterday the choir sung three hymns.",
+    "Yesterday the choir has sang three hymns.",
+    "Yesterday the choir singed three hymns.",
+    "Yesterday the choir sang three hymns."
+   ],
+   "answer": 3,
+   "explain": "Sing is irregular: sing, sang, (has) sung. Simple past with yesterday needs sang.",
+   "source": "leido_diagnostico_ace",
+   "lu": {
+    "id": "LU-ELA-07-02",
+    "slot": 2,
+    "concept": {
+     "en": "Irregular past tense verbs",
+     "es": "Verbos irregulares en pasado"
+    },
+    "tip": {
+     "en": "Keep a growing list of verbs like ran, wrote, and brought and use each in a sentence.",
+     "es": "Lleven una lista de verbos irregulares como ran, wrote y brought y usen cada uno en una oración."
+    }
+   }
+  },
+  {
+   "id": "EN-07-1075",
+   "subject": "ela",
+   "level": 7,
+   "ace": 1075,
+   "skill": "Identify future perfect tense",
+   "florida": "ELA.7.C",
+   "type": "mcq",
+   "prompt": "What is the tense of the verb in this sentence? \"By next June, Elena will have read the entire New Testament.\"",
+   "options": [
+    "future perfect",
+    "past perfect",
+    "present perfect",
+    "simple future"
+   ],
+   "answer": 0,
+   "explain": "Will have plus the past participle read shows an action completed before a future time.",
+   "source": "leido_diagnostico_ace",
+   "lu": {
+    "id": "LU-ELA-07-03",
+    "slot": 3,
+    "concept": {
+     "en": "The future perfect tense",
+     "es": "El futuro perfecto"
+    },
+    "tip": {
+     "en": "Practice 'will have' sentences about goals, like 'By Friday, I will have finished my book.'",
+     "es": "Practiquen oraciones con 'will have' sobre metas, como 'By Friday, I will have finished my book'."
+    }
+   }
+  },
+  {
+   "id": "EN-07-1076",
+   "subject": "ela",
+   "level": 7,
+   "ace": 1076,
+   "skill": "Distinguish transitive and intransitive verbs",
+   "florida": "ELA.7.C",
+   "type": "mcq",
+   "prompt": "In which sentence is the verb intransitive (it has no direct object)?",
+   "options": [
+    "Mom baked fresh bread.",
+    "The baby slept peacefully.",
+    "The coach blew the whistle.",
+    "We painted the fence white."
+   ],
+   "answer": 1,
+   "explain": "Slept has no object; peacefully is an adverb. The other verbs act on bread, whistle, and fence.",
+   "source": "leido_diagnostico_ace",
+   "lu": {
+    "id": "LU-ELA-07-04",
+    "slot": 4,
+    "concept": {
+     "en": "Transitive and intransitive verbs",
+     "es": "Verbos transitivos e intransitivos"
+    },
+    "tip": {
+     "en": "After each verb ask 'what?' or 'whom?'; if there is no answer, the verb is intransitive.",
+     "es": "Después de cada verbo pregunte '¿qué?' o '¿a quién?'; si no hay respuesta, es intransitivo."
+    }
+   }
+  },
+  {
+   "id": "EN-07-1077",
+   "subject": "ela",
+   "level": 7,
+   "ace": 1077,
+   "skill": "Identify relative pronouns",
+   "florida": "ELA.7.C",
+   "type": "mcq",
+   "prompt": "What kind of pronoun is \"who\" in this sentence? \"The man who fixed our roof attends our church.\"",
+   "options": [
+    "interrogative",
+    "demonstrative",
+    "reflexive",
+    "relative"
+   ],
+   "answer": 3,
+   "explain": "Who begins a clause that describes the noun man, so it is a relative pronoun, not a question word.",
+   "source": "leido_diagnostico_ace",
+   "lu": {
+    "id": "LU-ELA-07-05",
+    "slot": 5,
+    "concept": {
+     "en": "Relative pronouns who, whom, which",
+     "es": "Pronombres relativos who, whom y which"
+    },
+    "tip": {
+     "en": "Find who, which, and that in a reading passage and name the noun each one points back to.",
+     "es": "Busque who, which y that en una lectura y diga a qué sustantivo se refiere cada uno."
+    }
+   }
+  },
+  {
+   "id": "EN-07-1078",
+   "subject": "ela",
+   "level": 7,
+   "ace": 1078,
+   "skill": "Choose adjective or adverb",
+   "florida": "ELA.7.C",
+   "type": "mcq",
+   "prompt": "Choose the correct word: \"Hannah did ____ on her spelling test.\"",
+   "options": [
+    "good",
+    "well",
+    "goodly",
+    "more good"
+   ],
+   "answer": 1,
+   "explain": "The word describes the verb did, so the adverb well is needed; good is an adjective.",
+   "source": "leido_diagnostico_ace",
+   "lu": {
+    "id": "LU-ELA-07-06",
+    "slot": 6,
+    "concept": {
+     "en": "Choosing adjective or adverb",
+     "es": "Elegir entre adjetivo y adverbio"
+    },
+    "tip": {
+     "en": "Ask whether the word describes a noun or tells how an action is done, then choose accordingly.",
+     "es": "Pregunte si la palabra describe un sustantivo o dice cómo se hace la acción, y elija en consecuencia."
+    }
+   }
+  },
+  {
+   "id": "EN-07-1079",
+   "subject": "ela",
+   "level": 7,
+   "ace": 1079,
+   "skill": "Diagram a compound sentence",
+   "florida": "ELA.7.C",
+   "type": "mcq",
+   "prompt": "When a compound sentence is diagrammed, each independent clause gets its own base line, and the two clauses are joined by a dotted line with the conjunction written on it. In the sentence \"Mark washed the dishes, but Ana swept the floor,\" which word is written on the dotted line?",
+   "options": [
+    "but",
+    "Ana",
+    "dishes",
+    "swept"
+   ],
+   "answer": 0,
+   "explain": "But is the coordinating conjunction joining the two independent clauses.",
+   "source": "leido_diagnostico_ace",
+   "lu": {
+    "id": "LU-ELA-07-07",
+    "slot": 7,
+    "concept": {
+     "en": "Diagramming compound sentences",
+     "es": "Diagramar oraciones compuestas"
+    },
+    "tip": {
+     "en": "Split a compound sentence at its conjunction and diagram each clause on its own line.",
+     "es": "Divida la oración compuesta en la conjunción y diagrame cada cláusula en su propia línea."
+    }
+   }
+  },
+  {
+   "id": "EN-07-1080",
+   "subject": "ela",
+   "level": 7,
+   "ace": 1080,
+   "skill": "Identify gerunds",
+   "florida": "ELA.7.C",
+   "type": "mcq",
+   "prompt": "In the sentence \"Swimming in the lake is Jacob's favorite summer activity,\" what is the word \"Swimming\"?",
+   "options": [
+    "participle",
+    "infinitive",
+    "gerund",
+    "adverb"
+   ],
+   "answer": 2,
+   "explain": "Swimming is a verb form ending in -ing used as a noun (the subject of is), so it is a gerund.",
+   "source": "leido_diagnostico_ace",
+   "lu": {
+    "id": "LU-ELA-07-08",
+    "slot": 8,
+    "concept": {
+     "en": "Gerunds used as nouns",
+     "es": "Gerundios usados como sustantivos"
+    },
+    "tip": {
+     "en": "Find -ing words that act as nouns, like 'Reading is fun,' and compare them with -ing verbs.",
+     "es": "Busquen palabras en -ing que funcionen como sustantivos, como 'Reading is fun', y compárenlas con verbos en -ing."
+    }
+   }
+  },
+  {
+   "id": "EN-07-1081",
+   "subject": "ela",
+   "level": 7,
+   "ace": 1081,
+   "skill": "Punctuate interrupted dialogue",
+   "florida": "ELA.7.C",
+   "type": "mcq",
+   "prompt": "Which sentence is punctuated correctly?",
+   "options": [
+    "\"Please close the gate\" said Mr. Diaz, \"before the goats escape.\"",
+    "\"Please close the gate,\" said Mr. Diaz. \"before the goats escape.\"",
+    "\"Please close the gate,\" said Mr. Diaz, \"Before the goats escape\".",
+    "\"Please close the gate,\" said Mr. Diaz, \"before the goats escape.\""
+   ],
+   "answer": 3,
+   "explain": "An interrupted quotation uses commas around the speaker tag, continues in lowercase, and places the period inside the quotation marks.",
+   "source": "leido_diagnostico_ace",
+   "lu": {
+    "id": "LU-ELA-07-09",
+    "slot": 9,
+    "concept": {
+     "en": "Punctuating interrupted dialogue",
+     "es": "Puntuar diálogos interrumpidos"
+    },
+    "tip": {
+     "en": "Write a short conversation with 'she said' in the middle, checking commas and quotation marks.",
+     "es": "Escriba una conversación corta con 'she said' en medio, revisando comas y comillas."
+    }
+   }
+  },
+  {
+   "id": "EN-07-1082",
+   "subject": "ela",
+   "level": 7,
+   "ace": 1082,
+   "skill": "Identify a complex sentence",
+   "florida": "ELA.7.C",
+   "type": "mcq",
+   "prompt": "Which sentence is a complex sentence?",
+   "options": [
+    "When the storm passed, we went outside to look for a rainbow.",
+    "The storm passed, and we went outside.",
+    "We went outside after lunch.",
+    "The storm passed; we went outside."
+   ],
+   "answer": 0,
+   "explain": "It has one independent clause and one dependent clause (When the storm passed); the others are compound or simple.",
+   "source": "leido_diagnostico_ace",
+   "lu": {
+    "id": "LU-ELA-07-10",
+    "slot": 10,
+    "concept": {
+     "en": "Complex sentences with two clauses",
+     "es": "Oraciones complejas con dos cláusulas"
+    },
+    "tip": {
+     "en": "Look for words like because, although, and when that start a clause that cannot stand alone.",
+     "es": "Busquen palabras como because, although y when que inician una cláusula que no puede estar sola."
+    }
+   }
+  },
+  {
+   "id": "EN-07-1083",
+   "subject": "ela",
+   "level": 7,
+   "ace": 1083,
+   "skill": "Read a dictionary entry",
+   "florida": "ELA.7.V",
+   "type": "mcq",
+   "prompt": "A dictionary entry reads: \"gath-er (GATH-er) v. to bring together into one group.\" What does the abbreviation \"v.\" tell you?",
+   "options": [
+    "the pronunciation",
+    "the part of speech",
+    "the word origin",
+    "the number of syllables"
+   ],
+   "answer": 1,
+   "explain": "Abbreviations such as n., v., and adj. give the part of speech; v. means verb.",
+   "source": "leido_diagnostico_ace",
+   "lu": {
+    "id": "LU-ELA-07-11",
+    "slot": 11,
+    "concept": {
+     "en": "Understanding dictionary entries",
+     "es": "Entender las entradas del diccionario"
+    },
+    "tip": {
+     "en": "Look up three words together and explain the pronunciation guide and part-of-speech abbreviations in each entry.",
+     "es": "Busquen tres palabras juntos y expliquen la guía de pronunciación y las abreviaturas de categoría en cada entrada."
+    }
+   }
+  },
+  {
+   "id": "EN-07-1084",
+   "subject": "ela",
+   "level": 7,
+   "ace": 1084,
+   "skill": "Distinguish explanatory paragraph type",
+   "florida": "ELA.7.R",
+   "type": "mcq",
+   "prompt": "Read the paragraph. What kind of paragraph is it?\n\n\"To build a simple birdhouse, first cut six boards to the right size. Next, nail the sides to the floor piece. Then attach the roof, leaving a small gap at the top for air. Finally, drill an entrance hole about one and a half inches wide.\"",
+   "options": [
+    "descriptive",
+    "narrative",
+    "explanatory",
+    "persuasive"
+   ],
+   "answer": 2,
+   "explain": "It explains how to do something step by step using order words, so it is explanatory.",
+   "source": "leido_diagnostico_ace",
+   "lu": {
+    "id": "LU-ELA-07-12",
+    "slot": 12,
+    "concept": {
+     "en": "Recognizing how-to paragraphs",
+     "es": "Reconocer párrafos de instrucciones"
+    },
+    "tip": {
+     "en": "Write simple steps for a task at home using first, next, then, and finally.",
+     "es": "Escriba pasos sencillos para una tarea del hogar usando primero, luego, después y finalmente."
+    }
+   }
+  },
+  {
+   "id": "EN-08-1085",
+   "subject": "ela",
+   "level": 8,
+   "ace": 1085,
+   "skill": "Agreement with neither/nor subjects",
+   "florida": "ELA.8.C",
+   "type": "mcq",
+   "prompt": "Choose the verb that agrees with the subject: \"Neither the pastor nor the deacons ____ able to attend the meeting.\"",
+   "options": [
+    "was",
+    "were",
+    "is",
+    "has been"
+   ],
+   "answer": 1,
+   "explain": "With neither/nor, the verb agrees with the nearer subject, deacons, which is plural.",
+   "source": "leido_diagnostico_ace",
+   "lu": {
+    "id": "LU-ELA-08-01",
+    "slot": 1,
+    "concept": {
+     "en": "Agreement with neither/nor subjects",
+     "es": "Concordancia con sujetos neither/nor"
+    },
+    "tip": {
+     "en": "Remember the verb agrees with the subject closest to it, and practice with short examples.",
+     "es": "Recuerde que el verbo concuerda con el sujeto más cercano y practique con ejemplos cortos."
+    }
+   }
+  },
+  {
+   "id": "EN-08-1086",
+   "subject": "ela",
+   "level": 8,
+   "ace": 1086,
+   "skill": "Convert active to passive voice",
+   "florida": "ELA.8.C",
+   "type": "mcq",
+   "prompt": "Which sentence correctly rewrites \"The volunteers built the new playground\" in the passive voice without changing the tense?",
+   "options": [
+    "The new playground built the volunteers.",
+    "The volunteers were building the new playground.",
+    "The new playground is being built by the volunteers.",
+    "The new playground was built by the volunteers."
+   ],
+   "answer": 3,
+   "explain": "Passive past tense uses was plus the past participle built, with the original subject in a by phrase.",
+   "source": "leido_diagnostico_ace",
+   "lu": {
+    "id": "LU-ELA-08-02",
+    "slot": 2,
+    "concept": {
+     "en": "Changing active to passive voice",
+     "es": "Cambiar de voz activa a pasiva"
+    },
+    "tip": {
+     "en": "Move the receiver of the action to the front and add a form of 'be' plus the past participle.",
+     "es": "Pase quien recibe la acción al inicio y agregue una forma de 'be' más el participio pasado."
+    }
+   }
+  },
+  {
+   "id": "EN-08-1087",
+   "subject": "ela",
+   "level": 8,
+   "ace": 1087,
+   "skill": "Use past perfect tense",
+   "florida": "ELA.8.C",
+   "type": "mcq",
+   "prompt": "Which sentence uses the past perfect tense correctly?",
+   "options": [
+    "Before the guests arrived, Mom had set the table.",
+    "Before the guests arrived, Mom has set the table.",
+    "Before the guests had arrived, Mom will have set the table.",
+    "Before the guests arrived, Mom will set the table."
+   ],
+   "answer": 0,
+   "explain": "The past perfect (had set) shows an action finished before another past action (arrived).",
+   "source": "leido_diagnostico_ace",
+   "lu": {
+    "id": "LU-ELA-08-03",
+    "slot": 3,
+    "concept": {
+     "en": "Using the past perfect tense",
+     "es": "Usar el pasado perfecto"
+    },
+    "tip": {
+     "en": "Write sentences about two past events, using 'had' for the one that happened first.",
+     "es": "Escriba oraciones sobre dos hechos pasados usando 'had' para el que ocurrió primero."
+    }
+   }
+  },
+  {
+   "id": "EN-08-1088",
+   "subject": "ela",
+   "level": 8,
+   "ace": 1088,
+   "skill": "Use lie and lay forms",
+   "florida": "ELA.8.C",
+   "type": "mcq",
+   "prompt": "Choose the correct verb: \"The tired hikers had ____ in the shade for an hour.\"",
+   "options": [
+    "laid",
+    "lied",
+    "lain",
+    "layed"
+   ],
+   "answer": 2,
+   "explain": "Lie (to recline) has the forms lie, lay, (had) lain; laid belongs to lay, which needs an object.",
+   "source": "leido_diagnostico_ace",
+   "lu": {
+    "id": "LU-ELA-08-04",
+    "slot": 4,
+    "concept": {
+     "en": "Lie and lay in past forms",
+     "es": "Formas pasadas de lie y lay"
+    },
+    "tip": {
+     "en": "Chart lie, lay, lain and lay, laid, laid side by side, and write a sentence for each.",
+     "es": "Haga una tabla con lie, lay, lain y lay, laid, laid, y escriba una oración para cada forma."
+    }
+   }
+  },
+  {
+   "id": "EN-08-1089",
+   "subject": "ela",
+   "level": 8,
+   "ace": 1089,
+   "skill": "Identify noun of direct address",
+   "florida": "ELA.8.C",
+   "type": "mcq",
+   "prompt": "In the sentence \"Caleb, please bring the hymnals to the front,\" what is the function of the noun \"Caleb\"?",
+   "options": [
+    "appositive",
+    "direct object",
+    "subject",
+    "noun of direct address"
+   ],
+   "answer": 3,
+   "explain": "Caleb names the person spoken to; the subject is the understood you.",
+   "source": "leido_diagnostico_ace",
+   "lu": {
+    "id": "LU-ELA-08-05",
+    "slot": 5,
+    "concept": {
+     "en": "Nouns of direct address",
+     "es": "Vocativo: nombrar a quien se habla"
+    },
+    "tip": {
+     "en": "Write sentences that call someone by name and notice the comma that sets the name apart.",
+     "es": "Escriba oraciones que llamen a alguien por su nombre y note la coma que lo separa."
+    }
+   }
+  },
+  {
+   "id": "EN-08-1090",
+   "subject": "ela",
+   "level": 8,
+   "ace": 1090,
+   "skill": "Use its/it's and your/you're",
+   "florida": "ELA.8.C",
+   "type": "mcq",
+   "prompt": "Which sentence uses its/it's and your/you're correctly?",
+   "options": [
+    "It's time to thank your teachers for their hard work.",
+    "The bird built it's nest in the rafters.",
+    "Your going to love the new library.",
+    "The dog wagged its tail when you're brother came home."
+   ],
+   "answer": 0,
+   "explain": "It's means it is and your shows ownership; the other sentences confuse the possessive and the contraction.",
+   "source": "leido_diagnostico_ace",
+   "lu": {
+    "id": "LU-ELA-08-06",
+    "slot": 6,
+    "concept": {
+     "en": "Its/it's and your/you're",
+     "es": "Its/it's y your/you're"
+    },
+    "tip": {
+     "en": "Test each choice by reading it as 'it is' or 'you are'; if that fits, use the apostrophe.",
+     "es": "Pruebe cada opción leyéndola como 'it is' o 'you are'; si encaja, se usa apóstrofo."
+    }
+   }
+  },
+  {
+   "id": "EN-08-1091",
+   "subject": "ela",
+   "level": 8,
+   "ace": 1091,
+   "skill": "Identify part of speech in context",
+   "florida": "ELA.8.C",
+   "type": "mcq",
+   "prompt": "What part of speech is the word in capital letters? \"The children ran OUTSIDE after the rain stopped.\"",
+   "options": [
+    "preposition",
+    "adverb",
+    "noun",
+    "adjective"
+   ],
+   "answer": 1,
+   "explain": "Outside tells where the children ran and has no object, so it is an adverb modifying ran.",
+   "source": "leido_diagnostico_ace",
+   "lu": {
+    "id": "LU-ELA-08-07",
+    "slot": 7,
+    "concept": {
+     "en": "Identifying parts of speech in context",
+     "es": "Identificar categorías gramaticales en contexto"
+    },
+    "tip": {
+     "en": "Ask what job a word does in its sentence; the same word can be a noun, adverb, or adjective.",
+     "es": "Pregunte qué función cumple la palabra en la oración; una misma palabra puede ser sustantivo, adverbio o adjetivo."
+    }
+   }
+  },
+  {
+   "id": "EN-08-1092",
+   "subject": "ela",
+   "level": 8,
+   "ace": 1092,
+   "skill": "Identify a run-on sentence",
+   "florida": "ELA.8.C",
+   "type": "mcq",
+   "prompt": "Which of the following is a run-on sentence?",
+   "options": [
+    "The rain stopped, so we went for a walk.",
+    "After the rain stopped, we went for a walk.",
+    "The rain stopped we went for a walk.",
+    "The rain stopped; we went for a walk."
+   ],
+   "answer": 2,
+   "explain": "Two independent clauses are joined with no punctuation or conjunction.",
+   "source": "leido_diagnostico_ace",
+   "lu": {
+    "id": "LU-ELA-08-08",
+    "slot": 8,
+    "concept": {
+     "en": "Spotting and fixing run-on sentences",
+     "es": "Detectar y corregir oraciones encadenadas"
+    },
+    "tip": {
+     "en": "Find two complete thoughts joined without proper punctuation, then separate them or add a conjunction.",
+     "es": "Busque dos ideas completas unidas sin puntuación y sepárelas o agregue una conjunción."
+    }
+   }
+  },
+  {
+   "id": "EN-08-1093",
+   "subject": "ela",
+   "level": 8,
+   "ace": 1093,
+   "skill": "Diagram an adverb clause",
+   "florida": "ELA.8.C",
+   "type": "mcq",
+   "prompt": "In a diagram of a complex sentence, an adverb clause sits on its own base line below the main clause. A dotted line connects the clause's verb to the word it modifies, and the subordinating conjunction is written on the dotted line. In the sentence \"We sang hymns while Dad played the piano,\" which word is written on the dotted line?",
+   "options": [
+    "sang",
+    "while",
+    "Dad",
+    "played"
+   ],
+   "answer": 1,
+   "explain": "While is the subordinating conjunction that introduces the adverb clause.",
+   "source": "leido_diagnostico_ace",
+   "lu": {
+    "id": "LU-ELA-08-09",
+    "slot": 9,
+    "concept": {
+     "en": "Diagramming adverb clauses",
+     "es": "Diagramar cláusulas adverbiales"
+    },
+    "tip": {
+     "en": "Find the clause that tells when, why, or how, and place it below the main clause.",
+     "es": "Encuentre la cláusula que dice cuándo, por qué o cómo y colóquela debajo de la cláusula principal."
+    }
+   }
+  },
+  {
+   "id": "EN-08-1094",
+   "subject": "ela",
+   "level": 8,
+   "ace": 1094,
+   "skill": "Identify a persuasive paragraph",
+   "florida": "ELA.8.R",
+   "type": "mcq",
+   "prompt": "Read the paragraph. What type of paragraph is it?\n\n\"Our town library should stay open on Saturday afternoons. Many students work or study during the week and cannot visit before closing time. Families could spend time reading together instead of in front of screens. A few extra hours would cost little, but the benefits would last for years. Please ask the town council to support this plan.\"",
+   "options": [
+    "expository",
+    "persuasive",
+    "narrative",
+    "descriptive"
+   ],
+   "answer": 1,
+   "explain": "The writer states an opinion, gives reasons, and asks readers to take action.",
+   "source": "leido_diagnostico_ace",
+   "lu": {
+    "id": "LU-ELA-08-10",
+    "slot": 10,
+    "concept": {
+     "en": "Recognizing persuasive writing",
+     "es": "Reconocer la escritura persuasiva"
+    },
+    "tip": {
+     "en": "Look for a clear opinion backed by reasons, and write a short paragraph persuading someone about something you value.",
+     "es": "Busque una opinión clara respaldada con razones y escriba un párrafo corto para persuadir sobre algo que valore."
+    }
+   }
+  },
+  {
+   "id": "EN-08-1095",
+   "subject": "ela",
+   "level": 8,
+   "ace": 1095,
+   "skill": "Punctuate a business letter closing",
+   "florida": "ELA.8.C",
+   "type": "mcq",
+   "prompt": "Which closing is written correctly for a business letter?",
+   "options": [
+    "Sincerely Yours,",
+    "sincerely yours,",
+    "Sincerely yours,",
+    "Sincerely yours;"
+   ],
+   "answer": 2,
+   "explain": "Only the first word of a closing is capitalized, and the closing is followed by a comma.",
+   "source": "leido_diagnostico_ace",
+   "lu": {
+    "id": "LU-ELA-08-11",
+    "slot": 11,
+    "concept": {
+     "en": "Closing a business letter correctly",
+     "es": "Cerrar correctamente una carta formal"
+    },
+    "tip": {
+     "en": "Practice closings like 'Sincerely,' with a capital first letter and a comma, then a signature.",
+     "es": "Practique despedidas como 'Sincerely,' con mayúscula inicial y coma, seguidas de la firma."
+    }
+   }
+  },
+  {
+   "id": "EN-08-1096",
+   "subject": "ela",
+   "level": 8,
+   "ace": 1096,
+   "skill": "Capitalize proper nouns correctly",
+   "florida": "ELA.8.C",
+   "type": "mcq",
+   "prompt": "Which sentence uses capital letters correctly?",
+   "options": [
+    "Last summer my family drove north to visit Lake Michigan.",
+    "Last Summer my family drove North to visit Lake Michigan.",
+    "Last summer my Family drove north to visit lake Michigan.",
+    "last summer my family drove north to visit Lake michigan."
+   ],
+   "answer": 0,
+   "explain": "Seasons and compass directions are lowercase; the proper name Lake Michigan is capitalized.",
+   "source": "leido_diagnostico_ace",
+   "lu": {
+    "id": "LU-ELA-08-12",
+    "slot": 12,
+    "concept": {
+     "en": "Capitalizing proper nouns",
+     "es": "Mayúsculas en nombres propios"
+    },
+    "tip": {
+     "en": "Capitalize specific names of people, places, and holidays, and keep general words like 'city' lowercase.",
+     "es": "Use mayúscula en nombres específicos de personas, lugares y fiestas, y minúscula en palabras generales como 'ciudad'."
+    }
+   }
+  }
+ ]
+}

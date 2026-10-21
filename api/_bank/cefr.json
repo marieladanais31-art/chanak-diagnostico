@@ -1,0 +1,3304 @@
+{
+ "items": [
+  {
+   "id": "CF-A1-01",
+   "subject": "cefr",
+   "level": 1,
+   "cefr": "A1",
+   "area": "grammar",
+   "skill": "Use of verb to be (third person)",
+   "type": "mcq",
+   "prompt": "My sister ___ a student.",
+   "options": [
+    "am",
+    "is",
+    "are",
+    "be"
+   ],
+   "answer": 1,
+   "lu": {
+    "id": "LU-CEFR-A1-01",
+    "slot": 1,
+    "concept": {
+     "en": "Verb to be: am, is, are",
+     "es": "Verbo to be: am, is, are"
+    },
+    "tip": {
+     "en": "Practice choosing am, is or are with I, he, she, we and they.",
+     "es": "Practica elegir am, is o are con I, he, she, we y they."
+    }
+   },
+   "source": "original_chanak"
+  },
+  {
+   "id": "CF-A1-02",
+   "subject": "cefr",
+   "level": 1,
+   "cefr": "A1",
+   "area": "grammar",
+   "skill": "To be with plural subjects",
+   "type": "mcq",
+   "prompt": "They ___ from Spain.",
+   "options": [
+    "is",
+    "am",
+    "are",
+    "be"
+   ],
+   "answer": 2,
+   "lu": {
+    "id": "LU-CEFR-A1-02",
+    "slot": 2,
+    "concept": {
+     "en": "Verb to be with plural subjects",
+     "es": "Verbo to be con sujetos plurales"
+    },
+    "tip": {
+     "en": "Write short sentences about people and places using are with they and we.",
+     "es": "Escribe frases cortas sobre personas y lugares usando are con they y we."
+    }
+   },
+   "source": "original_chanak"
+  },
+  {
+   "id": "CF-A1-03",
+   "subject": "cefr",
+   "level": 1,
+   "cefr": "A1",
+   "area": "grammar",
+   "skill": "Present simple third person -s",
+   "type": "mcq",
+   "prompt": "He ___ football on Saturdays.",
+   "options": [
+    "plays",
+    "play",
+    "playing",
+    "to play"
+   ],
+   "answer": 0,
+   "lu": {
+    "id": "LU-CEFR-A1-03",
+    "slot": 3,
+    "concept": {
+     "en": "Third person -s in present simple",
+     "es": "La -s de tercera persona en presente simple"
+    },
+    "tip": {
+     "en": "Say five daily habits about he and she, adding -s to each verb.",
+     "es": "Di cinco hábitos diarios sobre he y she, añadiendo -s al verbo."
+    }
+   },
+   "source": "original_chanak"
+  },
+  {
+   "id": "CF-A1-04",
+   "subject": "cefr",
+   "level": 1,
+   "cefr": "A1",
+   "area": "grammar",
+   "skill": "Present simple questions with do",
+   "type": "mcq",
+   "prompt": "___ you have a brother?",
+   "options": [
+    "Are",
+    "Does",
+    "Is",
+    "Do"
+   ],
+   "answer": 3,
+   "lu": {
+    "id": "LU-CEFR-A1-04",
+    "slot": 4,
+    "concept": {
+     "en": "Questions with do and does",
+     "es": "Preguntas con do y does"
+    },
+    "tip": {
+     "en": "Practice questions starting with Do or Does instead of using to be.",
+     "es": "Practica preguntas que empiecen con Do o Does en lugar de usar to be."
+    }
+   },
+   "source": "original_chanak"
+  },
+  {
+   "id": "CF-A1-05",
+   "subject": "cefr",
+   "level": 1,
+   "cefr": "A1",
+   "area": "grammar",
+   "skill": "There is / there are",
+   "type": "mcq",
+   "prompt": "There ___ two books on the table.",
+   "options": [
+    "is",
+    "are",
+    "have",
+    "do"
+   ],
+   "answer": 1,
+   "lu": {
+    "id": "LU-CEFR-A1-05",
+    "slot": 5,
+    "concept": {
+     "en": "There is and there are",
+     "es": "There is y there are"
+    },
+    "tip": {
+     "en": "Describe your room with there is and there are, using singular and plural nouns.",
+     "es": "Describe tu habitación con there is y there are, con sustantivos singulares y plurales."
+    }
+   },
+   "source": "original_chanak"
+  },
+  {
+   "id": "CF-A1-06",
+   "subject": "cefr",
+   "level": 1,
+   "cefr": "A1",
+   "area": "grammar",
+   "skill": "Articles a and an",
+   "type": "mcq",
+   "prompt": "This is ___ umbrella.",
+   "options": [
+    "an",
+    "a",
+    "some",
+    "any"
+   ],
+   "answer": 0,
+   "lu": {
+    "id": "LU-CEFR-A1-06",
+    "slot": 6,
+    "concept": {
+     "en": "Articles a and an",
+     "es": "Artículos a y an"
+    },
+    "tip": {
+     "en": "Learn that an goes before vowel sounds: an apple, an egg, an umbrella.",
+     "es": "Aprende que an va antes de sonidos vocálicos: an apple, an egg, an umbrella."
+    }
+   },
+   "source": "original_chanak"
+  },
+  {
+   "id": "CF-A1-07",
+   "subject": "cefr",
+   "level": 1,
+   "cefr": "A1",
+   "area": "grammar",
+   "skill": "Negative present simple with does",
+   "type": "mcq",
+   "prompt": "She ___ like milk.",
+   "options": [
+    "don't",
+    "isn't",
+    "doesn't",
+    "not"
+   ],
+   "answer": 2,
+   "lu": {
+    "id": "LU-CEFR-A1-07",
+    "slot": 7,
+    "concept": {
+     "en": "Negatives with doesn't and don't",
+     "es": "Negativas con doesn't y don't"
+    },
+    "tip": {
+     "en": "Make negative sentences using don't with I, you, we, they and doesn't with he, she.",
+     "es": "Haz frases negativas con don't con I, you, we, they y doesn't con he, she."
+    }
+   },
+   "source": "original_chanak"
+  },
+  {
+   "id": "CF-A1-08",
+   "subject": "cefr",
+   "level": 1,
+   "cefr": "A1",
+   "area": "vocabulary",
+   "skill": "School places",
+   "type": "mcq",
+   "prompt": "A place where students learn is a ___.",
+   "options": [
+    "hospital",
+    "kitchen",
+    "market",
+    "school"
+   ],
+   "answer": 3,
+   "lu": {
+    "id": "LU-CEFR-A1-08",
+    "slot": 8,
+    "concept": {
+     "en": "Basic places in town",
+     "es": "Lugares básicos de la ciudad"
+    },
+    "tip": {
+     "en": "Make a list of ten places in town and say what people do there.",
+     "es": "Haz una lista de diez lugares de la ciudad y di qué se hace en cada uno."
+    }
+   },
+   "source": "original_chanak"
+  },
+  {
+   "id": "CF-A1-09",
+   "subject": "cefr",
+   "level": 1,
+   "cefr": "A1",
+   "area": "vocabulary",
+   "skill": "Days and time words",
+   "type": "mcq",
+   "prompt": "Monday, Tuesday and Wednesday are days of the ___.",
+   "options": [
+    "week",
+    "month",
+    "year",
+    "hour"
+   ],
+   "answer": 0,
+   "lu": {
+    "id": "LU-CEFR-A1-09",
+    "slot": 9,
+    "concept": {
+     "en": "Days, weeks, months and years",
+     "es": "Días, semanas, meses y años"
+    },
+    "tip": {
+     "en": "Review the days of the week and months of the year aloud each morning.",
+     "es": "Repasa en voz alta cada mañana los días de la semana y los meses del año."
+    }
+   },
+   "source": "original_chanak"
+  },
+  {
+   "id": "CF-A1-10",
+   "subject": "cefr",
+   "level": 1,
+   "cefr": "A1",
+   "area": "vocabulary",
+   "skill": "Common opposites",
+   "type": "mcq",
+   "prompt": "The opposite of 'big' is ___.",
+   "options": [
+    "tall",
+    "small",
+    "old",
+    "long"
+   ],
+   "answer": 1,
+   "lu": {
+    "id": "LU-CEFR-A1-10",
+    "slot": 10,
+    "concept": {
+     "en": "Basic opposites (adjectives)",
+     "es": "Opuestos básicos (adjetivos)"
+    },
+    "tip": {
+     "en": "Learn adjectives in pairs: big and small, hot and cold, new and old.",
+     "es": "Aprende los adjetivos en parejas: big y small, hot y cold, new y old."
+    }
+   },
+   "source": "original_chanak"
+  },
+  {
+   "id": "CF-A1-11",
+   "subject": "cefr",
+   "level": 1,
+   "cefr": "A1",
+   "area": "vocabulary",
+   "skill": "Family members",
+   "type": "mcq",
+   "prompt": "My mother's mother is my ___.",
+   "options": [
+    "aunt",
+    "daughter",
+    "grandmother",
+    "cousin"
+   ],
+   "answer": 2,
+   "lu": {
+    "id": "LU-CEFR-A1-11",
+    "slot": 11,
+    "concept": {
+     "en": "Family vocabulary",
+     "es": "Vocabulario de la familia"
+    },
+    "tip": {
+     "en": "Draw your family tree and label each person in English.",
+     "es": "Dibuja tu árbol familiar y etiqueta a cada persona en inglés."
+    }
+   },
+   "source": "original_chanak"
+  },
+  {
+   "id": "CF-A1-12",
+   "subject": "cefr",
+   "level": 1,
+   "cefr": "A1",
+   "area": "vocabulary",
+   "skill": "Clothes and weather",
+   "type": "mcq",
+   "prompt": "It is cold. I wear a ___.",
+   "options": [
+    "T-shirt",
+    "sandal",
+    "shorts",
+    "coat"
+   ],
+   "answer": 3,
+   "lu": {
+    "id": "LU-CEFR-A1-12",
+    "slot": 12,
+    "concept": {
+     "en": "Clothes for different weather",
+     "es": "Ropa según el clima"
+    },
+    "tip": {
+     "en": "Match clothes to weather: coat for cold, shorts for hot, umbrella for rain.",
+     "es": "Relaciona ropa y clima: coat para frío, shorts para calor, umbrella para lluvia."
+    }
+   },
+   "source": "original_chanak"
+  },
+  {
+   "id": "CF-A1-13",
+   "subject": "cefr",
+   "level": 1,
+   "cefr": "A1",
+   "area": "vocabulary",
+   "skill": "Colors",
+   "type": "mcq",
+   "prompt": "Blue, red and green are ___.",
+   "options": [
+    "numbers",
+    "colors",
+    "animals",
+    "foods"
+   ],
+   "answer": 1,
+   "lu": {
+    "id": "LU-CEFR-A1-13",
+    "slot": 13,
+    "concept": {
+     "en": "Colors and category words",
+     "es": "Colores y palabras de categoría"
+    },
+    "tip": {
+     "en": "Name the colors around you and learn category words like colors, animals and foods.",
+     "es": "Nombra los colores a tu alrededor y aprende categorías como colors, animals y foods."
+    }
+   },
+   "source": "original_chanak"
+  },
+  {
+   "id": "CF-A1-14",
+   "subject": "cefr",
+   "level": 1,
+   "cefr": "A1",
+   "area": "reading",
+   "skill": "Finding specific information",
+   "type": "mcq",
+   "prompt": "Tom is fourteen. He lives in Valencia with his mother and his dog. The dog's name is Max. Tom walks with Max every afternoon.\n\nHow old is Tom?",
+   "options": [
+    "Fourteen",
+    "Thirteen",
+    "Fifteen",
+    "Twelve"
+   ],
+   "answer": 0,
+   "lu": {
+    "id": "LU-CEFR-A1-14",
+    "slot": 14,
+    "concept": {
+     "en": "Finding numbers in a short text",
+     "es": "Encontrar números en un texto corto"
+    },
+    "tip": {
+     "en": "Read short texts and underline numbers, names and places before answering.",
+     "es": "Lee textos cortos y subraya números, nombres y lugares antes de responder."
+    }
+   },
+   "source": "original_chanak"
+  },
+  {
+   "id": "CF-A1-15",
+   "subject": "cefr",
+   "level": 1,
+   "cefr": "A1",
+   "area": "reading",
+   "skill": "Understanding daily routines",
+   "type": "mcq",
+   "prompt": "Tom is fourteen. He lives in Valencia with his mother and his dog. The dog's name is Max. Tom walks with Max every afternoon.\n\nWhen does Tom walk with Max?",
+   "options": [
+    "In the morning",
+    "At night",
+    "In the afternoon",
+    "On Sunday only"
+   ],
+   "answer": 2,
+   "lu": {
+    "id": "LU-CEFR-A1-15",
+    "slot": 15,
+    "concept": {
+     "en": "Time of day in a text",
+     "es": "Momentos del día en un texto"
+    },
+    "tip": {
+     "en": "Practice reading words like morning, afternoon and evening in simple routines.",
+     "es": "Practica leer palabras como morning, afternoon y evening en rutinas sencillas."
+    }
+   },
+   "source": "original_chanak"
+  },
+  {
+   "id": "CF-A1-16",
+   "subject": "cefr",
+   "level": 1,
+   "cefr": "A1",
+   "area": "reading",
+   "skill": "Understanding likes and hobbies",
+   "type": "mcq",
+   "prompt": "Ana likes music. She plays the guitar at church on Sundays. Her brother likes sports, but he doesn't like music.\n\nWhat does Ana play?",
+   "options": [
+    "Football",
+    "The piano",
+    "Tennis",
+    "The guitar"
+   ],
+   "answer": 3,
+   "lu": {
+    "id": "LU-CEFR-A1-16",
+    "slot": 16,
+    "concept": {
+     "en": "Hobbies in a short text",
+     "es": "Pasatiempos en un texto corto"
+    },
+    "tip": {
+     "en": "Read short profiles of people and say what each person likes and plays.",
+     "es": "Lee perfiles breves de personas y di qué le gusta y qué practica cada una."
+    }
+   },
+   "source": "original_chanak"
+  },
+  {
+   "id": "CF-A1-17",
+   "subject": "cefr",
+   "level": 1,
+   "cefr": "A1",
+   "area": "reading",
+   "skill": "Comparing two people's preferences",
+   "type": "mcq",
+   "prompt": "Ana likes music. She plays the guitar at church on Sundays. Her brother likes sports, but he doesn't like music.\n\nWhat does Ana's brother like?",
+   "options": [
+    "Music",
+    "Sports",
+    "Church",
+    "The guitar"
+   ],
+   "answer": 1,
+   "lu": {
+    "id": "LU-CEFR-A1-17",
+    "slot": 17,
+    "concept": {
+     "en": "Likes and dislikes in a text",
+     "es": "Gustos y rechazos en un texto"
+    },
+    "tip": {
+     "en": "Notice words like but and doesn't when reading about likes and dislikes.",
+     "es": "Fíjate en palabras como but y doesn't al leer sobre gustos y disgustos."
+    }
+   },
+   "source": "original_chanak"
+  },
+  {
+   "id": "CF-A1-18",
+   "subject": "cefr",
+   "level": 1,
+   "cefr": "A1",
+   "area": "reading",
+   "skill": "Reading opening hours",
+   "type": "mcq",
+   "prompt": "The library opens at nine and closes at five. It is closed on Sundays.\n\nWhen is the library closed?",
+   "options": [
+    "On Saturdays",
+    "At nine",
+    "On Sundays",
+    "At five"
+   ],
+   "answer": 2,
+   "lu": {
+    "id": "LU-CEFR-A1-18",
+    "slot": 18,
+    "concept": {
+     "en": "Opening hours and days",
+     "es": "Horarios y días de apertura"
+    },
+    "tip": {
+     "en": "Read signs and schedules and say when places open and close.",
+     "es": "Lee carteles y horarios y di cuándo abren y cierran los lugares."
+    }
+   },
+   "source": "original_chanak"
+  },
+  {
+   "id": "CF-A1-19",
+   "subject": "cefr",
+   "level": 1,
+   "cefr": "A1",
+   "area": "usage",
+   "skill": "Greetings and replies",
+   "type": "mcq",
+   "prompt": "— Hello, how are you?\n— ___",
+   "options": [
+    "I'm fine, thanks.",
+    "I am fifteen.",
+    "Yes, please.",
+    "See you."
+   ],
+   "answer": 0,
+   "lu": {
+    "id": "LU-CEFR-A1-19",
+    "slot": 19,
+    "concept": {
+     "en": "Answering greetings politely",
+     "es": "Responder saludos con cortesía"
+    },
+    "tip": {
+     "en": "Practice greeting dialogues: hello, how are you, fine thanks, goodbye.",
+     "es": "Practica diálogos de saludo: hello, how are you, fine thanks, goodbye."
+    }
+   },
+   "source": "original_chanak"
+  },
+  {
+   "id": "CF-A1-20",
+   "subject": "cefr",
+   "level": 1,
+   "cefr": "A1",
+   "area": "usage",
+   "skill": "Preposition of place: in",
+   "type": "mcq",
+   "prompt": "I'm from Mexico. I live ___ Madrid.",
+   "options": [
+    "at",
+    "on",
+    "to",
+    "in"
+   ],
+   "answer": 3,
+   "lu": {
+    "id": "LU-CEFR-A1-20",
+    "slot": 20,
+    "concept": {
+     "en": "Prepositions in, on, at for places",
+     "es": "Preposiciones in, on, at para lugares"
+    },
+    "tip": {
+     "en": "Use in with cities and countries: in Madrid, in Spain, in Peru.",
+     "es": "Usa in con ciudades y países: in Madrid, in Spain, in Peru."
+    }
+   },
+   "source": "original_chanak"
+  },
+  {
+   "id": "CF-A2-01",
+   "subject": "cefr",
+   "level": 2,
+   "cefr": "A2",
+   "area": "grammar",
+   "skill": "Past simple irregular verbs",
+   "type": "mcq",
+   "prompt": "Yesterday we ___ to the beach.",
+   "options": [
+    "go",
+    "went",
+    "goed",
+    "gone"
+   ],
+   "answer": 1,
+   "lu": {
+    "id": "LU-CEFR-A2-01",
+    "slot": 1,
+    "concept": {
+     "en": "Irregular past simple verbs",
+     "es": "Verbos irregulares en pasado simple"
+    },
+    "tip": {
+     "en": "Learn common irregular verbs: go, went; see, saw; eat, ate; buy, bought.",
+     "es": "Aprende verbos irregulares comunes: go, went; see, saw; eat, ate; buy, bought."
+    }
+   },
+   "source": "original_chanak"
+  },
+  {
+   "id": "CF-A2-02",
+   "subject": "cefr",
+   "level": 2,
+   "cefr": "A2",
+   "area": "grammar",
+   "skill": "Comparative of long adjectives",
+   "type": "mcq",
+   "prompt": "This book is ___ than that one.",
+   "options": [
+    "more interesting",
+    "interestinger",
+    "most interesting",
+    "as interesting"
+   ],
+   "answer": 0,
+   "lu": {
+    "id": "LU-CEFR-A2-02",
+    "slot": 2,
+    "concept": {
+     "en": "Comparatives with more and than",
+     "es": "Comparativos con more y than"
+    },
+    "tip": {
+     "en": "Use more with long adjectives and -er with short ones, then than.",
+     "es": "Usa more con adjetivos largos y -er con cortos, seguido de than."
+    }
+   },
+   "source": "original_chanak"
+  },
+  {
+   "id": "CF-A2-03",
+   "subject": "cefr",
+   "level": 2,
+   "cefr": "A2",
+   "area": "grammar",
+   "skill": "Future with going to",
+   "type": "mcq",
+   "prompt": "Look at the clouds. It ___ rain.",
+   "options": [
+    "goes to",
+    "is going",
+    "is going to",
+    "will to"
+   ],
+   "answer": 2,
+   "lu": {
+    "id": "LU-CEFR-A2-03",
+    "slot": 3,
+    "concept": {
+     "en": "Future plans and predictions: going to",
+     "es": "Planes y predicciones: going to"
+    },
+    "tip": {
+     "en": "Make sentences about tomorrow and next week using am, is, are going to plus a verb.",
+     "es": "Haz frases sobre mañana y la próxima semana con am, is, are going to más verbo."
+    }
+   },
+   "source": "original_chanak"
+  },
+  {
+   "id": "CF-A2-04",
+   "subject": "cefr",
+   "level": 2,
+   "cefr": "A2",
+   "area": "grammar",
+   "skill": "Past simple negatives",
+   "type": "mcq",
+   "prompt": "I ___ my homework last night because I was tired.",
+   "options": [
+    "didn't did",
+    "don't do",
+    "not did",
+    "didn't do"
+   ],
+   "answer": 3,
+   "lu": {
+    "id": "LU-CEFR-A2-04",
+    "slot": 4,
+    "concept": {
+     "en": "Negative past simple with didn't",
+     "es": "Negativa en pasado simple con didn't"
+    },
+    "tip": {
+     "en": "After didn't, always use the base verb: didn't go, didn't see, didn't do.",
+     "es": "Después de didn't usa siempre el verbo base: didn't go, didn't see, didn't do."
+    }
+   },
+   "source": "original_chanak"
+  },
+  {
+   "id": "CF-A2-05",
+   "subject": "cefr",
+   "level": 2,
+   "cefr": "A2",
+   "area": "grammar",
+   "skill": "Superlative adjectives",
+   "type": "mcq",
+   "prompt": "She is the ___ student in our class.",
+   "options": [
+    "most tall",
+    "tallest",
+    "taller",
+    "more tall"
+   ],
+   "answer": 1,
+   "lu": {
+    "id": "LU-CEFR-A2-05",
+    "slot": 5,
+    "concept": {
+     "en": "Superlatives with the and -est",
+     "es": "Superlativos con the y -est"
+    },
+    "tip": {
+     "en": "Practice the tallest, the oldest, the funniest, and the most interesting with classmates.",
+     "es": "Practica the tallest, the oldest, the funniest y the most interesting con compañeros."
+    }
+   },
+   "source": "original_chanak"
+  },
+  {
+   "id": "CF-A2-06",
+   "subject": "cefr",
+   "level": 2,
+   "cefr": "A2",
+   "area": "grammar",
+   "skill": "Countable and uncountable quantity",
+   "type": "mcq",
+   "prompt": "How ___ water do you drink every day?",
+   "options": [
+    "much",
+    "many",
+    "long",
+    "a lot"
+   ],
+   "answer": 0,
+   "lu": {
+    "id": "LU-CEFR-A2-06",
+    "slot": 6,
+    "concept": {
+     "en": "How much and how many",
+     "es": "How much y how many"
+    },
+    "tip": {
+     "en": "Use how much with uncountable nouns like water and how many with plural nouns.",
+     "es": "Usa how much con incontables como water y how many con sustantivos en plural."
+    }
+   },
+   "source": "original_chanak"
+  },
+  {
+   "id": "CF-A2-07",
+   "subject": "cefr",
+   "level": 2,
+   "cefr": "A2",
+   "area": "grammar",
+   "skill": "Have to for obligation",
+   "type": "mcq",
+   "prompt": "You ___ wear a uniform at our school; it's the rule.",
+   "options": [
+    "must to",
+    "has to",
+    "have to",
+    "should to"
+   ],
+   "answer": 2,
+   "lu": {
+    "id": "LU-CEFR-A2-07",
+    "slot": 7,
+    "concept": {
+     "en": "Obligation with have to",
+     "es": "Obligación con have to"
+    },
+    "tip": {
+     "en": "Write school rules using have to and don't have to with different subjects.",
+     "es": "Escribe normas escolares con have to y don't have to con distintos sujetos."
+    }
+   },
+   "source": "original_chanak"
+  },
+  {
+   "id": "CF-A2-08",
+   "subject": "cefr",
+   "level": 2,
+   "cefr": "A2",
+   "area": "vocabulary",
+   "skill": "Transport collocations",
+   "type": "mcq",
+   "prompt": "I need to ___ the bus at the corner.",
+   "options": [
+    "hold",
+    "make",
+    "put",
+    "catch"
+   ],
+   "answer": 3,
+   "lu": {
+    "id": "LU-CEFR-A2-08",
+    "slot": 8,
+    "concept": {
+     "en": "Verbs with transport: catch, take",
+     "es": "Verbos con transporte: catch, take"
+    },
+    "tip": {
+     "en": "Learn verb partners: catch the bus, take a taxi, miss the train.",
+     "es": "Aprende combinaciones de verbos: catch the bus, take a taxi, miss the train."
+    }
+   },
+   "source": "original_chanak"
+  },
+  {
+   "id": "CF-A2-09",
+   "subject": "cefr",
+   "level": 2,
+   "cefr": "A2",
+   "area": "vocabulary",
+   "skill": "-ed and -ing adjectives",
+   "type": "mcq",
+   "prompt": "The film was very ___; I almost fell asleep.",
+   "options": [
+    "bored",
+    "boring",
+    "borning",
+    "excited"
+   ],
+   "answer": 1,
+   "lu": {
+    "id": "LU-CEFR-A2-09",
+    "slot": 9,
+    "concept": {
+     "en": "Adjectives ending in -ed and -ing",
+     "es": "Adjetivos terminados en -ed e -ing"
+    },
+    "tip": {
+     "en": "Use -ing for things (boring film) and -ed for feelings (I am bored).",
+     "es": "Usa -ing para cosas (boring film) y -ed para sentimientos (I am bored)."
+    }
+   },
+   "source": "original_chanak"
+  },
+  {
+   "id": "CF-A2-10",
+   "subject": "cefr",
+   "level": 2,
+   "cefr": "A2",
+   "area": "vocabulary",
+   "skill": "Jobs and workplaces",
+   "type": "mcq",
+   "prompt": "My uncle is a ___. He works in a hospital and helps sick people.",
+   "options": [
+    "doctor",
+    "teacher",
+    "driver",
+    "farmer"
+   ],
+   "answer": 0,
+   "lu": {
+    "id": "LU-CEFR-A2-10",
+    "slot": 10,
+    "concept": {
+     "en": "Jobs and where people work",
+     "es": "Profesiones y lugares de trabajo"
+    },
+    "tip": {
+     "en": "Match ten jobs with their workplaces and say what each person does.",
+     "es": "Relaciona diez profesiones con sus lugares de trabajo y di qué hace cada persona."
+    }
+   },
+   "source": "original_chanak"
+  },
+  {
+   "id": "CF-A2-11",
+   "subject": "cefr",
+   "level": 2,
+   "cefr": "A2",
+   "area": "vocabulary",
+   "skill": "False friend: library vs bookshop",
+   "type": "mcq",
+   "prompt": "I want to buy a book. I'll go to the ___.",
+   "options": [
+    "library",
+    "bakery",
+    "bookshop",
+    "pharmacy"
+   ],
+   "answer": 2,
+   "lu": {
+    "id": "LU-CEFR-A2-11",
+    "slot": 11,
+    "concept": {
+     "en": "False friend: library is not librería",
+     "es": "Falso amigo: library no es librería"
+    },
+    "tip": {
+     "en": "Remember: library means biblioteca, while bookshop means librería.",
+     "es": "Recuerda: library significa biblioteca, mientras que bookshop significa librería."
+    }
+   },
+   "source": "original_chanak"
+  },
+  {
+   "id": "CF-A2-12",
+   "subject": "cefr",
+   "level": 2,
+   "cefr": "A2",
+   "area": "vocabulary",
+   "skill": "Weather words",
+   "type": "mcq",
+   "prompt": "In winter, the weather is often ___ and windy.",
+   "options": [
+    "hungry",
+    "cloudy",
+    "busy",
+    "tired"
+   ],
+   "answer": 1,
+   "lu": {
+    "id": "LU-CEFR-A2-12",
+    "slot": 12,
+    "concept": {
+     "en": "Weather adjectives",
+     "es": "Adjetivos del tiempo atmosférico"
+    },
+    "tip": {
+     "en": "Describe today's weather with words like sunny, cloudy, rainy, windy and cold.",
+     "es": "Describe el tiempo de hoy con palabras como sunny, cloudy, rainy, windy y cold."
+    }
+   },
+   "source": "original_chanak"
+  },
+  {
+   "id": "CF-A2-13",
+   "subject": "cefr",
+   "level": 2,
+   "cefr": "A2",
+   "area": "vocabulary",
+   "skill": "Lend and borrow",
+   "type": "mcq",
+   "prompt": "Can you ___ me your pen? I forgot mine.",
+   "options": [
+    "borrow",
+    "take",
+    "bring",
+    "lend"
+   ],
+   "answer": 3,
+   "lu": {
+    "id": "LU-CEFR-A2-13",
+    "slot": 13,
+    "concept": {
+     "en": "Difference between lend and borrow",
+     "es": "Diferencia entre lend y borrow"
+    },
+    "tip": {
+     "en": "Lend means to give for a time; borrow means to receive for a time.",
+     "es": "Lend es dar por un tiempo; borrow es recibir algo por un tiempo."
+    }
+   },
+   "source": "original_chanak"
+  },
+  {
+   "id": "CF-A2-14",
+   "subject": "cefr",
+   "level": 2,
+   "cefr": "A2",
+   "area": "reading",
+   "skill": "Understanding a past narrative",
+   "type": "mcq",
+   "prompt": "Lucía visited her grandparents in a small village last weekend. They walked by the river and had lunch outside. In the evening, they played cards, and Lucía went to bed late.\n\nWhere did they have lunch?",
+   "options": [
+    "Outside",
+    "In the kitchen",
+    "In a restaurant",
+    "At school"
+   ],
+   "answer": 0,
+   "lu": {
+    "id": "LU-CEFR-A2-14",
+    "slot": 14,
+    "concept": {
+     "en": "Details in a past-tense story",
+     "es": "Detalles en un relato en pasado"
+    },
+    "tip": {
+     "en": "Read short stories in the past and note where, when and who.",
+     "es": "Lee relatos breves en pasado y anota dónde, cuándo y quién."
+    }
+   },
+   "source": "original_chanak"
+  },
+  {
+   "id": "CF-A2-15",
+   "subject": "cefr",
+   "level": 2,
+   "cefr": "A2",
+   "area": "reading",
+   "skill": "Sequencing events",
+   "type": "mcq",
+   "prompt": "Lucía visited her grandparents in a small village last weekend. They walked by the river and had lunch outside. In the evening, they played cards, and Lucía went to bed late.\n\nWhat did they do in the evening?",
+   "options": [
+    "They walked by the river.",
+    "They visited a village.",
+    "They played cards.",
+    "They went to bed early."
+   ],
+   "answer": 2,
+   "lu": {
+    "id": "LU-CEFR-A2-15",
+    "slot": 15,
+    "concept": {
+     "en": "Order of events in a story",
+     "es": "Orden de los eventos en un relato"
+    },
+    "tip": {
+     "en": "Notice time phrases like in the evening and last weekend to follow events.",
+     "es": "Fíjate en expresiones como in the evening y last weekend para seguir los hechos."
+    }
+   },
+   "source": "original_chanak"
+  },
+  {
+   "id": "CF-A2-16",
+   "subject": "cefr",
+   "level": 2,
+   "cefr": "A2",
+   "area": "reading",
+   "skill": "Reading a school notice",
+   "type": "mcq",
+   "prompt": "Our school trip is next Friday. We are going to visit a science museum, and the bus leaves at 8:30. Please bring a lunch and a bottle of water, but do not bring money.\n\nWhat time does the bus leave?",
+   "options": [
+    "8:00",
+    "8:30",
+    "8:15",
+    "9:30"
+   ],
+   "answer": 1,
+   "lu": {
+    "id": "LU-CEFR-A2-16",
+    "slot": 16,
+    "concept": {
+     "en": "Times in a notice",
+     "es": "Horas en un aviso"
+    },
+    "tip": {
+     "en": "Practice reading times, dates and instructions in school notices and messages.",
+     "es": "Practica leer horas, fechas e instrucciones en avisos y mensajes escolares."
+    }
+   },
+   "source": "original_chanak"
+  },
+  {
+   "id": "CF-A2-17",
+   "subject": "cefr",
+   "level": 2,
+   "cefr": "A2",
+   "area": "reading",
+   "skill": "Following instructions in a notice",
+   "type": "mcq",
+   "prompt": "Our school trip is next Friday. We are going to visit a science museum, and the bus leaves at 8:30. Please bring a lunch and a bottle of water, but do not bring money.\n\nWhat should students bring?",
+   "options": [
+    "Money and a lunch",
+    "Only water",
+    "A science book",
+    "A lunch and water"
+   ],
+   "answer": 3,
+   "lu": {
+    "id": "LU-CEFR-A2-17",
+    "slot": 17,
+    "concept": {
+     "en": "Following written instructions",
+     "es": "Seguir instrucciones escritas"
+    },
+    "tip": {
+     "en": "Pay attention to please bring and do not bring when reading instructions.",
+     "es": "Presta atención a please bring y do not bring al leer instrucciones."
+    }
+   },
+   "source": "original_chanak"
+  },
+  {
+   "id": "CF-A2-18",
+   "subject": "cefr",
+   "level": 2,
+   "cefr": "A2",
+   "area": "reading",
+   "skill": "Understanding comparisons in text",
+   "type": "mcq",
+   "prompt": "Mark's new phone is cheaper than his old one, but it is faster and has a better camera. He is very happy with it.\n\nCompared with his old phone, the new phone is...",
+   "options": [
+    "cheaper",
+    "more expensive",
+    "slower",
+    "bigger"
+   ],
+   "answer": 0,
+   "lu": {
+    "id": "LU-CEFR-A2-18",
+    "slot": 18,
+    "concept": {
+     "en": "Comparatives in a short text",
+     "es": "Comparativos en un texto corto"
+    },
+    "tip": {
+     "en": "Underline comparative words like cheaper, faster and better when you read.",
+     "es": "Subraya comparativos como cheaper, faster y better mientras lees."
+    }
+   },
+   "source": "original_chanak"
+  },
+  {
+   "id": "CF-A2-19",
+   "subject": "cefr",
+   "level": 2,
+   "cefr": "A2",
+   "area": "usage",
+   "skill": "Asking for and giving directions",
+   "type": "mcq",
+   "prompt": "— Excuse me, could you tell me where the station is?\n— ___",
+   "options": [
+    "It's two euros.",
+    "I'm going by train.",
+    "Go straight and turn left.",
+    "Yes, I could."
+   ],
+   "answer": 2,
+   "lu": {
+    "id": "LU-CEFR-A2-19",
+    "slot": 19,
+    "concept": {
+     "en": "Asking for and giving directions",
+     "es": "Pedir y dar indicaciones"
+    },
+    "tip": {
+     "en": "Practice directions: go straight, turn left, turn right, next to, opposite.",
+     "es": "Practica indicaciones: go straight, turn left, turn right, next to, opposite."
+    }
+   },
+   "source": "original_chanak"
+  },
+  {
+   "id": "CF-A2-20",
+   "subject": "cefr",
+   "level": 2,
+   "cefr": "A2",
+   "area": "usage",
+   "skill": "Preposition after interested",
+   "type": "mcq",
+   "prompt": "I'm interested ___ music and art.",
+   "options": [
+    "on",
+    "in",
+    "at",
+    "for"
+   ],
+   "answer": 1,
+   "lu": {
+    "id": "LU-CEFR-A2-20",
+    "slot": 20,
+    "concept": {
+     "en": "Fixed prepositions with adjectives",
+     "es": "Preposiciones fijas con adjetivos"
+    },
+    "tip": {
+     "en": "Learn adjective and preposition pairs: interested in, good at, afraid of.",
+     "es": "Aprende pares adjetivo y preposición: interested in, good at, afraid of."
+    }
+   },
+   "source": "original_chanak"
+  },
+  {
+   "id": "CF-B1-01",
+   "subject": "cefr",
+   "level": 3,
+   "cefr": "B1",
+   "area": "grammar",
+   "skill": "Present perfect with yet",
+   "type": "mcq",
+   "prompt": "I ____ my homework yet, so I can't go out.",
+   "options": [
+    "didn't finished",
+    "am not finishing",
+    "hadn't finish",
+    "haven't finished"
+   ],
+   "answer": 3,
+   "lu": {
+    "id": "LU-CEFR-B1-01",
+    "slot": 1,
+    "concept": {
+     "en": "Present perfect with yet",
+     "es": "Present perfect con yet"
+    },
+    "tip": {
+     "en": "Practice present perfect with yet, already and just in short daily sentences.",
+     "es": "Practica el present perfect con yet, already y just en frases cortas a diario."
+    }
+   },
+   "source": "original_chanak"
+  },
+  {
+   "id": "CF-B1-02",
+   "subject": "cefr",
+   "level": 3,
+   "cefr": "B1",
+   "area": "grammar",
+   "skill": "First conditional sentences",
+   "type": "mcq",
+   "prompt": "If it ____ tomorrow, we will cancel the picnic.",
+   "options": [
+    "rains",
+    "will rain",
+    "would rain",
+    "rained"
+   ],
+   "answer": 0,
+   "lu": {
+    "id": "LU-CEFR-B1-02",
+    "slot": 2,
+    "concept": {
+     "en": "First conditional: if + present, will",
+     "es": "Primer condicional: if + presente, will"
+    },
+    "tip": {
+     "en": "Write five real future plans using if plus present simple, then will plus verb.",
+     "es": "Escribe cinco planes futuros reales con if y presente simple, luego will y verbo."
+    }
+   },
+   "source": "original_chanak"
+  },
+  {
+   "id": "CF-B1-03",
+   "subject": "cefr",
+   "level": 3,
+   "cefr": "B1",
+   "area": "grammar",
+   "skill": "Simple past passive voice",
+   "type": "mcq",
+   "prompt": "The new library ____ last year.",
+   "options": [
+    "built",
+    "has built",
+    "was built",
+    "is building"
+   ],
+   "answer": 2,
+   "lu": {
+    "id": "LU-CEFR-B1-03",
+    "slot": 3,
+    "concept": {
+     "en": "Past simple passive: was/were + participle",
+     "es": "Pasiva en pasado: was/were + participio"
+    },
+    "tip": {
+     "en": "Convert active sentences about past events into passive using was or were.",
+     "es": "Convierte oraciones activas sobre hechos pasados a pasiva con was o were."
+    }
+   },
+   "source": "original_chanak"
+  },
+  {
+   "id": "CF-B1-04",
+   "subject": "cefr",
+   "level": 3,
+   "cefr": "B1",
+   "area": "grammar",
+   "skill": "Modal verbs of obligation",
+   "type": "mcq",
+   "prompt": "You ____ wear a uniform at our school; it's compulsory.",
+   "options": [
+    "can",
+    "must",
+    "might",
+    "needn't"
+   ],
+   "answer": 1,
+   "lu": {
+    "id": "LU-CEFR-B1-04",
+    "slot": 4,
+    "concept": {
+     "en": "Modals of obligation: must, have to",
+     "es": "Modales de obligación: must, have to"
+    },
+    "tip": {
+     "en": "Contrast must, have to, can and needn't using school and home rules.",
+     "es": "Contrasta must, have to, can y needn't con las normas de la escuela y el hogar."
+    }
+   },
+   "source": "original_chanak"
+  },
+  {
+   "id": "CF-B1-05",
+   "subject": "cefr",
+   "level": 3,
+   "cefr": "B1",
+   "area": "grammar",
+   "skill": "Zero conditional for facts",
+   "type": "mcq",
+   "prompt": "If you mix blue and yellow, you ____ green.",
+   "options": [
+    "gets",
+    "getting",
+    "get",
+    "to get"
+   ],
+   "answer": 2,
+   "lu": {
+    "id": "LU-CEFR-B1-05",
+    "slot": 5,
+    "concept": {
+     "en": "Zero conditional for general truths",
+     "es": "Condicional cero para verdades generales"
+    },
+    "tip": {
+     "en": "Write science and daily-life facts with if plus present simple in both clauses.",
+     "es": "Escribe hechos científicos y cotidianos con if y presente simple en ambas partes."
+    }
+   },
+   "source": "original_chanak"
+  },
+  {
+   "id": "CF-B1-06",
+   "subject": "cefr",
+   "level": 3,
+   "cefr": "B1",
+   "area": "grammar",
+   "skill": "Comparisons with as ... as",
+   "type": "mcq",
+   "prompt": "This exercise is not as difficult ____ the last one.",
+   "options": [
+    "than",
+    "as",
+    "like",
+    "that"
+   ],
+   "answer": 1,
+   "lu": {
+    "id": "LU-CEFR-B1-06",
+    "slot": 6,
+    "concept": {
+     "en": "Equality comparisons: as ... as",
+     "es": "Comparaciones de igualdad: as ... as"
+    },
+    "tip": {
+     "en": "Practice as...as and not as...as, avoiding than after as in comparisons.",
+     "es": "Practica as...as y not as...as, evitando than tras as en comparaciones."
+    }
+   },
+   "source": "original_chanak"
+  },
+  {
+   "id": "CF-B1-07",
+   "subject": "cefr",
+   "level": 3,
+   "cefr": "B1",
+   "area": "grammar",
+   "skill": "Be used to + gerund",
+   "type": "mcq",
+   "prompt": "I'm not used ____ up early.",
+   "options": [
+    "get",
+    "to get",
+    "getting",
+    "to getting"
+   ],
+   "answer": 3,
+   "lu": {
+    "id": "LU-CEFR-B1-07",
+    "slot": 7,
+    "concept": {
+     "en": "Be used to + -ing form",
+     "es": "Be used to + forma en -ing"
+    },
+    "tip": {
+     "en": "Write sentences with be used to plus gerund about your habits and routines.",
+     "es": "Escribe frases con be used to y gerundio sobre tus hábitos y rutinas."
+    }
+   },
+   "source": "original_chanak"
+  },
+  {
+   "id": "CF-B1-08",
+   "subject": "cefr",
+   "level": 3,
+   "cefr": "B1",
+   "area": "vocabulary",
+   "skill": "Common collocations with transport",
+   "type": "mcq",
+   "prompt": "He was late because he ____ the bus.",
+   "options": [
+    "lost",
+    "missed",
+    "left",
+    "forgot"
+   ],
+   "answer": 1,
+   "lu": {
+    "id": "LU-CEFR-B1-08",
+    "slot": 8,
+    "concept": {
+     "en": "Collocation: miss the bus",
+     "es": "Colocación: miss the bus"
+    },
+    "tip": {
+     "en": "Learn verb collocations with transport, such as miss, catch and take the bus.",
+     "es": "Aprende colocaciones verbales con transporte: miss, catch y take the bus."
+    }
+   },
+   "source": "original_chanak"
+  },
+  {
+   "id": "CF-B1-09",
+   "subject": "cefr",
+   "level": 3,
+   "cefr": "B1",
+   "area": "vocabulary",
+   "skill": "Lend and borrow",
+   "type": "mcq",
+   "prompt": "Can you ____ me your pen? I forgot mine.",
+   "options": [
+    "lend",
+    "borrow",
+    "rent",
+    "win"
+   ],
+   "answer": 0,
+   "lu": {
+    "id": "LU-CEFR-B1-09",
+    "slot": 9,
+    "concept": {
+     "en": "Lend versus borrow",
+     "es": "Diferencia entre lend y borrow"
+    },
+    "tip": {
+     "en": "Make pairs of sentences contrasting lend and borrow with the same objects.",
+     "es": "Haz pares de frases que contrasten lend y borrow con los mismos objetos."
+    }
+   },
+   "source": "original_chanak"
+  },
+  {
+   "id": "CF-B1-10",
+   "subject": "cefr",
+   "level": 3,
+   "cefr": "B1",
+   "area": "vocabulary",
+   "skill": "Weather and events vocabulary",
+   "type": "mcq",
+   "prompt": "The weather was awful, so the match was ____.",
+   "options": [
+    "missed",
+    "closed",
+    "lost",
+    "cancelled"
+   ],
+   "answer": 3,
+   "lu": {
+    "id": "LU-CEFR-B1-10",
+    "slot": 10,
+    "concept": {
+     "en": "Event vocabulary: cancelled, postponed",
+     "es": "Vocabulario de eventos: cancelled, postponed"
+    },
+    "tip": {
+     "en": "Group words about events: cancel, postpone, hold, attend, and use them in sentences.",
+     "es": "Agrupa palabras sobre eventos: cancel, postpone, hold, attend, y úsalas en frases."
+    }
+   },
+   "source": "original_chanak"
+  },
+  {
+   "id": "CF-B1-11",
+   "subject": "cefr",
+   "level": 3,
+   "cefr": "B1",
+   "area": "vocabulary",
+   "skill": "Personality adjectives",
+   "type": "mcq",
+   "prompt": "My brother is very ____; he never stops talking.",
+   "options": [
+    "talkative",
+    "quiet",
+    "shy",
+    "serious"
+   ],
+   "answer": 0,
+   "lu": {
+    "id": "LU-CEFR-B1-11",
+    "slot": 11,
+    "concept": {
+     "en": "Personality adjectives",
+     "es": "Adjetivos de personalidad"
+    },
+    "tip": {
+     "en": "Describe family and friends using ten personality adjectives and a short example each.",
+     "es": "Describe a familiares y amigos con diez adjetivos de personalidad y un ejemplo cada uno."
+    }
+   },
+   "source": "original_chanak"
+  },
+  {
+   "id": "CF-B1-12",
+   "subject": "cefr",
+   "level": 3,
+   "cefr": "B1",
+   "area": "vocabulary",
+   "skill": "Uncountable noun: advice",
+   "type": "mcq",
+   "prompt": "He gave me some good ____ about which university to choose.",
+   "options": [
+    "advices",
+    "advise",
+    "advice",
+    "adviser"
+   ],
+   "answer": 2,
+   "lu": {
+    "id": "LU-CEFR-B1-12",
+    "slot": 12,
+    "concept": {
+     "en": "Uncountable nouns: advice, information",
+     "es": "Sustantivos incontables: advice, information"
+    },
+    "tip": {
+     "en": "Review uncountable nouns like advice, news and furniture and their correct quantifiers.",
+     "es": "Repasa incontables como advice, news y furniture y sus cuantificadores correctos."
+    }
+   },
+   "source": "original_chanak"
+  },
+  {
+   "id": "CF-B1-13",
+   "subject": "cefr",
+   "level": 3,
+   "cefr": "B1",
+   "area": "reading",
+   "skill": "Identifying the main idea",
+   "type": "mcq",
+   "prompt": "Read the text.\n\nLast summer, Marta joined a volunteer group that cleans beaches near her town. At first she only went on Saturdays, but she enjoyed it so much that she now goes twice a week. Although the work is tiring, she says it makes her feel useful. She hopes more teenagers will join next year.\n\nWhat is the main idea of the text?",
+   "options": [
+    "Marta wants to leave the group because it is tiring.",
+    "Marta started a new group at her school.",
+    "Marta likes cleaning beaches and now helps more often.",
+    "Marta only volunteers during the summer."
+   ],
+   "answer": 2,
+   "lu": {
+    "id": "LU-CEFR-B1-13",
+    "slot": 13,
+    "concept": {
+     "en": "Understanding the main idea",
+     "es": "Comprender la idea principal"
+    },
+    "tip": {
+     "en": "Read short texts and summarise each in one sentence before answering questions.",
+     "es": "Lee textos cortos y resúmelos en una frase antes de responder preguntas."
+    }
+   },
+   "source": "original_chanak"
+  },
+  {
+   "id": "CF-B1-14",
+   "subject": "cefr",
+   "level": 3,
+   "cefr": "B1",
+   "area": "reading",
+   "skill": "Finding specific details",
+   "type": "mcq",
+   "prompt": "Read the text.\n\nLast summer, Marta joined a volunteer group that cleans beaches near her town. At first she only went on Saturdays, but she enjoyed it so much that she now goes twice a week. Although the work is tiring, she says it makes her feel useful. She hopes more teenagers will join next year.\n\nWhat does Marta hope for next year?",
+   "options": [
+    "That she can work on Saturdays only",
+    "That more young people take part",
+    "That the beaches will be closed",
+    "That the work becomes easier"
+   ],
+   "answer": 1,
+   "lu": {
+    "id": "LU-CEFR-B1-14",
+    "slot": 14,
+    "concept": {
+     "en": "Locating specific information",
+     "es": "Localizar información específica"
+    },
+    "tip": {
+     "en": "Underline names, numbers and wishes in short texts to find details quickly.",
+     "es": "Subraya nombres, números y deseos en textos cortos para hallar detalles rápido."
+    }
+   },
+   "source": "original_chanak"
+  },
+  {
+   "id": "CF-B1-15",
+   "subject": "cefr",
+   "level": 3,
+   "cefr": "B1",
+   "area": "reading",
+   "skill": "Understanding purpose and reasons",
+   "type": "mcq",
+   "prompt": "Read the text.\n\nThe school cafeteria will change its menu from Monday. Instead of fried food, it will offer more salads and fruit, and students will be able to order online before break. The principal says the aim is to shorten queues and encourage healthier habits. However, some students are worried that the prices will go up.\n\nWhy is the cafeteria introducing online ordering?",
+   "options": [
+    "To raise prices",
+    "To sell more fried food",
+    "To close the cafeteria earlier",
+    "To reduce waiting time"
+   ],
+   "answer": 3,
+   "lu": {
+    "id": "LU-CEFR-B1-15",
+    "slot": 15,
+    "concept": {
+     "en": "Understanding reasons and purpose",
+     "es": "Comprender razones y propósitos"
+    },
+    "tip": {
+     "en": "Look for words like aim, so that and because to find the purpose in a text.",
+     "es": "Busca palabras como aim, so that y because para hallar el propósito en un texto."
+    }
+   },
+   "source": "original_chanak"
+  },
+  {
+   "id": "CF-B1-16",
+   "subject": "cefr",
+   "level": 3,
+   "cefr": "B1",
+   "area": "reading",
+   "skill": "Paraphrasing in reading questions",
+   "type": "mcq",
+   "prompt": "Read the text.\n\nThe school cafeteria will change its menu from Monday. Instead of fried food, it will offer more salads and fruit, and students will be able to order online before break. The principal says the aim is to shorten queues and encourage healthier habits. However, some students are worried that the prices will go up.\n\nWhat are some students worried about?",
+   "options": [
+    "The prices may go up",
+    "The break will be shorter",
+    "There will be no more fruit",
+    "Online orders will be slow"
+   ],
+   "answer": 0,
+   "lu": {
+    "id": "LU-CEFR-B1-16",
+    "slot": 16,
+    "concept": {
+     "en": "Recognising paraphrased information",
+     "es": "Reconocer información parafraseada"
+    },
+    "tip": {
+     "en": "Compare sentences in a text with answer options that use different words but equal meaning.",
+     "es": "Compara frases del texto con opciones que usan otras palabras pero igual significado."
+    }
+   },
+   "source": "original_chanak"
+  },
+  {
+   "id": "CF-B1-17",
+   "subject": "cefr",
+   "level": 3,
+   "cefr": "B1",
+   "area": "reading",
+   "skill": "Understanding a short message",
+   "type": "mcq",
+   "prompt": "Read the message.\n\nDear Tom, thanks for your invitation to your birthday party on Saturday. I'd love to come, but I have a football match in the morning in another city and I won't be back until six. If the bus isn't late, I'll arrive around seven. Please save me some cake!\n\nWhy will the writer probably arrive late to the party?",
+   "options": [
+    "He has a match far away",
+    "He is not invited",
+    "He doesn't like cake",
+    "He has to work on Saturday"
+   ],
+   "answer": 0,
+   "lu": {
+    "id": "LU-CEFR-B1-17",
+    "slot": 17,
+    "concept": {
+     "en": "Understanding informal messages",
+     "es": "Comprender mensajes informales"
+    },
+    "tip": {
+     "en": "Read short emails and notes, then identify who, what, when and why.",
+     "es": "Lee correos y notas cortas e identifica quién, qué, cuándo y por qué."
+    }
+   },
+   "source": "original_chanak"
+  },
+  {
+   "id": "CF-B1-18",
+   "subject": "cefr",
+   "level": 3,
+   "cefr": "B1",
+   "area": "reading",
+   "skill": "Understanding a writer's plans",
+   "type": "mcq",
+   "prompt": "Read the message.\n\nDear Tom, thanks for your invitation to your birthday party on Saturday. I'd love to come, but I have a football match in the morning in another city and I won't be back until six. If the bus isn't late, I'll arrive around seven. Please save me some cake!\n\nWhat does the writer say about the party?",
+   "options": [
+    "He cannot go at all",
+    "He wants to change the date",
+    "He plans to go, but not at the start",
+    "He will arrive before six"
+   ],
+   "answer": 2,
+   "lu": {
+    "id": "LU-CEFR-B1-18",
+    "slot": 18,
+    "concept": {
+     "en": "Understanding plans and intentions",
+     "es": "Comprender planes e intenciones"
+    },
+    "tip": {
+     "en": "Practise spotting time expressions and conditions that change a speaker's plans.",
+     "es": "Practica detectar expresiones de tiempo y condiciones que cambian los planes."
+    }
+   },
+   "source": "original_chanak"
+  },
+  {
+   "id": "CF-B1-19",
+   "subject": "cefr",
+   "level": 3,
+   "cefr": "B1",
+   "area": "usage",
+   "skill": "Contrast connectors",
+   "type": "mcq",
+   "prompt": "I wanted to go to the concert; ____, I had too much homework.",
+   "options": [
+    "so",
+    "however",
+    "because",
+    "although"
+   ],
+   "answer": 1,
+   "lu": {
+    "id": "LU-CEFR-B1-19",
+    "slot": 19,
+    "concept": {
+     "en": "Linking contrast: however, but",
+     "es": "Conectores de contraste: however, but"
+    },
+    "tip": {
+     "en": "Learn how however, but and although differ in punctuation and sentence position.",
+     "es": "Aprende cómo difieren however, but y although en puntuación y posición."
+    }
+   },
+   "source": "original_chanak"
+  },
+  {
+   "id": "CF-B1-20",
+   "subject": "cefr",
+   "level": 3,
+   "cefr": "B1",
+   "area": "usage",
+   "skill": "Common phrasal verbs",
+   "type": "mcq",
+   "prompt": "Please ____ your shoes before you come into the house.",
+   "options": [
+    "put off",
+    "give up",
+    "look after",
+    "take off"
+   ],
+   "answer": 3,
+   "lu": {
+    "id": "LU-CEFR-B1-20",
+    "slot": 20,
+    "concept": {
+     "en": "Phrasal verb: take off",
+     "es": "Phrasal verb: take off"
+    },
+    "tip": {
+     "en": "Keep a list of ten common phrasal verbs with clothes and daily routines.",
+     "es": "Haz una lista de diez phrasal verbs comunes con ropa y rutinas diarias."
+    }
+   },
+   "source": "original_chanak"
+  },
+  {
+   "id": "CF-B2-01",
+   "subject": "cefr",
+   "level": 4,
+   "cefr": "B2",
+   "area": "grammar",
+   "skill": "Second conditional",
+   "type": "mcq",
+   "prompt": "If I ____ more free time, I would learn the piano.",
+   "options": [
+    "have",
+    "had",
+    "would have",
+    "have had"
+   ],
+   "answer": 1,
+   "lu": {
+    "id": "LU-CEFR-B2-01",
+    "slot": 1,
+    "concept": {
+     "en": "Second conditional: if + past, would",
+     "es": "Segundo condicional: if + pasado, would"
+    },
+    "tip": {
+     "en": "Write unreal present situations using if plus past simple and would plus verb.",
+     "es": "Escribe situaciones irreales del presente con if y pasado simple, y would más verbo."
+    }
+   },
+   "source": "original_chanak"
+  },
+  {
+   "id": "CF-B2-02",
+   "subject": "cefr",
+   "level": 4,
+   "cefr": "B2",
+   "area": "grammar",
+   "skill": "Third conditional",
+   "type": "mcq",
+   "prompt": "If she had studied harder, she ____ the exam.",
+   "options": [
+    "would pass",
+    "will have passed",
+    "would have passed",
+    "had passed"
+   ],
+   "answer": 2,
+   "lu": {
+    "id": "LU-CEFR-B2-02",
+    "slot": 2,
+    "concept": {
+     "en": "Third conditional for past regrets",
+     "es": "Tercer condicional para lamentos pasados"
+    },
+    "tip": {
+     "en": "Practise if plus past perfect with would have plus participle about past missed chances.",
+     "es": "Practica if con past perfect y would have más participio sobre oportunidades pasadas."
+    }
+   },
+   "source": "original_chanak"
+  },
+  {
+   "id": "CF-B2-03",
+   "subject": "cefr",
+   "level": 4,
+   "cefr": "B2",
+   "area": "grammar",
+   "skill": "Reported questions",
+   "type": "mcq",
+   "prompt": "She asked me where ____.",
+   "options": [
+    "did I live",
+    "do I live",
+    "I do live",
+    "I lived"
+   ],
+   "answer": 3,
+   "lu": {
+    "id": "LU-CEFR-B2-03",
+    "slot": 3,
+    "concept": {
+     "en": "Reported questions: no inversion",
+     "es": "Preguntas indirectas: sin inversión"
+    },
+    "tip": {
+     "en": "Turn direct questions into reported ones, shifting tenses and removing do/does/did.",
+     "es": "Convierte preguntas directas en indirectas, cambiando tiempos y quitando do/does/did."
+    }
+   },
+   "source": "original_chanak"
+  },
+  {
+   "id": "CF-B2-04",
+   "subject": "cefr",
+   "level": 4,
+   "cefr": "B2",
+   "area": "grammar",
+   "skill": "Wish about the past",
+   "type": "mcq",
+   "prompt": "I wish I ____ so much last night; now I feel terrible.",
+   "options": [
+    "hadn't eaten",
+    "wouldn't eat",
+    "don't eat",
+    "haven't eaten"
+   ],
+   "answer": 0,
+   "lu": {
+    "id": "LU-CEFR-B2-04",
+    "slot": 4,
+    "concept": {
+     "en": "Wish + past perfect for regrets",
+     "es": "Wish + past perfect para lamentos"
+    },
+    "tip": {
+     "en": "Write regrets with I wish plus past perfect and compare them with if only.",
+     "es": "Escribe lamentos con I wish y past perfect y compáralos con if only."
+    }
+   },
+   "source": "original_chanak"
+  },
+  {
+   "id": "CF-B2-05",
+   "subject": "cefr",
+   "level": 4,
+   "cefr": "B2",
+   "area": "grammar",
+   "skill": "Negative inversion",
+   "type": "mcq",
+   "prompt": "Hardly ____ the station when the train left.",
+   "options": [
+    "I had reached",
+    "I reached",
+    "had I reached",
+    "did I reach"
+   ],
+   "answer": 2,
+   "lu": {
+    "id": "LU-CEFR-B2-05",
+    "slot": 5,
+    "concept": {
+     "en": "Inversion after hardly and never",
+     "es": "Inversión tras hardly y never"
+    },
+    "tip": {
+     "en": "Practise inverted word order after hardly, scarcely, never and rarely in formal writing.",
+     "es": "Practica el orden invertido tras hardly, scarcely, never y rarely en escritura formal."
+    }
+   },
+   "source": "original_chanak"
+  },
+  {
+   "id": "CF-B2-06",
+   "subject": "cefr",
+   "level": 4,
+   "cefr": "B2",
+   "area": "grammar",
+   "skill": "Causative have",
+   "type": "mcq",
+   "prompt": "I'm going to ____ my hair cut tomorrow.",
+   "options": [
+    "make",
+    "do",
+    "let",
+    "have"
+   ],
+   "answer": 3,
+   "lu": {
+    "id": "LU-CEFR-B2-06",
+    "slot": 6,
+    "concept": {
+     "en": "Causative: have something done",
+     "es": "Causativa: have something done"
+    },
+    "tip": {
+     "en": "Write sentences about services you have done, using have plus object plus participle.",
+     "es": "Escribe frases sobre servicios que te hacen, con have, objeto y participio."
+    }
+   },
+   "source": "original_chanak"
+  },
+  {
+   "id": "CF-B2-07",
+   "subject": "cefr",
+   "level": 4,
+   "cefr": "B2",
+   "area": "grammar",
+   "skill": "Relative clauses with whose",
+   "type": "mcq",
+   "prompt": "The professor, ____ book I read last summer, will give a talk.",
+   "options": [
+    "whose",
+    "who",
+    "which",
+    "whom"
+   ],
+   "answer": 0,
+   "lu": {
+    "id": "LU-CEFR-B2-07",
+    "slot": 7,
+    "concept": {
+     "en": "Possessive relative pronoun: whose",
+     "es": "Pronombre relativo posesivo: whose"
+    },
+    "tip": {
+     "en": "Combine two sentences using whose to show possession in relative clauses.",
+     "es": "Une dos oraciones con whose para expresar posesión en cláusulas de relativo."
+    }
+   },
+   "source": "original_chanak"
+  },
+  {
+   "id": "CF-B2-08",
+   "subject": "cefr",
+   "level": 4,
+   "cefr": "B2",
+   "area": "vocabulary",
+   "skill": "Formal verbs: implement",
+   "type": "mcq",
+   "prompt": "The company has decided to ____ a new policy to reduce waste.",
+   "options": [
+    "accomplish",
+    "realize",
+    "apply for",
+    "implement"
+   ],
+   "answer": 3,
+   "lu": {
+    "id": "LU-CEFR-B2-08",
+    "slot": 8,
+    "concept": {
+     "en": "Formal verbs: implement, adopt",
+     "es": "Verbos formales: implement, adopt"
+    },
+    "tip": {
+     "en": "Study formal verbs for plans and policies, avoiding false friends like realize.",
+     "es": "Estudia verbos formales para planes y políticas, evitando falsos amigos como realize."
+    }
+   },
+   "source": "original_chanak"
+  },
+  {
+   "id": "CF-B2-09",
+   "subject": "cefr",
+   "level": 4,
+   "cefr": "B2",
+   "area": "vocabulary",
+   "skill": "Abstract verbs: mitigate",
+   "type": "mcq",
+   "prompt": "Scientists are trying to ____ the effects of climate change.",
+   "options": [
+    "migrate",
+    "mitigate",
+    "motivate",
+    "multiply"
+   ],
+   "answer": 1,
+   "lu": {
+    "id": "LU-CEFR-B2-09",
+    "slot": 9,
+    "concept": {
+     "en": "Abstract vocabulary: mitigate, reduce impact",
+     "es": "Vocabulario abstracto: mitigate, reducir impacto"
+    },
+    "tip": {
+     "en": "Learn abstract verbs from news topics and separate similar-looking words by meaning.",
+     "es": "Aprende verbos abstractos de noticias y distingue palabras parecidas por su significado."
+    }
+   },
+   "source": "original_chanak"
+  },
+  {
+   "id": "CF-B2-10",
+   "subject": "cefr",
+   "level": 4,
+   "cefr": "B2",
+   "area": "vocabulary",
+   "skill": "Describing character: resilient",
+   "type": "mcq",
+   "prompt": "Despite the setbacks, the team remained ____ and finished the project.",
+   "options": [
+    "resistant",
+    "reluctant",
+    "resilient",
+    "relevant"
+   ],
+   "answer": 2,
+   "lu": {
+    "id": "LU-CEFR-B2-10",
+    "slot": 10,
+    "concept": {
+     "en": "Character adjectives: resilient, reluctant",
+     "es": "Adjetivos de carácter: resilient, reluctant"
+    },
+    "tip": {
+     "en": "Compare similar-sounding adjectives with short example sentences to avoid confusion.",
+     "es": "Compara adjetivos de sonido parecido con frases ejemplo para evitar confusiones."
+    }
+   },
+   "source": "original_chanak"
+  },
+  {
+   "id": "CF-B2-11",
+   "subject": "cefr",
+   "level": 4,
+   "cefr": "B2",
+   "area": "vocabulary",
+   "skill": "Verbs for relationships between ideas",
+   "type": "mcq",
+   "prompt": "The two reports ____ each other: one says sales rose, the other says they fell.",
+   "options": [
+    "contradict",
+    "compare",
+    "coincide",
+    "consist"
+   ],
+   "answer": 0,
+   "lu": {
+    "id": "LU-CEFR-B2-11",
+    "slot": 11,
+    "concept": {
+     "en": "Verb: contradict (no preposition)",
+     "es": "Verbo: contradict (sin preposición)"
+    },
+    "tip": {
+     "en": "Note which verbs take a direct object and which need prepositions, like consist of.",
+     "es": "Anota qué verbos llevan complemento directo y cuáles preposición, como consist of."
+    }
+   },
+   "source": "original_chanak"
+  },
+  {
+   "id": "CF-B2-12",
+   "subject": "cefr",
+   "level": 4,
+   "cefr": "B2",
+   "area": "vocabulary",
+   "skill": "Considerate versus considerable",
+   "type": "mcq",
+   "prompt": "She is very ____; she always thinks about other people's feelings.",
+   "options": [
+    "considerable",
+    "considerate",
+    "conscious",
+    "consistent"
+   ],
+   "answer": 1,
+   "lu": {
+    "id": "LU-CEFR-B2-12",
+    "slot": 12,
+    "concept": {
+     "en": "Word families: considerate, considerable",
+     "es": "Familias de palabras: considerate, considerable"
+    },
+    "tip": {
+     "en": "Practise confusing word pairs, such as considerate and considerable, in meaningful sentences.",
+     "es": "Practica pares confusos como considerate y considerable en frases con sentido."
+    }
+   },
+   "source": "original_chanak"
+  },
+  {
+   "id": "CF-B2-13",
+   "subject": "cefr",
+   "level": 4,
+   "cefr": "B2",
+   "area": "reading",
+   "skill": "Identifying contrast with expectation",
+   "type": "mcq",
+   "prompt": "Read the text.\n\nWhen the town introduced a ticketing system at the museum, many people expected visitor numbers to drop. In fact, attendance has risen by 20 percent, mainly because the money collected has paid for new exhibitions. Critics, however, argue that families on low incomes are now less likely to visit. The council says it is considering discounted tickets for these groups.\n\nWhat is surprising about the introduction of tickets?",
+   "options": [
+    "Fewer families visit the museum",
+    "Visitor numbers increased instead of falling",
+    "The council ended the exhibitions",
+    "Critics supported the system"
+   ],
+   "answer": 1,
+   "lu": {
+    "id": "LU-CEFR-B2-13",
+    "slot": 13,
+    "concept": {
+     "en": "Spotting contrast with expectations",
+     "es": "Detectar contraste con lo esperado"
+    },
+    "tip": {
+     "en": "Notice phrases like in fact and however that signal results opposite to expectations.",
+     "es": "Fíjate en in fact y however, que señalan resultados contrarios a lo esperado."
+    }
+   },
+   "source": "original_chanak"
+  },
+  {
+   "id": "CF-B2-14",
+   "subject": "cefr",
+   "level": 4,
+   "cefr": "B2",
+   "area": "reading",
+   "skill": "Inferring attitude",
+   "type": "mcq",
+   "prompt": "Read the text.\n\nWhen the town introduced a ticketing system at the museum, many people expected visitor numbers to drop. In fact, attendance has risen by 20 percent, mainly because the money collected has paid for new exhibitions. Critics, however, argue that families on low incomes are now less likely to visit. The council says it is considering discounted tickets for these groups.\n\nWhat can be inferred about the council's attitude to the critics?",
+   "options": [
+    "It ignores them completely",
+    "It plans to remove the tickets",
+    "It is open to addressing their concern",
+    "It thinks the museum is too crowded"
+   ],
+   "answer": 2,
+   "lu": {
+    "id": "LU-CEFR-B2-14",
+    "slot": 14,
+    "concept": {
+     "en": "Inferring attitude from context",
+     "es": "Inferir actitud desde el contexto"
+    },
+    "tip": {
+     "en": "Practise inferring opinions from reporting verbs and modal expressions, not only direct statements.",
+     "es": "Practica inferir opiniones a partir de verbos de reporte y modales, no solo afirmaciones."
+    }
+   },
+   "source": "original_chanak"
+  },
+  {
+   "id": "CF-B2-15",
+   "subject": "cefr",
+   "level": 4,
+   "cefr": "B2",
+   "area": "reading",
+   "skill": "Understanding cause and risk",
+   "type": "mcq",
+   "prompt": "Read the text.\n\nRemote work was supposed to give employees more freedom, yet a recent survey suggests many feel they can never fully switch off. Because messages arrive at any hour, workers often answer emails in the evening. Psychologists warn that without clear boundaries, flexibility can turn into constant availability. Some firms have responded by banning messages after six o'clock.\n\nAccording to the passage, what is a risk of working from home?",
+   "options": [
+    "Employees may feel they are always on call",
+    "Employees may be paid less",
+    "Employees may lose access to email",
+    "Employees may not receive any messages"
+   ],
+   "answer": 0,
+   "lu": {
+    "id": "LU-CEFR-B2-15",
+    "slot": 15,
+    "concept": {
+     "en": "Identifying risks and consequences",
+     "es": "Identificar riesgos y consecuencias"
+    },
+    "tip": {
+     "en": "Read opinion articles and list the problem, its cause and the proposed solution.",
+     "es": "Lee artículos de opinión y lista el problema, su causa y la solución propuesta."
+    }
+   },
+   "source": "original_chanak"
+  },
+  {
+   "id": "CF-B2-16",
+   "subject": "cefr",
+   "level": 4,
+   "cefr": "B2",
+   "area": "reading",
+   "skill": "Meaning of phrasal verbs in context",
+   "type": "mcq",
+   "prompt": "Read the text.\n\nRemote work was supposed to give employees more freedom, yet a recent survey suggests many feel they can never fully switch off. Because messages arrive at any hour, workers often answer emails in the evening. Psychologists warn that without clear boundaries, flexibility can turn into constant availability. Some firms have responded by banning messages after six o'clock.\n\nWhat does 'switch off' mean in this passage?",
+   "options": [
+    "Turn off the computer's power",
+    "Move to a different job",
+    "Work more efficiently",
+    "Stop thinking about work"
+   ],
+   "answer": 3,
+   "lu": {
+    "id": "LU-CEFR-B2-16",
+    "slot": 16,
+    "concept": {
+     "en": "Figurative phrasal verbs in context",
+     "es": "Phrasal verbs figurados en contexto"
+    },
+    "tip": {
+     "en": "Guess figurative meanings of phrasal verbs from the sentences around them.",
+     "es": "Deduce significados figurados de phrasal verbs a partir de las frases cercanas."
+    }
+   },
+   "source": "original_chanak"
+  },
+  {
+   "id": "CF-B2-17",
+   "subject": "cefr",
+   "level": 4,
+   "cefr": "B2",
+   "area": "reading",
+   "skill": "Inferring a writer's message",
+   "type": "mcq",
+   "prompt": "Read the text.\n\nAlthough Daniel had never been a confident speaker, he volunteered to present his team's findings. He rehearsed for hours and asked his sister to listen. On the day, his voice shook at first, but by the end the audience was nodding and taking notes. Afterwards, he admitted that the preparation had mattered more than any natural talent.\n\nWhat does Daniel's final comment suggest?",
+   "options": [
+    "Natural talent is essential",
+    "He will avoid speaking in public again",
+    "Hard preparation matters more than talent",
+    "His sister should have presented"
+   ],
+   "answer": 2,
+   "lu": {
+    "id": "LU-CEFR-B2-17",
+    "slot": 17,
+    "concept": {
+     "en": "Drawing conclusions from a narrative",
+     "es": "Sacar conclusiones de una narración"
+    },
+    "tip": {
+     "en": "After reading a story, explain in your own words what lesson the character learned.",
+     "es": "Tras leer una historia, explica con tus palabras la lección que aprendió el personaje."
+    }
+   },
+   "source": "original_chanak"
+  },
+  {
+   "id": "CF-B2-18",
+   "subject": "cefr",
+   "level": 4,
+   "cefr": "B2",
+   "area": "reading",
+   "skill": "Interpreting reactions and tone",
+   "type": "mcq",
+   "prompt": "Read the text.\n\nAlthough Daniel had never been a confident speaker, he volunteered to present his team's findings. He rehearsed for hours and asked his sister to listen. On the day, his voice shook at first, but by the end the audience was nodding and taking notes. Afterwards, he admitted that the preparation had mattered more than any natural talent.\n\nHow did the audience react by the end of the presentation?",
+   "options": [
+    "They looked bored",
+    "They interrupted him",
+    "They left early",
+    "They seemed interested"
+   ],
+   "answer": 3,
+   "lu": {
+    "id": "LU-CEFR-B2-18",
+    "slot": 18,
+    "concept": {
+     "en": "Interpreting behaviour as evidence",
+     "es": "Interpretar conductas como evidencia"
+    },
+    "tip": {
+     "en": "Practise inferring feelings from actions such as nodding or taking notes.",
+     "es": "Practica inferir sentimientos a partir de acciones como asentir o tomar notas."
+    }
+   },
+   "source": "original_chanak"
+  },
+  {
+   "id": "CF-B2-19",
+   "subject": "cefr",
+   "level": 4,
+   "cefr": "B2",
+   "area": "usage",
+   "skill": "Formal contrast connectors",
+   "type": "mcq",
+   "prompt": "The project failed; ____, the team learned a lot from it.",
+   "options": [
+    "therefore",
+    "nevertheless",
+    "moreover",
+    "otherwise"
+   ],
+   "answer": 1,
+   "lu": {
+    "id": "LU-CEFR-B2-19",
+    "slot": 19,
+    "concept": {
+     "en": "Formal connectors: nevertheless, moreover",
+     "es": "Conectores formales: nevertheless, moreover"
+    },
+    "tip": {
+     "en": "Sort connectors by function: addition, contrast, result, and use them in short paragraphs.",
+     "es": "Clasifica conectores por función: adición, contraste, resultado, y úsalos en párrafos cortos."
+    }
+   },
+   "source": "original_chanak"
+  },
+  {
+   "id": "CF-B2-20",
+   "subject": "cefr",
+   "level": 4,
+   "cefr": "B2",
+   "area": "usage",
+   "skill": "Phrasal verbs in context",
+   "type": "mcq",
+   "prompt": "We've run out of milk; could you ____ some on your way home?",
+   "options": [
+    "pick up",
+    "pick out",
+    "take up",
+    "set up"
+   ],
+   "answer": 0,
+   "lu": {
+    "id": "LU-CEFR-B2-20",
+    "slot": 20,
+    "concept": {
+     "en": "Phrasal verbs: pick up versus pick out",
+     "es": "Phrasal verbs: pick up frente a pick out"
+    },
+    "tip": {
+     "en": "Study phrasal verbs by situation and contrast those sharing the same verb.",
+     "es": "Estudia phrasal verbs por situación y contrasta los que comparten el mismo verbo."
+    }
+   },
+   "source": "original_chanak"
+  },
+  {
+   "id": "CF-C1-01",
+   "subject": "cefr",
+   "level": 5,
+   "cefr": "C1",
+   "area": "grammar",
+   "skill": "Negative inversion after 'not until'",
+   "type": "mcq",
+   "prompt": "Choose the correct option: Not until the committee had reviewed every report ___ the decision.",
+   "options": [
+    "it announced",
+    "did it announce",
+    "it did announce",
+    "had it announced"
+   ],
+   "answer": 1,
+   "lu": {
+    "id": "LU-CEFR-C1-01",
+    "slot": 1,
+    "concept": {
+     "en": "Inversion after negative adverbials",
+     "es": "Inversión tras adverbios negativos"
+    },
+    "tip": {
+     "en": "Practise fronting 'not until', 'hardly' and 'seldom' followed by auxiliary-subject order.",
+     "es": "Practica 'not until', 'hardly' y 'seldom' al inicio, seguidos de auxiliar y sujeto."
+    }
+   },
+   "source": "original_chanak"
+  },
+  {
+   "id": "CF-C1-02",
+   "subject": "cefr",
+   "level": 5,
+   "cefr": "C1",
+   "area": "grammar",
+   "skill": "Formal subjunctive after 'insist'",
+   "type": "mcq",
+   "prompt": "Choose the correct option: The board insisted that every member ___ the proposal before the vote.",
+   "options": [
+    "reads",
+    "would read",
+    "read",
+    "has read"
+   ],
+   "answer": 2,
+   "lu": {
+    "id": "LU-CEFR-C1-02",
+    "slot": 2,
+    "concept": {
+     "en": "Formal subjunctive after demand verbs",
+     "es": "Subjuntivo formal tras verbos de exigencia"
+    },
+    "tip": {
+     "en": "Review 'insist, demand, recommend that' followed by the base form of the verb.",
+     "es": "Repasa 'insist, demand, recommend that' seguidos del verbo en forma base."
+    }
+   },
+   "source": "original_chanak"
+  },
+  {
+   "id": "CF-C1-03",
+   "subject": "cefr",
+   "level": 5,
+   "cefr": "C1",
+   "area": "grammar",
+   "skill": "Mixed conditionals",
+   "type": "mcq",
+   "prompt": "Choose the correct option: If she ___ the scholarship last year, she would be studying in Edinburgh now.",
+   "options": [
+    "had accepted",
+    "accepted",
+    "would have accepted",
+    "has accepted"
+   ],
+   "answer": 0,
+   "lu": {
+    "id": "LU-CEFR-C1-03",
+    "slot": 3,
+    "concept": {
+     "en": "Mixed conditionals (past cause, present result)",
+     "es": "Condicionales mixtos (causa pasada, resultado presente)"
+    },
+    "tip": {
+     "en": "Combine past perfect in the if-clause with 'would' plus infinitive for present results.",
+     "es": "Combina pasado perfecto en la cláusula if con 'would' más infinitivo para resultados presentes."
+    }
+   },
+   "source": "original_chanak"
+  },
+  {
+   "id": "CF-C1-04",
+   "subject": "cefr",
+   "level": 5,
+   "cefr": "C1",
+   "area": "grammar",
+   "skill": "'Hardly' with inversion",
+   "type": "mcq",
+   "prompt": "Choose the correct option: Hardly ___ the lecture begun when the projector failed.",
+   "options": [
+    "did",
+    "has",
+    "was",
+    "had"
+   ],
+   "answer": 3,
+   "lu": {
+    "id": "LU-CEFR-C1-04",
+    "slot": 4,
+    "concept": {
+     "en": "Hardly...when with past perfect",
+     "es": "Hardly...when con pasado perfecto"
+    },
+    "tip": {
+     "en": "Learn that 'hardly/scarcely' take past perfect inverted: 'Hardly had she arrived when...'.",
+     "es": "Aprende que 'hardly/scarcely' llevan pasado perfecto invertido: 'Hardly had she arrived when...'."
+    }
+   },
+   "source": "original_chanak"
+  },
+  {
+   "id": "CF-C1-05",
+   "subject": "cefr",
+   "level": 5,
+   "cefr": "C1",
+   "area": "grammar",
+   "skill": "Participle clauses and subject",
+   "type": "mcq",
+   "prompt": "Choose the option that completes the sentence correctly: ___ the evidence carefully, the researchers concluded that the hypothesis was untenable.",
+   "options": [
+    "Being weighed",
+    "Having weighed",
+    "Having been weighed",
+    "Weighed having"
+   ],
+   "answer": 1,
+   "lu": {
+    "id": "LU-CEFR-C1-05",
+    "slot": 5,
+    "concept": {
+     "en": "Perfect participle clauses",
+     "es": "Cláusulas de participio perfecto"
+    },
+    "tip": {
+     "en": "Check that the participle's implied subject matches the main clause subject.",
+     "es": "Comprueba que el sujeto implícito del participio coincida con el sujeto de la oración principal."
+    }
+   },
+   "source": "original_chanak"
+  },
+  {
+   "id": "CF-C1-06",
+   "subject": "cefr",
+   "level": 5,
+   "cefr": "C1",
+   "area": "vocabulary",
+   "skill": "Collocations with 'scrutiny'",
+   "type": "mcq",
+   "prompt": "Choose the best word: The charity's accounts were subjected to rigorous ___ before the grant was approved.",
+   "options": [
+    "surveillance",
+    "speculation",
+    "scrutiny",
+    "inspiration"
+   ],
+   "answer": 2,
+   "lu": {
+    "id": "LU-CEFR-C1-06",
+    "slot": 6,
+    "concept": {
+     "en": "Formal collocations with 'subject to'",
+     "es": "Colocaciones formales con 'subject to'"
+    },
+    "tip": {
+     "en": "Learn noun collocations such as 'rigorous scrutiny' and 'close examination' in context.",
+     "es": "Aprende colocaciones como 'rigorous scrutiny' y 'close examination' en contexto."
+    }
+   },
+   "source": "original_chanak"
+  },
+  {
+   "id": "CF-C1-07",
+   "subject": "cefr",
+   "level": 5,
+   "cefr": "C1",
+   "area": "vocabulary",
+   "skill": "Phrasal verbs for negotiation",
+   "type": "mcq",
+   "prompt": "Choose the best option: The negotiators finally managed to ___ a compromise after three days of talks.",
+   "options": [
+    "hammer down",
+    "hammer at",
+    "hammer up",
+    "hammer out"
+   ],
+   "answer": 3,
+   "lu": {
+    "id": "LU-CEFR-C1-07",
+    "slot": 7,
+    "concept": {
+     "en": "Phrasal verbs of reaching agreement",
+     "es": "Verbos compuestos de alcanzar acuerdos"
+    },
+    "tip": {
+     "en": "Study phrasal verbs like 'hammer out', 'thrash out' and 'iron out' with example sentences.",
+     "es": "Estudia verbos como 'hammer out', 'thrash out' e 'iron out' con frases de ejemplo."
+    }
+   },
+   "source": "original_chanak"
+  },
+  {
+   "id": "CF-C1-08",
+   "subject": "cefr",
+   "level": 5,
+   "cefr": "C1",
+   "area": "vocabulary",
+   "skill": "Precise adjectives for attitude",
+   "type": "mcq",
+   "prompt": "Choose the best word: Her ___ remarks left the audience unsure whether she supported the plan or not.",
+   "options": [
+    "ambitious",
+    "ambivalent",
+    "ambient",
+    "amiable"
+   ],
+   "answer": 1,
+   "lu": {
+    "id": "LU-CEFR-C1-08",
+    "slot": 8,
+    "concept": {
+     "en": "Similar-looking words with distinct meanings",
+     "es": "Palabras parecidas con significados distintos"
+    },
+    "tip": {
+     "en": "Compare look-alike adjectives such as 'ambivalent' and 'ambitious' using a vocabulary notebook.",
+     "es": "Compara adjetivos parecidos como 'ambivalent' y 'ambitious' usando un cuaderno de vocabulario."
+    }
+   },
+   "source": "original_chanak"
+  },
+  {
+   "id": "CF-C1-09",
+   "subject": "cefr",
+   "level": 5,
+   "cefr": "C1",
+   "area": "vocabulary",
+   "skill": "Verbs describing decline",
+   "type": "mcq",
+   "prompt": "Choose the best word: The company's profits have ___ in recent months, falling by nearly a third.",
+   "options": [
+    "dissolved",
+    "diluted",
+    "dwindled",
+    "deflected"
+   ],
+   "answer": 2,
+   "lu": {
+    "id": "LU-CEFR-C1-09",
+    "slot": 9,
+    "concept": {
+     "en": "Verbs of gradual decrease",
+     "es": "Verbos de disminución gradual"
+    },
+    "tip": {
+     "en": "Group verbs like 'dwindle', 'decline' and 'erode' by degree and use them in sentences.",
+     "es": "Agrupa verbos como 'dwindle', 'decline' y 'erode' por grado y úsalos en frases."
+    }
+   },
+   "source": "original_chanak"
+  },
+  {
+   "id": "CF-C1-10",
+   "subject": "cefr",
+   "level": 5,
+   "cefr": "C1",
+   "area": "reading",
+   "skill": "Identifying the main argument",
+   "type": "mcq",
+   "prompt": "Critics of standardised testing often argue that it reduces learning to the memorisation of discrete facts. Yet this objection, however persuasive it may sound, overlooks the fact that well-designed assessments can reveal gaps in understanding that neither teachers nor students would otherwise notice. The real danger lies not in testing itself but in the habit of treating a single score as a verdict on a person's potential. When results are used as feedback rather than as a final judgement, they become a tool for growth rather than a mechanism of sorting.\n\nWhat is the author's main point?",
+   "options": [
+    "Standardised tests should be abolished.",
+    "Tests are useful, but the problem lies in how results are interpreted.",
+    "Teachers rely too heavily on memorisation.",
+    "Students prefer feedback to scores."
+   ],
+   "answer": 1,
+   "lu": {
+    "id": "LU-CEFR-C1-10",
+    "slot": 10,
+    "concept": {
+     "en": "Identifying the writer's main argument",
+     "es": "Identificar el argumento principal del autor"
+    },
+    "tip": {
+     "en": "Practise summarising each paragraph in one sentence before choosing a main idea.",
+     "es": "Practica resumir cada párrafo en una frase antes de elegir la idea principal."
+    }
+   },
+   "source": "original_chanak"
+  },
+  {
+   "id": "CF-C1-11",
+   "subject": "cefr",
+   "level": 5,
+   "cefr": "C1",
+   "area": "reading",
+   "skill": "Author's attitude to an objection",
+   "type": "mcq",
+   "prompt": "Critics of standardised testing often argue that it reduces learning to the memorisation of discrete facts. Yet this objection, however persuasive it may sound, overlooks the fact that well-designed assessments can reveal gaps in understanding that neither teachers nor students would otherwise notice. The real danger lies not in testing itself but in the habit of treating a single score as a verdict on a person's potential. When results are used as feedback rather than as a final judgement, they become a tool for growth rather than a mechanism of sorting.\n\nThe phrase 'however persuasive it may sound' suggests that the author:",
+   "options": [
+    "fully agrees with the critics",
+    "finds the objection unclear",
+    "acknowledges its appeal while rejecting its conclusion",
+    "is unsure which side is correct"
+   ],
+   "answer": 2,
+   "lu": {
+    "id": "LU-CEFR-C1-11",
+    "slot": 11,
+    "concept": {
+     "en": "Recognising concession and stance",
+     "es": "Reconocer concesión y postura del autor"
+    },
+    "tip": {
+     "en": "Notice concessive phrases ('however', 'though') that signal the writer disagrees after granting a point.",
+     "es": "Fíjate en frases concesivas ('however', 'though') que indican desacuerdo tras conceder un punto."
+    }
+   },
+   "source": "original_chanak"
+  },
+  {
+   "id": "CF-C1-12",
+   "subject": "cefr",
+   "level": 5,
+   "cefr": "C1",
+   "area": "reading",
+   "skill": "Inferring implied meaning",
+   "type": "mcq",
+   "prompt": "When the village library announced it would close, residents responded with petitions and speeches. Few, however, had borrowed a book in years. The sudden outpouring of concern said less about reading habits than about a collective reluctance to see a familiar landmark disappear. Eventually, the council agreed to keep the building open, converting part of it into a community workshop space.\n\nWhat does the author imply about the residents' protests?",
+   "options": [
+    "They were organised by the library's most regular users.",
+    "They were designed to promote reading.",
+    "They were ignored by the council.",
+    "They reflected attachment to a landmark more than actual use."
+   ],
+   "answer": 3,
+   "lu": {
+    "id": "LU-CEFR-C1-12",
+    "slot": 12,
+    "concept": {
+     "en": "Inference from implied contrast",
+     "es": "Inferencia a partir de contrastes implícitos"
+    },
+    "tip": {
+     "en": "Ask what the text suggests without stating, especially after contrast words like 'however'.",
+     "es": "Pregúntate qué sugiere el texto sin decirlo, sobre todo tras conectores de contraste como 'however'."
+    }
+   },
+   "source": "original_chanak"
+  },
+  {
+   "id": "CF-C1-13",
+   "subject": "cefr",
+   "level": 5,
+   "cefr": "C1",
+   "area": "reading",
+   "skill": "Identifying tone",
+   "type": "mcq",
+   "prompt": "When the village library announced it would close, residents responded with petitions and speeches. Few, however, had borrowed a book in years. The sudden outpouring of concern said less about reading habits than about a collective reluctance to see a familiar landmark disappear. Eventually, the council agreed to keep the building open, converting part of it into a community workshop space.\n\nWhich best describes the tone of the passage?",
+   "options": [
+    "admiring",
+    "gently ironic",
+    "bitterly hostile",
+    "neutrally technical"
+   ],
+   "answer": 1,
+   "lu": {
+    "id": "LU-CEFR-C1-13",
+    "slot": 13,
+    "concept": {
+     "en": "Identifying tone and irony",
+     "es": "Identificar el tono y la ironía"
+    },
+    "tip": {
+     "en": "Read for subtle contrasts between what people say and do to detect irony.",
+     "es": "Lee buscando contrastes sutiles entre lo que la gente dice y hace para detectar ironía."
+    }
+   },
+   "source": "original_chanak"
+  },
+  {
+   "id": "CF-C1-14",
+   "subject": "cefr",
+   "level": 5,
+   "cefr": "C1",
+   "area": "reading",
+   "skill": "Locating cause in a text",
+   "type": "mcq",
+   "prompt": "Solar panels now cost a fraction of what they did a decade ago. Even so, adoption remains uneven: wealthier regions can fund the up-front installation, whereas poorer ones, however attractive the long-term savings, often cannot. The gap, left unaddressed, risks turning a technological advance into a new source of inequality.\n\nAccording to the passage, why is adoption of solar panels uneven?",
+   "options": [
+    "Panels remain more costly than a decade ago.",
+    "Wealthier regions distrust the technology.",
+    "Poorer regions cannot afford the initial outlay.",
+    "The long-term savings are minimal."
+   ],
+   "answer": 2,
+   "lu": {
+    "id": "LU-CEFR-C1-14",
+    "slot": 14,
+    "concept": {
+     "en": "Finding causes in dense sentences",
+     "es": "Hallar causas en oraciones densas"
+    },
+    "tip": {
+     "en": "Practise untangling long sentences with insertions to find the core cause-and-effect link.",
+     "es": "Practica desentrañar oraciones largas con incisos para hallar la relación causa-efecto."
+    }
+   },
+   "source": "original_chanak"
+  },
+  {
+   "id": "CF-C1-15",
+   "subject": "cefr",
+   "level": 5,
+   "cefr": "C1",
+   "area": "usage",
+   "skill": "Formal register in complaints",
+   "type": "mcq",
+   "prompt": "Which sentence is most appropriate in a formal letter of complaint?",
+   "options": [
+    "I wish to express my dissatisfaction with the service received and to request a refund.",
+    "I'm writing because your service was rubbish and I want my money back.",
+    "Hey, just wanted to say the service was pretty bad, so refund me please.",
+    "Your service stinks; I demand cash back right now."
+   ],
+   "answer": 0,
+   "lu": {
+    "id": "LU-CEFR-C1-15",
+    "slot": 15,
+    "concept": {
+     "en": "Choosing formal register",
+     "es": "Elegir el registro formal"
+    },
+    "tip": {
+     "en": "Rewrite informal sentences into formal ones, replacing slang with neutral, polite phrasing.",
+     "es": "Reescribe frases informales en formales, sustituyendo la jerga por un lenguaje neutro y cortés."
+    }
+   },
+   "source": "original_chanak"
+  },
+  {
+   "id": "CF-C2-01",
+   "subject": "cefr",
+   "level": 6,
+   "cefr": "C2",
+   "area": "grammar",
+   "skill": "Inversion with 'little'",
+   "type": "mcq",
+   "prompt": "Choose the correct option: Little ___ that the decision would alter the course of her career.",
+   "options": [
+    "she suspected",
+    "she did suspect",
+    "suspected she",
+    "did she suspect"
+   ],
+   "answer": 3,
+   "lu": {
+    "id": "LU-CEFR-C2-01",
+    "slot": 1,
+    "concept": {
+     "en": "Inversion after 'little' and 'never'",
+     "es": "Inversión tras 'little' y 'never'"
+    },
+    "tip": {
+     "en": "Practise sentences beginning with restrictive adverbs, using auxiliary before the subject.",
+     "es": "Practica oraciones que empiezan con adverbios restrictivos, con el auxiliar antes del sujeto."
+    }
+   },
+   "source": "original_chanak"
+  },
+  {
+   "id": "CF-C2-02",
+   "subject": "cefr",
+   "level": 6,
+   "cefr": "C2",
+   "area": "grammar",
+   "skill": "Inverted third conditional",
+   "type": "mcq",
+   "prompt": "Choose the correct option: Were it not for her mentor's intervention, she ___ the programme.",
+   "options": [
+    "would have abandoned",
+    "would abandon",
+    "had abandoned",
+    "will have abandoned"
+   ],
+   "answer": 0,
+   "lu": {
+    "id": "LU-CEFR-C2-02",
+    "slot": 2,
+    "concept": {
+     "en": "Inverted conditionals ('Were it not for')",
+     "es": "Condicionales invertidos ('Were it not for')"
+    },
+    "tip": {
+     "en": "Rewrite 'If it had not been for' and 'If it were not for' using inversion.",
+     "es": "Reescribe 'If it had not been for' e 'If it were not for' usando inversión."
+    }
+   },
+   "source": "original_chanak"
+  },
+  {
+   "id": "CF-C2-03",
+   "subject": "cefr",
+   "level": 6,
+   "cefr": "C2",
+   "area": "grammar",
+   "skill": "'It is high time' structure",
+   "type": "mcq",
+   "prompt": "Choose the correct option: It is high time the committee ___ its procedures.",
+   "options": [
+    "revise",
+    "will revise",
+    "revised",
+    "would revise"
+   ],
+   "answer": 2,
+   "lu": {
+    "id": "LU-CEFR-C2-03",
+    "slot": 3,
+    "concept": {
+     "en": "Past tense for present unreality",
+     "es": "Pasado para irrealidad presente"
+    },
+    "tip": {
+     "en": "Study 'it's time', 'would rather' and 'wish' followed by the past simple for present unreality.",
+     "es": "Estudia 'it's time', 'would rather' y 'wish' seguidos de pasado simple para irrealidad presente."
+    }
+   },
+   "source": "original_chanak"
+  },
+  {
+   "id": "CF-C2-04",
+   "subject": "cefr",
+   "level": 6,
+   "cefr": "C2",
+   "area": "grammar",
+   "skill": "Formal inverted 'should' conditional",
+   "type": "mcq",
+   "prompt": "Choose the correct option: ___ any further complications arise, please contact the office immediately.",
+   "options": [
+    "Would",
+    "Should",
+    "Might",
+    "Were"
+   ],
+   "answer": 1,
+   "lu": {
+    "id": "LU-CEFR-C2-04",
+    "slot": 4,
+    "concept": {
+     "en": "Conditional inversion with 'should'",
+     "es": "Inversión condicional con 'should'"
+    },
+    "tip": {
+     "en": "Practise replacing 'If ... happen' with 'Should ... happen' in formal notices and emails.",
+     "es": "Practica sustituir 'If ... happen' por 'Should ... happen' en avisos y correos formales."
+    }
+   },
+   "source": "original_chanak"
+  },
+  {
+   "id": "CF-C2-05",
+   "subject": "cefr",
+   "level": 6,
+   "cefr": "C2",
+   "area": "grammar",
+   "skill": "'Such ... that' with fronting",
+   "type": "mcq",
+   "prompt": "Choose the correct option: Such was the force of the storm ___ the roof was torn off.",
+   "options": [
+    "as",
+    "which",
+    "that",
+    "than"
+   ],
+   "answer": 2,
+   "lu": {
+    "id": "LU-CEFR-C2-05",
+    "slot": 5,
+    "concept": {
+     "en": "Fronted 'such' result structures",
+     "es": "Estructuras de resultado con 'such' al inicio"
+    },
+    "tip": {
+     "en": "Learn 'Such was/were ... that' as an emphatic way to express result.",
+     "es": "Aprende 'Such was/were ... that' como forma enfática de expresar resultado."
+    }
+   },
+   "source": "original_chanak"
+  },
+  {
+   "id": "CF-C2-06",
+   "subject": "cefr",
+   "level": 6,
+   "cefr": "C2",
+   "area": "vocabulary",
+   "skill": "Describing prose style",
+   "type": "mcq",
+   "prompt": "Choose the best word: Her ___ prose, stripped of every ornament, conveyed the horror of the event all the more powerfully.",
+   "options": [
+    "florid",
+    "verbose",
+    "austere",
+    "ornate"
+   ],
+   "answer": 2,
+   "lu": {
+    "id": "LU-CEFR-C2-06",
+    "slot": 6,
+    "concept": {
+     "en": "Precise adjectives for style",
+     "es": "Adjetivos precisos para el estilo"
+    },
+    "tip": {
+     "en": "Build a list of style adjectives (austere, florid, terse) with an example of each.",
+     "es": "Crea una lista de adjetivos de estilo (austere, florid, terse) con un ejemplo de cada uno."
+    }
+   },
+   "source": "original_chanak"
+  },
+  {
+   "id": "CF-C2-07",
+   "subject": "cefr",
+   "level": 6,
+   "cefr": "C2",
+   "area": "vocabulary",
+   "skill": "Idioms of self-reliance",
+   "type": "mcq",
+   "prompt": "Choose the best option: After the scandal, the minister was left to ___ for himself, as his former allies kept their distance.",
+   "options": [
+    "feud",
+    "fetch",
+    "fumble",
+    "fend"
+   ],
+   "answer": 3,
+   "lu": {
+    "id": "LU-CEFR-C2-07",
+    "slot": 7,
+    "concept": {
+     "en": "Fixed idioms with 'for oneself'",
+     "es": "Modismos fijos con 'for oneself'"
+    },
+    "tip": {
+     "en": "Memorise common idioms as whole chunks, such as 'fend for yourself'.",
+     "es": "Memoriza modismos comunes como bloques completos, por ejemplo 'fend for yourself'."
+    }
+   },
+   "source": "original_chanak"
+  },
+  {
+   "id": "CF-C2-08",
+   "subject": "cefr",
+   "level": 6,
+   "cefr": "C2",
+   "area": "vocabulary",
+   "skill": "Idiom: damning with faint praise",
+   "type": "mcq",
+   "prompt": "Choose the best word: His apology was so grudging that it amounted to damning with ___ praise.",
+   "options": [
+    "slight",
+    "faint",
+    "weak",
+    "dim"
+   ],
+   "answer": 1,
+   "lu": {
+    "id": "LU-CEFR-C2-08",
+    "slot": 8,
+    "concept": {
+     "en": "Fixed expressions and idiomatic collocations",
+     "es": "Expresiones fijas y colocaciones idiomáticas"
+    },
+    "tip": {
+     "en": "Notice that idioms resist word substitution; learn them exactly as written.",
+     "es": "Ten en cuenta que los modismos no admiten sustituir palabras; apréndelos tal cual."
+    }
+   },
+   "source": "original_chanak"
+  },
+  {
+   "id": "CF-C2-09",
+   "subject": "cefr",
+   "level": 6,
+   "cefr": "C2",
+   "area": "vocabulary",
+   "skill": "Describing fleeting promises",
+   "type": "mcq",
+   "prompt": "Choose the best word: The politician's promises proved ___; they vanished as soon as the election was won.",
+   "options": [
+    "ephemeral",
+    "eminent",
+    "emphatic",
+    "empirical"
+   ],
+   "answer": 0,
+   "lu": {
+    "id": "LU-CEFR-C2-09",
+    "slot": 9,
+    "concept": {
+     "en": "Abstract adjectives of transience",
+     "es": "Adjetivos abstractos de lo pasajero"
+    },
+    "tip": {
+     "en": "Learn Latinate adjectives like 'ephemeral' and 'transient' and contrast them with look-alikes.",
+     "es": "Aprende adjetivos latinos como 'ephemeral' y 'transient' y contrástalos con otros parecidos."
+    }
+   },
+   "source": "original_chanak"
+  },
+  {
+   "id": "CF-C2-10",
+   "subject": "cefr",
+   "level": 6,
+   "cefr": "C2",
+   "area": "reading",
+   "skill": "Summarising an argument",
+   "type": "mcq",
+   "prompt": "It is tempting to regard nostalgia as a mere indulgence, a sentimental retreat from the demands of the present. Yet psychologists have increasingly argued that it performs a quietly constructive function: by recalling moments of belonging, individuals reinforce a sense of continuity that makes present uncertainty more bearable. The danger, of course, lies in mistaking the recollection for the reality. A past that has been polished by memory cannot serve as a blueprint for the future, and those who treat it as one are apt to pursue a golden age that never existed.\n\nWhich best summarises the author's position on nostalgia?",
+   "options": [
+    "It is harmless and should be encouraged without reservation.",
+    "It can be beneficial, provided it is not taken as an accurate guide.",
+    "It is a form of self-deception that psychologists have exposed.",
+    "It should replace planning for the future."
+   ],
+   "answer": 1,
+   "lu": {
+    "id": "LU-CEFR-C2-10",
+    "slot": 10,
+    "concept": {
+     "en": "Summarising a nuanced position",
+     "es": "Resumir una postura matizada"
+    },
+    "tip": {
+     "en": "Practise identifying both the benefit and the caution in balanced arguments.",
+     "es": "Practica identificar tanto el beneficio como la advertencia en argumentos equilibrados."
+    }
+   },
+   "source": "original_chanak"
+  },
+  {
+   "id": "CF-C2-11",
+   "subject": "cefr",
+   "level": 6,
+   "cefr": "C2",
+   "area": "reading",
+   "skill": "Function of a phrase in context",
+   "type": "mcq",
+   "prompt": "It is tempting to regard nostalgia as a mere indulgence, a sentimental retreat from the demands of the present. Yet psychologists have increasingly argued that it performs a quietly constructive function: by recalling moments of belonging, individuals reinforce a sense of continuity that makes present uncertainty more bearable. The danger, of course, lies in mistaking the recollection for the reality. A past that has been polished by memory cannot serve as a blueprint for the future, and those who treat it as one are apt to pursue a golden age that never existed.\n\nThe phrase 'a golden age that never existed' mainly serves to:",
+   "options": [
+    "praise historical accuracy",
+    "argue that memory is always unreliable",
+    "suggest that the present is superior",
+    "illustrate the risk of idealising the past"
+   ],
+   "answer": 3,
+   "lu": {
+    "id": "LU-CEFR-C2-11",
+    "slot": 11,
+    "concept": {
+     "en": "Rhetorical function of phrases",
+     "es": "Función retórica de las frases"
+    },
+    "tip": {
+     "en": "Ask why the writer chose a phrase, not only what it means.",
+     "es": "Pregúntate por qué el autor eligió una frase, no solo qué significa."
+    }
+   },
+   "source": "original_chanak"
+  },
+  {
+   "id": "CF-C2-12",
+   "subject": "cefr",
+   "level": 6,
+   "cefr": "C2",
+   "area": "reading",
+   "skill": "Inferring changed opinions",
+   "type": "mcq",
+   "prompt": "The architect's reputation rested less on any single building than on a stubborn refusal to be fashionable. While contemporaries chased each successive trend, she returned, almost perversely, to local stone and modest proportions. Critics who once dismissed her as provincial now find themselves praising the very restraint they had mocked. One suspects that, had she followed the prevailing taste, her work would have dated as quickly as theirs.\n\nWhat is implied about the critics?",
+   "options": [
+    "They have always admired her restraint.",
+    "They refuse to revisit their views.",
+    "They have revised their earlier judgement of her work.",
+    "They now chase fashionable trends."
+   ],
+   "answer": 2,
+   "lu": {
+    "id": "LU-CEFR-C2-12",
+    "slot": 12,
+    "concept": {
+     "en": "Inferring shifts in opinion",
+     "es": "Inferir cambios de opinión"
+    },
+    "tip": {
+     "en": "Watch for time markers such as 'once' and 'now' that signal a change of view.",
+     "es": "Atiende a marcadores temporales como 'once' y 'now' que señalan un cambio de opinión."
+    }
+   },
+   "source": "original_chanak"
+  },
+  {
+   "id": "CF-C2-13",
+   "subject": "cefr",
+   "level": 6,
+   "cefr": "C2",
+   "area": "reading",
+   "skill": "Interpreting nuanced adverbs",
+   "type": "mcq",
+   "prompt": "The architect's reputation rested less on any single building than on a stubborn refusal to be fashionable. While contemporaries chased each successive trend, she returned, almost perversely, to local stone and modest proportions. Critics who once dismissed her as provincial now find themselves praising the very restraint they had mocked. One suspects that, had she followed the prevailing taste, her work would have dated as quickly as theirs.\n\nIn context, 'almost perversely' suggests that she acted:",
+   "options": [
+    "by careless accident",
+    "in a manner that defied expectations",
+    "with obvious regret",
+    "out of financial need"
+   ],
+   "answer": 1,
+   "lu": {
+    "id": "LU-CEFR-C2-13",
+    "slot": 13,
+    "concept": {
+     "en": "Nuance of evaluative adverbs",
+     "es": "Matiz de adverbios valorativos"
+    },
+    "tip": {
+     "en": "Study adverbs of attitude (perversely, admirably) and how they colour a writer's description.",
+     "es": "Estudia adverbios de actitud (perversely, admirably) y cómo matizan la descripción del autor."
+    }
+   },
+   "source": "original_chanak"
+  },
+  {
+   "id": "CF-C2-14",
+   "subject": "cefr",
+   "level": 6,
+   "cefr": "C2",
+   "area": "reading",
+   "skill": "Inferring intent behind wording",
+   "type": "mcq",
+   "prompt": "The treaty was hailed as a triumph of diplomacy, though its signatories were conspicuously reluctant to specify what, precisely, had been agreed. Ambiguity, it seems, was the price of consensus: each party could claim victory at home precisely because the text allowed several readings.\n\nWhat can be inferred about the treaty's wording?",
+   "options": [
+    "It contained precise obligations that were later ignored.",
+    "It was written by one party alone.",
+    "It was deliberately vague so that all parties could accept it.",
+    "It was kept secret from the public."
+   ],
+   "answer": 2,
+   "lu": {
+    "id": "LU-CEFR-C2-14",
+    "slot": 14,
+    "concept": {
+     "en": "Inference about deliberate ambiguity",
+     "es": "Inferencia sobre la ambigüedad deliberada"
+    },
+    "tip": {
+     "en": "Practise linking a text's stated outcome to the implied reason behind it.",
+     "es": "Practica vincular el resultado señalado en un texto con la razón implícita que lo explica."
+    }
+   },
+   "source": "original_chanak"
+  },
+  {
+   "id": "CF-C2-15",
+   "subject": "cefr",
+   "level": 6,
+   "cefr": "C2",
+   "area": "usage",
+   "skill": "Hedging in academic writing",
+   "type": "mcq",
+   "prompt": "Which sentence uses a hedge appropriate for cautious academic writing?",
+   "options": [
+    "The findings prove beyond doubt that stress causes illness.",
+    "The findings absolutely guarantee that stress causes illness.",
+    "The findings would appear to indicate a link between stress and illness.",
+    "The findings are, like, linked to illness and stuff."
+   ],
+   "answer": 2,
+   "lu": {
+    "id": "LU-CEFR-C2-15",
+    "slot": 15,
+    "concept": {
+     "en": "Hedging and academic register",
+     "es": "Atenuación y registro académico"
+    },
+    "tip": {
+     "en": "Practise hedges such as 'appear to', 'tend to' and 'suggest' instead of absolute claims.",
+     "es": "Practica atenuantes como 'appear to', 'tend to' y 'suggest' en lugar de afirmaciones absolutas."
+    }
+   },
+   "source": "original_chanak"
+  }
+ ]
+}
