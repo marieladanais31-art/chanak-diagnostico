@@ -18,6 +18,6 @@ module.exports = async (req, res) => {
     if (!/^[0-9a-f]{16,64}$/.test(k)) { res.status(200).json({ valid: false, reason: 'not_found' }); return; }
     res.status(200).json(await supa.rpc('diagnostic_link_info', { p_token: k }));
   } catch (e) {
-    res.status(502).json({ error: 'No se pudo comprobar el enlace' });
+    res.status(502).json({ error: 'No se pudo comprobar el enlace', detail: String(e.message || '').slice(0, 160), status: e.status || null });
   }
 };

@@ -578,6 +578,13 @@ ${refRows ? `<div class="pblk refs-foot"><h3>${L.refs}</h3><table class="equiv-t
     $('gate-ask').textContent = g.ask; $('gate-apply').textContent = g.apply;
     SECTIONS.forEach((x) => $('section-' + x).classList.add('hidden')); $('section-gate').classList.remove('hidden');
   }
+  function showRetry() {
+    const es = LANG === 'es';
+    $('gate-title').textContent = es ? 'No pudimos verificar tu enlace' : 'We could not verify your link';
+    $('gate-msg').textContent = es ? 'Es un problema momentáneo. Espera un minuto y vuelve a intentarlo; tu enlace sigue siendo válido.' : 'This is a temporary problem. Wait a minute and try again; your link is still valid.';
+    $('gate-ask').textContent = es ? 'Si sigue fallando, escribe a' : 'If it keeps failing, write to'; $('gate-apply').textContent = es ? 'Reintentar' : 'Retry';
+    $('gate-apply').href = location.href; SECTIONS.forEach((x) => $('section-' + x).classList.add('hidden')); $('section-gate').classList.remove('hidden');
+  }
   window.__regate = () => showGate(S.gateReason);
   async function initLink() {
     const k = new URLSearchParams(location.search).get('k');
@@ -596,7 +603,10 @@ ${refRows ? `<div class="pblk refs-foot"><h3>${L.refs}</h3><table class="equiv-t
       set('f-programa', info.track); $('f-programa').disabled = true;
       $('link-banner').classList.remove('hidden');
       _show('form'); return true;
-    } catch { return false; } // si el servicio no responde, no se bloquea a la familia
+    } catch {
+      if (k) { showRetry(); return true; } // trae enlace pero no se pudo comprobar: se pide reintentar, no se abre la presentación
+      return false; // sin enlace y sin servicio: página abierta (modo transición)
+    }
   }
   document.addEventListener('DOMContentLoaded', async () => { applyLang(); if (uploadOnlyMode()) return; if (!(await initLink())) _show('landing'); });
 })();
