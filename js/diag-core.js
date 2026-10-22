@@ -78,9 +78,12 @@
     blocks.forEach((b) => {
       levelPct[b.level] = b.units.length ? b.units.filter((u) => u.correct).length / b.units.length : 0;
     });
-    const res = { grade: g, start: startLevel(g), tested: blocks.map((b) => b.level).sort((a, b) => a - b), levelPct, kinder: !!info.kinder, abcs: !!info.abcs, kPct: info.kPct ?? null };
+    // Dominios del inglés (gramática / lectura) y de cualquier materia: aciertos por dominio (no afecta la ubicación).
+    const domains = {};
+    blocks.forEach((b) => b.units.forEach((u) => { if (!u.domain) return; const d = (domains[u.domain] = domains[u.domain] || { c: 0, t: 0 }); d.t++; if (u.correct) d.c++; }));
+    const res = { grade: g, start: startLevel(g), domains, tested: blocks.map((b) => b.level).sort((a, b) => a - b), levelPct, kinder: !!info.kinder, abcs: !!info.abcs, kPct: info.kPct ?? null };
     if (info.kinder || info.abcs) {
-      res.found = false; res.performanceLevel = 0; res.performancePace = null; res.gaps = []; res.capped = false;
+      res.found = false; res.performanceLevel = 0; res.performancePace = null; res.gaps = []; res.extraGaps = []; res.capped = false;
       return res;
     }
     let perfPace, found = false;
@@ -92,6 +95,11 @@
     // La unidad de aprendizaje (LU) es el concepto Chanak; el PACE queda solo como referencia.
     res.gaps = seq.filter((u) => !u.correct && (found ? u.ace < perfPace : true))
       .map((u) => ({ lu: u.lu || null, level: u.level, strand: u.strand || null, florida_code: u.florida_code || null, pace: u.ace, skill: u.skill }));
+    // Preguntas del Scope & Sequence sin PACE (lectura, temas nuevos): no mueven la ubicación, pero sus fallos también son lagunas.
+    res.extraGaps = blocks.filter((b) => b.level >= 1).flatMap((b) => b.units.filter((u) => !u.ace && u.lu && !u.correct && (found ? b.level <= res.performanceLevel : true))
+      .map((u) => ({ lu: u.lu, level: b.level, strand: u.strand || null, florida_code: u.florida_code || null, domain: u.domain || null, skill: u.skill })));
+    { const seen = new Set(res.gaps.map((g) => g.lu && g.lu.id).filter(Boolean)); // una unidad de aprendizaje aparece una sola vez
+      res.extraGaps = res.extraGaps.filter((g) => { const id = g.lu && g.lu.id; if (!id || seen.has(id)) return false; seen.add(id); return true; }); }
     const at = seq.find((u) => u.ace === perfPace);
     res.continueAt = at && at.lu ? at.lu : null;
     const total = seq.length;

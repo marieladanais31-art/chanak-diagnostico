@@ -18,6 +18,10 @@
       step: (n) => `Bloque ${n}`, ofQ: (a, b) => `Respondidas ${a} de ${b}`,
       next: 'Continuar →', finish: 'Ver resultados →', checking: 'Corrigiendo…',
       confirmBlank: 'Hay preguntas sin responder. Las que se dejen en blanco cuentan como no logradas. ¿Continuar?',
+      speakTitle: 'Inglés oral (Speaking)', speakIntro: 'Graba tu voz respondiendo en inglés. No hay respuestas buenas ni malas: tu mentor la escuchará para conocer cómo hablas y cómo lees en voz alta. Necesitas un lugar tranquilo y permitir el micrófono.',
+      speakRec: '● Grabar', speakStop: '■ Detener', speakAgain: 'Grabar de nuevo', speakSkip: 'Continuar sin grabar', speakNoMic: 'No pudimos usar el micrófono. Puedes continuar: tu mentor evaluará el inglés oral en persona o por videollamada.',
+      speakKinds: { talk: 'Habla', read: 'Lee en voz alta' }, speakDone: 'grabaciones listas', speakEnglish: 'Inglés oral (Speaking)', speakPending: 'Evaluación del mentor pendiente (rúbrica: fluidez, pronunciación, vocabulario y comprensión).',
+      domGrammar: 'Gramática y escritura (English Grammar)', domReading: 'Lectura (English Reading)',
       handwritingOff: 'Para que el mentor vea su letra, sube fotos claras (con buena luz) de: 1) una oración copiada y un párrafo de 4 a 5 líneas escrito a mano por el estudiante; 2) una hoja con las operaciones de Matemáticas hechas con procedimiento. Puedes subir hasta 15 archivos (JPG, PNG o PDF).', handwritingDual: 'Sube una foto clara de un párrafo de 8 a 10 líneas escrito a mano en inglés por el estudiante (tema libre: su rutina o su familia). Puedes subir hasta 15 archivos (JPG, PNG o PDF).', copyBtn: 'Descargar mi copia (PDF)', returnLink: 'Enlace para subir más fotos después', submitting: 'Enviando resultados…', needConsent: 'Debes autorizar el envío de los resultados a Chanak para continuar.', cefrIntro: 'Prueba de nivel de inglés (A1 a C2). Contesta con calma; si el nivel se vuelve muy difícil la prueba se detiene sola.', cefrNote: 'Esta prueba mide gramática, vocabulario, lectura y uso del idioma. No evalúa expresión oral ni escrita: el mentor las valora en la observación.', sentOk: 'Resultados enviados a coordinación', sentFail: 'No se pudieron enviar los resultados a Chanak. Descarga tu copia y vuelve a intentarlo.', retry: 'Reintentar envío', uploadTitle: 'Sube lo escrito por el estudiante', uploadOk: 'archivo(s) subido(s)', uploadErr: 'No se pudo subir', reviewedBy: 'Revisará', needName: 'Por favor, introduce el nombre del estudiante.', needGrade: 'Selecciona el curso declarado.', needMentor: 'Indica el mentor o evaluador.',
       netError: 'No se pudo conectar con el servidor del diagnóstico. Revisa la conexión e inténtalo de nuevo.',
       readAloud: 'Matemáticas está en inglés: si el estudiante todavía no lee inglés, un adulto puede leer los enunciados en voz alta.',
@@ -39,6 +43,10 @@
       step: (n) => `Block ${n}`, ofQ: (a, b) => `Answered ${a} of ${b}`,
       next: 'Continue →', finish: 'See results →', checking: 'Scoring…',
       confirmBlank: 'Some questions are unanswered. Blank answers count as not mastered. Continue?',
+      speakTitle: 'English Speaking', speakIntro: "Record your voice answering in English. There are no right or wrong answers: your mentor will listen to hear how you speak and read aloud. Find a quiet place and allow the microphone.",
+      speakRec: '● Record', speakStop: '■ Stop', speakAgain: 'Record again', speakSkip: 'Continue without recording', speakNoMic: "We couldn't use the microphone. You can continue: your mentor will assess spoken English in person or by video call.",
+      speakKinds: { talk: 'Speak', read: 'Read aloud' }, speakDone: 'recordings ready', speakEnglish: 'English Speaking', speakPending: 'Mentor assessment pending (rubric: fluency, pronunciation, vocabulary and comprehension).',
+      domGrammar: 'English Grammar & writing', domReading: 'English Reading',
       handwritingOff: "So the mentor can see the student's handwriting, upload clear photos (good light) of: 1) a copied sentence and a 4-5 line paragraph handwritten by the student; 2) a sheet with the Math problems worked out with procedure. Up to 15 files (JPG, PNG or PDF).", handwritingDual: "Upload a clear photo of an 8-10 line paragraph handwritten in English by the student (free topic: their routine or family). Up to 15 files (JPG, PNG or PDF).", copyBtn: 'Download my copy (PDF)', returnLink: 'Link to upload more photos later', submitting: 'Sending results…', needConsent: 'You must authorize sending the results to Chanak to continue.', cefrIntro: 'English level test (A1 to C2). Take your time; if the level becomes too hard the test stops by itself.', cefrNote: 'This test measures grammar, vocabulary, reading and use of English. It does not assess speaking or writing: the mentor evaluates those in the observation.', sentOk: 'Results sent to the review team', sentFail: 'The results could not be sent to Chanak. Download your copy and try again.', retry: 'Retry sending', uploadTitle: "Upload the student's handwriting", uploadOk: 'file(s) uploaded', uploadErr: 'Upload failed', reviewedBy: 'Reviewer', needName: "Please enter the student's name.", needGrade: 'Select the declared grade.', needMentor: 'Enter the mentor or evaluator.',
       netError: 'Could not reach the diagnostic server. Check your connection and try again.',
       readAloud: 'If the student cannot yet read English, an adult may read the questions aloud.',
@@ -151,12 +159,13 @@
   async function loadMap() { if (!S.map) { try { S.map = await api('/data/placement-map.json'); } catch { S.map = { grades: {} }; } } }
 
   window.startTest = async () => {
-    S.bible = $('bible-toggle').checked; S.results = {}; S.comp = null; S.inProgress = true;
+    S.bible = $('bible-toggle').checked; S.results = {}; S.comp = null; S.speak = null; S.inProgress = true;
     window.addEventListener('beforeunload', onBeforeUnload);
     await loadMap();
     try {
       for (const subj of S.plan) { if (subj === 'comp') await runComp(); else if (subj === 'cefr') await runCefr(); else await runSubject(subj); }
     } catch (e) { console.error(e); alert(T().netError); S.inProgress = false; return; }
+    try { if (S.plan.some((x) => x === 'ela' || x === 'cefr')) await runSpeaking(); } catch (e) { console.error(e); }
     S.inProgress = false; window.removeEventListener('beforeunload', onBeforeUnload);
     finalizeResults(); renderResults(); showSection('results'); submitResults();
   };
@@ -257,6 +266,89 @@
     S.comp = { band, by, total: sc.total, correct: sc.correct };
   }
 
+  // Declaración fija en el papel del PEI: alineación con Florida (B.E.S.T., etc.), dominio y enfoque cristocéntrico.
+  const STD = {
+    es: { title: 'Cumplimiento de estándares académicos, dominio y enfoque cristocéntrico', text: 'Chanak International Academy es una escuela privada registrada en Florida (FLDOE #134620). Su programa académico se alinea con los estándares académicos de Florida: B.E.S.T. (English Language Arts y Matemáticas) y los Florida State Academic Standards de Ciencias, Estudios Sociales, Salud, Educación Física, Artes y Ciencias de la Computación, consultados mediante CPALMS, así como con el Florida Course Code Directory. El currículo que se aplica a este estudiante (las Unidades de Aprendizaje Chanak y los recursos curriculares utilizados) es revisado y aprobado por Chanak de acuerdo con esos estándares académicos. La enseñanza se basa en el aprendizaje por dominio (Mastery Learning): el estudiante avanza cuando consolida cada concepto (mínimo 80 %), con evaluación diagnóstica, formativa, de preparación y sumativa, y con evidencia documentada en el SIS. Todo el proceso educativo tiene un enfoque cristocéntrico: la cosmovisión bíblica se integra de forma transversal sin sustituir el rigor académico. Los códigos de Florida citados en este PEI son referencia de alineación; los requisitos de promoción y graduación son los que Chanak establece como escuela privada.' },
+    en: { title: 'Academic Standards Compliance, Mastery and Christ-Centered Approach', text: 'Chanak International Academy is a private school registered in Florida (FLDOE #134620). Its academic program is aligned with Florida academic standards: B.E.S.T. (English Language Arts and Mathematics) and the Florida State Academic Standards for Science, Social Studies, Health, Physical Education, the Arts and Computer Science, accessed through CPALMS, as well as the Florida Course Code Directory. The curriculum used with this student (Chanak Learning Units and the curricular resources applied) is reviewed and approved by Chanak in accordance with those academic standards. Instruction follows Mastery Learning: the student advances upon consolidating each concept (minimum 80%), with diagnostic, formative, readiness and summative assessment, and with evidence documented in the SIS. The whole educational process has a Christ-centered approach: the biblical worldview is integrated across subjects without replacing academic rigor. The Florida codes cited in this IEP are alignment references; promotion and graduation requirements are those set by Chanak as a private school.' },
+  };
+
+  // ── Inglés oral (Speaking): grabación que el mentor evalúa con rúbrica ─────────
+  const SPEAK = [
+    { max: 1, items: [
+      { id: 'SP-A1', kind: 'talk', text: 'Tell us your name, how old you are and what your favorite animal or food is. Say at least three sentences.' },
+      { id: 'SP-A2', kind: 'read', text: 'Read aloud: "I see a big red bus. The bus is on the road. We go to school."' }] },
+    { max: 3, items: [
+      { id: 'SP-B1', kind: 'talk', text: 'Tell us about your favorite day of the week. What do you do? Why do you like it?' },
+      { id: 'SP-B2', kind: 'read', text: 'Read aloud: "The little dog ran across the yard to find his red ball. He was happy when he found it under the tree."' }] },
+    { max: 5, items: [
+      { id: 'SP-C1', kind: 'talk', text: 'Describe your best friend or a person in your family. What is this person like and what do you enjoy doing together?' },
+      { id: 'SP-C2', kind: 'read', text: 'Read aloud: "Every morning, Grace helps her father feed the chickens before school. She likes the work because it teaches her to be responsible and kind to animals."' }] },
+    { max: 8, items: [
+      { id: 'SP-D1', kind: 'talk', text: 'Talk for about one minute: what place would you like to visit and why? Give at least two reasons.' },
+      { id: 'SP-D2', kind: 'read', text: 'Read aloud: "When the storm finally passed, the neighbors gathered in the street to help each other. Some carried branches away, while others brought food and blankets to families who had lost power."' }] },
+    { max: 12, items: [
+      { id: 'SP-E1', kind: 'talk', text: 'Give your opinion for about one minute: should every student take part in community service? Support your answer with reasons or examples.' },
+      { id: 'SP-E2', kind: 'read', text: 'Read aloud: "Integrity is not measured by what we say when everyone is listening, but by what we choose to do when no one is watching. A person of integrity keeps promises even when it costs something."' }] },
+  ];
+  const speakFor = (g) => (SPEAK.find((b) => g <= b.max) || SPEAK[SPEAK.length - 1]).items;
+  const speakCode = (g) => `ELA.${g <= 0 ? 'K' : Math.min(12, g)}.C.4.1`;
+
+  function pickMime() {
+    if (typeof MediaRecorder === 'undefined') return null;
+    for (const m of ['audio/webm;codecs=opus', 'audio/webm', 'audio/mp4', 'audio/ogg;codecs=opus']) { try { if (MediaRecorder.isTypeSupported(m)) return m; } catch { /* sigue */ } }
+    return '';
+  }
+  async function runSpeaking() {
+    S.speak = { tasks: speakFor(S.grade), rec: {}, skipped: false };
+    const mime = pickMime();
+    let stream = null;
+    if (mime !== null && navigator.mediaDevices && navigator.mediaDevices.getUserMedia) { try { stream = await navigator.mediaDevices.getUserMedia({ audio: true }); } catch { stream = null; } }
+    return new Promise((resolve) => {
+      $('t-sname').textContent = S.form.nombre || '—';
+      $('t-subject').textContent = T().speakTitle; $('t-intro').innerHTML = esc(stream ? T().speakIntro : T().speakNoMic);
+      $('t-step').textContent = ''; $('tpfill').style.width = '100%'; $('t-ptxt').textContent = ''; $('t-ppct').textContent = '';
+      const cont = $('qcont'); cont.innerHTML = '';
+      const done = () => { if (stream) stream.getTracks().forEach((t) => t.stop()); S.speak.skipped = !Object.keys(S.speak.rec).length; resolve(); };
+      if (stream) S.speak.tasks.forEach((t, i) => {
+        const d = document.createElement('div'); d.className = 'qblock';
+        d.innerHTML = `<span class="area-tag">${esc(T().speakKinds[t.kind])}</span><div class="qtxt"><strong>${i + 1}.</strong> ${esc(t.text)}</div>
+          <div class="numbox"><button type="button" class="btn btn-s sp-rec">${esc(T().speakRec)}</button> <span class="sp-time"></span> <audio class="sp-audio" controls hidden style="margin-top:8px;width:100%"></audio></div>`;
+        const btn = d.querySelector('.sp-rec'); const audio = d.querySelector('.sp-audio'); const tm = d.querySelector('.sp-time');
+        let mr = null, chunks = [], timer = null, t0 = 0;
+        btn.onclick = () => {
+          if (mr && mr.state === 'recording') { mr.stop(); return; }
+          chunks = []; mr = new MediaRecorder(stream, mime ? { mimeType: mime } : undefined);
+          mr.ondataavailable = (e) => { if (e.data && e.data.size) chunks.push(e.data); };
+          mr.onstop = () => {
+            clearInterval(timer);
+            const type = (mr.mimeType || mime || 'audio/webm').split(';')[0];
+            const blob = new Blob(chunks, { type });
+            if (blob.size > 0) { S.speak.rec[t.id] = { blob, mime: type }; audio.src = URL.createObjectURL(blob); audio.hidden = false; }
+            btn.textContent = Object.keys(S.speak.rec).includes(t.id) ? T().speakAgain : T().speakRec;
+          };
+          mr.start(); t0 = Date.now(); btn.textContent = T().speakStop;
+          timer = setInterval(() => { const sec = Math.round((Date.now() - t0) / 1000); tm.textContent = sec + ' s'; if (sec >= 90 && mr.state === 'recording') mr.stop(); }, 500);
+        };
+        cont.appendChild(d);
+      });
+      const btn = $('btn-next'); btn.textContent = stream ? T().next : T().speakSkip; btn.disabled = false;
+      btn.onclick = () => {
+        if (stream && !Object.keys(S.speak.rec).length && !confirm(T().confirmBlank)) return;
+        btn.disabled = true; done();
+      };
+      _show('test');
+    });
+  }
+  // Sube las grabaciones (después de crear la entrega); el mentor las escucha en el SIS.
+  async function uploadSpeaking() {
+    if (!S.sub || !S.speak) return;
+    for (const t of S.speak.tasks) {
+      const r = S.speak.rec[t.id]; if (!r || r.uploaded) continue;
+      if (r.blob.size > 3 * 1024 * 1024) continue;
+      try { await postJson('/api/diag-upload', { id: S.sub.id, token: S.sub.token, name: t.id + '.audio', mime: r.mime, data: await toB64(r.blob), note: `SPEAKING|${t.id}|${t.kind}|${t.text}`.slice(0, 300) }); r.uploaded = true; } catch { /* el mentor pedirá repetirlo */ }
+    }
+  }
+
   // ── Resultados ────────────────────────────────────────────────────────────
   const SD = () => ({ ...S.form, curso: S.form.curso === '' ? '' : GRADE_LABEL(Number(S.form.curso)) });
   function eqFor(level) { return C.equivalences(level, S.map) || null; }
@@ -279,6 +371,12 @@
     S.summary = sum;
   }
 
+  function domainBars(r) {
+    const d = r.domains || {}; const rows = [['grammar', T().domGrammar], ['reading', T().domReading]].filter(([k]) => d[k] && d[k].t)
+      .map(([k, label]) => `<div class="arow"><div class="aname">${esc(label)}</div>${bar(pct(d[k].c / d[k].t))}<div class="apct">${pct(d[k].c / d[k].t)}%</div></div>`);
+    const sp = S.speak && !S.speak.skipped ? `<div class="arow"><div class="aname">${esc(T().speakEnglish)}</div><div class="muted" style="flex:1">${esc(String(Object.keys(S.speak.rec).length))} ${esc(T().speakDone)} · ${esc(T().speakPending)}</div></div>` : '';
+    return rows.length || sp ? `<h5>${esc(LANG === 'es' ? 'Inglés por destreza' : 'English by skill')}</h5><div class="areas-list">${rows.join('')}${sp}</div>` : '';
+  }
   function subjectCard(s) {
     const x = S.summary[s]; if (!x) return '';
     const r = x.res; const eq = x.eq; const lvl = x.level;
@@ -295,13 +393,14 @@
     if (r.capped) notes.push(T().cappedNote);
     if (s === 'ela' && (r.kinder || (r.found && r.performanceLevel <= 1 && S.grade >= 3))) notes.push(T().abcRec);
     if (deduced) notes.push(T().deduced);
-    const gaps = r.gaps || [];
+    const paceGaps = r.gaps || [];
+    const gaps = [...paceGaps, ...(r.extraGaps || [])];
     const gapCards = gaps.length
       ? `<div class="lu-list">${gaps.map((g) => `<div class="lu-item"><div class="lu-top"><span class="lu-chip">${esc(g.lu ? g.lu.id : '')}</span><span class="lu-lvl">${esc(GRADE_LABEL(g.level))}</span></div><div class="lu-concept">${esc(luConcept(g))}</div>${luText(g.lu, 'tip') ? `<div class="lu-tip"><strong>${esc(T().practice)}:</strong> ${esc(luText(g.lu, 'tip'))}</div>` : ''}</div>`).join('')}</div>`
       : `<p class="muted">${esc(T().noGaps)}</p>`;
     const lv = r.tested.map((l) => `<div class="arow"><div class="aname">${esc(GRADE_LABEL(l))}</div>${bar(pct(r.levelPct[l]))}<div class="apct">${pct(r.levelPct[l])}%</div></div>`).join('');
     // Referencias externas: abajo y en pequeño
-    const refGaps = gaps.length ? `<tr><td><strong>${LANG === 'es' ? 'Lagunas (ACE PACE)' : 'Gaps (ACE PACE)'}</strong></td><td>${gaps.map((g) => `${esc(g.lu ? g.lu.id : '')} → ${g.pace}`).join(' · ')}</td></tr>` : '';
+    const refGaps = paceGaps.length ? `<tr><td><strong>${LANG === 'es' ? 'Lagunas (ACE PACE)' : 'Gaps (ACE PACE)'}</strong></td><td>${paceGaps.map((g) => `${esc(g.lu ? g.lu.id : '')} → ${g.pace}`).join(' · ')}</td></tr>` : '';
     const refPerf = !r.kinder && !r.abcs && r.performancePace ? `<tr><td><strong>${LANG === 'es' ? 'Continuar (ACE PACE)' : 'Continue (ACE PACE)'}</strong></td><td>${r.performancePace}</td></tr>` : '';
     const eqRows = eq ? `
       <tr><td><strong>ACE</strong></td><td>PACE ${eq.ace[key].pace_range[0]}–${eq.ace[key].pace_range[1]}</td></tr>
@@ -312,6 +411,7 @@
     return `<div class="icard subj"><h4>${esc(T().subj[s])}</h4><p>${head}</p>
       ${notes.map((n) => `<div class="note">${esc(n)}</div>`).join('')}
       <h5>${esc(T().gaps)} (${gaps.length})</h5>${gapCards}
+      ${s === 'ela' ? domainBars(r) : ''}
       <div class="areas-list" style="margin-top:14px">${lv}</div>
       ${(eqRows || refGaps || refPerf) ? `<details class="refs"><summary>${esc(T().refs)}</summary><table class="equiv-t"><tbody>${refGaps}${refPerf}${eqRows}</tbody></table></details>` : ''}</div>`;
   }
@@ -386,10 +486,12 @@
         return {
           subject: s, working_level: S.summary[s].level, kinder: r.kinder, abcs: r.abcs, found: r.found, capped: r.capped,
           continue_at: luOut(r.continueAt), tested_levels: r.tested, level_pct: r.levelPct,
-          learning_units_to_reinforce: (r.gaps || []).map((g) => ({ ...luOut(g.lu), level: g.level, strand: g.strand, florida_code: g.florida_code || null, refs: { ace_pace: g.pace } })),
+          learning_units_to_reinforce: [...(r.gaps || []), ...(r.extraGaps || [])].map((g) => ({ ...luOut(g.lu), level: g.level, strand: g.strand, domain: g.domain || null, florida_code: g.florida_code || null, refs: { ace_pace: g.pace || null } })),
+          domains: r.domains || null,
           references: { ace_performance_pace: r.performancePace || null, ace_range: eq ? eq.ace[key].pace_range : null, cle_level: eq ? eq.cle.languageArts * 100 : null, lifepac_level: eq ? eq.lifepac : null, florida: eq ? eq.florida : null },
         };
       }),
+      english_speaking: S.speak ? { florida_code: speakCode(S.grade), tasks: S.speak.tasks.map((t) => ({ id: t.id, kind: t.kind, prompt: t.text, recorded: !!S.speak.rec[t.id] })), recorded: Object.keys(S.speak.rec).length, status: S.speak.skipped ? 'not_recorded' : 'pending_mentor_review' } : null,
       cefr: S.results.cefr ? { level: S.results.cefr.code, borderline: S.results.cefr.borderline, next_level: S.results.cefr.nextCode, level_pct: S.results.cefr.pct, areas: S.results.cefr.areas, learning_units_to_reinforce: S.results.cefr.gaps.map((g) => ({ ...luOut(g.lu), cefr: g.cefr, area: g.area })) } : null,
       complementary: S.comp ? Object.fromEntries(Object.entries(S.comp.by).map(([a, v]) => [a, { correct: v.c, total: v.t }])) : null,
       pei_fields: {
@@ -451,6 +553,7 @@ ${conceptBlocks ? `<div class="pblk"><h3>${L.concepts}</h3>${conceptBlocks}</div
 <div class="pblk"><h3>${L.plan}</h3><div class="sem-grid">${weeks.map(([a, b]) => `<div class="scard"><div class="per">${a}</div><p>${esc(b)}</p></div>`).join('')}</div></div>
 ${f.intereses ? `<div class="pblk"><h3>${L.voc}</h3><div class="pbox">${esc(f.intereses)}</div></div>` : ''}
 <div class="pblk"><h3>${L.rec}</h3><div class="pbox">${esc(mRec)}</div></div>
+<div class="pblk"><h3>${esc(STD[LANG === 'es' ? 'es' : 'en'].title)}</h3><p>${esc(STD[LANG === 'es' ? 'es' : 'en'].text)}</p></div>
 <div class="pblk"><h3>${L.sign}</h3><div class="sign-row"><div>${LANG === 'es' ? 'Dirección' : 'Director'}<span></span></div><div>Mentor<span></span></div><div>${LANG === 'es' ? 'Familia' : 'Family'}<span></span></div></div></div>
 ${refRows ? `<div class="pblk refs-foot"><h3>${L.refs}</h3><table class="equiv-t"><tbody>${refRows}</tbody></table></div>` : ''}`;
     showSection('pei');
@@ -505,7 +608,7 @@ ${refRows ? `<div class="pblk refs-foot"><h3>${L.refs}</h3><table class="equiv-t
       const out = await postJson('/api/diag-submit', { track: S.track, payload, link_token: S.link ? S.link.token : undefined });
       S.sub = { id: out.id, token: out.upload_token, route: out.route_email };
       box.className = 'note ok'; box.innerHTML = `✓ ${esc(T().sentOk)} (<strong>${esc(out.route_email)}</strong>)`;
-      renderUploadPanel();
+      renderUploadPanel(); uploadSpeaking();
     } catch (e) {
       box.className = 'note warn'; box.innerHTML = `${esc(T().sentFail)} <button class="btn btn-s" style="padding:3px 12px" onclick="retrySubmit()">${esc(T().retry)}</button>`;
     }

@@ -1,0 +1,1633 @@
+{
+ "areas": {
+  "science": "Science",
+  "geography": "Geography",
+  "history": "History"
+ },
+ "items": [
+  {
+   "id": "CP-01-SCI-S01",
+   "subject": "comp",
+   "level": 1,
+   "area": "science",
+   "ace": null,
+   "florida_code": "SC.2.L.17.1",
+   "type": "mcq",
+   "prompt": {
+    "es": "¿Qué necesita una planta para crecer?",
+    "en": "What does a plant need to grow?"
+   },
+   "options": {
+    "es": [
+     "Agua, luz del sol y aire",
+     "Solo dulces",
+     "Solo oscuridad",
+     "Juguetes"
+    ],
+    "en": [
+     "Water, sunlight and air",
+     "Only candy",
+     "Only darkness",
+     "Toys"
+    ]
+   },
+   "answer": 0,
+   "source": "scope_2026"
+  },
+  {
+   "id": "CP-01-SCI-S02",
+   "subject": "comp",
+   "level": 1,
+   "area": "science",
+   "ace": null,
+   "florida_code": "SC.2.L.16.1",
+   "type": "mcq",
+   "prompt": {
+    "es": "Una oruga se convierte en mariposa. ¿Qué etapa viene después de la oruga?",
+    "en": "A caterpillar turns into a butterfly. What stage comes after the caterpillar?"
+   },
+   "options": {
+    "es": [
+     "Huevo",
+     "Mariposa adulta",
+     "Crisálida (capullo)",
+     "Semilla"
+    ],
+    "en": [
+     "Egg",
+     "Adult butterfly",
+     "Chrysalis (cocoon)",
+     "Seed"
+    ]
+   },
+   "answer": 2,
+   "source": "scope_2026"
+  },
+  {
+   "id": "CP-01-SCI-S03",
+   "subject": "comp",
+   "level": 1,
+   "area": "science",
+   "ace": null,
+   "florida_code": "SC.2.P.8.3",
+   "type": "mcq",
+   "prompt": {
+    "es": "¿Cuál de estas cosas es un líquido?",
+    "en": "Which of these is a liquid?"
+   },
+   "options": {
+    "es": [
+     "Una roca",
+     "El jugo",
+     "Un libro",
+     "El aire"
+    ],
+    "en": [
+     "A rock",
+     "Juice",
+     "A book",
+     "Air"
+    ]
+   },
+   "answer": 1,
+   "source": "scope_2026"
+  },
+  {
+   "id": "CP-01-SCI-S04",
+   "subject": "comp",
+   "level": 1,
+   "area": "science",
+   "ace": null,
+   "florida_code": "SC.2.L.17.2",
+   "type": "mcq",
+   "prompt": {
+    "es": "¿Dónde vive un pez?",
+    "en": "Where does a fish live?"
+   },
+   "options": {
+    "es": [
+     "En un nido en un árbol",
+     "En un desierto seco",
+     "En la nieve del polo",
+     "En el agua"
+    ],
+    "en": [
+     "In a nest in a tree",
+     "In a dry desert",
+     "In the polar snow",
+     "In water"
+    ]
+   },
+   "answer": 3,
+   "source": "scope_2026"
+  },
+  {
+   "id": "CP-01-SCI-S05",
+   "subject": "comp",
+   "level": 1,
+   "area": "science",
+   "ace": null,
+   "florida_code": "SC.3.E.5.2",
+   "type": "mcq",
+   "prompt": {
+    "es": "¿Qué estrella nos da luz y calor durante el día?",
+    "en": "Which star gives us light and heat during the day?"
+   },
+   "options": {
+    "es": [
+     "El Sol",
+     "La Luna",
+     "Un planeta",
+     "Una nube"
+    ],
+    "en": [
+     "The Sun",
+     "The Moon",
+     "A planet",
+     "A cloud"
+    ]
+   },
+   "answer": 0,
+   "source": "scope_2026"
+  },
+  {
+   "id": "CP-01-SCI-S06",
+   "subject": "comp",
+   "level": 1,
+   "area": "science",
+   "ace": null,
+   "florida_code": "SC.3.P.10.1",
+   "type": "mcq",
+   "prompt": {
+    "es": "Golpeas un tambor y se oye un sonido. ¿Qué hace la piel del tambor?",
+    "en": "You hit a drum and you hear a sound. What does the drum skin do?"
+   },
+   "options": {
+    "es": [
+     "Se queda totalmente quieta",
+     "Se calienta mucho",
+     "Vibra (se mueve rápido de un lado a otro)",
+     "Se vuelve de colores"
+    ],
+    "en": [
+     "It stays completely still",
+     "It gets very hot",
+     "It vibrates (moves quickly back and forth)",
+     "It turns colors"
+    ]
+   },
+   "answer": 2,
+   "source": "scope_2026"
+  },
+  {
+   "id": "CP-02-SCI-S01",
+   "subject": "comp",
+   "level": 2,
+   "area": "science",
+   "ace": null,
+   "florida_code": "SC.4.L.17.3",
+   "type": "mcq",
+   "prompt": {
+    "es": "En una cadena alimentaria: pasto → saltamontes → rana → serpiente. ¿Cuál es el productor?",
+    "en": "In a food chain: grass → grasshopper → frog → snake. Which one is the producer?"
+   },
+   "options": {
+    "es": [
+     "El saltamontes",
+     "El pasto",
+     "La rana",
+     "La serpiente"
+    ],
+    "en": [
+     "The grasshopper",
+     "The grass",
+     "The frog",
+     "The snake"
+    ]
+   },
+   "answer": 1,
+   "source": "scope_2026"
+  },
+  {
+   "id": "CP-02-SCI-S02",
+   "subject": "comp",
+   "level": 2,
+   "area": "science",
+   "ace": null,
+   "florida_code": "SC.4.E.6.4",
+   "type": "mcq",
+   "prompt": {
+    "es": "¿Cómo se llama el proceso en que el viento o el agua se llevan pequeños trozos de roca y suelo de un lugar a otro?",
+    "en": "What is the process called when wind or water carries small pieces of rock and soil from one place to another?"
+   },
+   "options": {
+    "es": [
+     "Erosión",
+     "Evaporación",
+     "Condensación",
+     "Fotosíntesis"
+    ],
+    "en": [
+     "Erosion",
+     "Evaporation",
+     "Condensation",
+     "Photosynthesis"
+    ]
+   },
+   "answer": 0,
+   "source": "scope_2026"
+  },
+  {
+   "id": "CP-02-SCI-S03",
+   "subject": "comp",
+   "level": 2,
+   "area": "science",
+   "ace": null,
+   "florida_code": "SC.4.E.5.2",
+   "type": "mcq",
+   "prompt": {
+    "es": "Desde la Tierra vemos cada noche una parte distinta de la Luna iluminada. ¿Por qué ocurre esto?",
+    "en": "From Earth we see a different part of the Moon lit each night. Why does this happen?"
+   },
+   "options": {
+    "es": [
+     "La sombra de la Tierra tapa la Luna cada noche",
+     "La Luna produce su propia luz que cambia",
+     "Las nubes tapan parte de la Luna",
+     "La Luna da vueltas alrededor de la Tierra y vemos distintas partes de su cara iluminada por el Sol"
+    ],
+    "en": [
+     "Earth's shadow covers the Moon each night",
+     "The Moon makes its own light, which changes",
+     "Clouds cover part of the Moon",
+     "The Moon orbits Earth, so we see different parts of its Sun-lit side"
+    ]
+   },
+   "answer": 3,
+   "source": "scope_2026"
+  },
+  {
+   "id": "CP-02-SCI-S04",
+   "subject": "comp",
+   "level": 2,
+   "area": "science",
+   "ace": null,
+   "florida_code": "SC.5.E.5.3",
+   "type": "mcq",
+   "prompt": {
+    "es": "¿Cuál de estos planetas está más cerca del Sol?",
+    "en": "Which of these planets is closest to the Sun?"
+   },
+   "options": {
+    "es": [
+     "Mercurio",
+     "Marte",
+     "Júpiter",
+     "Saturno"
+    ],
+    "en": [
+     "Mercury",
+     "Mars",
+     "Jupiter",
+     "Saturn"
+    ]
+   },
+   "answer": 0,
+   "source": "scope_2026"
+  },
+  {
+   "id": "CP-02-SCI-S05",
+   "subject": "comp",
+   "level": 2,
+   "area": "science",
+   "ace": null,
+   "florida_code": "SC.5.L.14.1",
+   "type": "mcq",
+   "prompt": {
+    "es": "¿Qué sistema del cuerpo humano lleva la sangre a todo el cuerpo?",
+    "en": "Which human body system carries blood around the whole body?"
+   },
+   "options": {
+    "es": [
+     "El sistema digestivo",
+     "El sistema circulatorio",
+     "El sistema respiratorio",
+     "El sistema esquelético"
+    ],
+    "en": [
+     "The digestive system",
+     "The circulatory system",
+     "The respiratory system",
+     "The skeletal system"
+    ]
+   },
+   "answer": 1,
+   "source": "scope_2026"
+  },
+  {
+   "id": "CP-02-SCI-S06",
+   "subject": "comp",
+   "level": 2,
+   "area": "science",
+   "ace": null,
+   "florida_code": "SC.5.P.11.2",
+   "type": "mcq",
+   "prompt": {
+    "es": "¿Cuál de estos materiales conduce mejor la electricidad?",
+    "en": "Which of these materials conducts electricity best?"
+   },
+   "options": {
+    "es": [
+     "Madera",
+     "Plástico",
+     "Cobre",
+     "Goma"
+    ],
+    "en": [
+     "Wood",
+     "Plastic",
+     "Copper",
+     "Rubber"
+    ]
+   },
+   "answer": 2,
+   "source": "scope_2026"
+  },
+  {
+   "id": "CP-03-SCI-S01",
+   "subject": "comp",
+   "level": 3,
+   "area": "science",
+   "ace": null,
+   "florida_code": "SC.7.E.6.1",
+   "type": "mcq",
+   "prompt": {
+    "es": "¿Cuál es la capa más externa y delgada de la Tierra?",
+    "en": "What is the thin outermost layer of the Earth?"
+   },
+   "options": {
+    "es": [
+     "El núcleo interno",
+     "El manto",
+     "El núcleo externo",
+     "La corteza"
+    ],
+    "en": [
+     "The inner core",
+     "The mantle",
+     "The outer core",
+     "The crust"
+    ]
+   },
+   "answer": 3,
+   "source": "scope_2026"
+  },
+  {
+   "id": "CP-03-SCI-S02",
+   "subject": "comp",
+   "level": 3,
+   "area": "science",
+   "ace": null,
+   "florida_code": "SC.912.L.14.3",
+   "type": "mcq",
+   "prompt": {
+    "es": "¿Qué estructura tienen las células vegetales que normalmente NO tienen las células animales?",
+    "en": "Which structure do plant cells usually have that animal cells do NOT?"
+   },
+   "options": {
+    "es": [
+     "Pared celular",
+     "Núcleo",
+     "Membrana celular",
+     "Mitocondrias"
+    ],
+    "en": [
+     "Cell wall",
+     "Nucleus",
+     "Cell membrane",
+     "Mitochondria"
+    ]
+   },
+   "answer": 0,
+   "source": "scope_2026"
+  },
+  {
+   "id": "CP-03-SCI-S03",
+   "subject": "comp",
+   "level": 3,
+   "area": "science",
+   "ace": null,
+   "florida_code": "SC.7.L.16.2",
+   "type": "mcq",
+   "prompt": {
+    "es": "Se cruzan dos plantas Bb (B = dominante, b = recesivo). ¿Qué probabilidad hay de que una planta hija sea bb?",
+    "en": "Two Bb plants are crossed (B = dominant, b = recessive). What is the chance that an offspring plant is bb?"
+   },
+   "options": {
+    "es": [
+     "0%",
+     "50%",
+     "75%",
+     "25%"
+    ],
+    "en": [
+     "0%",
+     "50%",
+     "75%",
+     "25%"
+    ]
+   },
+   "answer": 3,
+   "source": "scope_2026"
+  },
+  {
+   "id": "CP-03-SCI-S04",
+   "subject": "comp",
+   "level": 3,
+   "area": "science",
+   "ace": null,
+   "florida_code": "SC.8.P.8.7",
+   "type": "mcq",
+   "prompt": {
+    "es": "El número atómico de un átomo indica:",
+    "en": "The atomic number of an atom tells you:"
+   },
+   "options": {
+    "es": [
+     "El número de protones",
+     "El número de neutrones",
+     "La masa total de la molécula",
+     "El número de capas de la Tierra"
+    ],
+    "en": [
+     "The number of protons",
+     "The number of neutrons",
+     "The total mass of the molecule",
+     "The number of layers of the Earth"
+    ]
+   },
+   "answer": 0,
+   "source": "scope_2026"
+  },
+  {
+   "id": "CP-03-SCI-S05",
+   "subject": "comp",
+   "level": 3,
+   "area": "science",
+   "ace": null,
+   "florida_code": "SC.8.P.9.2",
+   "type": "mcq",
+   "prompt": {
+    "es": "¿Cuál de estos es un cambio químico?",
+    "en": "Which of these is a chemical change?"
+   },
+   "options": {
+    "es": [
+     "Derretir hielo",
+     "Romper un vaso",
+     "Cortar papel",
+     "Quemar madera"
+    ],
+    "en": [
+     "Melting ice",
+     "Breaking a glass",
+     "Cutting paper",
+     "Burning wood"
+    ]
+   },
+   "answer": 3,
+   "source": "scope_2026"
+  },
+  {
+   "id": "CP-03-SCI-S06",
+   "subject": "comp",
+   "level": 3,
+   "area": "science",
+   "ace": null,
+   "florida_code": "SC.7.P.10.3",
+   "type": "mcq",
+   "prompt": {
+    "es": "¿Cuál de estas ondas NO puede viajar por el vacío (necesita un medio material)?",
+    "en": "Which of these waves can NOT travel through a vacuum (it needs a material medium)?"
+   },
+   "options": {
+    "es": [
+     "La luz",
+     "Las ondas de radio",
+     "El sonido",
+     "Los rayos X"
+    ],
+    "en": [
+     "Light",
+     "Radio waves",
+     "Sound",
+     "X-rays"
+    ]
+   },
+   "answer": 2,
+   "source": "scope_2026"
+  },
+  {
+   "id": "CP-04-SCI-S01",
+   "subject": "comp",
+   "level": 4,
+   "area": "science",
+   "ace": null,
+   "florida_code": "SC.912.L.16.1",
+   "type": "mcq",
+   "prompt": {
+    "es": "Se cruzan dos plantas heterocigotas Aa (A dominante). ¿Qué proporción de fenotipos se espera en la descendencia?",
+    "en": "Two heterozygous Aa plants are crossed (A is dominant). What phenotype ratio is expected in the offspring?"
+   },
+   "options": {
+    "es": [
+     "1 dominante : 1 recesivo",
+     "3 dominantes : 1 recesivo",
+     "Todos dominantes",
+     "1 dominante : 3 recesivos"
+    ],
+    "en": [
+     "1 dominant : 1 recessive",
+     "3 dominant : 1 recessive",
+     "All dominant",
+     "1 dominant : 3 recessive"
+    ]
+   },
+   "answer": 1,
+   "source": "scope_2026"
+  },
+  {
+   "id": "CP-04-SCI-S02",
+   "subject": "comp",
+   "level": 4,
+   "area": "science",
+   "ace": null,
+   "florida_code": "SC.912.P.8.9",
+   "type": "mcq",
+   "prompt": {
+    "es": "En la reacción 2H₂ + O₂ → 2H₂O, ¿cuántos moles de agua se forman a partir de 4 moles de H₂ (con O₂ suficiente)?",
+    "en": "In the reaction 2H₂ + O₂ → 2H₂O, how many moles of water form from 4 moles of H₂ (with enough O₂)?"
+   },
+   "options": {
+    "es": [
+     "2 mol",
+     "8 mol",
+     "6 mol",
+     "4 mol"
+    ],
+    "en": [
+     "2 mol",
+     "8 mol",
+     "6 mol",
+     "4 mol"
+    ]
+   },
+   "answer": 3,
+   "source": "scope_2026"
+  },
+  {
+   "id": "CP-04-SCI-S03",
+   "subject": "comp",
+   "level": 4,
+   "area": "science",
+   "ace": null,
+   "florida_code": "SC.912.P.8.5",
+   "type": "mcq",
+   "prompt": {
+    "es": "Los elementos del mismo grupo (columna) de la tabla periódica tienen propiedades químicas parecidas porque:",
+    "en": "Elements in the same group (column) of the periodic table have similar chemical properties because they:"
+   },
+   "options": {
+    "es": [
+     "Tienen el mismo número de electrones de valencia",
+     "Tienen la misma masa atómica",
+     "Tienen el mismo número de neutrones",
+     "Tienen el mismo número de capas llenas y vacías"
+    ],
+    "en": [
+     "Have the same number of valence electrons",
+     "Have the same atomic mass",
+     "Have the same number of neutrons",
+     "Have the same number of filled and empty shells"
+    ]
+   },
+   "answer": 0,
+   "source": "scope_2026"
+  },
+  {
+   "id": "CP-04-SCI-S04",
+   "subject": "comp",
+   "level": 4,
+   "area": "science",
+   "ace": null,
+   "florida_code": "SC.912.P.12.2",
+   "type": "mcq",
+   "prompt": {
+    "es": "Un carrito parte del reposo y acelera a 4 m/s² durante 5 s. ¿Qué velocidad alcanza?",
+    "en": "A cart starts from rest and accelerates at 4 m/s² for 5 s. What speed does it reach?"
+   },
+   "options": {
+    "es": [
+     "9 m/s",
+     "1,25 m/s",
+     "20 m/s",
+     "10 m/s"
+    ],
+    "en": [
+     "9 m/s",
+     "1.25 m/s",
+     "20 m/s",
+     "10 m/s"
+    ]
+   },
+   "answer": 2,
+   "source": "scope_2026"
+  },
+  {
+   "id": "CP-04-SCI-S05",
+   "subject": "comp",
+   "level": 4,
+   "area": "science",
+   "ace": null,
+   "florida_code": "SC.912.P.10.15",
+   "type": "mcq",
+   "prompt": {
+    "es": "Un circuito tiene una batería de 12 V y una resistencia de 4 Ω. ¿Cuál es la corriente (I = V/R)?",
+    "en": "A circuit has a 12 V battery and a 4 Ω resistor. What is the current (I = V/R)?"
+   },
+   "options": {
+    "es": [
+     "48 A",
+     "8 A",
+     "0,33 A",
+     "3 A"
+    ],
+    "en": [
+     "48 A",
+     "8 A",
+     "0.33 A",
+     "3 A"
+    ]
+   },
+   "answer": 3,
+   "source": "scope_2026"
+  },
+  {
+   "id": "CP-04-SCI-S06",
+   "subject": "comp",
+   "level": 4,
+   "area": "science",
+   "ace": null,
+   "florida_code": "SC.912.L.14.34",
+   "type": "mcq",
+   "prompt": {
+    "es": "¿Qué componente de la sangre transporta principalmente el oxígeno por el cuerpo?",
+    "en": "Which blood component mainly carries oxygen around the body?"
+   },
+   "options": {
+    "es": [
+     "Los glóbulos rojos (hemoglobina)",
+     "Los glóbulos blancos",
+     "Las plaquetas",
+     "El plasma sin células"
+    ],
+    "en": [
+     "Red blood cells (hemoglobin)",
+     "White blood cells",
+     "Platelets",
+     "Cell-free plasma"
+    ]
+   },
+   "answer": 0,
+   "source": "scope_2026"
+  },
+  {
+   "id": "CP-01-HIS-S01",
+   "subject": "comp",
+   "level": 1,
+   "ace": null,
+   "area": "history",
+   "florida_code": "SS.1.A.2.2",
+   "type": "mcq",
+   "prompt": {
+    "es": "Hace mucho, muchas familias lavaban la ropa a mano. ¿Qué usan hoy la mayoría de las familias?",
+    "en": "Long ago, many families washed clothes by hand. What do most families use today?"
+   },
+   "options": {
+    "es": [
+     "Una lavadora",
+     "Un río",
+     "Una escoba",
+     "Una bicicleta"
+    ],
+    "en": [
+     "A washing machine",
+     "A river",
+     "A broom",
+     "A bicycle"
+    ]
+   },
+   "answer": 0,
+   "source": "scope_2026"
+  },
+  {
+   "id": "CP-01-HIS-S02",
+   "subject": "comp",
+   "level": 1,
+   "ace": null,
+   "area": "history",
+   "florida_code": "SS.1.A.2.4",
+   "type": "mcq",
+   "prompt": {
+    "es": "¿Cuál es una buena manera de ser un buen ciudadano en la escuela?",
+    "en": "Which is a good way to be a good citizen at school?"
+   },
+   "options": {
+    "es": [
+     "Correr por los pasillos",
+     "Seguir las reglas y ayudar a otros",
+     "Tomar cosas de otros",
+     "No escuchar al maestro"
+    ],
+    "en": [
+     "Run in the halls",
+     "Follow the rules and help others",
+     "Take things from others",
+     "Not listen to the teacher"
+    ]
+   },
+   "answer": 1,
+   "source": "scope_2026"
+  },
+  {
+   "id": "CP-01-HIS-S03",
+   "subject": "comp",
+   "level": 1,
+   "ace": null,
+   "area": "history",
+   "florida_code": "SS.1.E.1.3",
+   "type": "mcq",
+   "prompt": {
+    "es": "¿Cuál de estos es un servicio?",
+    "en": "Which of these is a service?"
+   },
+   "options": {
+    "es": [
+     "Un par de zapatos",
+     "Una manzana",
+     "Un maestro que enseña",
+     "Un juguete"
+    ],
+    "en": [
+     "A pair of shoes",
+     "An apple",
+     "A teacher teaching",
+     "A toy"
+    ]
+   },
+   "answer": 2,
+   "source": "scope_2026"
+  },
+  {
+   "id": "CP-01-HIS-S04",
+   "subject": "comp",
+   "level": 1,
+   "ace": null,
+   "area": "history",
+   "florida_code": "SS.1.A.2.3",
+   "type": "mcq",
+   "prompt": {
+    "es": "¿Por qué celebramos el 4 de julio en Estados Unidos?",
+    "en": "Why do we celebrate July 4 in the United States?"
+   },
+   "options": {
+    "es": [
+     "Para recordar el día en que el país declaró su independencia",
+     "Para recordar el primer día de clases",
+     "Para celebrar el invierno",
+     "Para recordar la llegada de la primavera"
+    ],
+    "en": [
+     "To remember the day the country declared its independence",
+     "To remember the first day of school",
+     "To celebrate winter",
+     "To remember the start of spring"
+    ]
+   },
+   "answer": 0,
+   "source": "scope_2026"
+  },
+  {
+   "id": "CP-01-HIS-S05",
+   "subject": "comp",
+   "level": 1,
+   "ace": null,
+   "area": "history",
+   "florida_code": "SS.3.A.1.3",
+   "type": "mcq",
+   "prompt": {
+    "es": "¿Cómo se llama el líder de un estado, como Florida?",
+    "en": "What is the leader of a state, like Florida, called?"
+   },
+   "options": {
+    "es": [
+     "Alcalde",
+     "Presidente",
+     "Gobernador",
+     "Director de escuela"
+    ],
+    "en": [
+     "Mayor",
+     "President",
+     "Governor",
+     "School principal"
+    ]
+   },
+   "answer": 2,
+   "source": "scope_2026"
+  },
+  {
+   "id": "CP-01-GEO-S01",
+   "subject": "comp",
+   "level": 1,
+   "ace": null,
+   "area": "geography",
+   "florida_code": "SS.1.G.1.2",
+   "type": "mcq",
+   "prompt": {
+    "es": "¿Qué nos dice la leyenda (o clave) de un mapa?",
+    "en": "What does the key (or legend) of a map tell us?"
+   },
+   "options": {
+    "es": [
+     "Qué significan los símbolos",
+     "Qué hora es",
+     "Cuántas personas viven allí",
+     "Qué tiempo hará mañana"
+    ],
+    "en": [
+     "What the symbols mean",
+     "What time it is",
+     "How many people live there",
+     "What the weather will be tomorrow"
+    ]
+   },
+   "answer": 0,
+   "source": "scope_2026"
+  },
+  {
+   "id": "CP-01-GEO-S02",
+   "subject": "comp",
+   "level": 1,
+   "ace": null,
+   "area": "geography",
+   "florida_code": "SS.3.G.1.5",
+   "type": "mcq",
+   "prompt": {
+    "es": "¿Qué es un globo terráqueo?",
+    "en": "What is a globe?"
+   },
+   "options": {
+    "es": [
+     "Un mapa plano de una ciudad",
+     "Un modelo de la Tierra con forma de bola",
+     "Una foto de la luna",
+     "Un libro de mapas"
+    ],
+    "en": [
+     "A flat map of a city",
+     "A model of Earth shaped like a ball",
+     "A photo of the moon",
+     "A book of maps"
+    ]
+   },
+   "answer": 1,
+   "source": "scope_2026"
+  },
+  {
+   "id": "CP-01-GEO-S03",
+   "subject": "comp",
+   "level": 1,
+   "ace": null,
+   "area": "geography",
+   "florida_code": "SS.1.G.1.5",
+   "type": "mcq",
+   "prompt": {
+    "es": "¿Qué océano toca la costa este de Florida?",
+    "en": "Which ocean touches the east coast of Florida?"
+   },
+   "options": {
+    "es": [
+     "Pacífico",
+     "Índico",
+     "Ártico",
+     "Atlántico"
+    ],
+    "en": [
+     "Pacific",
+     "Indian",
+     "Arctic",
+     "Atlantic"
+    ]
+   },
+   "answer": 3,
+   "source": "scope_2026"
+  },
+  {
+   "id": "CP-02-HIS-S01",
+   "subject": "comp",
+   "level": 2,
+   "ace": null,
+   "area": "history",
+   "florida_code": "SS.4.A.3.3",
+   "type": "mcq",
+   "prompt": {
+    "es": "¿Qué importancia tiene San Agustín, en Florida, fundada por España en 1565?",
+    "en": "What is the importance of St. Augustine, Florida, founded by Spain in 1565?"
+   },
+   "options": {
+    "es": [
+     "Es la ciudad más antigua de EE. UU. fundada por europeos y habitada de forma continua",
+     "Es la capital actual de Florida",
+     "Fue la primera colonia inglesa",
+     "Fue la primera ciudad de Texas"
+    ],
+    "en": [
+     "It is the oldest continuously inhabited city founded by Europeans in the U.S.",
+     "It is the current capital of Florida",
+     "It was the first English colony",
+     "It was the first city in Texas"
+    ]
+   },
+   "answer": 0,
+   "source": "scope_2026"
+  },
+  {
+   "id": "CP-02-HIS-S02",
+   "subject": "comp",
+   "level": 2,
+   "ace": null,
+   "area": "history",
+   "florida_code": "SS.5.A.3.2",
+   "type": "mcq",
+   "prompt": {
+    "es": "En 1492, ¿qué explorador, apoyado por España, cruzó el océano Atlántico y llegó a las Américas?",
+    "en": "In 1492, which explorer, sponsored by Spain, crossed the Atlantic Ocean and reached the Americas?"
+   },
+   "options": {
+    "es": [
+     "Marco Polo",
+     "Cristóbal Colón",
+     "Fernando de Magallanes",
+     "John Smith"
+    ],
+    "en": [
+     "Marco Polo",
+     "Christopher Columbus",
+     "Ferdinand Magellan",
+     "John Smith"
+    ]
+   },
+   "answer": 1,
+   "source": "scope_2026"
+  },
+  {
+   "id": "CP-02-HIS-S03",
+   "subject": "comp",
+   "level": 2,
+   "ace": null,
+   "area": "history",
+   "florida_code": "SS.5.A.5.3",
+   "type": "mcq",
+   "prompt": {
+    "es": "¿Quién fue el autor principal de la Declaración de Independencia de 1776?",
+    "en": "Who was the main author of the 1776 Declaration of Independence?"
+   },
+   "options": {
+    "es": [
+     "George Washington",
+     "Benjamin Franklin",
+     "John Adams",
+     "Thomas Jefferson"
+    ],
+    "en": [
+     "George Washington",
+     "Benjamin Franklin",
+     "John Adams",
+     "Thomas Jefferson"
+    ]
+   },
+   "answer": 3,
+   "source": "scope_2026"
+  },
+  {
+   "id": "CP-02-HIS-S04",
+   "subject": "comp",
+   "level": 2,
+   "ace": null,
+   "area": "history",
+   "florida_code": "SS.5.A.5.3",
+   "type": "mcq",
+   "prompt": {
+    "es": "¿Qué es la Constitución de los Estados Unidos?",
+    "en": "What is the Constitution of the United States?"
+   },
+   "options": {
+    "es": [
+     "La ley suprema que establece cómo funciona el gobierno",
+     "Una lista de los presidentes",
+     "Un tratado con Inglaterra",
+     "Un mapa de los trece estados"
+    ],
+    "en": [
+     "The supreme law that sets up how the government works",
+     "A list of the presidents",
+     "A treaty with England",
+     "A map of the thirteen states"
+    ]
+   },
+   "answer": 0,
+   "source": "scope_2026"
+  },
+  {
+   "id": "CP-02-HIS-S05",
+   "subject": "comp",
+   "level": 2,
+   "ace": null,
+   "area": "history",
+   "florida_code": "SS.6.W.3.5",
+   "type": "mcq",
+   "prompt": {
+    "es": "¿Qué ciudad-estado de la antigua Grecia es famosa por haber desarrollado una forma temprana de democracia?",
+    "en": "Which ancient Greek city-state is famous for developing an early form of democracy?"
+   },
+   "options": {
+    "es": [
+     "Esparta",
+     "Atenas",
+     "Troya",
+     "Babilonia"
+    ],
+    "en": [
+     "Sparta",
+     "Athens",
+     "Troy",
+     "Babylon"
+    ]
+   },
+   "answer": 1,
+   "source": "scope_2026"
+  },
+  {
+   "id": "CP-02-GEO-S01",
+   "subject": "comp",
+   "level": 2,
+   "ace": null,
+   "area": "geography",
+   "florida_code": "SS.6.G.1.1",
+   "type": "mcq",
+   "prompt": {
+    "es": "¿Cómo se llama la línea imaginaria de longitud 0° que pasa por Greenwich, Inglaterra?",
+    "en": "What is the imaginary line of 0° longitude that passes through Greenwich, England, called?"
+   },
+   "options": {
+    "es": [
+     "El Ecuador",
+     "El Trópico de Cáncer",
+     "El meridiano de Greenwich",
+     "El Círculo Polar Ártico"
+    ],
+    "en": [
+     "The Equator",
+     "The Tropic of Cancer",
+     "The Prime Meridian",
+     "The Arctic Circle"
+    ]
+   },
+   "answer": 2,
+   "source": "scope_2026"
+  },
+  {
+   "id": "CP-02-GEO-S02",
+   "subject": "comp",
+   "level": 2,
+   "ace": null,
+   "area": "geography",
+   "florida_code": "SS.5.G.1.1",
+   "type": "mcq",
+   "prompt": {
+    "es": "En un mapa, 1 pulgada equivale a 50 millas. Dos ciudades están a 3 pulgadas en el mapa. ¿Cuál es la distancia real?",
+    "en": "On a map, 1 inch equals 50 miles. Two cities are 3 inches apart on the map. What is the actual distance?"
+   },
+   "options": {
+    "es": [
+     "53 millas",
+     "100 millas",
+     "150 millas",
+     "250 millas"
+    ],
+    "en": [
+     "53 miles",
+     "100 miles",
+     "150 miles",
+     "250 miles"
+    ]
+   },
+   "answer": 2,
+   "source": "scope_2026"
+  },
+  {
+   "id": "CP-02-GEO-S03",
+   "subject": "comp",
+   "level": 2,
+   "ace": null,
+   "area": "geography",
+   "florida_code": "SS.4.G.1.1",
+   "type": "mcq",
+   "prompt": {
+    "es": "¿Qué cuerpo de agua está en la costa oeste de Florida?",
+    "en": "Which body of water is on the west coast of Florida?"
+   },
+   "options": {
+    "es": [
+     "Golfo de México",
+     "Mar Caribe",
+     "Lago Míchigan",
+     "Océano Pacífico"
+    ],
+    "en": [
+     "Gulf of Mexico",
+     "Caribbean Sea",
+     "Lake Michigan",
+     "Pacific Ocean"
+    ]
+   },
+   "answer": 0,
+   "source": "scope_2026"
+  },
+  {
+   "id": "CP-03-HIS-S01",
+   "subject": "comp",
+   "level": 3,
+   "ace": null,
+   "area": "history",
+   "florida_code": "SS.8.A.3.11",
+   "type": "mcq",
+   "prompt": {
+    "es": "¿Qué es la Carta de Derechos (Bill of Rights) de los Estados Unidos?",
+    "en": "What is the U.S. Bill of Rights?"
+   },
+   "options": {
+    "es": [
+     "Las diez primeras enmiendas a la Constitución",
+     "El preámbulo de la Constitución",
+     "Una ley sobre impuestos de 1765",
+     "La lista de los poderes del presidente"
+    ],
+    "en": [
+     "The first ten amendments to the Constitution",
+     "The preamble of the Constitution",
+     "A tax law from 1765",
+     "The list of the president's powers"
+    ]
+   },
+   "answer": 0,
+   "source": "scope_2026"
+  },
+  {
+   "id": "CP-03-HIS-S02",
+   "subject": "comp",
+   "level": 3,
+   "ace": null,
+   "area": "history",
+   "florida_code": "SS.8.A.3.10",
+   "type": "mcq",
+   "prompt": {
+    "es": "¿Qué rama del gobierno federal de EE. UU. tiene el poder de hacer las leyes?",
+    "en": "Which branch of the U.S. federal government has the power to make laws?"
+   },
+   "options": {
+    "es": [
+     "Rama ejecutiva",
+     "Rama judicial",
+     "Rama legislativa (Congreso)",
+     "El Gabinete"
+    ],
+    "en": [
+     "Executive branch",
+     "Judicial branch",
+     "Legislative branch (Congress)",
+     "The Cabinet"
+    ]
+   },
+   "answer": 2,
+   "source": "scope_2026"
+  },
+  {
+   "id": "CP-03-HIS-S03",
+   "subject": "comp",
+   "level": 3,
+   "ace": null,
+   "area": "history",
+   "florida_code": "SS.8.A.3.10",
+   "type": "mcq",
+   "prompt": {
+    "es": "¿Cuál de estos es un deber cívico de los ciudadanos de EE. UU.?",
+    "en": "Which of these is a civic duty of U.S. citizens?"
+   },
+   "options": {
+    "es": [
+     "Votar en un reality show",
+     "Servir como jurado cuando se les convoca",
+     "Abrir un negocio",
+     "Viajar al extranjero"
+    ],
+    "en": [
+     "Voting on a reality show",
+     "Serving on a jury when called",
+     "Opening a business",
+     "Traveling abroad"
+    ]
+   },
+   "answer": 1,
+   "source": "scope_2026"
+  },
+  {
+   "id": "CP-03-HIS-S04",
+   "subject": "comp",
+   "level": 3,
+   "ace": null,
+   "area": "history",
+   "florida_code": "SS.8.A.5.3",
+   "type": "mcq",
+   "prompt": {
+    "es": "¿Qué hizo la Enmienda 13 de la Constitución, aprobada en 1865?",
+    "en": "What did the 13th Amendment to the Constitution, passed in 1865, do?"
+   },
+   "options": {
+    "es": [
+     "Dio el voto a las mujeres",
+     "Estableció el impuesto sobre la renta",
+     "Creó la Corte Suprema",
+     "Abolió la esclavitud"
+    ],
+    "en": [
+     "Gave women the right to vote",
+     "Established the income tax",
+     "Created the Supreme Court",
+     "Abolished slavery"
+    ]
+   },
+   "answer": 3,
+   "source": "scope_2026"
+  },
+  {
+   "id": "CP-03-HIS-S05",
+   "subject": "comp",
+   "level": 3,
+   "ace": null,
+   "area": "history",
+   "florida_code": "SS.912.W.5.1",
+   "type": "mcq",
+   "prompt": {
+    "es": "En 1215, la Carta Magna (Magna Carta) en Inglaterra estableció que:",
+    "en": "In 1215, the Magna Carta in England established that:"
+   },
+   "options": {
+    "es": [
+     "El rey también debía obedecer la ley",
+     "Solo la Iglesia podía cobrar impuestos",
+     "El rey podía gobernar sin límites",
+     "Los nobles perdían todos sus derechos"
+    ],
+    "en": [
+     "The king also had to obey the law",
+     "Only the Church could collect taxes",
+     "The king could rule without limits",
+     "Nobles lost all their rights"
+    ]
+   },
+   "answer": 0,
+   "source": "scope_2026"
+  },
+  {
+   "id": "CP-03-GEO-S01",
+   "subject": "comp",
+   "level": 3,
+   "ace": null,
+   "area": "geography",
+   "florida_code": "SS.912.G.4.2",
+   "type": "mcq",
+   "prompt": {
+    "es": "¿Cuál es un ejemplo de factor de expulsión (push) que lleva a las personas a migrar?",
+    "en": "Which is an example of a push factor that leads people to migrate?"
+   },
+   "options": {
+    "es": [
+     "Buenas escuelas en otro lugar",
+     "Falta de empleo en su región",
+     "Clima agradable en otro lugar",
+     "Familiares que viven en otro país"
+    ],
+    "en": [
+     "Good schools elsewhere",
+     "Lack of jobs in their region",
+     "Pleasant weather elsewhere",
+     "Relatives living in another country"
+    ]
+   },
+   "answer": 1,
+   "source": "scope_2026"
+  },
+  {
+   "id": "CP-03-GEO-S02",
+   "subject": "comp",
+   "level": 3,
+   "ace": null,
+   "area": "geography",
+   "florida_code": "SS.7.G.2.2",
+   "type": "mcq",
+   "prompt": {
+    "es": "El río Misisipi desemboca en:",
+    "en": "The Mississippi River flows into:"
+   },
+   "options": {
+    "es": [
+     "El océano Pacífico",
+     "Los Grandes Lagos",
+     "El golfo de México",
+     "La bahía de Hudson"
+    ],
+    "en": [
+     "The Pacific Ocean",
+     "The Great Lakes",
+     "The Gulf of Mexico",
+     "Hudson Bay"
+    ]
+   },
+   "answer": 2,
+   "source": "scope_2026"
+  },
+  {
+   "id": "CP-03-GEO-S03",
+   "subject": "comp",
+   "level": 3,
+   "ace": null,
+   "area": "geography",
+   "florida_code": "SS.7.G.1.1",
+   "type": "mcq",
+   "prompt": {
+    "es": "¿Cuál es la capital del estado de Texas?",
+    "en": "What is the capital of the state of Texas?"
+   },
+   "options": {
+    "es": [
+     "Dallas",
+     "Houston",
+     "San Antonio",
+     "Austin"
+    ],
+    "en": [
+     "Dallas",
+     "Houston",
+     "San Antonio",
+     "Austin"
+    ]
+   },
+   "answer": 3,
+   "source": "scope_2026"
+  },
+  {
+   "id": "CP-04-HIS-S01",
+   "subject": "comp",
+   "level": 4,
+   "ace": null,
+   "area": "history",
+   "florida_code": "SS.912.A.7.8",
+   "type": "mcq",
+   "prompt": {
+    "es": "En el caso Brown contra la Junta de Educación (1954), la Corte Suprema decidió que:",
+    "en": "In Brown v. Board of Education (1954), the Supreme Court ruled that:"
+   },
+   "options": {
+    "es": [
+     "La segregación en las escuelas públicas era inconstitucional",
+     "Las escuelas privadas debían cerrar",
+     "Las escuelas debían ser gratuitas",
+     "Los estados podían decidir la segregación"
+    ],
+    "en": [
+     "Segregation in public schools was unconstitutional",
+     "Private schools had to close",
+     "Schools had to be free",
+     "States could decide on segregation"
+    ]
+   },
+   "answer": 0,
+   "source": "scope_2026"
+  },
+  {
+   "id": "CP-04-HIS-S02",
+   "subject": "comp",
+   "level": 4,
+   "ace": null,
+   "area": "history",
+   "florida_code": "SS.912.A.2.2",
+   "type": "mcq",
+   "prompt": {
+    "es": "¿Qué garantizó la Enmienda 14, aprobada en 1868 durante la Reconstrucción?",
+    "en": "What did the 14th Amendment, ratified in 1868 during Reconstruction, guarantee?"
+   },
+   "options": {
+    "es": [
+     "El derecho a portar armas",
+     "Ciudadanía y protección igual ante la ley",
+     "La libertad de prensa",
+     "El fin del servicio militar"
+    ],
+    "en": [
+     "The right to bear arms",
+     "Citizenship and equal protection of the laws",
+     "Freedom of the press",
+     "The end of the military draft"
+    ]
+   },
+   "answer": 1,
+   "source": "scope_2026"
+  },
+  {
+   "id": "CP-04-HIS-S03",
+   "subject": "comp",
+   "level": 4,
+   "ace": null,
+   "area": "history",
+   "florida_code": "SS.912.A.1.6",
+   "type": "mcq",
+   "prompt": {
+    "es": "En un sistema federal como el de EE. UU., el poder está:",
+    "en": "In a federal system like that of the United States, power is:"
+   },
+   "options": {
+    "es": [
+     "Concentrado solo en el presidente",
+     "Solo en los gobiernos de los estados",
+     "Dividido entre el gobierno nacional y los estados",
+     "Solo en manos de los tribunales"
+    ],
+    "en": [
+     "Concentrated only in the president",
+     "Only in the state governments",
+     "Divided between the national government and the states",
+     "Only in the hands of the courts"
+    ]
+   },
+   "answer": 2,
+   "source": "scope_2026"
+  },
+  {
+   "id": "CP-04-HIS-S04",
+   "subject": "comp",
+   "level": 4,
+   "ace": null,
+   "area": "history",
+   "florida_code": "SS.912.W.6.3",
+   "type": "mcq",
+   "prompt": {
+    "es": "En el capitalismo, ¿quién es el principal dueño de los medios de producción?",
+    "en": "Under capitalism, who primarily owns the means of production?"
+   },
+   "options": {
+    "es": [
+     "El gobierno",
+     "La comunidad entera por igual",
+     "Los sindicatos",
+     "Personas y empresas privadas"
+    ],
+    "en": [
+     "The government",
+     "The whole community equally",
+     "Labor unions",
+     "Private individuals and businesses"
+    ]
+   },
+   "answer": 3,
+   "source": "scope_2026"
+  },
+  {
+   "id": "CP-04-HIS-S05",
+   "subject": "comp",
+   "level": 4,
+   "ace": null,
+   "area": "history",
+   "florida_code": "SS.912.E.2.1",
+   "type": "mcq",
+   "prompt": {
+    "es": "Pones 1.000 dólares en una cuenta con 10 % de interés compuesto anual. ¿Cuánto tendrás después de 2 años, sin retirar nada?",
+    "en": "You put $1,000 in an account with 10% annual compound interest. How much will you have after 2 years if you withdraw nothing?"
+   },
+   "options": {
+    "es": [
+     "1.200 dólares",
+     "1.210 dólares",
+     "1.100 dólares",
+     "1.220 dólares"
+    ],
+    "en": [
+     "$1,200",
+     "$1,210",
+     "$1,100",
+     "$1,220"
+    ]
+   },
+   "answer": 1,
+   "source": "scope_2026"
+  },
+  {
+   "id": "CP-04-GEO-S01",
+   "subject": "comp",
+   "level": 4,
+   "ace": null,
+   "area": "geography",
+   "florida_code": "SS.912.G.4.1",
+   "type": "mcq",
+   "prompt": {
+    "es": "¿Qué indica una pirámide de población con la base muy ancha?",
+    "en": "What does a population pyramid with a very wide base indicate?"
+   },
+   "options": {
+    "es": [
+     "Una población envejecida",
+     "Una población que no cambia",
+     "Muchos niños y una población joven",
+     "Una población sin hombres"
+    ],
+    "en": [
+     "An aging population",
+     "A population that does not change",
+     "Many children and a young population",
+     "A population with no men"
+    ]
+   },
+   "answer": 2,
+   "source": "scope_2026"
+  },
+  {
+   "id": "CP-04-GEO-S02",
+   "subject": "comp",
+   "level": 4,
+   "ace": null,
+   "area": "geography",
+   "florida_code": "SS.912.G.4.3",
+   "type": "mcq",
+   "prompt": {
+    "es": "¿Cómo se llama el crecimiento de las ciudades cuando muchas personas se mudan del campo a ellas?",
+    "en": "What is the growth of cities as many people move from rural areas to them called?"
+   },
+   "options": {
+    "es": [
+     "Urbanización",
+     "Deforestación",
+     "Sequía",
+     "Aislamiento"
+    ],
+    "en": [
+     "Urbanization",
+     "Deforestation",
+     "Drought",
+     "Isolation"
+    ]
+   },
+   "answer": 0,
+   "source": "scope_2026"
+  },
+  {
+   "id": "CP-04-GEO-S03",
+   "subject": "comp",
+   "level": 4,
+   "ace": null,
+   "area": "geography",
+   "florida_code": "SS.912.G.2.1",
+   "type": "mcq",
+   "prompt": {
+    "es": "¿Cuál de estos rasgos se usa comúnmente para definir una región cultural?",
+    "en": "Which of these traits is commonly used to define a cultural region?"
+   },
+   "options": {
+    "es": [
+     "La altura de sus edificios",
+     "Idioma, religión y costumbres compartidos",
+     "El número de carreteras",
+     "El color de su bandera"
+    ],
+    "en": [
+     "The height of its buildings",
+     "Shared language, religion, and customs",
+     "The number of roads",
+     "The color of its flag"
+    ]
+   },
+   "answer": 1,
+   "source": "scope_2026"
+  }
+ ]
+}

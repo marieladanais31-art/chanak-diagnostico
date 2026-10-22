@@ -7,7 +7,7 @@ const codes = JSON.parse(readFileSync(new URL('../data/florida-codes.json', impo
 const gradeOf = (c) => c.split('.')[1];
 
 test('cada pregunta de Matemáticas, Inglés, Ciencias e Historia tiene un código de Florida válido', () => {
-  for (const n of ['math_A', 'math_B', 'math_C', 'ela_A', 'ela_B', 'ela_C', 'comp']) {
+  for (const n of ['math_A', 'math_B', 'math_C', 'ela_A', 'ela_B', 'ela_C', 'comp', 'math_scope', 'ela_reading', 'comp_scope']) {
     for (const it of bank(n)) {
       if (it.id.includes('-EI-') || it.id.includes('-BIB-')) { assert.equal(it.florida_code, undefined, it.id); continue; }
       assert.match(it.florida_code || '', /^(MA|ELA|SC|SS)\./, it.id);
@@ -17,7 +17,7 @@ test('cada pregunta de Matemáticas, Inglés, Ciencias e Historia tiene un códi
 });
 
 test('el código de Matemáticas e Inglés corresponde al grado de la pregunta', () => {
-  for (const n of ['math_A', 'math_B', 'math_C', 'ela_A', 'ela_B', 'ela_C']) {
+  for (const n of ['math_A', 'math_B', 'math_C', 'ela_A', 'ela_B', 'ela_C', 'math_scope', 'ela_reading']) {
     for (const it of bank(n)) {
       const g = gradeOf(it.florida_code);
       const ok = it.level === 0 ? g === 'K' : it.level >= 9 ? (g === String(it.level) || g === '912') : g === String(it.level);

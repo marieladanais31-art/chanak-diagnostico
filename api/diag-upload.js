@@ -2,7 +2,7 @@
 // Sube una foto/PDF de lo escrito por el estudiante al bucket privado y lo registra en la entrega.
 const crypto = require('crypto');
 const supa = require('./_lib/supa');
-const MIMES = { 'image/jpeg': 'jpg', 'image/png': 'png', 'image/webp': 'webp', 'application/pdf': 'pdf' };
+const MIMES = { 'image/jpeg': 'jpg', 'image/png': 'png', 'image/webp': 'webp', 'application/pdf': 'pdf', 'audio/webm': 'webm', 'audio/mp4': 'm4a', 'audio/ogg': 'ogg', 'audio/mpeg': 'mp3' };
 const MAX = 3 * 1024 * 1024;
 
 module.exports = async (req, res) => {
