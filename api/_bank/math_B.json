@@ -24,7 +24,8 @@
      "en": "Share a set of objects into equal groups to find 1/4 or 1/3 of the total.",
      "es": "Repartan objetos en grupos iguales para hallar 1/4 o 1/3 del total."
     }
-   }
+   },
+   "florida_code": "MA.5.AR.1.2"
   },
   {
    "id": "MA-05-1050",
@@ -55,7 +56,8 @@
      "en": "Rewrite fractions with a common denominator or use fraction strips to see which is larger.",
      "es": "Reescriba las fracciones con un denominador común o use tiras de fracciones para ver cuál es mayor."
     }
-   }
+   },
+   "florida_code": "MA.5.NSO.1.4"
   },
   {
    "id": "MA-05-1051",
@@ -86,7 +88,8 @@
      "en": "Divide the top and bottom by the same largest number until no common factor remains.",
      "es": "Divida numerador y denominador entre el mayor número común hasta que ya no haya factor en común."
     }
-   }
+   },
+   "florida_code": "MA.5.FR.1.1"
   },
   {
    "id": "MA-05-1052",
@@ -117,7 +120,8 @@
      "en": "Work through divide, multiply, subtract, bring down, and check by multiplying then adding the remainder.",
      "es": "Repita dividir, multiplicar, restar y bajar la cifra, y compruebe multiplicando y sumando el residuo."
     }
-   }
+   },
+   "florida_code": "MA.5.NSO.2.2"
   },
   {
    "id": "MA-05-1053",
@@ -142,7 +146,8 @@
      "en": "Notice that the decimal point moves one place right for each zero in the power of ten.",
      "es": "Observe que la coma decimal se mueve un lugar a la derecha por cada cero."
     }
-   }
+   },
+   "florida_code": "MA.5.NSO.2.5"
   },
   {
    "id": "MA-05-1054",
@@ -173,7 +178,8 @@
      "en": "Divide the numerator by the denominator; the answer is the whole number and the remainder is the fraction.",
      "es": "Divida el numerador entre el denominador: el cociente es el entero y el residuo forma la fracción."
     }
-   }
+   },
+   "florida_code": "MA.5.FR.1.1"
   },
   {
    "id": "MA-05-1055",
@@ -198,7 +204,8 @@
      "en": "Multiply length by width, and measure a room or table at home to practice.",
      "es": "Multiplique largo por ancho y midan una habitación o mesa de casa para practicar."
     }
-   }
+   },
+   "florida_code": "MA.5.GR.2.1"
   },
   {
    "id": "MA-05-1056",
@@ -229,7 +236,8 @@
      "en": "Find a common denominator first, then borrow one whole when the top fraction is too small.",
      "es": "Busque primero un denominador común y tome un entero prestado cuando la fracción de arriba sea menor."
     }
-   }
+   },
+   "florida_code": "MA.5.FR.2.1"
   },
   {
    "id": "MA-05-1057",
@@ -260,7 +268,8 @@
      "en": "Rewrite fractions with a common denominator, add the parts, then simplify any extra wholes.",
      "es": "Reescriba las fracciones con denominador común, sume las partes y simplifique los enteros sobrantes."
     }
-   }
+   },
+   "florida_code": "MA.5.FR.2.1"
   },
   {
    "id": "MA-05-1058",
@@ -285,7 +294,8 @@
      "en": "Multiply as whole numbers, then count the decimal places in both factors to place the point.",
      "es": "Multiplique como enteros y cuente los decimales de ambos factores para colocar la coma."
     }
-   }
+   },
+   "florida_code": "MA.5.NSO.2.4"
   },
   {
    "id": "MA-05-1059",
@@ -310,7 +320,8 @@
      "en": "Use division to undo multiplication, and check the answer by multiplying back.",
      "es": "Use la división para deshacer la multiplicación y compruebe multiplicando de nuevo."
     }
-   }
+   },
+   "florida_code": "MA.5.AR.2.4"
   },
   {
    "id": "MA-05-1060",
@@ -335,7 +346,8 @@
      "en": "Change yards to feet, add the feet, then multiply by 12 to get inches.",
      "es": "Cambie yardas a pies, sume los pies y multiplique por 12 para obtener pulgadas."
     }
-   }
+   },
+   "florida_code": "MA.5.M.1.1"
   },
   {
    "id": "MA-06-1061",
@@ -366,7 +378,8 @@
      "en": "Test whether a number has any factors besides 1 and itself, using divisibility rules.",
      "es": "Compruebe si un número tiene otros factores además de 1 y él mismo, usando los criterios de divisibilidad."
     }
-   }
+   },
+   "florida_code": "MA.6.NSO.3.4"
   },
   {
    "id": "MA-06-1062",
@@ -397,7 +410,8 @@
      "en": "Look at the hundreds digit: five or more rounds up, less than five stays.",
      "es": "Mire la cifra de las centenas: si es cinco o más se sube, si es menos se queda igual."
     }
-   }
+   },
+   "florida_code": "MA.6.NSO.1.1"
   },
   {
    "id": "MA-06-1063",
@@ -422,7 +436,8 @@
      "en": "Evaluate exponents first, then multiplication and division, then addition and subtraction, writing each step.",
      "es": "Resuelva primero los exponentes, luego multiplicación y división, y después suma y resta, escribiendo cada paso."
     }
-   }
+   },
+   "florida_code": "MA.6.NSO.3.3"
   },
   {
    "id": "MA-06-1064",
@@ -447,7 +462,8 @@
      "en": "List multiples of each number until you find the first one they share.",
      "es": "Escriba los múltiplos de cada número hasta encontrar el primero que comparten."
     }
-   }
+   },
+   "florida_code": "MA.6.NSO.3.1"
   },
   {
    "id": "MA-06-1065",
@@ -478,7 +494,8 @@
      "en": "Find the least common denominator, add fractions and wholes separately, and regroup if needed.",
      "es": "Halle el denominador común más pequeño, sume fracciones y enteros por separado y reagrupe si hace falta."
     }
-   }
+   },
+   "florida_code": "MA.6.NSO.2.3"
   },
   {
    "id": "MA-06-1066",
@@ -509,7 +526,8 @@
      "en": "Multiply by the reciprocal of the second fraction, then simplify the answer.",
      "es": "Multiplique por el recíproco de la segunda fracción y simplifique el resultado."
     }
-   }
+   },
+   "florida_code": "MA.6.NSO.2.2"
   },
   {
    "id": "MA-06-1067",
@@ -534,7 +552,8 @@
      "en": "Move the decimal point in both numbers the same number of places to make the divisor whole.",
      "es": "Mueva la coma decimal en ambos números el mismo número de lugares hasta que el divisor sea entero."
     }
-   }
+   },
+   "florida_code": "MA.6.NSO.2.1"
   },
   {
    "id": "MA-06-1068",
@@ -559,7 +578,8 @@
      "en": "Use cross products or find the number that scales the first fraction to the second.",
      "es": "Use productos cruzados o halle el número que lleva la primera fracción a la segunda."
     }
-   }
+   },
+   "florida_code": "MA.6.AR.3.5"
   },
   {
    "id": "MA-06-1069",
@@ -590,7 +610,8 @@
      "en": "Place numbers on a number line; the farther left a number is, the smaller it is.",
      "es": "Ubique los números en una recta numérica; mientras más a la izquierda, menor es el valor."
     }
-   }
+   },
+   "florida_code": "MA.6.NSO.1.1"
   },
   {
    "id": "MA-06-1070",
@@ -615,7 +636,8 @@
      "en": "Change the percent to a decimal and multiply, or find 10% and build from there.",
      "es": "Convierta el porcentaje a decimal y multiplique, o halle el 10% y construya desde ahí."
     }
-   }
+   },
+   "florida_code": "MA.6.AR.3.4"
   },
   {
    "id": "MA-06-1071",
@@ -640,7 +662,8 @@
      "en": "Multiply base by the straight-up height, not by the slanted side.",
      "es": "Multiplique la base por la altura perpendicular, no por el lado inclinado."
     }
-   }
+   },
+   "florida_code": "MA.6.GR.2.2"
   },
   {
    "id": "MA-06-1072",
@@ -665,7 +688,8 @@
      "en": "Multiply length, width, and height, and try it with a box from the kitchen.",
      "es": "Multiplique largo, ancho y alto, y pruébelo con una caja de la cocina."
     }
-   }
+   },
+   "florida_code": "MA.6.GR.2.3"
   },
   {
    "id": "MA-07-1073",
@@ -690,7 +714,8 @@
      "en": "Remember same signs give positive and different signs give negative, then follow order of operations.",
      "es": "Recuerde: signos iguales dan positivo, distintos dan negativo; luego siga el orden de operaciones."
     }
-   }
+   },
+   "florida_code": "MA.7.NSO.2.2"
   },
   {
    "id": "MA-07-1074",
@@ -715,7 +740,8 @@
      "en": "Subtract to find the change, divide by the original amount, then convert to a percent.",
      "es": "Reste para hallar el cambio, divida entre la cantidad original y convierta a porcentaje."
     }
-   }
+   },
+   "florida_code": "MA.7.AR.3.1"
   },
   {
    "id": "MA-07-1075",
@@ -740,7 +766,8 @@
      "en": "Put the data in order first, then find the middle value, averaging two when needed.",
      "es": "Ordene primero los datos y halle el valor central, promediando los dos del medio si hace falta."
     }
-   }
+   },
+   "florida_code": "MA.7.DP.1.1"
   },
   {
    "id": "MA-07-1076",
@@ -771,7 +798,8 @@
      "en": "Find the discount amount by multiplying, then subtract it from the original price.",
      "es": "Halle el monto del descuento multiplicando y réstelo del precio original."
     }
-   }
+   },
+   "florida_code": "MA.7.AR.3.1"
   },
   {
    "id": "MA-07-1077",
@@ -796,7 +824,8 @@
      "en": "Multiply pi by the diameter, and measure round objects at home to practice.",
      "es": "Multiplique pi por el diámetro y midan objetos redondos de casa para practicar."
     }
-   }
+   },
+   "florida_code": "MA.7.GR.1.3"
   },
   {
    "id": "MA-07-1078",
@@ -827,7 +856,8 @@
      "en": "Find each percent of the income, add them, and subtract the total from the income.",
      "es": "Calcule cada porcentaje del ingreso, súmelos y reste el total del ingreso."
     }
-   }
+   },
+   "florida_code": "MA.7.AR.3.1"
   },
   {
    "id": "MA-07-1079",
@@ -852,7 +882,8 @@
      "en": "Multiply for the total, then divide by 1,000 to change milliliters into liters.",
      "es": "Multiplique para el total y divida entre 1.000 para pasar de mililitros a litros."
     }
-   }
+   },
+   "florida_code": "MA.7.AR.3.3"
   },
   {
    "id": "MA-07-1080",
@@ -877,7 +908,8 @@
      "en": "Move variable terms to one side, constants to the other, and check by substituting.",
      "es": "Pase los términos con variable a un lado y las constantes al otro, y compruebe sustituyendo."
     }
-   }
+   },
+   "florida_code": "MA.7.AR.2.2"
   },
   {
    "id": "MA-07-1081",
@@ -908,7 +940,8 @@
      "en": "Use a number line or compare absolute values, keeping the sign of the larger one.",
      "es": "Use una recta numérica o compare valores absolutos, conservando el signo del mayor."
     }
-   }
+   },
+   "florida_code": "MA.7.NSO.2.2"
   },
   {
    "id": "MA-07-1082",
@@ -933,7 +966,8 @@
      "en": "Divide the part by the whole, then multiply the decimal by 100.",
      "es": "Divida la parte entre el total y multiplique el decimal por 100."
     }
-   }
+   },
+   "florida_code": "MA.7.AR.3.1"
   },
   {
    "id": "MA-07-1083",
@@ -958,7 +992,8 @@
      "en": "Find the largest and smallest values in the plot, then subtract to get the range.",
      "es": "Halle el valor mayor y el menor del diagrama y réstelos para obtener el rango."
     }
-   }
+   },
+   "florida_code": "MA.7.DP.1.1"
   },
   {
    "id": "MA-07-1084",
@@ -989,7 +1024,8 @@
      "en": "Change the percent to a decimal and multiply by the sales amount.",
      "es": "Convierta el porcentaje a decimal y multiplique por el monto de las ventas."
     }
-   }
+   },
+   "florida_code": "MA.7.AR.3.1"
   },
   {
    "id": "MA-08-1085",
@@ -1020,7 +1056,8 @@
      "en": "Use a factor tree, then group repeated primes using exponents.",
      "es": "Use un árbol de factores y agrupe los primos repetidos con exponentes."
     }
-   }
+   },
+   "florida_code": "MA.8.NSO.1.7"
   },
   {
    "id": "MA-08-1086",
@@ -1051,7 +1088,8 @@
      "en": "Memorize perfect squares up to 144 and see which two the number falls between.",
      "es": "Memorice los cuadrados perfectos hasta 144 y vea entre cuáles dos queda el número."
     }
-   }
+   },
+   "florida_code": "MA.8.NSO.1.1"
   },
   {
    "id": "MA-08-1087",
@@ -1076,7 +1114,8 @@
      "en": "Distribute first, combine like terms, then isolate x, checking the answer at the end.",
      "es": "Distribuya primero, combine términos semejantes y despeje x, comprobando al final."
     }
-   }
+   },
+   "florida_code": "MA.8.AR.2.1"
   },
   {
    "id": "MA-08-1088",
@@ -1101,7 +1140,8 @@
      "en": "Multiply the map distance by the miles each inch represents.",
      "es": "Multiplique la distancia del mapa por las millas que representa cada pulgada."
     }
-   }
+   },
+   "florida_code": "MA.8.GR.2.4"
   },
   {
    "id": "MA-08-1089",
@@ -1126,7 +1166,8 @@
      "en": "Square both legs, add them, then take the square root to find the longest side.",
      "es": "Eleve al cuadrado ambos catetos, súmelos y saque la raíz cuadrada para hallar el lado mayor."
     }
-   }
+   },
+   "florida_code": "MA.8.GR.1.1"
   },
   {
    "id": "MA-08-1090",
@@ -1151,7 +1192,8 @@
      "en": "Find each total by multiplying mean by count, then subtract the totals.",
      "es": "Halle cada suma multiplicando promedio por cantidad y reste las sumas."
     }
-   }
+   },
+   "florida_code": "MA.8.DP.2.3"
   },
   {
    "id": "MA-08-1091",
@@ -1176,7 +1218,8 @@
      "en": "List small groups systematically, or use the combinations method when order does not matter.",
      "es": "Liste grupos pequeños de forma ordenada o use el método de combinaciones cuando el orden no importa."
     }
-   }
+   },
+   "florida_code": "MA.8.DP.2.3"
   },
   {
    "id": "MA-08-1092",
@@ -1207,7 +1250,8 @@
      "en": "Plot the point on a grid, slide it, then flip it over the axis, step by step.",
      "es": "Ubique el punto en una cuadrícula, deslícelo y voltéelo sobre el eje, paso a paso."
     }
-   }
+   },
+   "florida_code": "MA.8.GR.2.3"
   },
   {
    "id": "MA-08-1093",
@@ -1232,7 +1276,8 @@
      "en": "Substitute the temperature into the formula, multiply first, then add 32.",
      "es": "Sustituya la temperatura en la fórmula, multiplique primero y luego sume 32."
     }
-   }
+   },
+   "florida_code": "MA.8.NSO.1.7"
   },
   {
    "id": "MA-08-1094",
@@ -1263,7 +1308,8 @@
      "en": "Calculate each year's interest on the new balance, adding it before the next year.",
      "es": "Calcule el interés de cada año sobre el nuevo saldo y súmelo antes del año siguiente."
     }
-   }
+   },
+   "florida_code": "MA.8.NSO.1.7"
   },
   {
    "id": "MA-08-1095",
@@ -1294,7 +1340,8 @@
      "en": "Remember irrational numbers have decimals that never end or repeat, like pi and square roots of non-squares.",
      "es": "Recuerde que los irracionales tienen decimales que no terminan ni se repiten, como pi y raíces no exactas."
     }
-   }
+   },
+   "florida_code": "MA.8.NSO.1.2"
   },
   {
    "id": "MA-08-1096",
@@ -1325,7 +1372,8 @@
      "en": "Multiply the numbers, add the exponents, then adjust so the first number is between 1 and 10.",
      "es": "Multiplique los números, sume los exponentes y ajuste para que el primer número esté entre 1 y 10."
     }
-   }
+   },
+   "florida_code": "MA.8.NSO.1.5"
   }
  ]
 }

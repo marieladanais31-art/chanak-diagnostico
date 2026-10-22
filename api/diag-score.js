@@ -17,7 +17,7 @@ module.exports = (req, res) => {
   const us = body.us === true || body.us === 1;
   const items = itemsFor(subject, level, opts);
   const units = items.map((it) => ({
-    id: it.id, ace: it.ace || null, skill: it.skill, strand: it.florida || null, lu: it.lu || null,
+    id: it.id, ace: it.ace || null, skill: it.skill, strand: it.florida || null, florida_code: it.florida_code || null, lu: it.lu || null,
     correct: isCorrect(variant(it, us), answers[it.id]), area: it.area || null, answered: answers[it.id] !== undefined && answers[it.id] !== '',
   }));
   const correct = units.filter((u) => u.correct).length;

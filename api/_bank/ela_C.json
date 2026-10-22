@@ -30,7 +30,8 @@
      "en": "Read a short timeline of the Norman Conquest and list French-origin words you already use every day.",
      "es": "Lee una línea de tiempo de la conquista normanda y anota palabras de origen francés que ya usas a diario."
     }
-   }
+   },
+   "florida_code": "ELA.9.V.1.2"
   },
   {
    "id": "EN-09-1098",
@@ -61,7 +62,8 @@
      "en": "Practice matching tasks to tools: concordance for word searches, atlas for places, thesaurus for synonyms, encyclopedia for overviews.",
      "es": "Practica emparejar tareas con herramientas: concordancia para buscar palabras, atlas para lugares, tesauro para sinónimos, enciclopedia para panoramas."
     }
-   }
+   },
+   "florida_code": "ELA.9.V.1.3"
   },
   {
    "id": "EN-09-1099",
@@ -92,7 +94,8 @@
      "en": "Remember that a subpoint needs a partner: outline an essay and check every A has a B.",
      "es": "Recuerda que un subpunto necesita pareja: esquematiza un ensayo y verifica que cada A tenga su B."
     }
-   }
+   },
+   "florida_code": "ELA.9.C.1.4"
   },
   {
    "id": "EN-09-1100",
@@ -123,7 +126,8 @@
      "en": "Rewrite five sentences from active to passive and back, noticing who performs the action.",
      "es": "Reescribe cinco oraciones de activa a pasiva y viceversa, fijándote en quién realiza la acción."
     }
-   }
+   },
+   "florida_code": "ELA.9.C.3.1"
   },
   {
    "id": "EN-09-1101",
@@ -154,7 +158,8 @@
      "en": "After reading a story, write one sentence about the lesson the characters' choices teach.",
      "es": "Después de leer un relato, escribe una frase sobre la lección que enseñan las decisiones de los personajes."
     }
-   }
+   },
+   "florida_code": "ELA.9.R.1.2"
   },
   {
    "id": "EN-09-1102",
@@ -185,7 +190,8 @@
      "en": "Check the pronouns: practice labeling passages as first person, third limited, or third omniscient.",
      "es": "Fíjate en los pronombres: practica clasificando pasajes como primera persona, tercera limitada u omnisciente."
     }
-   }
+   },
+   "florida_code": "ELA.9.R.1.3"
   },
   {
    "id": "EN-09-1103",
@@ -216,7 +222,8 @@
      "en": "Turn a topic into a clear, arguable claim, then test whether someone could reasonably disagree.",
      "es": "Convierte un tema en una afirmación clara y debatible, y comprueba si alguien podría razonablemente discrepar."
     }
-   }
+   },
+   "florida_code": "ELA.9.C.1.3"
   },
   {
    "id": "EN-09-1104",
@@ -247,7 +254,8 @@
      "en": "Practice deciding if a clause is essential; if the sentence works without it, set it off with commas.",
      "es": "Practica decidir si una cláusula es esencial; si la oración funciona sin ella, sepárala con comas."
     }
-   }
+   },
+   "florida_code": "ELA.9.C.3.1"
   },
   {
    "id": "EN-09-1105",
@@ -278,7 +286,8 @@
      "en": "Make a simple chart of Old, Middle, and Modern English with a sample text for each.",
      "es": "Haz un cuadro sencillo de inglés antiguo, medio y moderno con un texto de ejemplo de cada uno."
     }
-   }
+   },
+   "florida_code": "ELA.9.V.1.2"
   },
   {
    "id": "EN-09-1106",
@@ -309,7 +318,8 @@
      "en": "Look up three words and name each part of the entry, especially the etymology.",
      "es": "Busca tres palabras y nombra cada parte de la entrada, sobre todo la etimología."
     }
-   }
+   },
+   "florida_code": "ELA.9.V.1.2"
   },
   {
    "id": "EN-09-1107",
@@ -340,7 +350,8 @@
      "en": "Practice starting by restating the question as a direct statement that previews your points.",
      "es": "Practica empezar reformulando la pregunta como una afirmación directa que anticipe tus puntos."
     }
-   }
+   },
+   "florida_code": "ELA.9.C.1.4"
   },
   {
    "id": "EN-09-1108",
@@ -371,7 +382,8 @@
      "en": "Write sentences with wishes and conditions, such as 'If I were...' and 'I suggest that he be...'.",
      "es": "Escribe oraciones con deseos y condiciones, como 'If I were...' e 'I suggest that he be...'."
     }
-   }
+   },
+   "florida_code": "ELA.9.C.3.1"
   },
   {
    "id": "EN-10-1109",
@@ -402,7 +414,8 @@
      "en": "Label paragraphs as narrative, descriptive, expository, or persuasive and note the clues that tell you.",
      "es": "Clasifica párrafos como narrativos, descriptivos, expositivos o persuasivos y anota las pistas que lo indican."
     }
-   }
+   },
+   "florida_code": "ELA.10.R.2.1"
   },
   {
    "id": "EN-10-1110",
@@ -433,7 +446,8 @@
      "en": "Number each source card, then mark every note card with its source number to track references.",
      "es": "Numera cada ficha de fuente y marca cada ficha de notas con ese número para rastrear las referencias."
     }
-   }
+   },
+   "florida_code": "ELA.10.C.4.1"
   },
   {
    "id": "EN-10-1111",
@@ -464,7 +478,8 @@
      "en": "Underline clues in the text and ask what the author implies but never says directly.",
      "es": "Subraya pistas en el texto y pregúntate qué insinúa el autor sin decirlo directamente."
     }
-   }
+   },
+   "florida_code": "ELA.10.R.1.1"
   },
   {
    "id": "EN-10-1112",
@@ -495,7 +510,8 @@
      "en": "Diagram sentences with indirect objects, asking 'to whom or for whom?' after the verb.",
      "es": "Analiza oraciones con complemento indirecto, preguntando 'to whom or for whom?' después del verbo."
     }
-   }
+   },
+   "florida_code": "ELA.10.C.3.1"
   },
   {
    "id": "EN-10-1113",
@@ -526,7 +542,8 @@
      "en": "Read a news story and notice how the key facts of who, what, when, where, and why come first.",
      "es": "Lee una noticia y observa cómo los datos clave (quién, qué, cuándo, dónde, por qué) aparecen primero."
     }
-   }
+   },
+   "florida_code": "ELA.10.R.2.1"
   },
   {
    "id": "EN-10-1114",
@@ -557,7 +574,8 @@
      "en": "Draft a job application letter, choosing a proper greeting when you don't know the recipient's name.",
      "es": "Redacta una carta de solicitud de empleo, eligiendo un saludo adecuado cuando no conoces el nombre del destinatario."
     }
-   }
+   },
+   "florida_code": "ELA.10.C.3.1"
   },
   {
    "id": "EN-10-1115",
@@ -588,7 +606,8 @@
      "en": "Visit a library and match the ten Dewey classes to the shelves where you find them.",
      "es": "Visita una biblioteca y relaciona las diez clases Dewey con los estantes donde las encuentras."
     }
-   }
+   },
+   "florida_code": "ELA.10.C.4.1"
   },
   {
    "id": "EN-10-1116",
@@ -619,7 +638,8 @@
      "en": "Compare sonnets, ballads, and haiku, counting lines, rhyme scheme, and meter in each.",
      "es": "Compara sonetos, baladas y haikus, contando versos, esquema de rima y métrica en cada uno."
     }
-   }
+   },
+   "florida_code": "ELA.10.R.1.4"
   },
   {
    "id": "EN-10-1117",
@@ -650,7 +670,8 @@
      "en": "Reread your paragraph and cross out any sentence that doesn't support the main idea.",
      "es": "Relee tu párrafo y tacha cualquier oración que no apoye la idea principal."
     }
-   }
+   },
+   "florida_code": "ELA.10.C.1.5"
   },
   {
    "id": "EN-10-1118",
@@ -681,7 +702,8 @@
      "en": "Look for first-person clues like 'I' and personal memories to tell who is writing.",
      "es": "Busca pistas en primera persona, como 'yo' y recuerdos personales, para saber quién escribe."
     }
-   }
+   },
+   "florida_code": "ELA.10.R.2.1"
   },
   {
    "id": "EN-10-1119",
@@ -712,7 +734,8 @@
      "en": "Track a character's actions at the beginning and end, then explain what caused the change.",
      "es": "Compara las acciones de un personaje al inicio y al final, y explica qué causó el cambio."
     }
-   }
+   },
+   "florida_code": "ELA.10.R.1.1"
   },
   {
    "id": "EN-10-1120",
@@ -743,7 +766,8 @@
      "en": "Find linking verbs and ask whether the word after them renames the subject.",
      "es": "Busca los verbos copulativos y pregunta si la palabra que sigue renombra al sujeto."
     }
-   }
+   },
+   "florida_code": "ELA.10.C.3.1"
   },
   {
    "id": "EN-11-1121",
@@ -774,7 +798,8 @@
      "en": "Check each sentence for a subject, a verb, and a complete thought; fix any that lack one.",
      "es": "Comprueba que cada oración tenga sujeto, verbo y un pensamiento completo; corrige las que no."
     }
-   }
+   },
+   "florida_code": "ELA.11.C.3.1"
   },
   {
    "id": "EN-11-1122",
@@ -805,7 +830,8 @@
      "en": "Read a short Emerson or Thoreau passage and discuss its ideas about nature and self-reliance.",
      "es": "Lee un breve pasaje de Emerson o Thoreau y conversa sobre sus ideas acerca de la naturaleza y la autosuficiencia."
     }
-   }
+   },
+   "florida_code": "ELA.11.R.1.4"
   },
   {
    "id": "EN-11-1123",
@@ -836,7 +862,8 @@
      "en": "Label persuasive sentences as appeals to logic, emotion, or credibility, and explain your choice.",
      "es": "Clasifica oraciones persuasivas como apelaciones a la lógica, la emoción o la credibilidad, y explica tu elección."
     }
-   }
+   },
+   "florida_code": "ELA.11.R.3.4"
   },
   {
    "id": "EN-11-1124",
@@ -867,7 +894,8 @@
      "en": "While reading, mark small details that hint at later events and predict what comes next.",
      "es": "Mientras lees, marca detalles pequeños que anticipen hechos posteriores y predice lo que sigue."
     }
-   }
+   },
+   "florida_code": "ELA.11.R.1.1"
   },
   {
    "id": "EN-11-1125",
@@ -898,7 +926,8 @@
      "en": "Practice separating common knowledge from specific facts, statistics, and ideas that need a citation.",
      "es": "Practica distinguir el conocimiento común de los datos, estadísticas e ideas que necesitan cita."
     }
-   }
+   },
+   "florida_code": "ELA.11.C.4.1"
   },
   {
    "id": "EN-11-1126",
@@ -929,7 +958,8 @@
      "en": "Read real notices and underline deadlines, requirements, and who must act.",
      "es": "Lee avisos reales y subraya plazos, requisitos y a quién le corresponde actuar."
     }
-   }
+   },
+   "florida_code": "ELA.11.R.2.1"
   },
   {
    "id": "EN-11-1127",
@@ -960,7 +990,8 @@
      "en": "After each chapter, summarize the main choice characters face and what it costs them.",
      "es": "Después de cada capítulo, resume la decisión principal que enfrentan los personajes y lo que les cuesta."
     }
-   }
+   },
+   "florida_code": "ELA.11.R.1.2"
   },
   {
    "id": "EN-11-1128",
@@ -991,7 +1022,8 @@
      "en": "Match characters and places in a story to the ideas they symbolize.",
      "es": "Relaciona personajes y lugares de un relato con las ideas que simbolizan."
     }
-   }
+   },
+   "florida_code": "ELA.11.R.3.1"
   },
   {
    "id": "EN-11-1129",
@@ -1022,7 +1054,8 @@
      "en": "Practice joining independent clauses with a semicolon, period, or comma plus conjunction.",
      "es": "Practica unir cláusulas independientes con punto y coma, punto, o coma más conjunción."
     }
-   }
+   },
+   "florida_code": "ELA.11.C.3.1"
   },
   {
    "id": "EN-11-1130",
@@ -1053,7 +1086,8 @@
      "en": "Read a short Twain passage and note how it shows ordinary people and everyday speech.",
      "es": "Lee un breve pasaje de Twain y observa cómo retrata a gente común y el habla cotidiana."
     }
-   }
+   },
+   "florida_code": "ELA.11.R.1.4"
   },
   {
    "id": "EN-11-1131",
@@ -1084,7 +1118,8 @@
      "en": "Compare two articles on one topic and write a paragraph blending their ideas with your own point.",
      "es": "Compara dos artículos sobre un tema y escribe un párrafo que combine sus ideas con tu propio punto de vista."
     }
-   }
+   },
+   "florida_code": "ELA.11.R.2.4"
   },
   {
    "id": "EN-11-1132",
@@ -1115,7 +1150,8 @@
      "en": "Notice what characters do, say, and how others react, then describe their personality from those clues.",
      "es": "Observa lo que los personajes hacen, dicen y cómo reaccionan otros, y describe su personalidad a partir de esas pistas."
     }
-   }
+   },
+   "florida_code": "ELA.11.R.1.3"
   },
   {
    "id": "EN-12-1133",
@@ -1146,7 +1182,8 @@
      "en": "Read a modern translation of Beowulf's opening and note its heroic themes and style.",
      "es": "Lee una traducción moderna del inicio de Beowulf y observa sus temas heroicos y su estilo."
     }
-   }
+   },
+   "florida_code": "ELA.12.R.3.3"
   },
   {
    "id": "EN-12-1134",
@@ -1177,7 +1214,8 @@
      "en": "Circle clue words near an unfamiliar word and guess its meaning before checking a dictionary.",
      "es": "Encierra las palabras pista cerca de un término desconocido e intenta deducir su significado antes de consultar el diccionario."
     }
-   }
+   },
+   "florida_code": "ELA.12.V.1.3"
   },
   {
    "id": "EN-12-1135",
@@ -1208,7 +1246,8 @@
      "en": "Sort passages into narration, description, exposition, or argument and explain the author's purpose.",
      "es": "Clasifica pasajes en narración, descripción, exposición o argumentación y explica el propósito del autor."
     }
-   }
+   },
+   "florida_code": "ELA.12.R.2.1"
   },
   {
    "id": "EN-12-1136",
@@ -1239,7 +1278,8 @@
      "en": "Check lists in your writing so every item uses the same grammatical form.",
      "es": "Revisa las listas de tu escritura para que cada elemento use la misma forma gramatical."
     }
-   }
+   },
+   "florida_code": "ELA.12.C.3.1"
   },
   {
    "id": "EN-12-1137",
@@ -1270,7 +1310,8 @@
      "en": "Compare synonym groups, such as thrifty and stingy, and explain the feeling each word carries.",
      "es": "Compara grupos de sinónimos, como thrifty y stingy, y explica el matiz que cada palabra transmite."
     }
-   }
+   },
+   "florida_code": "ELA.12.V.1.3"
   },
   {
    "id": "EN-12-1138",
@@ -1301,7 +1342,8 @@
      "en": "Look for the gap between what is said and what is true, and discuss why the poet creates it.",
      "es": "Busca la diferencia entre lo que se dice y lo que es cierto, y conversa sobre por qué el poeta la crea."
     }
-   }
+   },
+   "florida_code": "ELA.12.R.3.1"
   },
   {
    "id": "EN-12-1139",
@@ -1332,7 +1374,8 @@
      "en": "Rephrase memorable lines in plain words and connect them to the play's ideas about appearance and truth.",
      "es": "Reformula frases memorables con tus palabras y relaciónalas con las ideas de la obra sobre apariencia y verdad."
     }
-   }
+   },
+   "florida_code": "ELA.12.R.1.2"
   },
   {
    "id": "EN-12-1140",
@@ -1363,7 +1406,8 @@
      "en": "Rehearse aloud with a few key-word cards, working on eye contact, pace, and clear voice.",
      "es": "Ensaya en voz alta con pocas tarjetas de palabras clave, cuidando el contacto visual, el ritmo y la claridad."
     }
-   }
+   },
+   "florida_code": "ELA.12.C.2.1"
   },
   {
    "id": "EN-12-1141",
@@ -1394,7 +1438,8 @@
      "en": "Read a short Wordsworth poem and note its focus on nature, emotion, and imagination.",
      "es": "Lee un poema breve de Wordsworth y observa su enfoque en la naturaleza, la emoción y la imaginación."
     }
-   }
+   },
+   "florida_code": "ELA.12.R.1.4"
   },
   {
    "id": "EN-12-1142",
@@ -1425,7 +1470,8 @@
      "en": "Learn common Latin and Greek roots and combine them to work out unfamiliar words.",
      "es": "Aprende raíces latinas y griegas comunes y combínalas para descifrar palabras desconocidas."
     }
-   }
+   },
+   "florida_code": "ELA.12.V.1.2"
   },
   {
    "id": "EN-12-1143",
@@ -1456,7 +1502,8 @@
      "en": "Collect examples of fallacies like ad hominem and explain why each one fails to prove a point.",
      "es": "Reúne ejemplos de falacias como el ad hominem y explica por qué ninguna demuestra el argumento."
     }
-   }
+   },
+   "florida_code": "ELA.12.R.2.4"
   },
   {
    "id": "EN-12-1144",
@@ -1487,7 +1534,8 @@
      "en": "Make sure the words after 'not only' and 'but also' share the same grammatical form.",
      "es": "Asegúrate de que lo que sigue a 'not only' y 'but also' tenga la misma forma gramatical."
     }
-   }
+   },
+   "florida_code": "ELA.12.C.3.1"
   }
  ]
 }
