@@ -1,0 +1,2465 @@
+{
+ "band": "spa",
+ "items": [
+  {
+   "id": "SP-02-G1",
+   "subject": "spa",
+   "level": 2,
+   "ace": null,
+   "strand": "grammar",
+   "skill": "Syllables",
+   "type": "mcq",
+   "prompt": "¿Cuántas sílabas tiene la palabra «mariposa»?",
+   "options": [
+    "3",
+    "4",
+    "5",
+    "2"
+   ],
+   "answer": 1,
+   "explain": "Se separa así: ma-ri-po-sa, que son cuatro sílabas.",
+   "source": "scope_2026",
+   "local_ref": "Chanak Local Extension · Spanish Language Arts",
+   "lu": {
+    "id": "LU-SPA-GR-02-1",
+    "slot": 1,
+    "concept": {
+     "en": "Counting syllables",
+     "es": "Contar sílabas"
+    },
+    "tip": {
+     "en": "Clap each syllable of a word with your child and count the claps.",
+     "es": "Den una palmada por cada sílaba de una palabra y cuenten juntos."
+    }
+   }
+  },
+  {
+   "id": "SP-02-G2",
+   "subject": "spa",
+   "level": 2,
+   "ace": null,
+   "strand": "grammar",
+   "skill": "Capital letters",
+   "type": "mcq",
+   "prompt": "¿Qué oración está escrita correctamente?",
+   "options": [
+    "mi amiga se llama Lucía.",
+    "Mi amiga se llama lucía.",
+    "Mi amiga se llama Lucía.",
+    "mi Amiga se llama Lucía."
+   ],
+   "answer": 2,
+   "explain": "Se escribe mayúscula al empezar la oración y en los nombres propios.",
+   "source": "scope_2026",
+   "local_ref": "Chanak Local Extension · Spanish Language Arts",
+   "lu": {
+    "id": "LU-SPA-GR-02-2",
+    "slot": 2,
+    "concept": {
+     "en": "Capital letters",
+     "es": "Uso de mayúsculas"
+    },
+    "tip": {
+     "en": "Ask your child to find capital letters in a short book page and say why each is used.",
+     "es": "Pida a su hijo que busque las mayúsculas en una página y explique por qué se usan."
+    }
+   }
+  },
+  {
+   "id": "SP-02-G3",
+   "subject": "spa",
+   "level": 2,
+   "ace": null,
+   "strand": "grammar",
+   "skill": "Spelling b/v",
+   "type": "mcq",
+   "prompt": "¿Qué palabra está bien escrita?",
+   "options": [
+    "ventana",
+    "bentana",
+    "ventaña",
+    "vemtana"
+   ],
+   "answer": 0,
+   "explain": "La palabra «ventana» se escribe con v y con n antes de t.",
+   "source": "scope_2026",
+   "local_ref": "Chanak Local Extension · Spanish Language Arts",
+   "lu": {
+    "id": "LU-SPA-GR-02-3",
+    "slot": 3,
+    "concept": {
+     "en": "Spelling with b and v",
+     "es": "Ortografía de b y v"
+    },
+    "tip": {
+     "en": "Make a small list of common words with v and b and read them aloud together.",
+     "es": "Hagan una lista de palabras con v y con b y léanlas en voz alta."
+    }
+   }
+  },
+  {
+   "id": "SP-02-G4",
+   "subject": "spa",
+   "level": 2,
+   "ace": null,
+   "strand": "grammar",
+   "skill": "Singular and plural",
+   "type": "mcq",
+   "prompt": "¿Cuál es el plural de «lápiz»?",
+   "options": [
+    "lápizs",
+    "lápizes",
+    "lápiz",
+    "lápices"
+   ],
+   "answer": 3,
+   "explain": "Las palabras que terminan en z cambian la z por c y añaden -es: lápices.",
+   "source": "scope_2026",
+   "local_ref": "Chanak Local Extension · Spanish Language Arts",
+   "lu": {
+    "id": "LU-SPA-GR-02-4",
+    "slot": 4,
+    "concept": {
+     "en": "Singular and plural nouns",
+     "es": "Singular y plural"
+    },
+    "tip": {
+     "en": "Point at objects at home and say them in singular and plural.",
+     "es": "Señalen objetos de la casa y díganlos en singular y en plural."
+    }
+   }
+  },
+  {
+   "id": "SP-02-R1",
+   "subject": "spa",
+   "level": 2,
+   "ace": null,
+   "strand": "reading",
+   "skill": "Main idea",
+   "type": "mcq",
+   "prompt": "Sofía tiene un gato pequeño. Se llama Nube porque es blanco como el algodón. Todas las tardes, Nube juega con una pelota de lana. Sofía lo cuida con mucho cariño.\n\n¿De qué trata principalmente el texto?",
+   "options": [
+    "De una pelota de lana",
+    "De Sofía y su gato Nube",
+    "De una niña que va a la escuela",
+    "De un perro blanco"
+   ],
+   "answer": 1,
+   "explain": "El texto cuenta cómo es el gato de Sofía y cómo lo cuida.",
+   "source": "scope_2026",
+   "local_ref": "Chanak Local Extension · Spanish Language Arts",
+   "lu": {
+    "id": "LU-SPA-RD-02-1",
+    "slot": 1,
+    "concept": {
+     "en": "Main idea of a short text",
+     "es": "Idea principal"
+    },
+    "tip": {
+     "en": "After reading a short story, ask your child to tell what it was about in one sentence.",
+     "es": "Después de leer un cuento corto, pida a su hijo que diga de qué trató en una frase."
+    }
+   }
+  },
+  {
+   "id": "SP-02-R2",
+   "subject": "spa",
+   "level": 2,
+   "ace": null,
+   "strand": "reading",
+   "skill": "Finding a detail",
+   "type": "mcq",
+   "prompt": "Todos los sábados, Mateo y su abuelo van al parque. Llevan pan para dar de comer a los patos del lago. Mateo se divierte mucho y su abuelo sonríe.\n\n¿Qué llevan Mateo y su abuelo al parque?",
+   "options": [
+    "Pan para los patos",
+    "Una cometa",
+    "Una pelota",
+    "Agua para las plantas"
+   ],
+   "answer": 0,
+   "explain": "El texto dice que llevan pan para dar de comer a los patos.",
+   "source": "scope_2026",
+   "local_ref": "Chanak Local Extension · Spanish Language Arts",
+   "lu": {
+    "id": "LU-SPA-RD-02-2",
+    "slot": 2,
+    "concept": {
+     "en": "Locating details in a text",
+     "es": "Buscar detalles en el texto"
+    },
+    "tip": {
+     "en": "Ask your child a who/what/where question and have them point to the sentence with the answer.",
+     "es": "Haga una pregunta de quién, qué o dónde y pida que señale la frase con la respuesta."
+    }
+   }
+  },
+  {
+   "id": "SP-02-R3",
+   "subject": "spa",
+   "level": 2,
+   "ace": null,
+   "strand": "reading",
+   "skill": "Inference",
+   "type": "mcq",
+   "prompt": "Hoy el cielo está lleno de nubes grises. Papá dice que va a llover pronto. Ana toma su paraguas y su abrigo antes de salir.\n\n¿Qué se puede deducir del texto?",
+   "options": [
+    "Que Ana irá a la playa",
+    "Que hace mucho calor",
+    "Que Ana se prepara para la lluvia"
+   ],
+   "answer": 2,
+   "explain": "Ana toma el paraguas y el abrigo porque se espera lluvia.",
+   "source": "scope_2026",
+   "local_ref": "Chanak Local Extension · Spanish Language Arts",
+   "lu": {
+    "id": "LU-SPA-RD-02-3",
+    "slot": 3,
+    "concept": {
+     "en": "Making simple inferences",
+     "es": "Deducir información"
+    },
+    "tip": {
+     "en": "While reading, pause and ask 'How do you know?' about what a character does.",
+     "es": "Mientras leen, pregunte «¿cómo lo sabes?» sobre lo que hace un personaje."
+    }
+   }
+  },
+  {
+   "id": "SP-03-G1",
+   "subject": "spa",
+   "level": 3,
+   "ace": null,
+   "strand": "grammar",
+   "skill": "Spelling g/j",
+   "type": "mcq",
+   "prompt": "¿Qué palabra está bien escrita?",
+   "options": [
+    "girafa",
+    "jirrafa",
+    "jirafa"
+   ],
+   "answer": 2,
+   "explain": "El animal de cuello largo se escribe «jirafa», con j y una sola f.",
+   "source": "scope_2026",
+   "local_ref": "Chanak Local Extension · Spanish Language Arts",
+   "lu": {
+    "id": "LU-SPA-GR-03-1",
+    "slot": 1,
+    "concept": {
+     "en": "Spelling with g and j",
+     "es": "Ortografía de g y j"
+    },
+    "tip": {
+     "en": "Look for words with ge, gi, je and ji in a book and sort them in two columns.",
+     "es": "Busquen en un libro palabras con ge, gi, je y ji y clasifíquenlas en dos columnas."
+    }
+   }
+  },
+  {
+   "id": "SP-03-G2",
+   "subject": "spa",
+   "level": 3,
+   "ace": null,
+   "strand": "grammar",
+   "skill": "Spelling c/qu",
+   "type": "mcq",
+   "prompt": "¿Qué palabra está bien escrita?",
+   "options": [
+    "queso",
+    "keso",
+    "cueso",
+    "quezo"
+   ],
+   "answer": 0,
+   "explain": "El sonido /k/ antes de e se escribe con qu: queso.",
+   "source": "scope_2026",
+   "local_ref": "Chanak Local Extension · Spanish Language Arts",
+   "lu": {
+    "id": "LU-SPA-GR-03-2",
+    "slot": 2,
+    "concept": {
+     "en": "Spelling with c and qu",
+     "es": "Ortografía de c y qu"
+    },
+    "tip": {
+     "en": "Say words with the sound /k/ and have your child decide whether they use c or qu.",
+     "es": "Digan palabras con el sonido /k/ y pida a su hijo que decida si llevan c o qu."
+    }
+   }
+  },
+  {
+   "id": "SP-03-G3",
+   "subject": "spa",
+   "level": 3,
+   "ace": null,
+   "strand": "grammar",
+   "skill": "Antonyms",
+   "type": "mcq",
+   "prompt": "¿Cuál es el antónimo de «alto»?",
+   "options": [
+    "grande",
+    "largo",
+    "delgado",
+    "bajo"
+   ],
+   "answer": 3,
+   "explain": "Los antónimos tienen significados opuestos: alto y bajo.",
+   "source": "scope_2026",
+   "local_ref": "Chanak Local Extension · Spanish Language Arts",
+   "lu": {
+    "id": "LU-SPA-GR-03-3",
+    "slot": 3,
+    "concept": {
+     "en": "Synonyms and antonyms",
+     "es": "Sinónimos y antónimos"
+    },
+    "tip": {
+     "en": "Play a game: say a word and your child answers with its opposite.",
+     "es": "Jueguen a decir una palabra para que su hijo responda con su contrario."
+    }
+   }
+  },
+  {
+   "id": "SP-03-G4",
+   "subject": "spa",
+   "level": 3,
+   "ace": null,
+   "strand": "grammar",
+   "skill": "Commas in a list",
+   "type": "mcq",
+   "prompt": "¿Qué oración tiene bien puestas las comas?",
+   "options": [
+    "En mi mochila, hay libros lápices, y colores.",
+    "En mi mochila hay libros, lápices y colores.",
+    "En mi mochila hay, libros lápices y colores."
+   ],
+   "answer": 1,
+   "explain": "Los elementos de una enumeración se separan con comas, y antes de «y» no se pone coma.",
+   "source": "scope_2026",
+   "local_ref": "Chanak Local Extension · Spanish Language Arts",
+   "lu": {
+    "id": "LU-SPA-GR-03-4",
+    "slot": 4,
+    "concept": {
+     "en": "Using the comma in lists",
+     "es": "Uso de la coma en enumeraciones"
+    },
+    "tip": {
+     "en": "Ask your child to write a shopping list in one sentence, using commas correctly.",
+     "es": "Pida a su hijo que escriba una lista de compras en una oración usando bien las comas."
+    }
+   }
+  },
+  {
+   "id": "SP-03-R1",
+   "subject": "spa",
+   "level": 3,
+   "ace": null,
+   "strand": "reading",
+   "skill": "Main idea",
+   "type": "mcq",
+   "prompt": "Las abejas trabajan juntas en la colmena. Unas buscan flores para recoger polen. Otras cuidan a las abejas pequeñas y otras fabrican la miel. Gracias a su trabajo en equipo, la colmena siempre funciona.\n\n¿Cuál es la idea principal del texto?",
+   "options": [
+    "Las abejas solo comen miel.",
+    "Las flores tienen mucho polen.",
+    "Las abejas pequeñas no pueden volar.",
+    "Las abejas trabajan en equipo en la colmena."
+   ],
+   "answer": 3,
+   "explain": "Todo el texto explica cómo las abejas se reparten el trabajo.",
+   "source": "scope_2026",
+   "local_ref": "Chanak Local Extension · Spanish Language Arts",
+   "lu": {
+    "id": "LU-SPA-RD-03-1",
+    "slot": 1,
+    "concept": {
+     "en": "Main idea",
+     "es": "Idea principal"
+    },
+    "tip": {
+     "en": "Ask your child to give a short title for a paragraph that tells its main idea.",
+     "es": "Pida a su hijo que ponga un título corto a un párrafo que diga su idea principal."
+    }
+   }
+  },
+  {
+   "id": "SP-03-R2",
+   "subject": "spa",
+   "level": 3,
+   "ace": null,
+   "strand": "reading",
+   "skill": "Finding a detail",
+   "type": "mcq",
+   "prompt": "En el huerto de la escuela, los niños plantaron tomates y lechugas. Cada mañana los regaban con una regadera azul. Después de un mes, las lechugas ya estaban listas para comer.\n\n¿Qué hacían los niños cada mañana?",
+   "options": [
+    "Cosechaban los tomates",
+    "Regaban las plantas",
+    "Pintaban la regadera",
+    "Comían lechugas"
+   ],
+   "answer": 1,
+   "explain": "El texto dice que cada mañana regaban las plantas con una regadera.",
+   "source": "scope_2026",
+   "local_ref": "Chanak Local Extension · Spanish Language Arts",
+   "lu": {
+    "id": "LU-SPA-RD-03-2",
+    "slot": 2,
+    "concept": {
+     "en": "Locating details in a text",
+     "es": "Buscar detalles en el texto"
+    },
+    "tip": {
+     "en": "Read a short paragraph and ask two questions whose answers appear in the text.",
+     "es": "Lean un párrafo corto y hagan dos preguntas cuyas respuestas estén en el texto."
+    }
+   }
+  },
+  {
+   "id": "SP-03-R3",
+   "subject": "spa",
+   "level": 3,
+   "ace": null,
+   "strand": "reading",
+   "skill": "Vocabulary in context",
+   "type": "mcq",
+   "prompt": "Luis y su perro Toby corrieron toda la tarde en el campo. Al llegar a casa, Toby estaba exhausto. Se echó en su cama y cerró los ojos para descansar.\n\nEn el texto, ¿qué significa «exhausto»?",
+   "options": [
+    "muy hambriento",
+    "muy asustado",
+    "muy cansado",
+    "muy contento"
+   ],
+   "answer": 2,
+   "explain": "Toby se echa a descansar, así que «exhausto» significa muy cansado.",
+   "source": "scope_2026",
+   "local_ref": "Chanak Local Extension · Spanish Language Arts",
+   "lu": {
+    "id": "LU-SPA-RD-03-3",
+    "slot": 3,
+    "concept": {
+     "en": "Meaning of a word in context",
+     "es": "Significado de una palabra por el contexto"
+    },
+    "tip": {
+     "en": "When a new word appears, ask your child to guess its meaning from the sentences around it.",
+     "es": "Cuando aparezca una palabra nueva, pida que adivine su significado por las frases cercanas."
+    }
+   }
+  },
+  {
+   "id": "SP-04-G1",
+   "subject": "spa",
+   "level": 4,
+   "ace": null,
+   "strand": "grammar",
+   "skill": "Accent marks (oxytone)",
+   "type": "mcq",
+   "prompt": "¿Qué palabra es aguda y lleva tilde?",
+   "options": [
+    "árbol",
+    "camión",
+    "lápiz",
+    "mesa"
+   ],
+   "answer": 1,
+   "explain": "«Camión» es aguda (tiene la fuerza en la última sílaba) y termina en n, por eso lleva tilde.",
+   "source": "scope_2026",
+   "local_ref": "Chanak Local Extension · Spanish Language Arts",
+   "lu": {
+    "id": "LU-SPA-GR-04-1",
+    "slot": 1,
+    "concept": {
+     "en": "Stress and accent marks: agudas",
+     "es": "Palabras agudas y tilde"
+    },
+    "tip": {
+     "en": "Say words aloud, tap the stressed syllable and decide whether it is the last one.",
+     "es": "Digan palabras en voz alta, marquen la sílaba tónica y vean si es la última."
+    }
+   }
+  },
+  {
+   "id": "SP-04-G2",
+   "subject": "spa",
+   "level": 4,
+   "ace": null,
+   "strand": "grammar",
+   "skill": "Accent marks (proparoxytone)",
+   "type": "mcq",
+   "prompt": "¿Qué palabra es esdrújula?",
+   "options": [
+    "canción",
+    "azúcar",
+    "césped",
+    "teléfono"
+   ],
+   "answer": 3,
+   "explain": "«Teléfono» tiene la fuerza en la antepenúltima sílaba (té-le-fo-no), por eso es esdrújula.",
+   "source": "scope_2026",
+   "local_ref": "Chanak Local Extension · Spanish Language Arts",
+   "lu": {
+    "id": "LU-SPA-GR-04-2",
+    "slot": 2,
+    "concept": {
+     "en": "Stress and accent marks: esdrújulas",
+     "es": "Palabras esdrújulas"
+    },
+    "tip": {
+     "en": "Collect words that are stressed on the third syllable from the end and always accent them.",
+     "es": "Reúnan palabras con la fuerza en la antepenúltima sílaba; todas llevan tilde."
+    }
+   }
+  },
+  {
+   "id": "SP-04-G3",
+   "subject": "spa",
+   "level": 4,
+   "ace": null,
+   "strand": "grammar",
+   "skill": "Verb tenses",
+   "type": "mcq",
+   "prompt": "¿En qué tiempo está el verbo de la oración «Ayer comimos paella en casa de la abuela»?",
+   "options": [
+    "Pasado",
+    "Presente",
+    "Futuro"
+   ],
+   "answer": 0,
+   "explain": "«Comimos» expresa una acción terminada, que ocurrió ayer: pasado.",
+   "source": "scope_2026",
+   "local_ref": "Chanak Local Extension · Spanish Language Arts",
+   "lu": {
+    "id": "LU-SPA-GR-04-3",
+    "slot": 3,
+    "concept": {
+     "en": "Verb tenses: present, past, future",
+     "es": "Tiempos verbales: presente, pasado y futuro"
+    },
+    "tip": {
+     "en": "Tell what you did yesterday, today and tomorrow, and notice how the verb changes.",
+     "es": "Cuenten qué hicieron ayer, hoy y mañana y observen cómo cambia el verbo."
+    }
+   }
+  },
+  {
+   "id": "SP-04-G4",
+   "subject": "spa",
+   "level": 4,
+   "ace": null,
+   "strand": "grammar",
+   "skill": "Spelling with h",
+   "type": "mcq",
+   "prompt": "¿Qué palabra está bien escrita?",
+   "options": [
+    "uevo",
+    "huebo",
+    "huevo",
+    "hevo"
+   ],
+   "answer": 2,
+   "explain": "«Huevo» se escribe con h inicial, igual que hueso y huerto, y con v.",
+   "source": "scope_2026",
+   "local_ref": "Chanak Local Extension · Spanish Language Arts",
+   "lu": {
+    "id": "LU-SPA-GR-04-4",
+    "slot": 4,
+    "concept": {
+     "en": "Spelling with silent h",
+     "es": "Ortografía de la h"
+    },
+    "tip": {
+     "en": "Learn words that start with hue-, hui-, hia- and use them in sentences.",
+     "es": "Aprendan palabras que empiezan con hue-, hui- o hia- y úsenlas en oraciones."
+    }
+   }
+  },
+  {
+   "id": "SP-04-R1",
+   "subject": "spa",
+   "level": 4,
+   "ace": null,
+   "strand": "reading",
+   "skill": "Main idea",
+   "type": "mcq",
+   "prompt": "El año pasado, la clase de cuarto decidió limpiar el arroyo que pasa junto a la escuela. Los alumnos llevaron guantes y bolsas grandes. En pocas horas recogieron botellas, papeles y latas. La maestra les explicó que la basura daña a los peces y a las plantas. Al terminar, todos se sintieron orgullosos de su trabajo. Desde entonces, cada mes vuelven para cuidar el arroyo.\n\n¿Cuál es la idea principal del texto?",
+   "options": [
+    "Los peces del arroyo están enfermos.",
+    "La maestra se enojó con los alumnos.",
+    "Los alumnos limpian el arroyo para cuidar la naturaleza.",
+    "Los alumnos fueron de excursión a la montaña."
+   ],
+   "answer": 2,
+   "explain": "El texto trata de cómo la clase limpia el arroyo y lo sigue cuidando.",
+   "source": "scope_2026",
+   "local_ref": "Chanak Local Extension · Spanish Language Arts",
+   "lu": {
+    "id": "LU-SPA-RD-04-1",
+    "slot": 1,
+    "concept": {
+     "en": "Main idea and supporting details",
+     "es": "Idea principal y detalles"
+    },
+    "tip": {
+     "en": "After reading, ask your child to summarize the text in one sentence without copying.",
+     "es": "Después de leer, pida un resumen en una sola frase sin copiar el texto."
+    }
+   }
+  },
+  {
+   "id": "SP-04-R2",
+   "subject": "spa",
+   "level": 4,
+   "ace": null,
+   "strand": "reading",
+   "skill": "Inference",
+   "type": "mcq",
+   "prompt": "Marta llegó a casa con los zapatos llenos de barro y la ropa empapada. Su madre la miró en silencio y le tendió una toalla. Marta bajó la cabeza y dijo: «Lo siento, no vi el charco». Después se quitó los zapatos en la puerta y fue a cambiarse. Su madre sonrió y le preparó un chocolate caliente.\n\n¿Qué se puede deducir del texto?",
+   "options": [
+    "La madre perdonó a Marta y quiso consolarla.",
+    "La madre castigó a Marta sin postre.",
+    "Marta mintió sobre lo ocurrido.",
+    "Marta cayó al agua a propósito."
+   ],
+   "answer": 0,
+   "explain": "La madre le da una toalla, sonríe y le prepara chocolate caliente: no se enoja y la consuela.",
+   "source": "scope_2026",
+   "local_ref": "Chanak Local Extension · Spanish Language Arts",
+   "lu": {
+    "id": "LU-SPA-RD-04-2",
+    "slot": 2,
+    "concept": {
+     "en": "Making inferences",
+     "es": "Hacer inferencias"
+    },
+    "tip": {
+     "en": "Ask 'What do you think happens next and why?' while reading together.",
+     "es": "Pregunte «¿qué crees que pasará y por qué?» mientras leen juntos."
+    }
+   }
+  },
+  {
+   "id": "SP-04-R3",
+   "subject": "spa",
+   "level": 4,
+   "ace": null,
+   "strand": "reading",
+   "skill": "Vocabulary in context",
+   "type": "mcq",
+   "prompt": "En el bosque vivía un zorro muy astuto. Un día quiso cruzar el río sin mojarse las patas. En lugar de lanzarse al agua, observó con calma y vio unas piedras grandes. Saltó de piedra en piedra y llegó seco a la otra orilla. Los demás animales decían que ningún otro era tan listo como él.\n\nEn el texto, «astuto» significa:",
+   "options": [
+    "perezoso",
+    "miedoso",
+    "bondadoso",
+    "listo e ingenioso"
+   ],
+   "answer": 3,
+   "explain": "El zorro resuelve el problema con ingenio, y el texto dice que era muy listo.",
+   "source": "scope_2026",
+   "local_ref": "Chanak Local Extension · Spanish Language Arts",
+   "lu": {
+    "id": "LU-SPA-RD-04-3",
+    "slot": 3,
+    "concept": {
+     "en": "Word meaning from context",
+     "es": "Significado de una palabra en contexto"
+    },
+    "tip": {
+     "en": "Look for a synonym or clue in the sentence that explains a new word.",
+     "es": "Busquen en la oración un sinónimo o una pista que explique la palabra nueva."
+    }
+   }
+  },
+  {
+   "id": "SP-05-G1",
+   "subject": "spa",
+   "level": 5,
+   "ace": null,
+   "strand": "grammar",
+   "skill": "Diphthongs",
+   "type": "mcq",
+   "prompt": "¿Qué palabra contiene un diptongo?",
+   "options": [
+    "maíz",
+    "poeta",
+    "teatro",
+    "cuidado"
+   ],
+   "answer": 3,
+   "explain": "En «cuidado» las vocales u e i van juntas en la misma sílaba (cui-da-do): es un diptongo.",
+   "source": "scope_2026",
+   "local_ref": "Chanak Local Extension · Spanish Language Arts",
+   "lu": {
+    "id": "LU-SPA-GR-05-1",
+    "slot": 1,
+    "concept": {
+     "en": "Diphthongs and hiatus",
+     "es": "Diptongo e hiato"
+    },
+    "tip": {
+     "en": "Split words into syllables and mark where two vowels share a syllable.",
+     "es": "Separen palabras en sílabas y marquen dónde dos vocales comparten sílaba."
+    }
+   }
+  },
+  {
+   "id": "SP-05-G2",
+   "subject": "spa",
+   "level": 5,
+   "ace": null,
+   "strand": "grammar",
+   "skill": "Word families",
+   "type": "mcq",
+   "prompt": "¿Qué palabra NO pertenece a la familia de «pan»?",
+   "options": [
+    "pantalla",
+    "panadero",
+    "panadería",
+    "empanada"
+   ],
+   "answer": 0,
+   "explain": "Panadero, panadería y empanada derivan de «pan»; «pantalla» tiene otro origen.",
+   "source": "scope_2026",
+   "local_ref": "Chanak Local Extension · Spanish Language Arts",
+   "lu": {
+    "id": "LU-SPA-GR-05-2",
+    "slot": 2,
+    "concept": {
+     "en": "Word families",
+     "es": "Familias de palabras"
+    },
+    "tip": {
+     "en": "Pick a root word and write as many related words as you can in two minutes.",
+     "es": "Elijan una palabra base y escriban todas las relacionadas que puedan en dos minutos."
+    }
+   }
+  },
+  {
+   "id": "SP-05-G3",
+   "subject": "spa",
+   "level": 5,
+   "ace": null,
+   "strand": "grammar",
+   "skill": "Spelling ll/y",
+   "type": "mcq",
+   "prompt": "¿Qué palabra está bien escrita?",
+   "options": [
+    "yave",
+    "llabe",
+    "llave",
+    "yabe"
+   ],
+   "answer": 2,
+   "explain": "La palabra para abrir una puerta se escribe «llave», con ll y con v.",
+   "source": "scope_2026",
+   "local_ref": "Chanak Local Extension · Spanish Language Arts",
+   "lu": {
+    "id": "LU-SPA-GR-05-3",
+    "slot": 3,
+    "concept": {
+     "en": "Spelling with ll and y",
+     "es": "Ortografía de ll y y"
+    },
+    "tip": {
+     "en": "Dictate five words with ll and y and check them together with a dictionary.",
+     "es": "Dicten cinco palabras con ll y con y y compruébenlas con un diccionario."
+    }
+   }
+  },
+  {
+   "id": "SP-05-G4",
+   "subject": "spa",
+   "level": 5,
+   "ace": null,
+   "strand": "grammar",
+   "skill": "Question and exclamation marks",
+   "type": "mcq",
+   "prompt": "¿Qué oración está correctamente escrita?",
+   "options": [
+    "Qué día tan bonito!",
+    "¡Qué día tan bonito!",
+    "¡Qué día tan bonito?",
+    "¿Qué día tan bonito!"
+   ],
+   "answer": 1,
+   "explain": "En español las exclamaciones se abren con ¡ y se cierran con !.",
+   "source": "scope_2026",
+   "local_ref": "Chanak Local Extension · Spanish Language Arts",
+   "lu": {
+    "id": "LU-SPA-GR-05-4",
+    "slot": 4,
+    "concept": {
+     "en": "Opening and closing exclamation marks",
+     "es": "Signos de exclamación de apertura y cierre"
+    },
+    "tip": {
+     "en": "Write two questions and two exclamations, remembering the opening signs.",
+     "es": "Escriban dos preguntas y dos exclamaciones sin olvidar los signos de apertura."
+    }
+   }
+  },
+  {
+   "id": "SP-05-R1",
+   "subject": "spa",
+   "level": 5,
+   "ace": null,
+   "strand": "reading",
+   "skill": "Author's purpose",
+   "type": "mcq",
+   "prompt": "Cada día, millones de personas leen en pantallas, pero el libro de papel sigue teniendo ventajas. No necesita batería, no cansa tanto la vista y permite subrayar y escribir notas en los márgenes. Además, quien lee en papel suele recordar mejor dónde está cada idea. Por eso, aunque las tabletas son útiles, conviene reservar un rato diario para leer un buen libro impreso. Leer con calma también nos ayuda a pensar mejor.\n\n¿Cuál es la intención principal del autor?",
+   "options": [
+    "Convencer al lector de que lea libros impresos",
+    "Contar la historia de una tableta",
+    "Enseñar a fabricar libros",
+    "Explicar cómo funciona una batería"
+   ],
+   "answer": 0,
+   "explain": "El autor da razones para animar a leer libros de papel.",
+   "source": "scope_2026",
+   "local_ref": "Chanak Local Extension · Spanish Language Arts",
+   "lu": {
+    "id": "LU-SPA-RD-05-1",
+    "slot": 1,
+    "concept": {
+     "en": "Author's purpose",
+     "es": "Intención del autor"
+    },
+    "tip": {
+     "en": "Ask whether a text wants to inform, entertain or persuade, and why.",
+     "es": "Pregunte si un texto quiere informar, entretener o convencer, y por qué."
+    }
+   }
+  },
+  {
+   "id": "SP-05-R2",
+   "subject": "spa",
+   "level": 5,
+   "ace": null,
+   "strand": "reading",
+   "skill": "Finding a detail",
+   "type": "mcq",
+   "prompt": "Los camellos viven en zonas muy secas. Sus jorobas no guardan agua, como mucha gente cree, sino grasa. Esa grasa les da energía cuando no encuentran comida. Además, tienen pestañas largas y fosas nasales que se cierran para protegerse de la arena. Gracias a estas características, pueden caminar durante días por el desierto.\n\nSegún el texto, ¿qué guardan las jorobas de los camellos?",
+   "options": [
+    "Agua",
+    "Arena",
+    "Pestañas",
+    "Grasa"
+   ],
+   "answer": 3,
+   "explain": "El texto aclara que las jorobas guardan grasa, no agua.",
+   "source": "scope_2026",
+   "local_ref": "Chanak Local Extension · Spanish Language Arts",
+   "lu": {
+    "id": "LU-SPA-RD-05-2",
+    "slot": 2,
+    "concept": {
+     "en": "Locating specific information",
+     "es": "Localizar información concreta"
+    },
+    "tip": {
+     "en": "Underline the sentence that answers each question to practice finding evidence.",
+     "es": "Subrayen la frase que responde cada pregunta para practicar la búsqueda de pruebas."
+    }
+   }
+  },
+  {
+   "id": "SP-05-R3",
+   "subject": "spa",
+   "level": 5,
+   "ace": null,
+   "strand": "reading",
+   "skill": "Inference",
+   "type": "mcq",
+   "prompt": "Lucas llevaba semanas preparando su discurso para el concurso de la escuela. La noche anterior apenas durmió y repasó cada frase en voz baja. Cuando subió al escenario, sintió que le temblaban las manos. Respiró hondo, miró a su familia y comenzó a hablar con voz firme. Al terminar, el público lo aplaudió con entusiasmo.\n\n¿Qué se puede deducir del texto?",
+   "options": [
+    "Lucas no se había preparado",
+    "Lucas estaba nervioso, pero logró superarlo",
+    "Lucas no quiso participar",
+    "Lucas perdió el concurso"
+   ],
+   "answer": 1,
+   "explain": "Le temblaban las manos, pero respiró hondo y habló con voz firme.",
+   "source": "scope_2026",
+   "local_ref": "Chanak Local Extension · Spanish Language Arts",
+   "lu": {
+    "id": "LU-SPA-RD-05-3",
+    "slot": 3,
+    "concept": {
+     "en": "Inferring feelings and outcomes",
+     "es": "Inferir sentimientos y resultados"
+    },
+    "tip": {
+     "en": "Ask how a character feels and which words in the text show it.",
+     "es": "Pregunte cómo se siente un personaje y qué palabras del texto lo muestran."
+    }
+   }
+  },
+  {
+   "id": "SP-06-G1",
+   "subject": "spa",
+   "level": 6,
+   "ace": null,
+   "strand": "grammar",
+   "skill": "Subject-verb agreement",
+   "type": "mcq",
+   "prompt": "¿Qué oración tiene concordancia correcta entre sujeto y verbo?",
+   "options": [
+    "Los niños juegan en el patio.",
+    "Los niños juega en el patio.",
+    "El niño juegan en el patio.",
+    "Los niño juegan en el patio."
+   ],
+   "answer": 0,
+   "explain": "El sujeto plural «los niños» exige el verbo en plural: «juegan».",
+   "source": "scope_2026",
+   "local_ref": "Chanak Local Extension · Spanish Language Arts",
+   "lu": {
+    "id": "LU-SPA-GR-06-1",
+    "slot": 1,
+    "concept": {
+     "en": "Subject-verb agreement",
+     "es": "Concordancia sujeto-verbo"
+    },
+    "tip": {
+     "en": "Ask your child to say a sentence and change the subject from singular to plural, adjusting the verb.",
+     "es": "Pida a su hijo que diga una oración y cambie el sujeto de singular a plural, ajustando el verbo."
+    }
+   }
+  },
+  {
+   "id": "SP-06-G2",
+   "subject": "spa",
+   "level": 6,
+   "ace": null,
+   "strand": "grammar",
+   "skill": "Spelling b/v and accents",
+   "type": "mcq",
+   "prompt": "¿Qué palabra está escrita correctamente?",
+   "options": [
+    "bívora",
+    "víbora",
+    "vibora",
+    "bibora"
+   ],
+   "answer": 1,
+   "explain": "«Víbora» se escribe con v y lleva tilde por ser esdrújula.",
+   "source": "scope_2026",
+   "local_ref": "Chanak Local Extension · Spanish Language Arts",
+   "lu": {
+    "id": "LU-SPA-GR-06-2",
+    "slot": 2,
+    "concept": {
+     "en": "Spelling with b/v and written accents",
+     "es": "Ortografía de b/v y tildes"
+    },
+    "tip": {
+     "en": "Have your child write five words with b and five with v and check them in a dictionary.",
+     "es": "Haga que su hijo escriba cinco palabras con b y cinco con v y las compruebe en el diccionario."
+    }
+   }
+  },
+  {
+   "id": "SP-06-G3",
+   "subject": "spa",
+   "level": 6,
+   "ace": null,
+   "strand": "grammar",
+   "skill": "Pronoun reference",
+   "type": "mcq",
+   "prompt": "En la oración «Ana compró flores y las puso en el jarrón», ¿a qué se refiere el pronombre «las»?",
+   "options": [
+    "A Ana",
+    "Al jarrón",
+    "A las flores",
+    "A ninguna palabra de la oración"
+   ],
+   "answer": 2,
+   "explain": "«Las» sustituye a «flores», que es el complemento directo de «puso».",
+   "source": "scope_2026",
+   "local_ref": "Chanak Local Extension · Spanish Language Arts",
+   "lu": {
+    "id": "LU-SPA-GR-06-3",
+    "slot": 3,
+    "concept": {
+     "en": "Pronouns and what they refer to",
+     "es": "Pronombres y su referente"
+    },
+    "tip": {
+     "en": "Read a short paragraph together and circle each pronoun and the word it replaces.",
+     "es": "Lean juntos un párrafo corto y rodeen cada pronombre y la palabra que sustituye."
+    }
+   }
+  },
+  {
+   "id": "SP-06-G4",
+   "subject": "spa",
+   "level": 6,
+   "ace": null,
+   "strand": "grammar",
+   "skill": "Hiatus",
+   "type": "mcq",
+   "prompt": "¿Qué palabra contiene un hiato?",
+   "options": [
+    "cuidado",
+    "reina",
+    "huevo",
+    "baúl"
+   ],
+   "answer": 3,
+   "explain": "En «baúl» las vocales a-ú se pronuncian en sílabas distintas (ba-úl); en las demás hay diptongo.",
+   "source": "scope_2026",
+   "local_ref": "Chanak Local Extension · Spanish Language Arts",
+   "lu": {
+    "id": "LU-SPA-GR-06-4",
+    "slot": 4,
+    "concept": {
+     "en": "Hiatus versus diphthong",
+     "es": "Hiato y diptongo"
+    },
+    "tip": {
+     "en": "Clap the syllables of words like baúl, país and reina and notice where two vowels split.",
+     "es": "Den palmadas a las sílabas de palabras como baúl, país y reina y noten dónde se separan dos vocales."
+    }
+   }
+  },
+  {
+   "id": "SP-06-R1",
+   "subject": "spa",
+   "level": 6,
+   "ace": null,
+   "strand": "reading",
+   "skill": "Main idea",
+   "type": "mcq",
+   "prompt": "Las abejas viven en colmenas, que son como pequeñas ciudades organizadas. En cada colmena hay una reina, cientos de zánganos y miles de obreras. Las obreras trabajan sin descanso: limpian la colmena, cuidan de las larvas y salen a buscar néctar. Cuando encuentran un campo de flores, regresan y bailan para indicar a sus compañeras dónde está. Con el néctar fabrican la miel, que guardan como alimento para el invierno. Además, al pasar de flor en flor, las abejas transportan el polen y ayudan a que las plantas den frutos. Por eso, sin ellas, muchos cultivos desaparecerían. Cuidar a las abejas es, en realidad, cuidar nuestra propia comida.\n\n¿Cuál es la idea principal del texto?",
+   "options": [
+    "Las abejas son importantes por su organización y por su ayuda a las plantas.",
+    "Las abejas fabrican miel solo para el invierno.",
+    "La reina da órdenes a todas las obreras.",
+    "Las flores necesitan mucho néctar para crecer."
+   ],
+   "answer": 0,
+   "explain": "El texto explica cómo trabajan las abejas y por qué son necesarias para las plantas y la comida.",
+   "source": "scope_2026",
+   "local_ref": "Chanak Local Extension · Spanish Language Arts",
+   "lu": {
+    "id": "LU-SPA-RD-06-1",
+    "slot": 1,
+    "concept": {
+     "en": "Identifying the main idea",
+     "es": "Identificar la idea principal"
+    },
+    "tip": {
+     "en": "After reading, ask your child to summarize the text in one sentence.",
+     "es": "Después de leer, pida a su hijo que resuma el texto en una sola frase."
+    }
+   }
+  },
+  {
+   "id": "SP-06-R2",
+   "subject": "spa",
+   "level": 6,
+   "ace": null,
+   "strand": "reading",
+   "skill": "Supporting detail",
+   "type": "mcq",
+   "prompt": "Las abejas viven en colmenas, que son como pequeñas ciudades organizadas. En cada colmena hay una reina, cientos de zánganos y miles de obreras. Las obreras trabajan sin descanso: limpian la colmena, cuidan de las larvas y salen a buscar néctar. Cuando encuentran un campo de flores, regresan y bailan para indicar a sus compañeras dónde está. Con el néctar fabrican la miel, que guardan como alimento para el invierno. Además, al pasar de flor en flor, las abejas transportan el polen y ayudan a que las plantas den frutos. Por eso, sin ellas, muchos cultivos desaparecerían. Cuidar a las abejas es, en realidad, cuidar nuestra propia comida.\n\nSegún el texto, ¿cómo indican las obreras dónde hay flores?",
+   "options": [
+    "Haciendo un zumbido muy fuerte",
+    "Bailando al regresar a la colmena",
+    "Siguiendo a la reina",
+    "Dejando polen en el camino"
+   ],
+   "answer": 1,
+   "explain": "El texto dice que, al regresar, las obreras bailan para indicar dónde está el campo de flores.",
+   "source": "scope_2026",
+   "local_ref": "Chanak Local Extension · Spanish Language Arts",
+   "lu": {
+    "id": "LU-SPA-RD-06-2",
+    "slot": 2,
+    "concept": {
+     "en": "Finding details in a text",
+     "es": "Localizar detalles en un texto"
+    },
+    "tip": {
+     "en": "Ask your child to point to the sentence that proves each answer.",
+     "es": "Pida a su hijo que señale la frase que demuestra cada respuesta."
+    }
+   }
+  },
+  {
+   "id": "SP-06-R3",
+   "subject": "spa",
+   "level": 6,
+   "ace": null,
+   "strand": "reading",
+   "skill": "Inference",
+   "type": "mcq",
+   "prompt": "Las abejas viven en colmenas, que son como pequeñas ciudades organizadas. En cada colmena hay una reina, cientos de zánganos y miles de obreras. Las obreras trabajan sin descanso: limpian la colmena, cuidan de las larvas y salen a buscar néctar. Cuando encuentran un campo de flores, regresan y bailan para indicar a sus compañeras dónde está. Con el néctar fabrican la miel, que guardan como alimento para el invierno. Además, al pasar de flor en flor, las abejas transportan el polen y ayudan a que las plantas den frutos. Por eso, sin ellas, muchos cultivos desaparecerían. Cuidar a las abejas es, en realidad, cuidar nuestra propia comida.\n\n¿Qué se puede deducir del texto si las abejas desaparecieran?",
+   "options": [
+    "Las flores dejarían de existir de inmediato.",
+    "Se fabricaría más miel.",
+    "Habría menos alimentos de origen vegetal.",
+    "Las colmenas serían más grandes."
+   ],
+   "answer": 2,
+   "explain": "Si las abejas no polinizan, muchos cultivos desaparecerían y habría menos alimentos.",
+   "source": "scope_2026",
+   "local_ref": "Chanak Local Extension · Spanish Language Arts",
+   "lu": {
+    "id": "LU-SPA-RD-06-3",
+    "slot": 3,
+    "concept": {
+     "en": "Making inferences",
+     "es": "Hacer inferencias"
+    },
+    "tip": {
+     "en": "Ask 'what would happen if...?' after a story or article and have your child explain why.",
+     "es": "Pregunte '¿qué pasaría si...?' después de un cuento o artículo y pida que explique por qué."
+    }
+   }
+  },
+  {
+   "id": "SP-07-G1",
+   "subject": "spa",
+   "level": 7,
+   "ace": null,
+   "strand": "grammar",
+   "skill": "Verb mood",
+   "type": "mcq",
+   "prompt": "¿Qué oración está en modo subjuntivo?",
+   "options": [
+    "Llegaste temprano ayer.",
+    "Llegará temprano mañana.",
+    "Siempre llega temprano.",
+    "Espero que llegues temprano."
+   ],
+   "answer": 3,
+   "explain": "«Llegues» es presente de subjuntivo, que expresa deseo o duda tras «espero que».",
+   "source": "scope_2026",
+   "local_ref": "Chanak Local Extension · Spanish Language Arts",
+   "lu": {
+    "id": "LU-SPA-GR-07-1",
+    "slot": 1,
+    "concept": {
+     "en": "Indicative and subjunctive moods",
+     "es": "Modo indicativo y subjuntivo"
+    },
+    "tip": {
+     "en": "Make wishes with 'Espero que...' and underline the verb that changes.",
+     "es": "Formulen deseos con «Espero que...» y subrayen el verbo que cambia."
+    }
+   }
+  },
+  {
+   "id": "SP-07-G2",
+   "subject": "spa",
+   "level": 7,
+   "ace": null,
+   "strand": "grammar",
+   "skill": "Spelling with h",
+   "type": "mcq",
+   "prompt": "¿Qué oración está bien escrita?",
+   "options": [
+    "Ayer hice la tarea y ahora voy a descansar.",
+    "Ayer ice la tarea y ahora voy a descansar.",
+    "Ayer hice la tarea y a hora voy a descansar.",
+    "Ayer hice la tarea y ahora voy a descanzar."
+   ],
+   "answer": 0,
+   "explain": "«Hice» (de hacer) y «ahora» llevan h; «descansar» se escribe con s.",
+   "source": "scope_2026",
+   "local_ref": "Chanak Local Extension · Spanish Language Arts",
+   "lu": {
+    "id": "LU-SPA-GR-07-2",
+    "slot": 2,
+    "concept": {
+     "en": "Spelling with silent h",
+     "es": "Ortografía de la h"
+    },
+    "tip": {
+     "en": "Dictate a short sentence with forms of 'hacer' and 'haber' and review the h together.",
+     "es": "Dicte una oración corta con formas de «hacer» y «haber» y revisen juntos la h."
+    }
+   }
+  },
+  {
+   "id": "SP-07-G3",
+   "subject": "spa",
+   "level": 7,
+   "ace": null,
+   "strand": "grammar",
+   "skill": "Indirect object",
+   "type": "mcq",
+   "prompt": "En «Pedro regaló un libro a su hermana», ¿cuál es el complemento indirecto?",
+   "options": [
+    "Pedro",
+    "a su hermana",
+    "un libro",
+    "regaló"
+   ],
+   "answer": 1,
+   "explain": "El complemento indirecto indica quién recibe el beneficio: «a su hermana».",
+   "source": "scope_2026",
+   "local_ref": "Chanak Local Extension · Spanish Language Arts",
+   "lu": {
+    "id": "LU-SPA-GR-07-3",
+    "slot": 3,
+    "concept": {
+     "en": "Direct and indirect objects",
+     "es": "Complementos directo e indirecto"
+    },
+    "tip": {
+     "en": "Ask 'what?' and 'to whom?' about a sentence to find its two objects.",
+     "es": "Pregunte «¿qué?» y «¿a quién?» sobre una oración para hallar sus dos complementos."
+    }
+   }
+  },
+  {
+   "id": "SP-07-G4",
+   "subject": "spa",
+   "level": 7,
+   "ace": null,
+   "strand": "grammar",
+   "skill": "Punctuation",
+   "type": "mcq",
+   "prompt": "¿Qué oración está bien puntuada?",
+   "options": [
+    "Mamá ¿dónde dejaste las llaves.",
+    "Mamá, dónde dejaste las llaves?",
+    "Mamá, ¿dónde dejaste las llaves?",
+    "¿Mamá, dónde dejaste las llaves."
+   ],
+   "answer": 2,
+   "explain": "El vocativo va seguido de coma y la pregunta lleva signos de apertura y cierre.",
+   "source": "scope_2026",
+   "local_ref": "Chanak Local Extension · Spanish Language Arts",
+   "lu": {
+    "id": "LU-SPA-GR-07-4",
+    "slot": 4,
+    "concept": {
+     "en": "Question marks and vocative commas",
+     "es": "Signos de interrogación y coma vocativa"
+    },
+    "tip": {
+     "en": "Write three questions that start with a name and check the commas and both question marks.",
+     "es": "Escriban tres preguntas que empiecen con un nombre y revisen las comas y ambos signos de interrogación."
+    }
+   }
+  },
+  {
+   "id": "SP-07-R1",
+   "subject": "spa",
+   "level": 7,
+   "ace": null,
+   "strand": "reading",
+   "skill": "Main idea / theme",
+   "type": "mcq",
+   "prompt": "Cada mañana, Lucas recorría el mismo camino hacia la escuela. Pasaba junto a un viejo huerto cuyo dueño, don Anselmo, apenas levantaba la vista de la tierra. Un día de otoño, Lucas notó que el anciano luchaba por mover un saco de patatas. Sin pensarlo, soltó la mochila y le ayudó a cargarlo hasta el cobertizo. Don Anselmo sonrió por primera vez y le ofreció una manzana roja. «Gracias, muchacho; hoy me ha hecho falta una mano amiga», dijo. Desde entonces, Lucas saludaba al anciano cada mañana y, a veces, se quedaba unos minutos conversando. Llegó a descubrir que aquel hombre callado conocía mil historias del pueblo. Lucas comprendió que un pequeño gesto puede abrir la puerta a una gran amistad.\n\n¿Cuál es el mensaje principal del texto?",
+   "options": [
+    "Los ancianos prefieren vivir solos.",
+    "Es importante llegar temprano a la escuela.",
+    "Las manzanas rojas son las mejores.",
+    "Un pequeño gesto de ayuda puede crear una amistad."
+   ],
+   "answer": 3,
+   "explain": "El final lo dice con claridad: un pequeño gesto puede abrir la puerta a una gran amistad.",
+   "source": "scope_2026",
+   "local_ref": "Chanak Local Extension · Spanish Language Arts",
+   "lu": {
+    "id": "LU-SPA-RD-07-1",
+    "slot": 1,
+    "concept": {
+     "en": "Theme of a story",
+     "es": "Tema o mensaje de un relato"
+    },
+    "tip": {
+     "en": "After a story, ask what lesson the character learned.",
+     "es": "Después de un cuento, pregunte qué lección aprendió el personaje."
+    }
+   }
+  },
+  {
+   "id": "SP-07-R2",
+   "subject": "spa",
+   "level": 7,
+   "ace": null,
+   "strand": "reading",
+   "skill": "Supporting detail",
+   "type": "mcq",
+   "prompt": "Cada mañana, Lucas recorría el mismo camino hacia la escuela. Pasaba junto a un viejo huerto cuyo dueño, don Anselmo, apenas levantaba la vista de la tierra. Un día de otoño, Lucas notó que el anciano luchaba por mover un saco de patatas. Sin pensarlo, soltó la mochila y le ayudó a cargarlo hasta el cobertizo. Don Anselmo sonrió por primera vez y le ofreció una manzana roja. «Gracias, muchacho; hoy me ha hecho falta una mano amiga», dijo. Desde entonces, Lucas saludaba al anciano cada mañana y, a veces, se quedaba unos minutos conversando. Llegó a descubrir que aquel hombre callado conocía mil historias del pueblo. Lucas comprendió que un pequeño gesto puede abrir la puerta a una gran amistad.\n\n¿Qué le ofreció don Anselmo a Lucas después de recibir su ayuda?",
+   "options": [
+    "Una manzana roja",
+    "Un saco de patatas",
+    "Una mochila nueva",
+    "Una historia del pueblo"
+   ],
+   "answer": 0,
+   "explain": "El texto dice que don Anselmo le ofreció una manzana roja.",
+   "source": "scope_2026",
+   "local_ref": "Chanak Local Extension · Spanish Language Arts",
+   "lu": {
+    "id": "LU-SPA-RD-07-2",
+    "slot": 2,
+    "concept": {
+     "en": "Recalling story details",
+     "es": "Recordar detalles de un relato"
+    },
+    "tip": {
+     "en": "Retell a story together and check each detail against the text.",
+     "es": "Cuenten juntos un relato y comprueben cada detalle con el texto."
+    }
+   }
+  },
+  {
+   "id": "SP-07-R3",
+   "subject": "spa",
+   "level": 7,
+   "ace": null,
+   "strand": "reading",
+   "skill": "Word meaning in context",
+   "type": "mcq",
+   "prompt": "Cada mañana, Lucas recorría el mismo camino hacia la escuela. Pasaba junto a un viejo huerto cuyo dueño, don Anselmo, apenas levantaba la vista de la tierra. Un día de otoño, Lucas notó que el anciano luchaba por mover un saco de patatas. Sin pensarlo, soltó la mochila y le ayudó a cargarlo hasta el cobertizo. Don Anselmo sonrió por primera vez y le ofreció una manzana roja. «Gracias, muchacho; hoy me ha hecho falta una mano amiga», dijo. Desde entonces, Lucas saludaba al anciano cada mañana y, a veces, se quedaba unos minutos conversando. Llegó a descubrir que aquel hombre callado conocía mil historias del pueblo. Lucas comprendió que un pequeño gesto puede abrir la puerta a una gran amistad.\n\nEn la expresión «apenas levantaba la vista de la tierra», la palabra «apenas» significa:",
+   "options": [
+    "muy rápido",
+    "casi no",
+    "con enojo",
+    "siempre"
+   ],
+   "answer": 1,
+   "explain": "«Apenas» indica que don Anselmo casi no levantaba la vista.",
+   "source": "scope_2026",
+   "local_ref": "Chanak Local Extension · Spanish Language Arts",
+   "lu": {
+    "id": "LU-SPA-RD-07-3",
+    "slot": 3,
+    "concept": {
+     "en": "Word meaning from context",
+     "es": "Significado de palabras por el contexto"
+    },
+    "tip": {
+     "en": "When your child finds an unknown word, guess its meaning from the sentence before using a dictionary.",
+     "es": "Cuando su hijo halle una palabra desconocida, que deduzca su significado por la frase antes de usar el diccionario."
+    }
+   }
+  },
+  {
+   "id": "SP-08-G1",
+   "subject": "spa",
+   "level": 8,
+   "ace": null,
+   "strand": "grammar",
+   "skill": "Identifying the subject",
+   "type": "mcq",
+   "prompt": "¿Cuál es el sujeto de la oración «Ayer llegaron los primos de mi madre»?",
+   "options": [
+    "Ayer",
+    "de mi madre",
+    "los primos de mi madre",
+    "llegaron"
+   ],
+   "answer": 2,
+   "explain": "El sujeto es quien realiza la acción y concuerda con «llegaron»: «los primos de mi madre».",
+   "source": "scope_2026",
+   "local_ref": "Chanak Local Extension · Spanish Language Arts",
+   "lu": {
+    "id": "LU-SPA-GR-08-1",
+    "slot": 1,
+    "concept": {
+     "en": "Finding the subject of a sentence",
+     "es": "Reconocer el sujeto de la oración"
+    },
+    "tip": {
+     "en": "Ask 'who did the action?' and check that the verb agrees in number.",
+     "es": "Pregunte «¿quién realiza la acción?» y compruebe que el verbo concuerda en número."
+    }
+   }
+  },
+  {
+   "id": "SP-08-G2",
+   "subject": "spa",
+   "level": 8,
+   "ace": null,
+   "strand": "grammar",
+   "skill": "Spelling g/j",
+   "type": "mcq",
+   "prompt": "¿En qué serie todas las palabras están escritas correctamente?",
+   "options": [
+    "viage, extranjero, conserje",
+    "viaje, estrangero, conserje",
+    "viaje, extranjero, conserge",
+    "viaje, extranjero, conserje"
+   ],
+   "answer": 3,
+   "explain": "«Viaje», «extranjero» y «conserje» se escriben con j.",
+   "source": "scope_2026",
+   "local_ref": "Chanak Local Extension · Spanish Language Arts",
+   "lu": {
+    "id": "LU-SPA-GR-08-2",
+    "slot": 2,
+    "concept": {
+     "en": "Spelling with g and j",
+     "es": "Ortografía de g y j"
+    },
+    "tip": {
+     "en": "Make a list of words ending in -aje and -jero and check them in a dictionary.",
+     "es": "Hagan una lista de palabras terminadas en -aje y -jero y compruébenlas en el diccionario."
+    }
+   }
+  },
+  {
+   "id": "SP-08-G3",
+   "subject": "spa",
+   "level": 8,
+   "ace": null,
+   "strand": "grammar",
+   "skill": "Object pronouns",
+   "type": "mcq",
+   "prompt": "¿Qué oración usa correctamente el pronombre?",
+   "options": [
+    "A mis tíos les envié una postal.",
+    "A mis tíos los envié una postal.",
+    "A mis tíos lo envié una postal.",
+    "A mis tíos las envié una postal."
+   ],
+   "answer": 0,
+   "explain": "«Postal» es el complemento directo; «a mis tíos» es indirecto plural y se sustituye por «les».",
+   "source": "scope_2026",
+   "local_ref": "Chanak Local Extension · Spanish Language Arts",
+   "lu": {
+    "id": "LU-SPA-GR-08-3",
+    "slot": 3,
+    "concept": {
+     "en": "Correct use of le/les",
+     "es": "Uso correcto de le/les"
+    },
+    "tip": {
+     "en": "Replace 'a mis padres' or 'a mi amigo' with le/les in sentences and read them aloud.",
+     "es": "Sustituyan «a mis padres» o «a mi amigo» por le/les en oraciones y léanlas en voz alta."
+    }
+   }
+  },
+  {
+   "id": "SP-08-G4",
+   "subject": "spa",
+   "level": 8,
+   "ace": null,
+   "strand": "grammar",
+   "skill": "Text types",
+   "type": "mcq",
+   "prompt": "Un texto que empieza con «Ingredientes: dos huevos y una taza de harina. Preparación: bate los huevos y añade la harina poco a poco» es un texto:",
+   "options": [
+    "narrativo",
+    "instructivo",
+    "argumentativo",
+    "poético"
+   ],
+   "answer": 1,
+   "explain": "Indica pasos para hacer algo, por lo que es un texto instructivo.",
+   "source": "scope_2026",
+   "local_ref": "Chanak Local Extension · Spanish Language Arts",
+   "lu": {
+    "id": "LU-SPA-GR-08-4",
+    "slot": 4,
+    "concept": {
+     "en": "Types of text",
+     "es": "Tipos de texto"
+    },
+    "tip": {
+     "en": "Look at a recipe, a story and a news item and name the type of each.",
+     "es": "Observen una receta, un cuento y una noticia y nombren el tipo de cada uno."
+    }
+   }
+  },
+  {
+   "id": "SP-08-R1",
+   "subject": "spa",
+   "level": 8,
+   "ace": null,
+   "strand": "reading",
+   "skill": "Supporting detail",
+   "type": "mcq",
+   "prompt": "Algunas personas piensan que leer en pantalla es lo mismo que leer en papel, pero varios estudios sugieren lo contrario. Al leer en papel, el lector recuerda mejor dónde estaba cada idea, porque ve la página como un mapa. En una pantalla, en cambio, es fácil distraerse con notificaciones y saltar de un texto a otro. Por ejemplo, quien lee en el sofá con el móvil al lado suele interrumpirse cada pocos minutos. Esto no significa que los dispositivos digitales sean malos: permiten llevar cientos de libros en el bolsillo y consultar un diccionario al instante. Sin embargo, para estudiar con profundidad, conviene elegir un lugar tranquilo y, si es posible, un libro impreso. Por eso, muchos profesores recomiendan alternar ambos formatos. Lo importante es leer con atención, sea cual sea el soporte. Al fin y al cabo, el hábito de la lectura se construye cada día.\n\nSegún el texto, ¿qué ventaja tienen los dispositivos digitales?",
+   "options": [
+    "Evitan por completo las distracciones.",
+    "Ayudan a recordar mejor dónde está cada idea.",
+    "Permiten llevar cientos de libros y consultar un diccionario al instante.",
+    "Son más baratos que cualquier libro impreso."
+   ],
+   "answer": 2,
+   "explain": "El texto menciona que permiten llevar cientos de libros en el bolsillo y consultar un diccionario.",
+   "source": "scope_2026",
+   "local_ref": "Chanak Local Extension · Spanish Language Arts",
+   "lu": {
+    "id": "LU-SPA-RD-08-1",
+    "slot": 1,
+    "concept": {
+     "en": "Finding supporting details",
+     "es": "Localizar detalles de apoyo"
+    },
+    "tip": {
+     "en": "Underline in two colors the pros and cons an author mentions.",
+     "es": "Subrayen con dos colores las ventajas y desventajas que menciona el autor."
+    }
+   }
+  },
+  {
+   "id": "SP-08-R2",
+   "subject": "spa",
+   "level": 8,
+   "ace": null,
+   "strand": "reading",
+   "skill": "Inference",
+   "type": "mcq",
+   "prompt": "Algunas personas piensan que leer en pantalla es lo mismo que leer en papel, pero varios estudios sugieren lo contrario. Al leer en papel, el lector recuerda mejor dónde estaba cada idea, porque ve la página como un mapa. En una pantalla, en cambio, es fácil distraerse con notificaciones y saltar de un texto a otro. Por ejemplo, quien lee en el sofá con el móvil al lado suele interrumpirse cada pocos minutos. Esto no significa que los dispositivos digitales sean malos: permiten llevar cientos de libros en el bolsillo y consultar un diccionario al instante. Sin embargo, para estudiar con profundidad, conviene elegir un lugar tranquilo y, si es posible, un libro impreso. Por eso, muchos profesores recomiendan alternar ambos formatos. Lo importante es leer con atención, sea cual sea el soporte. Al fin y al cabo, el hábito de la lectura se construye cada día.\n\n¿Qué recomendaría el autor a un estudiante que debe preparar un examen difícil?",
+   "options": [
+    "Estudiar solo con el móvil en el sofá.",
+    "Dejar de leer durante unos días.",
+    "Usar únicamente dispositivos digitales.",
+    "Leer en un lugar tranquilo, preferiblemente en un libro impreso."
+   ],
+   "answer": 3,
+   "explain": "El texto aconseja un lugar tranquilo y, si es posible, un libro impreso para estudiar con profundidad.",
+   "source": "scope_2026",
+   "local_ref": "Chanak Local Extension · Spanish Language Arts",
+   "lu": {
+    "id": "LU-SPA-RD-08-2",
+    "slot": 2,
+    "concept": {
+     "en": "Inferring recommendations",
+     "es": "Inferir recomendaciones"
+    },
+    "tip": {
+     "en": "Ask your child what advice the author would give in a new situation, and why.",
+     "es": "Pregunte a su hijo qué consejo daría el autor en una situación nueva y por qué."
+    }
+   }
+  },
+  {
+   "id": "SP-08-R3",
+   "subject": "spa",
+   "level": 8,
+   "ace": null,
+   "strand": "reading",
+   "skill": "Author's purpose",
+   "type": "mcq",
+   "prompt": "Algunas personas piensan que leer en pantalla es lo mismo que leer en papel, pero varios estudios sugieren lo contrario. Al leer en papel, el lector recuerda mejor dónde estaba cada idea, porque ve la página como un mapa. En una pantalla, en cambio, es fácil distraerse con notificaciones y saltar de un texto a otro. Por ejemplo, quien lee en el sofá con el móvil al lado suele interrumpirse cada pocos minutos. Esto no significa que los dispositivos digitales sean malos: permiten llevar cientos de libros en el bolsillo y consultar un diccionario al instante. Sin embargo, para estudiar con profundidad, conviene elegir un lugar tranquilo y, si es posible, un libro impreso. Por eso, muchos profesores recomiendan alternar ambos formatos. Lo importante es leer con atención, sea cual sea el soporte. Al fin y al cabo, el hábito de la lectura se construye cada día.\n\n¿Cuál es la intención principal del autor?",
+   "options": [
+    "Orientar al lector para leer mejor, valorando el papel y lo digital.",
+    "Convencer al lector de que abandone los dispositivos digitales.",
+    "Contar una anécdota divertida sobre un libro.",
+    "Describir cómo se fabrican los libros impresos."
+   ],
+   "answer": 0,
+   "explain": "El autor compara ambos soportes y ofrece consejos sin rechazar ninguno.",
+   "source": "scope_2026",
+   "local_ref": "Chanak Local Extension · Spanish Language Arts",
+   "lu": {
+    "id": "LU-SPA-RD-08-3",
+    "slot": 3,
+    "concept": {
+     "en": "Author's purpose",
+     "es": "Intención del autor"
+    },
+    "tip": {
+     "en": "Ask whether an article wants to inform, persuade or entertain, and what clues show it.",
+     "es": "Pregunte si un artículo quiere informar, convencer o entretener, y qué pistas lo muestran."
+    }
+   }
+  },
+  {
+   "id": "SP-09-G1",
+   "subject": "spa",
+   "level": 9,
+   "ace": null,
+   "strand": "grammar",
+   "skill": "Subordinate clauses",
+   "type": "mcq",
+   "prompt": "¿Cuál de las siguientes oraciones es compuesta por subordinación?",
+   "options": [
+    "Llegué temprano y me senté a esperar.",
+    "Dijo que vendría mañana.",
+    "Estudia mucho; aprueba siempre.",
+    "Ni canta ni baila en las fiestas."
+   ],
+   "answer": 1,
+   "explain": "«Que vendría mañana» depende del verbo «dijo», así que es una subordinada; las otras son coordinadas o yuxtapuestas.",
+   "source": "scope_2026",
+   "local_ref": "Chanak Local Extension · Spanish Language Arts",
+   "lu": {
+    "id": "LU-SPA-GR-09-1",
+    "slot": 1,
+    "concept": {
+     "en": "Compound sentences: subordination",
+     "es": "Oraciones compuestas: subordinación"
+    },
+    "tip": {
+     "en": "Ask your child to turn two short sentences into one using «que», «porque» or «cuando».",
+     "es": "Pida a su hijo que una dos oraciones cortas con «que», «porque» o «cuando»."
+    }
+   }
+  },
+  {
+   "id": "SP-09-G2",
+   "subject": "spa",
+   "level": 9,
+   "ace": null,
+   "strand": "grammar",
+   "skill": "Common errors: dequeísmo",
+   "type": "mcq",
+   "prompt": "¿Cuál de estas oraciones usa correctamente la preposición «de» ante «que»?",
+   "options": [
+    "Pienso de que tienes razón.",
+    "Me dijo de que llegaría tarde.",
+    "Opino de que debemos esperar.",
+    "Estoy seguro de que vendrá."
+   ],
+   "answer": 3,
+   "explain": "«Estar seguro» exige «de»; con «pensar», «decir» y «opinar» no se usa «de» ante «que» (dequeísmo).",
+   "source": "scope_2026",
+   "local_ref": "Chanak Local Extension · Spanish Language Arts",
+   "lu": {
+    "id": "LU-SPA-GR-09-2",
+    "slot": 2,
+    "concept": {
+     "en": "Dequeísmo",
+     "es": "Dequeísmo"
+    },
+    "tip": {
+     "en": "Check if a verb needs «de»: turn the clause into «eso» (¿Pienso eso? Yes, so no «de»).",
+     "es": "Compruebe si hace falta «de» sustituyendo la oración por «eso»: «pienso eso», luego no lleva «de»."
+    }
+   }
+  },
+  {
+   "id": "SP-09-G3",
+   "subject": "spa",
+   "level": 9,
+   "ace": null,
+   "strand": "grammar",
+   "skill": "Comma and semicolon",
+   "type": "mcq",
+   "prompt": "¿En cuál de estas oraciones el punto y coma está bien empleado?",
+   "options": [
+    "Unos prefieren el mar; otros, la montaña.",
+    "Compré pan; y leche.",
+    "Cuando llegues; avísame.",
+    "Mi hermano; que vive en Cádiz, viene hoy."
+   ],
+   "answer": 0,
+   "explain": "El punto y coma separa dos miembros paralelos; en el segundo, la coma sustituye al verbo omitido «prefieren».",
+   "source": "scope_2026",
+   "local_ref": "Chanak Local Extension · Spanish Language Arts",
+   "lu": {
+    "id": "LU-SPA-GR-09-3",
+    "slot": 3,
+    "concept": {
+     "en": "Semicolon use",
+     "es": "Uso del punto y coma"
+    },
+    "tip": {
+     "en": "Have your child write two parallel sentences and join them with a semicolon.",
+     "es": "Pida a su hijo que escriba dos oraciones paralelas y las una con punto y coma."
+    }
+   }
+  },
+  {
+   "id": "SP-09-G4",
+   "subject": "spa",
+   "level": 9,
+   "ace": null,
+   "strand": "grammar",
+   "skill": "Figures of speech",
+   "type": "mcq",
+   "prompt": "En la frase «El viento susurraba entre los árboles» se emplea la figura literaria llamada",
+   "options": [
+    "metáfora",
+    "hipérbole",
+    "personificación",
+    "ironía"
+   ],
+   "answer": 2,
+   "explain": "Se atribuye una acción humana, susurrar, a un elemento de la naturaleza: es una personificación.",
+   "source": "scope_2026",
+   "local_ref": "Chanak Local Extension · Spanish Language Arts",
+   "lu": {
+    "id": "LU-SPA-GR-09-4",
+    "slot": 4,
+    "concept": {
+     "en": "Personification",
+     "es": "Personificación"
+    },
+    "tip": {
+     "en": "Look for nature poems together and spot where objects act like people.",
+     "es": "Busquen poemas sobre la naturaleza y localicen dónde las cosas actúan como personas."
+    }
+   }
+  },
+  {
+   "id": "SP-09-R1",
+   "subject": "spa",
+   "level": 9,
+   "ace": null,
+   "strand": "reading",
+   "skill": "Main idea",
+   "type": "mcq",
+   "prompt": "Durante siglos, los faros guiaron a los marineros en las noches de tormenta. Quien vivía en ellos, el farero, tenía una tarea sencilla y a la vez enorme: mantener encendida la luz sin que importaran el frío, la soledad o el cansancio. Cada tarde limpiaba las lentes, comprobaba el mecanismo y anotaba en un cuaderno el estado del mar. Aunque casi nadie conocía su nombre, de su constancia dependían cientos de vidas. Hoy los sistemas automáticos han sustituido a casi todos los fareros, pero los faros siguen en pie como monumentos silenciosos que recuerdan el valor del trabajo discreto. Quizá por eso, quien se detiene ante uno de ellos siente, más que nostalgia, una profunda gratitud hacia quienes velaron por desconocidos.\n\n¿Cuál es la idea principal del texto?",
+   "options": [
+    "Los sistemas automáticos son mejores que los fareros.",
+    "Los faros se construyeron solo para decorar la costa.",
+    "El trabajo constante y discreto de los fareros salvó vidas y merece ser recordado.",
+    "La vida del farero era cómoda y muy conocida."
+   ],
+   "answer": 2,
+   "explain": "El texto subraya el valor del trabajo discreto de los fareros y la gratitud que merecen.",
+   "source": "scope_2026",
+   "local_ref": "Chanak Local Extension · Spanish Language Arts",
+   "lu": {
+    "id": "LU-SPA-RD-09-1",
+    "slot": 1,
+    "concept": {
+     "en": "Main idea",
+     "es": "Idea principal"
+    },
+    "tip": {
+     "en": "After reading, ask your child to say the text's message in one sentence.",
+     "es": "Tras leer, pida a su hijo que diga el mensaje del texto en una sola frase."
+    }
+   }
+  },
+  {
+   "id": "SP-09-R2",
+   "subject": "spa",
+   "level": 9,
+   "ace": null,
+   "strand": "reading",
+   "skill": "Locating details",
+   "type": "mcq",
+   "prompt": "Hacia 1450, Johannes Gutenberg perfeccionó en Maguncia la imprenta de tipos móviles. Hasta entonces, los libros se copiaban a mano, sobre todo en monasterios, y un solo volumen podía requerir meses de trabajo. Con la nueva técnica, un taller podía producir cientos de ejemplares en poco tiempo, y su precio descendió de manera notable. La primera obra de gran tamaño que imprimió fue la Biblia, cuyos ejemplares se distribuyeron por distintas ciudades europeas. Gracias a ello, la lectura dejó de ser un privilegio de unos pocos y las ideas circularon con una rapidez inédita. Los historiadores coinciden en que este invento favoreció la difusión del conocimiento, la alfabetización y el desarrollo de las universidades en los siglos siguientes.\n\nSegún el texto, ¿cuál fue la primera obra de gran tamaño que imprimió Gutenberg?",
+   "options": [
+    "La Biblia",
+    "El Quijote",
+    "La Divina Comedia",
+    "Un diccionario"
+   ],
+   "answer": 0,
+   "explain": "El texto afirma: «La primera obra de gran tamaño que imprimió fue la Biblia».",
+   "source": "scope_2026",
+   "local_ref": "Chanak Local Extension · Spanish Language Arts",
+   "lu": {
+    "id": "LU-SPA-RD-09-2",
+    "slot": 2,
+    "concept": {
+     "en": "Locating details",
+     "es": "Localizar detalles"
+    },
+    "tip": {
+     "en": "Ask where in the text the answer appears before choosing it.",
+     "es": "Pregunte en qué parte del texto aparece la respuesta antes de elegirla."
+    }
+   }
+  },
+  {
+   "id": "SP-09-R3",
+   "subject": "spa",
+   "level": 9,
+   "ace": null,
+   "strand": "reading",
+   "skill": "Inference",
+   "type": "mcq",
+   "prompt": "Marta llevaba semanas ensayando el discurso frente al espejo. Conocía cada pausa, cada gesto y cada palabra. Sin embargo, cuando la profesora pronunció su nombre y todos los compañeros volvieron la mirada hacia ella, sintió que las piernas le flaqueaban y que el papel temblaba entre sus manos. Respiró hondo, recordó las palabras de su abuelo —«el miedo no desaparece; se aprende a caminar con él»— y dio el primer paso hacia el estrado. Al terminar, el aplauso fue breve, pero a Marta le pareció el más sincero que había oído jamás. Esa noche, antes de dormir, escribió en su cuaderno una sola frase: «Hoy no vencí el miedo; lo acompañé».\n\nDel texto se deduce que Marta",
+   "options": [
+    "no preparó el discurso con anticipación.",
+    "se negó a subir al estrado.",
+    "quedó decepcionada porque el aplauso fue breve.",
+    "logró hablar a pesar de su miedo y lo consideró un logro personal."
+   ],
+   "answer": 3,
+   "explain": "Marta sintió miedo, pero habló y valoró haberlo «acompañado»; el aplauso breve le pareció sincero.",
+   "source": "scope_2026",
+   "local_ref": "Chanak Local Extension · Spanish Language Arts",
+   "lu": {
+    "id": "LU-SPA-RD-09-3",
+    "slot": 3,
+    "concept": {
+     "en": "Making inferences",
+     "es": "Hacer inferencias"
+    },
+    "tip": {
+     "en": "Ask «What does the text suggest without saying it directly?» about a story you read.",
+     "es": "Pregunte «¿qué sugiere el texto sin decirlo directamente?» sobre un cuento leído."
+    }
+   }
+  },
+  {
+   "id": "SP-10-G1",
+   "subject": "spa",
+   "level": 10,
+   "ace": null,
+   "strand": "grammar",
+   "skill": "Connectors and cohesion",
+   "type": "mcq",
+   "prompt": "Elige el conector que completa mejor la oración: «Estudió todo el curso con constancia; ___, aprobó con sobresaliente».",
+   "options": [
+    "sin embargo",
+    "no obstante",
+    "por consiguiente",
+    "en cambio"
+   ],
+   "answer": 2,
+   "explain": "El segundo hecho es consecuencia del primero, y «por consiguiente» expresa consecuencia; los demás expresan oposición.",
+   "source": "scope_2026",
+   "local_ref": "Chanak Local Extension · Spanish Language Arts",
+   "lu": {
+    "id": "LU-SPA-GR-10-1",
+    "slot": 1,
+    "concept": {
+     "en": "Connectors of consequence",
+     "es": "Conectores de consecuencia"
+    },
+    "tip": {
+     "en": "Write a sentence pair and test cause («porque»), consequence («por tanto») and contrast («sin embargo»).",
+     "es": "Escriban pares de oraciones y prueben causa («porque»), consecuencia («por tanto») y contraste («sin embargo»)."
+    }
+   }
+  },
+  {
+   "id": "SP-10-G2",
+   "subject": "spa",
+   "level": 10,
+   "ace": null,
+   "strand": "grammar",
+   "skill": "Register",
+   "type": "mcq",
+   "prompt": "¿Cuál de estas frases pertenece a un registro formal?",
+   "options": [
+    "Le ruego que me disculpe por el retraso.",
+    "Ey, pásame el lápiz, ¿sí?",
+    "Qué fastidio, no pienso ir ni loco.",
+    "Eso estuvo genial, amigo."
+   ],
+   "answer": 0,
+   "explain": "El tratamiento de usted, el verbo «rogar» y la cortesía propios de una disculpa corresponden al registro formal.",
+   "source": "scope_2026",
+   "local_ref": "Chanak Local Extension · Spanish Language Arts",
+   "lu": {
+    "id": "LU-SPA-GR-10-2",
+    "slot": 2,
+    "concept": {
+     "en": "Formal and informal register",
+     "es": "Registro formal e informal"
+    },
+    "tip": {
+     "en": "Ask your child to rewrite a text message as a polite email.",
+     "es": "Pida a su hijo que reescriba un mensaje de chat como un correo cortés."
+    }
+   }
+  },
+  {
+   "id": "SP-10-G3",
+   "subject": "spa",
+   "level": 10,
+   "ace": null,
+   "strand": "grammar",
+   "skill": "Subordinate clauses",
+   "type": "mcq",
+   "prompt": "En la oración «Me dijo que estudiaría medicina», la subordinada «que estudiaría medicina» es",
+   "options": [
+    "adjetiva (de relativo)",
+    "adverbial de causa",
+    "coordinada copulativa",
+    "sustantiva (complemento directo)"
+   ],
+   "answer": 3,
+   "explain": "Equivale a «Me dijo eso»: funciona como complemento directo, por lo que es sustantiva.",
+   "source": "scope_2026",
+   "local_ref": "Chanak Local Extension · Spanish Language Arts",
+   "lu": {
+    "id": "LU-SPA-GR-10-3",
+    "slot": 3,
+    "concept": {
+     "en": "Noun clauses",
+     "es": "Subordinadas sustantivas"
+    },
+    "tip": {
+     "en": "Replace the clause with «eso» to see if it works as a noun.",
+     "es": "Sustituyan la oración subordinada por «eso» para comprobar si funciona como un sustantivo."
+    }
+   }
+  },
+  {
+   "id": "SP-10-G4",
+   "subject": "spa",
+   "level": 10,
+   "ace": null,
+   "strand": "grammar",
+   "skill": "Etymology",
+   "type": "mcq",
+   "prompt": "La palabra «biblioteca» procede de dos términos griegos que significan, respectivamente,",
+   "options": [
+    "«papel» y «casa»",
+    "«libro» y «caja o depósito»",
+    "«escritura» y «sala»",
+    "«libro» y «mesa»"
+   ],
+   "answer": 1,
+   "explain": "Del griego «biblíon» (libro) y «théke» (caja, depósito): lugar donde se guardan libros.",
+   "source": "scope_2026",
+   "local_ref": "Chanak Local Extension · Spanish Language Arts",
+   "lu": {
+    "id": "LU-SPA-GR-10-4",
+    "slot": 4,
+    "concept": {
+     "en": "Greek roots",
+     "es": "Raíces griegas"
+    },
+    "tip": {
+     "en": "Look up the origin of a new word each week and note its parts.",
+     "es": "Busquen cada semana el origen de una palabra nueva y anoten sus partes."
+    }
+   }
+  },
+  {
+   "id": "SP-10-R1",
+   "subject": "spa",
+   "level": 10,
+   "ace": null,
+   "strand": "reading",
+   "skill": "Vocabulary in context",
+   "type": "mcq",
+   "prompt": "Valdeluz era un pueblo pequeño, encajado entre dos montañas, donde el invierno llegaba temprano y se marchaba tarde. Sus habitantes, hombres y mujeres de manos curtidas, vivían del pastoreo y de un huerto que cuidaban con esmero. Cuando la carretera por fin llegó al valle, algunos jóvenes partieron hacia la ciudad en busca de trabajo, y las casas empezaron a quedarse vacías. Los ancianos, sin embargo, se aferraron a sus tradiciones: cada septiembre celebraban la fiesta de la cosecha y repartían el pan recién horneado entre todos los vecinos. Decían que mientras hubiera quien amasara, el pueblo no moriría. Y aunque las calles se volvían cada año más silenciosas, el aroma del pan seguía anunciando que allí aún había vida.\n\nEn el texto, la expresión «manos curtidas» significa manos",
+   "options": [
+    "limpias y muy suaves.",
+    "endurecidas por el trabajo y el clima.",
+    "cubiertas de tierra recién sembrada.",
+    "heridas de gravedad."
+   ],
+   "answer": 1,
+   "explain": "«Curtido» se aplica a la piel endurecida por el trabajo al aire libre.",
+   "source": "scope_2026",
+   "local_ref": "Chanak Local Extension · Spanish Language Arts",
+   "lu": {
+    "id": "LU-SPA-RD-10-1",
+    "slot": 1,
+    "concept": {
+     "en": "Word meaning in context",
+     "es": "Significado en contexto"
+    },
+    "tip": {
+     "en": "Cover an unknown word and guess its meaning from the sentence before using a dictionary.",
+     "es": "Tape una palabra desconocida y deduzca su significado por la frase antes de usar el diccionario."
+    }
+   }
+  },
+  {
+   "id": "SP-10-R2",
+   "subject": "spa",
+   "level": 10,
+   "ace": null,
+   "strand": "reading",
+   "skill": "Author's purpose",
+   "type": "mcq",
+   "prompt": "Se suele repetir que los jóvenes ya no leen. Sin embargo, basta observar a cualquiera de ellos durante un trayecto en autobús para comprobar que lee constantemente: mensajes, noticias, subtítulos, foros. El problema no es la cantidad, sino la profundidad. Leer un libro exige sostener la atención durante horas, seguir un argumento complejo y tolerar el silencio, hábitos que las pantallas, con su avalancha de estímulos breves, no entrenan. Por eso conviene que la escuela y la familia reserven cada día un tiempo sin interrupciones para la lectura pausada. No se trata de demonizar la tecnología, sino de recordar que ciertas capacidades solo se cultivan con paciencia y con constancia, igual que se cultiva un huerto o se aprende un instrumento.\n\n¿Cuál es la intención principal del autor del texto?",
+   "options": [
+    "Informar sobre la historia de la lectura.",
+    "Defender que los jóvenes no leen nada.",
+    "Narrar una experiencia personal en autobús.",
+    "Persuadir de que conviene fomentar la lectura pausada sin rechazar la tecnología."
+   ],
+   "answer": 3,
+   "explain": "El autor argumenta y propone que escuela y familia reserven tiempo para leer, sin demonizar la tecnología.",
+   "source": "scope_2026",
+   "local_ref": "Chanak Local Extension · Spanish Language Arts",
+   "lu": {
+    "id": "LU-SPA-RD-10-2",
+    "slot": 2,
+    "concept": {
+     "en": "Author's purpose",
+     "es": "Intención del autor"
+    },
+    "tip": {
+     "en": "Ask «Is the author trying to inform, persuade or entertain?» about any text.",
+     "es": "Pregunte «¿el autor quiere informar, persuadir o entretener?» sobre cualquier texto."
+    }
+   }
+  },
+  {
+   "id": "SP-10-R3",
+   "subject": "spa",
+   "level": 10,
+   "ace": null,
+   "strand": "reading",
+   "skill": "Inference",
+   "type": "mcq",
+   "prompt": "Las abejas no solo producen miel; su labor más valiosa pasa casi inadvertida. Al posarse sobre las flores para recoger néctar, transportan el polen de una planta a otra y hacen posible la fecundación de numerosos cultivos. Se calcula que gran parte de los alimentos que consumimos, como frutas, hortalizas y frutos secos, depende en mayor o menor medida de este trabajo de polinización. Por eso, la disminución de las poblaciones de abejas, provocada por el uso excesivo de pesticidas y la pérdida de espacios naturales, preocupa a los científicos. Cuidar de ellas no es un capricho ecológico: es proteger nuestra propia despensa. Reconocer el valor de lo pequeño es, también, una forma de gratitud hacia la creación.\n\nDel texto se deduce que, si desaparecieran las abejas,",
+   "options": [
+    "solo se dejaría de producir miel.",
+    "se verían afectados muchos cultivos y, con ellos, la alimentación humana.",
+    "aumentaría el uso de pesticidas.",
+    "las flores darían más néctar."
+   ],
+   "answer": 1,
+   "explain": "Al depender de la polinización gran parte de los alimentos, su desaparición afectaría a la comida humana.",
+   "source": "scope_2026",
+   "local_ref": "Chanak Local Extension · Spanish Language Arts",
+   "lu": {
+    "id": "LU-SPA-RD-10-3",
+    "slot": 3,
+    "concept": {
+     "en": "Making inferences",
+     "es": "Hacer inferencias"
+    },
+    "tip": {
+     "en": "Ask «What would happen if…?» about facts in a science text.",
+     "es": "Pregunte «¿qué pasaría si…?» a partir de datos de un texto científico."
+    }
+   }
+  },
+  {
+   "id": "SP-11-G1",
+   "subject": "spa",
+   "level": 11,
+   "ace": null,
+   "strand": "grammar",
+   "skill": "Subordinate clauses",
+   "type": "mcq",
+   "prompt": "En «Los alumnos que estudian aprueban», la oración «que estudian» es una subordinada",
+   "options": [
+    "adjetiva o de relativo",
+    "sustantiva de complemento directo",
+    "adverbial temporal",
+    "adverbial concesiva"
+   ],
+   "answer": 0,
+   "explain": "Modifica al sustantivo «alumnos» y está introducida por el relativo «que»: es adjetiva.",
+   "source": "scope_2026",
+   "local_ref": "Chanak Local Extension · Spanish Language Arts",
+   "lu": {
+    "id": "LU-SPA-GR-11-1",
+    "slot": 1,
+    "concept": {
+     "en": "Relative clauses",
+     "es": "Subordinadas adjetivas"
+    },
+    "tip": {
+     "en": "Find the noun that the «que» clause describes in each sentence you read.",
+     "es": "Localicen qué sustantivo describe la oración con «que» en cada frase que lean."
+    }
+   }
+  },
+  {
+   "id": "SP-11-G2",
+   "subject": "spa",
+   "level": 11,
+   "ace": null,
+   "strand": "grammar",
+   "skill": "Common errors: queísmo",
+   "type": "mcq",
+   "prompt": "¿Cuál de estas oraciones presenta queísmo (omisión incorrecta de «de» ante «que»)?",
+   "options": [
+    "Estoy convencido de que acertamos.",
+    "Se acordó de que tenía una cita.",
+    "Me di cuenta que había llegado tarde.",
+    "Me alegra que hayas venido."
+   ],
+   "answer": 2,
+   "explain": "«Darse cuenta» exige «de»: «Me di cuenta de que había llegado tarde».",
+   "source": "scope_2026",
+   "local_ref": "Chanak Local Extension · Spanish Language Arts",
+   "lu": {
+    "id": "LU-SPA-GR-11-2",
+    "slot": 2,
+    "concept": {
+     "en": "Queísmo",
+     "es": "Queísmo"
+    },
+    "tip": {
+     "en": "Ask «¿De qué me di cuenta?»; if the question needs «de», the sentence needs it too.",
+     "es": "Pregunte «¿de qué me di cuenta?»; si la pregunta lleva «de», la oración también."
+    }
+   }
+  },
+  {
+   "id": "SP-11-G3",
+   "subject": "spa",
+   "level": 11,
+   "ace": null,
+   "strand": "grammar",
+   "skill": "Literary movements",
+   "type": "mcq",
+   "prompt": "El poeta nicaragüense Rubén Darío es el máximo representante del movimiento literario llamado",
+   "options": [
+    "Barroco",
+    "Romanticismo",
+    "Realismo",
+    "Modernismo"
+   ],
+   "answer": 3,
+   "explain": "Con «Azul…» (1888), Darío inició el Modernismo hispánico, que busca belleza formal y musicalidad.",
+   "source": "scope_2026",
+   "local_ref": "Chanak Local Extension · Spanish Language Arts",
+   "lu": {
+    "id": "LU-SPA-GR-11-3",
+    "slot": 3,
+    "concept": {
+     "en": "Modernismo",
+     "es": "Modernismo"
+    },
+    "tip": {
+     "en": "Read aloud a short poem by Darío and notice its musicality.",
+     "es": "Lean en voz alta un poema breve de Darío y noten su musicalidad."
+    }
+   }
+  },
+  {
+   "id": "SP-11-G4",
+   "subject": "spa",
+   "level": 11,
+   "ace": null,
+   "strand": "grammar",
+   "skill": "Figures of speech",
+   "type": "mcq",
+   "prompt": "El verso «Érase un hombre a una nariz pegado», de Quevedo, se basa en la figura de",
+   "options": [
+    "anáfora (repetición)",
+    "hipérbole (exageración)",
+    "personificación",
+    "antítesis"
+   ],
+   "answer": 1,
+   "explain": "Quevedo exagera de forma burlesca el tamaño de una nariz: es una hipérbole.",
+   "source": "scope_2026",
+   "local_ref": "Chanak Local Extension · Spanish Language Arts",
+   "lu": {
+    "id": "LU-SPA-GR-11-4",
+    "slot": 4,
+    "concept": {
+     "en": "Hyperbole",
+     "es": "Hipérbole"
+    },
+    "tip": {
+     "en": "Invent a funny exaggeration about an everyday situation and name the figure.",
+     "es": "Inventen una exageración divertida sobre algo cotidiano y nombren la figura."
+    }
+   }
+  },
+  {
+   "id": "SP-11-R1",
+   "subject": "spa",
+   "level": 11,
+   "ace": null,
+   "strand": "reading",
+   "skill": "Main idea",
+   "type": "mcq",
+   "prompt": "Las lenguas no son monumentos inmóviles, sino organismos vivos que se transforman con quienes las hablan. El latín, hablado con ligeras variantes en todo el Imperio romano, dio origen con el paso de los siglos al castellano, al catalán, al gallego, al francés y al italiano. Cada una de esas lenguas conservó gran parte del léxico latino, pero lo adaptó a la boca y a las necesidades de sus hablantes: de «filius» surgió «hijo»; de «factum», «hecho». Más tarde llegaron préstamos del árabe, como «aceituna» o «almohada», y del náhuatl, como «chocolate» o «tomate». Lejos de empobrecer el idioma, estas aportaciones lo enriquecieron. Defender una lengua no consiste, pues, en impedir su cambio, sino en cuidarla con conocimiento y respeto.\n\n¿Cuál es la idea principal del texto?",
+   "options": [
+    "Las lenguas evolucionan y se enriquecen con préstamos, por lo que cuidarlas no consiste en frenar su cambio.",
+    "El castellano es la única lengua derivada del latín.",
+    "Los préstamos empobrecen los idiomas.",
+    "El latín sigue hablándose sin cambios en todo el mundo."
+   ],
+   "answer": 0,
+   "explain": "El texto sostiene que las lenguas cambian y se enriquecen, y que defenderlas es cuidarlas, no inmovilizarlas.",
+   "source": "scope_2026",
+   "local_ref": "Chanak Local Extension · Spanish Language Arts",
+   "lu": {
+    "id": "LU-SPA-RD-11-1",
+    "slot": 1,
+    "concept": {
+     "en": "Main idea",
+     "es": "Idea principal"
+    },
+    "tip": {
+     "en": "Ask your child to summarize a text in two lines without copying phrases.",
+     "es": "Pida a su hijo que resuma un texto en dos líneas sin copiar frases."
+    }
+   }
+  },
+  {
+   "id": "SP-11-R2",
+   "subject": "spa",
+   "level": 11,
+   "ace": null,
+   "strand": "reading",
+   "skill": "Inference",
+   "type": "mcq",
+   "prompt": "Cuando Elena abrió por fin la puerta de la casa familiar, un olor a membrillo y a madera vieja la envolvió. Los muebles, cubiertos con sábanas blancas, parecían figuras dormidas. Recorrió el pasillo despacio, sin atreverse a encender la luz, y se detuvo ante la mecedora junto a la ventana. Allí, sobre el reposabrazos, seguía el pañuelo bordado que su abuela usaba para secarse las manos mientras contaba historias. Elena lo tomó con cuidado, lo acercó al rostro y cerró los ojos. Durante un instante, la casa dejó de estar vacía: volvió a oír la voz pausada, el crujido de la silla y la risa que llenaba las tardes de domingo. Cuando abrió los ojos, tenía el pañuelo apretado en el puño y las mejillas mojadas.\n\n¿Qué se puede inferir del fragmento?",
+   "options": [
+    "Que Elena visita la casa por primera vez.",
+    "Que Elena tiene miedo de los muebles.",
+    "Que la abuela de Elena ya no vive y Elena la recuerda con cariño.",
+    "Que la abuela se mudó a otra ciudad y no escribe."
+   ],
+   "answer": 2,
+   "explain": "El silencio de la casa, los muebles cubiertos y el llanto de Elena sugieren la ausencia de la abuela y el afecto hacia ella.",
+   "source": "scope_2026",
+   "local_ref": "Chanak Local Extension · Spanish Language Arts",
+   "lu": {
+    "id": "LU-SPA-RD-11-2",
+    "slot": 2,
+    "concept": {
+     "en": "Making inferences",
+     "es": "Hacer inferencias"
+    },
+    "tip": {
+     "en": "Underline the clues in a story that support an idea the author never states.",
+     "es": "Subrayen en un cuento las pistas que apoyan una idea que el autor no dice."
+    }
+   }
+  },
+  {
+   "id": "SP-11-R3",
+   "subject": "spa",
+   "level": 11,
+   "ace": null,
+   "strand": "reading",
+   "skill": "Vocabulary in context",
+   "type": "mcq",
+   "prompt": "Hay quien piensa que la cortesía es un adorno heredado de épocas pasadas, un barniz superfluo que solo sirve para aparentar. Sin embargo, quien ha tenido que convivir con personas desconsideradas sabe cuánto pesa una palabra áspera y cuánto alivia un simple «gracias». La cortesía no es un lujo: es el lubricante que permite que muchas personas distintas compartan el mismo espacio sin chocar a cada instante. Además, resulta contagiosa. Un saludo amable en la cola del supermercado suele devolver otro saludo amable, y ese pequeño gesto, repetido miles de veces al día en una ciudad, cambia el clima de toda una comunidad. Por eso, lejos de ser superflua, la buena educación es una de las formas más sencillas de ejercer el amor al prójimo.\n\nEn el texto, la palabra «superfluo» significa",
+   "options": [
+    "valioso e imprescindible.",
+    "innecesario, que sobra.",
+    "heredado de los antepasados.",
+    "ofensivo para los demás."
+   ],
+   "answer": 1,
+   "explain": "Quien lo piensa cree que la cortesía «solo sirve para aparentar», es decir, que es innecesaria.",
+   "source": "scope_2026",
+   "local_ref": "Chanak Local Extension · Spanish Language Arts",
+   "lu": {
+    "id": "LU-SPA-RD-11-3",
+    "slot": 3,
+    "concept": {
+     "en": "Word meaning in context",
+     "es": "Significado en contexto"
+    },
+    "tip": {
+     "en": "Keep a list of new words with a sentence from the reading where each appeared.",
+     "es": "Lleven una lista de palabras nuevas con la frase de la lectura donde aparecieron."
+    }
+   }
+  },
+  {
+   "id": "SP-12-G1",
+   "subject": "spa",
+   "level": 12,
+   "ace": null,
+   "strand": "grammar",
+   "skill": "Golden Age literature",
+   "type": "mcq",
+   "prompt": "¿Cuál de estas obras pertenece al Siglo de Oro español?",
+   "options": [
+    "Rimas y leyendas, de Bécquer",
+    "Azul…, de Rubén Darío",
+    "Platero y yo, de Juan Ramón Jiménez",
+    "La vida es sueño, de Calderón de la Barca"
+   ],
+   "answer": 3,
+   "explain": "Calderón de la Barca escribió en el siglo XVII, en pleno Siglo de Oro; las demás obras son de los siglos XIX y XX.",
+   "source": "scope_2026",
+   "local_ref": "Chanak Local Extension · Spanish Language Arts",
+   "lu": {
+    "id": "LU-SPA-GR-12-1",
+    "slot": 1,
+    "concept": {
+     "en": "Spanish Golden Age",
+     "es": "Siglo de Oro español"
+    },
+    "tip": {
+     "en": "Match each author you read with the century in which he lived.",
+     "es": "Relacionen cada autor que lean con el siglo en que vivió."
+    }
+   }
+  },
+  {
+   "id": "SP-12-G2",
+   "subject": "spa",
+   "level": 12,
+   "ace": null,
+   "strand": "grammar",
+   "skill": "Comma use",
+   "type": "mcq",
+   "prompt": "¿En cuál de estas oraciones la coma está mal utilizada?",
+   "options": [
+    "Mi primo, estudia en Sevilla.",
+    "Madrid, la capital de España, está en el centro del país.",
+    "Luis, ven aquí un momento.",
+    "Si llueve, nos quedaremos en casa."
+   ],
+   "answer": 0,
+   "explain": "No se separa con coma el sujeto del verbo: debe escribirse «Mi primo estudia en Sevilla».",
+   "source": "scope_2026",
+   "local_ref": "Chanak Local Extension · Spanish Language Arts",
+   "lu": {
+    "id": "LU-SPA-GR-12-2",
+    "slot": 2,
+    "concept": {
+     "en": "Commas",
+     "es": "La coma"
+    },
+    "tip": {
+     "en": "Proofread a paragraph looking only for commas placed between subject and verb.",
+     "es": "Revisen un párrafo buscando solo comas entre el sujeto y el verbo."
+    }
+   }
+  },
+  {
+   "id": "SP-12-G3",
+   "subject": "spa",
+   "level": 12,
+   "ace": null,
+   "strand": "grammar",
+   "skill": "Adverbial clauses",
+   "type": "mcq",
+   "prompt": "En «Aunque estaba cansado, siguió corriendo», la subordinada expresa",
+   "options": [
+    "causa",
+    "concesión (un obstáculo que no impide la acción)",
+    "condición",
+    "finalidad"
+   ],
+   "answer": 1,
+   "explain": "«Aunque» introduce una dificultad que no impide que se cumpla la acción principal: es concesiva.",
+   "source": "scope_2026",
+   "local_ref": "Chanak Local Extension · Spanish Language Arts",
+   "lu": {
+    "id": "LU-SPA-GR-12-3",
+    "slot": 3,
+    "concept": {
+     "en": "Concessive clauses",
+     "es": "Subordinadas concesivas"
+    },
+    "tip": {
+     "en": "Write sentences starting with «aunque» about things you did despite difficulties.",
+     "es": "Escriban oraciones con «aunque» sobre cosas que lograron pese a las dificultades."
+    }
+   }
+  },
+  {
+   "id": "SP-12-G4",
+   "subject": "spa",
+   "level": 12,
+   "ace": null,
+   "strand": "grammar",
+   "skill": "Plot structure",
+   "type": "mcq",
+   "prompt": "Una novela que comienza con el final de la historia y luego retrocede para contar cómo se llegó a él emplea una estructura",
+   "options": [
+    "lineal o cronológica",
+    "paralela",
+    "retrospectiva (analepsis)",
+    "epistolar"
+   ],
+   "answer": 2,
+   "explain": "Volver atrás en el tiempo para narrar lo anterior es una analepsis o retrospección.",
+   "source": "scope_2026",
+   "local_ref": "Chanak Local Extension · Spanish Language Arts",
+   "lu": {
+    "id": "LU-SPA-GR-12-4",
+    "slot": 4,
+    "concept": {
+     "en": "Narrative structure: flashback",
+     "es": "Estructura narrativa: analepsis"
+    },
+    "tip": {
+     "en": "Retell a favorite story starting at the end and moving back in time.",
+     "es": "Cuenten una historia favorita empezando por el final y retrocediendo en el tiempo."
+    }
+   }
+  },
+  {
+   "id": "SP-12-R1",
+   "subject": "spa",
+   "level": 12,
+   "ace": null,
+   "strand": "reading",
+   "skill": "Main idea",
+   "type": "mcq",
+   "prompt": "Cuando Miguel de Cervantes publicó en 1605 la primera parte del Quijote, probablemente no imaginaba que su obra se convertiría en referencia universal. Su protagonista, un hidalgo que enloquece de tanto leer libros de caballerías, sale al mundo para deshacer entuertos y se topa con una realidad que desmiente sus ideales. Pero la novela no se limita a burlarse de él: a medida que avanzan las aventuras, el lector descubre en Alonso Quijano una nobleza genuina y una fidelidad al bien que contrastan con el egoísmo de muchos cuerdos. Esa ambigüedad, que mezcla humor y ternura, explica que cada época haya releído el libro a su manera. Más de cuatro siglos después, seguimos riendo con don Quijote, pero también nos reconocemos en su empeño por vivir según lo que creemos justo.\n\n¿Cuál es la idea principal del texto?",
+   "options": [
+    "El Quijote es solo una burla de los libros de caballerías.",
+    "Cervantes escribió el Quijote para criticar a los hidalgos.",
+    "Los lectores actuales ya no comprenden el Quijote.",
+    "El Quijote perdura porque combina humor y ternura y revela la nobleza de su protagonista, lo que permite lecturas distintas en cada época."
+   ],
+   "answer": 3,
+   "explain": "El texto destaca la ambigüedad entre humor y ternura y la nobleza de don Quijote como causas de su vigencia.",
+   "source": "scope_2026",
+   "local_ref": "Chanak Local Extension · Spanish Language Arts",
+   "lu": {
+    "id": "LU-SPA-RD-12-1",
+    "slot": 1,
+    "concept": {
+     "en": "Main idea",
+     "es": "Idea principal"
+    },
+    "tip": {
+     "en": "After a chapter, ask what the author wants the reader to remember most.",
+     "es": "Tras un capítulo, pregunte qué quiere el autor que el lector recuerde más."
+    }
+   }
+  },
+  {
+   "id": "SP-12-R2",
+   "subject": "spa",
+   "level": 12,
+   "ace": null,
+   "strand": "reading",
+   "skill": "Inference",
+   "type": "mcq",
+   "prompt": "En las últimas décadas, muchas ciudades han sustituido sus plazas por centros comerciales. El cambio parece inocuo, pero conviene examinarlo con atención. En una plaza, cualquiera puede sentarse sin consumir, conversar con un desconocido o dejar jugar a los niños sin que nadie pregunte qué compra. En un centro comercial, en cambio, la permanencia está condicionada al gasto, y el espacio, aunque abierto al público, pertenece a una empresa que fija las reglas. No se trata de condenar el comercio, que genera empleo y riqueza, sino de advertir que una comunidad necesita también lugares gratuitos donde sus miembros se encuentren como vecinos y no como clientes. Allí donde esos lugares desaparecen, se debilita la vida compartida.\n\nDel texto se deduce que el autor considera que",
+   "options": [
+    "el comercio debe prohibirse en las ciudades.",
+    "las plazas cumplen una función social que los centros comerciales no sustituyen del todo.",
+    "los centros comerciales no generan empleo.",
+    "las plazas son más rentables que los centros comerciales."
+   ],
+   "answer": 1,
+   "explain": "Defiende lugares gratuitos de encuentro sin condenar el comercio, que reconoce que genera empleo y riqueza.",
+   "source": "scope_2026",
+   "local_ref": "Chanak Local Extension · Spanish Language Arts",
+   "lu": {
+    "id": "LU-SPA-RD-12-2",
+    "slot": 2,
+    "concept": {
+     "en": "Making inferences",
+     "es": "Hacer inferencias"
+    },
+    "tip": {
+     "en": "Discuss what position the author holds even when it is never stated directly.",
+     "es": "Conversen sobre qué postura tiene el autor aunque no la diga directamente."
+    }
+   }
+  },
+  {
+   "id": "SP-12-R3",
+   "subject": "spa",
+   "level": 12,
+   "ace": null,
+   "strand": "reading",
+   "skill": "Vocabulary in context",
+   "type": "mcq",
+   "prompt": "El telegrama era escueto: «Llego el martes. Esperadme». Nadie en la casa supo qué pensar. Tras veinte años de silencio, Andrés regresaba sin explicaciones, sin una línea de afecto, y ese laconismo desconcertó a la familia. La madre dobló el papel con cuidado y dijo que ya habría tiempo para las preguntas. El martes, a primera hora, preparó la mesa grande, sacó el mantel de las fiestas y cocinó el guiso que a su hijo le gustaba de niño. Cuando por fin se oyeron los pasos en el zaguán, nadie preguntó nada. Andrés dejó la maleta en el suelo, miró la mesa servida y, con la voz quebrada, solo logró pronunciar una palabra: «Perdón». La madre, sin soltar el cucharón, respondió: «Siéntate».\n\nEn el texto, el adjetivo «escueto» significa",
+   "options": [
+    "breve y sin adornos.",
+    "extenso y detallado.",
+    "cariñoso y emotivo.",
+    "urgente y alarmante."
+   ],
+   "answer": 0,
+   "explain": "El telegrama solo dice «Llego el martes. Esperadme»; el texto lo llama también «laconismo», es decir, brevedad.",
+   "source": "scope_2026",
+   "local_ref": "Chanak Local Extension · Spanish Language Arts",
+   "lu": {
+    "id": "LU-SPA-RD-12-3",
+    "slot": 3,
+    "concept": {
+     "en": "Word meaning in context",
+     "es": "Significado en contexto"
+    },
+    "tip": {
+     "en": "Look for synonyms nearby in the text that help define a new word.",
+     "es": "Busquen en el texto sinónimos cercanos que ayuden a definir una palabra nueva."
+    }
+   }
+  }
+ ]
+}

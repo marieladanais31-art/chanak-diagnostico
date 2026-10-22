@@ -1,6 +1,6 @@
 {
- "version": "1.1",
- "note": "Catálogo base de unidades de aprendizaje (LU) de Chanak: semilla de la plataforma. Una LU por concepto diagnóstico; las referencias externas (ACE PACE) son solo orientativas. v1.1: añade unidades del Scope & Sequence 2026-27 (lectura de inglés y temas faltantes de Matemáticas).",
+ "version": "1.2",
+ "note": "Catálogo base de unidades de aprendizaje (LU) de Chanak: semilla de la plataforma. Una LU por concepto diagnóstico; las referencias externas (ACE PACE) son solo orientativas. v1.1: añade unidades del Scope & Sequence 2026-27 (lectura de inglés y temas faltantes de Matemáticas). v1.2: añade Dominio de castellano (opcional; Extensión Local).",
  "units": [
   {
    "id": "LU-ELA-00-01",
@@ -7995,6 +7995,1623 @@
    },
    "origin": "scope_2026",
    "domain": "grammar"
+  },
+  {
+   "id": "LU-SPA-GR-02-1",
+   "subject": "spa",
+   "level": 2,
+   "slot": 1,
+   "concept": {
+    "en": "Counting syllables",
+    "es": "Contar sílabas"
+   },
+   "tip": {
+    "en": "Clap each syllable of a word with your child and count the claps.",
+    "es": "Den una palmada por cada sílaba de una palabra y cuenten juntos."
+   },
+   "florida_strand": null,
+   "florida_code": null,
+   "refs": {
+    "ace_pace": null
+   },
+   "origin": "scope_2026_local_extension",
+   "domain": "grammar"
+  },
+  {
+   "id": "LU-SPA-GR-02-2",
+   "subject": "spa",
+   "level": 2,
+   "slot": 2,
+   "concept": {
+    "en": "Capital letters",
+    "es": "Uso de mayúsculas"
+   },
+   "tip": {
+    "en": "Ask your child to find capital letters in a short book page and say why each is used.",
+    "es": "Pida a su hijo que busque las mayúsculas en una página y explique por qué se usan."
+   },
+   "florida_strand": null,
+   "florida_code": null,
+   "refs": {
+    "ace_pace": null
+   },
+   "origin": "scope_2026_local_extension",
+   "domain": "grammar"
+  },
+  {
+   "id": "LU-SPA-GR-02-3",
+   "subject": "spa",
+   "level": 2,
+   "slot": 3,
+   "concept": {
+    "en": "Spelling with b and v",
+    "es": "Ortografía de b y v"
+   },
+   "tip": {
+    "en": "Make a small list of common words with v and b and read them aloud together.",
+    "es": "Hagan una lista de palabras con v y con b y léanlas en voz alta."
+   },
+   "florida_strand": null,
+   "florida_code": null,
+   "refs": {
+    "ace_pace": null
+   },
+   "origin": "scope_2026_local_extension",
+   "domain": "grammar"
+  },
+  {
+   "id": "LU-SPA-GR-02-4",
+   "subject": "spa",
+   "level": 2,
+   "slot": 4,
+   "concept": {
+    "en": "Singular and plural nouns",
+    "es": "Singular y plural"
+   },
+   "tip": {
+    "en": "Point at objects at home and say them in singular and plural.",
+    "es": "Señalen objetos de la casa y díganlos en singular y en plural."
+   },
+   "florida_strand": null,
+   "florida_code": null,
+   "refs": {
+    "ace_pace": null
+   },
+   "origin": "scope_2026_local_extension",
+   "domain": "grammar"
+  },
+  {
+   "id": "LU-SPA-RD-02-1",
+   "subject": "spa",
+   "level": 2,
+   "slot": 1,
+   "concept": {
+    "en": "Main idea of a short text",
+    "es": "Idea principal"
+   },
+   "tip": {
+    "en": "After reading a short story, ask your child to tell what it was about in one sentence.",
+    "es": "Después de leer un cuento corto, pida a su hijo que diga de qué trató en una frase."
+   },
+   "florida_strand": null,
+   "florida_code": null,
+   "refs": {
+    "ace_pace": null
+   },
+   "origin": "scope_2026_local_extension",
+   "domain": "reading"
+  },
+  {
+   "id": "LU-SPA-RD-02-2",
+   "subject": "spa",
+   "level": 2,
+   "slot": 2,
+   "concept": {
+    "en": "Locating details in a text",
+    "es": "Buscar detalles en el texto"
+   },
+   "tip": {
+    "en": "Ask your child a who/what/where question and have them point to the sentence with the answer.",
+    "es": "Haga una pregunta de quién, qué o dónde y pida que señale la frase con la respuesta."
+   },
+   "florida_strand": null,
+   "florida_code": null,
+   "refs": {
+    "ace_pace": null
+   },
+   "origin": "scope_2026_local_extension",
+   "domain": "reading"
+  },
+  {
+   "id": "LU-SPA-RD-02-3",
+   "subject": "spa",
+   "level": 2,
+   "slot": 3,
+   "concept": {
+    "en": "Making simple inferences",
+    "es": "Deducir información"
+   },
+   "tip": {
+    "en": "While reading, pause and ask 'How do you know?' about what a character does.",
+    "es": "Mientras leen, pregunte «¿cómo lo sabes?» sobre lo que hace un personaje."
+   },
+   "florida_strand": null,
+   "florida_code": null,
+   "refs": {
+    "ace_pace": null
+   },
+   "origin": "scope_2026_local_extension",
+   "domain": "reading"
+  },
+  {
+   "id": "LU-SPA-GR-03-1",
+   "subject": "spa",
+   "level": 3,
+   "slot": 1,
+   "concept": {
+    "en": "Spelling with g and j",
+    "es": "Ortografía de g y j"
+   },
+   "tip": {
+    "en": "Look for words with ge, gi, je and ji in a book and sort them in two columns.",
+    "es": "Busquen en un libro palabras con ge, gi, je y ji y clasifíquenlas en dos columnas."
+   },
+   "florida_strand": null,
+   "florida_code": null,
+   "refs": {
+    "ace_pace": null
+   },
+   "origin": "scope_2026_local_extension",
+   "domain": "grammar"
+  },
+  {
+   "id": "LU-SPA-GR-03-2",
+   "subject": "spa",
+   "level": 3,
+   "slot": 2,
+   "concept": {
+    "en": "Spelling with c and qu",
+    "es": "Ortografía de c y qu"
+   },
+   "tip": {
+    "en": "Say words with the sound /k/ and have your child decide whether they use c or qu.",
+    "es": "Digan palabras con el sonido /k/ y pida a su hijo que decida si llevan c o qu."
+   },
+   "florida_strand": null,
+   "florida_code": null,
+   "refs": {
+    "ace_pace": null
+   },
+   "origin": "scope_2026_local_extension",
+   "domain": "grammar"
+  },
+  {
+   "id": "LU-SPA-GR-03-3",
+   "subject": "spa",
+   "level": 3,
+   "slot": 3,
+   "concept": {
+    "en": "Synonyms and antonyms",
+    "es": "Sinónimos y antónimos"
+   },
+   "tip": {
+    "en": "Play a game: say a word and your child answers with its opposite.",
+    "es": "Jueguen a decir una palabra para que su hijo responda con su contrario."
+   },
+   "florida_strand": null,
+   "florida_code": null,
+   "refs": {
+    "ace_pace": null
+   },
+   "origin": "scope_2026_local_extension",
+   "domain": "grammar"
+  },
+  {
+   "id": "LU-SPA-GR-03-4",
+   "subject": "spa",
+   "level": 3,
+   "slot": 4,
+   "concept": {
+    "en": "Using the comma in lists",
+    "es": "Uso de la coma en enumeraciones"
+   },
+   "tip": {
+    "en": "Ask your child to write a shopping list in one sentence, using commas correctly.",
+    "es": "Pida a su hijo que escriba una lista de compras en una oración usando bien las comas."
+   },
+   "florida_strand": null,
+   "florida_code": null,
+   "refs": {
+    "ace_pace": null
+   },
+   "origin": "scope_2026_local_extension",
+   "domain": "grammar"
+  },
+  {
+   "id": "LU-SPA-RD-03-1",
+   "subject": "spa",
+   "level": 3,
+   "slot": 1,
+   "concept": {
+    "en": "Main idea",
+    "es": "Idea principal"
+   },
+   "tip": {
+    "en": "Ask your child to give a short title for a paragraph that tells its main idea.",
+    "es": "Pida a su hijo que ponga un título corto a un párrafo que diga su idea principal."
+   },
+   "florida_strand": null,
+   "florida_code": null,
+   "refs": {
+    "ace_pace": null
+   },
+   "origin": "scope_2026_local_extension",
+   "domain": "reading"
+  },
+  {
+   "id": "LU-SPA-RD-03-2",
+   "subject": "spa",
+   "level": 3,
+   "slot": 2,
+   "concept": {
+    "en": "Locating details in a text",
+    "es": "Buscar detalles en el texto"
+   },
+   "tip": {
+    "en": "Read a short paragraph and ask two questions whose answers appear in the text.",
+    "es": "Lean un párrafo corto y hagan dos preguntas cuyas respuestas estén en el texto."
+   },
+   "florida_strand": null,
+   "florida_code": null,
+   "refs": {
+    "ace_pace": null
+   },
+   "origin": "scope_2026_local_extension",
+   "domain": "reading"
+  },
+  {
+   "id": "LU-SPA-RD-03-3",
+   "subject": "spa",
+   "level": 3,
+   "slot": 3,
+   "concept": {
+    "en": "Meaning of a word in context",
+    "es": "Significado de una palabra por el contexto"
+   },
+   "tip": {
+    "en": "When a new word appears, ask your child to guess its meaning from the sentences around it.",
+    "es": "Cuando aparezca una palabra nueva, pida que adivine su significado por las frases cercanas."
+   },
+   "florida_strand": null,
+   "florida_code": null,
+   "refs": {
+    "ace_pace": null
+   },
+   "origin": "scope_2026_local_extension",
+   "domain": "reading"
+  },
+  {
+   "id": "LU-SPA-GR-04-1",
+   "subject": "spa",
+   "level": 4,
+   "slot": 1,
+   "concept": {
+    "en": "Stress and accent marks: agudas",
+    "es": "Palabras agudas y tilde"
+   },
+   "tip": {
+    "en": "Say words aloud, tap the stressed syllable and decide whether it is the last one.",
+    "es": "Digan palabras en voz alta, marquen la sílaba tónica y vean si es la última."
+   },
+   "florida_strand": null,
+   "florida_code": null,
+   "refs": {
+    "ace_pace": null
+   },
+   "origin": "scope_2026_local_extension",
+   "domain": "grammar"
+  },
+  {
+   "id": "LU-SPA-GR-04-2",
+   "subject": "spa",
+   "level": 4,
+   "slot": 2,
+   "concept": {
+    "en": "Stress and accent marks: esdrújulas",
+    "es": "Palabras esdrújulas"
+   },
+   "tip": {
+    "en": "Collect words that are stressed on the third syllable from the end and always accent them.",
+    "es": "Reúnan palabras con la fuerza en la antepenúltima sílaba; todas llevan tilde."
+   },
+   "florida_strand": null,
+   "florida_code": null,
+   "refs": {
+    "ace_pace": null
+   },
+   "origin": "scope_2026_local_extension",
+   "domain": "grammar"
+  },
+  {
+   "id": "LU-SPA-GR-04-3",
+   "subject": "spa",
+   "level": 4,
+   "slot": 3,
+   "concept": {
+    "en": "Verb tenses: present, past, future",
+    "es": "Tiempos verbales: presente, pasado y futuro"
+   },
+   "tip": {
+    "en": "Tell what you did yesterday, today and tomorrow, and notice how the verb changes.",
+    "es": "Cuenten qué hicieron ayer, hoy y mañana y observen cómo cambia el verbo."
+   },
+   "florida_strand": null,
+   "florida_code": null,
+   "refs": {
+    "ace_pace": null
+   },
+   "origin": "scope_2026_local_extension",
+   "domain": "grammar"
+  },
+  {
+   "id": "LU-SPA-GR-04-4",
+   "subject": "spa",
+   "level": 4,
+   "slot": 4,
+   "concept": {
+    "en": "Spelling with silent h",
+    "es": "Ortografía de la h"
+   },
+   "tip": {
+    "en": "Learn words that start with hue-, hui-, hia- and use them in sentences.",
+    "es": "Aprendan palabras que empiezan con hue-, hui- o hia- y úsenlas en oraciones."
+   },
+   "florida_strand": null,
+   "florida_code": null,
+   "refs": {
+    "ace_pace": null
+   },
+   "origin": "scope_2026_local_extension",
+   "domain": "grammar"
+  },
+  {
+   "id": "LU-SPA-RD-04-1",
+   "subject": "spa",
+   "level": 4,
+   "slot": 1,
+   "concept": {
+    "en": "Main idea and supporting details",
+    "es": "Idea principal y detalles"
+   },
+   "tip": {
+    "en": "After reading, ask your child to summarize the text in one sentence without copying.",
+    "es": "Después de leer, pida un resumen en una sola frase sin copiar el texto."
+   },
+   "florida_strand": null,
+   "florida_code": null,
+   "refs": {
+    "ace_pace": null
+   },
+   "origin": "scope_2026_local_extension",
+   "domain": "reading"
+  },
+  {
+   "id": "LU-SPA-RD-04-2",
+   "subject": "spa",
+   "level": 4,
+   "slot": 2,
+   "concept": {
+    "en": "Making inferences",
+    "es": "Hacer inferencias"
+   },
+   "tip": {
+    "en": "Ask 'What do you think happens next and why?' while reading together.",
+    "es": "Pregunte «¿qué crees que pasará y por qué?» mientras leen juntos."
+   },
+   "florida_strand": null,
+   "florida_code": null,
+   "refs": {
+    "ace_pace": null
+   },
+   "origin": "scope_2026_local_extension",
+   "domain": "reading"
+  },
+  {
+   "id": "LU-SPA-RD-04-3",
+   "subject": "spa",
+   "level": 4,
+   "slot": 3,
+   "concept": {
+    "en": "Word meaning from context",
+    "es": "Significado de una palabra en contexto"
+   },
+   "tip": {
+    "en": "Look for a synonym or clue in the sentence that explains a new word.",
+    "es": "Busquen en la oración un sinónimo o una pista que explique la palabra nueva."
+   },
+   "florida_strand": null,
+   "florida_code": null,
+   "refs": {
+    "ace_pace": null
+   },
+   "origin": "scope_2026_local_extension",
+   "domain": "reading"
+  },
+  {
+   "id": "LU-SPA-GR-05-1",
+   "subject": "spa",
+   "level": 5,
+   "slot": 1,
+   "concept": {
+    "en": "Diphthongs and hiatus",
+    "es": "Diptongo e hiato"
+   },
+   "tip": {
+    "en": "Split words into syllables and mark where two vowels share a syllable.",
+    "es": "Separen palabras en sílabas y marquen dónde dos vocales comparten sílaba."
+   },
+   "florida_strand": null,
+   "florida_code": null,
+   "refs": {
+    "ace_pace": null
+   },
+   "origin": "scope_2026_local_extension",
+   "domain": "grammar"
+  },
+  {
+   "id": "LU-SPA-GR-05-2",
+   "subject": "spa",
+   "level": 5,
+   "slot": 2,
+   "concept": {
+    "en": "Word families",
+    "es": "Familias de palabras"
+   },
+   "tip": {
+    "en": "Pick a root word and write as many related words as you can in two minutes.",
+    "es": "Elijan una palabra base y escriban todas las relacionadas que puedan en dos minutos."
+   },
+   "florida_strand": null,
+   "florida_code": null,
+   "refs": {
+    "ace_pace": null
+   },
+   "origin": "scope_2026_local_extension",
+   "domain": "grammar"
+  },
+  {
+   "id": "LU-SPA-GR-05-3",
+   "subject": "spa",
+   "level": 5,
+   "slot": 3,
+   "concept": {
+    "en": "Spelling with ll and y",
+    "es": "Ortografía de ll y y"
+   },
+   "tip": {
+    "en": "Dictate five words with ll and y and check them together with a dictionary.",
+    "es": "Dicten cinco palabras con ll y con y y compruébenlas con un diccionario."
+   },
+   "florida_strand": null,
+   "florida_code": null,
+   "refs": {
+    "ace_pace": null
+   },
+   "origin": "scope_2026_local_extension",
+   "domain": "grammar"
+  },
+  {
+   "id": "LU-SPA-GR-05-4",
+   "subject": "spa",
+   "level": 5,
+   "slot": 4,
+   "concept": {
+    "en": "Opening and closing exclamation marks",
+    "es": "Signos de exclamación de apertura y cierre"
+   },
+   "tip": {
+    "en": "Write two questions and two exclamations, remembering the opening signs.",
+    "es": "Escriban dos preguntas y dos exclamaciones sin olvidar los signos de apertura."
+   },
+   "florida_strand": null,
+   "florida_code": null,
+   "refs": {
+    "ace_pace": null
+   },
+   "origin": "scope_2026_local_extension",
+   "domain": "grammar"
+  },
+  {
+   "id": "LU-SPA-RD-05-1",
+   "subject": "spa",
+   "level": 5,
+   "slot": 1,
+   "concept": {
+    "en": "Author's purpose",
+    "es": "Intención del autor"
+   },
+   "tip": {
+    "en": "Ask whether a text wants to inform, entertain or persuade, and why.",
+    "es": "Pregunte si un texto quiere informar, entretener o convencer, y por qué."
+   },
+   "florida_strand": null,
+   "florida_code": null,
+   "refs": {
+    "ace_pace": null
+   },
+   "origin": "scope_2026_local_extension",
+   "domain": "reading"
+  },
+  {
+   "id": "LU-SPA-RD-05-2",
+   "subject": "spa",
+   "level": 5,
+   "slot": 2,
+   "concept": {
+    "en": "Locating specific information",
+    "es": "Localizar información concreta"
+   },
+   "tip": {
+    "en": "Underline the sentence that answers each question to practice finding evidence.",
+    "es": "Subrayen la frase que responde cada pregunta para practicar la búsqueda de pruebas."
+   },
+   "florida_strand": null,
+   "florida_code": null,
+   "refs": {
+    "ace_pace": null
+   },
+   "origin": "scope_2026_local_extension",
+   "domain": "reading"
+  },
+  {
+   "id": "LU-SPA-RD-05-3",
+   "subject": "spa",
+   "level": 5,
+   "slot": 3,
+   "concept": {
+    "en": "Inferring feelings and outcomes",
+    "es": "Inferir sentimientos y resultados"
+   },
+   "tip": {
+    "en": "Ask how a character feels and which words in the text show it.",
+    "es": "Pregunte cómo se siente un personaje y qué palabras del texto lo muestran."
+   },
+   "florida_strand": null,
+   "florida_code": null,
+   "refs": {
+    "ace_pace": null
+   },
+   "origin": "scope_2026_local_extension",
+   "domain": "reading"
+  },
+  {
+   "id": "LU-SPA-GR-06-1",
+   "subject": "spa",
+   "level": 6,
+   "slot": 1,
+   "concept": {
+    "en": "Subject-verb agreement",
+    "es": "Concordancia sujeto-verbo"
+   },
+   "tip": {
+    "en": "Ask your child to say a sentence and change the subject from singular to plural, adjusting the verb.",
+    "es": "Pida a su hijo que diga una oración y cambie el sujeto de singular a plural, ajustando el verbo."
+   },
+   "florida_strand": null,
+   "florida_code": null,
+   "refs": {
+    "ace_pace": null
+   },
+   "origin": "scope_2026_local_extension",
+   "domain": "grammar"
+  },
+  {
+   "id": "LU-SPA-GR-06-2",
+   "subject": "spa",
+   "level": 6,
+   "slot": 2,
+   "concept": {
+    "en": "Spelling with b/v and written accents",
+    "es": "Ortografía de b/v y tildes"
+   },
+   "tip": {
+    "en": "Have your child write five words with b and five with v and check them in a dictionary.",
+    "es": "Haga que su hijo escriba cinco palabras con b y cinco con v y las compruebe en el diccionario."
+   },
+   "florida_strand": null,
+   "florida_code": null,
+   "refs": {
+    "ace_pace": null
+   },
+   "origin": "scope_2026_local_extension",
+   "domain": "grammar"
+  },
+  {
+   "id": "LU-SPA-GR-06-3",
+   "subject": "spa",
+   "level": 6,
+   "slot": 3,
+   "concept": {
+    "en": "Pronouns and what they refer to",
+    "es": "Pronombres y su referente"
+   },
+   "tip": {
+    "en": "Read a short paragraph together and circle each pronoun and the word it replaces.",
+    "es": "Lean juntos un párrafo corto y rodeen cada pronombre y la palabra que sustituye."
+   },
+   "florida_strand": null,
+   "florida_code": null,
+   "refs": {
+    "ace_pace": null
+   },
+   "origin": "scope_2026_local_extension",
+   "domain": "grammar"
+  },
+  {
+   "id": "LU-SPA-GR-06-4",
+   "subject": "spa",
+   "level": 6,
+   "slot": 4,
+   "concept": {
+    "en": "Hiatus versus diphthong",
+    "es": "Hiato y diptongo"
+   },
+   "tip": {
+    "en": "Clap the syllables of words like baúl, país and reina and notice where two vowels split.",
+    "es": "Den palmadas a las sílabas de palabras como baúl, país y reina y noten dónde se separan dos vocales."
+   },
+   "florida_strand": null,
+   "florida_code": null,
+   "refs": {
+    "ace_pace": null
+   },
+   "origin": "scope_2026_local_extension",
+   "domain": "grammar"
+  },
+  {
+   "id": "LU-SPA-RD-06-1",
+   "subject": "spa",
+   "level": 6,
+   "slot": 1,
+   "concept": {
+    "en": "Identifying the main idea",
+    "es": "Identificar la idea principal"
+   },
+   "tip": {
+    "en": "After reading, ask your child to summarize the text in one sentence.",
+    "es": "Después de leer, pida a su hijo que resuma el texto en una sola frase."
+   },
+   "florida_strand": null,
+   "florida_code": null,
+   "refs": {
+    "ace_pace": null
+   },
+   "origin": "scope_2026_local_extension",
+   "domain": "reading"
+  },
+  {
+   "id": "LU-SPA-RD-06-2",
+   "subject": "spa",
+   "level": 6,
+   "slot": 2,
+   "concept": {
+    "en": "Finding details in a text",
+    "es": "Localizar detalles en un texto"
+   },
+   "tip": {
+    "en": "Ask your child to point to the sentence that proves each answer.",
+    "es": "Pida a su hijo que señale la frase que demuestra cada respuesta."
+   },
+   "florida_strand": null,
+   "florida_code": null,
+   "refs": {
+    "ace_pace": null
+   },
+   "origin": "scope_2026_local_extension",
+   "domain": "reading"
+  },
+  {
+   "id": "LU-SPA-RD-06-3",
+   "subject": "spa",
+   "level": 6,
+   "slot": 3,
+   "concept": {
+    "en": "Making inferences",
+    "es": "Hacer inferencias"
+   },
+   "tip": {
+    "en": "Ask 'what would happen if...?' after a story or article and have your child explain why.",
+    "es": "Pregunte '¿qué pasaría si...?' después de un cuento o artículo y pida que explique por qué."
+   },
+   "florida_strand": null,
+   "florida_code": null,
+   "refs": {
+    "ace_pace": null
+   },
+   "origin": "scope_2026_local_extension",
+   "domain": "reading"
+  },
+  {
+   "id": "LU-SPA-GR-07-1",
+   "subject": "spa",
+   "level": 7,
+   "slot": 1,
+   "concept": {
+    "en": "Indicative and subjunctive moods",
+    "es": "Modo indicativo y subjuntivo"
+   },
+   "tip": {
+    "en": "Make wishes with 'Espero que...' and underline the verb that changes.",
+    "es": "Formulen deseos con «Espero que...» y subrayen el verbo que cambia."
+   },
+   "florida_strand": null,
+   "florida_code": null,
+   "refs": {
+    "ace_pace": null
+   },
+   "origin": "scope_2026_local_extension",
+   "domain": "grammar"
+  },
+  {
+   "id": "LU-SPA-GR-07-2",
+   "subject": "spa",
+   "level": 7,
+   "slot": 2,
+   "concept": {
+    "en": "Spelling with silent h",
+    "es": "Ortografía de la h"
+   },
+   "tip": {
+    "en": "Dictate a short sentence with forms of 'hacer' and 'haber' and review the h together.",
+    "es": "Dicte una oración corta con formas de «hacer» y «haber» y revisen juntos la h."
+   },
+   "florida_strand": null,
+   "florida_code": null,
+   "refs": {
+    "ace_pace": null
+   },
+   "origin": "scope_2026_local_extension",
+   "domain": "grammar"
+  },
+  {
+   "id": "LU-SPA-GR-07-3",
+   "subject": "spa",
+   "level": 7,
+   "slot": 3,
+   "concept": {
+    "en": "Direct and indirect objects",
+    "es": "Complementos directo e indirecto"
+   },
+   "tip": {
+    "en": "Ask 'what?' and 'to whom?' about a sentence to find its two objects.",
+    "es": "Pregunte «¿qué?» y «¿a quién?» sobre una oración para hallar sus dos complementos."
+   },
+   "florida_strand": null,
+   "florida_code": null,
+   "refs": {
+    "ace_pace": null
+   },
+   "origin": "scope_2026_local_extension",
+   "domain": "grammar"
+  },
+  {
+   "id": "LU-SPA-GR-07-4",
+   "subject": "spa",
+   "level": 7,
+   "slot": 4,
+   "concept": {
+    "en": "Question marks and vocative commas",
+    "es": "Signos de interrogación y coma vocativa"
+   },
+   "tip": {
+    "en": "Write three questions that start with a name and check the commas and both question marks.",
+    "es": "Escriban tres preguntas que empiecen con un nombre y revisen las comas y ambos signos de interrogación."
+   },
+   "florida_strand": null,
+   "florida_code": null,
+   "refs": {
+    "ace_pace": null
+   },
+   "origin": "scope_2026_local_extension",
+   "domain": "grammar"
+  },
+  {
+   "id": "LU-SPA-RD-07-1",
+   "subject": "spa",
+   "level": 7,
+   "slot": 1,
+   "concept": {
+    "en": "Theme of a story",
+    "es": "Tema o mensaje de un relato"
+   },
+   "tip": {
+    "en": "After a story, ask what lesson the character learned.",
+    "es": "Después de un cuento, pregunte qué lección aprendió el personaje."
+   },
+   "florida_strand": null,
+   "florida_code": null,
+   "refs": {
+    "ace_pace": null
+   },
+   "origin": "scope_2026_local_extension",
+   "domain": "reading"
+  },
+  {
+   "id": "LU-SPA-RD-07-2",
+   "subject": "spa",
+   "level": 7,
+   "slot": 2,
+   "concept": {
+    "en": "Recalling story details",
+    "es": "Recordar detalles de un relato"
+   },
+   "tip": {
+    "en": "Retell a story together and check each detail against the text.",
+    "es": "Cuenten juntos un relato y comprueben cada detalle con el texto."
+   },
+   "florida_strand": null,
+   "florida_code": null,
+   "refs": {
+    "ace_pace": null
+   },
+   "origin": "scope_2026_local_extension",
+   "domain": "reading"
+  },
+  {
+   "id": "LU-SPA-RD-07-3",
+   "subject": "spa",
+   "level": 7,
+   "slot": 3,
+   "concept": {
+    "en": "Word meaning from context",
+    "es": "Significado de palabras por el contexto"
+   },
+   "tip": {
+    "en": "When your child finds an unknown word, guess its meaning from the sentence before using a dictionary.",
+    "es": "Cuando su hijo halle una palabra desconocida, que deduzca su significado por la frase antes de usar el diccionario."
+   },
+   "florida_strand": null,
+   "florida_code": null,
+   "refs": {
+    "ace_pace": null
+   },
+   "origin": "scope_2026_local_extension",
+   "domain": "reading"
+  },
+  {
+   "id": "LU-SPA-GR-08-1",
+   "subject": "spa",
+   "level": 8,
+   "slot": 1,
+   "concept": {
+    "en": "Finding the subject of a sentence",
+    "es": "Reconocer el sujeto de la oración"
+   },
+   "tip": {
+    "en": "Ask 'who did the action?' and check that the verb agrees in number.",
+    "es": "Pregunte «¿quién realiza la acción?» y compruebe que el verbo concuerda en número."
+   },
+   "florida_strand": null,
+   "florida_code": null,
+   "refs": {
+    "ace_pace": null
+   },
+   "origin": "scope_2026_local_extension",
+   "domain": "grammar"
+  },
+  {
+   "id": "LU-SPA-GR-08-2",
+   "subject": "spa",
+   "level": 8,
+   "slot": 2,
+   "concept": {
+    "en": "Spelling with g and j",
+    "es": "Ortografía de g y j"
+   },
+   "tip": {
+    "en": "Make a list of words ending in -aje and -jero and check them in a dictionary.",
+    "es": "Hagan una lista de palabras terminadas en -aje y -jero y compruébenlas en el diccionario."
+   },
+   "florida_strand": null,
+   "florida_code": null,
+   "refs": {
+    "ace_pace": null
+   },
+   "origin": "scope_2026_local_extension",
+   "domain": "grammar"
+  },
+  {
+   "id": "LU-SPA-GR-08-3",
+   "subject": "spa",
+   "level": 8,
+   "slot": 3,
+   "concept": {
+    "en": "Correct use of le/les",
+    "es": "Uso correcto de le/les"
+   },
+   "tip": {
+    "en": "Replace 'a mis padres' or 'a mi amigo' with le/les in sentences and read them aloud.",
+    "es": "Sustituyan «a mis padres» o «a mi amigo» por le/les en oraciones y léanlas en voz alta."
+   },
+   "florida_strand": null,
+   "florida_code": null,
+   "refs": {
+    "ace_pace": null
+   },
+   "origin": "scope_2026_local_extension",
+   "domain": "grammar"
+  },
+  {
+   "id": "LU-SPA-GR-08-4",
+   "subject": "spa",
+   "level": 8,
+   "slot": 4,
+   "concept": {
+    "en": "Types of text",
+    "es": "Tipos de texto"
+   },
+   "tip": {
+    "en": "Look at a recipe, a story and a news item and name the type of each.",
+    "es": "Observen una receta, un cuento y una noticia y nombren el tipo de cada uno."
+   },
+   "florida_strand": null,
+   "florida_code": null,
+   "refs": {
+    "ace_pace": null
+   },
+   "origin": "scope_2026_local_extension",
+   "domain": "grammar"
+  },
+  {
+   "id": "LU-SPA-RD-08-1",
+   "subject": "spa",
+   "level": 8,
+   "slot": 1,
+   "concept": {
+    "en": "Finding supporting details",
+    "es": "Localizar detalles de apoyo"
+   },
+   "tip": {
+    "en": "Underline in two colors the pros and cons an author mentions.",
+    "es": "Subrayen con dos colores las ventajas y desventajas que menciona el autor."
+   },
+   "florida_strand": null,
+   "florida_code": null,
+   "refs": {
+    "ace_pace": null
+   },
+   "origin": "scope_2026_local_extension",
+   "domain": "reading"
+  },
+  {
+   "id": "LU-SPA-RD-08-2",
+   "subject": "spa",
+   "level": 8,
+   "slot": 2,
+   "concept": {
+    "en": "Inferring recommendations",
+    "es": "Inferir recomendaciones"
+   },
+   "tip": {
+    "en": "Ask your child what advice the author would give in a new situation, and why.",
+    "es": "Pregunte a su hijo qué consejo daría el autor en una situación nueva y por qué."
+   },
+   "florida_strand": null,
+   "florida_code": null,
+   "refs": {
+    "ace_pace": null
+   },
+   "origin": "scope_2026_local_extension",
+   "domain": "reading"
+  },
+  {
+   "id": "LU-SPA-RD-08-3",
+   "subject": "spa",
+   "level": 8,
+   "slot": 3,
+   "concept": {
+    "en": "Author's purpose",
+    "es": "Intención del autor"
+   },
+   "tip": {
+    "en": "Ask whether an article wants to inform, persuade or entertain, and what clues show it.",
+    "es": "Pregunte si un artículo quiere informar, convencer o entretener, y qué pistas lo muestran."
+   },
+   "florida_strand": null,
+   "florida_code": null,
+   "refs": {
+    "ace_pace": null
+   },
+   "origin": "scope_2026_local_extension",
+   "domain": "reading"
+  },
+  {
+   "id": "LU-SPA-GR-09-1",
+   "subject": "spa",
+   "level": 9,
+   "slot": 1,
+   "concept": {
+    "en": "Compound sentences: subordination",
+    "es": "Oraciones compuestas: subordinación"
+   },
+   "tip": {
+    "en": "Ask your child to turn two short sentences into one using «que», «porque» or «cuando».",
+    "es": "Pida a su hijo que una dos oraciones cortas con «que», «porque» o «cuando»."
+   },
+   "florida_strand": null,
+   "florida_code": null,
+   "refs": {
+    "ace_pace": null
+   },
+   "origin": "scope_2026_local_extension",
+   "domain": "grammar"
+  },
+  {
+   "id": "LU-SPA-GR-09-2",
+   "subject": "spa",
+   "level": 9,
+   "slot": 2,
+   "concept": {
+    "en": "Dequeísmo",
+    "es": "Dequeísmo"
+   },
+   "tip": {
+    "en": "Check if a verb needs «de»: turn the clause into «eso» (¿Pienso eso? Yes, so no «de»).",
+    "es": "Compruebe si hace falta «de» sustituyendo la oración por «eso»: «pienso eso», luego no lleva «de»."
+   },
+   "florida_strand": null,
+   "florida_code": null,
+   "refs": {
+    "ace_pace": null
+   },
+   "origin": "scope_2026_local_extension",
+   "domain": "grammar"
+  },
+  {
+   "id": "LU-SPA-GR-09-3",
+   "subject": "spa",
+   "level": 9,
+   "slot": 3,
+   "concept": {
+    "en": "Semicolon use",
+    "es": "Uso del punto y coma"
+   },
+   "tip": {
+    "en": "Have your child write two parallel sentences and join them with a semicolon.",
+    "es": "Pida a su hijo que escriba dos oraciones paralelas y las una con punto y coma."
+   },
+   "florida_strand": null,
+   "florida_code": null,
+   "refs": {
+    "ace_pace": null
+   },
+   "origin": "scope_2026_local_extension",
+   "domain": "grammar"
+  },
+  {
+   "id": "LU-SPA-GR-09-4",
+   "subject": "spa",
+   "level": 9,
+   "slot": 4,
+   "concept": {
+    "en": "Personification",
+    "es": "Personificación"
+   },
+   "tip": {
+    "en": "Look for nature poems together and spot where objects act like people.",
+    "es": "Busquen poemas sobre la naturaleza y localicen dónde las cosas actúan como personas."
+   },
+   "florida_strand": null,
+   "florida_code": null,
+   "refs": {
+    "ace_pace": null
+   },
+   "origin": "scope_2026_local_extension",
+   "domain": "grammar"
+  },
+  {
+   "id": "LU-SPA-RD-09-1",
+   "subject": "spa",
+   "level": 9,
+   "slot": 1,
+   "concept": {
+    "en": "Main idea",
+    "es": "Idea principal"
+   },
+   "tip": {
+    "en": "After reading, ask your child to say the text's message in one sentence.",
+    "es": "Tras leer, pida a su hijo que diga el mensaje del texto en una sola frase."
+   },
+   "florida_strand": null,
+   "florida_code": null,
+   "refs": {
+    "ace_pace": null
+   },
+   "origin": "scope_2026_local_extension",
+   "domain": "reading"
+  },
+  {
+   "id": "LU-SPA-RD-09-2",
+   "subject": "spa",
+   "level": 9,
+   "slot": 2,
+   "concept": {
+    "en": "Locating details",
+    "es": "Localizar detalles"
+   },
+   "tip": {
+    "en": "Ask where in the text the answer appears before choosing it.",
+    "es": "Pregunte en qué parte del texto aparece la respuesta antes de elegirla."
+   },
+   "florida_strand": null,
+   "florida_code": null,
+   "refs": {
+    "ace_pace": null
+   },
+   "origin": "scope_2026_local_extension",
+   "domain": "reading"
+  },
+  {
+   "id": "LU-SPA-RD-09-3",
+   "subject": "spa",
+   "level": 9,
+   "slot": 3,
+   "concept": {
+    "en": "Making inferences",
+    "es": "Hacer inferencias"
+   },
+   "tip": {
+    "en": "Ask «What does the text suggest without saying it directly?» about a story you read.",
+    "es": "Pregunte «¿qué sugiere el texto sin decirlo directamente?» sobre un cuento leído."
+   },
+   "florida_strand": null,
+   "florida_code": null,
+   "refs": {
+    "ace_pace": null
+   },
+   "origin": "scope_2026_local_extension",
+   "domain": "reading"
+  },
+  {
+   "id": "LU-SPA-GR-10-1",
+   "subject": "spa",
+   "level": 10,
+   "slot": 1,
+   "concept": {
+    "en": "Connectors of consequence",
+    "es": "Conectores de consecuencia"
+   },
+   "tip": {
+    "en": "Write a sentence pair and test cause («porque»), consequence («por tanto») and contrast («sin embargo»).",
+    "es": "Escriban pares de oraciones y prueben causa («porque»), consecuencia («por tanto») y contraste («sin embargo»)."
+   },
+   "florida_strand": null,
+   "florida_code": null,
+   "refs": {
+    "ace_pace": null
+   },
+   "origin": "scope_2026_local_extension",
+   "domain": "grammar"
+  },
+  {
+   "id": "LU-SPA-GR-10-2",
+   "subject": "spa",
+   "level": 10,
+   "slot": 2,
+   "concept": {
+    "en": "Formal and informal register",
+    "es": "Registro formal e informal"
+   },
+   "tip": {
+    "en": "Ask your child to rewrite a text message as a polite email.",
+    "es": "Pida a su hijo que reescriba un mensaje de chat como un correo cortés."
+   },
+   "florida_strand": null,
+   "florida_code": null,
+   "refs": {
+    "ace_pace": null
+   },
+   "origin": "scope_2026_local_extension",
+   "domain": "grammar"
+  },
+  {
+   "id": "LU-SPA-GR-10-3",
+   "subject": "spa",
+   "level": 10,
+   "slot": 3,
+   "concept": {
+    "en": "Noun clauses",
+    "es": "Subordinadas sustantivas"
+   },
+   "tip": {
+    "en": "Replace the clause with «eso» to see if it works as a noun.",
+    "es": "Sustituyan la oración subordinada por «eso» para comprobar si funciona como un sustantivo."
+   },
+   "florida_strand": null,
+   "florida_code": null,
+   "refs": {
+    "ace_pace": null
+   },
+   "origin": "scope_2026_local_extension",
+   "domain": "grammar"
+  },
+  {
+   "id": "LU-SPA-GR-10-4",
+   "subject": "spa",
+   "level": 10,
+   "slot": 4,
+   "concept": {
+    "en": "Greek roots",
+    "es": "Raíces griegas"
+   },
+   "tip": {
+    "en": "Look up the origin of a new word each week and note its parts.",
+    "es": "Busquen cada semana el origen de una palabra nueva y anoten sus partes."
+   },
+   "florida_strand": null,
+   "florida_code": null,
+   "refs": {
+    "ace_pace": null
+   },
+   "origin": "scope_2026_local_extension",
+   "domain": "grammar"
+  },
+  {
+   "id": "LU-SPA-RD-10-1",
+   "subject": "spa",
+   "level": 10,
+   "slot": 1,
+   "concept": {
+    "en": "Word meaning in context",
+    "es": "Significado en contexto"
+   },
+   "tip": {
+    "en": "Cover an unknown word and guess its meaning from the sentence before using a dictionary.",
+    "es": "Tape una palabra desconocida y deduzca su significado por la frase antes de usar el diccionario."
+   },
+   "florida_strand": null,
+   "florida_code": null,
+   "refs": {
+    "ace_pace": null
+   },
+   "origin": "scope_2026_local_extension",
+   "domain": "reading"
+  },
+  {
+   "id": "LU-SPA-RD-10-2",
+   "subject": "spa",
+   "level": 10,
+   "slot": 2,
+   "concept": {
+    "en": "Author's purpose",
+    "es": "Intención del autor"
+   },
+   "tip": {
+    "en": "Ask «Is the author trying to inform, persuade or entertain?» about any text.",
+    "es": "Pregunte «¿el autor quiere informar, persuadir o entretener?» sobre cualquier texto."
+   },
+   "florida_strand": null,
+   "florida_code": null,
+   "refs": {
+    "ace_pace": null
+   },
+   "origin": "scope_2026_local_extension",
+   "domain": "reading"
+  },
+  {
+   "id": "LU-SPA-RD-10-3",
+   "subject": "spa",
+   "level": 10,
+   "slot": 3,
+   "concept": {
+    "en": "Making inferences",
+    "es": "Hacer inferencias"
+   },
+   "tip": {
+    "en": "Ask «What would happen if…?» about facts in a science text.",
+    "es": "Pregunte «¿qué pasaría si…?» a partir de datos de un texto científico."
+   },
+   "florida_strand": null,
+   "florida_code": null,
+   "refs": {
+    "ace_pace": null
+   },
+   "origin": "scope_2026_local_extension",
+   "domain": "reading"
+  },
+  {
+   "id": "LU-SPA-GR-11-1",
+   "subject": "spa",
+   "level": 11,
+   "slot": 1,
+   "concept": {
+    "en": "Relative clauses",
+    "es": "Subordinadas adjetivas"
+   },
+   "tip": {
+    "en": "Find the noun that the «que» clause describes in each sentence you read.",
+    "es": "Localicen qué sustantivo describe la oración con «que» en cada frase que lean."
+   },
+   "florida_strand": null,
+   "florida_code": null,
+   "refs": {
+    "ace_pace": null
+   },
+   "origin": "scope_2026_local_extension",
+   "domain": "grammar"
+  },
+  {
+   "id": "LU-SPA-GR-11-2",
+   "subject": "spa",
+   "level": 11,
+   "slot": 2,
+   "concept": {
+    "en": "Queísmo",
+    "es": "Queísmo"
+   },
+   "tip": {
+    "en": "Ask «¿De qué me di cuenta?»; if the question needs «de», the sentence needs it too.",
+    "es": "Pregunte «¿de qué me di cuenta?»; si la pregunta lleva «de», la oración también."
+   },
+   "florida_strand": null,
+   "florida_code": null,
+   "refs": {
+    "ace_pace": null
+   },
+   "origin": "scope_2026_local_extension",
+   "domain": "grammar"
+  },
+  {
+   "id": "LU-SPA-GR-11-3",
+   "subject": "spa",
+   "level": 11,
+   "slot": 3,
+   "concept": {
+    "en": "Modernismo",
+    "es": "Modernismo"
+   },
+   "tip": {
+    "en": "Read aloud a short poem by Darío and notice its musicality.",
+    "es": "Lean en voz alta un poema breve de Darío y noten su musicalidad."
+   },
+   "florida_strand": null,
+   "florida_code": null,
+   "refs": {
+    "ace_pace": null
+   },
+   "origin": "scope_2026_local_extension",
+   "domain": "grammar"
+  },
+  {
+   "id": "LU-SPA-GR-11-4",
+   "subject": "spa",
+   "level": 11,
+   "slot": 4,
+   "concept": {
+    "en": "Hyperbole",
+    "es": "Hipérbole"
+   },
+   "tip": {
+    "en": "Invent a funny exaggeration about an everyday situation and name the figure.",
+    "es": "Inventen una exageración divertida sobre algo cotidiano y nombren la figura."
+   },
+   "florida_strand": null,
+   "florida_code": null,
+   "refs": {
+    "ace_pace": null
+   },
+   "origin": "scope_2026_local_extension",
+   "domain": "grammar"
+  },
+  {
+   "id": "LU-SPA-RD-11-1",
+   "subject": "spa",
+   "level": 11,
+   "slot": 1,
+   "concept": {
+    "en": "Main idea",
+    "es": "Idea principal"
+   },
+   "tip": {
+    "en": "Ask your child to summarize a text in two lines without copying phrases.",
+    "es": "Pida a su hijo que resuma un texto en dos líneas sin copiar frases."
+   },
+   "florida_strand": null,
+   "florida_code": null,
+   "refs": {
+    "ace_pace": null
+   },
+   "origin": "scope_2026_local_extension",
+   "domain": "reading"
+  },
+  {
+   "id": "LU-SPA-RD-11-2",
+   "subject": "spa",
+   "level": 11,
+   "slot": 2,
+   "concept": {
+    "en": "Making inferences",
+    "es": "Hacer inferencias"
+   },
+   "tip": {
+    "en": "Underline the clues in a story that support an idea the author never states.",
+    "es": "Subrayen en un cuento las pistas que apoyan una idea que el autor no dice."
+   },
+   "florida_strand": null,
+   "florida_code": null,
+   "refs": {
+    "ace_pace": null
+   },
+   "origin": "scope_2026_local_extension",
+   "domain": "reading"
+  },
+  {
+   "id": "LU-SPA-RD-11-3",
+   "subject": "spa",
+   "level": 11,
+   "slot": 3,
+   "concept": {
+    "en": "Word meaning in context",
+    "es": "Significado en contexto"
+   },
+   "tip": {
+    "en": "Keep a list of new words with a sentence from the reading where each appeared.",
+    "es": "Lleven una lista de palabras nuevas con la frase de la lectura donde aparecieron."
+   },
+   "florida_strand": null,
+   "florida_code": null,
+   "refs": {
+    "ace_pace": null
+   },
+   "origin": "scope_2026_local_extension",
+   "domain": "reading"
+  },
+  {
+   "id": "LU-SPA-GR-12-1",
+   "subject": "spa",
+   "level": 12,
+   "slot": 1,
+   "concept": {
+    "en": "Spanish Golden Age",
+    "es": "Siglo de Oro español"
+   },
+   "tip": {
+    "en": "Match each author you read with the century in which he lived.",
+    "es": "Relacionen cada autor que lean con el siglo en que vivió."
+   },
+   "florida_strand": null,
+   "florida_code": null,
+   "refs": {
+    "ace_pace": null
+   },
+   "origin": "scope_2026_local_extension",
+   "domain": "grammar"
+  },
+  {
+   "id": "LU-SPA-GR-12-2",
+   "subject": "spa",
+   "level": 12,
+   "slot": 2,
+   "concept": {
+    "en": "Commas",
+    "es": "La coma"
+   },
+   "tip": {
+    "en": "Proofread a paragraph looking only for commas placed between subject and verb.",
+    "es": "Revisen un párrafo buscando solo comas entre el sujeto y el verbo."
+   },
+   "florida_strand": null,
+   "florida_code": null,
+   "refs": {
+    "ace_pace": null
+   },
+   "origin": "scope_2026_local_extension",
+   "domain": "grammar"
+  },
+  {
+   "id": "LU-SPA-GR-12-3",
+   "subject": "spa",
+   "level": 12,
+   "slot": 3,
+   "concept": {
+    "en": "Concessive clauses",
+    "es": "Subordinadas concesivas"
+   },
+   "tip": {
+    "en": "Write sentences starting with «aunque» about things you did despite difficulties.",
+    "es": "Escriban oraciones con «aunque» sobre cosas que lograron pese a las dificultades."
+   },
+   "florida_strand": null,
+   "florida_code": null,
+   "refs": {
+    "ace_pace": null
+   },
+   "origin": "scope_2026_local_extension",
+   "domain": "grammar"
+  },
+  {
+   "id": "LU-SPA-GR-12-4",
+   "subject": "spa",
+   "level": 12,
+   "slot": 4,
+   "concept": {
+    "en": "Narrative structure: flashback",
+    "es": "Estructura narrativa: analepsis"
+   },
+   "tip": {
+    "en": "Retell a favorite story starting at the end and moving back in time.",
+    "es": "Cuenten una historia favorita empezando por el final y retrocediendo en el tiempo."
+   },
+   "florida_strand": null,
+   "florida_code": null,
+   "refs": {
+    "ace_pace": null
+   },
+   "origin": "scope_2026_local_extension",
+   "domain": "grammar"
+  },
+  {
+   "id": "LU-SPA-RD-12-1",
+   "subject": "spa",
+   "level": 12,
+   "slot": 1,
+   "concept": {
+    "en": "Main idea",
+    "es": "Idea principal"
+   },
+   "tip": {
+    "en": "After a chapter, ask what the author wants the reader to remember most.",
+    "es": "Tras un capítulo, pregunte qué quiere el autor que el lector recuerde más."
+   },
+   "florida_strand": null,
+   "florida_code": null,
+   "refs": {
+    "ace_pace": null
+   },
+   "origin": "scope_2026_local_extension",
+   "domain": "reading"
+  },
+  {
+   "id": "LU-SPA-RD-12-2",
+   "subject": "spa",
+   "level": 12,
+   "slot": 2,
+   "concept": {
+    "en": "Making inferences",
+    "es": "Hacer inferencias"
+   },
+   "tip": {
+    "en": "Discuss what position the author holds even when it is never stated directly.",
+    "es": "Conversen sobre qué postura tiene el autor aunque no la diga directamente."
+   },
+   "florida_strand": null,
+   "florida_code": null,
+   "refs": {
+    "ace_pace": null
+   },
+   "origin": "scope_2026_local_extension",
+   "domain": "reading"
+  },
+  {
+   "id": "LU-SPA-RD-12-3",
+   "subject": "spa",
+   "level": 12,
+   "slot": 3,
+   "concept": {
+    "en": "Word meaning in context",
+    "es": "Significado en contexto"
+   },
+   "tip": {
+    "en": "Look for synonyms nearby in the text that help define a new word.",
+    "es": "Busquen en el texto sinónimos cercanos que ayuden a definir una palabra nueva."
+   },
+   "florida_strand": null,
+   "florida_code": null,
+   "refs": {
+    "ace_pace": null
+   },
+   "origin": "scope_2026_local_extension",
+   "domain": "reading"
   }
  ]
 }

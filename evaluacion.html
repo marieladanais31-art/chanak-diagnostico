@@ -13,7 +13,7 @@
 </script>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Evaluación Diagnóstica Académica Internacional — Chanak International Academy</title>
+<title>International Academic Diagnostic — Chanak International Academy</title>
 <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&family=DM+Sans:wght@300;400;500;600&family=Source+Serif+4:wght@300;400;600&display=swap" rel="stylesheet">
 <style>
 :root{
@@ -383,7 +383,7 @@ details.refs summary{cursor:pointer;color:var(--gris);font-weight:600}
       <span>Evaluation · Education · Excellence</span>
     </div>
   </div>
-  <div class="langbar">
+  <div class="langbar" style="display:none" aria-hidden="true">
     <button class="langbtn on" data-lang="es" onclick="setLang('es')">ES</button>
     <button class="langbtn" data-lang="en" onclick="setLang('en')">EN</button>
   </div>
@@ -425,23 +425,21 @@ details.refs summary{cursor:pointer;color:var(--gris);font-weight:600}
     <div class="fi"><label data-es="Curso declarado por la familia *" data-en="Grade declared by the family *">Curso declarado por la familia *</label>
       <select id="f-curso">
         <option value="" data-es="-- Selecciona --" data-en="-- Select --">-- Selecciona --</option>
-        <option value="0">Kindergarten</option>
-        <option value="1">1.º / Grade 1</option><option value="2">2.º / Grade 2</option><option value="3">3.º / Grade 3</option>
-        <option value="4">4.º / Grade 4</option><option value="5">5.º / Grade 5</option><option value="6">6.º / Grade 6</option>
-        <option value="7">1.º ESO / Grade 7</option><option value="8">2.º ESO / Grade 8</option><option value="9">3.º ESO / Grade 9</option>
-        <option value="10">4.º ESO / Grade 10</option><option value="11">1.º Bach. / Grade 11</option><option value="12">2.º Bach. / Grade 12</option>
+        <option value="2">Grade 2</option><option value="3">Grade 3</option>
+        <option value="4">Grade 4</option><option value="5">Grade 5</option><option value="6">Grade 6</option>
+        <option value="7">Grade 7</option><option value="8">Grade 8</option><option value="9">Grade 9</option>
+        <option value="10">Grade 10</option><option value="11">Grade 11</option><option value="12">Grade 12</option>
       </select></div>
-    <div class="fi"><label data-es="País de referencia curricular" data-en="Curriculum reference country">País de referencia curricular</label>
+    <div class="fi" style="display:none"><label data-es="País de referencia curricular" data-en="Curriculum reference country">País de referencia curricular</label>
       <select id="f-pais" onchange="onPaisChange(this.value)">
         <option value="" data-es="-- Selecciona --" data-en="-- Select --">-- Selecciona --</option>
-        <option>España</option><option>Panamá</option><option>EE. UU. / Florida</option>
-        <option>México</option><option>Colombia</option><option>Argentina</option>
-        <option>Perú</option><option>Venezuela</option><option>Ecuador</option>
-        <option>Costa Rica</option><option>Chile</option><option>Otro</option>
+        <option selected>EE. UU. / Florida</option>
       </select>
       <div id="flex-note" class="flex-note hidden" data-es="✓ Vía americana: este será tu <strong>Diagnóstico Chanak Flex</strong> (currículo core americano, FLDOE #134620)." data-en="✓ U.S. pathway: this will be your <strong>Chanak Flex Diagnostic</strong> (U.S. core curriculum, FLDOE #134620).">✓ Vía americana: este será tu <strong>Diagnóstico Chanak Flex</strong> (currículo core americano, FLDOE #134620).</div>
       <div id="us-hint" class="flex-note hidden"><button class="btn btn-s" style="padding:4px 12px" onclick="setLang('en')">Switch to English</button></div>
     </div>
+    <div class="fi full"><p class="flex-note" style="margin:0">The diagnostic is taken from <strong>Grade 2</strong> on, in English, with the U.S. (Florida B.E.S.T.) core. Kindergarten and Grade 1 do not take it.</p></div>
+    <div class="fi full"><label class="consent" style="margin:0"><input type="checkbox" id="f-spa"> <span>Include the <strong>optional</strong> Spanish proficiency section (reading comprehension &amp; grammar).</span></label></div>
     <div class="fi"><label data-es="Programa" data-en="Program">Programa</label>
       <select id="f-programa"><option value="off">Off-Campus (K-12)</option><option value="dual" data-es="Dual Diploma (solo Inglés y Lectura)" data-en="Dual Diploma (English &amp; Reading only)">Dual Diploma (solo Inglés y Lectura)</option></select></div>
     <div class="fi"><label data-es="¿El estudiante lee en inglés?" data-en="Does the student read English?">¿El estudiante lee en inglés?</label>

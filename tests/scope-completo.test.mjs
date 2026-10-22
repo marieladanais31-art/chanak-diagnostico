@@ -40,3 +40,22 @@ test('una unidad de aprendizaje con dos preguntas falladas aparece una sola vez 
     { ace: null, correct: false, domain: 'reading', lu: { id: 'LU-ELA-RD-03-01' } }, { ace: null, correct: false, domain: 'reading', lu: { id: 'LU-ELA-RD-03-01' } }] }] };
   assert.equal(C.finish(st, { runIdx: -1 }).extraGaps.length, 1);
 });
+
+test('castellano opcional: 7 preguntas (4 gramática + 3 lectura) por cada grado de 2.º a 12.º, todas en español y sin código de Florida', () => {
+  for (let l = 2; l <= 12; l++) {
+    const items = bank.itemsFor('spa', l);
+    assert.equal(items.length, 7, `grado ${l}`);
+    assert.equal(items.filter((i) => i.strand === 'reading').length, 3, `grado ${l} lectura`);
+    for (const it of items) { assert.equal(it.florida_code, undefined); assert.ok(it.lu && it.lu.id.startsWith('LU-SPA-'), it.id); assert.ok(it.local_ref); }
+  }
+  assert.equal(bank.itemsFor('spa', 0).length + bank.itemsFor('spa', 1).length, 0); // K y 1.º no hacen diagnóstico
+});
+test('el diagnóstico no ofrece Kindergarten ni 1.º, es solo en inglés y de versión única EE. UU.', async () => {
+  const { readFileSync } = await import('node:fs');
+  const html = readFileSync(new URL('../evaluacion.html', import.meta.url), 'utf8');
+  const sel = html.match(/<select id="f-curso">([\s\S]*?)<\/select>/)[1];
+  assert.ok(!/value="0"/.test(sel) && !/value="1"/.test(sel) && /value="2"/.test(sel) && /value="12"/.test(sel));
+  assert.ok(/id="f-spa"/.test(html));
+  assert.match(html, /<option selected>EE\. UU\. \/ Florida<\/option>/);
+  assert.doesNotMatch(html, /<option>España<\/option>/);
+});
