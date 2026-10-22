@@ -91,7 +91,7 @@
     res.performanceLevel = paceLevel(perfPace);
     // La unidad de aprendizaje (LU) es el concepto Chanak; el PACE queda solo como referencia.
     res.gaps = seq.filter((u) => !u.correct && (found ? u.ace < perfPace : true))
-      .map((u) => ({ lu: u.lu || null, level: u.level, strand: u.strand || null, pace: u.ace, skill: u.skill }));
+      .map((u) => ({ lu: u.lu || null, level: u.level, strand: u.strand || null, florida_code: u.florida_code || null, pace: u.ace, skill: u.skill }));
     const at = seq.find((u) => u.ace === perfPace);
     res.continueAt = at && at.lu ? at.lu : null;
     const total = seq.length;

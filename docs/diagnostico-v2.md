@@ -31,3 +31,11 @@ El informe y el PEI hablan de **conceptos a reforzar**, expresados como unidades
 - El enlace es de un solo uso (se consume al entregar), vence a los 30 días y fija el programa y la ruta de revisión.
 - `evaluacion.html?k=<token>` precarga nombre, curso y correo. Sin enlace: si `diagnostic_settings.require_link` es `false` la página sigue abierta (modo transición); si es `true` muestra "Necesitas tu enlace personal".
 - Coordinación puede crear enlaces a mano en el SIS (Matrícula → Diagnósticos → Crear enlace).
+
+## Códigos de Florida (B.E.S.T. / NGSSS / Estudios Sociales)
+
+Cada pregunta de Matemáticas, Inglés, Ciencias, Geografía e Historia lleva `florida_code` (p. ej. `MA.3.NSO.1.1`, `ELA.5.C.3.1`, `SC.4.L.17.1`, `SS.1.A.1.1`). Es solo **referencia** (la unidad Chanak sigue siendo la Learning Unit); se muestra en el informe y viaja en `learning_units_to_reinforce[].florida_code` hacia el PEI borrador. Inteligencia Emocional, Biblia y CEFR no tienen código de Florida.
+
+- Catálogo de los 217 códigos usados con su enunciado: `data/florida-codes.json`.
+- Fuente: texto de los estándares copiado de un espejo público; **verificar contra FLDOE/CPALMS** antes de citar oficialmente.
+- La asignación pregunta→código se hizo por análisis del contenido de cada pregunta (el mentor puede corregirla); hay ~25 % de asignaciones aproximadas (conceptos sin estándar propio: números romanos, primos, redondeo…). Mantener la prueba `tests/florida-codes.test.mjs` al añadir preguntas.

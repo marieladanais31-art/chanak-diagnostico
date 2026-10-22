@@ -30,7 +30,8 @@
      "en": "Multiply the coefficients, then add exponents of matching variables; try five similar problems.",
      "es": "Multiplica los coeficientes y suma los exponentes de variables iguales; prueba cinco problemas parecidos."
     }
-   }
+   },
+   "florida_code": "MA.912.NSO.1.2"
   },
   {
    "id": "MA-09-1098",
@@ -55,7 +56,8 @@
      "en": "Distribute, combine like terms, then isolate x; check each answer by substituting it back.",
      "es": "Distribuye, reduce términos semejantes y despeja x; comprueba cada respuesta sustituyéndola."
     }
-   }
+   },
+   "florida_code": "MA.912.AR.2.1"
   },
   {
    "id": "MA-09-1099",
@@ -86,7 +88,8 @@
      "en": "Multiply top and bottom by the common denominator to clear the small fractions first.",
      "es": "Multiplica numerador y denominador por el denominador común para eliminar primero las fracciones pequeñas."
     }
-   }
+   },
+   "florida_code": "MA.912.AR.1.9"
   },
   {
    "id": "MA-09-1100",
@@ -111,7 +114,8 @@
      "en": "Use rise over run, (y2 - y1)/(x2 - x1), and watch your negative signs.",
      "es": "Usa cambio vertical entre cambio horizontal, (y2 - y1)/(x2 - x1), y cuida los signos negativos."
     }
-   }
+   },
+   "florida_code": "MA.912.AR.2.4"
   },
   {
    "id": "MA-09-1101",
@@ -142,7 +146,8 @@
      "en": "Find two numbers that multiply to c and add to b, then set each factor to zero.",
      "es": "Busca dos números que multipliquen c y sumen b, y luego iguala cada factor a cero."
     }
-   }
+   },
+   "florida_code": "MA.912.AR.3.1"
   },
   {
    "id": "MA-09-1102",
@@ -167,7 +172,8 @@
      "en": "Define variables first, write what each phrase means, then build and solve the equation.",
      "es": "Define primero las variables, escribe qué significa cada frase y luego plantea y resuelve la ecuación."
     }
-   }
+   },
+   "florida_code": "MA.912.AR.9.1"
   },
   {
    "id": "MA-09-1103",
@@ -192,7 +198,8 @@
      "en": "Sketch the right triangle, label the hypotenuse, and apply a^2 + b^2 = c^2.",
      "es": "Dibuja el triángulo rectángulo, marca la hipotenusa y aplica a^2 + b^2 = c^2."
     }
-   }
+   },
+   "florida_code": "MA.912.T.1.2"
   },
   {
    "id": "MA-09-1104",
@@ -223,7 +230,8 @@
      "en": "Distribute every term of the first factor across the second, then combine like terms carefully.",
      "es": "Distribuye cada término del primer factor sobre el segundo y reduce con cuidado los términos semejantes."
     }
-   }
+   },
+   "florida_code": "MA.912.AR.1.3"
   },
   {
    "id": "MA-09-1105",
@@ -254,7 +262,8 @@
      "en": "Solve like an equation, but flip the inequality sign when dividing by a negative number.",
      "es": "Resuelve como una ecuación, pero invierte el signo de desigualdad al dividir entre un número negativo."
     }
-   }
+   },
+   "florida_code": "MA.912.AR.2.6"
   },
   {
    "id": "MA-09-1106",
@@ -285,7 +294,8 @@
      "en": "Factor everything, multiply by the reciprocal, and cancel common factors before simplifying.",
      "es": "Factoriza todo, multiplica por el recíproco y cancela factores comunes antes de simplificar."
     }
-   }
+   },
+   "florida_code": "MA.912.AR.1.9"
   },
   {
    "id": "MA-09-1107",
@@ -316,7 +326,8 @@
      "en": "Use the negative reciprocal of the slope, then plug in the given point to find b.",
      "es": "Usa el recíproco negativo de la pendiente y sustituye el punto dado para hallar b."
     }
-   }
+   },
+   "florida_code": "MA.912.AR.2.3"
   },
   {
    "id": "MA-09-1108",
@@ -347,7 +358,8 @@
      "en": "Identify a, b, and c, substitute carefully, and simplify the discriminant step by step.",
      "es": "Identifica a, b y c, sustituye con cuidado y simplifica el discriminante paso a paso."
     }
-   }
+   },
+   "florida_code": "MA.912.AR.3.1"
   },
   {
    "id": "MA-10-1109",
@@ -378,7 +390,8 @@
      "en": "Swap the hypothesis and conclusion, then negate both; practice with everyday if-then statements.",
      "es": "Intercambia hipótesis y conclusión y niega ambas; practica con enunciados si-entonces de la vida diaria."
     }
-   }
+   },
+   "florida_code": "MA.912.LT.4.3"
   },
   {
    "id": "MA-10-1110",
@@ -403,7 +416,8 @@
      "en": "Remember an exterior angle equals the sum of the two remote interior angles; draw and label.",
      "es": "Recuerda que un ángulo exterior es igual a la suma de los dos ángulos interiores no adyacentes; dibuja y rotula."
     }
-   }
+   },
+   "florida_code": "MA.912.GR.1.3"
   },
   {
    "id": "MA-10-1111",
@@ -428,7 +442,8 @@
      "en": "Remember an inscribed angle is half its intercepted arc; practice with several diagrams.",
      "es": "Recuerda que un ángulo inscrito mide la mitad de su arco; practica con varios diagramas."
     }
-   }
+   },
+   "florida_code": "MA.912.GR.6.2"
   },
   {
    "id": "MA-10-1112",
@@ -459,7 +474,8 @@
      "en": "Use the area to find the radius, then apply C = 2 pi r.",
      "es": "Usa el área para hallar el radio y luego aplica C = 2 pi r."
     }
-   }
+   },
+   "florida_code": "MA.912.GR.4.4"
   },
   {
    "id": "MA-10-1113",
@@ -484,7 +500,8 @@
      "en": "Practice the rule: tangent squared equals whole secant times its external part.",
      "es": "Practica la regla: la tangente al cuadrado es igual a la secante completa por su parte externa."
     }
-   }
+   },
+   "florida_code": "MA.912.GR.6.1"
   },
   {
    "id": "MA-10-1114",
@@ -515,7 +532,8 @@
      "en": "Link if-then statements when one conclusion matches the next hypothesis; build chains from daily life.",
      "es": "Encadena enunciados si-entonces cuando una conclusión coincide con la siguiente hipótesis; crea cadenas de la vida diaria."
     }
-   }
+   },
+   "florida_code": "MA.912.LT.4.9"
   },
   {
    "id": "MA-10-1115",
@@ -540,7 +558,8 @@
      "en": "Find the exterior angle as 180 minus the interior, then divide 360 by it.",
      "es": "Halla el ángulo exterior como 180 menos el interior y divide 360 entre ese valor."
     }
-   }
+   },
+   "florida_code": "MA.912.GR.1.1"
   },
   {
    "id": "MA-10-1116",
@@ -565,7 +584,8 @@
      "en": "Draw the radius and half the chord to form a right triangle, then use Pythagoras.",
      "es": "Dibuja el radio y la mitad de la cuerda para formar un triángulo rectángulo y usa Pitágoras."
     }
-   }
+   },
+   "florida_code": "MA.912.GR.6.1"
   },
   {
    "id": "MA-10-1117",
@@ -596,7 +616,8 @@
      "en": "Multiply the circle's area by the fraction angle over 360.",
      "es": "Multiplica el área del círculo por la fracción ángulo entre 360."
     }
-   }
+   },
+   "florida_code": "MA.912.GR.6.4"
   },
   {
    "id": "MA-10-1118",
@@ -621,7 +642,8 @@
      "en": "Use half the difference of the far and near arcs; practice labeling arcs clearly.",
      "es": "Usa la mitad de la diferencia entre el arco lejano y el cercano; practica rotulando bien los arcos."
     }
-   }
+   },
+   "florida_code": "MA.912.GR.6.2"
   },
   {
    "id": "MA-10-1119",
@@ -652,7 +674,8 @@
      "en": "Learn the names of key properties, such as addition and substitution, and match them to each step.",
      "es": "Aprende el nombre de las propiedades clave, como suma y sustitución, y relaciónalas con cada paso."
     }
-   }
+   },
+   "florida_code": "MA.912.LT.4.7"
   },
   {
    "id": "MA-10-1120",
@@ -677,7 +700,8 @@
      "en": "Remember consecutive angles add to 180 degrees; set up an equation and solve for x.",
      "es": "Recuerda que los ángulos consecutivos suman 180 grados; plantea una ecuación y resuelve x."
     }
-   }
+   },
+   "florida_code": "MA.912.GR.1.4"
   },
   {
    "id": "MA-11-1121",
@@ -708,7 +732,8 @@
      "en": "Make flash cards for commutative, associative, and distributive properties with a quick example each.",
      "es": "Haz tarjetas de las propiedades conmutativa, asociativa y distributiva con un ejemplo breve de cada una."
     }
-   }
+   },
+   "florida_code": "MA.912.NSO.2.1"
   },
   {
    "id": "MA-11-1122",
@@ -739,7 +764,8 @@
      "en": "Multiply like binomials, then replace i squared with negative one and combine terms.",
      "es": "Multiplica como binomios, reemplaza i al cuadrado por menos uno y reduce términos."
     }
-   }
+   },
+   "florida_code": "MA.912.NSO.2.4"
   },
   {
    "id": "MA-11-1123",
@@ -770,7 +796,8 @@
      "en": "Use x = -b/(2a) for the x-coordinate, then substitute to find y.",
      "es": "Usa x = -b/(2a) para la coordenada x y luego sustituye para hallar y."
     }
-   }
+   },
+   "florida_code": "MA.912.AR.3.6"
   },
   {
    "id": "MA-11-1124",
@@ -795,7 +822,8 @@
      "en": "Find the common difference, then use a_n = a_1 + (n - 1)d with several examples.",
      "es": "Halla la diferencia común y usa a_n = a_1 + (n - 1)d con varios ejemplos."
     }
-   }
+   },
+   "florida_code": "MA.912.AR.10.1"
   },
   {
    "id": "MA-11-1125",
@@ -820,7 +848,8 @@
      "en": "Combine logs with the product rule, rewrite in exponential form, then check for valid solutions.",
      "es": "Combina logaritmos con la regla del producto, reescribe en forma exponencial y verifica que las soluciones sean válidas."
     }
-   }
+   },
+   "florida_code": "MA.912.AR.5.2"
   },
   {
    "id": "MA-11-1126",
@@ -845,7 +874,8 @@
      "en": "Use n choose r when order doesn't matter; practice with committee and team problems.",
      "es": "Usa combinaciones cuando el orden no importa; practica con problemas de comités y equipos."
     }
-   }
+   },
+   "florida_code": "MA.912.DP.4.10"
   },
   {
    "id": "MA-11-1127",
@@ -870,7 +900,8 @@
      "en": "Use ad - bc, subtracting the cross products and being careful with signs.",
      "es": "Usa ad - bc, restando los productos cruzados y cuidando los signos."
     }
-   }
+   },
+   "florida_code": "MA.912.NSO.4.4"
   },
   {
    "id": "MA-11-1128",
@@ -901,7 +932,8 @@
      "en": "Test sets such as integers and rationals with sample operations to see if results stay inside.",
      "es": "Prueba conjuntos como los enteros y los racionales con operaciones de ejemplo para ver si el resultado se queda dentro."
     }
-   }
+   },
+   "florida_code": "MA.912.NSO.2.1"
   },
   {
    "id": "MA-11-1129",
@@ -932,7 +964,8 @@
      "en": "Multiply top and bottom by the conjugate to remove i from the denominator.",
      "es": "Multiplica numerador y denominador por el conjugado para eliminar i del denominador."
     }
-   }
+   },
+   "florida_code": "MA.912.NSO.2.4"
   },
   {
    "id": "MA-11-1130",
@@ -957,7 +990,8 @@
      "en": "Substitute the value into P(x) to get the remainder; compare with long division once.",
      "es": "Sustituye el valor en P(x) para obtener el resto; compáralo una vez con la división larga."
     }
-   }
+   },
+   "florida_code": "MA.912.AR.6.2"
   },
   {
    "id": "MA-11-1131",
@@ -982,7 +1016,8 @@
      "en": "Find the ratio, confirm it is between -1 and 1, then use S = a/(1 - r).",
      "es": "Halla la razón, confirma que está entre -1 y 1 y usa S = a/(1 - r)."
     }
-   }
+   },
+   "florida_code": "MA.912.AR.10.4"
   },
   {
    "id": "MA-11-1132",
@@ -1007,7 +1042,8 @@
      "en": "Rewrite both sides with the same base, then set the exponents equal and solve.",
      "es": "Reescribe ambos lados con la misma base, iguala los exponentes y resuelve."
     }
-   }
+   },
+   "florida_code": "MA.912.AR.5.1"
   },
   {
    "id": "MA-12-1133",
@@ -1032,7 +1068,8 @@
      "en": "Pick sine, cosine, or tangent by the sides you know and the side you need.",
      "es": "Elige seno, coseno o tangente según los lados que conoces y el que necesitas."
     }
-   }
+   },
+   "florida_code": "MA.912.T.1.2"
   },
   {
    "id": "MA-12-1134",
@@ -1063,7 +1100,8 @@
      "en": "Use sin^2 + cos^2 = 1 and check the quadrant to choose the correct sign.",
      "es": "Usa sin^2 + cos^2 = 1 y revisa el cuadrante para elegir el signo correcto."
     }
-   }
+   },
+   "florida_code": "MA.912.T.1.5"
   },
   {
    "id": "MA-12-1135",
@@ -1094,7 +1132,8 @@
      "en": "Read amplitude from the coefficient and period as 2 pi divided by the x-multiplier.",
      "es": "Lee la amplitud en el coeficiente y el período como 2 pi dividido entre el multiplicador de x."
     }
-   }
+   },
+   "florida_code": "MA.912.T.3.2"
   },
   {
    "id": "MA-12-1136",
@@ -1125,7 +1164,8 @@
      "en": "Use the unit circle and remember arccos answers lie between 0 and pi.",
      "es": "Usa el círculo unitario y recuerda que las respuestas del arcocoseno están entre 0 y pi."
     }
-   }
+   },
+   "florida_code": "MA.912.T.2.5"
   },
   {
    "id": "MA-12-1137",
@@ -1156,7 +1196,8 @@
      "en": "Isolate the trig function, find reference angles, and list every solution in the interval.",
      "es": "Despeja la función trigonométrica, halla los ángulos de referencia y enumera todas las soluciones del intervalo."
     }
-   }
+   },
+   "florida_code": "MA.912.T.1.8"
   },
   {
    "id": "MA-12-1138",
@@ -1187,7 +1228,8 @@
      "en": "Plot a few points for r = a cos(theta) and compare the shape with a circle.",
      "es": "Grafica algunos puntos de r = a cos(theta) y compara la forma con una circunferencia."
     }
-   }
+   },
+   "florida_code": "MA.912.T.4.4"
   },
   {
    "id": "MA-12-1139",
@@ -1212,7 +1254,8 @@
      "en": "Convert to polar form, raise the modulus to the power, multiply the angle, then convert back.",
      "es": "Convierte a forma polar, eleva el módulo a la potencia, multiplica el ángulo y vuelve a la forma rectangular."
     }
-   }
+   },
+   "florida_code": "MA.912.NSO.2.6"
   },
   {
    "id": "MA-12-1140",
@@ -1237,7 +1280,8 @@
      "en": "Use c^2 = a^2 + b^2 - 2ab cos C when you know two sides and the angle between them.",
      "es": "Usa c^2 = a^2 + b^2 - 2ab cos C cuando conoces dos lados y el ángulo entre ellos."
     }
-   }
+   },
+   "florida_code": "MA.912.T.1.3"
   },
   {
    "id": "MA-12-1141",
@@ -1268,7 +1312,8 @@
      "en": "Rewrite using sin^2 + cos^2 = 1, then cancel; keep an identity cheat sheet handy.",
      "es": "Reescribe con sin^2 + cos^2 = 1 y luego cancela; ten a mano una hoja de identidades."
     }
-   }
+   },
+   "florida_code": "MA.912.T.1.7"
   },
   {
    "id": "MA-12-1142",
@@ -1299,7 +1344,8 @@
      "en": "Factor the input to find the shift, then read amplitude, period, and midline step by step.",
      "es": "Factoriza la entrada para hallar el desplazamiento y luego lee amplitud, período y línea media paso a paso."
     }
-   }
+   },
+   "florida_code": "MA.912.T.3.2"
   },
   {
    "id": "MA-12-1143",
@@ -1330,7 +1376,8 @@
      "en": "Draw a right triangle for the inverse angle, find the missing side, then read the ratio.",
      "es": "Dibuja un triángulo rectángulo para el ángulo inverso, halla el lado faltante y lee la razón."
     }
-   }
+   },
+   "florida_code": "MA.912.T.1.7"
   },
   {
    "id": "MA-12-1144",
@@ -1361,7 +1408,8 @@
      "en": "Substitute u for the trig function, factor the quadratic, then solve each resulting trig equation.",
      "es": "Sustituye u por la función trigonométrica, factoriza la cuadrática y resuelve cada ecuación trigonométrica resultante."
     }
-   }
+   },
+   "florida_code": "MA.912.T.1.8"
   }
  ]
 }

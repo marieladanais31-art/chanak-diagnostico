@@ -307,7 +307,7 @@
       <tr><td><strong>ACE</strong></td><td>PACE ${eq.ace[key].pace_range[0]}–${eq.ace[key].pace_range[1]}</td></tr>
       <tr><td><strong>CLE</strong></td><td>${s === 'ela' ? 'Language Arts' : 'Math'} ${eq.cle.languageArts * 100}</td></tr>
       <tr><td><strong>LIFEPAC</strong></td><td>${s === 'ela' ? 'Language Arts' : 'Math'} ${eq.lifepac}</td></tr>
-      <tr><td><strong>Florida</strong></td><td>${esc(eq.florida)}${gaps.length ? ' · ' + [...new Set(gaps.map((g) => g.strand).filter(Boolean))].map(esc).join(', ') : ''}</td></tr>
+      <tr><td><strong>Florida</strong></td><td>${esc(eq.florida)}${gaps.length ? ' · ' + [...new Set(gaps.map((g) => g.florida_code || g.strand).filter(Boolean))].map(esc).join(', ') : ''}</td></tr>
       <tr><td><strong>Chanak</strong></td><td>${esc(SCOPE[s][LANG][lvl] || '')}</td></tr>` : '';
     return `<div class="icard subj"><h4>${esc(T().subj[s])}</h4><p>${head}</p>
       ${notes.map((n) => `<div class="note">${esc(n)}</div>`).join('')}
@@ -386,7 +386,7 @@
         return {
           subject: s, working_level: S.summary[s].level, kinder: r.kinder, abcs: r.abcs, found: r.found, capped: r.capped,
           continue_at: luOut(r.continueAt), tested_levels: r.tested, level_pct: r.levelPct,
-          learning_units_to_reinforce: (r.gaps || []).map((g) => ({ ...luOut(g.lu), level: g.level, strand: g.strand, refs: { ace_pace: g.pace } })),
+          learning_units_to_reinforce: (r.gaps || []).map((g) => ({ ...luOut(g.lu), level: g.level, strand: g.strand, florida_code: g.florida_code || null, refs: { ace_pace: g.pace } })),
           references: { ace_performance_pace: r.performancePace || null, ace_range: eq ? eq.ace[key].pace_range : null, cle_level: eq ? eq.cle.languageArts * 100 : null, lifepac_level: eq ? eq.lifepac : null, florida: eq ? eq.florida : null },
         };
       }),

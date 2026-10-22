@@ -29,7 +29,8 @@
      "en": "Count steps, toys or snacks together and stop often to ask what number comes next.",
      "es": "Cuenten escalones, juguetes o meriendas juntos y detengan el conteo para preguntar qué número sigue."
     }
-   }
+   },
+   "florida_code": "MA.K.NSO.2.1"
   },
   {
    "id": "MA-00-K02",
@@ -59,7 +60,8 @@
      "en": "Show two piles of small objects and ask which has more, then match the numbers to each pile.",
      "es": "Muestren dos montones de objetos pequeños, pregunten cuál tiene más y relacionen cada montón con su número."
     }
-   }
+   },
+   "florida_code": "MA.K.NSO.2.3"
   },
   {
    "id": "MA-00-K03",
@@ -84,7 +86,8 @@
      "en": "Act out stories with toys or fingers, joining two small groups and counting how many in all.",
      "es": "Representen historias con juguetes o dedos, juntando dos grupos pequeños y contando cuántos hay en total."
     }
-   }
+   },
+   "florida_code": "MA.K.AR.1.3"
   },
   {
    "id": "MA-00-K04",
@@ -109,7 +112,8 @@
      "en": "Use counters or snacks, take some away in a story, and count what is left.",
      "es": "Usen fichas o galletas, quiten algunas dentro de una historia y cuenten cuántas quedan."
     }
-   }
+   },
+   "florida_code": "MA.K.AR.1.3"
   },
   {
    "id": "MA-00-K05",
@@ -139,7 +143,8 @@
      "en": "Go on a shape hunt around the house, counting the sides and corners of triangles you find.",
      "es": "Salgan a cazar formas por la casa, contando los lados y esquinas de los triángulos que encuentren."
     }
-   }
+   },
+   "florida_code": "MA.K.GR.1.1"
   },
   {
    "id": "MA-00-K06",
@@ -169,7 +174,8 @@
      "en": "Find round things like plates and coins, and trace them to see they have no corners.",
      "es": "Busquen objetos redondos como platos y monedas, y trácenlos para ver que no tienen esquinas."
     }
-   }
+   },
+   "florida_code": "MA.K.GR.1.1"
   },
   {
    "id": "MA-00-K07",
@@ -199,7 +205,8 @@
      "en": "Line up three household items side by side and order them from longest to shortest.",
      "es": "Pongan tres objetos de casa lado a lado y ordénenlos del más largo al más corto."
     }
-   }
+   },
+   "florida_code": "MA.K.M.1.2"
   },
   {
    "id": "MA-00-K08",
@@ -229,7 +236,8 @@
      "en": "Count groups of ten, like ten buttons per cup, and say 10, 20, 30 as you add each cup.",
      "es": "Cuenten grupos de diez, como diez botones por vaso, y digan 10, 20, 30 al añadir cada vaso."
     }
-   }
+   },
+   "florida_code": "MA.K.NSO.2.1"
   },
   {
    "id": "MA-00-K09",
@@ -259,7 +267,8 @@
      "en": "Build teen numbers with ten counters in one cup plus extra ones, and say 'ten and four'.",
      "es": "Formen números del 11 al 19 con diez fichas en un vaso más unidades, y digan 'diez y cuatro'."
     }
-   }
+   },
+   "florida_code": "MA.K.NSO.2.2"
   },
   {
    "id": "MA-00-K10",
@@ -289,7 +298,8 @@
      "en": "Match items one to one, like a spoon for each bowl, and see which group has extras.",
      "es": "Emparejen elementos uno a uno, como una cuchara por plato, y vean qué grupo tiene sobrantes."
     }
-   }
+   },
+   "florida_code": "MA.K.NSO.1.4"
   },
   {
    "id": "MA-01-1001",
@@ -320,7 +330,8 @@
      "en": "Count small objects aloud and then find the number word or card that matches the total.",
      "es": "Cuenten objetos pequeños en voz alta y luego busquen la palabra o tarjeta del número que coincide."
     }
-   }
+   },
+   "florida_code": "MA.1.NSO.1.1"
   },
   {
    "id": "MA-01-1002",
@@ -351,7 +362,8 @@
      "en": "Make cards with the numeral on one side and the word on the other, and play matching.",
      "es": "Hagan tarjetas con el número de un lado y la palabra del otro, y jueguen a emparejarlas."
     }
-   }
+   },
+   "florida_code": "MA.1.NSO.1.2"
   },
   {
    "id": "MA-01-1003",
@@ -376,7 +388,8 @@
      "en": "Use fingers or buttons to show all the ways to make 5, like 2 and 3.",
      "es": "Usen los dedos o botones para mostrar todas las formas de formar 5, como 2 y 3."
     }
-   }
+   },
+   "florida_code": "MA.1.NSO.2.1"
   },
   {
    "id": "MA-01-1004",
@@ -401,7 +414,8 @@
      "en": "Practice with dominoes or dice, adding the two sides and saying the number sentence aloud.",
      "es": "Practiquen con dominós o dados, sumando ambos lados y diciendo la operación en voz alta."
     }
-   }
+   },
+   "florida_code": "MA.1.NSO.2.1"
   },
   {
    "id": "MA-01-1005",
@@ -426,7 +440,8 @@
      "en": "Act out take-away stories with crayons or coins, removing some and counting what remains.",
      "es": "Representen historias de quitar con crayones o monedas, retirando algunos y contando los que quedan."
     }
-   }
+   },
+   "florida_code": "MA.1.AR.1.2"
   },
   {
    "id": "MA-01-1006",
@@ -451,7 +466,8 @@
      "en": "Play 'make ten' with cards or fingers: if I have 7, how many more reach 10?",
      "es": "Jueguen a 'formar diez' con cartas o dedos: si tengo 7, ¿cuántos más hacen falta para llegar a 10?"
     }
-   }
+   },
+   "florida_code": "MA.1.AR.1.1"
   },
   {
    "id": "MA-01-1007",
@@ -476,7 +492,8 @@
      "en": "Write numbers 1 to 20 on cards, mix them up, and put them in order with one missing.",
      "es": "Escriban los números del 1 al 20 en tarjetas, mézclenlas y ordénenlas, quitando una para que la adivine."
     }
-   }
+   },
+   "florida_code": "MA.1.NSO.1.1"
   },
   {
    "id": "MA-01-1008",
@@ -501,7 +518,8 @@
      "en": "Move counters to fill a ten-frame first, like 9 plus 6 becomes 10 plus 5.",
      "es": "Muevan fichas para llenar primero una decena, como 9 más 6 se convierte en 10 más 5."
     }
-   }
+   },
+   "florida_code": "MA.1.AR.1.2"
   },
   {
    "id": "MA-01-1009",
@@ -526,7 +544,8 @@
      "en": "Use a ten-frame or counters to take away, going back to ten first and then the rest.",
      "es": "Usen fichas o un marco de diez para quitar, volviendo primero a diez y luego quitando el resto."
     }
-   }
+   },
+   "florida_code": "MA.1.NSO.2.2"
   },
   {
    "id": "MA-01-1010",
@@ -557,7 +576,8 @@
      "en": "Use a real or paper clock, setting it to o'clock times during your daily routines.",
      "es": "Usen un reloj real o de papel, poniendo horas en punto durante las rutinas del día."
     }
-   }
+   },
+   "florida_code": "MA.1.M.2.1"
   },
   {
    "id": "MA-01-1011",
@@ -588,7 +608,8 @@
      "en": "Write number words and digits on cards and match them, saying each one aloud.",
      "es": "Escriban nombres de números y dígitos en tarjetas y empárejenlos, diciendo cada uno en voz alta."
     }
-   }
+   },
+   "florida_code": "MA.1.NSO.1.2"
   },
   {
    "id": "MA-01-1012",
@@ -613,7 +634,8 @@
      "en": "Use a number line or hundreds chart, and ask which number lives between neighbors.",
      "es": "Usen una recta numérica o tabla del 100 y pregunten qué número vive entre dos vecinos."
     }
-   }
+   },
+   "florida_code": "MA.1.NSO.1.4"
   },
   {
    "id": "MA-02-1013",
@@ -638,7 +660,8 @@
      "en": "Use a hundreds chart and cover a number with a coin, asking your child what is hidden.",
      "es": "Usen una tabla del 100, tapen un número con una moneda y pregunten cuál está escondido."
     }
-   }
+   },
+   "florida_code": "MA.2.NSO.1.3"
   },
   {
    "id": "MA-02-1014",
@@ -663,7 +686,8 @@
      "en": "Look for pairs that make ten first, then add the last number, using dice or cards.",
      "es": "Busquen primero los pares que suman diez y luego añadan el último número, con dados o cartas."
     }
-   }
+   },
+   "florida_code": "MA.2.AR.1.1"
   },
   {
    "id": "MA-02-1015",
@@ -694,7 +718,8 @@
      "en": "Pair up counters; if one is left over, the number is odd. Try with different numbers.",
      "es": "Emparejen fichas; si sobra una, el número es impar. Prueben con distintos números."
     }
-   }
+   },
+   "florida_code": "MA.2.AR.3.1"
   },
   {
    "id": "MA-02-1016",
@@ -725,7 +750,8 @@
      "en": "Bundle sticks into tens and loose ones, and build numbers like 63 from bundles.",
      "es": "Hagan atados de diez palitos y unidades sueltas, y formen números como 63 con ellos."
     }
-   }
+   },
+   "florida_code": "MA.2.NSO.1.2"
   },
   {
    "id": "MA-02-1017",
@@ -750,7 +776,8 @@
      "en": "Use paper hundreds, tens and ones, or play money, to build and read three-digit numbers.",
      "es": "Usen papelitos de centenas, decenas y unidades, o dinero de juguete, para formar y leer números de tres cifras."
     }
-   }
+   },
+   "florida_code": "MA.2.NSO.1.2"
   },
   {
    "id": "MA-02-1018",
@@ -775,7 +802,8 @@
      "en": "Add the ones first, trade ten ones for a ten with counters, and then add the tens.",
      "es": "Sumen primero las unidades, cambien diez unidades por una decena con fichas y luego sumen las decenas."
     }
-   }
+   },
+   "florida_code": "MA.2.NSO.2.3"
   },
   {
    "id": "MA-02-1019",
@@ -800,7 +828,8 @@
      "en": "Play store with real coins, counting from the biggest coin to the smallest.",
      "es": "Jueguen a la tienda con monedas reales, contando desde la más grande hasta la más pequeña."
     }
-   }
+   },
+   "florida_code": "MA.2.M.2.2"
   },
   {
    "id": "MA-02-1020",
@@ -825,7 +854,8 @@
      "en": "Trade a ten for ten ones with base-ten blocks or sticks before taking away.",
      "es": "Cambien una decena por diez unidades con bloques o palitos antes de quitar."
     }
-   }
+   },
+   "florida_code": "MA.2.NSO.2.3"
   },
   {
    "id": "MA-02-1021",
@@ -850,7 +880,8 @@
      "en": "Line up digits by place on grid paper and carry from ones to tens carefully.",
      "es": "Alineen los dígitos por posición en papel cuadriculado y reagrupen con cuidado de unidades a decenas."
     }
-   }
+   },
+   "florida_code": "MA.2.NSO.2.4"
   },
   {
    "id": "MA-02-1022",
@@ -875,7 +906,8 @@
      "en": "Use play money to add hundreds, tens and ones and trade up when there are ten.",
      "es": "Usen dinero de juguete para sumar centenas, decenas y unidades, cambiando cuando haya diez."
     }
-   }
+   },
+   "florida_code": "MA.2.NSO.2.4"
   },
   {
    "id": "MA-02-1023",
@@ -906,7 +938,8 @@
      "en": "Move a clock hand to half past times, noticing the hour hand sits between two numbers.",
      "es": "Muevan las manecillas a horas y media, notando que la manecilla corta queda entre dos números."
     }
-   }
+   },
+   "florida_code": "MA.2.M.2.1"
   },
   {
    "id": "MA-02-1024",
@@ -931,7 +964,8 @@
      "en": "Measure household objects with a ruler, starting each at zero or finding the difference between marks.",
      "es": "Midan objetos de casa con una regla, empezando en cero o buscando la diferencia entre las marcas."
     }
-   }
+   },
+   "florida_code": "MA.2.M.1.1"
   },
   {
    "id": "MA-03-1025",
@@ -956,7 +990,8 @@
      "en": "Add the ones, tens and hundreds in order, carrying when a column reaches ten, using grid paper.",
      "es": "Sumen unidades, decenas y centenas en orden, reagrupando cuando una columna llegue a diez, en papel cuadriculado."
     }
-   }
+   },
+   "florida_code": "MA.3.NSO.2.1"
   },
   {
    "id": "MA-03-1026",
@@ -981,7 +1016,8 @@
      "en": "Count by twos with shoes, gloves or wheels, and connect it to doubles and skip counting.",
      "es": "Cuenten de dos en dos con zapatos, guantes o ruedas, y relaciónenlo con dobles y saltos de conteo."
     }
-   }
+   },
+   "florida_code": "MA.3.AR.1.2"
   },
   {
    "id": "MA-03-1027",
@@ -1006,7 +1042,8 @@
      "en": "Write numbers in neat columns and add ones, tens, hundreds, then thousands, carrying as needed.",
      "es": "Escriban los números en columnas ordenadas y sumen unidades, decenas, centenas y millares, reagrupando cuando haga falta."
     }
-   }
+   },
+   "florida_code": "MA.3.NSO.2.1"
   },
   {
    "id": "MA-03-1028",
@@ -1031,7 +1068,8 @@
      "en": "Show 600 as 5 hundreds, 9 tens and 10 ones with play money, then subtract.",
      "es": "Representen 600 como 5 centenas, 9 decenas y 10 unidades con dinero de juguete, y luego resten."
     }
-   }
+   },
+   "florida_code": "MA.3.NSO.2.1"
   },
   {
    "id": "MA-03-1029",
@@ -1056,7 +1094,8 @@
      "en": "Practice skip counting by fours and double the twos facts, using short daily rounds.",
      "es": "Practiquen contar de cuatro en cuatro y dupliquen la tabla del 2, en rondas cortas cada día."
     }
-   }
+   },
+   "florida_code": "MA.3.NSO.2.4"
   },
   {
    "id": "MA-03-1030",
@@ -1087,7 +1126,8 @@
      "en": "Look for Roman numerals on clocks, book chapters and buildings, and write the numbers 1 to 10.",
      "es": "Busquen números romanos en relojes, capítulos y edificios, y escriban del 1 al 10."
     }
-   }
+   },
+   "florida_code": "MA.3.NSO.1.1"
   },
   {
    "id": "MA-03-1031",
@@ -1112,7 +1152,8 @@
      "en": "Build on the fives facts and add one more group, practicing with flash cards or a song.",
      "es": "Partan de la tabla del 5 y añadan un grupo más, practicando con tarjetas o una canción."
     }
-   }
+   },
+   "florida_code": "MA.3.NSO.2.4"
   },
   {
    "id": "MA-03-1032",
@@ -1137,7 +1178,8 @@
      "en": "Practice a few sevens facts at a time with flash cards, rhymes, or a hundreds chart.",
      "es": "Practiquen unas pocas multiplicaciones del 7 a la vez con tarjetas, rimas o una tabla del 100."
     }
-   }
+   },
+   "florida_code": "MA.3.NSO.2.4"
   },
   {
    "id": "MA-03-1033",
@@ -1162,7 +1204,8 @@
      "en": "Double the fours facts to find the eights, then practice with quick cards and games.",
      "es": "Dupliquen la tabla del 4 para hallar la del 8 y practiquen con tarjetas rápidas y juegos."
     }
-   }
+   },
+   "florida_code": "MA.3.NSO.2.4"
   },
   {
    "id": "MA-03-1034",
@@ -1187,7 +1230,8 @@
      "en": "Line up digits in columns, add each column from the ones place, and carry the extra.",
      "es": "Alineen los dígitos en columnas, sumen cada una desde las unidades y lleven lo que sobre."
     }
-   }
+   },
+   "florida_code": "MA.3.NSO.2.1"
   },
   {
    "id": "MA-03-1035",
@@ -1218,7 +1262,8 @@
      "en": "Use a practice clock to show times like 'ten to six', counting back from the next hour.",
      "es": "Usen un reloj de práctica para mostrar horas como 'ten to six', contando hacia atrás desde la hora siguiente."
     }
-   }
+   },
+   "florida_code": "MA.3.M.2.1"
   },
   {
    "id": "MA-03-1036",
@@ -1249,7 +1294,8 @@
      "en": "Fill measuring cups in the kitchen to see how many cups fill a pint or quart.",
      "es": "Llenen tazas medidoras en la cocina para ver cuántas llenan una pinta o un cuarto."
     }
-   }
+   },
+   "florida_code": "MA.3.M.1.2"
   },
   {
    "id": "MA-04-1037",
@@ -1274,7 +1320,8 @@
      "en": "Notice what happens to digits when you multiply by ten, using play money or a place-value chart.",
      "es": "Observen qué pasa con los dígitos al multiplicar por diez, con dinero de juguete o una tabla de valor posicional."
     }
-   }
+   },
+   "florida_code": "MA.4.NSO.2.2"
   },
   {
    "id": "MA-04-1038",
@@ -1299,7 +1346,8 @@
      "en": "Spot the pattern in 11 x 1 through 11 x 9 and then practice with quick daily rounds.",
      "es": "Descubran el patrón de 11 x 1 a 11 x 9 y practiquen en rondas rápidas cada día."
     }
-   }
+   },
+   "florida_code": "MA.4.NSO.2.1"
   },
   {
    "id": "MA-04-1039",
@@ -1324,7 +1372,8 @@
      "en": "Share groups of objects equally among three plates and link each result to the threes multiplication facts.",
      "es": "Repartan objetos en partes iguales entre tres platos y relacionen cada resultado con la tabla del 3."
     }
-   }
+   },
+   "florida_code": "MA.4.NSO.2.1"
   },
   {
    "id": "MA-04-1040",
@@ -1349,7 +1398,8 @@
      "en": "Break the number into tens and ones, multiply each part, then add, like 30 x 6 plus 4 x 6.",
      "es": "Separen el número en decenas y unidades, multipliquen cada parte y sumen, como 30 x 6 más 4 x 6."
     }
-   }
+   },
+   "florida_code": "MA.4.NSO.2.2"
   },
   {
    "id": "MA-04-1041",
@@ -1374,7 +1424,8 @@
      "en": "Practice writing numbers 11 to 19 as X plus the smaller numeral, like XIV for fourteen.",
      "es": "Practiquen escribir del 11 al 19 como X más el numeral menor, como XIV para catorce."
     }
-   }
+   },
+   "florida_code": "MA.4.NSO.1.2"
   },
   {
    "id": "MA-04-1042",
@@ -1399,7 +1450,8 @@
      "en": "Use a box or grid to multiply tens and ones separately, then add the pieces together.",
      "es": "Usen una cuadrícula para multiplicar por separado decenas y unidades, y luego sumen las partes."
     }
-   }
+   },
+   "florida_code": "MA.4.NSO.2.3"
   },
   {
    "id": "MA-04-1043",
@@ -1424,7 +1476,8 @@
      "en": "Share items equally at mealtime and connect each division to the sevens multiplication facts.",
      "es": "Repartan cosas en partes iguales a la hora de comer y relacionen cada división con la tabla del 7."
     }
-   }
+   },
+   "florida_code": "MA.4.AR.1.1"
   },
   {
    "id": "MA-04-1044",
@@ -1455,7 +1508,8 @@
      "en": "Share small objects equally, then count the leftovers, and say what is left over.",
      "es": "Repartan objetos pequeños en partes iguales, cuenten los que sobran y digan cuántos quedan."
     }
-   }
+   },
+   "florida_code": "MA.4.NSO.2.4"
   },
   {
    "id": "MA-04-1045",
@@ -1480,7 +1534,8 @@
      "en": "Link division to the nines multiplication facts and use the finger trick to check answers.",
      "es": "Relacionen la división con la tabla del 9 y usen el truco de los dedos para comprobar."
     }
-   }
+   },
+   "florida_code": "MA.4.NSO.2.1"
   },
   {
    "id": "MA-04-1046",
@@ -1511,7 +1566,8 @@
      "en": "Cut a pizza, sandwich or paper into equal parts and name one piece, like one eighth.",
      "es": "Corten una pizza, un sándwich o un papel en partes iguales y nombren una parte, como un octavo."
     }
-   }
+   },
+   "florida_code": "MA.4.FR.1.1"
   },
   {
    "id": "MA-04-1047",
@@ -1542,7 +1598,8 @@
      "en": "Use fraction strips or a cut-up paper to add pieces of the same size, keeping the bottom number.",
      "es": "Usen tiras de fracciones o papel recortado para sumar partes del mismo tamaño, manteniendo el denominador."
     }
-   }
+   },
+   "florida_code": "MA.4.FR.2.2"
   },
   {
    "id": "MA-04-1048",
@@ -1573,7 +1630,8 @@
      "en": "Play store with real coins and bills, counting up from the price to the amount paid.",
      "es": "Jueguen a la tienda con monedas y billetes reales, contando desde el precio hasta lo pagado."
     }
-   }
+   },
+   "florida_code": "MA.4.M.2.2"
   }
  ]
 }
