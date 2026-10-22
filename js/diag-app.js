@@ -7,14 +7,14 @@
 
   const SUBJ = () => S.plan.filter((x) => x !== 'comp'); // ['math','ela'] (Off-Campus) o ['cefr'] (Dual Diploma)
   // ── Estado ────────────────────────────────────────────────────────────────
-  let LANG = 'es';
+  let LANG = 'en'; // el diagnóstico es solo en inglés (la sección opcional de castellano lleva sus preguntas en español)
   const S = { form: {}, grade: 0, track: 'off', bible: false, us: false, plan: [], results: {}, comp: null, map: null, current: null, inProgress: false };
   window.__S = S; // depuración
 
   // ── Textos ────────────────────────────────────────────────────────────────
   const TX = {
     es: {
-      subj: { math: 'Matemáticas', ela: 'Inglés y Lectura', cefr: 'Nivel de inglés (MCER)', comp: 'Áreas complementarias' },
+      subj: { math: 'Matemáticas', ela: 'Inglés y Lectura', cefr: 'Nivel de inglés (MCER)', comp: 'Áreas complementarias', spa: 'Dominio de castellano (opcional)' },
       step: (n) => `Bloque ${n}`, ofQ: (a, b) => `Respondidas ${a} de ${b}`,
       next: 'Continuar →', finish: 'Ver resultados →', checking: 'Corrigiendo…',
       confirmBlank: 'Hay preguntas sin responder. Las que se dejen en blanco cuentan como no logradas. ¿Continuar?',
@@ -39,7 +39,7 @@
       startPoint: 'Punto de partida', perf: 'Nivel de desempeño',
     },
     en: {
-      subj: { math: 'Mathematics', ela: 'English & Reading', cefr: 'English level (CEFR)', comp: 'Additional areas' },
+      subj: { math: 'Mathematics', ela: 'English & Reading', cefr: 'English level (CEFR)', comp: 'Additional areas', spa: 'Spanish proficiency (optional)' },
       step: (n) => `Block ${n}`, ofQ: (a, b) => `Answered ${a} of ${b}`,
       next: 'Continue →', finish: 'See results →', checking: 'Scoring…',
       confirmBlank: 'Some questions are unanswered. Blank answers count as not mastered. Continue?',
@@ -88,7 +88,7 @@
     document.querySelectorAll('[data-ph-es]').forEach((el) => { el.placeholder = el.dataset['ph' + (LANG === 'es' ? 'Es' : 'En')] || el.dataset.phEs; });
     document.querySelectorAll('.langbtn').forEach((b) => b.classList.toggle('on', b.dataset.lang === LANG));
   }
-  function setLang(l) { LANG = l === 'en' ? 'en' : 'es'; applyLang(); if (!$('section-results').classList.contains('hidden')) renderResults(); }
+  function setLang() { LANG = 'en'; applyLang(); if (!$('section-results').classList.contains('hidden')) renderResults(); } // solo inglés
   window.setLang = setLang;
 
   // ── Navegación ────────────────────────────────────────────────────────────
@@ -125,9 +125,10 @@
     const f = readForm();
     if (!f.nombre.trim()) { alert(T().needName); return; }
     if (f.curso === '') { alert(T().needGrade); return; }
+    if (Number(f.curso) < 2) { alert('The diagnostic is taken from Grade 2 on. Kindergarten and Grade 1 do not take it.'); return; }
     if (!f.mentor.trim()) { alert(T().needMentor); return; }
     if (!$('f-consent').checked) { alert(T().needConsent); return; }
-    S.form = f; S.grade = Number(f.curso); S.track = f.programa; S.us = f.pais === 'EE. UU. / Florida';
+    S.form = f; S.grade = Number(f.curso); S.track = f.programa; S.us = true; // versión única: EE. UU. / Florida (B.E.S.T.)
     buildPlan(); renderPlanSummary(); showSection('level');
   };
   function readForm() {
@@ -139,6 +140,7 @@
     if (S.track === 'dual') { plan.push('cefr'); }
     else { plan.push('math'); if (S.form.ingles !== 'no') plan.push('ela'); }
     plan.push('comp');
+    if ($('f-spa') && $('f-spa').checked) plan.push('spa'); // opcional: dominio de castellano
     S.plan = plan;
   }
   function renderPlanSummary() {
@@ -159,13 +161,14 @@
   async function loadMap() { if (!S.map) { try { S.map = await api('/data/placement-map.json'); } catch { S.map = { grades: {} }; } } }
 
   window.startTest = async () => {
-    S.bible = $('bible-toggle').checked; S.results = {}; S.comp = null; S.speak = null; S.inProgress = true;
+    S.bible = $('bible-toggle').checked; S.results = {}; S.comp = null; S.speak = null; S.spa = null; S.inProgress = true;
     window.addEventListener('beforeunload', onBeforeUnload);
     await loadMap();
     try {
-      for (const subj of S.plan) { if (subj === 'comp') await runComp(); else if (subj === 'cefr') await runCefr(); else await runSubject(subj); }
+      for (const subj of S.plan) { if (subj === 'comp') await runComp(); else if (subj === 'cefr') await runCefr(); else if (subj === 'spa') continue; else await runSubject(subj); }
     } catch (e) { console.error(e); alert(T().netError); S.inProgress = false; return; }
     try { if (S.plan.some((x) => x === 'ela' || x === 'cefr')) await runSpeaking(); } catch (e) { console.error(e); }
+    try { if (S.plan.includes('spa')) await runSpa(); } catch (e) { console.error(e); alert(T().netError); }
     S.inProgress = false; window.removeEventListener('beforeunload', onBeforeUnload);
     finalizeResults(); renderResults(); showSection('results'); submitResults();
   };
@@ -274,9 +277,6 @@
 
   // ── Inglés oral (Speaking): grabación que el mentor evalúa con rúbrica ─────────
   const SPEAK = [
-    { max: 1, items: [
-      { id: 'SP-A1', kind: 'talk', text: 'Tell us your name, how old you are and what your favorite animal or food is. Say at least three sentences.' },
-      { id: 'SP-A2', kind: 'read', text: 'Read aloud: "I see a big red bus. The bus is on the road. We go to school."' }] },
     { max: 3, items: [
       { id: 'SP-B1', kind: 'talk', text: 'Tell us about your favorite day of the week. What do you do? Why do you like it?' },
       { id: 'SP-B2', kind: 'read', text: 'Read aloud: "The little dog ran across the yard to find his red ball. He was happy when he found it under the tree."' }] },
@@ -347,6 +347,27 @@
       if (r.blob.size > 3 * 1024 * 1024) continue;
       try { await postJson('/api/diag-upload', { id: S.sub.id, token: S.sub.token, name: t.id + '.audio', mime: r.mime, data: await toB64(r.blob), note: `SPEAKING|${t.id}|${t.kind}|${t.text}`.slice(0, 300) }); r.uploaded = true; } catch { /* el mentor pedirá repetirlo */ }
     }
+  }
+
+  // ── Dominio de castellano (opcional): un bloque por grado, preguntas en español ──────────────────
+  async function runSpa() {
+    const level = Math.max(2, Math.min(12, S.grade));
+    const data = await api(`/api/diag-items?subject=spa&level=${level}&lang=es`);
+    if (!data.items.length) return;
+    const ans = await askBlock({ title: T().subj.spa, intro: 'Optional section: Spanish reading comprehension and grammar. The questions are in Spanish. There are no right or wrong feelings here: it only helps us plan the right support.', items: data.items, stepLabel: '', last: true });
+    const sc = await api('/api/diag-score', { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({ subject: 'spa', level, answers: ans }) });
+    const dom = {}; sc.units.forEach((u) => { const d = u.domain || 'grammar'; dom[d] = dom[d] || { c: 0, t: 0 }; dom[d].t++; if (u.correct) dom[d].c++; });
+    S.spa = { level, total: sc.total, correct: sc.correct, pct: sc.pct, domains: dom, gaps: sc.units.filter((u) => !u.correct && u.lu).map((u) => ({ lu: u.lu, domain: u.domain || 'grammar' })).filter((g, i, a) => a.findIndex((x) => x.lu.id === g.lu.id) === i) };
+  }
+  function spaCard() {
+    const r = S.spa; if (!r) return '';
+    const names = { grammar: 'Grammar & spelling', reading: 'Reading comprehension' };
+    const rows = Object.entries(r.domains).map(([k, v]) => `<div class="arow"><div class="aname">${esc(names[k] || k)}</div>${bar(pct(v.c / v.t))}<div class="apct">${pct(v.c / v.t)}%</div></div>`).join('');
+    const band = r.pct >= 0.8 ? 'Strong (mastery level)' : r.pct >= 0.6 ? 'Developing' : 'Needs support';
+    const gaps = r.gaps.length ? `<div class="lu-list">${r.gaps.map((g) => `<div class="lu-item"><div class="lu-top"><span class="lu-chip">${esc(g.lu.id)}</span></div><div class="lu-c">${esc((g.lu.concept && g.lu.concept.en) || '')}</div></div>`).join('')}</div>` : '';
+    return `<div class="icard subj"><h4>${esc(T().subj.spa)}</h4><p>Level tested: <strong>${esc(GRADE_LABEL(r.level))}</strong> · ${r.correct}/${r.total} (${pct(r.pct)}%) · <strong>${esc(band)}</strong></p>
+      <div class="areas-list">${rows}</div>${r.gaps.length ? `<h5>Concepts to reinforce (${r.gaps.length})</h5>${gaps}` : ''}
+      <div class="note">Optional Spanish proficiency. It is informational for the IEP and the Chanak Local Extension (Spanish Language Arts); it does not change the U.S. core placement.</div></div>`;
   }
 
   // ── Resultados ────────────────────────────────────────────────────────────
@@ -439,7 +460,7 @@
     const alerts = [];
     if (S.form.ingles === 'no' && S.track !== 'dual') alerts.push(T().skipENG, T().abcRec);
     $('r-alerts').innerHTML = alerts.map((a) => `<div class="note">${esc(a)}</div>`).join('');
-    $('r-subjects').innerHTML = S.track === 'dual' ? cefrCard() : ['math', 'ela'].map(subjectCard).join('');
+    $('r-subjects').innerHTML = (S.track === 'dual' ? cefrCard() : ['math', 'ela'].map(subjectCard).join('')) + spaCard();
     // Áreas complementarias
     let comp = '';
     if (S.comp) {
@@ -491,6 +512,7 @@
           references: { ace_performance_pace: r.performancePace || null, ace_range: eq ? eq.ace[key].pace_range : null, cle_level: eq ? eq.cle.languageArts * 100 : null, lifepac_level: eq ? eq.lifepac : null, florida: eq ? eq.florida : null },
         };
       }),
+      spanish_proficiency: S.spa ? { optional: true, level_tested: S.spa.level, percent: Math.round(S.spa.pct * 100), domains: S.spa.domains, learning_units_to_reinforce: S.spa.gaps.map((g) => ({ ...luOut(g.lu), domain: g.domain })) } : null,
       english_speaking: S.speak ? { florida_code: speakCode(S.grade), tasks: S.speak.tasks.map((t) => ({ id: t.id, kind: t.kind, prompt: t.text, recorded: !!S.speak.rec[t.id] })), recorded: Object.keys(S.speak.rec).length, status: S.speak.skipped ? 'not_recorded' : 'pending_mentor_review' } : null,
       cefr: S.results.cefr ? { level: S.results.cefr.code, borderline: S.results.cefr.borderline, next_level: S.results.cefr.nextCode, level_pct: S.results.cefr.pct, areas: S.results.cefr.areas, learning_units_to_reinforce: S.results.cefr.gaps.map((g) => ({ ...luOut(g.lu), cefr: g.cefr, area: g.area })) } : null,
       complementary: S.comp ? Object.fromEntries(Object.entries(S.comp.by).map(([a, v]) => [a, { correct: v.c, total: v.t }])) : null,
@@ -703,6 +725,7 @@ ${refRows ? `<div class="pblk refs-foot"><h3>${L.refs}</h3><table class="equiv-t
       const set = (id, v) => { const e = $(id); if (e && v != null && v !== '') e.value = v; };
       set('f-nombre', info.student_name); set('f-email', info.family_email);
       if (info.declared_grade != null) set('f-curso', String(info.declared_grade));
+      if (info.declared_grade != null && Number(info.declared_grade) < 2) setTimeout(() => alert('The diagnostic is taken from Grade 2 on. Kindergarten and Grade 1 do not take it.'), 300);
       set('f-programa', info.track); $('f-programa').disabled = true;
       $('link-banner').classList.remove('hidden');
       _show('form'); return true;

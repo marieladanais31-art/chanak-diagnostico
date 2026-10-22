@@ -50,3 +50,10 @@ El banco se completó con lo que el Scope & Sequence oficial pide y faltaba (sin
 - Cada pregunta nueva fue resuelta a ciegas por un segundo corrector (0 discrepancias tras corregir una cifra de un pasaje). Siguen para revisión de un mentor.
 - El PEI (documento imprimible) lleva una declaración fija: alineación con los estándares de Florida (B.E.S.T. y demás), currículo aprobado por Chanak de acuerdo con esos estándares, aprendizaje por dominio y enfoque cristocéntrico.
 - Requiere la migración del SIS `20261039_diagnostic_audio.sql` (permite subir audio al bucket privado).
+
+## Cierre v2.4: desde 2.º grado, solo inglés, versión única EE. UU.
+
+- **Desde 2.º grado:** Kindergarten y 1.º no hacen el diagnóstico (el formulario no ofrece esos grados). Un estudiante de 2.º puede empezar por debajo de su grado (niveles de K y 1.º del banco) para detectar lagunas; esas preguntas se conservan para eso.
+- **Todo en inglés:** interfaz, instrucciones, preguntas, informe y PEI. Se quitó el selector ES/EN.
+- **Versión única EE. UU. / Florida (B.E.S.T.):** se quitó la elección de país; el país queda fijado como "EE. UU. / Florida".
+- **Dominio de castellano (opcional):** casilla en el formulario. Bloque de 7 preguntas en español del grado declarado (4 de gramática y ortografía + 3 de lectura comprensiva), 2.º a 12.º (77 preguntas, `api/_bank/spa.json`). Es informativo para el PEI y la Extensión Local (Lengua); **no cambia la ubicación del currículo americano** y no lleva código de Florida.
