@@ -9,14 +9,17 @@ const URL_ = () => {
 };
 // Pista no sensible para diagnosticar (la URL del proyecto es pública; si parece una clave, no se muestra).
 const urlHint = () => { const u = clean(process.env.SUPABASE_URL); return /^eyJ/.test(u) || u.length > 120 ? `(valor de ${u.length} caracteres que no parece una URL)` : u.slice(0, 70); };
-const KEY = () => clean(process.env.SUPABASE_ANON_KEY).replace(/\s+/g, '');
+// La clave es un JWT (letras, números, '.', '-', '_'): se quita todo lo demás (espacios, saltos de línea, caracteres invisibles).
+const rawKey = () => String(process.env.SUPABASE_ANON_KEY || '');
+const KEY = () => rawKey().replace(/[^A-Za-z0-9._-]/g, '');
+const keyHint = () => { const r = rawKey(), k = KEY(); return `clave de ${r.length} caracteres (${r.length - k.length} sobrantes), ${k.startsWith('eyJ') ? 'empieza como un JWT' : 'NO empieza como un JWT'}, ${k.split('.').length} partes`; };
 const configured = () => !!(URL_() && KEY());
 const headers = (extra = {}) => ({ apikey: KEY(), Authorization: `Bearer ${KEY()}`, ...extra });
 
 async function rpc(fn, args) {
   let r;
   try { r = await fetch(`${URL_()}/rest/v1/rpc/${fn}`, { method: 'POST', headers: headers({ 'Content-Type': 'application/json' }), body: JSON.stringify(args) }); }
-  catch (err) { const e = new Error(`No se pudo conectar con Supabase. SUPABASE_URL actual: "${urlHint()}"`); e.status = 0; throw e; }
+  catch (err) { const e = new Error(`No se pudo conectar con Supabase. URL: "${urlHint()}" · ${keyHint()} · causa: ${String(err && err.message || err).slice(0, 80)}${err && err.cause && err.cause.code ? ' / ' + err.cause.code : ''}`); e.status = 0; throw e; }
   const text = await r.text();
   let json = null; try { json = JSON.parse(text); } catch { /* ignore */ }
   if (!r.ok) { const e = new Error((json && json.message) || `HTTP ${r.status}`); e.status = r.status; throw e; }
