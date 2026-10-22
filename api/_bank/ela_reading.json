@@ -1,0 +1,2536 @@
+{
+ "band": "ela_reading",
+ "items": [
+  {
+   "id": "EN-01-R01",
+   "subject": "ela",
+   "level": 1,
+   "ace": null,
+   "skill": "Literal detail",
+   "strand": "reading",
+   "florida_code": "ELA.1.R.2.2",
+   "type": "mcq",
+   "prompt": "Tom has a red kite. The kite is up in the sky.\n\nWhat color is Tom's kite?",
+   "options": [
+    "Blue",
+    "Red",
+    "Green"
+   ],
+   "answer": 1,
+   "explain": "The text says Tom has a red kite.",
+   "source": "scope_2026",
+   "lu": {
+    "id": "LU-ELA-RD-01-01",
+    "slot": 1,
+    "concept": {
+     "en": "finding a detail in a short text",
+     "es": "encontrar un detalle en un texto corto"
+    },
+    "tip": {
+     "en": "Read two short sentences together and ask your child to point to the answer in the words.",
+     "es": "Lean juntos dos frases cortas y pida a su hijo que señale la respuesta en el texto."
+    }
+   },
+   "florida": "ELA.1.R"
+  },
+  {
+   "id": "EN-01-R02",
+   "subject": "ela",
+   "level": 1,
+   "ace": null,
+   "skill": "Who, what, where",
+   "strand": "reading",
+   "florida_code": "ELA.1.R.1.1",
+   "type": "mcq",
+   "prompt": "Grace and her dad go to the pond. They feed the ducks.\n\nWhere do Grace and her dad go?",
+   "options": [
+    "To church",
+    "To the park",
+    "To the pond"
+   ],
+   "answer": 2,
+   "explain": "The first sentence says they go to the pond.",
+   "source": "scope_2026",
+   "lu": {
+    "id": "LU-ELA-RD-01-02",
+    "slot": 2,
+    "concept": {
+     "en": "telling who, what and where in a story",
+     "es": "decir quién, qué y dónde en un cuento"
+    },
+    "tip": {
+     "en": "After a story, ask: Who was in it? What did they do? Where were they?",
+     "es": "Después de un cuento pregunte: ¿Quién estaba? ¿Qué hizo? ¿Dónde estaba?"
+    }
+   },
+   "florida": "ELA.1.R"
+  },
+  {
+   "id": "EN-01-R03",
+   "subject": "ela",
+   "level": 1,
+   "ace": null,
+   "skill": "Sequencing events",
+   "strand": "reading",
+   "florida_code": "ELA.1.R.3.2",
+   "type": "mcq",
+   "prompt": "First, Ana put on her coat. Then she went outside to play in the snow.\n\nWhat did Ana do first?",
+   "options": [
+    "Played in the snow",
+    "Put on her coat",
+    "Went to bed"
+   ],
+   "answer": 1,
+   "explain": "The word First tells us she put on her coat before going outside.",
+   "source": "scope_2026",
+   "lu": {
+    "id": "LU-ELA-RD-01-03",
+    "slot": 3,
+    "concept": {
+     "en": "putting events in order",
+     "es": "ordenar los sucesos de un cuento"
+    },
+    "tip": {
+     "en": "Use the words first, then and last when you tell your child about the day.",
+     "es": "Use las palabras primero, luego y al final cuando cuente el día a su hijo."
+    }
+   },
+   "florida": "ELA.1.R"
+  },
+  {
+   "id": "EN-01-R04",
+   "subject": "ela",
+   "level": 1,
+   "ace": null,
+   "skill": "Word meaning in context",
+   "strand": "reading",
+   "florida_code": "ELA.1.V.1.3",
+   "type": "mcq",
+   "prompt": "The baby bird was tiny. It fit in Luis's small hand.\n\nWhat does the word tiny mean?",
+   "options": [
+    "Very small",
+    "Very loud",
+    "Very fast"
+   ],
+   "answer": 0,
+   "explain": "The bird fit in a small hand, so tiny means very small.",
+   "source": "scope_2026",
+   "lu": {
+    "id": "LU-ELA-RD-01-04",
+    "slot": 4,
+    "concept": {
+     "en": "using clues to find a word's meaning",
+     "es": "usar pistas para entender una palabra"
+    },
+    "tip": {
+     "en": "When a word is new, reread the sentence next to it and look for clues.",
+     "es": "Cuando una palabra es nueva, relea la frase de al lado y busque pistas."
+    }
+   },
+   "florida": "ELA.1.V"
+  },
+  {
+   "id": "EN-02-R01",
+   "subject": "ela",
+   "level": 2,
+   "ace": null,
+   "skill": "Main idea",
+   "strand": "reading",
+   "florida_code": "ELA.2.R.2.2",
+   "type": "mcq",
+   "prompt": "Bees work hard every day. They fly from flower to flower to collect nectar. They carry it back to the hive. There it is turned into honey.\n\nWhat is this text mostly about?",
+   "options": [
+    "Why flowers have bright colors",
+    "How bees make honey",
+    "Where bees go in winter"
+   ],
+   "answer": 1,
+   "explain": "Every sentence tells how bees collect nectar and make honey.",
+   "source": "scope_2026",
+   "lu": {
+    "id": "LU-ELA-RD-02-01",
+    "slot": 1,
+    "concept": {
+     "en": "finding the main idea",
+     "es": "hallar la idea principal"
+    },
+    "tip": {
+     "en": "Ask your child to say in one sentence what a page is mostly about.",
+     "es": "Pida a su hijo que diga en una frase de qué trata sobre todo un texto."
+    }
+   },
+   "florida": "ELA.2.R"
+  },
+  {
+   "id": "EN-02-R02",
+   "subject": "ela",
+   "level": 2,
+   "ace": null,
+   "skill": "Supporting detail",
+   "strand": "reading",
+   "florida_code": "ELA.2.R.2.2",
+   "type": "mcq",
+   "prompt": "David helped his grandfather plant a garden. They planted beans, corn, and carrots. David watered the seeds every morning. He was thankful for the rain on Sunday.\n\nWhat did David do every morning?",
+   "options": [
+    "Picked the carrots",
+    "Watered the seeds",
+    "Planted the corn",
+    "Fed the chickens"
+   ],
+   "answer": 1,
+   "explain": "The text says David watered the seeds every morning.",
+   "source": "scope_2026",
+   "lu": {
+    "id": "LU-ELA-RD-02-02",
+    "slot": 2,
+    "concept": {
+     "en": "finding details that answer a question",
+     "es": "encontrar detalles que responden una pregunta"
+    },
+    "tip": {
+     "en": "Have your child go back to the text and point to the sentence that proves the answer.",
+     "es": "Pida a su hijo que vuelva al texto y señale la frase que prueba la respuesta."
+    }
+   },
+   "florida": "ELA.2.R"
+  },
+  {
+   "id": "EN-02-R03",
+   "subject": "ela",
+   "level": 2,
+   "ace": null,
+   "skill": "Sequence of events",
+   "strand": "reading",
+   "florida_code": "ELA.2.R.3.2",
+   "type": "mcq",
+   "prompt": "Grace wanted to bake bread for her neighbor. First, she mixed the flour and water. Next, she let the dough rest for an hour. Last, she baked it in the oven.\n\nWhat did Grace do right after she mixed the flour and water?",
+   "options": [
+    "She baked the bread",
+    "She gave it to her neighbor",
+    "She let the dough rest for an hour"
+   ],
+   "answer": 2,
+   "explain": "The word Next shows resting the dough came right after mixing.",
+   "source": "scope_2026",
+   "lu": {
+    "id": "LU-ELA-RD-02-03",
+    "slot": 3,
+    "concept": {
+     "en": "telling what happens first, next and last",
+     "es": "decir qué pasa primero, después y al final"
+    },
+    "tip": {
+     "en": "Cook or follow a recipe together and name each step with first, next, last.",
+     "es": "Cocinen juntos una receta y nombren cada paso con primero, luego y al final."
+    }
+   },
+   "florida": "ELA.2.R"
+  },
+  {
+   "id": "EN-02-R04",
+   "subject": "ela",
+   "level": 2,
+   "ace": null,
+   "skill": "Vocabulary in context",
+   "strand": "reading",
+   "florida_code": "ELA.2.V.1.3",
+   "type": "mcq",
+   "prompt": "The cave was dim. Luis could barely see his hand in front of his face. He turned on his flashlight to find the way out.\n\nWhat does the word dim mean?",
+   "options": [
+    "Warm and cozy",
+    "Dark, with little light",
+    "Very big"
+   ],
+   "answer": 1,
+   "explain": "He could barely see and needed a flashlight, so dim means dark.",
+   "source": "scope_2026",
+   "lu": {
+    "id": "LU-ELA-RD-02-04",
+    "slot": 4,
+    "concept": {
+     "en": "using context clues for word meaning",
+     "es": "usar el contexto para entender palabras"
+    },
+    "tip": {
+     "en": "Cover the new word and ask what word would fit; then check it with the clues.",
+     "es": "Tape la palabra nueva, pregunte qué palabra encajaría y compruebe con las pistas."
+    }
+   },
+   "florida": "ELA.2.V"
+  },
+  {
+   "id": "EN-02-R05",
+   "subject": "ela",
+   "level": 2,
+   "ace": null,
+   "skill": "Cause and effect",
+   "strand": "reading",
+   "florida_code": "ELA.2.R.1.1",
+   "type": "mcq",
+   "prompt": "It rained all night. In the morning, the grass was wet and the puddles were deep. Ana put on her boots. She jumped in every puddle.\n\nWhy did Ana put on her boots?",
+   "options": [
+    "It was snowing",
+    "She was going to church",
+    "The puddles were deep"
+   ],
+   "answer": 2,
+   "explain": "The rain made deep puddles, and that is why Ana wore boots.",
+   "source": "scope_2026",
+   "lu": {
+    "id": "LU-ELA-RD-02-05",
+    "slot": 5,
+    "concept": {
+     "en": "finding why something happened",
+     "es": "descubrir por qué ocurrió algo"
+    },
+    "tip": {
+     "en": "Ask 'Why did that happen?' about everyday events and answer with because.",
+     "es": "Pregunte '¿Por qué pasó eso?' sobre sucesos cotidianos y responda con porque."
+    }
+   },
+   "florida": "ELA.2.R"
+  },
+  {
+   "id": "EN-02-W01",
+   "subject": "ela",
+   "level": 2,
+   "ace": null,
+   "skill": "Topic sentence",
+   "strand": "grammar",
+   "florida_code": "ELA.2.C.1.4",
+   "type": "mcq",
+   "prompt": "Read these details: Some dogs guide people who cannot see. Other dogs help find lost hikers. Some dogs visit people in hospitals.\n\nWhich sentence is the best topic sentence to begin this paragraph?",
+   "options": [
+    "My dog likes to eat bones.",
+    "Dogs can do many kinds of helpful jobs.",
+    "Hikers walk in the woods."
+   ],
+   "answer": 1,
+   "explain": "The topic sentence tells the big idea that all the details support.",
+   "source": "scope_2026",
+   "lu": {
+    "id": "LU-ELA-WR-02-01",
+    "slot": 1,
+    "concept": {
+     "en": "writing a topic sentence",
+     "es": "escribir una oración temática"
+    },
+    "tip": {
+     "en": "Read a paragraph and ask which sentence tells the big idea.",
+     "es": "Lean un párrafo y pregunte qué oración dice la idea general."
+    }
+   },
+   "florida": "ELA.2.C"
+  },
+  {
+   "id": "EN-02-W02",
+   "subject": "ela",
+   "level": 2,
+   "ace": null,
+   "skill": "Complete sentence",
+   "strand": "grammar",
+   "florida_code": "ELA.2.C.3.1",
+   "type": "mcq",
+   "prompt": "Which group of words is a complete sentence?",
+   "options": [
+    "The big brown dog.",
+    "Ran down the street.",
+    "Luis shared his lunch with Ana.",
+    "Under the old tree."
+   ],
+   "answer": 2,
+   "explain": "It tells who did something and what he did; the others are missing a part.",
+   "source": "scope_2026",
+   "lu": {
+    "id": "LU-ELA-WR-02-02",
+    "slot": 2,
+    "concept": {
+     "en": "writing complete sentences",
+     "es": "escribir oraciones completas"
+    },
+    "tip": {
+     "en": "Ask your child to answer questions in a whole sentence with who and what.",
+     "es": "Pida a su hijo que responda en una oración completa con quién y qué hace."
+    }
+   },
+   "florida": "ELA.2.C"
+  },
+  {
+   "id": "EN-03-R01",
+   "subject": "ela",
+   "level": 3,
+   "ace": null,
+   "skill": "Main idea",
+   "strand": "reading",
+   "florida_code": "ELA.3.R.2.2",
+   "type": "mcq",
+   "prompt": "Owls are birds that hunt at night. Their large eyes help them see in the dark. Their soft feathers let them fly almost without a sound. Owls can also turn their heads far around to look for food. All of these things make owls skilled night hunters.\n\nWhat is the main idea of the text?",
+   "options": [
+    "Owls build nests in trees.",
+    "Owls are the largest birds.",
+    "Owls have traits that help them hunt at night.",
+    "Owls eat only mice."
+   ],
+   "answer": 2,
+   "explain": "All the details explain how owls are built for hunting at night.",
+   "source": "scope_2026",
+   "lu": {
+    "id": "LU-ELA-RD-03-01",
+    "slot": 1,
+    "concept": {
+     "en": "finding the main idea and its supporting details",
+     "es": "hallar la idea principal y sus detalles"
+    },
+    "tip": {
+     "en": "After reading, ask your child to name the big idea and two details that support it.",
+     "es": "Después de leer, pida el tema central y dos detalles que lo apoyen."
+    }
+   },
+   "florida": "ELA.3.R"
+  },
+  {
+   "id": "EN-03-R02",
+   "subject": "ela",
+   "level": 3,
+   "ace": null,
+   "skill": "Supporting detail",
+   "strand": "reading",
+   "florida_code": "ELA.3.R.2.2",
+   "type": "mcq",
+   "prompt": "Every Saturday, Luis and his mom visit Mrs. Parker, an elderly neighbor. They bring her soup and a loaf of bread. Luis reads her a chapter from her favorite book while his mom tidies the kitchen. Mrs. Parker always says a prayer of thanks before they leave. Luis is glad he can help.\n\nWhat does Luis do while his mom tidies the kitchen?",
+   "options": [
+    "Bakes bread",
+    "Cooks soup",
+    "Says a prayer alone",
+    "Reads a chapter to Mrs. Parker"
+   ],
+   "answer": 3,
+   "explain": "The text says Luis reads her a chapter while his mom tidies.",
+   "source": "scope_2026",
+   "lu": {
+    "id": "LU-ELA-RD-03-02",
+    "slot": 2,
+    "concept": {
+     "en": "locating a detail in a passage",
+     "es": "localizar un detalle en un pasaje"
+    },
+    "tip": {
+     "en": "Ask a who/what question about a page and have your child find the exact words.",
+     "es": "Haga una pregunta de quién/qué sobre una página y que su hijo halle las palabras exactas."
+    }
+   },
+   "florida": "ELA.3.R"
+  },
+  {
+   "id": "EN-03-R03",
+   "subject": "ela",
+   "level": 3,
+   "ace": null,
+   "skill": "Sequence of events",
+   "strand": "reading",
+   "florida_code": "ELA.3.R.3.2",
+   "type": "mcq",
+   "prompt": "Sam planted a sunflower seed in a pot. After a week, a tiny green sprout poked out of the soil. Over the next month, the stem grew tall and thick. Finally, a bright yellow flower opened at the top. Sam smiled as bees came to visit.\n\nWhat happened right after the sprout poked out of the soil?",
+   "options": [
+    "A yellow flower opened",
+    "Bees came to visit",
+    "Sam planted the seed",
+    "The stem grew tall and thick"
+   ],
+   "answer": 3,
+   "explain": "After the sprout appeared, the stem grew tall and thick over the next month.",
+   "source": "scope_2026",
+   "lu": {
+    "id": "LU-ELA-RD-03-03",
+    "slot": 3,
+    "concept": {
+     "en": "ordering events in a passage",
+     "es": "ordenar sucesos de un pasaje"
+    },
+    "tip": {
+     "en": "Retell a story together using first, next, then and finally.",
+     "es": "Cuenten una historia juntos con primero, luego, después y finalmente."
+    }
+   },
+   "florida": "ELA.3.R"
+  },
+  {
+   "id": "EN-03-R04",
+   "subject": "ela",
+   "level": 3,
+   "ace": null,
+   "skill": "Vocabulary in context",
+   "strand": "reading",
+   "florida_code": "ELA.3.V.1.3",
+   "type": "mcq",
+   "prompt": "The hikers were exhausted after climbing the mountain all day. Their legs ached and they could hardly keep their eyes open. They sat down by the fire and rested. Soon they were all asleep.\n\nWhat does the word exhausted mean?",
+   "options": [
+    "Very hungry",
+    "Very scared",
+    "Very tired",
+    "Very excited"
+   ],
+   "answer": 2,
+   "explain": "Aching legs and heavy eyes show they were very tired.",
+   "source": "scope_2026",
+   "lu": {
+    "id": "LU-ELA-RD-03-04",
+    "slot": 4,
+    "concept": {
+     "en": "using context to figure out a hard word",
+     "es": "usar el contexto para descifrar una palabra difícil"
+    },
+    "tip": {
+     "en": "Ask your child which clues in the sentences helped explain a new word.",
+     "es": "Pregunte a su hijo qué pistas de las frases le ayudaron a entender una palabra nueva."
+    }
+   },
+   "florida": "ELA.3.V"
+  },
+  {
+   "id": "EN-03-R05",
+   "subject": "ela",
+   "level": 3,
+   "ace": null,
+   "skill": "Cause and effect",
+   "strand": "reading",
+   "florida_code": "ELA.3.R.2.1",
+   "type": "mcq",
+   "prompt": "Penguins live in very cold places. Under their skin they have a thick layer of fat called blubber. Their feathers are packed tightly and covered with oil, which keeps water out. Because of the blubber and feathers, penguins stay warm even in icy water. Penguins also huddle together to share heat.\n\nWhy do penguins stay warm in icy water?",
+   "options": [
+    "They never go into the water",
+    "They eat warm food",
+    "They live near the sun",
+    "They have blubber and tight, oily feathers"
+   ],
+   "answer": 3,
+   "explain": "The text says blubber and oily feathers keep penguins warm.",
+   "source": "scope_2026",
+   "lu": {
+    "id": "LU-ELA-RD-03-05",
+    "slot": 5,
+    "concept": {
+     "en": "understanding cause and effect",
+     "es": "comprender causa y efecto"
+    },
+    "tip": {
+     "en": "Look for the words because and so when reading and name the cause and the effect.",
+     "es": "Busque las palabras porque y por eso al leer y nombre la causa y el efecto."
+    }
+   },
+   "florida": "ELA.3.R"
+  },
+  {
+   "id": "EN-03-W01",
+   "subject": "ela",
+   "level": 3,
+   "ace": null,
+   "skill": "Opinion with a reason",
+   "strand": "grammar",
+   "florida_code": "ELA.3.C.1.3",
+   "type": "mcq",
+   "prompt": "Ana wants to write about why dogs make good pets. Which sentence best states her opinion and gives a reason?",
+   "options": [
+    "Dogs are animals that live with people.",
+    "Dogs make good pets because they are loyal and friendly.",
+    "Many families have dogs.",
+    "I saw a dog at the park yesterday."
+   ],
+   "answer": 1,
+   "explain": "It gives an opinion and a reason with the word because.",
+   "source": "scope_2026",
+   "lu": {
+    "id": "LU-ELA-WR-03-01",
+    "slot": 1,
+    "concept": {
+     "en": "writing an opinion with a reason",
+     "es": "escribir una opinión con una razón"
+    },
+    "tip": {
+     "en": "Ask your child's opinion on something and have them answer with because.",
+     "es": "Pida a su hijo su opinión sobre algo y que responda con porque."
+    }
+   },
+   "florida": "ELA.3.C"
+  },
+  {
+   "id": "EN-03-W02",
+   "subject": "ela",
+   "level": 3,
+   "ace": null,
+   "skill": "Paragraph order",
+   "strand": "grammar",
+   "florida_code": "ELA.3.C.1.4",
+   "type": "mcq",
+   "prompt": "Put these sentences in the best order for a paragraph.\n1. Finally, we sang a song to thank God for the day.\n2. Last Saturday, our family went to the beach.\n3. First, we built a big sand castle.\n4. Then we ate lunch under an umbrella.\n\nWhich order is best?",
+   "options": [
+    "3, 2, 4, 1",
+    "1, 2, 3, 4",
+    "2, 3, 4, 1",
+    "2, 4, 3, 1"
+   ],
+   "answer": 2,
+   "explain": "The paragraph starts with the introduction, then First, Then, and Finally.",
+   "source": "scope_2026",
+   "lu": {
+    "id": "LU-ELA-WR-03-02",
+    "slot": 2,
+    "concept": {
+     "en": "putting sentences in a logical order",
+     "es": "ordenar oraciones de forma lógica"
+    },
+    "tip": {
+     "en": "Cut a paragraph into sentence strips and have your child put them back in order.",
+     "es": "Corte un párrafo en tiras de oraciones y que su hijo las ordene."
+    }
+   },
+   "florida": "ELA.3.C"
+  },
+  {
+   "id": "EN-04-R01",
+   "subject": "ela",
+   "level": 4,
+   "ace": null,
+   "skill": "Theme",
+   "strand": "reading",
+   "florida_code": "ELA.4.R.1.2",
+   "type": "mcq",
+   "prompt": "Grace's little brother Ben broke her favorite music box while playing in her room. Grace felt angry and wanted to shout. Then she saw Ben's tears and noticed how sorry he was. She remembered her mother's lesson about forgiving others. Grace took a deep breath and hugged him. \"It's only a box,\" she said, \"and you are my brother.\" Ben smiled with relief. Together they carefully glued the pieces back.\n\nWhat is the theme of this story?",
+   "options": [
+    "Brothers should never touch each other's things.",
+    "Forgiveness is more important than things.",
+    "Music boxes are hard to repair.",
+    "It is wise to shout when you are angry."
+   ],
+   "answer": 1,
+   "explain": "Grace chooses to forgive Ben instead of staying angry about the box.",
+   "source": "scope_2026",
+   "lu": {
+    "id": "LU-ELA-RD-04-01",
+    "slot": 1,
+    "concept": {
+     "en": "finding the theme of a story",
+     "es": "hallar el tema de un cuento"
+    },
+    "tip": {
+     "en": "Ask: What lesson did the character learn? Use the story's details as proof.",
+     "es": "Pregunte: ¿Qué lección aprendió el personaje? Use detalles del cuento como prueba."
+    }
+   },
+   "florida": "ELA.4.R"
+  },
+  {
+   "id": "EN-04-R02",
+   "subject": "ela",
+   "level": 4,
+   "ace": null,
+   "skill": "Summarizing",
+   "strand": "reading",
+   "florida_code": "ELA.4.R.3.2",
+   "type": "mcq",
+   "prompt": "Each fall, monarch butterflies make an amazing trip. Millions of them leave Canada and the northern United States and fly south to Mexico, a journey of up to 3,000 miles. No single monarch makes the whole round trip. The butterflies that fly south live for months, but those that fly north in spring live only a few weeks. Their children and grandchildren finish the journey north. Scientists think the butterflies use the sun as a compass. Many people plant milkweed, the only plant monarch caterpillars eat, to help them.\n\nWhich is the best summary of the text?",
+   "options": [
+    "Monarchs live only a few weeks.",
+    "Scientists use compasses to study butterflies.",
+    "Milkweed is the only plant monarch caterpillars eat.",
+    "Monarchs migrate far south in fall and north in spring over several generations, and people can help by planting milkweed."
+   ],
+   "answer": 3,
+   "explain": "It covers the main points; the other choices give only one small detail or a wrong idea.",
+   "source": "scope_2026",
+   "lu": {
+    "id": "LU-ELA-RD-04-02",
+    "slot": 2,
+    "concept": {
+     "en": "summarizing a text",
+     "es": "resumir un texto"
+    },
+    "tip": {
+     "en": "Ask your child to summarize a chapter in two sentences without small details.",
+     "es": "Pida a su hijo que resuma un capítulo en dos frases sin detalles pequeños."
+    }
+   },
+   "florida": "ELA.4.R"
+  },
+  {
+   "id": "EN-04-R03",
+   "subject": "ela",
+   "level": 4,
+   "ace": null,
+   "skill": "Making an inference",
+   "strand": "reading",
+   "florida_code": "ELA.4.R.1.1",
+   "type": "mcq",
+   "prompt": "Luis stood at the edge of the stage, holding his trumpet with both hands. His knees were shaking, and he kept wiping his palms on his pants. He could hear the crowd murmuring on the other side of the curtain. \"You've practiced every day,\" whispered his teacher. Luis took a slow breath. When the curtain rose, he lifted the trumpet and began to play. By the last note, he was smiling.\n\nHow did Luis feel before the curtain rose?",
+   "options": [
+    "Bored",
+    "Angry",
+    "Nervous",
+    "Sleepy"
+   ],
+   "answer": 2,
+   "explain": "Shaking knees, sweaty palms and slow breathing show he was nervous.",
+   "source": "scope_2026",
+   "lu": {
+    "id": "LU-ELA-RD-04-03",
+    "slot": 3,
+    "concept": {
+     "en": "making inferences from clues",
+     "es": "hacer inferencias con pistas"
+    },
+    "tip": {
+     "en": "Ask how a character feels and what clues in the text show it.",
+     "es": "Pregunte cómo se siente un personaje y qué pistas del texto lo muestran."
+    }
+   },
+   "florida": "ELA.4.R"
+  },
+  {
+   "id": "EN-04-R04",
+   "subject": "ela",
+   "level": 4,
+   "ace": null,
+   "skill": "Text features",
+   "strand": "reading",
+   "florida_code": "ELA.4.R.2.1",
+   "type": "mcq",
+   "prompt": "Why Leaves Change Color\nGreen in Summer\nLeaves contain chlorophyll, which makes them green and helps the tree make food.\nColors in Fall\nWhen days get shorter, trees stop making chlorophyll. The green fades, and the yellow and orange colors underneath show through. Some leaves also turn red from sugars trapped inside them.\nLeaves on the Ground\nSoon the leaves drop. They break down and enrich the soil.\n\nUnder which heading would a reader find out why leaves turn orange?",
+   "options": [
+    "Green in Summer",
+    "Leaves on the Ground",
+    "Colors in Fall"
+   ],
+   "answer": 2,
+   "explain": "The section Colors in Fall explains how orange and yellow show through.",
+   "source": "scope_2026",
+   "lu": {
+    "id": "LU-ELA-RD-04-04",
+    "slot": 4,
+    "concept": {
+     "en": "using headings to find information",
+     "es": "usar los subtítulos para hallar información"
+    },
+    "tip": {
+     "en": "Before reading, look at titles and headings and predict what each part will tell you.",
+     "es": "Antes de leer, mire títulos y subtítulos y prediga qué dirá cada parte."
+    }
+   },
+   "florida": "ELA.4.R"
+  },
+  {
+   "id": "EN-04-R05",
+   "subject": "ela",
+   "level": 4,
+   "ace": null,
+   "skill": "Point of view",
+   "strand": "reading",
+   "florida_code": "ELA.4.R.1.3",
+   "type": "mcq",
+   "prompt": "I held my breath as Dad pushed the canoe into the lake. My sister Hannah sat in front, grinning from ear to ear. She could not wait to paddle. I, on the other hand, kept staring at the deep, dark water. \"Don't worry,\" said Dad, \"I'll be right behind you.\" I gripped the paddle and tried to believe him. Slowly, the canoe glided forward.\n\nFrom whose point of view is the story told?",
+   "options": [
+    "A child in the story who tells it using \"I\"",
+    "An outside narrator who is not in the story",
+    "Hannah, who is excited",
+    "Dad, who is steering the canoe"
+   ],
+   "answer": 0,
+   "explain": "The narrator says I and Hannah is called my sister, so Hannah is not the narrator.",
+   "source": "scope_2026",
+   "lu": {
+    "id": "LU-ELA-RD-04-05",
+    "slot": 5,
+    "concept": {
+     "en": "finding who is telling the story",
+     "es": "identificar quién cuenta la historia"
+    },
+    "tip": {
+     "en": "Look for the words I and me to spot a narrator who is a character.",
+     "es": "Busque las palabras yo y me para detectar un narrador que es personaje."
+    }
+   },
+   "florida": "ELA.4.R"
+  },
+  {
+   "id": "EN-04-W01",
+   "subject": "ela",
+   "level": 4,
+   "ace": null,
+   "skill": "Choosing the best summary",
+   "strand": "grammar",
+   "florida_code": "ELA.4.R.3.2",
+   "type": "mcq",
+   "prompt": "Bats are the only mammals that can truly fly. Many bats hunt at night using echolocation: they make high sounds and listen for the echoes that bounce back from insects. This lets them find food in complete darkness. One small bat can eat thousands of insects in a single night.\n\nWhich sentence is the best summary of the paragraph?",
+   "options": [
+    "Bats are mammals.",
+    "Bats can fly and eat thousands of insects.",
+    "Bats are flying mammals that use echoes to find insects at night.",
+    "Bats make high sounds."
+   ],
+   "answer": 2,
+   "explain": "It includes the main points: flying mammals, echoes, insects, night.",
+   "source": "scope_2026",
+   "lu": {
+    "id": "LU-ELA-WR-04-01",
+    "slot": 1,
+    "concept": {
+     "en": "writing a short, complete summary",
+     "es": "escribir un resumen breve y completo"
+    },
+    "tip": {
+     "en": "After a read-aloud, have your child say the summary in one sentence.",
+     "es": "Tras una lectura en voz alta, pida un resumen en una sola oración."
+    }
+   },
+   "florida": "ELA.4.R"
+  },
+  {
+   "id": "EN-04-W02",
+   "subject": "ela",
+   "level": 4,
+   "ace": null,
+   "skill": "Revising a paragraph",
+   "strand": "grammar",
+   "florida_code": "ELA.4.C.1.5",
+   "type": "mcq",
+   "prompt": "Read the paragraph.\nOur church planned a food drive. Families brought canned food and rice. Volunteers sorted the boxes on Saturday. My favorite color is blue. The food was given to families in our town.\n\nWhich sentence does NOT belong in the paragraph?",
+   "options": [
+    "Families brought canned food and rice.",
+    "Volunteers sorted the boxes on Saturday.",
+    "My favorite color is blue.",
+    "The food was given to families in our town."
+   ],
+   "answer": 2,
+   "explain": "The sentence about a favorite color is off topic.",
+   "source": "scope_2026",
+   "lu": {
+    "id": "LU-ELA-WR-04-02",
+    "slot": 2,
+    "concept": {
+     "en": "revising a paragraph to stay on topic",
+     "es": "revisar un párrafo para mantener el tema"
+    },
+    "tip": {
+     "en": "When your child writes, ask if every sentence helps the main idea.",
+     "es": "Cuando su hijo escriba, pregunte si cada oración ayuda a la idea principal."
+    }
+   },
+   "florida": "ELA.4.C"
+  },
+  {
+   "id": "EN-05-R01",
+   "subject": "ela",
+   "level": 5,
+   "ace": null,
+   "skill": "Central idea of an informational text",
+   "strand": "reading",
+   "florida_code": "ELA.5.R.2.2",
+   "type": "mcq",
+   "prompt": "Honeybees do more than make honey. When a bee visits a flower, tiny grains of pollen stick to its legs. At the next flower, some of the pollen rubs off, and the flower can make seeds. Without this help, many fruits and vegetables would not grow. Apples, blueberries, and almonds all depend on bees. Farmers sometimes even rent hives and place them near their crops. One hive can visit millions of flowers in a single season. In this way, small insects play a big part in the food we eat.\n\nWhat is the central idea of this passage?",
+   "options": [
+    "Honeybees make more honey than any other insect.",
+    "Farmers rent hives so they can earn extra money.",
+    "Bees help plants make fruits and seeds, so they are important for our food.",
+    "Flowers produce pollen only during one season."
+   ],
+   "answer": 2,
+   "explain": "Most details show how bees carry pollen and help crops grow.",
+   "source": "scope_2026",
+   "lu": {
+    "id": "LU-ELA-RD-05-01",
+    "slot": 1,
+    "concept": {
+     "en": "Finding the central idea",
+     "es": "Hallar la idea central"
+    },
+    "tip": {
+     "en": "Ask your child to say the passage in one sentence, then check that the sentence covers most of the details.",
+     "es": "Pida a su hijo que diga el texto en una frase y compruebe que esa frase cubre la mayoría de los detalles."
+    }
+   },
+   "florida": "ELA.5.R"
+  },
+  {
+   "id": "EN-05-R02",
+   "subject": "ela",
+   "level": 5,
+   "ace": null,
+   "skill": "Making an inference about a character",
+   "strand": "reading",
+   "florida_code": "ELA.5.R.1.1",
+   "type": "mcq",
+   "prompt": "Grace stood at the edge of the pool, gripping her towel. The other kids splashed and laughed, but her toes would not move. Her brother Ben jumped in and shouted, \"Come on, it's not deep here!\" Grace looked at the water and took a slow breath. She remembered the swimming lessons Mom had paid for all summer. Then she let go of the towel, bent her knees, and slid carefully down the steps. The water was cool on her ankles, then her knees. When it reached her shoulders, a small smile crossed her face.\n\nWhat can the reader infer about Grace at the beginning of the story?",
+   "options": [
+    "She feels nervous about getting into the water.",
+    "She is angry at her brother Ben.",
+    "She is bored with the pool.",
+    "She does not want to be with her family."
+   ],
+   "answer": 0,
+   "explain": "Gripping the towel and toes that will not move show she is nervous.",
+   "source": "scope_2026",
+   "lu": {
+    "id": "LU-ELA-RD-05-02",
+    "slot": 2,
+    "concept": {
+     "en": "Inferring how a character feels",
+     "es": "Inferir cómo se siente un personaje"
+    },
+    "tip": {
+     "en": "Ask: what clues in the story tell us how the character feels, even though the author does not say it?",
+     "es": "Pregunte: ¿qué pistas del cuento nos dicen cómo se siente el personaje, aunque el autor no lo diga?"
+    }
+   },
+   "florida": "ELA.5.R"
+  },
+  {
+   "id": "EN-05-R03",
+   "subject": "ela",
+   "level": 5,
+   "ace": null,
+   "skill": "Understanding a simile",
+   "strand": "reading",
+   "florida_code": "ELA.5.R.3.1",
+   "type": "mcq",
+   "prompt": "The old lighthouse stood like a tired soldier at the edge of the cliff. Every night, its bright eye swept across the dark water. Ships far out at sea followed its steady beam home. During storms, the waves roared and clawed at the rocks below. Still, the keeper climbed the spiral stairs and lit the lamp. He knew that one small light could save many lives. When morning came, the soldier seemed to rest, its work done for another night.\n\nThe author writes that the lighthouse \"stood like a tired soldier.\" What does this comparison suggest?",
+   "options": [
+    "The lighthouse is wearing a uniform.",
+    "The lighthouse stands firm and has done its job faithfully for a long time.",
+    "The lighthouse is about to fall into the sea.",
+    "The lighthouse makes loud noises at night."
+   ],
+   "answer": 1,
+   "explain": "A soldier on duty stands firm, and tired suggests long, faithful work.",
+   "source": "scope_2026",
+   "lu": {
+    "id": "LU-ELA-RD-05-03",
+    "slot": 3,
+    "concept": {
+     "en": "Meaning of a simile",
+     "es": "Significado de un símil"
+    },
+    "tip": {
+     "en": "Look for the word like or as, then ask what the two things have in common.",
+     "es": "Busque las palabras como o tan, y pregunte qué tienen en común las dos cosas comparadas."
+    }
+   },
+   "florida": "ELA.5.R"
+  },
+  {
+   "id": "EN-05-R04",
+   "subject": "ela",
+   "level": 5,
+   "ace": null,
+   "skill": "Vocabulary in context",
+   "strand": "reading",
+   "florida_code": "ELA.5.V.1.3",
+   "type": "mcq",
+   "prompt": "In 1620, a group of families set sail from England aboard a small ship called the Mayflower. The voyage was long and difficult. Storms tossed the ship for weeks, and passengers had little room or fresh food. When land finally came into view, the travelers felt great relief. They were weary after weeks of sleeping on hard, crowded boards, but they were also grateful to be alive. The colonists soon began to build shelters before the cold winter arrived. Many became sick that first winter, and their survival depended on kindness and hard work. In the spring, neighbors from the Wampanoag nation taught them how to plant corn.\n\nIn the passage, what does the word \"weary\" mean?",
+   "options": [
+    "very excited",
+    "very hungry",
+    "very curious",
+    "very tired"
+   ],
+   "answer": 3,
+   "explain": "The clue is weeks of sleeping on hard, crowded boards, which would leave people tired.",
+   "source": "scope_2026",
+   "lu": {
+    "id": "LU-ELA-RD-05-04",
+    "slot": 4,
+    "concept": {
+     "en": "Using context clues for word meaning",
+     "es": "Usar pistas del contexto para el significado"
+    },
+    "tip": {
+     "en": "When your child meets a new word, have them reread the sentences around it and look for clues.",
+     "es": "Cuando su hijo encuentre una palabra nueva, pídale releer las frases cercanas y buscar pistas."
+    }
+   },
+   "florida": "ELA.5.V"
+  },
+  {
+   "id": "EN-05-R05",
+   "subject": "ela",
+   "level": 5,
+   "ace": null,
+   "skill": "Identifying evidence for a claim",
+   "strand": "reading",
+   "florida_code": "ELA.5.R.2.4",
+   "type": "mcq",
+   "prompt": "Our town should build a community garden at the empty lot on Pine Street. First, the garden would give families fresh vegetables at a low cost. Second, students could learn how plants grow by working in the soil. Last year, a similar garden in a nearby town grew over 500 pounds of food for neighbors in need. Some people worry that the garden will be messy. However, volunteers could take turns caring for it each week. A garden would turn an empty lot into a place where neighbors serve one another. It is time for our town to plant something good.\n\nWhich sentence from the passage is evidence that supports the author's claim?",
+   "options": [
+    "It is time for our town to plant something good.",
+    "Some people worry that the garden will be messy.",
+    "Last year, a similar garden in a nearby town grew over 500 pounds of food for neighbors in need.",
+    "A garden would turn an empty lot into a place where neighbors serve one another."
+   ],
+   "answer": 2,
+   "explain": "Evidence is a fact or example; the 500 pounds of food is a real result from another town.",
+   "source": "scope_2026",
+   "lu": {
+    "id": "LU-ELA-RD-05-05",
+    "slot": 5,
+    "concept": {
+     "en": "Evidence that supports a claim",
+     "es": "Evidencia que apoya una afirmación"
+    },
+    "tip": {
+     "en": "Practice sorting sentences in an ad or essay into claim, evidence, and opinion.",
+     "es": "Practique clasificar frases de un anuncio o ensayo en afirmación, evidencia y opinión."
+    }
+   },
+   "florida": "ELA.5.R"
+  },
+  {
+   "id": "EN-05-W01",
+   "subject": "ela",
+   "level": 5,
+   "ace": null,
+   "skill": "Writing a clear claim (thesis)",
+   "strand": "grammar",
+   "florida_code": "ELA.5.C.1.3",
+   "type": "mcq",
+   "prompt": "Which sentence is the strongest claim for an essay about reading every day?",
+   "options": [
+    "Reading is good.",
+    "Students should read for twenty minutes every day because it builds vocabulary and strengthens focus.",
+    "I am going to write about reading.",
+    "Many students like books."
+   ],
+   "answer": 1,
+   "explain": "A strong claim takes a position and gives a reason.",
+   "source": "scope_2026",
+   "lu": {
+    "id": "LU-ELA-WR-05-01",
+    "slot": 1,
+    "concept": {
+     "en": "Claim with a reason",
+     "es": "Afirmación con una razón"
+    },
+    "tip": {
+     "en": "Have your child finish: I believe ___ because ___.",
+     "es": "Pida a su hijo completar: Yo creo que ___ porque ___."
+    }
+   },
+   "florida": "ELA.5.C"
+  },
+  {
+   "id": "EN-05-W02",
+   "subject": "ela",
+   "level": 5,
+   "ace": null,
+   "skill": "Crediting a source",
+   "strand": "grammar",
+   "florida_code": "ELA.5.C.1.4",
+   "type": "mcq",
+   "prompt": "Mia is writing a report about sea turtles. Which sentence correctly gives credit to the source?",
+   "options": [
+    "Sea turtles can live for eighty years, according to the book Ocean Giants by Pam Reed.",
+    "Sea turtles can live for eighty years, and I know it.",
+    "Everyone says that sea turtles can live for eighty years.",
+    "Sea turtles can live for eighty years, the internet."
+   ],
+   "answer": 0,
+   "explain": "Naming the title and author tells readers exactly where the fact came from.",
+   "source": "scope_2026",
+   "lu": {
+    "id": "LU-ELA-WR-05-02",
+    "slot": 2,
+    "concept": {
+     "en": "Naming the source of a fact",
+     "es": "Nombrar la fuente de un dato"
+    },
+    "tip": {
+     "en": "When your child writes a fact, ask: where did you learn this? Then write it down.",
+     "es": "Cuando su hijo escriba un dato, pregunte: ¿dónde lo aprendiste? Y anótelo."
+    }
+   },
+   "florida": "ELA.5.C"
+  },
+  {
+   "id": "EN-06-R01",
+   "subject": "ela",
+   "level": 6,
+   "ace": null,
+   "skill": "Identifying the theme of a story",
+   "strand": "reading",
+   "florida_code": "ELA.6.R.1.2",
+   "type": "mcq",
+   "prompt": "Luis had practiced the trumpet solo for six weeks. On the night of the concert, he played the first line perfectly. Then his fingers slipped, and a sour note squeaked through the church hall. His face burned, and he almost stopped playing. But he saw Mr. Ortiz nodding at him from the front row, so he kept going. By the last measure, the music had found its way again. When he finished, the audience clapped warmly. Afterward, an older girl said, \"I never would have kept going after that mistake.\" Luis shrugged and answered, \"I just remembered that everyone makes mistakes. What matters is not quitting.\" Mr. Ortiz smiled and said that was the best lesson of the night.\n\nWhich statement best expresses the theme of this story?",
+   "options": [
+    "Practice always prevents mistakes.",
+    "Perseverance after a mistake matters more than being perfect.",
+    "Music is enjoyable only in front of an audience.",
+    "Older students are better musicians than younger ones."
+   ],
+   "answer": 1,
+   "explain": "Luis keeps playing and says what matters is not quitting.",
+   "source": "scope_2026",
+   "lu": {
+    "id": "LU-ELA-RD-06-01",
+    "slot": 1,
+    "concept": {
+     "en": "Theme of a story",
+     "es": "Tema de un cuento"
+    },
+    "tip": {
+     "en": "After a story, ask: what lesson could a reader learn from what the character did?",
+     "es": "Después de un cuento, pregunte: ¿qué lección podría aprender un lector de lo que hizo el personaje?"
+    }
+   },
+   "florida": "ELA.6.R"
+  },
+  {
+   "id": "EN-06-R02",
+   "subject": "ela",
+   "level": 6,
+   "ace": null,
+   "skill": "Making an inference from events",
+   "strand": "reading",
+   "florida_code": "ELA.6.R.1.1",
+   "type": "mcq",
+   "prompt": "The storm knocked out the power at 6:00 p.m. Ana lit a candle, and her family gathered around the kitchen table. Her little brother pouted until Dad pulled out a worn deck of cards. Soon, they were laughing so loudly that they did not notice the wind outside. Nobody thought about homework or phones. Mom made popcorn on the gas stove. When the lights flickered back on at nine o'clock, nobody moved to turn on the television. Instead, Ana's brother asked, \"Can we do this again tomorrow night?\" Dad chuckled and said he would think about it. Ana reached over and set the cards back on the table.\n\nWhat can the reader infer about how the family felt about the power outage?",
+   "options": [
+    "They were frightened by the storm all evening.",
+    "They wished the power had stayed on all night.",
+    "They were upset that Dad took out the cards.",
+    "They ended up enjoying the time together more than they expected."
+   ],
+   "answer": 3,
+   "explain": "They laughed, ignored the TV, and wanted to repeat the evening.",
+   "source": "scope_2026",
+   "lu": {
+    "id": "LU-ELA-RD-06-02",
+    "slot": 2,
+    "concept": {
+     "en": "Inference from details",
+     "es": "Inferencia a partir de detalles"
+    },
+    "tip": {
+     "en": "Ask: what does the author not say directly, but show through what the characters do?",
+     "es": "Pregunte: ¿qué no dice directamente el autor pero muestra con lo que hacen los personajes?"
+    }
+   },
+   "florida": "ELA.6.R"
+  },
+  {
+   "id": "EN-06-R03",
+   "subject": "ela",
+   "level": 6,
+   "ace": null,
+   "skill": "Text structure of an informational passage",
+   "strand": "reading",
+   "florida_code": "ELA.6.R.2.1",
+   "type": "mcq",
+   "prompt": "Deep inside Earth, rock melts into a thick liquid called magma. Because magma is lighter than the solid rock around it, it slowly rises toward the surface. As it rises, it collects in a chamber beneath the ground. Over time, pressure in the chamber builds. Eventually, the pressure becomes so great that the magma forces its way through a crack in Earth's crust. When it reaches the surface, it is called lava. The lava may flow down the sides of the mountain or burst into the air as ash. After many eruptions, layers of cooled lava and ash pile up. These layers form the cone-shaped mountain we recognize as a volcano.\n\nHow is this passage mainly organized?",
+   "options": [
+    "It explains the steps of a process in the order they happen.",
+    "It compares two different kinds of volcanoes.",
+    "It presents a problem and then a solution.",
+    "It gives opinions about why volcanoes are important."
+   ],
+   "answer": 0,
+   "explain": "Signal words such as over time, eventually, when, and after show a sequence of steps.",
+   "source": "scope_2026",
+   "lu": {
+    "id": "LU-ELA-RD-06-03",
+    "slot": 3,
+    "concept": {
+     "en": "Text structure: sequence",
+     "es": "Estructura del texto: secuencia"
+    },
+    "tip": {
+     "en": "Look for signal words like first, then, eventually, after to spot a sequence.",
+     "es": "Busque palabras señal como primero, luego, finalmente, después para reconocer una secuencia."
+    }
+   },
+   "florida": "ELA.6.R"
+  },
+  {
+   "id": "EN-06-R04",
+   "subject": "ela",
+   "level": 6,
+   "ace": null,
+   "skill": "Vocabulary in context",
+   "strand": "reading",
+   "florida_code": "ELA.6.V.1.3",
+   "type": "mcq",
+   "prompt": "The desert fox is a nocturnal animal. During the scorching afternoon, it rests in a cool underground den. When the sun sets and the sand cools, the fox emerges to hunt. Its large ears help it hear small animals moving in the dark and also release heat from its body. Its pale fur reflects sunlight and blends with the sand. Its paws are covered in fur that protects them from hot sand. A fox can survive for long periods with very little water, getting most of the moisture it needs from the food it eats. These adaptations allow it to thrive where few other animals can live. Scientists study the fox to learn how living things adjust to harsh places.\n\nWhat does the word \"nocturnal\" mean as it is used in the passage?",
+   "options": [
+    "active during the day",
+    "unable to live in groups",
+    "active at night",
+    "hiding from other animals all year"
+   ],
+   "answer": 2,
+   "explain": "The fox rests in the afternoon and hunts after sunset.",
+   "source": "scope_2026",
+   "lu": {
+    "id": "LU-ELA-RD-06-04",
+    "slot": 4,
+    "concept": {
+     "en": "Using context clues for word meaning",
+     "es": "Usar pistas del contexto para el significado"
+    },
+    "tip": {
+     "en": "Cover the new word and ask what word would fit the clues in the nearby sentences.",
+     "es": "Tape la palabra nueva y pregunte qué palabra encajaría con las pistas de las frases cercanas."
+    }
+   },
+   "florida": "ELA.6.V"
+  },
+  {
+   "id": "EN-06-R05",
+   "subject": "ela",
+   "level": 6,
+   "ace": null,
+   "skill": "Recognizing how an author answers a counterargument",
+   "strand": "reading",
+   "florida_code": "ELA.6.R.2.4",
+   "type": "mcq",
+   "prompt": "Every student should spend at least one hour each month serving others. Service teaches kindness in a way that no textbook can. When students help at a food pantry, they see real needs and learn to care about people beyond their friends. A survey of 200 middle school students found that 80 percent felt more confident after volunteering. Some argue that students are already too busy with homework and sports. Yet one hour a month is less time than most students spend watching a single movie. The Bible teaches that we should serve one another in love. Schools that make service a habit often see classmates treat each other with more respect. A small hour of giving can shape a lifetime of generosity.\n\nWhich sentence responds to an opposing view?",
+   "options": [
+    "Service teaches kindness in a way that no textbook can.",
+    "A survey of 200 middle school students found that 80 percent felt more confident after volunteering.",
+    "A small hour of giving can shape a lifetime of generosity.",
+    "Yet one hour a month is less time than most students spend watching a single movie."
+   ],
+   "answer": 3,
+   "explain": "It answers the argument that students are too busy by showing how small the time is.",
+   "source": "scope_2026",
+   "lu": {
+    "id": "LU-ELA-RD-06-05",
+    "slot": 5,
+    "concept": {
+     "en": "Answering an opposing view",
+     "es": "Responder a una opinión contraria"
+    },
+    "tip": {
+     "en": "When reading persuasive text, ask: what might someone disagree with, and how does the author reply?",
+     "es": "Al leer un texto persuasivo, pregunte: ¿con qué podría alguien no estar de acuerdo y cómo responde el autor?"
+    }
+   },
+   "florida": "ELA.6.R"
+  },
+  {
+   "id": "EN-06-W01",
+   "subject": "ela",
+   "level": 6,
+   "ace": null,
+   "skill": "Choosing evidence that supports a claim",
+   "strand": "grammar",
+   "florida_code": "ELA.6.C.1.3",
+   "type": "mcq",
+   "prompt": "A student claims, \"Daily recess helps students learn better.\" Which sentence is the best evidence for this claim?",
+   "options": [
+    "Many students enjoy playing kickball at recess.",
+    "A study found that students who had a daily recess scored higher on attention tests.",
+    "Recess lasts twenty minutes at our school.",
+    "The playground has new swings."
+   ],
+   "answer": 1,
+   "explain": "Only the study links recess to better learning.",
+   "source": "scope_2026",
+   "lu": {
+    "id": "LU-ELA-WR-06-01",
+    "slot": 1,
+    "concept": {
+     "en": "Evidence that matches the claim",
+     "es": "Evidencia que respalda la afirmación"
+    },
+    "tip": {
+     "en": "Ask: does this fact prove the claim, or is it just about the same topic?",
+     "es": "Pregunte: ¿este dato prueba la afirmación o solo trata el mismo tema?"
+    }
+   },
+   "florida": "ELA.6.C"
+  },
+  {
+   "id": "EN-06-W02",
+   "subject": "ela",
+   "level": 6,
+   "ace": null,
+   "skill": "Choosing the best revision",
+   "strand": "grammar",
+   "florida_code": "ELA.6.C.1.5",
+   "type": "mcq",
+   "prompt": "Which revision best fixes this run-on sentence? \"The museum opened at nine we arrived at eight.\"",
+   "options": [
+    "The museum opened at nine, we arrived at eight.",
+    "The museum opened at nine we arrived, at eight.",
+    "The museum opened at nine, but we arrived at eight.",
+    "The museum, opened at nine we arrived at eight."
+   ],
+   "answer": 2,
+   "explain": "A comma plus a conjunction (but) joins two complete thoughts correctly.",
+   "source": "scope_2026",
+   "lu": {
+    "id": "LU-ELA-WR-06-02",
+    "slot": 2,
+    "concept": {
+     "en": "Fixing run-on sentences",
+     "es": "Corregir oraciones encadenadas"
+    },
+    "tip": {
+     "en": "Read a sentence aloud; if you run out of breath, it may need a period or a joining word.",
+     "es": "Lea la oración en voz alta; si le falta el aire, quizá necesite un punto o una conjunción."
+    }
+   },
+   "florida": "ELA.6.C"
+  },
+  {
+   "id": "EN-07-R01",
+   "subject": "ela",
+   "level": 7,
+   "ace": null,
+   "skill": "Central idea of an informational text",
+   "strand": "reading",
+   "florida_code": "ELA.7.R.2.2",
+   "type": "mcq",
+   "prompt": "In the 1930s, farmers on the Great Plains faced one of the worst disasters in American history. For years, they had plowed up native prairie grass to plant wheat. When a long drought began, the exposed soil dried into dust. Powerful winds lifted the dust into huge black clouds that blotted out the sun. Some storms buried fences and barns and forced families to tie wet cloths over their faces to breathe. Crops failed, and many families lost their farms. Thousands packed their belongings and traveled west in search of work. In response, the government started programs that taught farmers new methods, such as planting rows of trees to block the wind and rotating crops. Within a few years, the land began to recover. The Dust Bowl showed that human choices about the land can have lasting consequences, and that wise stewardship can restore what carelessness harms.\n\nWhich statement best expresses the central idea of this passage?",
+   "options": [
+    "Choices about how land is used can cause great harm, but better practices can help it recover.",
+    "A long drought was the only cause of the Dust Bowl.",
+    "Most families who left the Great Plains found good jobs in the West.",
+    "Planting trees is the best way to grow wheat."
+   ],
+   "answer": 0,
+   "explain": "The passage traces the cause, the damage, and the recovery, and ends on the lesson about stewardship.",
+   "source": "scope_2026",
+   "lu": {
+    "id": "LU-ELA-RD-07-01",
+    "slot": 1,
+    "concept": {
+     "en": "Central idea and its development",
+     "es": "Idea central y su desarrollo"
+    },
+    "tip": {
+     "en": "After reading, ask: what is the whole passage mainly teaching, and which details prove it?",
+     "es": "Después de leer, pregunte: ¿qué enseña el texto en general y qué detalles lo demuestran?"
+    }
+   },
+   "florida": "ELA.7.R"
+  },
+  {
+   "id": "EN-07-R02",
+   "subject": "ela",
+   "level": 7,
+   "ace": null,
+   "skill": "Making an inference about motives",
+   "strand": "reading",
+   "florida_code": "ELA.7.R.1.2",
+   "type": "mcq",
+   "prompt": "Mr. Alvarez had run the corner bakery for thirty years. Every morning before sunrise, he shaped dough by hand, even though the new machine bakery across the street could do it in half the time. When the machine bakery opened, customers lined up out of curiosity. Mr. Alvarez said nothing, but he began leaving a basket of free bread rolls by his door each afternoon. He wrote no sign explaining why. One rainy evening, Mrs. Kim, whose husband had lost his job, found the basket and quietly took a loaf. The next day, she returned with a small bouquet of flowers and left it on the counter. Mr. Alvarez studied the flowers for a long moment and then set them in the window. Over the following weeks, more neighbors began to stop by, not only to buy bread but to talk. By spring, the line outside his door was longer than it had ever been. He still shaped each loaf by hand.\n\nWhat can the reader infer about why customers kept coming to Mr. Alvarez's bakery?",
+   "options": [
+    "His bread was much cheaper than the bread at the machine bakery.",
+    "He advertised heavily in the local newspaper.",
+    "They valued the kindness and personal care he showed his neighbors.",
+    "The machine bakery closed after a few weeks."
+   ],
+   "answer": 2,
+   "explain": "The free rolls, the flowers, and neighbors stopping to talk show a bond built on kindness.",
+   "source": "scope_2026",
+   "lu": {
+    "id": "LU-ELA-RD-07-02",
+    "slot": 2,
+    "concept": {
+     "en": "Inference about why people act",
+     "es": "Inferencia sobre los motivos"
+    },
+    "tip": {
+     "en": "Ask: what in the story explains the outcome, even if the author never states the reason?",
+     "es": "Pregunte: ¿qué en el cuento explica el resultado, aunque el autor nunca diga la razón?"
+    }
+   },
+   "florida": "ELA.7.R"
+  },
+  {
+   "id": "EN-07-R03",
+   "subject": "ela",
+   "level": 7,
+   "ace": null,
+   "skill": "Symbolism and imagery in a poem",
+   "strand": "reading",
+   "florida_code": "ELA.7.R.1.4",
+   "type": "mcq",
+   "prompt": "The Lamp\n\nBefore the dawn, my grandmother\nsets one small lamp inside the door.\nShe says the light is not for her,\nbut for the ones who wander more.\nThe road is long, the night is deep,\nand someone, somewhere, may be lost.\nA single flame is little cost\nfor those who seek a place to sleep.\n\nIn this poem, what does the lamp most likely represent?",
+   "options": [
+    "The grandmother's fear of the dark",
+    "Welcome and care for strangers in need",
+    "The arrival of morning",
+    "A gift she hopes to receive"
+   ],
+   "answer": 1,
+   "explain": "She leaves it lit for wanderers who may be lost, so it shows hospitality.",
+   "source": "scope_2026",
+   "lu": {
+    "id": "LU-ELA-RD-07-03",
+    "slot": 3,
+    "concept": {
+     "en": "Symbolism in poetry",
+     "es": "Simbolismo en la poesía"
+    },
+    "tip": {
+     "en": "Read a poem aloud twice and ask what an object might stand for beyond itself.",
+     "es": "Lea un poema en voz alta dos veces y pregunte qué podría representar un objeto más allá de sí mismo."
+    }
+   },
+   "florida": "ELA.7.R"
+  },
+  {
+   "id": "EN-07-R04",
+   "subject": "ela",
+   "level": 7,
+   "ace": null,
+   "skill": "Vocabulary in context",
+   "strand": "reading",
+   "florida_code": "ELA.7.V.1.3",
+   "type": "mcq",
+   "prompt": "Dr. Lena Okafor had spent years studying the migration of monarch butterflies. Each fall, millions of the delicate insects travel up to three thousand miles to reach the mountains of central Mexico. No single butterfly makes the whole round trip; instead, several generations complete the journey in stages. How the young butterflies find a place they have never seen remains a mystery. Scientists suspect they use the position of the sun, along with an internal magnetic sense. In recent years, however, the numbers of monarchs have dropped sharply because their winter forests are being cut down and milkweed, the only plant their caterpillars eat, is disappearing from fields. Okafor and her team have responded by encouraging families to plant milkweed in gardens. Even a small patch can provide a vital refuge along the route. Many schools have joined the effort. Their students' gardens have already hosted hundreds of caterpillars.\n\nAs used in the passage, what does the word \"refuge\" mean?",
+   "options": [
+    "a long journey across a continent",
+    "a scientific experiment",
+    "a kind of plant that grows in gardens",
+    "a safe place that provides protection and resources"
+   ],
+   "answer": 3,
+   "explain": "A patch of milkweed gives caterpillars food and safety along the route.",
+   "source": "scope_2026",
+   "lu": {
+    "id": "LU-ELA-RD-07-04",
+    "slot": 4,
+    "concept": {
+     "en": "Using context clues for word meaning",
+     "es": "Usar pistas del contexto para el significado"
+    },
+    "tip": {
+     "en": "Ask your child to replace the word with their own words and see if the sentence still makes sense.",
+     "es": "Pida a su hijo que reemplace la palabra con las suyas y compruebe si la frase sigue teniendo sentido."
+    }
+   },
+   "florida": "ELA.7.V"
+  },
+  {
+   "id": "EN-07-R05",
+   "subject": "ela",
+   "level": 7,
+   "ace": null,
+   "skill": "Evaluating how an author answers criticism",
+   "strand": "reading",
+   "florida_code": "ELA.7.R.2.4",
+   "type": "mcq",
+   "prompt": "Our school should create a share table in the cafeteria. A share table is a place where students leave unopened or untouched food, such as milk cartons, apples, and packaged crackers, for others to take. At Riverside Middle School, which began a share table last year, the cafeteria threw away about 40 fewer pounds of food each day. Other students, who sometimes forget their lunches or are still hungry, were able to pick up a snack for free. Critics worry that sharing food might spread germs. However, only sealed or whole items go on the table, and a staff member checks it every day. Cafeteria workers at Riverside say the table takes less than five minutes a day to manage. Several parents have even donated extra baskets to hold the food. Wasting food is also a matter of stewardship, because we are called to use well the blessings we are given. Creating a share table would cost almost nothing yet help many classmates. It is a simple step toward a wiser, kinder school.\n\nHow does the author respond to the criticism that a share table might spread germs?",
+   "options": [
+    "By agreeing that the criticism is correct and dropping the proposal",
+    "By explaining safety rules that reduce the concern",
+    "By criticizing the character of the people who raise the concern",
+    "By citing a survey of students about their favorite foods"
+   ],
+   "answer": 1,
+   "explain": "The author mentions that only sealed or whole items are allowed and that staff check the table daily.",
+   "source": "scope_2026",
+   "lu": {
+    "id": "LU-ELA-RD-07-05",
+    "slot": 5,
+    "concept": {
+     "en": "Answering a counterclaim",
+     "es": "Responder a una objeción"
+    },
+    "tip": {
+     "en": "Ask: what objection might a reader raise, and what reasons does the author give in reply?",
+     "es": "Pregunte: ¿qué objeción podría plantear un lector y qué razones da el autor en respuesta?"
+    }
+   },
+   "florida": "ELA.7.R"
+  },
+  {
+   "id": "EN-07-W01",
+   "subject": "ela",
+   "level": 7,
+   "ace": null,
+   "skill": "Writing a strong thesis",
+   "strand": "grammar",
+   "florida_code": "ELA.7.C.1.3",
+   "type": "mcq",
+   "prompt": "Which thesis statement is the most specific and arguable?",
+   "options": [
+    "Cell phones exist in many schools.",
+    "This essay will discuss phones.",
+    "Phones are used by students every day.",
+    "Schools should limit phone use during class because studies link phone distraction to lower test scores."
+   ],
+   "answer": 3,
+   "explain": "A good thesis takes a position and previews a reason; the others only state a topic or a fact.",
+   "source": "scope_2026",
+   "lu": {
+    "id": "LU-ELA-WR-07-01",
+    "slot": 1,
+    "concept": {
+     "en": "Specific, arguable thesis",
+     "es": "Tesis específica y debatible"
+    },
+    "tip": {
+     "en": "Check: could a reasonable person disagree with this sentence? If not, it is probably a fact, not a thesis.",
+     "es": "Compruebe: ¿podría una persona razonable no estar de acuerdo? Si no, probablemente es un hecho, no una tesis."
+    }
+   },
+   "florida": "ELA.7.C"
+  },
+  {
+   "id": "EN-07-W02",
+   "subject": "ela",
+   "level": 7,
+   "ace": null,
+   "skill": "Quoting and crediting a source",
+   "strand": "grammar",
+   "florida_code": "ELA.7.C.1.3",
+   "type": "mcq",
+   "prompt": "A student reads an article by sleep researcher Dr. Mary Lee that says, \"Sleep is the foundation of learning.\" Which sentence quotes and credits the source correctly?",
+   "options": [
+    "According to sleep researcher Dr. Mary Lee, \"Sleep is the foundation of learning.\"",
+    "Sleep is the foundation of learning, and teens need more of it.",
+    "Someone once said that sleep is the foundation of learning.",
+    "Dr. Lee wrote about sleep and learning in an article."
+   ],
+   "answer": 0,
+   "explain": "It uses quotation marks for the exact words and names the person who said them.",
+   "source": "scope_2026",
+   "lu": {
+    "id": "LU-ELA-WR-07-02",
+    "slot": 2,
+    "concept": {
+     "en": "Quoting a source correctly",
+     "es": "Citar correctamente una fuente"
+    },
+    "tip": {
+     "en": "Remind your child: exact words need quotation marks and the name of who said them.",
+     "es": "Recuerde a su hijo: las palabras exactas llevan comillas y el nombre de quien las dijo."
+    }
+   },
+   "florida": "ELA.7.C"
+  },
+  {
+   "id": "EN-08-R01",
+   "subject": "ela",
+   "level": 8,
+   "ace": null,
+   "skill": "Central ideas developed across a text",
+   "strand": "reading",
+   "florida_code": "ELA.8.R.2.2",
+   "type": "mcq",
+   "prompt": "In 1928, Alexander Fleming returned from vacation to find a mess in his laboratory. A dish of bacteria he had left on his bench was spotted with mold. Most scientists would have thrown it away. Fleming, however, noticed that the bacteria near the mold had died. He grew more of the mold and discovered that it produced a substance that killed many harmful bacteria. He named the substance penicillin. For more than a decade, though, no one could make enough of it to treat patients. It was not until the 1940s that researchers in Oxford, working with American companies, found ways to produce it in large quantities. During World War II, penicillin saved thousands of wounded soldiers from deadly infections. Fleming himself always insisted that nature had done the work and that he had simply paid attention. Later, he warned that misuse of antibiotics could lead bacteria to become resistant. Today, that warning guides doctors, who prescribe these medicines carefully. The story of penicillin shows that a great discovery depends on both a curious observer and the patient work of many others.\n\nWhich pair of ideas is developed throughout the passage?",
+   "options": [
+    "Fleming was careless, and penicillin was cheap to make from the start.",
+    "Discoveries come from careful observation and the work of many people, and medicines must be used wisely.",
+    "Mold is dangerous to scientists, and wars slow down medical progress.",
+    "Laboratories should be kept tidy, and only soldiers need antibiotics."
+   ],
+   "answer": 1,
+   "explain": "The text shows attentive observation plus teamwork, and ends with the warning about careful use.",
+   "source": "scope_2026",
+   "lu": {
+    "id": "LU-ELA-RD-08-01",
+    "slot": 1,
+    "concept": {
+     "en": "Two central ideas in one text",
+     "es": "Dos ideas centrales en un texto"
+    },
+    "tip": {
+     "en": "Ask your child to name two big ideas and one detail for each.",
+     "es": "Pida a su hijo que nombre dos ideas importantes y un detalle de cada una."
+    }
+   },
+   "florida": "ELA.8.R"
+  },
+  {
+   "id": "EN-08-R02",
+   "subject": "ela",
+   "level": 8,
+   "ace": null,
+   "skill": "Inference about a character's perspective",
+   "strand": "reading",
+   "florida_code": "ELA.8.R.1.3",
+   "type": "mcq",
+   "prompt": "When the letter from the city council arrived, Mr. Dawson read it standing at the kitchen counter, and then he folded it into a very small square. His daughter Maya noticed that he put it in the drawer of his desk instead of on the pile of mail. At dinner he talked cheerfully about the weather and asked about her science project, but he pushed his rice around his plate. Later, she heard him on the porch, pacing in the dark, his footsteps slow and heavy. In the morning, he left for work an hour early, which he had never done. Maya waited until the door closed, then opened the drawer. The printed words swam in front of her: the city intended to widen the highway, and the road would cross the land where the Dawson family had kept their orchard for three generations. She sat down on the stairs, holding the paper against her knees. Suddenly, the heavy quiet in the house over the past two days made sense. When her father returned that evening, she did not ask him a single question. Instead, she set two cups of tea on the table and sat down next to him. He looked at her for a long moment, and the corner of his mouth moved as if he might smile.\n\nWhat can the reader infer about why Maya asks her father no questions?",
+   "options": [
+    "She understands his worry and chooses to comfort him quietly.",
+    "She is angry that he hid the letter from her.",
+    "She does not care about the orchard.",
+    "She plans to read the letter aloud to him."
+   ],
+   "answer": 0,
+   "explain": "Serving tea and sitting beside him shows care, and he responds with a faint smile.",
+   "source": "scope_2026",
+   "lu": {
+    "id": "LU-ELA-RD-08-02",
+    "slot": 2,
+    "concept": {
+     "en": "Inference about a character's choices",
+     "es": "Inferencia sobre las decisiones de un personaje"
+    },
+    "tip": {
+     "en": "Ask: what does the character's action tell us about what she understands or feels?",
+     "es": "Pregunte: ¿qué nos dice la acción del personaje sobre lo que entiende o siente?"
+    }
+   },
+   "florida": "ELA.8.R"
+  },
+  {
+   "id": "EN-08-R03",
+   "subject": "ela",
+   "level": 8,
+   "ace": null,
+   "skill": "Symbolism in a literary text",
+   "strand": "reading",
+   "florida_code": "ELA.8.R.3.1",
+   "type": "mcq",
+   "prompt": "Eliza had inherited her grandfather's pocket watch, though it had not run in forty years. The glass was cracked, and the hands were stuck at ten past four. Her cousins teased her for keeping it, and her mother suggested she fix it or sell it. Instead, Eliza carried it to school each day, tucked in her coat pocket. When she was nervous before exams, she pressed her thumb against the cool metal and remembered how he used to say, \"We cannot stop time, Eliza, but we can choose what to do with it.\" She never repaired the watch. She did not need to. Its silence reminded her that every hour was a gift to be used well. One afternoon, a younger student, upset over a failed test, sat down beside her. Eliza opened her hand and let the girl hold the watch. \"It doesn't work,\" the girl said, puzzled. \"No,\" Eliza replied, \"but it still teaches.\"\n\nWhat does the stopped watch most likely symbolize?",
+   "options": [
+    "The wealth her family once had",
+    "Her fear of failing her exams",
+    "The lesson to use time wisely and the memory of her grandfather's guidance",
+    "The cruelty of her cousins"
+   ],
+   "answer": 2,
+   "explain": "The watch brings back the grandfather's words about time, so it stands for his lasting lesson.",
+   "source": "scope_2026",
+   "lu": {
+    "id": "LU-ELA-RD-08-03",
+    "slot": 3,
+    "concept": {
+     "en": "Symbolism",
+     "es": "Simbolismo"
+    },
+    "tip": {
+     "en": "Ask: why does the author keep returning to this object, and what idea does it carry?",
+     "es": "Pregunte: ¿por qué el autor vuelve a este objeto y qué idea representa?"
+    }
+   },
+   "florida": "ELA.8.R"
+  },
+  {
+   "id": "EN-08-R04",
+   "subject": "ela",
+   "level": 8,
+   "ace": null,
+   "skill": "Vocabulary in context",
+   "strand": "reading",
+   "florida_code": "ELA.8.V.1.3",
+   "type": "mcq",
+   "prompt": "For centuries, the summit of Mount Everest seemed an unreachable dream. The mountain's slopes are steep, its air is dangerously thin, and its storms arrive without warning. Even skilled climbers must spend weeks adjusting to the altitude. Early climbers faced a formidable challenge: they lacked modern boots, lightweight tents, and bottled oxygen. Several expeditions turned back within sight of the top. Others lost their lives trying. In 1953, Edmund Hillary and Tenzing Norgay finally reached the summit together, after a careful plan and weeks of teamwork. Both men credited the entire expedition, including the Sherpa porters who carried supplies, for the success. Hillary later spent much of his life building schools and clinics in Nepal to repay the kindness of the people who helped him. His story is often told as a victory over nature, but it can also be read as a lesson in humility and gratitude. Careful preparation matters as much as strength. Today, thousands of climbers attempt the peak, yet the mountain remains as dangerous as ever. Respecting its power is the first step in any attempt.\n\nAs used in the passage, what does the word \"formidable\" mean?",
+   "options": [
+    "pleasant and exciting",
+    "easy to predict",
+    "unusually quiet",
+    "extremely difficult to overcome"
+   ],
+   "answer": 3,
+   "explain": "The lack of modern gear and the failed expeditions show the challenge was very hard.",
+   "source": "scope_2026",
+   "lu": {
+    "id": "LU-ELA-RD-08-04",
+    "slot": 4,
+    "concept": {
+     "en": "Using context clues for word meaning",
+     "es": "Usar pistas del contexto para el significado"
+    },
+    "tip": {
+     "en": "Look for examples that follow a word; they often explain its meaning.",
+     "es": "Busque los ejemplos que siguen a una palabra; a menudo explican su significado."
+    }
+   },
+   "florida": "ELA.8.V"
+  },
+  {
+   "id": "EN-08-R05",
+   "subject": "ela",
+   "level": 8,
+   "ace": null,
+   "skill": "Rhetorical question and appeal",
+   "strand": "reading",
+   "florida_code": "ELA.8.R.3.4",
+   "type": "mcq",
+   "prompt": "Fellow citizens of our community, I stand before you not as an expert but as a neighbor. For eleven years I have walked the path along Mill Creek, and I have watched it change. This spring, I counted the fish in a stretch of water where my children once caught dozens, and I found only three. The county's own water report shows that pollution in the creek has doubled since 2015. Some say that cleaning the creek will cost too much. But think of what we are losing: a place where children play, where families gather, where the sunrise touches the water as it has for generations. Can we, in good conscience, hand our grandchildren a ditch? A cleaner creek will also bring fishermen and visitors who spend money in our shops. We have been entrusted with this land; let us be faithful keepers of it. No one can do this alone, but everyone can do something. A single bag of trash lifted from the bank is a beginning. Join me on Saturday morning at the bridge, and let us begin.\n\nThe speaker asks, \"Can we, in good conscience, hand our grandchildren a ditch?\" What is the main purpose of this rhetorical question?",
+   "options": [
+    "To ask the audience for information about ditches",
+    "To make the audience feel responsible for the creek's future",
+    "To prove that the county's report is wrong",
+    "To change the subject to another community project"
+   ],
+   "answer": 1,
+   "explain": "A rhetorical question is not meant to be answered; it prompts listeners to consider their duty.",
+   "source": "scope_2026",
+   "lu": {
+    "id": "LU-ELA-RD-08-05",
+    "slot": 5,
+    "concept": {
+     "en": "Rhetorical questions and appeals",
+     "es": "Preguntas retóricas y apelaciones"
+    },
+    "tip": {
+     "en": "When you hear a speech, ask which sentences aim to persuade by logic, emotion, or trust.",
+     "es": "Al escuchar un discurso, pregunte qué frases buscan persuadir por lógica, emoción o confianza."
+    }
+   },
+   "florida": "ELA.8.R"
+  },
+  {
+   "id": "EN-08-W01",
+   "subject": "ela",
+   "level": 8,
+   "ace": null,
+   "skill": "Rebutting a counterclaim",
+   "strand": "grammar",
+   "florida_code": "ELA.8.C.1.3",
+   "type": "mcq",
+   "prompt": "A student argues that school should start later in the morning. Which sentence best rebuts the counterclaim that a later start will only make students go to bed later?",
+   "options": [
+    "Some students might stay up later, but a study of schools with later start times found that students slept an average of 40 more minutes per night.",
+    "That is not true at all.",
+    "Many people like sleeping late.",
+    "Earlier start times are traditional."
+   ],
+   "answer": 0,
+   "explain": "A strong rebuttal acknowledges the concern and answers it with credible evidence.",
+   "source": "scope_2026",
+   "lu": {
+    "id": "LU-ELA-WR-08-01",
+    "slot": 1,
+    "concept": {
+     "en": "Rebuttal with evidence",
+     "es": "Refutación con evidencia"
+    },
+    "tip": {
+     "en": "Practice the pattern: Some may say ___, but evidence shows ___.",
+     "es": "Practique el patrón: Algunos dirán ___, pero la evidencia muestra ___."
+    }
+   },
+   "florida": "ELA.8.C"
+  },
+  {
+   "id": "EN-08-W02",
+   "subject": "ela",
+   "level": 8,
+   "ace": null,
+   "skill": "Choosing the best revision with a citation",
+   "strand": "grammar",
+   "florida_code": "ELA.8.C.1.4",
+   "type": "mcq",
+   "prompt": "A student drafts this sentence: \"Bee numbers fell by 30 percent last winter, which is very bad.\" The information comes from a 2024 survey by the State Beekeepers Association. Which revision best cites the source and uses precise language?",
+   "options": [
+    "Bees fell by 30 percent, it was very bad, a survey said.",
+    "Everyone knows that bee colonies declined by 30 percent last winter.",
+    "According to a 2024 survey by the State Beekeepers Association, bee colonies declined by 30 percent last winter, a loss that threatens local crops.",
+    "The bad bee news is 30 percent, State Beekeepers Association."
+   ],
+   "answer": 2,
+   "explain": "It names the source, keeps the fact, and replaces vague wording with a specific consequence.",
+   "source": "scope_2026",
+   "lu": {
+    "id": "LU-ELA-WR-08-02",
+    "slot": 2,
+    "concept": {
+     "en": "Citing a source and precise wording",
+     "es": "Citar una fuente y usar palabras precisas"
+    },
+    "tip": {
+     "en": "Ask your child to replace vague words like bad or a lot with specific details.",
+     "es": "Pida a su hijo que cambie palabras vagas como malo o mucho por detalles específicos."
+    }
+   },
+   "florida": "ELA.8.C"
+  },
+  {
+   "id": "EN-09-R01",
+   "subject": "ela",
+   "level": 9,
+   "ace": null,
+   "skill": "Theme of a short story",
+   "strand": "reading",
+   "florida_code": "ELA.9.R.1.2",
+   "type": "mcq",
+   "prompt": "Every morning, Mr. Okafor opened his repair shop and wound the old clock in the window, though it had not told the correct time in years. Customers teased him. \"Why keep it going?\" they asked. \"Buy a new one.\" He only smiled and returned to his work. One winter afternoon, a power failure darkened the whole street. Phones went dead, and the glowing signs on the stores went black. People gathered in the cold, unsure whether to close their shops or wait for help. Then they heard it: the slow, steady chime of the old clock, still driven by its spring and weights. Its hands were off by seven minutes, but everyone agreed that seven minutes was close enough. Mr. Okafor stepped outside, nodded to his neighbors, and said quietly, \"Some things are worth keeping simple.\"\n\nWhich statement best expresses a theme of the passage?",
+   "options": [
+    "Simple, dependable things can prove their worth when modern conveniences fail.",
+    "Customers should always follow a shopkeeper's advice about buying new items.",
+    "Winter storms are the main cause of problems in small towns.",
+    "Repairing old clocks is the best way to earn a living."
+   ],
+   "answer": 0,
+   "explain": "Mr. Okafor's simple clock serves the street when modern devices fail, which develops the theme that simple, dependable things have lasting value.",
+   "source": "scope_2026",
+   "lu": {
+    "id": "LU-ELA-RD-09-01",
+    "slot": 1,
+    "concept": {
+     "en": "Theme in a short story",
+     "es": "Tema en un cuento corto"
+    },
+    "tip": {
+     "en": "Ask your teen to state the theme as a full sentence, not just one word like 'simplicity'.",
+     "es": "Pida a su hijo que exprese el tema como una oración completa, no solo una palabra como 'sencillez'."
+    }
+   },
+   "florida": "ELA.9.R"
+  },
+  {
+   "id": "EN-09-R02",
+   "subject": "ela",
+   "level": 9,
+   "ace": null,
+   "skill": "Inference supported by evidence",
+   "strand": "reading",
+   "florida_code": "ELA.9.R.2.2",
+   "type": "mcq",
+   "prompt": "When a scout honeybee discovers a rich patch of flowers, she returns to the hive and performs a \"waggle dance\" on the vertical comb. The angle of her dance, measured from straight up, shows the direction of the flowers in relation to the sun, and the length of the waggling run shows how far away they are. Nearby foragers follow the dancer closely, touching her with their antennae to pick up the message. In one set of observations, researchers watched hives on heavily overcast days, when the sun could not be seen at all. Even so, the foragers that left the hive after watching a dance arrived at the correct flowers in nearly every trial. The researchers recorded each arrival at the feeding stations they had set up in the field.\n\nWhich inference is best supported by the passage?",
+   "options": [
+    "Bees refuse to dance when the sky is cloudy.",
+    "Foragers fly faster to flowers on overcast days.",
+    "Bees must be able to judge direction by some means other than seeing the sun directly.",
+    "The length of the waggling run shows the color of the flowers."
+   ],
+   "answer": 2,
+   "explain": "Foragers found the flowers on overcast days even though the sun was hidden, so they must have another way of judging direction.",
+   "source": "scope_2026",
+   "lu": {
+    "id": "LU-ELA-RD-09-02",
+    "slot": 2,
+    "concept": {
+     "en": "Making an inference from an informational text",
+     "es": "Hacer una inferencia de un texto informativo"
+    },
+    "tip": {
+     "en": "After an article, ask: 'What does the author imply but never say directly? Which sentence shows it?'",
+     "es": "Después de leer un artículo pregunte: '¿Qué insinúa el autor sin decirlo? ¿Qué oración lo muestra?'"
+    }
+   },
+   "florida": "ELA.9.R"
+  },
+  {
+   "id": "EN-09-R03",
+   "subject": "ela",
+   "level": 9,
+   "ace": null,
+   "skill": "Figurative language and mood",
+   "strand": "reading",
+   "florida_code": "ELA.9.R.3.1",
+   "type": "mcq",
+   "prompt": "Evening Over the Town\nThe evening folds its gray wool blanket\nover the sleeping town.\nChimneys exhale their slow white breath,\nand the hills lean close to listen\nto the last bell settle down.\nOne by one the streetlamps\nopen their small gold eyes\nand keep a patient watch\nover the cats, the shuttered shops,\nand the children dreaming in their beds.\nEven the river, tired of rushing,\nhums itself a lullaby\nand curls up in the dark.\nThe fields pull up their quilts of frost,\nthe barn owl clears its throat,\nand the moon, a patient grandmother,\nrocks the whole wide valley\nuntil the first star nods to sleep.\n\nHow does the personification of the streetlamps, chimneys, and river help create the mood of the poem?",
+   "options": [
+    "It makes the scene seem frightening and haunted.",
+    "It gives the scene a calm, protective, peaceful mood.",
+    "It creates a mood of excitement and busy activity.",
+    "It suggests that the town is empty and abandoned."
+   ],
+   "answer": 1,
+   "explain": "Gentle human actions such as keeping watch, breathing slowly, and humming a lullaby make the evening feel calm and protective.",
+   "source": "scope_2026",
+   "lu": {
+    "id": "LU-ELA-RD-09-03",
+    "slot": 3,
+    "concept": {
+     "en": "Personification and mood",
+     "es": "Personificación y atmósfera"
+    },
+    "tip": {
+     "en": "Read a poem aloud together and name the feeling it leaves, then find the images that cause it.",
+     "es": "Lean un poema en voz alta, nombren el sentimiento que deja y busquen las imágenes que lo causan."
+    }
+   },
+   "florida": "ELA.9.R"
+  },
+  {
+   "id": "EN-09-R04",
+   "subject": "ela",
+   "level": 9,
+   "ace": null,
+   "skill": "Connotation in context",
+   "strand": "reading",
+   "florida_code": "ELA.9.V.1.3",
+   "type": "mcq",
+   "prompt": "My grandmother never wasted anything. She washed and reused plastic bags, saved the ends of candles, and mended socks until they were more thread than sock. She wrote shopping lists on the backs of old envelopes and carried her own thermos to church picnics. Some of the neighbors called her stingy, but I preferred the word frugal. Frugal was the word for a woman who, during a lean winter, quietly divided her pot of soup into jars and left them on the doorsteps of families who had less. Stingy people keep what they have; my grandmother kept things going so that she would have something to give away. When I was small, I thought she was simply careful. Now I understand she was generous in a way that began with paying attention.\n\nThe narrator prefers the word \"frugal\" to \"stingy.\" What does this choice show?",
+   "options": [
+    "\"Frugal\" and \"stingy\" have exactly the same meaning and feeling.",
+    "\"Frugal\" has a negative connotation that criticizes the grandmother.",
+    "\"Frugal\" means that the grandmother had a great deal of money.",
+    "\"Frugal\" has a positive connotation of wise saving, while \"stingy\" suggests selfishness."
+   ],
+   "answer": 3,
+   "explain": "The narrator shows that the grandmother saved in order to give, so the positive word 'frugal' fits better than the negative 'stingy.'",
+   "source": "scope_2026",
+   "lu": {
+    "id": "LU-ELA-RD-09-04",
+    "slot": 4,
+    "concept": {
+     "en": "Connotation and denotation",
+     "es": "Connotación y denotación"
+    },
+    "tip": {
+     "en": "Pick two synonyms (for example 'thin' and 'skinny') and discuss how each makes a reader feel.",
+     "es": "Elijan dos sinónimos (por ejemplo 'delgado' y 'flaco') y comenten cómo hace sentir cada uno al lector."
+    }
+   },
+   "florida": "ELA.9.V"
+  },
+  {
+   "id": "EN-09-W01",
+   "subject": "ela",
+   "level": 9,
+   "ace": null,
+   "skill": "Choosing the strongest thesis statement",
+   "strand": "grammar",
+   "florida_code": "ELA.9.C.1.3",
+   "type": "mcq",
+   "prompt": "A student is writing an argumentative essay about school start times. Which is the strongest thesis statement?",
+   "options": [
+    "School start times are a topic that many people have opinions about.",
+    "This essay will discuss when schools start in the morning.",
+    "High schools should start after 8:30 a.m. because teenagers who sleep longer earn better grades and have fewer car accidents.",
+    "Some students like early start times, and some do not."
+   ],
+   "answer": 2,
+   "explain": "A strong thesis takes a clear, debatable position and previews the reasons that will support it.",
+   "source": "scope_2026",
+   "lu": {
+    "id": "LU-ELA-WR-09-01",
+    "slot": 1,
+    "concept": {
+     "en": "Arguable thesis statements",
+     "es": "Tesis argumentables"
+    },
+    "tip": {
+     "en": "A good thesis is one a reasonable person could disagree with. Test your teen's thesis with 'Could someone argue the opposite?'",
+     "es": "Una buena tesis es aquella con la que una persona razonable podría estar en desacuerdo. Pregunte: '¿Alguien podría argumentar lo contrario?'"
+    }
+   },
+   "florida": "ELA.9.C"
+  },
+  {
+   "id": "EN-09-W02",
+   "subject": "ela",
+   "level": 9,
+   "ace": null,
+   "skill": "MLA Works Cited entry for a book",
+   "strand": "grammar",
+   "florida_code": "ELA.9.C.4.1",
+   "type": "mcq",
+   "prompt": "A student is preparing an MLA-style Works Cited page (titles are shown here without italics). Which entry for a book is formatted correctly?",
+   "options": [
+    "Carla Reyes. \"The Quiet Harbor\". 2019, Blue Heron Press.",
+    "Reyes, Carla. The Quiet Harbor. Blue Heron Press, 2019.",
+    "Reyes, Carla (2019). The Quiet Harbor. Blue Heron Press.",
+    "Reyes, C. The Quiet Harbor, Blue Heron Press 2019."
+   ],
+   "answer": 1,
+   "explain": "MLA lists Last name, First name. Title. Publisher, Year., with the author's full first name and the year at the end.",
+   "source": "scope_2026",
+   "lu": {
+    "id": "LU-ELA-WR-09-02",
+    "slot": 2,
+    "concept": {
+     "en": "MLA book citation",
+     "es": "Cita MLA de un libro"
+    },
+    "tip": {
+     "en": "Keep a running Works Cited list while researching; adding sources later is where mistakes happen.",
+     "es": "Lleven una lista de obras citadas mientras investigan; agregar fuentes al final es donde ocurren los errores."
+    }
+   },
+   "florida": "ELA.9.C"
+  },
+  {
+   "id": "EN-10-R01",
+   "subject": "ela",
+   "level": 10,
+   "ace": null,
+   "skill": "Universal theme in a fable",
+   "strand": "reading",
+   "florida_code": "ELA.10.R.1.2",
+   "type": "mcq",
+   "prompt": "A king once built a great wall around his city, higher than any in the land. Each year he ordered it raised another ten feet, and each year his people grew more afraid of what lay beyond it. Travelers stopped coming. Farmers could no longer bring their grain to the gates, for the gates had been sealed to keep out danger. When winter arrived, the granaries were empty, and the king climbed to the top of his wall to look for help. He saw only fields stretching in every direction, and no road leading to his door. \"I have made myself safe,\" he said to his steward, \"and I am starving.\" The steward answered, \"A wall that keeps out every enemy also keeps out every friend.\" The next morning the king commanded the eastern gate to be opened, and by evening the first wagon of bread had rolled in.\n\nWhich statement best expresses a universal theme of the passage?",
+   "options": [
+    "Kings should always build tall walls to protect their cities.",
+    "Winter is the hardest season for farmers.",
+    "A good steward never disagrees with a king.",
+    "Isolating ourselves out of fear can harm us more than the dangers we fear."
+   ],
+   "answer": 3,
+   "explain": "The king's wall protects him from enemies but also cuts him off from food and friends, showing that fearful isolation can be self-defeating.",
+   "source": "scope_2026",
+   "lu": {
+    "id": "LU-ELA-RD-10-01",
+    "slot": 1,
+    "concept": {
+     "en": "Universal themes",
+     "es": "Temas universales"
+    },
+    "tip": {
+     "en": "Ask: 'Could this theme apply to a different story, century, or country?' If yes, it is universal.",
+     "es": "Pregunte: '¿Este tema se aplicaría a otra historia, siglo o país?' Si es así, es universal."
+    }
+   },
+   "florida": "ELA.10.R"
+  },
+  {
+   "id": "EN-10-R02",
+   "subject": "ela",
+   "level": 10,
+   "ace": null,
+   "skill": "Inference with textual evidence",
+   "strand": "reading",
+   "florida_code": "ELA.10.R.1.3",
+   "type": "mcq",
+   "prompt": "Lena stood at the edge of the village with her suitcase between her feet. The bus to the city was late, which gave her a few more minutes to look at everything she had said she was ready to leave. Her mother had pressed a packet of bread into her hands that morning and had talked, without stopping, about the weather. Lena checked her ticket for the third time, then folded it into her pocket, then took it out again. \"You will write,\" her mother said, and it was not a question. Lena nodded, but when she tried to answer, her voice came out smaller than she intended. Down the road, the bus appeared as a speck of dust. Lena picked up her suitcase, put it down, and picked it up again. Her mother's hand, which had been resting lightly on her shoulder, tightened.\n\nWhich detail from the passage best supports the inference that Lena is nervous about leaving?",
+   "options": [
+    "She checks her ticket for the third time, folds it away, and takes it out again.",
+    "Her mother gives her a packet of bread.",
+    "The bus is late.",
+    "Her mother says, \"You will write.\""
+   ],
+   "answer": 0,
+   "explain": "Repeatedly checking and handling the ticket shows restless anxiety; the other details do not directly reveal Lena's feelings.",
+   "source": "scope_2026",
+   "lu": {
+    "id": "LU-ELA-RD-10-02",
+    "slot": 2,
+    "concept": {
+     "en": "Evidence for an inference",
+     "es": "Evidencia para una inferencia"
+    },
+    "tip": {
+     "en": "Practice the sentence frame: 'I infer ___ because the text says ___.'",
+     "es": "Practiquen la frase: 'Infiero que ___ porque el texto dice ___.'"
+    }
+   },
+   "florida": "ELA.10.R"
+  },
+  {
+   "id": "EN-10-R03",
+   "subject": "ela",
+   "level": 10,
+   "ace": null,
+   "skill": "Comparing authors' purposes in two texts",
+   "strand": "reading",
+   "florida_code": "ELA.10.R.2.4",
+   "type": "mcq",
+   "prompt": "Text 1\nThe night of the lantern festival, I learned what it means to belong. My grandfather pressed a paper lantern into my hands, and I felt the warmth of the tiny flame against my palms, and the paper glowed like a small sunrise in my hands. All around me, neighbors I had known all my life lifted theirs toward the sky, and for a moment I forgot I had ever felt like a stranger here. When the lanterns rose together, I rose with them, and no one asked where I had come from.\n\nText 2\nThe lantern festival, held each autumn in many towns across East Asia, traces its origins to ceremonies that marked the end of the harvest. Participants release paper lanterns that rise on heated air. Many towns now limit the number of lanterns each year, since fallen frames can litter fields and waterways. Organizers now encourage visitors to choose lanterns made of biodegradable materials and to collect any debris after the event.\n\nHow do the purposes of the two texts differ?",
+   "options": [
+    "Text 1 shares a personal feeling about the festival; Text 2 informs readers about its background and effects.",
+    "Text 1 argues that festivals should be banned; Text 2 tells a story about a family.",
+    "Both texts mainly aim to entertain with an exciting adventure.",
+    "Text 1 gives historical dates; Text 2 describes the author's emotions."
+   ],
+   "answer": 0,
+   "explain": "Text 1 is a first-person reflection focused on emotion, while Text 2 is an informational account of origins and practice.",
+   "source": "scope_2026",
+   "lu": {
+    "id": "LU-ELA-RD-10-03",
+    "slot": 3,
+    "concept": {
+     "en": "Comparing two texts on one topic",
+     "es": "Comparar dos textos sobre un mismo tema"
+    },
+    "tip": {
+     "en": "Read two articles on one subject and ask which sounds personal and which sounds neutral, and why.",
+     "es": "Lean dos artículos sobre un mismo tema y pregunten cuál suena personal y cuál neutral, y por qué."
+    }
+   },
+   "florida": "ELA.10.R"
+  },
+  {
+   "id": "EN-10-R04",
+   "subject": "ela",
+   "level": 10,
+   "ace": null,
+   "skill": "Connotation of a word in context",
+   "strand": "reading",
+   "florida_code": "ELA.10.V.1.3",
+   "type": "mcq",
+   "prompt": "The old Harlow mansion brooded on the hill above the village. Its shutters hung crooked, like half-closed eyes, and the ivy crept up its walls as though it meant to smother the house in its sleep. Children dared one another to touch the gate, but few did. The villagers spoke of it in the way people speak of a sleeping animal: carefully and in low voices. Yet on the evening that Clara walked up the long drive, she noticed something the stories had left out. A single window glowed on the second floor, steady and yellow, and from somewhere inside came the faint sound of a violin practicing the same four notes, over and over, until they came out right.\n\nIn the first sentence, the word \"brooded\" gives the mansion what quality?",
+   "options": [
+    "A bright, welcoming quality, as if the house were celebrating.",
+    "A neutral quality that only states where the house is located.",
+    "A gloomy, watchful quality, as if the house were a living thing with heavy thoughts.",
+    "A busy quality, as if the house were hurrying to finish work."
+   ],
+   "answer": 2,
+   "explain": "'Brooded' means to dwell on gloomy thoughts, so it personifies the mansion as dark and watchful.",
+   "source": "scope_2026",
+   "lu": {
+    "id": "LU-ELA-RD-10-04",
+    "slot": 4,
+    "concept": {
+     "en": "Connotation and personification",
+     "es": "Connotación y personificación"
+    },
+    "tip": {
+     "en": "Swap a strong verb for a plain one (for example 'sat') and notice what feeling is lost.",
+     "es": "Cambien un verbo fuerte por uno simple (por ejemplo 'estaba') y noten qué sentimiento se pierde."
+    }
+   },
+   "florida": "ELA.10.V"
+  },
+  {
+   "id": "EN-10-W01",
+   "subject": "ela",
+   "level": 10,
+   "ace": null,
+   "skill": "Revising to add specific evidence",
+   "strand": "grammar",
+   "florida_code": "ELA.10.C.1.5",
+   "type": "mcq",
+   "prompt": "A student's paragraph claims: \"Volunteering benefits teenagers.\" A peer reviewer writes, \"Your claim needs specific evidence.\" Which revision best responds to the feedback?",
+   "options": [
+    "Volunteering benefits teenagers because it is really, really good for them in many ways.",
+    "Volunteering benefits teenagers; in a 2021 survey of 1,200 high school students, those who volunteered weekly reported 20 percent less stress than those who did not.",
+    "Volunteering benefits teenagers, and everyone knows that helping others is good.",
+    "Volunteering benefits teenagers, which is why teenagers should volunteer."
+   ],
+   "answer": 1,
+   "explain": "Specific, credible evidence such as a survey with a source, a sample size, and a result supports the claim; the other choices only repeat or exaggerate it.",
+   "source": "scope_2026",
+   "lu": {
+    "id": "LU-ELA-WR-10-01",
+    "slot": 1,
+    "concept": {
+     "en": "Revising with peer feedback",
+     "es": "Revisar con comentarios de compañeros"
+    },
+    "tip": {
+     "en": "When your teen gets feedback, ask: 'What exact fact, number, or quotation could prove this?'",
+     "es": "Cuando su hijo reciba comentarios, pregunte: '¿Qué dato, número o cita exacta podría probarlo?'"
+    }
+   },
+   "florida": "ELA.10.C"
+  },
+  {
+   "id": "EN-10-W02",
+   "subject": "ela",
+   "level": 10,
+   "ace": null,
+   "skill": "Writing a thesis with a claim and reasons",
+   "strand": "grammar",
+   "florida_code": "ELA.10.C.1.3",
+   "type": "mcq",
+   "prompt": "A student is writing about the novel she read for class. Which thesis statement makes a specific, arguable claim about the text?",
+   "options": [
+    "The novel has a locked door in several chapters.",
+    "The author wrote the novel in the twentieth century.",
+    "Many readers enjoy the novel's characters and setting.",
+    "In the novel, the author uses the recurring image of a locked door to show that the main character is trapped by his own fear."
+   ],
+   "answer": 3,
+   "explain": "A literary thesis interprets the text and can be argued with evidence; the other choices state facts or opinions with nothing to prove.",
+   "source": "scope_2026",
+   "lu": {
+    "id": "LU-ELA-WR-10-02",
+    "slot": 2,
+    "concept": {
+     "en": "Thesis for literary analysis",
+     "es": "Tesis para análisis literario"
+    },
+    "tip": {
+     "en": "Turn a plain observation ('there is a door') into a claim by adding 'which shows that...'.",
+     "es": "Convierta una observación simple ('hay una puerta') en una tesis agregando 'lo cual muestra que...'."
+    }
+   },
+   "florida": "ELA.10.C"
+  },
+  {
+   "id": "EN-11-R01",
+   "subject": "ela",
+   "level": 11,
+   "ace": null,
+   "skill": "Central idea of a period essay",
+   "strand": "reading",
+   "florida_code": "ELA.11.R.2.2",
+   "type": "mcq",
+   "prompt": "To the Freeholders of the Township: Gentlemen, it has been said that a free people need only their votes to keep their liberty. I beg leave to doubt it. A vote is but a tool, and a tool is no better than the hand that wields it. If the citizen cannot read the laws he is governed by, nor weigh the reasons of those who ask his voice, he will give his voice to whoever speaks most sweetly, and liberty will be lost by degrees, with his own consent. Let us therefore resolve to erect a schoolhouse at the crossroads, and to make it the first charge on our common purse. The cost is small; the harvest is great. For a township of lettered men may be ruled by no master but its own judgment, while a township of the ignorant will always, sooner or later, find a master.\n\nWhich statement best expresses the central idea of the passage?",
+   "options": [
+    "Voting is the only thing a free people need to remain free.",
+    "Orators who speak sweetly are always honest leaders.",
+    "Citizens must be educated if they are to keep their liberty, so the township should fund a school.",
+    "A township should avoid spending any money from its common purse."
+   ],
+   "answer": 2,
+   "explain": "The writer argues that votes alone cannot preserve liberty without education and urges funding a schoolhouse first.",
+   "source": "scope_2026",
+   "lu": {
+    "id": "LU-ELA-RD-11-01",
+    "slot": 1,
+    "concept": {
+     "en": "Central idea in historical writing",
+     "es": "Idea central en textos históricos"
+    },
+    "tip": {
+     "en": "Have your student restate the author's main claim in one plain modern sentence.",
+     "es": "Pida a su hijo que reformule la idea principal del autor en una oración moderna y sencilla."
+    }
+   },
+   "florida": "ELA.11.R"
+  },
+  {
+   "id": "EN-11-R02",
+   "subject": "ela",
+   "level": 11,
+   "ace": null,
+   "skill": "Inference in an early American document",
+   "strand": "reading",
+   "florida_code": "ELA.11.R.2.1",
+   "type": "mcq",
+   "prompt": "When in the Course of our Affairs it becomes needful that the Settlers of this Province declare the Causes that move them, a decent Respect for the Opinions of Mankind requires that they lay their Case before the World. In the three Years past we have sent humble Petitions to the Board of Trade, setting forth the Distress of our Fishermen and the Ruin of our Harbors. To these Petitions we have received in Return only a fresh Duty upon our Salt, and a Governor whom none of us has seen. We do not ask for Favor; we ask only that our Industry be not made the Instrument of our own Impoverishment. Yet we find ourselves, Gentlemen, at the same Point from which we first set out, with lighter Purses and heavier Hearts.\n\nWhich inference is best supported by the passage?",
+   "options": [
+    "The Board of Trade quickly granted every request the settlers made.",
+    "The settlers' earlier petitions did not bring them relief and may even have made their situation worse.",
+    "The settlers want special favors and exemptions from all duties.",
+    "The Governor has recently visited every harbor in the province."
+   ],
+   "answer": 1,
+   "explain": "The settlers sent petitions and received only a new duty and an unseen governor, and they say they are 'at the same Point' with lighter purses.",
+   "source": "scope_2026",
+   "lu": {
+    "id": "LU-ELA-RD-11-02",
+    "slot": 2,
+    "concept": {
+     "en": "Inference in historical documents",
+     "es": "Inferencia en documentos históricos"
+    },
+    "tip": {
+     "en": "Old documents use long sentences; have your student paraphrase each one in plain words before inferring.",
+     "es": "Los documentos antiguos usan oraciones largas; pida que las parafraseen antes de inferir."
+    }
+   },
+   "florida": "ELA.11.R"
+  },
+  {
+   "id": "EN-11-R03",
+   "subject": "ela",
+   "level": 11,
+   "ace": null,
+   "skill": "Identifying rhetorical appeals",
+   "strand": "reading",
+   "florida_code": "ELA.11.R.3.4",
+   "type": "mcq",
+   "prompt": "Consider, Gentlemen, the arithmetic of the matter. A road of forty miles through the valley will cost this county two thousand dollars, to be paid over ten years. The farmers of that valley now lose, by the best account I can obtain, five thousand dollars each year in grain that spoils for want of a passable way to market. The road, then, would repay its whole cost in a single season, and in every season after would put five thousand dollars into the pockets of those who now see them rot in the field. I ask no man to be moved by pity. I ask only that he reckon the sum for himself. If the figures I have set before you are false, let any gentleman show the error; if they are true, reason itself has already given its verdict.\n\nWhich rhetorical appeal does the speaker rely on most in the passage?",
+   "options": [
+    "Pathos, an appeal to pity and strong emotion.",
+    "Ethos, an appeal based on the speaker's famous reputation.",
+    "A threat of punishment for those who disagree.",
+    "Logos, an appeal to logic through figures, cost, and calculation."
+   ],
+   "answer": 3,
+   "explain": "The speaker uses costs and yearly losses to reason, and even says he asks no one to be moved by pity.",
+   "source": "scope_2026",
+   "lu": {
+    "id": "LU-ELA-RD-11-03",
+    "slot": 3,
+    "concept": {
+     "en": "Ethos, pathos, and logos",
+     "es": "Ethos, pathos y logos"
+    },
+    "tip": {
+     "en": "Watch a debate or ad and label each appeal as it appears: character, feeling, or logic.",
+     "es": "Vean un debate o anuncio y clasifiquen cada recurso: carácter, emoción o lógica."
+    }
+   },
+   "florida": "ELA.11.R"
+  },
+  {
+   "id": "EN-11-R04",
+   "subject": "ela",
+   "level": 11,
+   "ace": null,
+   "skill": "Vocabulary in context (period usage)",
+   "strand": "reading",
+   "florida_code": "ELA.11.V.1.3",
+   "type": "mcq",
+   "prompt": "It is a maxim among wise men that the Legislature holds its Powers not by Right of Nature, but by the Sufferance of those who chose it. The Assembly may therefore make Laws, but it may not make itself Master. When Members forget from whence they came, and begin to regard the People as a Flock to be shorn rather than a Body to be served, it is the Duty of every honest Citizen to remind them, with Firmness and without Rancor, that the Seat they occupy was lent and not given. Let none say that such Plainness is disrespectful; the Respect we owe our Representatives is the Respect due to Servants of the Public, and it is best shown by keeping a watchful Eye upon the Trust they have received.\n\nAs used in the first sentence, \"Sufferance\" most nearly means",
+   "options": [
+    "permission or tolerance",
+    "physical pain",
+    "great hardship",
+    "careful study"
+   ],
+   "answer": 0,
+   "explain": "The legislature's powers are granted and allowed by the people, which matches 'permission or tolerance'; the later phrase 'lent and not given' confirms it.",
+   "source": "scope_2026",
+   "lu": {
+    "id": "LU-ELA-RD-11-04",
+    "slot": 4,
+    "concept": {
+     "en": "Archaic word meanings in context",
+     "es": "Significado de palabras antiguas en contexto"
+    },
+    "tip": {
+     "en": "Context beats the dictionary: have your student test each meaning by re-reading the sentence with it.",
+     "es": "El contexto vale más que el diccionario: prueben cada significado releyendo la oración con él."
+    }
+   },
+   "florida": "ELA.11.V"
+  },
+  {
+   "id": "EN-11-W01",
+   "subject": "ela",
+   "level": 11,
+   "ace": null,
+   "skill": "Strengthening a claim in an analytical thesis",
+   "strand": "grammar",
+   "florida_code": "ELA.11.C.1.3",
+   "type": "mcq",
+   "prompt": "A student is analyzing an eighteenth-century political essay. Which thesis best states a claim about the author's rhetorical strategy?",
+   "options": [
+    "By pairing precise calculations with a calm, respectful tone, the author persuades a skeptical audience that reason, not emotion, should decide the issue.",
+    "The author of the essay lived in the eighteenth century and wrote about roads.",
+    "The essay is long and uses many hard words.",
+    "Readers today may or may not agree with the author."
+   ],
+   "answer": 0,
+   "explain": "A strong analytical thesis names the author's technique and explains its effect on the audience.",
+   "source": "scope_2026",
+   "lu": {
+    "id": "LU-ELA-WR-11-01",
+    "slot": 1,
+    "concept": {
+     "en": "Analytical thesis about rhetoric",
+     "es": "Tesis analítica sobre retórica"
+    },
+    "tip": {
+     "en": "A thesis about rhetoric answers 'What does the author do, and how does it affect the reader?'",
+     "es": "Una tesis sobre retórica responde: '¿Qué hace el autor y cómo afecta al lector?'"
+    }
+   },
+   "florida": "ELA.11.C"
+  },
+  {
+   "id": "EN-11-W02",
+   "subject": "ela",
+   "level": 11,
+   "ace": null,
+   "skill": "APA reference list entry",
+   "strand": "grammar",
+   "florida_code": "ELA.11.C.4.1",
+   "type": "mcq",
+   "prompt": "A student is using APA style (7th edition) for a reference list. Which entry for a book is formatted correctly? (Titles are shown without italics.)",
+   "options": [
+    "Park, Jin. Voices of the Early Republic. Historic Press, 2021.",
+    "Park, Jin. 2021. Voices of the Early Republic. Historic Press.",
+    "Park, J. (2021). Voices of the early republic. Historic Press.",
+    "(2021) Park, J. Voices of the early republic, Historic Press."
+   ],
+   "answer": 2,
+   "explain": "APA uses Last name, Initial. (Year). Title in sentence case. Publisher.; the second choice is MLA and the third is Chicago.",
+   "source": "scope_2026",
+   "lu": {
+    "id": "LU-ELA-WR-11-02",
+    "slot": 2,
+    "concept": {
+     "en": "APA book reference",
+     "es": "Referencia APA de un libro"
+    },
+    "tip": {
+     "en": "Notice that APA puts the year right after the author, while MLA places it at the end.",
+     "es": "Note que APA coloca el año justo después del autor, mientras MLA lo pone al final."
+    }
+   },
+   "florida": "ELA.11.C"
+  },
+  {
+   "id": "EN-12-R01",
+   "subject": "ela",
+   "level": 12,
+   "ace": null,
+   "skill": "Theme in classic British-style fiction",
+   "strand": "reading",
+   "florida_code": "ELA.12.R.1.2",
+   "type": "mcq",
+   "prompt": "Miss Ashworth had been left the great house at Thornley, and with it a fortune that she had never expected and, she suspected, did not deserve. For a year she kept every room as her uncle had left it: the portraits unturned, the silver polished, the carriage unused in its shed. The villagers deferred to her with a hush that she mistook for respect. It was Mrs. Pell, the housekeeper, who spoke plainly one March morning. \"The house is very fine, Miss, but the roof over the cottagers' school is leaking, and nobody dares to say so to you.\" Miss Ashworth was silent for a long moment. Then she took off her gloves, which she had not done indoors in a year, and asked to be shown the school. By evening the carriage was in the road, and the first of the new slates was on its way.\n\nWhich statement best expresses a central theme developed in the passage?",
+   "options": [
+    "Housekeepers should never speak plainly to their employers.",
+    "True stewardship of wealth means using it to serve others rather than merely preserving it.",
+    "Old houses are more valuable than village schools.",
+    "A fortune is always more of a burden than a gift."
+   ],
+   "answer": 1,
+   "explain": "Miss Ashworth moves from preserving her inheritance to using it for the school, developing the theme of responsible stewardship.",
+   "source": "scope_2026",
+   "lu": {
+    "id": "LU-ELA-RD-12-01",
+    "slot": 1,
+    "concept": {
+     "en": "Theme in classic fiction",
+     "es": "Tema en la ficción clásica"
+    },
+    "tip": {
+     "en": "Ask your student how the main character changes from beginning to end; the change often reveals the theme.",
+     "es": "Pregunte cómo cambia el personaje principal de principio a fin; el cambio suele revelar el tema."
+    }
+   },
+   "florida": "ELA.12.R"
+  },
+  {
+   "id": "EN-12-R02",
+   "subject": "ela",
+   "level": 12,
+   "ace": null,
+   "skill": "Inference about conflicting perspectives",
+   "strand": "reading",
+   "florida_code": "ELA.12.R.1.3",
+   "type": "mcq",
+   "prompt": "\"The match is in every way suitable,\" said Mr. Greaves, folding his newspaper with the air of a man closing a ledger. \"Mr. Dalton has an income, a house, and an excellent name.\" \"He has all of those, Papa,\" Harriet agreed, and went on pouring the tea. \"And he has expressed a particular regard for you.\" \"He has been most civil.\" She set a cup before her father with great care, and not one drop spilled. \"You will receive him on Thursday, then.\" \"I shall be at home on Thursday,\" said Harriet. Her father, satisfied, returned to his newspaper. Had he looked up, he might have noticed that she had been stirring her own cup for some minutes, though she had put no sugar in it.\n\nWhich detail best supports the inference that Harriet disagrees with her father but conceals it?",
+   "options": [
+    "She pours the tea without spilling a drop.",
+    "She agrees that Mr. Dalton has an income, a house, and an excellent name.",
+    "She says she will be at home on Thursday.",
+    "She answers in careful, polite phrases and stirs her unsweetened tea for several minutes."
+   ],
+   "answer": 3,
+   "explain": "Her guarded replies and the pointless stirring show unease that she hides; the other details are consistent with simple agreement.",
+   "source": "scope_2026",
+   "lu": {
+    "id": "LU-ELA-RD-12-02",
+    "slot": 2,
+    "concept": {
+     "en": "Inferring a character's hidden perspective",
+     "es": "Inferir la perspectiva oculta de un personaje"
+    },
+    "tip": {
+     "en": "Look for gaps between what characters say and what they do; that gap often shows their true feelings.",
+     "es": "Busquen la diferencia entre lo que los personajes dicen y lo que hacen; ahí suelen verse sus sentimientos."
+    }
+   },
+   "florida": "ELA.12.R"
+  },
+  {
+   "id": "EN-12-R03",
+   "subject": "ela",
+   "level": 12,
+   "ace": null,
+   "skill": "Satire and irony",
+   "strand": "reading",
+   "florida_code": "ELA.12.R.2.3",
+   "type": "mcq",
+   "prompt": "I propose that all meetings in this city henceforth be conducted entirely in speaking, and that the wasteful practice of listening be abolished. Consider the savings. A meeting of twelve persons, in which each listens attentively to the other eleven, consumes eleven twelfths of its time in silence, which no sensible person can regard as productive. If instead every member speaks at once, the whole business of the committee will be completed in the time now required for a single opening remark. True, some may object that nothing will have been understood. But understanding, I submit, was never the purpose of a meeting; it was merely a regrettable delay that crept in during a more patient age. I trust that all reasonable persons will join me in this modest reform.\n\nWhat is the effect of the author's calm, reasonable tone while proposing something absurd?",
+   "options": [
+    "It proves that the author sincerely wants listening to be abolished.",
+    "It makes the passage a factual report of how meetings work.",
+    "It creates irony that exposes the foolishness of people who talk without listening.",
+    "It shows that the author is angry and out of control."
+   ],
+   "answer": 2,
+   "explain": "A straight-faced tone applied to an absurd idea is verbal irony; it satirizes real habits of ignoring others in meetings.",
+   "source": "scope_2026",
+   "lu": {
+    "id": "LU-ELA-RD-12-03",
+    "slot": 3,
+    "concept": {
+     "en": "Irony and satire",
+     "es": "Ironía y sátira"
+    },
+    "tip": {
+     "en": "Ask: 'Does the author really mean this? What real problem is being mocked?'",
+     "es": "Pregunte: '¿El autor realmente quiere decir esto? ¿Qué problema real se burla?'"
+    }
+   },
+   "florida": "ELA.12.R"
+  },
+  {
+   "id": "EN-12-R04",
+   "subject": "ela",
+   "level": 12,
+   "ace": null,
+   "skill": "Connotation among near-synonyms",
+   "strand": "reading",
+   "florida_code": "ELA.12.V.1.3",
+   "type": "mcq",
+   "prompt": "Professor Whitcombe was a man of few words. His colleagues, who admired him, called him reserved. His neighbors, who found him hard to know, called him taciturn. His students, who had once waited a full ten minutes for an answer to a simple question, called him sullen, and the word followed him through the halls like a draft. Yet on the last day of term, when a student stayed behind to say that she did not understand a poem, he sat down beside her, opened the book, and read the poem aloud twice without comment. Then he closed the book, looked at her, and said, \"Again, tomorrow.\" She came back the next day and the day after that, and by spring she could not remember why she had ever thought him unapproachable.\n\nWhich word the passage uses to describe Professor Whitcombe has the most negative connotation?",
+   "options": [
+    "reserved",
+    "sullen",
+    "taciturn",
+    "hard to know"
+   ],
+   "answer": 1,
+   "explain": "'Sullen' implies gloomy ill temper, while 'reserved' and 'taciturn' describe a quiet manner more neutrally.",
+   "source": "scope_2026",
+   "lu": {
+    "id": "LU-ELA-RD-12-04",
+    "slot": 4,
+    "concept": {
+     "en": "Degrees of connotation",
+     "es": "Grados de connotación"
+    },
+    "tip": {
+     "en": "Rank a set of synonyms from most positive to most negative and talk about why.",
+     "es": "Ordenen un grupo de sinónimos del más positivo al más negativo y comenten por qué."
+    }
+   },
+   "florida": "ELA.12.V"
+  },
+  {
+   "id": "EN-12-W01",
+   "subject": "ela",
+   "level": 12,
+   "ace": null,
+   "skill": "Developing a thesis for college writing",
+   "strand": "grammar",
+   "florida_code": "ELA.12.C.1.3",
+   "type": "mcq",
+   "prompt": "A senior is writing a college-level essay on a work of classic literature. Which thesis is most complex, specific, and arguable?",
+   "options": [
+    "The novel is about honesty, which is an important virtue.",
+    "The narrator tells her story in the first person.",
+    "Honesty is always the best policy, as the novel shows.",
+    "Although the narrator claims to value honesty above all, her repeated omissions reveal that the novel is less about truth than about the fear of being known."
+   ],
+   "answer": 3,
+   "explain": "A strong college thesis takes an interpretive stance, acknowledges complexity ('although'), and can be proven with textual evidence.",
+   "source": "scope_2026",
+   "lu": {
+    "id": "LU-ELA-WR-12-01",
+    "slot": 1,
+    "concept": {
+     "en": "Complex, arguable theses",
+     "es": "Tesis complejas y argumentables"
+    },
+    "tip": {
+     "en": "If a thesis can be answered with 'Yes, and so?', it is probably too obvious; push for 'how' and 'why'.",
+     "es": "Si una tesis se contesta con 'Sí, ¿y qué?', probablemente es obvia; busquen el 'cómo' y el 'por qué'."
+    }
+   },
+   "florida": "ELA.12.C"
+  },
+  {
+   "id": "EN-12-W02",
+   "subject": "ela",
+   "level": 12,
+   "ace": null,
+   "skill": "Revising for concision and style",
+   "strand": "grammar",
+   "florida_code": "ELA.12.C.1.5",
+   "type": "mcq",
+   "prompt": "A student wants to revise this wordy sentence for clarity and style: \"Due to the fact that the committee was in the process of reviewing the proposal, a decision was not able to be made by the members.\" Which revision is best?",
+   "options": [
+    "Because the committee was still reviewing the proposal, it could not decide.",
+    "The committee reviewing the proposal in the process was due to not being able to decide.",
+    "A decision could not be made by the members, due to the fact of reviewing.",
+    "Because the proposal was being reviewed by the committee, the members were in a position of not being able to make a decision."
+   ],
+   "answer": 0,
+   "explain": "The best revision removes filler phrases and the passive construction while keeping the full meaning.",
+   "source": "scope_2026",
+   "lu": {
+    "id": "LU-ELA-WR-12-02",
+    "slot": 2,
+    "concept": {
+     "en": "Concise, active style",
+     "es": "Estilo conciso y activo"
+    },
+    "tip": {
+     "en": "Circle phrases like 'due to the fact that' and 'in the process of' and try replacing each with one word.",
+     "es": "Encierre frases como 'debido al hecho de que' y pruebe sustituir cada una por una sola palabra."
+    }
+   },
+   "florida": "ELA.12.C"
+  }
+ ]
+}

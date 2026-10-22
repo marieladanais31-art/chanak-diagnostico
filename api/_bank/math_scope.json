@@ -1,0 +1,1470 @@
+{
+ "band": "math_scope",
+ "items": [
+  {
+   "id": "MA-01-S01",
+   "subject": "math",
+   "level": 1,
+   "ace": null,
+   "skill": "place value tens and ones",
+   "florida_code": "MA.1.NSO.1.3",
+   "type": "mcq",
+   "prompt": "The number 34 has how many tens and how many ones?",
+   "options": [
+    "4 tens and 3 ones",
+    "3 tens and 4 ones",
+    "3 tens and 3 ones",
+    "7 tens and 0 ones"
+   ],
+   "answer": 1,
+   "explain": "34 is 3 tens and 4 ones.",
+   "source": "scope_2026",
+   "lu": {
+    "id": "LU-MATH-01-13",
+    "slot": 13,
+    "concept": {
+     "en": "Place value: tens and ones",
+     "es": "Valor posicional: decenas y unidades"
+    },
+    "tip": {
+     "en": "Use bundles of 10 sticks and loose sticks to build two-digit numbers.",
+     "es": "Usen paquetes de 10 palitos y palitos sueltos para formar números de dos cifras."
+    }
+   },
+   "florida": "MA.1.NSO"
+  },
+  {
+   "id": "MA-01-S02",
+   "subject": "math",
+   "level": 1,
+   "ace": null,
+   "skill": "place value tens and ones",
+   "florida_code": "MA.1.NSO.1.3",
+   "type": "numeric",
+   "prompt": "Mia has 5 tens and 2 ones. What number is that?",
+   "answer": 52,
+   "explain": "5 tens is 50, and 2 ones makes 52.",
+   "source": "scope_2026",
+   "lu": {
+    "id": "LU-MATH-01-13",
+    "slot": 13,
+    "concept": {
+     "en": "Place value: tens and ones",
+     "es": "Valor posicional: decenas y unidades"
+    },
+    "tip": {
+     "en": "Use bundles of 10 sticks and loose sticks to build two-digit numbers.",
+     "es": "Usen paquetes de 10 palitos y palitos sueltos para formar números de dos cifras."
+    }
+   },
+   "florida": "MA.1.NSO"
+  },
+  {
+   "id": "MA-01-S03",
+   "subject": "math",
+   "level": 1,
+   "ace": null,
+   "skill": "comparing lengths with non-standard units",
+   "florida_code": "MA.1.M.1.2",
+   "type": "mcq",
+   "prompt": "Ana measures with paper clips. A book is 6 paper clips long. A pencil is 4 paper clips long. Which one is longer?",
+   "options": [
+    "The pencil",
+    "They are the same",
+    "The book"
+   ],
+   "answer": 2,
+   "explain": "6 clips is more than 4 clips, so the book is longer.",
+   "source": "scope_2026",
+   "lu": {
+    "id": "LU-MATH-01-14",
+    "slot": 14,
+    "concept": {
+     "en": "Measuring and comparing lengths",
+     "es": "Medir y comparar longitudes"
+    },
+    "tip": {
+     "en": "Measure toys or books with paper clips or blocks and say which is longer.",
+     "es": "Midan juguetes o libros con clips o bloques y digan cuál es más largo."
+    }
+   },
+   "florida": "MA.1.M"
+  },
+  {
+   "id": "MA-01-S04",
+   "subject": "math",
+   "level": 1,
+   "ace": null,
+   "skill": "measuring length with non-standard units",
+   "florida_code": "MA.1.M.1.1",
+   "type": "numeric",
+   "prompt": "A ribbon is 9 blocks long. A string is 5 blocks long. How many blocks longer is the ribbon than the string?",
+   "answer": 4,
+   "explain": "9 - 5 = 4 blocks.",
+   "source": "scope_2026",
+   "lu": {
+    "id": "LU-MATH-01-14",
+    "slot": 14,
+    "concept": {
+     "en": "Measuring and comparing lengths",
+     "es": "Medir y comparar longitudes"
+    },
+    "tip": {
+     "en": "Measure toys or books with paper clips or blocks and say which is longer.",
+     "es": "Midan juguetes o libros con clips o bloques y digan cuál es más largo."
+    }
+   },
+   "florida": "MA.1.M"
+  },
+  {
+   "id": "MA-01-S05",
+   "subject": "math",
+   "level": 1,
+   "ace": null,
+   "skill": "reading a tally chart",
+   "florida_code": "MA.1.DP.1.2",
+   "type": "mcq",
+   "prompt": "A tally chart shows votes for a favorite fruit. Apples: 5 tally marks. Pears: 3 tally marks. Grapes: 7 tally marks. Which fruit got the most votes?",
+   "options": [
+    "Grapes",
+    "Apples",
+    "Pears"
+   ],
+   "answer": 0,
+   "explain": "7 is the greatest number of tally marks, so grapes won.",
+   "source": "scope_2026",
+   "lu": {
+    "id": "LU-MATH-01-15",
+    "slot": 15,
+    "concept": {
+     "en": "Reading simple data",
+     "es": "Leer datos sencillos"
+    },
+    "tip": {
+     "en": "Make a tally chart of family favorites, then ask which has the most.",
+     "es": "Hagan una tabla de marcas con los favoritos de la familia y pregunten cuál tiene más."
+    }
+   },
+   "florida": "MA.1.DP"
+  },
+  {
+   "id": "MA-01-S06",
+   "subject": "math",
+   "level": 1,
+   "ace": null,
+   "skill": "reading a picture graph",
+   "florida_code": "MA.1.DP.1.2",
+   "type": "numeric",
+   "prompt": "In a picture graph, each smiley face means 1 child. Cats has 4 smiley faces. Dogs has 6 smiley faces. How many children voted in all?",
+   "answer": 10,
+   "explain": "4 + 6 = 10 children.",
+   "source": "scope_2026",
+   "lu": {
+    "id": "LU-MATH-01-15",
+    "slot": 15,
+    "concept": {
+     "en": "Reading simple data",
+     "es": "Leer datos sencillos"
+    },
+    "tip": {
+     "en": "Make a tally chart of family favorites, then ask which has the most.",
+     "es": "Hagan una tabla de marcas con los favoritos de la familia y pregunten cuál tiene más."
+    }
+   },
+   "florida": "MA.1.DP"
+  },
+  {
+   "id": "MA-02-S01",
+   "subject": "math",
+   "level": 2,
+   "ace": null,
+   "skill": "repeated addition with equal groups",
+   "florida_code": "MA.2.AR.3.2",
+   "type": "mcq",
+   "prompt": "There are 3 plates. Each plate has 4 cookies. Which addition sentence shows how many cookies there are?",
+   "options": [
+    "3 + 4",
+    "4 + 4 + 4",
+    "3 + 3 + 3 + 3",
+    "4 + 3 + 1"
+   ],
+   "answer": 1,
+   "explain": "3 plates with 4 cookies each is 4 + 4 + 4.",
+   "source": "scope_2026",
+   "lu": {
+    "id": "LU-MATH-02-13",
+    "slot": 13,
+    "concept": {
+     "en": "Equal groups and arrays (intro to multiplication)",
+     "es": "Grupos iguales y matrices (introducción a la multiplicación)"
+    },
+    "tip": {
+     "en": "Set out 3 rows of 5 buttons and add each row: 5 + 5 + 5.",
+     "es": "Pongan 3 filas de 5 botones y sumen cada fila: 5 + 5 + 5."
+    }
+   },
+   "florida": "MA.2.AR"
+  },
+  {
+   "id": "MA-02-S02",
+   "subject": "math",
+   "level": 2,
+   "ace": null,
+   "skill": "arrays: rows and columns",
+   "florida_code": "MA.2.AR.3.2",
+   "type": "numeric",
+   "prompt": "An array of stars has 3 rows. Each row has 5 stars. How many stars are there in all?",
+   "answer": 15,
+   "explain": "5 + 5 + 5 = 15.",
+   "source": "scope_2026",
+   "lu": {
+    "id": "LU-MATH-02-13",
+    "slot": 13,
+    "concept": {
+     "en": "Equal groups and arrays (intro to multiplication)",
+     "es": "Grupos iguales y matrices (introducción a la multiplicación)"
+    },
+    "tip": {
+     "en": "Set out 3 rows of 5 buttons and add each row: 5 + 5 + 5.",
+     "es": "Pongan 3 filas de 5 botones y sumen cada fila: 5 + 5 + 5."
+    }
+   },
+   "florida": "MA.2.AR"
+  },
+  {
+   "id": "MA-03-S01",
+   "subject": "math",
+   "level": 3,
+   "ace": null,
+   "skill": "equal sharing division",
+   "florida_code": "MA.3.NSO.2.4",
+   "type": "mcq",
+   "prompt": "20 stickers are shared equally among 4 friends. How many stickers does each friend get?",
+   "options": [
+    "4",
+    "6",
+    "5",
+    "16"
+   ],
+   "answer": 2,
+   "explain": "20 / 4 = 5 because 4 x 5 = 20.",
+   "source": "scope_2026",
+   "lu": {
+    "id": "LU-MATH-03-13",
+    "slot": 13,
+    "concept": {
+     "en": "Division as equal sharing",
+     "es": "División como reparto equitativo"
+    },
+    "tip": {
+     "en": "Share 20 raisins equally among family members and count how many each gets.",
+     "es": "Repartan 20 pasas en partes iguales entre la familia y cuenten cuántas toca a cada uno."
+    }
+   },
+   "florida": "MA.3.NSO"
+  },
+  {
+   "id": "MA-03-S02",
+   "subject": "math",
+   "level": 3,
+   "ace": null,
+   "skill": "division facts to 100",
+   "florida_code": "MA.3.NSO.2.4",
+   "type": "numeric",
+   "prompt": "72 pencils are put equally into 8 boxes. How many pencils are in each box?",
+   "answer": 9,
+   "explain": "72 / 8 = 9 because 8 x 9 = 72.",
+   "source": "scope_2026",
+   "lu": {
+    "id": "LU-MATH-03-13",
+    "slot": 13,
+    "concept": {
+     "en": "Division as equal sharing",
+     "es": "División como reparto equitativo"
+    },
+    "tip": {
+     "en": "Share 20 raisins equally among family members and count how many each gets.",
+     "es": "Repartan 20 pasas en partes iguales entre la familia y cuenten cuántas toca a cada uno."
+    }
+   },
+   "florida": "MA.3.NSO"
+  },
+  {
+   "id": "MA-03-S03",
+   "subject": "math",
+   "level": 3,
+   "ace": null,
+   "skill": "naming unit fractions",
+   "florida_code": "MA.3.FR.1.1",
+   "type": "mcq",
+   "prompt": "A pizza is cut into 8 equal slices. One slice is what fraction of the pizza?",
+   "options": [
+    "1/8",
+    "1/4",
+    "8/1",
+    "1/2"
+   ],
+   "answer": 0,
+   "explain": "One of 8 equal parts is 1/8.",
+   "source": "scope_2026",
+   "lu": {
+    "id": "LU-MATH-03-14",
+    "slot": 14,
+    "concept": {
+     "en": "Unit fractions",
+     "es": "Fracciones unitarias"
+    },
+    "tip": {
+     "en": "Cut a sandwich into equal parts and name one part: 1/2, 1/3, 1/4.",
+     "es": "Corten un sándwich en partes iguales y nombren una parte: 1/2, 1/3, 1/4."
+    }
+   },
+   "florida": "MA.3.FR"
+  },
+  {
+   "id": "MA-03-S04",
+   "subject": "math",
+   "level": 3,
+   "ace": null,
+   "skill": "comparing unit fractions",
+   "florida_code": "MA.3.FR.2.1",
+   "type": "mcq",
+   "prompt": "Which fraction is the greatest?",
+   "options": [
+    "1/6",
+    "1/4",
+    "1/3",
+    "1/2"
+   ],
+   "answer": 3,
+   "explain": "With the same numerator, the smaller the denominator, the larger each part: 1/2 is greatest.",
+   "source": "scope_2026",
+   "lu": {
+    "id": "LU-MATH-03-14",
+    "slot": 14,
+    "concept": {
+     "en": "Unit fractions",
+     "es": "Fracciones unitarias"
+    },
+    "tip": {
+     "en": "Cut a sandwich into equal parts and name one part: 1/2, 1/3, 1/4.",
+     "es": "Corten un sándwich en partes iguales y nombren una parte: 1/2, 1/3, 1/4."
+    }
+   },
+   "florida": "MA.3.FR"
+  },
+  {
+   "id": "MA-03-S05",
+   "subject": "math",
+   "level": 3,
+   "ace": null,
+   "skill": "area of a rectangle in square units",
+   "florida_code": "MA.3.GR.2.2",
+   "type": "numeric",
+   "prompt": "A rectangle is covered with square tiles in 4 rows. Each row has 6 tiles. What is the area of the rectangle in square units?",
+   "answer": 24,
+   "explain": "4 x 6 = 24 square units.",
+   "source": "scope_2026",
+   "lu": {
+    "id": "LU-MATH-03-15",
+    "slot": 15,
+    "concept": {
+     "en": "Area and perimeter",
+     "es": "Área y perímetro"
+    },
+    "tip": {
+     "en": "Cover a rectangle with square tiles to find area; walk around its edges to find perimeter.",
+     "es": "Cubran un rectángulo con cuadrados para hallar el área; recorran sus bordes para hallar el perímetro."
+    }
+   },
+   "florida": "MA.3.GR"
+  },
+  {
+   "id": "MA-03-S06",
+   "subject": "math",
+   "level": 3,
+   "ace": null,
+   "skill": "perimeter of a polygon",
+   "florida_code": "MA.3.GR.2.3",
+   "type": "numeric",
+   "prompt": "A triangle has sides of 7 cm, 9 cm and 5 cm. What is its perimeter in centimeters?",
+   "answer": 21,
+   "explain": "7 + 9 + 5 = 21 cm.",
+   "source": "scope_2026",
+   "lu": {
+    "id": "LU-MATH-03-15",
+    "slot": 15,
+    "concept": {
+     "en": "Area and perimeter",
+     "es": "Área y perímetro"
+    },
+    "tip": {
+     "en": "Cover a rectangle with square tiles to find area; walk around its edges to find perimeter.",
+     "es": "Cubran un rectángulo con cuadrados para hallar el área; recorran sus bordes para hallar el perímetro."
+    }
+   },
+   "florida": "MA.3.GR"
+  },
+  {
+   "id": "MA-04-S01",
+   "subject": "math",
+   "level": 4,
+   "ace": null,
+   "skill": "fraction and decimal link",
+   "florida_code": "MA.4.FR.1.2",
+   "type": "mcq",
+   "prompt": "Which decimal is equal to 7/10?",
+   "options": [
+    "0.07",
+    "7.0",
+    "0.7",
+    "0.17"
+   ],
+   "answer": 2,
+   "explain": "Seven tenths is written 0.7.",
+   "source": "scope_2026",
+   "lu": {
+    "id": "LU-MATH-04-13",
+    "slot": 13,
+    "concept": {
+     "en": "Decimals: tenths and hundredths",
+     "es": "Decimales: décimas y centésimas"
+    },
+    "tip": {
+     "en": "Connect money to decimals: 10 dimes make a dollar, so one dime is 0.1.",
+     "es": "Relacionen el dinero con los decimales: 10 monedas de diez centavos hacen un dólar, una es 0,1."
+    }
+   },
+   "florida": "MA.4.FR"
+  },
+  {
+   "id": "MA-04-S02",
+   "subject": "math",
+   "level": 4,
+   "ace": null,
+   "skill": "reading decimals to hundredths",
+   "florida_code": "MA.4.NSO.1.5",
+   "type": "numeric",
+   "prompt": "Write as a decimal: 3 tenths and 5 hundredths.",
+   "answer": 0.35,
+   "explain": "3 tenths is 0.3 and 5 hundredths is 0.05, so 0.35.",
+   "source": "scope_2026",
+   "lu": {
+    "id": "LU-MATH-04-13",
+    "slot": 13,
+    "concept": {
+     "en": "Decimals: tenths and hundredths",
+     "es": "Decimales: décimas y centésimas"
+    },
+    "tip": {
+     "en": "Connect money to decimals: 10 dimes make a dollar, so one dime is 0.1.",
+     "es": "Relacionen el dinero con los decimales: 10 monedas de diez centavos hacen un dólar, una es 0,1."
+    }
+   },
+   "florida": "MA.4.NSO"
+  },
+  {
+   "id": "MA-04-S03",
+   "subject": "math",
+   "level": 4,
+   "ace": null,
+   "skill": "classifying angles",
+   "florida_code": "MA.4.GR.1.1",
+   "type": "mcq",
+   "prompt": "An angle measures 120 degrees. What kind of angle is it?",
+   "options": [
+    "Obtuse",
+    "Acute",
+    "Right",
+    "Straight"
+   ],
+   "answer": 0,
+   "explain": "An angle larger than 90 and smaller than 180 degrees is obtuse.",
+   "source": "scope_2026",
+   "lu": {
+    "id": "LU-MATH-04-14",
+    "slot": 14,
+    "concept": {
+     "en": "Angles and degrees",
+     "es": "Ángulos y grados"
+    },
+    "tip": {
+     "en": "Look for right angles at home, like the corner of a book (90 degrees).",
+     "es": "Busquen ángulos rectos en casa, como la esquina de un libro (90 grados)."
+    }
+   },
+   "florida": "MA.4.GR"
+  },
+  {
+   "id": "MA-04-S04",
+   "subject": "math",
+   "level": 4,
+   "ace": null,
+   "skill": "unknown angle measure",
+   "florida_code": "MA.4.GR.1.3",
+   "type": "numeric",
+   "prompt": "A right angle (90 degrees) is split into two smaller angles. One of them measures 35 degrees. How many degrees is the other angle?",
+   "answer": 55,
+   "explain": "90 - 35 = 55 degrees.",
+   "source": "scope_2026",
+   "lu": {
+    "id": "LU-MATH-04-14",
+    "slot": 14,
+    "concept": {
+     "en": "Angles and degrees",
+     "es": "Ángulos y grados"
+    },
+    "tip": {
+     "en": "Look for right angles at home, like the corner of a book (90 degrees).",
+     "es": "Busquen ángulos rectos en casa, como la esquina de un libro (90 grados)."
+    }
+   },
+   "florida": "MA.4.GR"
+  },
+  {
+   "id": "MA-04-S05",
+   "subject": "math",
+   "level": 4,
+   "ace": null,
+   "skill": "identifying equivalent fractions",
+   "florida_code": "MA.4.FR.1.3",
+   "type": "mcq",
+   "prompt": "Which fraction is equivalent to 2/3?",
+   "options": [
+    "2/6",
+    "3/4",
+    "4/9",
+    "4/6"
+   ],
+   "answer": 3,
+   "explain": "Multiply top and bottom by 2: 2/3 = 4/6.",
+   "source": "scope_2026",
+   "lu": {
+    "id": "LU-MATH-04-15",
+    "slot": 15,
+    "concept": {
+     "en": "Equivalent fractions",
+     "es": "Fracciones equivalentes"
+    },
+    "tip": {
+     "en": "Fold a paper strip into halves, then fourths, and see that 1/2 = 2/4.",
+     "es": "Doblen una tira de papel en mitades y luego en cuartos y vean que 1/2 = 2/4."
+    }
+   },
+   "florida": "MA.4.FR"
+  },
+  {
+   "id": "MA-04-S06",
+   "subject": "math",
+   "level": 4,
+   "ace": null,
+   "skill": "finding a missing numerator",
+   "florida_code": "MA.4.FR.1.3",
+   "type": "numeric",
+   "prompt": "1/2 = ?/8. What number goes in place of the ?",
+   "answer": 4,
+   "explain": "Multiply top and bottom by 4: 1/2 = 4/8.",
+   "source": "scope_2026",
+   "lu": {
+    "id": "LU-MATH-04-15",
+    "slot": 15,
+    "concept": {
+     "en": "Equivalent fractions",
+     "es": "Fracciones equivalentes"
+    },
+    "tip": {
+     "en": "Fold a paper strip into halves, then fourths, and see that 1/2 = 2/4.",
+     "es": "Doblen una tira de papel en mitades y luego en cuartos y vean que 1/2 = 2/4."
+    }
+   },
+   "florida": "MA.4.FR"
+  },
+  {
+   "id": "MA-05-S01",
+   "subject": "math",
+   "level": 5,
+   "ace": null,
+   "skill": "Count unit cubes to find volume",
+   "florida_code": "MA.5.GR.3.1",
+   "type": "mcq",
+   "prompt": "A box is packed with unit cubes. Each layer has 4 cubes in a row and 3 rows, and there are 2 layers. How many unit cubes fill the box?",
+   "options": [
+    "9",
+    "12",
+    "24",
+    "14"
+   ],
+   "answer": 2,
+   "explain": "Each layer has 4 × 3 = 12 cubes, and 2 layers make 24 cubes.",
+   "source": "scope_2026",
+   "lu": {
+    "id": "LU-MATH-05-13",
+    "slot": 13,
+    "concept": {
+     "en": "Volume of rectangular prisms",
+     "es": "Volumen de prismas rectangulares"
+    },
+    "tip": {
+     "en": "Build a box with blocks or sugar cubes and count the layers, then show V = l × w × h.",
+     "es": "Construyan una caja con bloques o cubos y cuenten las capas; luego muestren V = l × w × h."
+    }
+   },
+   "florida": "MA.5.GR"
+  },
+  {
+   "id": "MA-05-S02",
+   "subject": "math",
+   "level": 5,
+   "ace": null,
+   "skill": "Use V = l × w × h",
+   "florida_code": "MA.5.GR.3.2",
+   "type": "numeric",
+   "prompt": "A box is 6 centimeters long, 5 centimeters wide, and 4 centimeters tall. What is its volume in cubic centimeters?",
+   "answer": 120,
+   "explain": "V = 6 × 5 × 4 = 120 cubic centimeters.",
+   "source": "scope_2026",
+   "lu": {
+    "id": "LU-MATH-05-13",
+    "slot": 13,
+    "concept": {
+     "en": "Volume of rectangular prisms",
+     "es": "Volumen de prismas rectangulares"
+    },
+    "tip": {
+     "en": "Build a box with blocks or sugar cubes and count the layers, then show V = l × w × h.",
+     "es": "Construyan una caja con bloques o cubos y cuenten las capas; luego muestren V = l × w × h."
+    }
+   },
+   "florida": "MA.5.GR"
+  },
+  {
+   "id": "MA-05-S03",
+   "subject": "math",
+   "level": 5,
+   "ace": null,
+   "skill": "Plot an ordered pair",
+   "florida_code": "MA.5.GR.4.1",
+   "type": "mcq",
+   "prompt": "To plot the point (3, 5) starting at the origin, which way do you move?",
+   "options": [
+    "5 units right and 3 units up",
+    "3 units right and 5 units up",
+    "8 units up"
+   ],
+   "answer": 1,
+   "explain": "The first number tells how far to go right, and the second how far to go up.",
+   "source": "scope_2026",
+   "lu": {
+    "id": "LU-MATH-05-14",
+    "slot": 14,
+    "concept": {
+     "en": "Coordinate plane (first quadrant)",
+     "es": "Plano de coordenadas (primer cuadrante)"
+    },
+    "tip": {
+     "en": "Draw a grid on paper and play a treasure hunt: 'go right first, then up'.",
+     "es": "Dibujen una cuadrícula en papel y jueguen a la búsqueda del tesoro: 'primero a la derecha, luego arriba'."
+    }
+   },
+   "florida": "MA.5.GR"
+  },
+  {
+   "id": "MA-05-S04",
+   "subject": "math",
+   "level": 5,
+   "ace": null,
+   "skill": "Read an ordered pair",
+   "florida_code": "MA.5.GR.4.1",
+   "type": "mcq",
+   "prompt": "Point P is 2 units to the right of the y-axis and 6 units above the x-axis. What are the coordinates of P?",
+   "options": [
+    "(6, 2)",
+    "(2, 8)",
+    "(2, 6)",
+    "(4, 4)"
+   ],
+   "answer": 2,
+   "explain": "Write the horizontal distance first, then the vertical distance: (2, 6).",
+   "source": "scope_2026",
+   "lu": {
+    "id": "LU-MATH-05-14",
+    "slot": 14,
+    "concept": {
+     "en": "Coordinate plane (first quadrant)",
+     "es": "Plano de coordenadas (primer cuadrante)"
+    },
+    "tip": {
+     "en": "Draw a grid on paper and play a treasure hunt: 'go right first, then up'.",
+     "es": "Dibujen una cuadrícula en papel y jueguen a la búsqueda del tesoro: 'primero a la derecha, luego arriba'."
+    }
+   },
+   "florida": "MA.5.GR"
+  },
+  {
+   "id": "MA-06-S01",
+   "subject": "math",
+   "level": 6,
+   "ace": null,
+   "skill": "Write an expression from words",
+   "florida_code": "MA.6.AR.1.1",
+   "type": "mcq",
+   "prompt": "Which expression means '7 more than a number n'?",
+   "options": [
+    "7n",
+    "n − 7",
+    "n + 7",
+    "7 − n"
+   ],
+   "answer": 2,
+   "explain": "'More than' means add, so the expression is n + 7.",
+   "source": "scope_2026",
+   "lu": {
+    "id": "LU-MATH-06-13",
+    "slot": 13,
+    "concept": {
+     "en": "Expressions and one-step equations",
+     "es": "Expresiones y ecuaciones de un paso"
+    },
+    "tip": {
+     "en": "Use a balance idea: whatever you do to one side of the equation, do to the other.",
+     "es": "Usen la idea de una balanza: lo que hagan a un lado de la ecuación, háganlo al otro."
+    }
+   },
+   "florida": "MA.6.AR"
+  },
+  {
+   "id": "MA-06-S02",
+   "subject": "math",
+   "level": 6,
+   "ace": null,
+   "skill": "Solve a one-step equation",
+   "florida_code": "MA.6.AR.2.2",
+   "type": "numeric",
+   "prompt": "Solve for x:  3x = 21",
+   "answer": 7,
+   "explain": "Divide both sides by 3 to get x = 7.",
+   "source": "scope_2026",
+   "lu": {
+    "id": "LU-MATH-06-13",
+    "slot": 13,
+    "concept": {
+     "en": "Expressions and one-step equations",
+     "es": "Expresiones y ecuaciones de un paso"
+    },
+    "tip": {
+     "en": "Use a balance idea: whatever you do to one side of the equation, do to the other.",
+     "es": "Usen la idea de una balanza: lo que hagan a un lado de la ecuación, háganlo al otro."
+    }
+   },
+   "florida": "MA.6.AR"
+  },
+  {
+   "id": "MA-06-S03",
+   "subject": "math",
+   "level": 6,
+   "ace": null,
+   "skill": "Find the mean",
+   "florida_code": "MA.6.DP.1.2",
+   "type": "numeric",
+   "prompt": "Find the mean of these numbers: 3, 5, 6, 8, 13",
+   "answer": 7,
+   "explain": "The sum is 35, and 35 ÷ 5 = 7.",
+   "source": "scope_2026",
+   "lu": {
+    "id": "LU-MATH-06-14",
+    "slot": 14,
+    "concept": {
+     "en": "Statistics: mean, median, mode, range",
+     "es": "Estadística: media, mediana, moda y rango"
+    },
+    "tip": {
+     "en": "Collect a small data set at home (like family members' ages) and find the mean, median and mode together.",
+     "es": "Reúnan datos pequeños en casa (por ejemplo, las edades de la familia) y calculen juntos la media, la mediana y la moda."
+    }
+   },
+   "florida": "MA.6.DP"
+  },
+  {
+   "id": "MA-06-S04",
+   "subject": "math",
+   "level": 6,
+   "ace": null,
+   "skill": "Read a dot plot to find the mode",
+   "florida_code": "MA.6.DP.1.2",
+   "type": "mcq",
+   "prompt": "A dot plot shows the number of books students read. Above 2 there is 1 dot, above 3 there are 4 dots, above 4 there are 2 dots, and above 5 there is 1 dot. What is the mode?",
+   "options": [
+    "2",
+    "3",
+    "4",
+    "5"
+   ],
+   "answer": 1,
+   "explain": "The mode is the value with the most dots, and 3 has 4 dots.",
+   "source": "scope_2026",
+   "lu": {
+    "id": "LU-MATH-06-14",
+    "slot": 14,
+    "concept": {
+     "en": "Statistics: mean, median, mode, range",
+     "es": "Estadística: media, mediana, moda y rango"
+    },
+    "tip": {
+     "en": "Collect a small data set at home (like family members' ages) and find the mean, median and mode together.",
+     "es": "Reúnan datos pequeños en casa (por ejemplo, las edades de la familia) y calculen juntos la media, la mediana y la moda."
+    }
+   },
+   "florida": "MA.6.DP"
+  },
+  {
+   "id": "MA-07-S01",
+   "subject": "math",
+   "level": 7,
+   "ace": null,
+   "skill": "Theoretical probability of a simple event",
+   "florida_code": "MA.7.DP.2.3",
+   "type": "mcq",
+   "prompt": "A bag has 3 red, 5 blue, and 2 green marbles. One marble is drawn without looking. What is the probability that it is blue?",
+   "options": [
+    "1/5",
+    "3/10",
+    "1/2",
+    "2/5"
+   ],
+   "answer": 2,
+   "explain": "There are 5 blue marbles out of 10, so the probability is 5/10 = 1/2.",
+   "source": "scope_2026",
+   "lu": {
+    "id": "LU-MATH-07-13",
+    "slot": 13,
+    "concept": {
+     "en": "Probability: simple and compound events",
+     "es": "Probabilidad: eventos simples y compuestos"
+    },
+    "tip": {
+     "en": "Use a bag of colored objects or a coin and a die and try the experiment many times to compare with the fraction.",
+     "es": "Usen una bolsa con objetos de colores o una moneda y un dado, y repitan el experimento para comparar con la fracción."
+    }
+   },
+   "florida": "MA.7.DP"
+  },
+  {
+   "id": "MA-07-S02",
+   "subject": "math",
+   "level": 7,
+   "ace": null,
+   "skill": "Probability of a compound event using a sample space",
+   "florida_code": "MA.7.DP.2.3",
+   "type": "mcq",
+   "prompt": "Grace flips a coin and rolls a fair six-sided die. What is the probability of getting heads and an even number?",
+   "options": [
+    "1/12",
+    "1/4",
+    "1/6",
+    "1/2"
+   ],
+   "answer": 1,
+   "explain": "The sample space has 12 outcomes, and 3 of them (H2, H4, H6) match, so the probability is 3/12 = 1/4.",
+   "source": "scope_2026",
+   "lu": {
+    "id": "LU-MATH-07-13",
+    "slot": 13,
+    "concept": {
+     "en": "Probability: simple and compound events",
+     "es": "Probabilidad: eventos simples y compuestos"
+    },
+    "tip": {
+     "en": "Use a bag of colored objects or a coin and a die and try the experiment many times to compare with the fraction.",
+     "es": "Usen una bolsa con objetos de colores o una moneda y un dado, y repitan el experimento para comparar con la fracción."
+    }
+   },
+   "florida": "MA.7.DP"
+  },
+  {
+   "id": "MA-08-S01",
+   "subject": "math",
+   "level": 8,
+   "ace": null,
+   "skill": "Find slope from a table",
+   "florida_code": "MA.8.AR.3.2",
+   "type": "numeric",
+   "prompt": "A table of a linear function shows these (x, y) pairs: (1, 5), (2, 8), (3, 11), (4, 14). What is the slope?",
+   "answer": 3,
+   "explain": "y increases by 3 each time x increases by 1, so the slope is 3.",
+   "source": "scope_2026",
+   "lu": {
+    "id": "LU-MATH-08-13",
+    "slot": 13,
+    "concept": {
+     "en": "Linear functions: slope and y = mx + b",
+     "es": "Funciones lineales: pendiente y y = mx + b"
+    },
+    "tip": {
+     "en": "Look for the constant change in a table (like a taxi fare) and name it the slope.",
+     "es": "Busquen el cambio constante en una tabla (como la tarifa de un taxi) y llámenlo pendiente."
+    }
+   },
+   "florida": "MA.8.AR"
+  },
+  {
+   "id": "MA-08-S02",
+   "subject": "math",
+   "level": 8,
+   "ace": null,
+   "skill": "Write y = mx + b",
+   "florida_code": "MA.8.AR.3.3",
+   "type": "mcq",
+   "prompt": "A line crosses the y-axis at (0, −2) and has a slope of 4. Which equation represents the line?",
+   "options": [
+    "y = −2x + 4",
+    "y = 4x + 2",
+    "y = 4x − 2",
+    "y = 2x − 4"
+   ],
+   "answer": 2,
+   "explain": "In y = mx + b, m = 4 and b = −2, so y = 4x − 2.",
+   "source": "scope_2026",
+   "lu": {
+    "id": "LU-MATH-08-13",
+    "slot": 13,
+    "concept": {
+     "en": "Linear functions: slope and y = mx + b",
+     "es": "Funciones lineales: pendiente y y = mx + b"
+    },
+    "tip": {
+     "en": "Look for the constant change in a table (like a taxi fare) and name it the slope.",
+     "es": "Busquen el cambio constante en una tabla (como la tarifa de un taxi) y llámenlo pendiente."
+    }
+   },
+   "florida": "MA.8.AR"
+  },
+  {
+   "id": "MA-08-S03",
+   "subject": "math",
+   "level": 8,
+   "ace": null,
+   "skill": "Solve a system by substitution",
+   "florida_code": "MA.8.AR.4.3",
+   "type": "mcq",
+   "prompt": "Solve the system:  y = 2x  and  y = x + 3. Which ordered pair is the solution?",
+   "options": [
+    "(6, 3)",
+    "(1, 2)",
+    "(3, 3)",
+    "(3, 6)"
+   ],
+   "answer": 3,
+   "explain": "Set 2x = x + 3, so x = 3 and y = 6, giving (3, 6).",
+   "source": "scope_2026",
+   "lu": {
+    "id": "LU-MATH-08-14",
+    "slot": 14,
+    "concept": {
+     "en": "Introduction to systems of equations",
+     "es": "Introducción a los sistemas de ecuaciones"
+    },
+    "tip": {
+     "en": "Check an answer by putting the x and y values into both equations; it must work in both.",
+     "es": "Comprueben la respuesta sustituyendo x e y en ambas ecuaciones; debe funcionar en las dos."
+    }
+   },
+   "florida": "MA.8.AR"
+  },
+  {
+   "id": "MA-08-S04",
+   "subject": "math",
+   "level": 8,
+   "ace": null,
+   "skill": "Solve a simple system",
+   "florida_code": "MA.8.AR.4.3",
+   "type": "numeric",
+   "prompt": "Two numbers x and y satisfy x + y = 10 and x − y = 2. What is x?",
+   "answer": 6,
+   "explain": "Adding the equations gives 2x = 12, so x = 6 (and y = 4).",
+   "source": "scope_2026",
+   "lu": {
+    "id": "LU-MATH-08-14",
+    "slot": 14,
+    "concept": {
+     "en": "Introduction to systems of equations",
+     "es": "Introducción a los sistemas de ecuaciones"
+    },
+    "tip": {
+     "en": "Check an answer by putting the x and y values into both equations; it must work in both.",
+     "es": "Comprueben la respuesta sustituyendo x e y en ambas ecuaciones; debe funcionar en las dos."
+    }
+   },
+   "florida": "MA.8.AR"
+  },
+  {
+   "id": "MA-09-S01",
+   "subject": "math",
+   "level": 9,
+   "ace": null,
+   "skill": "Solve a system by elimination",
+   "florida_code": "MA.912.AR.9.1",
+   "type": "numeric",
+   "prompt": "Solve the system 3x + 2y = 16 and x - 2y = 0. What is the value of y?",
+   "answer": 2,
+   "explain": "Adding the equations gives 4x = 16, so x = 4; then 4 - 2y = 0 gives y = 2.",
+   "source": "scope_2026",
+   "lu": {
+    "id": "LU-MATH-09-13",
+    "slot": 13,
+    "concept": {
+     "en": "Systems of linear equations",
+     "es": "Sistemas de ecuaciones lineales"
+    },
+    "tip": {
+     "en": "Practice solving one system two ways, substitution and elimination, and check the answer in both equations.",
+     "es": "Practiquen resolver un mismo sistema de dos maneras, sustitución y eliminación, y comprueben la respuesta en ambas ecuaciones."
+    }
+   },
+   "florida": "MA.912.AR"
+  },
+  {
+   "id": "MA-09-S02",
+   "subject": "math",
+   "level": 9,
+   "ace": null,
+   "skill": "Number of solutions of a system",
+   "florida_code": "MA.912.AR.9.1",
+   "type": "mcq",
+   "prompt": "How many solutions does the system 2x + 4y = 8 and x + 2y = 5 have?",
+   "options": [
+    "Exactly one solution",
+    "Infinitely many solutions",
+    "No solution",
+    "Exactly two solutions"
+   ],
+   "answer": 2,
+   "explain": "Dividing the first equation by 2 gives x + 2y = 4, which contradicts x + 2y = 5, so the lines are parallel.",
+   "source": "scope_2026",
+   "lu": {
+    "id": "LU-MATH-09-13",
+    "slot": 13,
+    "concept": {
+     "en": "Systems of linear equations",
+     "es": "Sistemas de ecuaciones lineales"
+    },
+    "tip": {
+     "en": "Practice solving one system two ways, substitution and elimination, and check the answer in both equations.",
+     "es": "Practiquen resolver un mismo sistema de dos maneras, sustitución y eliminación, y comprueben la respuesta en ambas ecuaciones."
+    }
+   },
+   "florida": "MA.912.AR"
+  },
+  {
+   "id": "MA-10-S01",
+   "subject": "math",
+   "level": 10,
+   "ace": null,
+   "skill": "Triangle congruence criteria",
+   "florida_code": "MA.912.GR.1.2",
+   "type": "mcq",
+   "prompt": "In triangles ABC and DEF, AB = DE, angle B = angle E, and BC = EF. Which criterion proves the triangles congruent?",
+   "options": [
+    "SSS",
+    "ASA",
+    "AAA",
+    "SAS"
+   ],
+   "answer": 3,
+   "explain": "Two sides and the angle between them are congruent, which is SAS.",
+   "source": "scope_2026",
+   "lu": {
+    "id": "LU-MATH-10-13",
+    "slot": 13,
+    "concept": {
+     "en": "Congruent and similar triangles",
+     "es": "Triángulos congruentes y semejantes"
+    },
+    "tip": {
+     "en": "Use cut-out triangles to test which sides and angles must match for two triangles to be congruent or similar.",
+     "es": "Usen triángulos recortados para probar qué lados y ángulos deben coincidir para que dos triángulos sean congruentes o semejantes."
+    }
+   },
+   "florida": "MA.912.GR"
+  },
+  {
+   "id": "MA-10-S02",
+   "subject": "math",
+   "level": 10,
+   "ace": null,
+   "skill": "Scale factor and proportional sides",
+   "florida_code": "MA.912.GR.1.6",
+   "type": "numeric",
+   "prompt": "A triangle with sides 6, 8 and 10 is similar to a larger triangle whose shortest side is 9. What is the length of the longest side of the larger triangle?",
+   "answer": 15,
+   "explain": "The scale factor is 9/6 = 1.5, so the longest side is 10 x 1.5 = 15.",
+   "source": "scope_2026",
+   "lu": {
+    "id": "LU-MATH-10-13",
+    "slot": 13,
+    "concept": {
+     "en": "Congruent and similar triangles",
+     "es": "Triángulos congruentes y semejantes"
+    },
+    "tip": {
+     "en": "Use cut-out triangles to test which sides and angles must match for two triangles to be congruent or similar.",
+     "es": "Usen triángulos recortados para probar qué lados y ángulos deben coincidir para que dos triángulos sean congruentes o semejantes."
+    }
+   },
+   "florida": "MA.912.GR"
+  },
+  {
+   "id": "MA-10-S03",
+   "subject": "math",
+   "level": 10,
+   "ace": null,
+   "skill": "Sine ratio in a right triangle",
+   "florida_code": "MA.912.T.1.1",
+   "type": "mcq",
+   "prompt": "In a right triangle, angle A has an opposite side of 5, an adjacent side of 12 and a hypotenuse of 13. What is sin A?",
+   "options": [
+    "12/13",
+    "5/12",
+    "5/13",
+    "13/5"
+   ],
+   "answer": 2,
+   "explain": "Sine is opposite over hypotenuse, which is 5/13.",
+   "source": "scope_2026",
+   "lu": {
+    "id": "LU-MATH-10-14",
+    "slot": 14,
+    "concept": {
+     "en": "Right-triangle trigonometry",
+     "es": "Trigonometría del triángulo rectángulo"
+    },
+    "tip": {
+     "en": "Measure a real slope or ramp and use sine, cosine or tangent to check the height.",
+     "es": "Midan una rampa o pendiente real y usen seno, coseno o tangente para comprobar la altura."
+    }
+   },
+   "florida": "MA.912.T"
+  },
+  {
+   "id": "MA-10-S04",
+   "subject": "math",
+   "level": 10,
+   "ace": null,
+   "skill": "Find a side using sine",
+   "florida_code": "MA.912.T.1.2",
+   "type": "numeric",
+   "prompt": "A ramp 20 feet long makes a 30 degree angle with the ground. How many feet high does the ramp rise?",
+   "answer": 10,
+   "explain": "Height = 20 x sin 30 degrees = 20 x 0.5 = 10 feet.",
+   "source": "scope_2026",
+   "lu": {
+    "id": "LU-MATH-10-14",
+    "slot": 14,
+    "concept": {
+     "en": "Right-triangle trigonometry",
+     "es": "Trigonometría del triángulo rectángulo"
+    },
+    "tip": {
+     "en": "Measure a real slope or ramp and use sine, cosine or tangent to check the height.",
+     "es": "Midan una rampa o pendiente real y usen seno, coseno o tangente para comprobar la altura."
+    }
+   },
+   "florida": "MA.912.T"
+  },
+  {
+   "id": "MA-10-S05",
+   "subject": "math",
+   "level": 10,
+   "ace": null,
+   "skill": "Volume of a prism",
+   "florida_code": "MA.912.GR.4.5",
+   "type": "numeric",
+   "prompt": "A triangular prism has a triangular base with base 6 cm and height 4 cm. The prism is 10 cm long. What is its volume in cubic centimeters?",
+   "answer": 120,
+   "explain": "Base area is 1/2 x 6 x 4 = 12, and volume is 12 x 10 = 120.",
+   "source": "scope_2026",
+   "lu": {
+    "id": "LU-MATH-10-15",
+    "slot": 15,
+    "concept": {
+     "en": "Volume of prisms, cylinders, cones and spheres",
+     "es": "Volumen de prismas, cilindros, conos y esferas"
+    },
+    "tip": {
+     "en": "Fill a cone and a cylinder with the same base and height using rice or water to compare their volumes.",
+     "es": "Llenen un cono y un cilindro con la misma base y altura usando arroz o agua para comparar sus volúmenes."
+    }
+   },
+   "florida": "MA.912.GR"
+  },
+  {
+   "id": "MA-10-S06",
+   "subject": "math",
+   "level": 10,
+   "ace": null,
+   "skill": "Volume of a cone",
+   "florida_code": "MA.912.GR.4.5",
+   "type": "mcq",
+   "prompt": "What is the volume of a cone with radius 3 cm and height 4 cm?",
+   "options": [
+    "36π cm³",
+    "24π cm³",
+    "9π cm³",
+    "12π cm³"
+   ],
+   "answer": 3,
+   "explain": "V = (1/3)πr²h = (1/3)π(9)(4) = 12π.",
+   "source": "scope_2026",
+   "lu": {
+    "id": "LU-MATH-10-15",
+    "slot": 15,
+    "concept": {
+     "en": "Volume of prisms, cylinders, cones and spheres",
+     "es": "Volumen de prismas, cilindros, conos y esferas"
+    },
+    "tip": {
+     "en": "Fill a cone and a cylinder with the same base and height using rice or water to compare their volumes.",
+     "es": "Llenen un cono y un cilindro con la misma base y altura usando arroz o agua para comparar sus volúmenes."
+    }
+   },
+   "florida": "MA.912.GR"
+  },
+  {
+   "id": "MA-11-S01",
+   "subject": "math",
+   "level": 11,
+   "ace": null,
+   "skill": "Domain of a rational function",
+   "florida_code": "MA.912.AR.8.2",
+   "type": "mcq",
+   "prompt": "What is the domain of f(x) = (x + 1)/(x² - 9)?",
+   "options": [
+    "All real numbers except x = 3 and x = -3",
+    "All real numbers except x = 3",
+    "All real numbers except x = -1",
+    "All real numbers"
+   ],
+   "answer": 0,
+   "explain": "The denominator is zero when x = 3 or x = -3, so those values are excluded.",
+   "source": "scope_2026",
+   "lu": {
+    "id": "LU-MATH-11-13",
+    "slot": 13,
+    "concept": {
+     "en": "Rational expressions and functions",
+     "es": "Expresiones y funciones racionales"
+    },
+    "tip": {
+     "en": "Ask what value of x makes the denominator zero, because that is where trouble appears in the graph.",
+     "es": "Pregunten qué valor de x hace cero el denominador, porque ahí aparece el problema en la gráfica."
+    }
+   },
+   "florida": "MA.912.AR"
+  },
+  {
+   "id": "MA-11-S02",
+   "subject": "math",
+   "level": 11,
+   "ace": null,
+   "skill": "Vertical asymptote",
+   "florida_code": "MA.912.AR.8.2",
+   "type": "numeric",
+   "prompt": "The function g(x) = (x² - 4)/((x - 2)(x + 3)) has one vertical asymptote and one hole. At what value of x is the vertical asymptote?",
+   "answer": -3,
+   "explain": "The factor x - 2 cancels, leaving a hole at x = 2; the factor x + 3 remains, so the asymptote is x = -3.",
+   "source": "scope_2026",
+   "lu": {
+    "id": "LU-MATH-11-13",
+    "slot": 13,
+    "concept": {
+     "en": "Rational expressions and functions",
+     "es": "Expresiones y funciones racionales"
+    },
+    "tip": {
+     "en": "Ask what value of x makes the denominator zero, because that is where trouble appears in the graph.",
+     "es": "Pregunten qué valor de x hace cero el denominador, porque ahí aparece el problema en la gráfica."
+    }
+   },
+   "florida": "MA.912.AR"
+  },
+  {
+   "id": "MA-11-S03",
+   "subject": "math",
+   "level": 11,
+   "ace": null,
+   "skill": "Factor Theorem",
+   "florida_code": "MA.912.AR.6.2",
+   "type": "mcq",
+   "prompt": "For f(x) = x³ - 2x² - 5x + 6, which expression is a factor of f(x)?",
+   "options": [
+    "x + 3",
+    "x - 2",
+    "x - 3",
+    "x + 1"
+   ],
+   "answer": 2,
+   "explain": "f(3) = 27 - 18 - 15 + 6 = 0, so x - 3 is a factor.",
+   "source": "scope_2026",
+   "lu": {
+    "id": "LU-MATH-11-14",
+    "slot": 14,
+    "concept": {
+     "en": "Polynomial functions",
+     "es": "Funciones polinómicas"
+    },
+    "tip": {
+     "en": "Graph a polynomial on paper and connect its x-intercepts to its factors.",
+     "es": "Grafiquen un polinomio en papel y relacionen sus interceptos en x con sus factores."
+    }
+   },
+   "florida": "MA.912.AR"
+  },
+  {
+   "id": "MA-11-S04",
+   "subject": "math",
+   "level": 11,
+   "ace": null,
+   "skill": "End behavior of a polynomial",
+   "florida_code": "MA.912.AR.6.4",
+   "type": "mcq",
+   "prompt": "What is the end behavior of f(x) = -2x⁴ + 3x² - 1?",
+   "options": [
+    "Rises to the left and falls to the right",
+    "Falls on both the left and the right",
+    "Rises on both the left and the right",
+    "Falls to the left and rises to the right"
+   ],
+   "answer": 1,
+   "explain": "The degree is even and the leading coefficient is negative, so both ends fall.",
+   "source": "scope_2026",
+   "lu": {
+    "id": "LU-MATH-11-14",
+    "slot": 14,
+    "concept": {
+     "en": "Polynomial functions",
+     "es": "Funciones polinómicas"
+    },
+    "tip": {
+     "en": "Graph a polynomial on paper and connect its x-intercepts to its factors.",
+     "es": "Grafiquen un polinomio en papel y relacionen sus interceptos en x con sus factores."
+    }
+   },
+   "florida": "MA.912.AR"
+  },
+  {
+   "id": "MA-12-S01",
+   "subject": "math",
+   "level": 12,
+   "ace": null,
+   "skill": "Limit by factoring",
+   "florida_code": "MA.912.C.1.3",
+   "type": "numeric",
+   "prompt": "Evaluate the limit as x approaches 3 of (x² - 9)/(x - 3).",
+   "answer": 6,
+   "explain": "Factor: (x - 3)(x + 3)/(x - 3) = x + 3, which approaches 6.",
+   "source": "scope_2026",
+   "lu": {
+    "id": "LU-MATH-12-13",
+    "slot": 13,
+    "concept": {
+     "en": "Introduction to limits",
+     "es": "Introducción a los límites"
+    },
+    "tip": {
+     "en": "Make a table of values that get closer and closer to a number to see what a function approaches.",
+     "es": "Hagan una tabla de valores que se acercan cada vez más a un número para ver a qué se aproxima la función."
+    }
+   },
+   "florida": "MA.912.C"
+  },
+  {
+   "id": "MA-12-S02",
+   "subject": "math",
+   "level": 12,
+   "ace": null,
+   "skill": "Limit at infinity",
+   "florida_code": "MA.912.C.1.5",
+   "type": "mcq",
+   "prompt": "What is the limit as x approaches infinity of (3x² + 2x)/(5x² - 1)?",
+   "options": [
+    "5/3",
+    "0",
+    "Infinity",
+    "3/5"
+   ],
+   "answer": 3,
+   "explain": "The degrees are equal, so the limit is the ratio of leading coefficients, 3/5.",
+   "source": "scope_2026",
+   "lu": {
+    "id": "LU-MATH-12-13",
+    "slot": 13,
+    "concept": {
+     "en": "Introduction to limits",
+     "es": "Introducción a los límites"
+    },
+    "tip": {
+     "en": "Make a table of values that get closer and closer to a number to see what a function approaches.",
+     "es": "Hagan una tabla de valores que se acercan cada vez más a un número para ver a qué se aproxima la función."
+    }
+   },
+   "florida": "MA.912.C"
+  },
+  {
+   "id": "MA-12-S03",
+   "subject": "math",
+   "level": 12,
+   "ace": null,
+   "skill": "Magnitude of a vector",
+   "florida_code": "MA.912.NSO.3.2",
+   "type": "numeric",
+   "prompt": "What is the magnitude of the vector ⟨6, 8⟩?",
+   "answer": 10,
+   "explain": "The magnitude is √(36 + 64) = √100 = 10.",
+   "source": "scope_2026",
+   "lu": {
+    "id": "LU-MATH-12-14",
+    "slot": 14,
+    "concept": {
+     "en": "Vectors in two dimensions",
+     "es": "Vectores en dos dimensiones"
+    },
+    "tip": {
+     "en": "Draw vectors as arrows on graph paper and move tail to head to add them.",
+     "es": "Dibujen vectores como flechas en papel cuadriculado y colóquenlos cola con punta para sumarlos."
+    }
+   },
+   "florida": "MA.912.NSO"
+  },
+  {
+   "id": "MA-12-S04",
+   "subject": "math",
+   "level": 12,
+   "ace": null,
+   "skill": "Dot product of vectors",
+   "florida_code": "MA.912.NSO.3.4",
+   "type": "mcq",
+   "prompt": "What is the dot product of ⟨2, 3⟩ and ⟨4, -1⟩?",
+   "options": [
+    "11",
+    "8",
+    "5",
+    "-5"
+   ],
+   "answer": 2,
+   "explain": "2(4) + 3(-1) = 8 - 3 = 5.",
+   "source": "scope_2026",
+   "lu": {
+    "id": "LU-MATH-12-14",
+    "slot": 14,
+    "concept": {
+     "en": "Vectors in two dimensions",
+     "es": "Vectores en dos dimensiones"
+    },
+    "tip": {
+     "en": "Draw vectors as arrows on graph paper and move tail to head to add them.",
+     "es": "Dibujen vectores como flechas en papel cuadriculado y colóquenlos cola con punta para sumarlos."
+    }
+   },
+   "florida": "MA.912.NSO"
+  }
+ ]
+}

@@ -1,6 +1,6 @@
 {
- "version": "1.0",
- "note": "Catálogo base de unidades de aprendizaje (LU) de Chanak: semilla de la plataforma. Una LU por concepto diagnóstico; las referencias externas (ACE PACE) son solo orientativas.",
+ "version": "1.1",
+ "note": "Catálogo base de unidades de aprendizaje (LU) de Chanak: semilla de la plataforma. Una LU por concepto diagnóstico; las referencias externas (ACE PACE) son solo orientativas. v1.1: añade unidades del Scope & Sequence 2026-27 (lectura de inglés y temas faltantes de Matemáticas).",
  "units": [
   {
    "id": "LU-ELA-00-01",
@@ -5853,6 +5853,2148 @@
     "ace_pace": 1144
    },
    "origin": "deducido_scope_ace_2025"
+  },
+  {
+   "id": "LU-MATH-01-13",
+   "subject": "math",
+   "level": 1,
+   "slot": 13,
+   "concept": {
+    "en": "Place value: tens and ones",
+    "es": "Valor posicional: decenas y unidades"
+   },
+   "tip": {
+    "en": "Use bundles of 10 sticks and loose sticks to build two-digit numbers.",
+    "es": "Usen paquetes de 10 palitos y palitos sueltos para formar números de dos cifras."
+   },
+   "florida_strand": "MA.1.NSO",
+   "florida_code": "MA.1.NSO.1.3",
+   "refs": {
+    "ace_pace": null
+   },
+   "origin": "scope_2026",
+   "domain": null
+  },
+  {
+   "id": "LU-MATH-01-14",
+   "subject": "math",
+   "level": 1,
+   "slot": 14,
+   "concept": {
+    "en": "Measuring and comparing lengths",
+    "es": "Medir y comparar longitudes"
+   },
+   "tip": {
+    "en": "Measure toys or books with paper clips or blocks and say which is longer.",
+    "es": "Midan juguetes o libros con clips o bloques y digan cuál es más largo."
+   },
+   "florida_strand": "MA.1.M",
+   "florida_code": "MA.1.M.1.2",
+   "refs": {
+    "ace_pace": null
+   },
+   "origin": "scope_2026",
+   "domain": null
+  },
+  {
+   "id": "LU-MATH-01-15",
+   "subject": "math",
+   "level": 1,
+   "slot": 15,
+   "concept": {
+    "en": "Reading simple data",
+    "es": "Leer datos sencillos"
+   },
+   "tip": {
+    "en": "Make a tally chart of family favorites, then ask which has the most.",
+    "es": "Hagan una tabla de marcas con los favoritos de la familia y pregunten cuál tiene más."
+   },
+   "florida_strand": "MA.1.DP",
+   "florida_code": "MA.1.DP.1.2",
+   "refs": {
+    "ace_pace": null
+   },
+   "origin": "scope_2026",
+   "domain": null
+  },
+  {
+   "id": "LU-MATH-02-13",
+   "subject": "math",
+   "level": 2,
+   "slot": 13,
+   "concept": {
+    "en": "Equal groups and arrays (intro to multiplication)",
+    "es": "Grupos iguales y matrices (introducción a la multiplicación)"
+   },
+   "tip": {
+    "en": "Set out 3 rows of 5 buttons and add each row: 5 + 5 + 5.",
+    "es": "Pongan 3 filas de 5 botones y sumen cada fila: 5 + 5 + 5."
+   },
+   "florida_strand": "MA.2.AR",
+   "florida_code": "MA.2.AR.3.2",
+   "refs": {
+    "ace_pace": null
+   },
+   "origin": "scope_2026",
+   "domain": null
+  },
+  {
+   "id": "LU-MATH-03-13",
+   "subject": "math",
+   "level": 3,
+   "slot": 13,
+   "concept": {
+    "en": "Division as equal sharing",
+    "es": "División como reparto equitativo"
+   },
+   "tip": {
+    "en": "Share 20 raisins equally among family members and count how many each gets.",
+    "es": "Repartan 20 pasas en partes iguales entre la familia y cuenten cuántas toca a cada uno."
+   },
+   "florida_strand": "MA.3.NSO",
+   "florida_code": "MA.3.NSO.2.4",
+   "refs": {
+    "ace_pace": null
+   },
+   "origin": "scope_2026",
+   "domain": null
+  },
+  {
+   "id": "LU-MATH-03-14",
+   "subject": "math",
+   "level": 3,
+   "slot": 14,
+   "concept": {
+    "en": "Unit fractions",
+    "es": "Fracciones unitarias"
+   },
+   "tip": {
+    "en": "Cut a sandwich into equal parts and name one part: 1/2, 1/3, 1/4.",
+    "es": "Corten un sándwich en partes iguales y nombren una parte: 1/2, 1/3, 1/4."
+   },
+   "florida_strand": "MA.3.FR",
+   "florida_code": "MA.3.FR.1.1",
+   "refs": {
+    "ace_pace": null
+   },
+   "origin": "scope_2026",
+   "domain": null
+  },
+  {
+   "id": "LU-MATH-03-15",
+   "subject": "math",
+   "level": 3,
+   "slot": 15,
+   "concept": {
+    "en": "Area and perimeter",
+    "es": "Área y perímetro"
+   },
+   "tip": {
+    "en": "Cover a rectangle with square tiles to find area; walk around its edges to find perimeter.",
+    "es": "Cubran un rectángulo con cuadrados para hallar el área; recorran sus bordes para hallar el perímetro."
+   },
+   "florida_strand": "MA.3.GR",
+   "florida_code": "MA.3.GR.2.2",
+   "refs": {
+    "ace_pace": null
+   },
+   "origin": "scope_2026",
+   "domain": null
+  },
+  {
+   "id": "LU-MATH-04-13",
+   "subject": "math",
+   "level": 4,
+   "slot": 13,
+   "concept": {
+    "en": "Decimals: tenths and hundredths",
+    "es": "Decimales: décimas y centésimas"
+   },
+   "tip": {
+    "en": "Connect money to decimals: 10 dimes make a dollar, so one dime is 0.1.",
+    "es": "Relacionen el dinero con los decimales: 10 monedas de diez centavos hacen un dólar, una es 0,1."
+   },
+   "florida_strand": "MA.4.FR",
+   "florida_code": "MA.4.FR.1.2",
+   "refs": {
+    "ace_pace": null
+   },
+   "origin": "scope_2026",
+   "domain": null
+  },
+  {
+   "id": "LU-MATH-04-14",
+   "subject": "math",
+   "level": 4,
+   "slot": 14,
+   "concept": {
+    "en": "Angles and degrees",
+    "es": "Ángulos y grados"
+   },
+   "tip": {
+    "en": "Look for right angles at home, like the corner of a book (90 degrees).",
+    "es": "Busquen ángulos rectos en casa, como la esquina de un libro (90 grados)."
+   },
+   "florida_strand": "MA.4.GR",
+   "florida_code": "MA.4.GR.1.1",
+   "refs": {
+    "ace_pace": null
+   },
+   "origin": "scope_2026",
+   "domain": null
+  },
+  {
+   "id": "LU-MATH-04-15",
+   "subject": "math",
+   "level": 4,
+   "slot": 15,
+   "concept": {
+    "en": "Equivalent fractions",
+    "es": "Fracciones equivalentes"
+   },
+   "tip": {
+    "en": "Fold a paper strip into halves, then fourths, and see that 1/2 = 2/4.",
+    "es": "Doblen una tira de papel en mitades y luego en cuartos y vean que 1/2 = 2/4."
+   },
+   "florida_strand": "MA.4.FR",
+   "florida_code": "MA.4.FR.1.3",
+   "refs": {
+    "ace_pace": null
+   },
+   "origin": "scope_2026",
+   "domain": null
+  },
+  {
+   "id": "LU-MATH-05-13",
+   "subject": "math",
+   "level": 5,
+   "slot": 13,
+   "concept": {
+    "en": "Volume of rectangular prisms",
+    "es": "Volumen de prismas rectangulares"
+   },
+   "tip": {
+    "en": "Build a box with blocks or sugar cubes and count the layers, then show V = l × w × h.",
+    "es": "Construyan una caja con bloques o cubos y cuenten las capas; luego muestren V = l × w × h."
+   },
+   "florida_strand": "MA.5.GR",
+   "florida_code": "MA.5.GR.3.1",
+   "refs": {
+    "ace_pace": null
+   },
+   "origin": "scope_2026",
+   "domain": null
+  },
+  {
+   "id": "LU-MATH-05-14",
+   "subject": "math",
+   "level": 5,
+   "slot": 14,
+   "concept": {
+    "en": "Coordinate plane (first quadrant)",
+    "es": "Plano de coordenadas (primer cuadrante)"
+   },
+   "tip": {
+    "en": "Draw a grid on paper and play a treasure hunt: 'go right first, then up'.",
+    "es": "Dibujen una cuadrícula en papel y jueguen a la búsqueda del tesoro: 'primero a la derecha, luego arriba'."
+   },
+   "florida_strand": "MA.5.GR",
+   "florida_code": "MA.5.GR.4.1",
+   "refs": {
+    "ace_pace": null
+   },
+   "origin": "scope_2026",
+   "domain": null
+  },
+  {
+   "id": "LU-MATH-06-13",
+   "subject": "math",
+   "level": 6,
+   "slot": 13,
+   "concept": {
+    "en": "Expressions and one-step equations",
+    "es": "Expresiones y ecuaciones de un paso"
+   },
+   "tip": {
+    "en": "Use a balance idea: whatever you do to one side of the equation, do to the other.",
+    "es": "Usen la idea de una balanza: lo que hagan a un lado de la ecuación, háganlo al otro."
+   },
+   "florida_strand": "MA.6.AR",
+   "florida_code": "MA.6.AR.1.1",
+   "refs": {
+    "ace_pace": null
+   },
+   "origin": "scope_2026",
+   "domain": null
+  },
+  {
+   "id": "LU-MATH-06-14",
+   "subject": "math",
+   "level": 6,
+   "slot": 14,
+   "concept": {
+    "en": "Statistics: mean, median, mode, range",
+    "es": "Estadística: media, mediana, moda y rango"
+   },
+   "tip": {
+    "en": "Collect a small data set at home (like family members' ages) and find the mean, median and mode together.",
+    "es": "Reúnan datos pequeños en casa (por ejemplo, las edades de la familia) y calculen juntos la media, la mediana y la moda."
+   },
+   "florida_strand": "MA.6.DP",
+   "florida_code": "MA.6.DP.1.2",
+   "refs": {
+    "ace_pace": null
+   },
+   "origin": "scope_2026",
+   "domain": null
+  },
+  {
+   "id": "LU-MATH-07-13",
+   "subject": "math",
+   "level": 7,
+   "slot": 13,
+   "concept": {
+    "en": "Probability: simple and compound events",
+    "es": "Probabilidad: eventos simples y compuestos"
+   },
+   "tip": {
+    "en": "Use a bag of colored objects or a coin and a die and try the experiment many times to compare with the fraction.",
+    "es": "Usen una bolsa con objetos de colores o una moneda y un dado, y repitan el experimento para comparar con la fracción."
+   },
+   "florida_strand": "MA.7.DP",
+   "florida_code": "MA.7.DP.2.3",
+   "refs": {
+    "ace_pace": null
+   },
+   "origin": "scope_2026",
+   "domain": null
+  },
+  {
+   "id": "LU-MATH-08-13",
+   "subject": "math",
+   "level": 8,
+   "slot": 13,
+   "concept": {
+    "en": "Linear functions: slope and y = mx + b",
+    "es": "Funciones lineales: pendiente y y = mx + b"
+   },
+   "tip": {
+    "en": "Look for the constant change in a table (like a taxi fare) and name it the slope.",
+    "es": "Busquen el cambio constante en una tabla (como la tarifa de un taxi) y llámenlo pendiente."
+   },
+   "florida_strand": "MA.8.AR",
+   "florida_code": "MA.8.AR.3.2",
+   "refs": {
+    "ace_pace": null
+   },
+   "origin": "scope_2026",
+   "domain": null
+  },
+  {
+   "id": "LU-MATH-08-14",
+   "subject": "math",
+   "level": 8,
+   "slot": 14,
+   "concept": {
+    "en": "Introduction to systems of equations",
+    "es": "Introducción a los sistemas de ecuaciones"
+   },
+   "tip": {
+    "en": "Check an answer by putting the x and y values into both equations; it must work in both.",
+    "es": "Comprueben la respuesta sustituyendo x e y en ambas ecuaciones; debe funcionar en las dos."
+   },
+   "florida_strand": "MA.8.AR",
+   "florida_code": "MA.8.AR.4.3",
+   "refs": {
+    "ace_pace": null
+   },
+   "origin": "scope_2026",
+   "domain": null
+  },
+  {
+   "id": "LU-MATH-09-13",
+   "subject": "math",
+   "level": 9,
+   "slot": 13,
+   "concept": {
+    "en": "Systems of linear equations",
+    "es": "Sistemas de ecuaciones lineales"
+   },
+   "tip": {
+    "en": "Practice solving one system two ways, substitution and elimination, and check the answer in both equations.",
+    "es": "Practiquen resolver un mismo sistema de dos maneras, sustitución y eliminación, y comprueben la respuesta en ambas ecuaciones."
+   },
+   "florida_strand": "MA.912.AR",
+   "florida_code": "MA.912.AR.9.1",
+   "refs": {
+    "ace_pace": null
+   },
+   "origin": "scope_2026",
+   "domain": null
+  },
+  {
+   "id": "LU-MATH-10-13",
+   "subject": "math",
+   "level": 10,
+   "slot": 13,
+   "concept": {
+    "en": "Congruent and similar triangles",
+    "es": "Triángulos congruentes y semejantes"
+   },
+   "tip": {
+    "en": "Use cut-out triangles to test which sides and angles must match for two triangles to be congruent or similar.",
+    "es": "Usen triángulos recortados para probar qué lados y ángulos deben coincidir para que dos triángulos sean congruentes o semejantes."
+   },
+   "florida_strand": "MA.912.GR",
+   "florida_code": "MA.912.GR.1.2",
+   "refs": {
+    "ace_pace": null
+   },
+   "origin": "scope_2026",
+   "domain": null
+  },
+  {
+   "id": "LU-MATH-10-14",
+   "subject": "math",
+   "level": 10,
+   "slot": 14,
+   "concept": {
+    "en": "Right-triangle trigonometry",
+    "es": "Trigonometría del triángulo rectángulo"
+   },
+   "tip": {
+    "en": "Measure a real slope or ramp and use sine, cosine or tangent to check the height.",
+    "es": "Midan una rampa o pendiente real y usen seno, coseno o tangente para comprobar la altura."
+   },
+   "florida_strand": "MA.912.T",
+   "florida_code": "MA.912.T.1.1",
+   "refs": {
+    "ace_pace": null
+   },
+   "origin": "scope_2026",
+   "domain": null
+  },
+  {
+   "id": "LU-MATH-10-15",
+   "subject": "math",
+   "level": 10,
+   "slot": 15,
+   "concept": {
+    "en": "Volume of prisms, cylinders, cones and spheres",
+    "es": "Volumen de prismas, cilindros, conos y esferas"
+   },
+   "tip": {
+    "en": "Fill a cone and a cylinder with the same base and height using rice or water to compare their volumes.",
+    "es": "Llenen un cono y un cilindro con la misma base y altura usando arroz o agua para comparar sus volúmenes."
+   },
+   "florida_strand": "MA.912.GR",
+   "florida_code": "MA.912.GR.4.5",
+   "refs": {
+    "ace_pace": null
+   },
+   "origin": "scope_2026",
+   "domain": null
+  },
+  {
+   "id": "LU-MATH-11-13",
+   "subject": "math",
+   "level": 11,
+   "slot": 13,
+   "concept": {
+    "en": "Rational expressions and functions",
+    "es": "Expresiones y funciones racionales"
+   },
+   "tip": {
+    "en": "Ask what value of x makes the denominator zero, because that is where trouble appears in the graph.",
+    "es": "Pregunten qué valor de x hace cero el denominador, porque ahí aparece el problema en la gráfica."
+   },
+   "florida_strand": "MA.912.AR",
+   "florida_code": "MA.912.AR.8.2",
+   "refs": {
+    "ace_pace": null
+   },
+   "origin": "scope_2026",
+   "domain": null
+  },
+  {
+   "id": "LU-MATH-11-14",
+   "subject": "math",
+   "level": 11,
+   "slot": 14,
+   "concept": {
+    "en": "Polynomial functions",
+    "es": "Funciones polinómicas"
+   },
+   "tip": {
+    "en": "Graph a polynomial on paper and connect its x-intercepts to its factors.",
+    "es": "Grafiquen un polinomio en papel y relacionen sus interceptos en x con sus factores."
+   },
+   "florida_strand": "MA.912.AR",
+   "florida_code": "MA.912.AR.6.2",
+   "refs": {
+    "ace_pace": null
+   },
+   "origin": "scope_2026",
+   "domain": null
+  },
+  {
+   "id": "LU-MATH-12-13",
+   "subject": "math",
+   "level": 12,
+   "slot": 13,
+   "concept": {
+    "en": "Introduction to limits",
+    "es": "Introducción a los límites"
+   },
+   "tip": {
+    "en": "Make a table of values that get closer and closer to a number to see what a function approaches.",
+    "es": "Hagan una tabla de valores que se acercan cada vez más a un número para ver a qué se aproxima la función."
+   },
+   "florida_strand": "MA.912.C",
+   "florida_code": "MA.912.C.1.3",
+   "refs": {
+    "ace_pace": null
+   },
+   "origin": "scope_2026",
+   "domain": null
+  },
+  {
+   "id": "LU-MATH-12-14",
+   "subject": "math",
+   "level": 12,
+   "slot": 14,
+   "concept": {
+    "en": "Vectors in two dimensions",
+    "es": "Vectores en dos dimensiones"
+   },
+   "tip": {
+    "en": "Draw vectors as arrows on graph paper and move tail to head to add them.",
+    "es": "Dibujen vectores como flechas en papel cuadriculado y colóquenlos cola con punta para sumarlos."
+   },
+   "florida_strand": "MA.912.NSO",
+   "florida_code": "MA.912.NSO.3.2",
+   "refs": {
+    "ace_pace": null
+   },
+   "origin": "scope_2026",
+   "domain": null
+  },
+  {
+   "id": "LU-ELA-RD-01-01",
+   "subject": "ela",
+   "level": 1,
+   "slot": 1,
+   "concept": {
+    "en": "finding a detail in a short text",
+    "es": "encontrar un detalle en un texto corto"
+   },
+   "tip": {
+    "en": "Read two short sentences together and ask your child to point to the answer in the words.",
+    "es": "Lean juntos dos frases cortas y pida a su hijo que señale la respuesta en el texto."
+   },
+   "florida_strand": "ELA.1.R",
+   "florida_code": "ELA.1.R.2.2",
+   "refs": {
+    "ace_pace": null
+   },
+   "origin": "scope_2026",
+   "domain": "reading"
+  },
+  {
+   "id": "LU-ELA-RD-01-02",
+   "subject": "ela",
+   "level": 1,
+   "slot": 2,
+   "concept": {
+    "en": "telling who, what and where in a story",
+    "es": "decir quién, qué y dónde en un cuento"
+   },
+   "tip": {
+    "en": "After a story, ask: Who was in it? What did they do? Where were they?",
+    "es": "Después de un cuento pregunte: ¿Quién estaba? ¿Qué hizo? ¿Dónde estaba?"
+   },
+   "florida_strand": "ELA.1.R",
+   "florida_code": "ELA.1.R.1.1",
+   "refs": {
+    "ace_pace": null
+   },
+   "origin": "scope_2026",
+   "domain": "reading"
+  },
+  {
+   "id": "LU-ELA-RD-01-03",
+   "subject": "ela",
+   "level": 1,
+   "slot": 3,
+   "concept": {
+    "en": "putting events in order",
+    "es": "ordenar los sucesos de un cuento"
+   },
+   "tip": {
+    "en": "Use the words first, then and last when you tell your child about the day.",
+    "es": "Use las palabras primero, luego y al final cuando cuente el día a su hijo."
+   },
+   "florida_strand": "ELA.1.R",
+   "florida_code": "ELA.1.R.3.2",
+   "refs": {
+    "ace_pace": null
+   },
+   "origin": "scope_2026",
+   "domain": "reading"
+  },
+  {
+   "id": "LU-ELA-RD-01-04",
+   "subject": "ela",
+   "level": 1,
+   "slot": 4,
+   "concept": {
+    "en": "using clues to find a word's meaning",
+    "es": "usar pistas para entender una palabra"
+   },
+   "tip": {
+    "en": "When a word is new, reread the sentence next to it and look for clues.",
+    "es": "Cuando una palabra es nueva, relea la frase de al lado y busque pistas."
+   },
+   "florida_strand": "ELA.1.V",
+   "florida_code": "ELA.1.V.1.3",
+   "refs": {
+    "ace_pace": null
+   },
+   "origin": "scope_2026",
+   "domain": "reading"
+  },
+  {
+   "id": "LU-ELA-RD-02-01",
+   "subject": "ela",
+   "level": 2,
+   "slot": 1,
+   "concept": {
+    "en": "finding the main idea",
+    "es": "hallar la idea principal"
+   },
+   "tip": {
+    "en": "Ask your child to say in one sentence what a page is mostly about.",
+    "es": "Pida a su hijo que diga en una frase de qué trata sobre todo un texto."
+   },
+   "florida_strand": "ELA.2.R",
+   "florida_code": "ELA.2.R.2.2",
+   "refs": {
+    "ace_pace": null
+   },
+   "origin": "scope_2026",
+   "domain": "reading"
+  },
+  {
+   "id": "LU-ELA-RD-02-02",
+   "subject": "ela",
+   "level": 2,
+   "slot": 2,
+   "concept": {
+    "en": "finding details that answer a question",
+    "es": "encontrar detalles que responden una pregunta"
+   },
+   "tip": {
+    "en": "Have your child go back to the text and point to the sentence that proves the answer.",
+    "es": "Pida a su hijo que vuelva al texto y señale la frase que prueba la respuesta."
+   },
+   "florida_strand": "ELA.2.R",
+   "florida_code": "ELA.2.R.2.2",
+   "refs": {
+    "ace_pace": null
+   },
+   "origin": "scope_2026",
+   "domain": "reading"
+  },
+  {
+   "id": "LU-ELA-RD-02-03",
+   "subject": "ela",
+   "level": 2,
+   "slot": 3,
+   "concept": {
+    "en": "telling what happens first, next and last",
+    "es": "decir qué pasa primero, después y al final"
+   },
+   "tip": {
+    "en": "Cook or follow a recipe together and name each step with first, next, last.",
+    "es": "Cocinen juntos una receta y nombren cada paso con primero, luego y al final."
+   },
+   "florida_strand": "ELA.2.R",
+   "florida_code": "ELA.2.R.3.2",
+   "refs": {
+    "ace_pace": null
+   },
+   "origin": "scope_2026",
+   "domain": "reading"
+  },
+  {
+   "id": "LU-ELA-RD-02-04",
+   "subject": "ela",
+   "level": 2,
+   "slot": 4,
+   "concept": {
+    "en": "using context clues for word meaning",
+    "es": "usar el contexto para entender palabras"
+   },
+   "tip": {
+    "en": "Cover the new word and ask what word would fit; then check it with the clues.",
+    "es": "Tape la palabra nueva, pregunte qué palabra encajaría y compruebe con las pistas."
+   },
+   "florida_strand": "ELA.2.V",
+   "florida_code": "ELA.2.V.1.3",
+   "refs": {
+    "ace_pace": null
+   },
+   "origin": "scope_2026",
+   "domain": "reading"
+  },
+  {
+   "id": "LU-ELA-RD-02-05",
+   "subject": "ela",
+   "level": 2,
+   "slot": 5,
+   "concept": {
+    "en": "finding why something happened",
+    "es": "descubrir por qué ocurrió algo"
+   },
+   "tip": {
+    "en": "Ask 'Why did that happen?' about everyday events and answer with because.",
+    "es": "Pregunte '¿Por qué pasó eso?' sobre sucesos cotidianos y responda con porque."
+   },
+   "florida_strand": "ELA.2.R",
+   "florida_code": "ELA.2.R.1.1",
+   "refs": {
+    "ace_pace": null
+   },
+   "origin": "scope_2026",
+   "domain": "reading"
+  },
+  {
+   "id": "LU-ELA-WR-02-01",
+   "subject": "ela",
+   "level": 2,
+   "slot": 1,
+   "concept": {
+    "en": "writing a topic sentence",
+    "es": "escribir una oración temática"
+   },
+   "tip": {
+    "en": "Read a paragraph and ask which sentence tells the big idea.",
+    "es": "Lean un párrafo y pregunte qué oración dice la idea general."
+   },
+   "florida_strand": "ELA.2.C",
+   "florida_code": "ELA.2.C.1.4",
+   "refs": {
+    "ace_pace": null
+   },
+   "origin": "scope_2026",
+   "domain": "grammar"
+  },
+  {
+   "id": "LU-ELA-WR-02-02",
+   "subject": "ela",
+   "level": 2,
+   "slot": 2,
+   "concept": {
+    "en": "writing complete sentences",
+    "es": "escribir oraciones completas"
+   },
+   "tip": {
+    "en": "Ask your child to answer questions in a whole sentence with who and what.",
+    "es": "Pida a su hijo que responda en una oración completa con quién y qué hace."
+   },
+   "florida_strand": "ELA.2.C",
+   "florida_code": "ELA.2.C.3.1",
+   "refs": {
+    "ace_pace": null
+   },
+   "origin": "scope_2026",
+   "domain": "grammar"
+  },
+  {
+   "id": "LU-ELA-RD-03-01",
+   "subject": "ela",
+   "level": 3,
+   "slot": 1,
+   "concept": {
+    "en": "finding the main idea and its supporting details",
+    "es": "hallar la idea principal y sus detalles"
+   },
+   "tip": {
+    "en": "After reading, ask your child to name the big idea and two details that support it.",
+    "es": "Después de leer, pida el tema central y dos detalles que lo apoyen."
+   },
+   "florida_strand": "ELA.3.R",
+   "florida_code": "ELA.3.R.2.2",
+   "refs": {
+    "ace_pace": null
+   },
+   "origin": "scope_2026",
+   "domain": "reading"
+  },
+  {
+   "id": "LU-ELA-RD-03-02",
+   "subject": "ela",
+   "level": 3,
+   "slot": 2,
+   "concept": {
+    "en": "locating a detail in a passage",
+    "es": "localizar un detalle en un pasaje"
+   },
+   "tip": {
+    "en": "Ask a who/what question about a page and have your child find the exact words.",
+    "es": "Haga una pregunta de quién/qué sobre una página y que su hijo halle las palabras exactas."
+   },
+   "florida_strand": "ELA.3.R",
+   "florida_code": "ELA.3.R.2.2",
+   "refs": {
+    "ace_pace": null
+   },
+   "origin": "scope_2026",
+   "domain": "reading"
+  },
+  {
+   "id": "LU-ELA-RD-03-03",
+   "subject": "ela",
+   "level": 3,
+   "slot": 3,
+   "concept": {
+    "en": "ordering events in a passage",
+    "es": "ordenar sucesos de un pasaje"
+   },
+   "tip": {
+    "en": "Retell a story together using first, next, then and finally.",
+    "es": "Cuenten una historia juntos con primero, luego, después y finalmente."
+   },
+   "florida_strand": "ELA.3.R",
+   "florida_code": "ELA.3.R.3.2",
+   "refs": {
+    "ace_pace": null
+   },
+   "origin": "scope_2026",
+   "domain": "reading"
+  },
+  {
+   "id": "LU-ELA-RD-03-04",
+   "subject": "ela",
+   "level": 3,
+   "slot": 4,
+   "concept": {
+    "en": "using context to figure out a hard word",
+    "es": "usar el contexto para descifrar una palabra difícil"
+   },
+   "tip": {
+    "en": "Ask your child which clues in the sentences helped explain a new word.",
+    "es": "Pregunte a su hijo qué pistas de las frases le ayudaron a entender una palabra nueva."
+   },
+   "florida_strand": "ELA.3.V",
+   "florida_code": "ELA.3.V.1.3",
+   "refs": {
+    "ace_pace": null
+   },
+   "origin": "scope_2026",
+   "domain": "reading"
+  },
+  {
+   "id": "LU-ELA-RD-03-05",
+   "subject": "ela",
+   "level": 3,
+   "slot": 5,
+   "concept": {
+    "en": "understanding cause and effect",
+    "es": "comprender causa y efecto"
+   },
+   "tip": {
+    "en": "Look for the words because and so when reading and name the cause and the effect.",
+    "es": "Busque las palabras porque y por eso al leer y nombre la causa y el efecto."
+   },
+   "florida_strand": "ELA.3.R",
+   "florida_code": "ELA.3.R.2.1",
+   "refs": {
+    "ace_pace": null
+   },
+   "origin": "scope_2026",
+   "domain": "reading"
+  },
+  {
+   "id": "LU-ELA-WR-03-01",
+   "subject": "ela",
+   "level": 3,
+   "slot": 1,
+   "concept": {
+    "en": "writing an opinion with a reason",
+    "es": "escribir una opinión con una razón"
+   },
+   "tip": {
+    "en": "Ask your child's opinion on something and have them answer with because.",
+    "es": "Pida a su hijo su opinión sobre algo y que responda con porque."
+   },
+   "florida_strand": "ELA.3.C",
+   "florida_code": "ELA.3.C.1.3",
+   "refs": {
+    "ace_pace": null
+   },
+   "origin": "scope_2026",
+   "domain": "grammar"
+  },
+  {
+   "id": "LU-ELA-WR-03-02",
+   "subject": "ela",
+   "level": 3,
+   "slot": 2,
+   "concept": {
+    "en": "putting sentences in a logical order",
+    "es": "ordenar oraciones de forma lógica"
+   },
+   "tip": {
+    "en": "Cut a paragraph into sentence strips and have your child put them back in order.",
+    "es": "Corte un párrafo en tiras de oraciones y que su hijo las ordene."
+   },
+   "florida_strand": "ELA.3.C",
+   "florida_code": "ELA.3.C.1.4",
+   "refs": {
+    "ace_pace": null
+   },
+   "origin": "scope_2026",
+   "domain": "grammar"
+  },
+  {
+   "id": "LU-ELA-RD-04-01",
+   "subject": "ela",
+   "level": 4,
+   "slot": 1,
+   "concept": {
+    "en": "finding the theme of a story",
+    "es": "hallar el tema de un cuento"
+   },
+   "tip": {
+    "en": "Ask: What lesson did the character learn? Use the story's details as proof.",
+    "es": "Pregunte: ¿Qué lección aprendió el personaje? Use detalles del cuento como prueba."
+   },
+   "florida_strand": "ELA.4.R",
+   "florida_code": "ELA.4.R.1.2",
+   "refs": {
+    "ace_pace": null
+   },
+   "origin": "scope_2026",
+   "domain": "reading"
+  },
+  {
+   "id": "LU-ELA-RD-04-02",
+   "subject": "ela",
+   "level": 4,
+   "slot": 2,
+   "concept": {
+    "en": "summarizing a text",
+    "es": "resumir un texto"
+   },
+   "tip": {
+    "en": "Ask your child to summarize a chapter in two sentences without small details.",
+    "es": "Pida a su hijo que resuma un capítulo en dos frases sin detalles pequeños."
+   },
+   "florida_strand": "ELA.4.R",
+   "florida_code": "ELA.4.R.3.2",
+   "refs": {
+    "ace_pace": null
+   },
+   "origin": "scope_2026",
+   "domain": "reading"
+  },
+  {
+   "id": "LU-ELA-RD-04-03",
+   "subject": "ela",
+   "level": 4,
+   "slot": 3,
+   "concept": {
+    "en": "making inferences from clues",
+    "es": "hacer inferencias con pistas"
+   },
+   "tip": {
+    "en": "Ask how a character feels and what clues in the text show it.",
+    "es": "Pregunte cómo se siente un personaje y qué pistas del texto lo muestran."
+   },
+   "florida_strand": "ELA.4.R",
+   "florida_code": "ELA.4.R.1.1",
+   "refs": {
+    "ace_pace": null
+   },
+   "origin": "scope_2026",
+   "domain": "reading"
+  },
+  {
+   "id": "LU-ELA-RD-04-04",
+   "subject": "ela",
+   "level": 4,
+   "slot": 4,
+   "concept": {
+    "en": "using headings to find information",
+    "es": "usar los subtítulos para hallar información"
+   },
+   "tip": {
+    "en": "Before reading, look at titles and headings and predict what each part will tell you.",
+    "es": "Antes de leer, mire títulos y subtítulos y prediga qué dirá cada parte."
+   },
+   "florida_strand": "ELA.4.R",
+   "florida_code": "ELA.4.R.2.1",
+   "refs": {
+    "ace_pace": null
+   },
+   "origin": "scope_2026",
+   "domain": "reading"
+  },
+  {
+   "id": "LU-ELA-RD-04-05",
+   "subject": "ela",
+   "level": 4,
+   "slot": 5,
+   "concept": {
+    "en": "finding who is telling the story",
+    "es": "identificar quién cuenta la historia"
+   },
+   "tip": {
+    "en": "Look for the words I and me to spot a narrator who is a character.",
+    "es": "Busque las palabras yo y me para detectar un narrador que es personaje."
+   },
+   "florida_strand": "ELA.4.R",
+   "florida_code": "ELA.4.R.1.3",
+   "refs": {
+    "ace_pace": null
+   },
+   "origin": "scope_2026",
+   "domain": "reading"
+  },
+  {
+   "id": "LU-ELA-WR-04-01",
+   "subject": "ela",
+   "level": 4,
+   "slot": 1,
+   "concept": {
+    "en": "writing a short, complete summary",
+    "es": "escribir un resumen breve y completo"
+   },
+   "tip": {
+    "en": "After a read-aloud, have your child say the summary in one sentence.",
+    "es": "Tras una lectura en voz alta, pida un resumen en una sola oración."
+   },
+   "florida_strand": "ELA.4.R",
+   "florida_code": "ELA.4.R.3.2",
+   "refs": {
+    "ace_pace": null
+   },
+   "origin": "scope_2026",
+   "domain": "grammar"
+  },
+  {
+   "id": "LU-ELA-WR-04-02",
+   "subject": "ela",
+   "level": 4,
+   "slot": 2,
+   "concept": {
+    "en": "revising a paragraph to stay on topic",
+    "es": "revisar un párrafo para mantener el tema"
+   },
+   "tip": {
+    "en": "When your child writes, ask if every sentence helps the main idea.",
+    "es": "Cuando su hijo escriba, pregunte si cada oración ayuda a la idea principal."
+   },
+   "florida_strand": "ELA.4.C",
+   "florida_code": "ELA.4.C.1.5",
+   "refs": {
+    "ace_pace": null
+   },
+   "origin": "scope_2026",
+   "domain": "grammar"
+  },
+  {
+   "id": "LU-ELA-RD-05-01",
+   "subject": "ela",
+   "level": 5,
+   "slot": 1,
+   "concept": {
+    "en": "Finding the central idea",
+    "es": "Hallar la idea central"
+   },
+   "tip": {
+    "en": "Ask your child to say the passage in one sentence, then check that the sentence covers most of the details.",
+    "es": "Pida a su hijo que diga el texto en una frase y compruebe que esa frase cubre la mayoría de los detalles."
+   },
+   "florida_strand": "ELA.5.R",
+   "florida_code": "ELA.5.R.2.2",
+   "refs": {
+    "ace_pace": null
+   },
+   "origin": "scope_2026",
+   "domain": "reading"
+  },
+  {
+   "id": "LU-ELA-RD-05-02",
+   "subject": "ela",
+   "level": 5,
+   "slot": 2,
+   "concept": {
+    "en": "Inferring how a character feels",
+    "es": "Inferir cómo se siente un personaje"
+   },
+   "tip": {
+    "en": "Ask: what clues in the story tell us how the character feels, even though the author does not say it?",
+    "es": "Pregunte: ¿qué pistas del cuento nos dicen cómo se siente el personaje, aunque el autor no lo diga?"
+   },
+   "florida_strand": "ELA.5.R",
+   "florida_code": "ELA.5.R.1.1",
+   "refs": {
+    "ace_pace": null
+   },
+   "origin": "scope_2026",
+   "domain": "reading"
+  },
+  {
+   "id": "LU-ELA-RD-05-03",
+   "subject": "ela",
+   "level": 5,
+   "slot": 3,
+   "concept": {
+    "en": "Meaning of a simile",
+    "es": "Significado de un símil"
+   },
+   "tip": {
+    "en": "Look for the word like or as, then ask what the two things have in common.",
+    "es": "Busque las palabras como o tan, y pregunte qué tienen en común las dos cosas comparadas."
+   },
+   "florida_strand": "ELA.5.R",
+   "florida_code": "ELA.5.R.3.1",
+   "refs": {
+    "ace_pace": null
+   },
+   "origin": "scope_2026",
+   "domain": "reading"
+  },
+  {
+   "id": "LU-ELA-RD-05-04",
+   "subject": "ela",
+   "level": 5,
+   "slot": 4,
+   "concept": {
+    "en": "Using context clues for word meaning",
+    "es": "Usar pistas del contexto para el significado"
+   },
+   "tip": {
+    "en": "When your child meets a new word, have them reread the sentences around it and look for clues.",
+    "es": "Cuando su hijo encuentre una palabra nueva, pídale releer las frases cercanas y buscar pistas."
+   },
+   "florida_strand": "ELA.5.V",
+   "florida_code": "ELA.5.V.1.3",
+   "refs": {
+    "ace_pace": null
+   },
+   "origin": "scope_2026",
+   "domain": "reading"
+  },
+  {
+   "id": "LU-ELA-RD-05-05",
+   "subject": "ela",
+   "level": 5,
+   "slot": 5,
+   "concept": {
+    "en": "Evidence that supports a claim",
+    "es": "Evidencia que apoya una afirmación"
+   },
+   "tip": {
+    "en": "Practice sorting sentences in an ad or essay into claim, evidence, and opinion.",
+    "es": "Practique clasificar frases de un anuncio o ensayo en afirmación, evidencia y opinión."
+   },
+   "florida_strand": "ELA.5.R",
+   "florida_code": "ELA.5.R.2.4",
+   "refs": {
+    "ace_pace": null
+   },
+   "origin": "scope_2026",
+   "domain": "reading"
+  },
+  {
+   "id": "LU-ELA-WR-05-01",
+   "subject": "ela",
+   "level": 5,
+   "slot": 1,
+   "concept": {
+    "en": "Claim with a reason",
+    "es": "Afirmación con una razón"
+   },
+   "tip": {
+    "en": "Have your child finish: I believe ___ because ___.",
+    "es": "Pida a su hijo completar: Yo creo que ___ porque ___."
+   },
+   "florida_strand": "ELA.5.C",
+   "florida_code": "ELA.5.C.1.3",
+   "refs": {
+    "ace_pace": null
+   },
+   "origin": "scope_2026",
+   "domain": "grammar"
+  },
+  {
+   "id": "LU-ELA-WR-05-02",
+   "subject": "ela",
+   "level": 5,
+   "slot": 2,
+   "concept": {
+    "en": "Naming the source of a fact",
+    "es": "Nombrar la fuente de un dato"
+   },
+   "tip": {
+    "en": "When your child writes a fact, ask: where did you learn this? Then write it down.",
+    "es": "Cuando su hijo escriba un dato, pregunte: ¿dónde lo aprendiste? Y anótelo."
+   },
+   "florida_strand": "ELA.5.C",
+   "florida_code": "ELA.5.C.1.4",
+   "refs": {
+    "ace_pace": null
+   },
+   "origin": "scope_2026",
+   "domain": "grammar"
+  },
+  {
+   "id": "LU-ELA-RD-06-01",
+   "subject": "ela",
+   "level": 6,
+   "slot": 1,
+   "concept": {
+    "en": "Theme of a story",
+    "es": "Tema de un cuento"
+   },
+   "tip": {
+    "en": "After a story, ask: what lesson could a reader learn from what the character did?",
+    "es": "Después de un cuento, pregunte: ¿qué lección podría aprender un lector de lo que hizo el personaje?"
+   },
+   "florida_strand": "ELA.6.R",
+   "florida_code": "ELA.6.R.1.2",
+   "refs": {
+    "ace_pace": null
+   },
+   "origin": "scope_2026",
+   "domain": "reading"
+  },
+  {
+   "id": "LU-ELA-RD-06-02",
+   "subject": "ela",
+   "level": 6,
+   "slot": 2,
+   "concept": {
+    "en": "Inference from details",
+    "es": "Inferencia a partir de detalles"
+   },
+   "tip": {
+    "en": "Ask: what does the author not say directly, but show through what the characters do?",
+    "es": "Pregunte: ¿qué no dice directamente el autor pero muestra con lo que hacen los personajes?"
+   },
+   "florida_strand": "ELA.6.R",
+   "florida_code": "ELA.6.R.1.1",
+   "refs": {
+    "ace_pace": null
+   },
+   "origin": "scope_2026",
+   "domain": "reading"
+  },
+  {
+   "id": "LU-ELA-RD-06-03",
+   "subject": "ela",
+   "level": 6,
+   "slot": 3,
+   "concept": {
+    "en": "Text structure: sequence",
+    "es": "Estructura del texto: secuencia"
+   },
+   "tip": {
+    "en": "Look for signal words like first, then, eventually, after to spot a sequence.",
+    "es": "Busque palabras señal como primero, luego, finalmente, después para reconocer una secuencia."
+   },
+   "florida_strand": "ELA.6.R",
+   "florida_code": "ELA.6.R.2.1",
+   "refs": {
+    "ace_pace": null
+   },
+   "origin": "scope_2026",
+   "domain": "reading"
+  },
+  {
+   "id": "LU-ELA-RD-06-04",
+   "subject": "ela",
+   "level": 6,
+   "slot": 4,
+   "concept": {
+    "en": "Using context clues for word meaning",
+    "es": "Usar pistas del contexto para el significado"
+   },
+   "tip": {
+    "en": "Cover the new word and ask what word would fit the clues in the nearby sentences.",
+    "es": "Tape la palabra nueva y pregunte qué palabra encajaría con las pistas de las frases cercanas."
+   },
+   "florida_strand": "ELA.6.V",
+   "florida_code": "ELA.6.V.1.3",
+   "refs": {
+    "ace_pace": null
+   },
+   "origin": "scope_2026",
+   "domain": "reading"
+  },
+  {
+   "id": "LU-ELA-RD-06-05",
+   "subject": "ela",
+   "level": 6,
+   "slot": 5,
+   "concept": {
+    "en": "Answering an opposing view",
+    "es": "Responder a una opinión contraria"
+   },
+   "tip": {
+    "en": "When reading persuasive text, ask: what might someone disagree with, and how does the author reply?",
+    "es": "Al leer un texto persuasivo, pregunte: ¿con qué podría alguien no estar de acuerdo y cómo responde el autor?"
+   },
+   "florida_strand": "ELA.6.R",
+   "florida_code": "ELA.6.R.2.4",
+   "refs": {
+    "ace_pace": null
+   },
+   "origin": "scope_2026",
+   "domain": "reading"
+  },
+  {
+   "id": "LU-ELA-WR-06-01",
+   "subject": "ela",
+   "level": 6,
+   "slot": 1,
+   "concept": {
+    "en": "Evidence that matches the claim",
+    "es": "Evidencia que respalda la afirmación"
+   },
+   "tip": {
+    "en": "Ask: does this fact prove the claim, or is it just about the same topic?",
+    "es": "Pregunte: ¿este dato prueba la afirmación o solo trata el mismo tema?"
+   },
+   "florida_strand": "ELA.6.C",
+   "florida_code": "ELA.6.C.1.3",
+   "refs": {
+    "ace_pace": null
+   },
+   "origin": "scope_2026",
+   "domain": "grammar"
+  },
+  {
+   "id": "LU-ELA-WR-06-02",
+   "subject": "ela",
+   "level": 6,
+   "slot": 2,
+   "concept": {
+    "en": "Fixing run-on sentences",
+    "es": "Corregir oraciones encadenadas"
+   },
+   "tip": {
+    "en": "Read a sentence aloud; if you run out of breath, it may need a period or a joining word.",
+    "es": "Lea la oración en voz alta; si le falta el aire, quizá necesite un punto o una conjunción."
+   },
+   "florida_strand": "ELA.6.C",
+   "florida_code": "ELA.6.C.1.5",
+   "refs": {
+    "ace_pace": null
+   },
+   "origin": "scope_2026",
+   "domain": "grammar"
+  },
+  {
+   "id": "LU-ELA-RD-07-01",
+   "subject": "ela",
+   "level": 7,
+   "slot": 1,
+   "concept": {
+    "en": "Central idea and its development",
+    "es": "Idea central y su desarrollo"
+   },
+   "tip": {
+    "en": "After reading, ask: what is the whole passage mainly teaching, and which details prove it?",
+    "es": "Después de leer, pregunte: ¿qué enseña el texto en general y qué detalles lo demuestran?"
+   },
+   "florida_strand": "ELA.7.R",
+   "florida_code": "ELA.7.R.2.2",
+   "refs": {
+    "ace_pace": null
+   },
+   "origin": "scope_2026",
+   "domain": "reading"
+  },
+  {
+   "id": "LU-ELA-RD-07-02",
+   "subject": "ela",
+   "level": 7,
+   "slot": 2,
+   "concept": {
+    "en": "Inference about why people act",
+    "es": "Inferencia sobre los motivos"
+   },
+   "tip": {
+    "en": "Ask: what in the story explains the outcome, even if the author never states the reason?",
+    "es": "Pregunte: ¿qué en el cuento explica el resultado, aunque el autor nunca diga la razón?"
+   },
+   "florida_strand": "ELA.7.R",
+   "florida_code": "ELA.7.R.1.2",
+   "refs": {
+    "ace_pace": null
+   },
+   "origin": "scope_2026",
+   "domain": "reading"
+  },
+  {
+   "id": "LU-ELA-RD-07-03",
+   "subject": "ela",
+   "level": 7,
+   "slot": 3,
+   "concept": {
+    "en": "Symbolism in poetry",
+    "es": "Simbolismo en la poesía"
+   },
+   "tip": {
+    "en": "Read a poem aloud twice and ask what an object might stand for beyond itself.",
+    "es": "Lea un poema en voz alta dos veces y pregunte qué podría representar un objeto más allá de sí mismo."
+   },
+   "florida_strand": "ELA.7.R",
+   "florida_code": "ELA.7.R.1.4",
+   "refs": {
+    "ace_pace": null
+   },
+   "origin": "scope_2026",
+   "domain": "reading"
+  },
+  {
+   "id": "LU-ELA-RD-07-04",
+   "subject": "ela",
+   "level": 7,
+   "slot": 4,
+   "concept": {
+    "en": "Using context clues for word meaning",
+    "es": "Usar pistas del contexto para el significado"
+   },
+   "tip": {
+    "en": "Ask your child to replace the word with their own words and see if the sentence still makes sense.",
+    "es": "Pida a su hijo que reemplace la palabra con las suyas y compruebe si la frase sigue teniendo sentido."
+   },
+   "florida_strand": "ELA.7.V",
+   "florida_code": "ELA.7.V.1.3",
+   "refs": {
+    "ace_pace": null
+   },
+   "origin": "scope_2026",
+   "domain": "reading"
+  },
+  {
+   "id": "LU-ELA-RD-07-05",
+   "subject": "ela",
+   "level": 7,
+   "slot": 5,
+   "concept": {
+    "en": "Answering a counterclaim",
+    "es": "Responder a una objeción"
+   },
+   "tip": {
+    "en": "Ask: what objection might a reader raise, and what reasons does the author give in reply?",
+    "es": "Pregunte: ¿qué objeción podría plantear un lector y qué razones da el autor en respuesta?"
+   },
+   "florida_strand": "ELA.7.R",
+   "florida_code": "ELA.7.R.2.4",
+   "refs": {
+    "ace_pace": null
+   },
+   "origin": "scope_2026",
+   "domain": "reading"
+  },
+  {
+   "id": "LU-ELA-WR-07-01",
+   "subject": "ela",
+   "level": 7,
+   "slot": 1,
+   "concept": {
+    "en": "Specific, arguable thesis",
+    "es": "Tesis específica y debatible"
+   },
+   "tip": {
+    "en": "Check: could a reasonable person disagree with this sentence? If not, it is probably a fact, not a thesis.",
+    "es": "Compruebe: ¿podría una persona razonable no estar de acuerdo? Si no, probablemente es un hecho, no una tesis."
+   },
+   "florida_strand": "ELA.7.C",
+   "florida_code": "ELA.7.C.1.3",
+   "refs": {
+    "ace_pace": null
+   },
+   "origin": "scope_2026",
+   "domain": "grammar"
+  },
+  {
+   "id": "LU-ELA-WR-07-02",
+   "subject": "ela",
+   "level": 7,
+   "slot": 2,
+   "concept": {
+    "en": "Quoting a source correctly",
+    "es": "Citar correctamente una fuente"
+   },
+   "tip": {
+    "en": "Remind your child: exact words need quotation marks and the name of who said them.",
+    "es": "Recuerde a su hijo: las palabras exactas llevan comillas y el nombre de quien las dijo."
+   },
+   "florida_strand": "ELA.7.C",
+   "florida_code": "ELA.7.C.1.3",
+   "refs": {
+    "ace_pace": null
+   },
+   "origin": "scope_2026",
+   "domain": "grammar"
+  },
+  {
+   "id": "LU-ELA-RD-08-01",
+   "subject": "ela",
+   "level": 8,
+   "slot": 1,
+   "concept": {
+    "en": "Two central ideas in one text",
+    "es": "Dos ideas centrales en un texto"
+   },
+   "tip": {
+    "en": "Ask your child to name two big ideas and one detail for each.",
+    "es": "Pida a su hijo que nombre dos ideas importantes y un detalle de cada una."
+   },
+   "florida_strand": "ELA.8.R",
+   "florida_code": "ELA.8.R.2.2",
+   "refs": {
+    "ace_pace": null
+   },
+   "origin": "scope_2026",
+   "domain": "reading"
+  },
+  {
+   "id": "LU-ELA-RD-08-02",
+   "subject": "ela",
+   "level": 8,
+   "slot": 2,
+   "concept": {
+    "en": "Inference about a character's choices",
+    "es": "Inferencia sobre las decisiones de un personaje"
+   },
+   "tip": {
+    "en": "Ask: what does the character's action tell us about what she understands or feels?",
+    "es": "Pregunte: ¿qué nos dice la acción del personaje sobre lo que entiende o siente?"
+   },
+   "florida_strand": "ELA.8.R",
+   "florida_code": "ELA.8.R.1.3",
+   "refs": {
+    "ace_pace": null
+   },
+   "origin": "scope_2026",
+   "domain": "reading"
+  },
+  {
+   "id": "LU-ELA-RD-08-03",
+   "subject": "ela",
+   "level": 8,
+   "slot": 3,
+   "concept": {
+    "en": "Symbolism",
+    "es": "Simbolismo"
+   },
+   "tip": {
+    "en": "Ask: why does the author keep returning to this object, and what idea does it carry?",
+    "es": "Pregunte: ¿por qué el autor vuelve a este objeto y qué idea representa?"
+   },
+   "florida_strand": "ELA.8.R",
+   "florida_code": "ELA.8.R.3.1",
+   "refs": {
+    "ace_pace": null
+   },
+   "origin": "scope_2026",
+   "domain": "reading"
+  },
+  {
+   "id": "LU-ELA-RD-08-04",
+   "subject": "ela",
+   "level": 8,
+   "slot": 4,
+   "concept": {
+    "en": "Using context clues for word meaning",
+    "es": "Usar pistas del contexto para el significado"
+   },
+   "tip": {
+    "en": "Look for examples that follow a word; they often explain its meaning.",
+    "es": "Busque los ejemplos que siguen a una palabra; a menudo explican su significado."
+   },
+   "florida_strand": "ELA.8.V",
+   "florida_code": "ELA.8.V.1.3",
+   "refs": {
+    "ace_pace": null
+   },
+   "origin": "scope_2026",
+   "domain": "reading"
+  },
+  {
+   "id": "LU-ELA-RD-08-05",
+   "subject": "ela",
+   "level": 8,
+   "slot": 5,
+   "concept": {
+    "en": "Rhetorical questions and appeals",
+    "es": "Preguntas retóricas y apelaciones"
+   },
+   "tip": {
+    "en": "When you hear a speech, ask which sentences aim to persuade by logic, emotion, or trust.",
+    "es": "Al escuchar un discurso, pregunte qué frases buscan persuadir por lógica, emoción o confianza."
+   },
+   "florida_strand": "ELA.8.R",
+   "florida_code": "ELA.8.R.3.4",
+   "refs": {
+    "ace_pace": null
+   },
+   "origin": "scope_2026",
+   "domain": "reading"
+  },
+  {
+   "id": "LU-ELA-WR-08-01",
+   "subject": "ela",
+   "level": 8,
+   "slot": 1,
+   "concept": {
+    "en": "Rebuttal with evidence",
+    "es": "Refutación con evidencia"
+   },
+   "tip": {
+    "en": "Practice the pattern: Some may say ___, but evidence shows ___.",
+    "es": "Practique el patrón: Algunos dirán ___, pero la evidencia muestra ___."
+   },
+   "florida_strand": "ELA.8.C",
+   "florida_code": "ELA.8.C.1.3",
+   "refs": {
+    "ace_pace": null
+   },
+   "origin": "scope_2026",
+   "domain": "grammar"
+  },
+  {
+   "id": "LU-ELA-WR-08-02",
+   "subject": "ela",
+   "level": 8,
+   "slot": 2,
+   "concept": {
+    "en": "Citing a source and precise wording",
+    "es": "Citar una fuente y usar palabras precisas"
+   },
+   "tip": {
+    "en": "Ask your child to replace vague words like bad or a lot with specific details.",
+    "es": "Pida a su hijo que cambie palabras vagas como malo o mucho por detalles específicos."
+   },
+   "florida_strand": "ELA.8.C",
+   "florida_code": "ELA.8.C.1.4",
+   "refs": {
+    "ace_pace": null
+   },
+   "origin": "scope_2026",
+   "domain": "grammar"
+  },
+  {
+   "id": "LU-ELA-RD-09-01",
+   "subject": "ela",
+   "level": 9,
+   "slot": 1,
+   "concept": {
+    "en": "Theme in a short story",
+    "es": "Tema en un cuento corto"
+   },
+   "tip": {
+    "en": "Ask your teen to state the theme as a full sentence, not just one word like 'simplicity'.",
+    "es": "Pida a su hijo que exprese el tema como una oración completa, no solo una palabra como 'sencillez'."
+   },
+   "florida_strand": "ELA.9.R",
+   "florida_code": "ELA.9.R.1.2",
+   "refs": {
+    "ace_pace": null
+   },
+   "origin": "scope_2026",
+   "domain": "reading"
+  },
+  {
+   "id": "LU-ELA-RD-09-02",
+   "subject": "ela",
+   "level": 9,
+   "slot": 2,
+   "concept": {
+    "en": "Making an inference from an informational text",
+    "es": "Hacer una inferencia de un texto informativo"
+   },
+   "tip": {
+    "en": "After an article, ask: 'What does the author imply but never say directly? Which sentence shows it?'",
+    "es": "Después de leer un artículo pregunte: '¿Qué insinúa el autor sin decirlo? ¿Qué oración lo muestra?'"
+   },
+   "florida_strand": "ELA.9.R",
+   "florida_code": "ELA.9.R.2.2",
+   "refs": {
+    "ace_pace": null
+   },
+   "origin": "scope_2026",
+   "domain": "reading"
+  },
+  {
+   "id": "LU-ELA-RD-09-03",
+   "subject": "ela",
+   "level": 9,
+   "slot": 3,
+   "concept": {
+    "en": "Personification and mood",
+    "es": "Personificación y atmósfera"
+   },
+   "tip": {
+    "en": "Read a poem aloud together and name the feeling it leaves, then find the images that cause it.",
+    "es": "Lean un poema en voz alta, nombren el sentimiento que deja y busquen las imágenes que lo causan."
+   },
+   "florida_strand": "ELA.9.R",
+   "florida_code": "ELA.9.R.3.1",
+   "refs": {
+    "ace_pace": null
+   },
+   "origin": "scope_2026",
+   "domain": "reading"
+  },
+  {
+   "id": "LU-ELA-RD-09-04",
+   "subject": "ela",
+   "level": 9,
+   "slot": 4,
+   "concept": {
+    "en": "Connotation and denotation",
+    "es": "Connotación y denotación"
+   },
+   "tip": {
+    "en": "Pick two synonyms (for example 'thin' and 'skinny') and discuss how each makes a reader feel.",
+    "es": "Elijan dos sinónimos (por ejemplo 'delgado' y 'flaco') y comenten cómo hace sentir cada uno al lector."
+   },
+   "florida_strand": "ELA.9.V",
+   "florida_code": "ELA.9.V.1.3",
+   "refs": {
+    "ace_pace": null
+   },
+   "origin": "scope_2026",
+   "domain": "reading"
+  },
+  {
+   "id": "LU-ELA-WR-09-01",
+   "subject": "ela",
+   "level": 9,
+   "slot": 1,
+   "concept": {
+    "en": "Arguable thesis statements",
+    "es": "Tesis argumentables"
+   },
+   "tip": {
+    "en": "A good thesis is one a reasonable person could disagree with. Test your teen's thesis with 'Could someone argue the opposite?'",
+    "es": "Una buena tesis es aquella con la que una persona razonable podría estar en desacuerdo. Pregunte: '¿Alguien podría argumentar lo contrario?'"
+   },
+   "florida_strand": "ELA.9.C",
+   "florida_code": "ELA.9.C.1.3",
+   "refs": {
+    "ace_pace": null
+   },
+   "origin": "scope_2026",
+   "domain": "grammar"
+  },
+  {
+   "id": "LU-ELA-WR-09-02",
+   "subject": "ela",
+   "level": 9,
+   "slot": 2,
+   "concept": {
+    "en": "MLA book citation",
+    "es": "Cita MLA de un libro"
+   },
+   "tip": {
+    "en": "Keep a running Works Cited list while researching; adding sources later is where mistakes happen.",
+    "es": "Lleven una lista de obras citadas mientras investigan; agregar fuentes al final es donde ocurren los errores."
+   },
+   "florida_strand": "ELA.9.C",
+   "florida_code": "ELA.9.C.4.1",
+   "refs": {
+    "ace_pace": null
+   },
+   "origin": "scope_2026",
+   "domain": "grammar"
+  },
+  {
+   "id": "LU-ELA-RD-10-01",
+   "subject": "ela",
+   "level": 10,
+   "slot": 1,
+   "concept": {
+    "en": "Universal themes",
+    "es": "Temas universales"
+   },
+   "tip": {
+    "en": "Ask: 'Could this theme apply to a different story, century, or country?' If yes, it is universal.",
+    "es": "Pregunte: '¿Este tema se aplicaría a otra historia, siglo o país?' Si es así, es universal."
+   },
+   "florida_strand": "ELA.10.R",
+   "florida_code": "ELA.10.R.1.2",
+   "refs": {
+    "ace_pace": null
+   },
+   "origin": "scope_2026",
+   "domain": "reading"
+  },
+  {
+   "id": "LU-ELA-RD-10-02",
+   "subject": "ela",
+   "level": 10,
+   "slot": 2,
+   "concept": {
+    "en": "Evidence for an inference",
+    "es": "Evidencia para una inferencia"
+   },
+   "tip": {
+    "en": "Practice the sentence frame: 'I infer ___ because the text says ___.'",
+    "es": "Practiquen la frase: 'Infiero que ___ porque el texto dice ___.'"
+   },
+   "florida_strand": "ELA.10.R",
+   "florida_code": "ELA.10.R.1.3",
+   "refs": {
+    "ace_pace": null
+   },
+   "origin": "scope_2026",
+   "domain": "reading"
+  },
+  {
+   "id": "LU-ELA-RD-10-03",
+   "subject": "ela",
+   "level": 10,
+   "slot": 3,
+   "concept": {
+    "en": "Comparing two texts on one topic",
+    "es": "Comparar dos textos sobre un mismo tema"
+   },
+   "tip": {
+    "en": "Read two articles on one subject and ask which sounds personal and which sounds neutral, and why.",
+    "es": "Lean dos artículos sobre un mismo tema y pregunten cuál suena personal y cuál neutral, y por qué."
+   },
+   "florida_strand": "ELA.10.R",
+   "florida_code": "ELA.10.R.2.4",
+   "refs": {
+    "ace_pace": null
+   },
+   "origin": "scope_2026",
+   "domain": "reading"
+  },
+  {
+   "id": "LU-ELA-RD-10-04",
+   "subject": "ela",
+   "level": 10,
+   "slot": 4,
+   "concept": {
+    "en": "Connotation and personification",
+    "es": "Connotación y personificación"
+   },
+   "tip": {
+    "en": "Swap a strong verb for a plain one (for example 'sat') and notice what feeling is lost.",
+    "es": "Cambien un verbo fuerte por uno simple (por ejemplo 'estaba') y noten qué sentimiento se pierde."
+   },
+   "florida_strand": "ELA.10.V",
+   "florida_code": "ELA.10.V.1.3",
+   "refs": {
+    "ace_pace": null
+   },
+   "origin": "scope_2026",
+   "domain": "reading"
+  },
+  {
+   "id": "LU-ELA-WR-10-01",
+   "subject": "ela",
+   "level": 10,
+   "slot": 1,
+   "concept": {
+    "en": "Revising with peer feedback",
+    "es": "Revisar con comentarios de compañeros"
+   },
+   "tip": {
+    "en": "When your teen gets feedback, ask: 'What exact fact, number, or quotation could prove this?'",
+    "es": "Cuando su hijo reciba comentarios, pregunte: '¿Qué dato, número o cita exacta podría probarlo?'"
+   },
+   "florida_strand": "ELA.10.C",
+   "florida_code": "ELA.10.C.1.5",
+   "refs": {
+    "ace_pace": null
+   },
+   "origin": "scope_2026",
+   "domain": "grammar"
+  },
+  {
+   "id": "LU-ELA-WR-10-02",
+   "subject": "ela",
+   "level": 10,
+   "slot": 2,
+   "concept": {
+    "en": "Thesis for literary analysis",
+    "es": "Tesis para análisis literario"
+   },
+   "tip": {
+    "en": "Turn a plain observation ('there is a door') into a claim by adding 'which shows that...'.",
+    "es": "Convierta una observación simple ('hay una puerta') en una tesis agregando 'lo cual muestra que...'."
+   },
+   "florida_strand": "ELA.10.C",
+   "florida_code": "ELA.10.C.1.3",
+   "refs": {
+    "ace_pace": null
+   },
+   "origin": "scope_2026",
+   "domain": "grammar"
+  },
+  {
+   "id": "LU-ELA-RD-11-01",
+   "subject": "ela",
+   "level": 11,
+   "slot": 1,
+   "concept": {
+    "en": "Central idea in historical writing",
+    "es": "Idea central en textos históricos"
+   },
+   "tip": {
+    "en": "Have your student restate the author's main claim in one plain modern sentence.",
+    "es": "Pida a su hijo que reformule la idea principal del autor en una oración moderna y sencilla."
+   },
+   "florida_strand": "ELA.11.R",
+   "florida_code": "ELA.11.R.2.2",
+   "refs": {
+    "ace_pace": null
+   },
+   "origin": "scope_2026",
+   "domain": "reading"
+  },
+  {
+   "id": "LU-ELA-RD-11-02",
+   "subject": "ela",
+   "level": 11,
+   "slot": 2,
+   "concept": {
+    "en": "Inference in historical documents",
+    "es": "Inferencia en documentos históricos"
+   },
+   "tip": {
+    "en": "Old documents use long sentences; have your student paraphrase each one in plain words before inferring.",
+    "es": "Los documentos antiguos usan oraciones largas; pida que las parafraseen antes de inferir."
+   },
+   "florida_strand": "ELA.11.R",
+   "florida_code": "ELA.11.R.2.1",
+   "refs": {
+    "ace_pace": null
+   },
+   "origin": "scope_2026",
+   "domain": "reading"
+  },
+  {
+   "id": "LU-ELA-RD-11-03",
+   "subject": "ela",
+   "level": 11,
+   "slot": 3,
+   "concept": {
+    "en": "Ethos, pathos, and logos",
+    "es": "Ethos, pathos y logos"
+   },
+   "tip": {
+    "en": "Watch a debate or ad and label each appeal as it appears: character, feeling, or logic.",
+    "es": "Vean un debate o anuncio y clasifiquen cada recurso: carácter, emoción o lógica."
+   },
+   "florida_strand": "ELA.11.R",
+   "florida_code": "ELA.11.R.3.4",
+   "refs": {
+    "ace_pace": null
+   },
+   "origin": "scope_2026",
+   "domain": "reading"
+  },
+  {
+   "id": "LU-ELA-RD-11-04",
+   "subject": "ela",
+   "level": 11,
+   "slot": 4,
+   "concept": {
+    "en": "Archaic word meanings in context",
+    "es": "Significado de palabras antiguas en contexto"
+   },
+   "tip": {
+    "en": "Context beats the dictionary: have your student test each meaning by re-reading the sentence with it.",
+    "es": "El contexto vale más que el diccionario: prueben cada significado releyendo la oración con él."
+   },
+   "florida_strand": "ELA.11.V",
+   "florida_code": "ELA.11.V.1.3",
+   "refs": {
+    "ace_pace": null
+   },
+   "origin": "scope_2026",
+   "domain": "reading"
+  },
+  {
+   "id": "LU-ELA-WR-11-01",
+   "subject": "ela",
+   "level": 11,
+   "slot": 1,
+   "concept": {
+    "en": "Analytical thesis about rhetoric",
+    "es": "Tesis analítica sobre retórica"
+   },
+   "tip": {
+    "en": "A thesis about rhetoric answers 'What does the author do, and how does it affect the reader?'",
+    "es": "Una tesis sobre retórica responde: '¿Qué hace el autor y cómo afecta al lector?'"
+   },
+   "florida_strand": "ELA.11.C",
+   "florida_code": "ELA.11.C.1.3",
+   "refs": {
+    "ace_pace": null
+   },
+   "origin": "scope_2026",
+   "domain": "grammar"
+  },
+  {
+   "id": "LU-ELA-WR-11-02",
+   "subject": "ela",
+   "level": 11,
+   "slot": 2,
+   "concept": {
+    "en": "APA book reference",
+    "es": "Referencia APA de un libro"
+   },
+   "tip": {
+    "en": "Notice that APA puts the year right after the author, while MLA places it at the end.",
+    "es": "Note que APA coloca el año justo después del autor, mientras MLA lo pone al final."
+   },
+   "florida_strand": "ELA.11.C",
+   "florida_code": "ELA.11.C.4.1",
+   "refs": {
+    "ace_pace": null
+   },
+   "origin": "scope_2026",
+   "domain": "grammar"
+  },
+  {
+   "id": "LU-ELA-RD-12-01",
+   "subject": "ela",
+   "level": 12,
+   "slot": 1,
+   "concept": {
+    "en": "Theme in classic fiction",
+    "es": "Tema en la ficción clásica"
+   },
+   "tip": {
+    "en": "Ask your student how the main character changes from beginning to end; the change often reveals the theme.",
+    "es": "Pregunte cómo cambia el personaje principal de principio a fin; el cambio suele revelar el tema."
+   },
+   "florida_strand": "ELA.12.R",
+   "florida_code": "ELA.12.R.1.2",
+   "refs": {
+    "ace_pace": null
+   },
+   "origin": "scope_2026",
+   "domain": "reading"
+  },
+  {
+   "id": "LU-ELA-RD-12-02",
+   "subject": "ela",
+   "level": 12,
+   "slot": 2,
+   "concept": {
+    "en": "Inferring a character's hidden perspective",
+    "es": "Inferir la perspectiva oculta de un personaje"
+   },
+   "tip": {
+    "en": "Look for gaps between what characters say and what they do; that gap often shows their true feelings.",
+    "es": "Busquen la diferencia entre lo que los personajes dicen y lo que hacen; ahí suelen verse sus sentimientos."
+   },
+   "florida_strand": "ELA.12.R",
+   "florida_code": "ELA.12.R.1.3",
+   "refs": {
+    "ace_pace": null
+   },
+   "origin": "scope_2026",
+   "domain": "reading"
+  },
+  {
+   "id": "LU-ELA-RD-12-03",
+   "subject": "ela",
+   "level": 12,
+   "slot": 3,
+   "concept": {
+    "en": "Irony and satire",
+    "es": "Ironía y sátira"
+   },
+   "tip": {
+    "en": "Ask: 'Does the author really mean this? What real problem is being mocked?'",
+    "es": "Pregunte: '¿El autor realmente quiere decir esto? ¿Qué problema real se burla?'"
+   },
+   "florida_strand": "ELA.12.R",
+   "florida_code": "ELA.12.R.2.3",
+   "refs": {
+    "ace_pace": null
+   },
+   "origin": "scope_2026",
+   "domain": "reading"
+  },
+  {
+   "id": "LU-ELA-RD-12-04",
+   "subject": "ela",
+   "level": 12,
+   "slot": 4,
+   "concept": {
+    "en": "Degrees of connotation",
+    "es": "Grados de connotación"
+   },
+   "tip": {
+    "en": "Rank a set of synonyms from most positive to most negative and talk about why.",
+    "es": "Ordenen un grupo de sinónimos del más positivo al más negativo y comenten por qué."
+   },
+   "florida_strand": "ELA.12.V",
+   "florida_code": "ELA.12.V.1.3",
+   "refs": {
+    "ace_pace": null
+   },
+   "origin": "scope_2026",
+   "domain": "reading"
+  },
+  {
+   "id": "LU-ELA-WR-12-01",
+   "subject": "ela",
+   "level": 12,
+   "slot": 1,
+   "concept": {
+    "en": "Complex, arguable theses",
+    "es": "Tesis complejas y argumentables"
+   },
+   "tip": {
+    "en": "If a thesis can be answered with 'Yes, and so?', it is probably too obvious; push for 'how' and 'why'.",
+    "es": "Si una tesis se contesta con 'Sí, ¿y qué?', probablemente es obvia; busquen el 'cómo' y el 'por qué'."
+   },
+   "florida_strand": "ELA.12.C",
+   "florida_code": "ELA.12.C.1.3",
+   "refs": {
+    "ace_pace": null
+   },
+   "origin": "scope_2026",
+   "domain": "grammar"
+  },
+  {
+   "id": "LU-ELA-WR-12-02",
+   "subject": "ela",
+   "level": 12,
+   "slot": 2,
+   "concept": {
+    "en": "Concise, active style",
+    "es": "Estilo conciso y activo"
+   },
+   "tip": {
+    "en": "Circle phrases like 'due to the fact that' and 'in the process of' and try replacing each with one word.",
+    "es": "Encierre frases como 'debido al hecho de que' y pruebe sustituir cada una por una sola palabra."
+   },
+   "florida_strand": "ELA.12.C",
+   "florida_code": "ELA.12.C.1.5",
+   "refs": {
+    "ace_pace": null
+   },
+   "origin": "scope_2026",
+   "domain": "grammar"
   }
  ]
 }

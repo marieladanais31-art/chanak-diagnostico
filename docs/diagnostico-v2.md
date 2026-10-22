@@ -39,3 +39,14 @@ Cada pregunta de Matemáticas, Inglés, Ciencias, Geografía e Historia lleva `f
 - Catálogo de los 217 códigos usados con su enunciado: `data/florida-codes.json`.
 - Fuente: texto de los estándares copiado de un espejo público; **verificar contra FLDOE/CPALMS** antes de citar oficialmente.
 - La asignación pregunta→código se hizo por análisis del contenido de cada pregunta (el mentor puede corregirla); hay ~25 % de asignaciones aproximadas (conceptos sin estándar propio: números romanos, primos, redondeo…). Mantener la prueba `tests/florida-codes.test.mjs` al añadir preguntas.
+
+## Scope & Sequence 2026–27 integrado (v2.3)
+
+El banco se completó con lo que el Scope & Sequence oficial pide y faltaba (sin borrar nada de lo anterior):
+- **Matemáticas** (`math_scope.json`, 50): valor posicional y datos (1.º), matrices (2.º), división, fracciones unitarias y área/perímetro (3.º), decimales, ángulos y fracciones equivalentes (4.º), volumen y plano (5.º), ecuaciones de un paso y estadística (6.º), probabilidad (7.º), funciones lineales y sistemas (8.º), sistemas (9.º), congruencia, trigonometría y volumen (10.º), racionales y polinomios (11.º), límites y vectores (12.º).
+- **Inglés en tres destrezas:** *English Grammar* (las preguntas de siempre + escritura), *English Reading* (`ela_reading.json`, 77 preguntas con pasaje original, niveles 1–12) y *English Speaking* (grabación de voz con tareas de hablar y de leer en voz alta por banda de grado; el mentor la escucha en el SIS y la valora con rúbrica: fluidez, pronunciación, vocabulario, comprensión; es evaluación, no nota). Para Dual Diploma el Speaking también se pide (el nivel MCER ya incluye lectura).
+- **Ciencias, Geografía e Historia/Civismo** (`comp_scope.json`, 56) para las 4 bandas.
+- Las preguntas nuevas **no tienen PACE**: no mueven la ubicación, pero sus fallos aparecen como conceptos a reforzar (`extraGaps`), con su unidad de aprendizaje (LU) y su código de Florida. El resultado del inglés muestra el porcentaje de Gramática y de Lectura.
+- Cada pregunta nueva fue resuelta a ciegas por un segundo corrector (0 discrepancias tras corregir una cifra de un pasaje). Siguen para revisión de un mentor.
+- El PEI (documento imprimible) lleva una declaración fija: alineación con los estándares de Florida (B.E.S.T. y demás), currículo aprobado por Chanak de acuerdo con esos estándares, aprendizaje por dominio y enfoque cristocéntrico.
+- Requiere la migración del SIS `20261039_diagnostic_audio.sql` (permite subir audio al bucket privado).
