@@ -694,13 +694,16 @@ ${refRows ? `<div class="pblk refs-foot"><h3>${L.refs}</h3><table class="equiv-t
 
   // ── Enlace personal: el programa, el nombre y el curso vienen del enlace (matrícula o pago de la evaluación) ──
   const GATE_TX = {
-    es: { title: 'Necesitas tu enlace personal', body: 'El diagnóstico se hace con un enlace personal que te llega por correo al matricularte (Off-Campus) o al pagar la evaluación (Dual Diploma).', used: 'Este enlace ya se utilizó. Si necesitas repetirlo, pide uno nuevo.', expired: 'Este enlace venció. Pide uno nuevo.', void: 'Este enlace ya no es válido. Pide uno nuevo.', ask: 'Si ya te matriculaste o pagaste y no te llegó, escribe a', apply: 'Ir a la matrícula' },
-    en: { title: 'You need your personal link', body: 'The diagnostic uses a personal link emailed to you when you enroll (Off-Campus) or pay for the evaluation (Dual Diploma).', used: 'This link has already been used. If you need to retake it, ask for a new one.', expired: 'This link has expired. Ask for a new one.', void: 'This link is no longer valid. Ask for a new one.', ask: 'If you already enrolled or paid and did not receive it, write to', apply: 'Go to enrollment' },
+    es: { title: 'Necesitas tu enlace personal', body: 'Si ya eres estudiante de Chanak: entra a tu perfil del SIS y pulsa «Diagnóstico» (tu familia también puede hacerlo desde su panel). Si tu familia es nueva: el enlace personal llega por correo al matricularte (Off-Campus) o al pagar la evaluación (Dual Diploma).', used: 'Este enlace ya se utilizó. Si eres estudiante actual, entra a tu perfil del SIS y pulsa «Diagnóstico» para generar uno nuevo; si eres familia nueva, pídelo a coordinación.', expired: 'Este enlace venció (dura 30 días). Si eres estudiante actual, entra a tu perfil del SIS y pulsa «Diagnóstico»; si eres familia nueva, pide uno nuevo y te lo reenviamos.', void: 'Este enlace ya no es válido. Si eres estudiante actual, usa el botón «Diagnóstico» de tu perfil del SIS; si eres familia nueva, pide uno nuevo.', ask: 'Si ya te matriculaste o pagaste y no te llegó, escribe a', apply: 'Soy familia nueva: ir a la matrícula', sis: 'Soy estudiante actual: entrar al SIS', sub: 'Nunca necesitas pagar de nuevo por tu enlace: si algo falla, escríbenos y lo resolvemos.' },
+    en: { title: 'You need your personal link', body: 'If you are already a Chanak student: sign in to your SIS profile and tap “Diagnostic” (your family can also do it from their dashboard). If your family is new: the personal link is emailed when you enroll (Off-Campus) or pay for the evaluation (Dual Diploma).', used: 'This link has already been used. If you are a current student, sign in to your SIS profile and tap “Diagnostic” to create a new one; if you are a new family, ask coordination.', expired: 'This link has expired (it lasts 30 days). If you are a current student, sign in to your SIS profile and tap “Diagnostic”; if you are a new family, ask for a new one and we will resend it.', void: 'This link is no longer valid. If you are a current student, use the “Diagnostic” button in your SIS profile; if you are a new family, ask for a new one.', ask: 'If you already enrolled or paid and did not receive it, write to', apply: 'I am a new family: go to enrollment', sis: 'I am a current student: sign in to the SIS', sub: 'You never have to pay again for your link: if something fails, write to us and we will fix it.' },
   };
   function showGate(reason) {
     const g = GATE_TX[LANG]; const msg = reason && g[reason] ? g[reason] : g.body;
     $('gate-title').textContent = g.title; $('gate-msg').textContent = msg;
     $('gate-ask').textContent = g.ask; $('gate-apply').textContent = g.apply;
+    $('gate-sis').textContent = g.sis; $('gate-sis').classList.remove('hidden'); $('gate-sub').textContent = g.sub;
+    // enlace usado, vencido o anulado: la matrícula ya está hecha, así que no se manda de nuevo a matricularse
+    $('gate-apply').classList.toggle('hidden', !!(reason && g[reason]));
     SECTIONS.forEach((x) => $('section-' + x).classList.add('hidden')); $('section-gate').classList.remove('hidden');
   }
   function showRetry() {
@@ -708,7 +711,7 @@ ${refRows ? `<div class="pblk refs-foot"><h3>${L.refs}</h3><table class="equiv-t
     $('gate-title').textContent = es ? 'No pudimos verificar tu enlace' : 'We could not verify your link';
     $('gate-msg').textContent = es ? 'Es un problema momentáneo. Espera un minuto y vuelve a intentarlo; tu enlace sigue siendo válido.' : 'This is a temporary problem. Wait a minute and try again; your link is still valid.';
     $('gate-ask').textContent = es ? 'Si sigue fallando, escribe a' : 'If it keeps failing, write to'; $('gate-apply').textContent = es ? 'Reintentar' : 'Retry';
-    $('gate-apply').href = location.href; SECTIONS.forEach((x) => $('section-' + x).classList.add('hidden')); $('section-gate').classList.remove('hidden');
+    $('gate-apply').href = location.href; $('gate-apply').classList.remove('hidden'); $('gate-sis').classList.add('hidden'); $('gate-sub').textContent = ''; SECTIONS.forEach((x) => $('section-' + x).classList.add('hidden')); $('section-gate').classList.remove('hidden');
   }
   window.__regate = () => showGate(S.gateReason);
   async function initLink() {
