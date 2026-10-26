@@ -297,6 +297,17 @@ h3.subsec{font-family:'Playfair Display',serif;font-size:1.05rem;color:var(--azu
 /* ── CHANAK FLEX ── */
 .flex-note{margin-top:7px;background:var(--verde2);border:1px solid #16653440;border-left:3px solid var(--verde);border-radius:var(--r2);padding:9px 12px;font-size:.79rem;color:var(--verde);line-height:1.45}
 .flex-badge{display:inline-block;vertical-align:middle;background:var(--oro);color:#fff;border-radius:20px;padding:4px 13px;font-size:.68rem;font-weight:700;letter-spacing:.06em;text-transform:uppercase;font-family:'DM Sans',sans-serif;margin-left:9px}
+/* ── RESUME BANNER ── */
+.resume-banner-card{background:linear-gradient(135deg,var(--azul) 0%,#2c5282 100%);color:#fff;border-radius:var(--r);padding:18px 24px;box-shadow:0 6px 20px rgba(26,58,92,.22);display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:16px;border-left:5px solid var(--oro);margin-bottom:24px}
+.resume-info{display:flex;align-items:center;gap:14px}
+.resume-icon{font-size:2rem;flex-shrink:0}
+.resume-texts h4{font-family:'Playfair Display',serif;font-size:1.15rem;font-weight:700;color:#fff;margin-bottom:3px}
+.resume-texts p{font-size:.85rem;color:rgba(255,255,255,.88);line-height:1.4}
+.resume-btns{display:flex;gap:10px;align-items:center;flex-wrap:wrap}
+.btn-resume{background:var(--oro);color:#fff;border:none;border-radius:50px;padding:10px 24px;font-size:.88rem;font-weight:700;cursor:pointer;transition:.2s;box-shadow:0 3px 12px rgba(184,137,42,.35)}
+.btn-resume:hover{background:#a07520;transform:translateY(-1px)}
+.btn-discard{background:transparent;color:rgba(255,255,255,.75);border:1px solid rgba(255,255,255,.35);border-radius:50px;padding:8px 18px;font-size:.82rem;font-weight:500;cursor:pointer;transition:.2s}
+.btn-discard:hover{background:rgba(255,255,255,.12);color:#fff}
 /* ── EXIT MODAL ── */
 .modal-overlay{position:fixed;inset:0;background:rgba(15,23,42,.55);z-index:9999;display:flex;align-items:center;justify-content:center;backdrop-filter:blur(3px);opacity:0;pointer-events:none;transition:opacity .22s}
 .modal-overlay.open{opacity:1;pointer-events:all}
@@ -389,6 +400,23 @@ details.refs summary{cursor:pointer;color:var(--gris);font-weight:600}
   </div>
   <div class="hbadge">FLDOE #134620</div>
 </header>
+
+<!-- ═══════════ RESUME BANNER (Global) ═══════════ -->
+<div id="resume-banner" class="container hidden" style="margin-top:20px">
+  <div class="resume-banner-card">
+    <div class="resume-info">
+      <div class="resume-icon">💾</div>
+      <div class="resume-texts">
+        <h4 data-es="Evaluación guardada en curso" data-en="Saved assessment in progress">Evaluación guardada en curso</h4>
+        <p id="resume-desc" data-es="Tienes una evaluación con respuestas guardadas. Puedes continuar exactamente donde la dejaste." data-en="You have an assessment with saved progress. You can resume exactly where you left off.">Tienes una evaluación con respuestas guardadas. Puedes continuar exactamente donde la dejaste.</p>
+      </div>
+    </div>
+    <div class="resume-btns">
+      <button type="button" class="btn-resume" onclick="resumeTest()" data-es="▶ Retomar evaluación" data-en="▶ Resume assessment">▶ Retomar evaluación</button>
+      <button type="button" class="btn-discard" onclick="discardAndRestart()" data-es="Empezar de nuevo" data-en="Start over">Empezar de nuevo</button>
+    </div>
+  </div>
+</div>
 
 <!-- ═══════════ LANDING ═══════════ -->
 <section id="section-landing">
@@ -483,8 +511,11 @@ details.refs summary{cursor:pointer;color:var(--gris);font-weight:600}
 <div id="section-test" class="hidden">
 <div class="section-card container">
   <div style="margin-bottom:20px">
-    <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:9px">
-      <div class="sec-title" style="margin-bottom:0;font-size:1.15rem" id="t-subject">—</div>
+    <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:9px;flex-wrap:wrap;gap:8px">
+      <div style="display:flex;align-items:center;gap:10px">
+        <div class="sec-title" style="margin-bottom:0;font-size:1.15rem" id="t-subject">—</div>
+        <span id="t-save-badge" style="font-size:0.72rem;color:var(--verde);background:var(--verde2);border:1px solid #16653430;padding:2px 8px;border-radius:12px;font-weight:600;display:inline-flex;align-items:center;gap:4px">✓ Guardado automático</span>
+      </div>
       <div style="font-size:.80rem;color:var(--gris)"><span id="t-sname">—</span> · <span id="t-step"></span></div>
     </div>
     <p class="sec-sub" style="margin-bottom:12px" id="t-intro"></p>
@@ -493,7 +524,7 @@ details.refs summary{cursor:pointer;color:var(--gris);font-weight:600}
   </div>
   <div id="qcont"></div>
   <div class="btn-row no-print">
-    <button class="btn btn-s" onclick="exitTest()" data-es="← Salir" data-en="← Exit">← Salir</button>
+    <button class="btn btn-s" onclick="exitTest()" data-es="⏸ Pausar / Salir" data-en="⏸ Pause / Exit">⏸ Pausar / Salir</button>
     <button class="btn btn-p" id="btn-next">Continuar →</button>
   </div>
 </div>
@@ -598,12 +629,15 @@ details.refs summary{cursor:pointer;color:var(--gris);font-weight:600}
 
 <div class="modal-overlay" id="exit-modal">
   <div class="modal-box">
-    <div class="modal-icon">⚠️</div>
-    <h3 data-es="¿Salir de la evaluación?" data-en="Leave the assessment?">¿Salir de la evaluación?</h3>
-    <p data-es="Si sales ahora perderás todas las respuestas y deberás <strong>iniciar desde el principio</strong>." data-en="If you leave now you will lose all answers and must <strong>start over</strong>.">Si sales ahora perderás todas las respuestas y deberás <strong>iniciar desde el principio</strong>.</p>
+    <div class="modal-icon">💾</div>
+    <h3 data-es="¿Deseas pausar la evaluación?" data-en="Pause assessment?">¿Deseas pausar la evaluación?</h3>
+    <p data-es="Tu progreso está <strong>guardado automáticamente</strong>. Puedes salir ahora y retomarla en cualquier momento desde tu enlace personal sin perder lo que ya respondiste." data-en="Your progress is <strong>automatically saved</strong>. You can exit now and resume anytime from your personal link without losing what you already answered.">Tu progreso está <strong>guardado automáticamente</strong>. Puedes salir ahora y retomarla en cualquier momento desde tu enlace personal sin perder lo que ya respondiste.</p>
     <div class="modal-btns">
-      <button class="btn btn-s" onclick="closeExitModal()" data-es="← Continuar evaluación" data-en="← Keep going">← Continuar evaluación</button>
-      <button class="btn btn-p" style="background:#991b1b" onclick="confirmExit()" data-es="Salir y reiniciar" data-en="Leave and restart">Salir y reiniciar</button>
+      <button class="btn btn-s" onclick="closeExitModal()" data-es="← Continuar respondiendo" data-en="← Keep going">← Continuar respondiendo</button>
+      <button class="btn btn-p" onclick="saveAndExit()" data-es="Guardar y salir" data-en="Save and exit">Guardar y salir</button>
+    </div>
+    <div style="margin-top:16px;border-top:1px solid var(--borde);padding-top:12px">
+      <button type="button" style="background:none;border:none;color:#991b1b;font-size:0.78rem;cursor:pointer;text-decoration:underline;font-weight:600" onclick="confirmRestart()" data-es="Reiniciar evaluación desde cero" data-en="Restart assessment from scratch">Reiniciar evaluación desde cero</button>
     </div>
   </div>
 </div>
