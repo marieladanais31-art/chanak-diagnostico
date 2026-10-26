@@ -98,23 +98,256 @@
     _show(n);
   }
   function _show(n) {
+    S.currentSection = n;
     SECTIONS.forEach((s) => $('section-' + s).classList.add('hidden'));
     $('section-' + n).classList.remove('hidden');
     window.scrollTo({ top: 0, behavior: 'smooth' });
   }
   window.showSection = showSection;
   window.closeExitModal = () => { $('exit-modal').classList.remove('open'); S.pendingExit = null; };
-  window.confirmExit = () => { $('exit-modal').classList.remove('open'); resetAll(); _show(S.pendingExit || 'landing'); S.pendingExit = null; };
+  window.confirmExit = () => { saveAndExit(); };
   window.exitTest = () => { $('exit-modal').classList.add('open'); };
   function resetAll() {
-    S.inProgress = false; S.results = {}; S.comp = null; S.current = null; S.plan = [];
+    S.inProgress = false; S.results = {}; S.comp = null; S.current = null; S.plan = []; S.activeSubject = null;
     window.removeEventListener('beforeunload', onBeforeUnload);
     ['f-nombre', 'f-fecha', 'f-edad', 'f-curso', 'f-pais', 'f-idiomas', 'f-tutor', 'f-email', 'f-centro', 'f-mentor', 'f-obs', 'f-intereses'].forEach((id) => { const e = $(id); if (e) e.value = ''; });
     ['m-obs', 'm-mat', 'm-lec', 'm-rec'].forEach((id) => { const e = $(id); if (e) e.value = ''; });
     document.querySelectorAll('.rr').forEach((r) => { r.checked = false; });
-    $('bible-toggle').checked = false;
+    const bToggle = $('bible-toggle'); if (bToggle) bToggle.checked = false;
+    const fConsent = $('f-consent'); if (fConsent) fConsent.checked = false;
+    const fSpa = $('f-spa'); if (fSpa) fSpa.checked = false;
   }
   function onBeforeUnload(e) { if (S.inProgress) { e.preventDefault(); e.returnValue = ''; return ''; } }
+
+  // ── Persistencia y Autoguardado (Draft / Resume) ──────────────────────────
+  const DRAFT_PREFIX = 'chanak_diag_draft_';
+  const DRAFT_LAST_KEY = 'chanak_diag_last_key';
+
+  function getStorage() {
+    try {
+      const testKey = '__diag_test__';
+      localStorage.setItem(testKey, '1');
+      localStorage.removeItem(testKey);
+      return localStorage;
+    } catch {
+      return null;
+    }
+  }
+
+  function getDraftKey() {
+    const k = (S.link && S.link.token) || new URLSearchParams(location.search).get('k');
+    if (k) return DRAFT_PREFIX + k;
+    return DRAFT_PREFIX + 'guest';
+  }
+
+  let saveBadgeTimer = null;
+  function showSaveBadge(text) {
+    const badge = $('t-save-badge');
+    if (!badge) return;
+    badge.textContent = text || (LANG === 'es' ? '✓ Guardado' : '✓ Saved');
+    badge.style.opacity = '1';
+    clearTimeout(saveBadgeTimer);
+    saveBadgeTimer = setTimeout(() => {
+      badge.textContent = LANG === 'es' ? '✓ Guardado automático' : '✓ Auto-saved';
+    }, 2000);
+  }
+
+  function saveDraft(extra = {}) {
+    const store = getStorage();
+    if (!store) return;
+    const key = getDraftKey();
+    const currentForm = Object.keys(S.form || {}).length ? S.form : readForm();
+    const draft = {
+      savedAt: Date.now(),
+      version: '2.2',
+      linkToken: (S.link && S.link.token) || null,
+      form: currentForm,
+      grade: S.grade !== undefined && S.grade !== null ? S.grade : Number(currentForm.curso || 0),
+      track: S.track || currentForm.programa || 'off',
+      bible: !!S.bible,
+      us: S.us !== undefined ? S.us : true,
+      plan: S.plan && S.plan.length ? S.plan : [],
+      results: S.results || {},
+      comp: S.comp || null,
+      spa: S.spa || null,
+      summary: S.summary || null,
+      currentSubj: S.currentSubj || null,
+      activeSubject: S.activeSubject || null,
+      inProgress: !!S.inProgress,
+      lastSection: extra.lastSection || S.currentSection || 'form',
+      ...extra,
+    };
+    try {
+      store.setItem(key, JSON.stringify(draft));
+      store.setItem(DRAFT_LAST_KEY, key);
+      showSaveBadge();
+    } catch (e) {
+      console.warn('No se pudo guardar el borrador en localStorage', e);
+    }
+  }
+
+  function loadDraft() {
+    const store = getStorage();
+    if (!store) return null;
+    const key = getDraftKey();
+    let raw = store.getItem(key);
+    if (!raw && !key.endsWith('guest')) {
+      raw = store.getItem(DRAFT_PREFIX + 'guest');
+    }
+    if (!raw) return null;
+    try {
+      const data = JSON.parse(raw);
+      return data && typeof data === 'object' ? data : null;
+    } catch {
+      return null;
+    }
+  }
+
+  function clearDraft() {
+    const store = getStorage();
+    if (!store) return;
+    const key = getDraftKey();
+    try {
+      store.removeItem(key);
+      store.removeItem(DRAFT_PREFIX + 'guest');
+      store.removeItem(DRAFT_LAST_KEY);
+    } catch {}
+  }
+
+  function restoreFormFields(f) {
+    if (!f) return;
+    const set = (id, v) => {
+      const el = $(id);
+      if (el && v !== undefined && v !== null && v !== '') {
+        if (el.type === 'checkbox') el.checked = Boolean(v);
+        else el.value = v;
+      }
+    };
+    set('f-nombre', f.nombre);
+    set('f-fecha', f.fecha);
+    set('f-edad', f.edad);
+    set('f-curso', f.curso);
+    set('f-pais', f.pais);
+    set('f-idiomas', f.idiomas);
+    set('f-tutor', f.tutor);
+    set('f-email', f.email);
+    set('f-centro', f.centro);
+    set('f-mentor', f.mentor);
+    set('f-obs', f.obs);
+    set('f-intereses', f.intereses);
+    if (f.programa && $('f-programa') && !$('f-programa').disabled) set('f-programa', f.programa);
+    if (f.ingles) set('f-ingles', f.ingles);
+    if ($('f-consent')) $('f-consent').checked = true;
+    if ($('f-spa') && f.spa !== undefined) $('f-spa').checked = !!f.spa;
+    if ($('bible-toggle') && f.bible !== undefined) $('bible-toggle').checked = !!f.bible;
+    if (f.pais) window.onPaisChange(f.pais);
+  }
+
+  function attachFormAutoSave() {
+    const ids = ['f-nombre', 'f-fecha', 'f-edad', 'f-curso', 'f-pais', 'f-idiomas', 'f-tutor', 'f-email', 'f-centro', 'f-mentor', 'f-obs', 'f-programa', 'f-ingles', 'f-intereses', 'f-consent', 'f-spa', 'bible-toggle'];
+    ids.forEach((id) => {
+      const el = $(id);
+      if (!el) return;
+      el.addEventListener('input', () => { saveDraft({ form: readForm() }); });
+      el.addEventListener('change', () => { saveDraft({ form: readForm() }); });
+    });
+  }
+
+  function checkAndShowResumeBanner() {
+    const draft = loadDraft();
+    if (!draft) {
+      hideResumeBanner();
+      return false;
+    }
+    const hasName = draft.form && draft.form.nombre && draft.form.nombre.trim();
+    const hasResults = draft.results && Object.keys(draft.results).length > 0;
+    const inProgress = Boolean(draft.inProgress || hasResults || draft.activeSubject);
+
+    if (!inProgress && !hasName) {
+      hideResumeBanner();
+      return false;
+    }
+
+    const banner = $('resume-banner');
+    if (!banner) return false;
+
+    const desc = $('resume-desc');
+    const student = (draft.form && draft.form.nombre) ? draft.form.nombre : (LANG === 'es' ? 'Estudiante' : 'Student');
+    const gradeLabel = draft.grade !== undefined && draft.grade !== '' && draft.grade !== 0 ? `Grado ${draft.grade}` : (draft.grade === 0 ? 'Kindergarten' : '');
+    const dateStr = draft.savedAt ? new Date(draft.savedAt).toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' }) : '';
+
+    let msg = '';
+    if (LANG === 'es') {
+      msg = `Hola, <strong>${esc(student)}</strong>. Tienes una evaluación en curso ${gradeLabel ? ' (' + esc(gradeLabel) + ')' : ''}${dateStr ? ' guardada a las ' + esc(dateStr) : ''}. Puedes continuar exactamente donde la dejaste sin repetir lo que ya respondiste.`;
+    } else {
+      msg = `Hello, <strong>${esc(student)}</strong>. You have an assessment in progress ${gradeLabel ? ' (' + esc(gradeLabel) + ')' : ''}${dateStr ? ' saved at ' + esc(dateStr) : ''}. You can resume exactly where you left off.`;
+    }
+    if (desc) desc.innerHTML = msg;
+    banner.classList.remove('hidden');
+    return true;
+  }
+
+  function hideResumeBanner() {
+    const banner = $('resume-banner');
+    if (banner) banner.classList.add('hidden');
+  }
+
+  window.resumeTest = async () => {
+    const draft = loadDraft();
+    if (!draft) {
+      alert(LANG === 'es' ? 'No se encontró progreso guardado.' : 'No saved progress found.');
+      return;
+    }
+    if (draft.form) restoreFormFields(draft.form);
+    S.form = draft.form || readForm();
+    S.grade = draft.grade !== undefined ? draft.grade : Number(S.form.curso);
+    S.track = draft.track || S.form.programa || 'off';
+    S.bible = draft.bible !== undefined ? draft.bible : ($('bible-toggle') ? $('bible-toggle').checked : false);
+    S.us = draft.us !== undefined ? draft.us : true;
+    S.results = draft.results || {};
+    S.comp = draft.comp || null;
+    S.spa = draft.spa || null;
+    S.summary = draft.summary || null;
+    if (draft.plan && draft.plan.length) S.plan = draft.plan; else buildPlan();
+    hideResumeBanner();
+
+    const reqSubjs = S.plan.filter((s) => s !== 'spa');
+    const allDone = reqSubjs.every((s) => (s === 'comp' ? Boolean(S.comp) : Boolean(S.results[s])));
+    if (allDone && S.summary) {
+      renderResults();
+      showSection('results');
+      return;
+    }
+    await window.startTest(true);
+  };
+
+  window.discardAndRestart = () => {
+    const es = LANG === 'es';
+    if (!confirm(es ? '¿Deseas descartar el progreso guardado y comenzar la prueba desde cero?' : 'Do you want to discard your saved progress and start the assessment over?')) return;
+    clearDraft();
+    hideResumeBanner();
+    resetAll();
+    _show('landing');
+  };
+
+  window.saveAndExit = () => {
+    saveDraft({ inProgress: false });
+    $('exit-modal').classList.remove('open');
+    S.inProgress = false;
+    window.removeEventListener('beforeunload', onBeforeUnload);
+    checkAndShowResumeBanner();
+    _show('landing');
+  };
+
+  window.confirmRestart = () => {
+    const es = LANG === 'es';
+    if (!confirm(es ? '¿Confirmas reiniciar toda la evaluación desde cero? Se borrarán las respuestas anteriores.' : 'Are you sure you want to restart from scratch? All previous answers will be deleted.')) return;
+    clearDraft();
+    $('exit-modal').classList.remove('open');
+    hideResumeBanner();
+    resetAll();
+    _show('landing');
+  };
 
   // ── Formulario ────────────────────────────────────────────────────────────
   window.onPaisChange = (v) => {
@@ -129,11 +362,19 @@
     if (!f.mentor.trim()) { alert(T().needMentor); return; }
     if (!$('f-consent').checked) { alert(T().needConsent); return; }
     S.form = f; S.grade = Number(f.curso); S.track = f.programa; S.us = true; // versión única: EE. UU. / Florida (B.E.S.T.)
-    buildPlan(); renderPlanSummary(); showSection('level');
+    buildPlan(); renderPlanSummary();
+    saveDraft({ lastSection: 'level' });
+    showSection('level');
   };
   function readForm() {
     const v = (id) => ($(id) ? $(id).value : '');
-    return { nombre: v('f-nombre'), fecha: v('f-fecha'), edad: v('f-edad'), curso: v('f-curso'), pais: v('f-pais'), idiomas: v('f-idiomas'), tutor: v('f-tutor'), email: v('f-email'), centro: v('f-centro'), mentor: v('f-mentor'), obs: v('f-obs'), programa: v('f-programa') || 'off', ingles: v('f-ingles') || 'si', intereses: v('f-intereses') };
+    const cb = (id) => ($(id) ? $(id).checked : false);
+    return {
+      nombre: v('f-nombre'), fecha: v('f-fecha'), edad: v('f-edad'), curso: v('f-curso'), pais: v('f-pais'),
+      idiomas: v('f-idiomas'), tutor: v('f-tutor'), email: v('f-email'), centro: v('f-centro'), mentor: v('f-mentor'),
+      obs: v('f-obs'), programa: v('f-programa') || 'off', ingles: v('f-ingles') || 'si', intereses: v('f-intereses'),
+      spa: cb('f-spa'), bible: cb('bible-toggle'), consent: cb('f-consent')
+    };
   }
   function buildPlan() {
     const plan = [];
@@ -160,31 +401,66 @@
   }
   async function loadMap() { if (!S.map) { try { S.map = await api('/data/placement-map.json'); } catch { S.map = { grades: {} }; } } }
 
-  window.startTest = async () => {
-    S.bible = $('bible-toggle').checked; S.results = {}; S.comp = null; S.speak = null; S.spa = null; S.inProgress = true;
+  window.startTest = async (isResume = false) => {
+    if (!isResume) {
+      S.bible = $('bible-toggle') ? $('bible-toggle').checked : false;
+      S.results = {};
+      S.comp = null;
+      S.speak = null;
+      S.spa = null;
+      S.activeSubject = null;
+    }
+    S.inProgress = true;
+    saveDraft({ inProgress: true, lastSection: 'test' });
     window.addEventListener('beforeunload', onBeforeUnload);
     await loadMap();
     try {
-      for (const subj of S.plan) { if (subj === 'comp') await runComp(); else if (subj === 'cefr') await runCefr(); else if (subj === 'spa') continue; else await runSubject(subj); }
-    } catch (e) { console.error(e); alert(T().netError); S.inProgress = false; return; }
-    try { if (S.plan.some((x) => x === 'ela' || x === 'cefr')) await runSpeaking(); } catch (e) { console.error(e); }
-    try { if (S.plan.includes('spa')) await runSpa(); } catch (e) { console.error(e); alert(T().netError); }
-    S.inProgress = false; window.removeEventListener('beforeunload', onBeforeUnload);
-    finalizeResults(); renderResults(); showSection('results'); submitResults();
+      for (const subj of S.plan) {
+        if (subj === 'comp') await runComp();
+        else if (subj === 'cefr') await runCefr();
+        else if (subj === 'spa') continue;
+        else await runSubject(subj);
+      }
+    } catch (e) {
+      console.error(e);
+      alert(T().netError);
+      S.inProgress = false;
+      saveDraft({ inProgress: false });
+      return;
+    }
+    try {
+      if (S.plan.some((x) => x === 'ela' || x === 'cefr')) await runSpeaking();
+    } catch (e) {
+      console.error(e);
+    }
+    try {
+      if (S.plan.includes('spa')) await runSpa();
+    } catch (e) {
+      console.error(e);
+      alert(T().netError);
+    }
+    S.inProgress = false;
+    window.removeEventListener('beforeunload', onBeforeUnload);
+    finalizeResults();
+    renderResults();
+    showSection('results');
+    submitResults();
   };
 
   // Muestra un bloque de preguntas y devuelve las respuestas cuando el usuario continúa.
-  function askBlock({ title, intro, items, stepLabel, last }) {
+  function askBlock({ title, intro, items, stepLabel, last, initialAnswers, onAnswerChange }) {
     return new Promise((resolve) => {
       $('t-sname').textContent = S.form.nombre || '—';
-      $('t-subject').textContent = title; $('t-intro').innerHTML = esc(intro) + `<br><span class="supv">${esc(T().supervisor)}</span>`;
+      $('t-subject').textContent = title;
+      $('t-intro').innerHTML = esc(intro) + `<br><span class="supv">${esc(T().supervisor)}</span>`;
       $('t-step').textContent = stepLabel;
       const cont = $('qcont'); cont.innerHTML = '';
-      const ans = {};
+      const ans = { ...(initialAnswers || {}) };
       const upd = () => {
         const n = Object.keys(ans).length;
         $('tpfill').style.width = Math.round((n / items.length) * 100) + '%';
-        $('t-ptxt').textContent = T().ofQ(n, items.length); $('t-ppct').textContent = Math.round((n / items.length) * 100) + '%';
+        $('t-ptxt').textContent = T().ofQ(n, items.length);
+        $('t-ppct').textContent = Math.round((n / items.length) * 100) + '%';
       };
       items.forEach((it, i) => {
         const d = document.createElement('div'); d.className = 'qblock'; d.dataset.id = it.id;
@@ -195,14 +471,30 @@
           box.className = 'opts';
           it.options.forEach((o, j) => {
             const lb = document.createElement('label'); lb.className = 'olbl';
-            lb.innerHTML = `<input type="radio" name="q${i}"><span>${String.fromCharCode(65 + j)}. ${esc(o)}</span>`;
-            lb.querySelector('input').addEventListener('change', () => { ans[it.id] = j; box.querySelectorAll('.olbl').forEach((x) => x.classList.remove('sel')); lb.classList.add('sel'); upd(); });
+            const isChecked = ans[it.id] !== undefined && Number(ans[it.id]) === j;
+            if (isChecked) lb.classList.add('sel');
+            lb.innerHTML = `<input type="radio" name="q${i}" ${isChecked ? 'checked' : ''}><span>${String.fromCharCode(65 + j)}. ${esc(o)}</span>`;
+            lb.querySelector('input').addEventListener('change', () => {
+              ans[it.id] = j;
+              box.querySelectorAll('.olbl').forEach((x) => x.classList.remove('sel'));
+              lb.classList.add('sel');
+              upd();
+              if (onAnswerChange) onAnswerChange(ans);
+              saveDraft();
+            });
             box.appendChild(lb);
           });
         } else {
           box.className = 'numbox';
-          box.innerHTML = '<input type="text" inputmode="decimal" autocomplete="off" placeholder="…">';
-          box.querySelector('input').addEventListener('input', (e) => { const v = e.target.value.trim(); if (v) ans[it.id] = v; else delete ans[it.id]; upd(); });
+          const val = ans[it.id] !== undefined ? esc(ans[it.id]) : '';
+          box.innerHTML = `<input type="text" inputmode="decimal" autocomplete="off" placeholder="…" value="${val}">`;
+          box.querySelector('input').addEventListener('input', (e) => {
+            const v = e.target.value.trim();
+            if (v) ans[it.id] = v; else delete ans[it.id];
+            upd();
+            if (onAnswerChange) onAnswerChange(ans);
+            saveDraft();
+          });
         }
         d.appendChild(box); cont.appendChild(d);
       });
@@ -219,54 +511,149 @@
   }
 
   async function runSubject(subj) {
+    if (S.results[subj]) return; // Si ya se completó y corrigió en un intento anterior, no se repite
     const g = S.grade;
-    const state = { grade: g, blocks: [], ext: 0 };
-    let level = C.startLevel(g); let n = 0;
+    let state = { grade: g, blocks: [], ext: 0 };
+    let level = C.startLevel(g);
+    let n = 0;
+
+    const draft = loadDraft();
+    let pendingAnswers = null;
+    if (draft && draft.activeSubject && draft.activeSubject.subj === subj) {
+      if (draft.activeSubject.state) state = draft.activeSubject.state;
+      if (draft.activeSubject.level) level = draft.activeSubject.level;
+      if (draft.activeSubject.n) n = draft.activeSubject.n - 1;
+      if (draft.activeSubject.answers) pendingAnswers = draft.activeSubject.answers;
+    }
+
     for (let guard = 0; guard < 16; guard++) {
       n++;
+      S.currentSubj = subj;
+      S.activeSubject = { subj, state, level, n, answers: pendingAnswers || {} };
+      saveDraft();
+
       const data = await api(`/api/diag-items?subject=${subj}&level=${level}&lang=en`);
       if (!data.items.length) throw new Error('Sin preguntas para ' + subj + ' nivel ' + level);
+
       const ans = await askBlock({
-        title: `${T().subj[subj]} · ${GRADE_LABEL(level)}`, intro: (subj === 'math' ? T().mathIntro + ' ' + T().readAloud : T().elaIntro), items: data.items,
-        stepLabel: T().step(n), last: false,
+        title: `${T().subj[subj]} · ${GRADE_LABEL(level)}`,
+        intro: (subj === 'math' ? T().mathIntro + ' ' + T().readAloud : T().elaIntro),
+        items: data.items,
+        stepLabel: T().step(n),
+        last: false,
+        initialAnswers: pendingAnswers,
+        onAnswerChange: (curAns) => {
+          S.activeSubject = { subj, state, level, n, answers: curAns };
+          saveDraft();
+        },
       });
+
+      pendingAnswers = null;
+
       const sc = await api('/api/diag-score', { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({ subject: subj, level, answers: ans }) });
       state.blocks.push({ level, units: sc.units, pct: sc.pct });
       const step = C.next(state);
-      if (step.action === 'done') { S.results[subj] = step.result; return; }
+      if (step.action === 'done') {
+        S.results[subj] = step.result;
+        S.activeSubject = null;
+        saveDraft();
+        return;
+      }
       if (step.ext) state.ext = step.ext;
       level = step.level;
+      S.activeSubject = { subj, state, level, n, answers: {} };
+      saveDraft();
     }
     throw new Error('Demasiados bloques');
   }
 
-
   async function runCefr() {
-    const blocks = []; let level = 1; let n = 0;
+    if (S.results.cefr) return;
+    let blocks = [];
+    let level = 1;
+    let n = 0;
+
+    const draft = loadDraft();
+    let pendingAnswers = null;
+    if (draft && draft.activeSubject && draft.activeSubject.subj === 'cefr') {
+      if (draft.activeSubject.blocks) blocks = draft.activeSubject.blocks;
+      if (draft.activeSubject.level) level = draft.activeSubject.level;
+      if (draft.activeSubject.n) n = draft.activeSubject.n - 1;
+      if (draft.activeSubject.answers) pendingAnswers = draft.activeSubject.answers;
+    }
+
     for (let guard = 0; guard < 8; guard++) {
       n++;
+      S.currentSubj = 'cefr';
+      S.activeSubject = { subj: 'cefr', blocks, level, n, answers: pendingAnswers || {} };
+      saveDraft();
+
       const data = await api(`/api/diag-items?subject=cefr&level=${level}&lang=en`);
       const code = C.CEFR[level - 1];
-      const ans = await askBlock({ title: `${T().subj.cefr} · ${code}`, intro: T().cefrIntro, items: data.items, stepLabel: T().step(n), last: false });
+      const ans = await askBlock({
+        title: `${T().subj.cefr} · ${code}`,
+        intro: T().cefrIntro,
+        items: data.items,
+        stepLabel: T().step(n),
+        last: false,
+        initialAnswers: pendingAnswers,
+        onAnswerChange: (curAns) => {
+          S.activeSubject = { subj: 'cefr', blocks, level, n, answers: curAns };
+          saveDraft();
+        },
+      });
+
+      pendingAnswers = null;
+
       const sc = await api('/api/diag-score', { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({ subject: 'cefr', level, answers: ans }) });
       blocks.push({ level, units: sc.units });
       const step = C.cefrNext(blocks);
       if (step.action === 'done') break;
       level = step.level;
+      S.activeSubject = { subj: 'cefr', blocks, level, n, answers: {} };
+      saveDraft();
     }
     S.results.cefr = C.cefrResult(blocks);
+    S.activeSubject = null;
+    saveDraft();
   }
 
   async function runComp() {
+    if (S.comp) return;
     const band = S.grade <= 3 ? 1 : S.grade <= 6 ? 2 : S.grade <= 9 ? 3 : 4;
     const areas = S.track === 'dual' ? ['ei'] : null;
     const q = `/api/diag-items?subject=comp&level=${band}&lang=${LANG}${S.bible ? '&bible=1' : ''}${S.us ? '&us=1' : ''}${areas ? '&areas=' + areas.join(',') : ''}`;
+
+    const draft = loadDraft();
+    let pendingAnswers = null;
+    if (draft && draft.activeSubject && draft.activeSubject.subj === 'comp') {
+      pendingAnswers = draft.activeSubject.answers;
+    }
+
+    S.currentSubj = 'comp';
+    S.activeSubject = { subj: 'comp', band, answers: pendingAnswers || {} };
+    saveDraft();
+
     const data = await api(q);
-    const ans = await askBlock({ title: T().subj.comp, intro: T().compIntro, items: data.items, stepLabel: '', last: true });
+    const ans = await askBlock({
+      title: T().subj.comp,
+      intro: T().compIntro,
+      items: data.items,
+      stepLabel: '',
+      last: true,
+      initialAnswers: pendingAnswers,
+      onAnswerChange: (curAns) => {
+        S.activeSubject = { subj: 'comp', band, answers: curAns };
+        saveDraft();
+      },
+    });
+
     const sc = await api('/api/diag-score', { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({ subject: 'comp', level: band, answers: ans, bible: S.bible, us: S.us, areas }) });
     const by = {};
     sc.units.forEach((u) => { const a = u.area || 'x'; by[a] = by[a] || { c: 0, t: 0 }; by[a].t++; if (u.correct) by[a].c++; });
     S.comp = { band, by, total: sc.total, correct: sc.correct };
+    S.activeSubject = null;
+    saveDraft();
   }
 
   // Declaración fija en el papel del PEI: alineación con Florida (B.E.S.T., etc.), dominio y enfoque cristocéntrico.
@@ -351,13 +738,40 @@
 
   // ── Dominio de castellano (opcional): un bloque por grado, preguntas en español ──────────────────
   async function runSpa() {
+    if (S.spa) return;
     const level = Math.max(2, Math.min(12, S.grade));
     const data = await api(`/api/diag-items?subject=spa&level=${level}&lang=es`);
     if (!data.items.length) return;
-    const ans = await askBlock({ title: T().subj.spa, intro: 'Optional section: Spanish reading comprehension and grammar. The questions are in Spanish. There are no right or wrong feelings here: it only helps us plan the right support.', items: data.items, stepLabel: '', last: true });
+
+    const draft = loadDraft();
+    let pendingAnswers = null;
+    if (draft && draft.activeSubject && draft.activeSubject.subj === 'spa') {
+      pendingAnswers = draft.activeSubject.answers;
+    }
+
+    S.currentSubj = 'spa';
+    S.activeSubject = { subj: 'spa', level, answers: pendingAnswers || {} };
+    saveDraft();
+
+    const ans = await askBlock({
+      title: T().subj.spa,
+      intro: 'Optional section: Spanish reading comprehension and grammar. The questions are in Spanish. There are no right or wrong feelings here: it only helps us plan the right support.',
+      items: data.items,
+      stepLabel: '',
+      last: true,
+      initialAnswers: pendingAnswers,
+      onAnswerChange: (curAns) => {
+        S.activeSubject = { subj: 'spa', level, answers: curAns };
+        saveDraft();
+      },
+    });
+
     const sc = await api('/api/diag-score', { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({ subject: 'spa', level, answers: ans }) });
-    const dom = {}; sc.units.forEach((u) => { const d = u.domain || 'grammar'; dom[d] = dom[d] || { c: 0, t: 0 }; dom[d].t++; if (u.correct) dom[d].c++; });
+    const dom = {};
+    sc.units.forEach((u) => { const d = u.domain || 'grammar'; dom[d] = dom[d] || { c: 0, t: 0 }; dom[d].t++; if (u.correct) dom[d].c++; });
     S.spa = { level, total: sc.total, correct: sc.correct, pct: sc.pct, domains: dom, gaps: sc.units.filter((u) => !u.correct && u.lu).map((u) => ({ lu: u.lu, domain: u.domain || 'grammar' })).filter((g, i, a) => a.findIndex((x) => x.lu.id === g.lu.id) === i) };
+    S.activeSubject = null;
+    saveDraft();
   }
   function spaCard() {
     const r = S.spa; if (!r) return '';
@@ -630,6 +1044,7 @@ ${refRows ? `<div class="pblk refs-foot"><h3>${L.refs}</h3><table class="equiv-t
       const out = await postJson('/api/diag-submit', { track: S.track, payload, link_token: S.link ? S.link.token : undefined });
       S.sub = { id: out.id, token: out.upload_token, route: out.route_email };
       box.className = 'note ok'; box.innerHTML = `✓ ${esc(T().sentOk)} (<strong>${esc(out.route_email)}</strong>)`;
+      clearDraft();
       renderUploadPanel(); uploadSpeaking();
     } catch (e) {
       box.className = 'note warn'; box.innerHTML = `${esc(T().sentFail)} <button class="btn btn-s" style="padding:3px 12px" onclick="retrySubmit()">${esc(T().retry)}</button>`;
@@ -728,11 +1143,27 @@ ${refRows ? `<div class="pblk refs-foot"><h3>${L.refs}</h3><table class="equiv-t
       if (info.declared_grade != null && Number(info.declared_grade) < 2) setTimeout(() => alert('The diagnostic is taken from Grade 2 on. Kindergarten and Grade 1 do not take it.'), 300);
       set('f-programa', info.track); $('f-programa').disabled = true;
       $('link-banner').classList.remove('hidden');
-      _show('form'); return true;
+
+      const draft = loadDraft();
+      if (draft && draft.form) restoreFormFields(draft.form);
+
+      _show('form');
+      return true;
     } catch {
       if (k) { showRetry(); return true; } // trae enlace pero no se pudo comprobar: se pide reintentar, no se abre la presentación
       return false; // sin enlace y sin servicio: página abierta (modo transición)
     }
   }
-  document.addEventListener('DOMContentLoaded', async () => { applyLang(); if (uploadOnlyMode()) return; if (!(await initLink())) _show('landing'); });
+  document.addEventListener('DOMContentLoaded', async () => {
+    applyLang();
+    attachFormAutoSave();
+    if (uploadOnlyMode()) return;
+    const linkHandled = await initLink();
+    if (!linkHandled) {
+      const draft = loadDraft();
+      if (draft && draft.form) restoreFormFields(draft.form);
+      _show('landing');
+    }
+    checkAndShowResumeBanner();
+  });
 })();
