@@ -394,7 +394,7 @@ details.refs summary{cursor:pointer;color:var(--gris);font-weight:600}
       <span>Evaluation · Education · Excellence</span>
     </div>
   </div>
-  <div class="langbar" style="display:none" aria-hidden="true">
+  <div class="langbar">
     <button class="langbtn on" data-lang="es" onclick="setLang('es')">ES</button>
     <button class="langbtn" data-lang="en" onclick="setLang('en')">EN</button>
   </div>
@@ -466,19 +466,40 @@ details.refs summary{cursor:pointer;color:var(--gris);font-weight:600}
       <div id="flex-note" class="flex-note hidden" data-es="✓ Vía americana: este será tu <strong>Diagnóstico Chanak Flex</strong> (currículo core americano, FLDOE #134620)." data-en="✓ U.S. pathway: this will be your <strong>Chanak Flex Diagnostic</strong> (U.S. core curriculum, FLDOE #134620).">✓ Vía americana: este será tu <strong>Diagnóstico Chanak Flex</strong> (currículo core americano, FLDOE #134620).</div>
       <div id="us-hint" class="flex-note hidden"><button class="btn btn-s" style="padding:4px 12px" onclick="setLang('en')">Switch to English</button></div>
     </div>
-    <div class="fi full"><p class="flex-note" style="margin:0">The diagnostic is taken from <strong>Grade 2</strong> on, in English, with the U.S. (Florida B.E.S.T.) core. Kindergarten and Grade 1 do not take it.</p></div>
-    <div class="fi full"><label class="consent" style="margin:0"><input type="checkbox" id="f-spa"> <span>Include the <strong>optional</strong> Spanish proficiency section (reading comprehension &amp; grammar).</span></label></div>
+    <div class="fi full"><p class="flex-note" style="margin:0" data-es="El diagnóstico se realiza a partir de <strong>Grade 2</strong>, en inglés, con el núcleo de EE. UU. (Florida B.E.S.T.). Kindergarten y Grade 1 no lo realizan." data-en="The diagnostic is taken from <strong>Grade 2</strong> on, in English, with the U.S. (Florida B.E.S.T.) core. Kindergarten and Grade 1 do not take it.">The diagnostic is taken from <strong>Grade 2</strong> on, in English, with the U.S. (Florida B.E.S.T.) core. Kindergarten and Grade 1 do not take it.</p></div>
+    <div class="fi full"><label class="consent" style="margin:0"><input type="checkbox" id="f-spa"> <span data-es="Incluir la sección <strong>opcional</strong> de dominio de castellano (comprensión lectora y gramática)." data-en="Include the <strong>optional</strong> Spanish proficiency section (reading comprehension &amp; grammar).">Include the <strong>optional</strong> Spanish proficiency section (reading comprehension &amp; grammar).</span></label></div>
     <div class="fi"><label data-es="Programa" data-en="Program">Programa</label>
-      <select id="f-programa"><option value="off">Off-Campus (K-12)</option><option value="dual" data-es="Dual Diploma (solo Inglés y Lectura)" data-en="Dual Diploma (English &amp; Reading only)">Dual Diploma (solo Inglés y Lectura)</option></select></div>
+      <select id="f-programa"><option value="off" data-es="Off-Campus (K-12)" data-en="Off-Campus (K-12)">Off-Campus (K-12)</option><option value="dual" data-es="Dual Diploma (solo Inglés y Lectura)" data-en="Dual Diploma (English &amp; Reading only)">Dual Diploma (solo Inglés y Lectura)</option></select></div>
     <div class="fi"><label data-es="¿El estudiante lee en inglés?" data-en="Does the student read English?">¿El estudiante lee en inglés?</label>
       <select id="f-ingles"><option value="si" data-es="Sí, con soltura" data-en="Yes, comfortably">Sí, con soltura</option><option value="poco" data-es="Un poco" data-en="A little">Un poco</option><option value="no" data-es="Todavía no" data-en="Not yet">Todavía no</option></select></div>
     <div class="fi"><label data-es="Idioma(s) en el hogar" data-en="Home language(s)">Idioma(s) en el hogar</label><input type="text" id="f-idiomas" data-ph-es="Ej. Español, Inglés" data-ph-en="E.g. Spanish, English" placeholder="Ej. Español, Inglés"></div>
-    <div class="fi"><label data-es="Nombre del padre / madre / tutor" data-en="Parent / guardian name">Nombre del padre / madre / tutor</label><input type="text" id="f-tutor"></div>
-    <div class="fi"><label data-es="Correo electrónico de la familia" data-en="Family email">Correo electrónico de la familia</label><input type="email" id="f-email" placeholder="correo@ejemplo.com"></div>
-    <div class="fi full"><label data-es="Centro o institución anterior" data-en="Previous school">Centro o institución anterior</label><input type="text" id="f-centro"></div>
-    <div class="fi full"><label data-es="Mentor / Evaluador *" data-en="Mentor / Evaluator *">Mentor / Evaluador *</label><input type="text" id="f-mentor"></div>
+    <div class="fi"><label data-es="Nombre del padre / madre / tutor" data-en="Parent / guardian name">Nombre del padre / madre / tutor</label><input type="text" id="f-tutor" data-ph-es="Nombre y apellidos" data-ph-en="Full name" placeholder="Nombre y apellidos"></div>
+    <div class="fi"><label data-es="Correo electrónico de la familia" data-en="Family email">Correo electrónico de la familia</label><input type="email" id="f-email" placeholder="correo@ejemplo.com" data-ph-es="correo@ejemplo.com" data-ph-en="email@example.com"></div>
+    <div class="fi full"><label data-es="Centro o institución anterior" data-en="Previous school">Centro o institución anterior</label><input type="text" id="f-centro" data-ph-es="Nombre del colegio o homeschool previo" data-ph-en="Previous school or homeschool name" placeholder="Nombre del colegio o homeschool previo"></div>
+    <div class="fi full"><label data-es="Mentor / Evaluador *" data-en="Mentor / Evaluator *">Mentor / Evaluador *</label><input type="text" id="f-mentor" data-ph-es="Nombre del evaluador o secretaría" data-ph-en="Evaluator or admissions name" placeholder="Nombre del evaluador o secretaría"></div>
     <div class="fi full"><label data-es="Intereses y vocación (opcional)" data-en="Interests and vocation (optional)">Intereses y vocación (opcional)</label><textarea id="f-intereses" data-ph-es="Qué le gusta, a qué se imagina dedicándose, talentos, pasatiempos…" data-ph-en="What they enjoy, what they imagine doing, talents, hobbies…" placeholder="Qué le gusta, a qué se imagina dedicándose, talentos, pasatiempos…"></textarea></div>
-    <div class="fi full"><label data-es="Observaciones previas de la familia" data-en="Family notes">Observaciones previas de la familia</label><textarea id="f-obs"></textarea></div>
+    <div class="fi full"><label data-es="Observaciones previas de la familia" data-en="Family notes">Observaciones previas de la familia</label><textarea id="f-obs" data-ph-es="Observaciones o necesidades particulares…" data-ph-en="Observations or specific needs…" placeholder="Observaciones o necesidades particulares…"></textarea></div>
+
+    <!-- Subida directa de documentos en el formulario -->
+    <div class="fi full" style="margin-top:10px">
+      <div class="plan-box" style="background:#f8fafc;border:1.5px dashed #cbd5e1;border-radius:12px;padding:16px;">
+        <div style="display:flex;align-items:center;gap:8px;margin-bottom:6px">
+          <span style="font-size:1.3rem">📎</span>
+          <strong style="color:var(--azul,#193D6D)" data-es="Subir documentos solicitados (opcional pero recomendado)" data-en="Upload requested documents (optional but recommended)">Subir documentos solicitados (opcional pero recomendado)</strong>
+        </div>
+        <p class="muted" style="margin-bottom:12px;font-size:0.82rem;line-height:1.5" data-es="Puedes adjuntar aquí directamente: 1) Muestra de escritura a mano del alumno (un párrafo o ejercicios); 2) Boletín de notas anterior o diploma previo (adultos); 3) Documento de identidad (ID/Pasaporte). Formatos: JPG, PNG o PDF (máx. 15 archivos)." data-en="You can directly attach here: 1) Student handwriting sample (a paragraph or math work); 2) Previous report card or prior diploma (adults); 3) Identification document (ID/Passport). Formats: JPG, PNG, or PDF (up to 15 files).">
+          Puedes adjuntar aquí directamente: 1) Muestra de escritura a mano del alumno (un párrafo o ejercicios); 2) Boletín de notas anterior o diploma previo (adultos); 3) Documento de identidad (ID/Pasaporte). Formatos: JPG, PNG o PDF (máx. 15 archivos).
+        </p>
+        <div style="display:flex;align-items:center;gap:12px;flex-wrap:wrap">
+          <label class="btn btn-s" style="cursor:pointer;display:inline-flex;align-items:center;gap:6px;padding:8px 16px;background:#fff;border:1.5px solid var(--azul,#193D6D);color:var(--azul,#193D6D);font-weight:700">
+            <input type="file" id="form-upload-input" accept="image/*,application/pdf" multiple onchange="handleFormFileUpload(this)" style="display:none">
+            <span data-es="📁 Seleccionar archivos o fotos" data-en="📁 Choose files or photos">📁 Seleccionar archivos o fotos</span>
+          </label>
+          <span id="form-upload-summary" class="muted" style="font-size:0.82rem" data-es="Ningún archivo seleccionado aún" data-en="No files chosen yet">Ningún archivo seleccionado aún</span>
+        </div>
+        <div id="form-upload-list" style="margin-top:10px;display:flex;flex-direction:column;gap:6px"></div>
+      </div>
+    </div>
   </div>
   <label class="consent"><input type="checkbox" id="f-consent"> <span data-es="Autorizo a Chanak International Academy a recibir estos resultados y los datos del estudiante para su revisión por coordinación y el mentor." data-en="I authorize Chanak International Academy to receive these results and the student's information for review by the coordinator and mentor.">Autorizo a Chanak International Academy a recibir estos resultados y los datos del estudiante para su revisión por coordinación y el mentor.</span></label>
   <div class="btn-row no-print">

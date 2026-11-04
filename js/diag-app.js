@@ -84,11 +84,28 @@
   // ── i18n estático ─────────────────────────────────────────────────────────
   function applyLang() {
     document.documentElement.lang = LANG;
-    document.querySelectorAll('[data-es]').forEach((el) => { el.innerHTML = el.dataset[LANG] != null ? el.dataset[LANG] : el.dataset.es; });
-    document.querySelectorAll('[data-ph-es]').forEach((el) => { el.placeholder = el.dataset['ph' + (LANG === 'es' ? 'Es' : 'En')] || el.dataset.phEs; });
+    document.querySelectorAll('[data-es]').forEach((el) => {
+      const val = (LANG === 'en' && el.dataset.en) ? el.dataset.en : el.dataset.es;
+      if (val != null) el.innerHTML = val;
+    });
+    document.querySelectorAll('[data-ph-es]').forEach((el) => {
+      const ph = (LANG === 'en' && el.dataset.phEn) ? el.dataset.phEn : el.dataset.phEs;
+      if (ph != null) el.placeholder = ph;
+    });
     document.querySelectorAll('.langbtn').forEach((b) => b.classList.toggle('on', b.dataset.lang === LANG));
+    if ($('t-save-badge')) {
+      $('t-save-badge').textContent = LANG === 'es' ? '✓ Guardado automático' : '✓ Auto-saved';
+    }
+    if (typeof renderFormUploads === 'function') renderFormUploads();
   }
-  function setLang() { LANG = 'en'; applyLang(); if (!$('section-results').classList.contains('hidden')) renderResults(); } // solo inglés
+  function setLang(lang) {
+    LANG = (lang === 'en' || lang === 'es') ? lang : 'en';
+    applyLang();
+    if ($('section-results') && !$('section-results').classList.contains('hidden')) renderResults();
+    if ($('section-level') && !$('section-level').classList.contains('hidden')) renderPlanSummary();
+    if ($('resume-banner') && !$('resume-banner').classList.contains('hidden')) checkAndShowResumeBanner();
+    saveDraft();
+  }
   window.setLang = setLang;
 
   // ── Navegación ────────────────────────────────────────────────────────────
@@ -161,6 +178,8 @@
       savedAt: Date.now(),
       version: '2.2',
       linkToken: (S.link && S.link.token) || null,
+      lang: LANG,
+      formUploads: (S.formUploads || []).map(f => ({ name: f.name, size: f.size, mime: f.mime, b64: f.b64, uploaded: !!f.uploaded })),
       form: currentForm,
       grade: S.grade !== undefined && S.grade !== null ? S.grade : Number(currentForm.curso || 0),
       track: S.track || currentForm.programa || 'off',
@@ -1045,7 +1064,9 @@ ${refRows ? `<div class="pblk refs-foot"><h3>${L.refs}</h3><table class="equiv-t
       S.sub = { id: out.id, token: out.upload_token, route: out.route_email };
       box.className = 'note ok'; box.innerHTML = `✓ ${esc(T().sentOk)} (<strong>${esc(out.route_email)}</strong>)`;
       clearDraft();
-      renderUploadPanel(); uploadSpeaking();
+      renderUploadPanel();
+      uploadSpeaking();
+      uploadFormFiles();
     } catch (e) {
       box.className = 'note warn'; box.innerHTML = `${esc(T().sentFail)} <button class="btn btn-s" style="padding:3px 12px" onclick="retrySubmit()">${esc(T().retry)}</button>`;
     }
@@ -1095,6 +1116,92 @@ ${refRows ? `<div class="pblk refs-foot"><h3>${L.refs}</h3><table class="equiv-t
   };
 
   window.downloadCopy = () => { if (S.sub) $('r-print-link').textContent = `${BASE}?s=${S.sub.id}&t=${S.sub.token}`; window.print(); };
+
+  window.renderFormUploads = () => {
+    const list = $('form-upload-list');
+    const summary = $('form-upload-summary');
+    if (!list || !summary) return;
+    list.innerHTML = '';
+    const uploads = S.formUploads || [];
+    if (!uploads.length) {
+      summary.textContent = LANG === 'es' ? 'Ningún archivo seleccionado aún' : 'No files chosen yet';
+      return;
+    }
+    summary.textContent = LANG === 'es' ? `${uploads.length} archivo(s) listo(s)` : `${uploads.length} file(s) ready`;
+    uploads.forEach((item, idx) => {
+      const row = document.createElement('div');
+      row.className = 'up-row';
+      row.style.display = 'flex';
+      row.style.justifyContent = 'space-between';
+      row.style.alignItems = 'center';
+      row.style.padding = '6px 10px';
+      row.style.background = '#f1f5f9';
+      row.style.borderRadius = '6px';
+      row.style.fontSize = '0.82rem';
+      const sizeKb = Math.round(item.size / 1024);
+      row.innerHTML = `<span>✓ <strong>${esc(item.name)}</strong> (${sizeKb} KB)</span>
+        <button type="button" style="background:none;border:none;color:#ef4444;cursor:pointer;font-weight:bold;font-size:14px" onclick="removeFormUpload(${idx})">✕</button>`;
+      list.appendChild(row);
+    });
+  };
+
+  window.removeFormUpload = (idx) => {
+    if (S.formUploads && S.formUploads[idx] !== undefined) {
+      S.formUploads.splice(idx, 1);
+      renderFormUploads();
+      saveDraft();
+    }
+  };
+
+  window.handleFormFileUpload = async (input) => {
+    const files = [...input.files];
+    if (!files.length) return;
+    if (!S.formUploads) S.formUploads = [];
+    for (const f of files) {
+      if (S.formUploads.length >= 15) {
+        alert(LANG === 'es' ? 'Se permite un máximo de 15 archivos.' : 'A maximum of 15 files is allowed.');
+        break;
+      }
+      try {
+        let blob = f, mime = f.type;
+        if (/^image\//.test(f.type)) {
+          blob = await downscale(f);
+          mime = 'image/jpeg';
+        } else if (f.type !== 'application/pdf') {
+          throw new Error(LANG === 'es' ? 'Solo se permiten imágenes (JPG, PNG) y PDF.' : 'Only images (JPG, PNG) and PDF are allowed.');
+        }
+        if (blob.size > 3 * 1024 * 1024) throw new Error(LANG === 'es' ? 'El archivo excede los 3 MB.' : 'File exceeds 3 MB.');
+        const b64 = await toB64(blob);
+        const item = { name: f.name, size: blob.size, mime, b64 };
+        S.formUploads.push(item);
+      } catch (err) {
+        alert((LANG === 'es' ? 'Error al cargar ' : 'Error loading ') + f.name + ': ' + (err.message || 'formato no válido'));
+      }
+    }
+    input.value = '';
+    renderFormUploads();
+    saveDraft();
+  };
+
+  async function uploadFormFiles() {
+    if (!S.sub || !S.formUploads || !S.formUploads.length) return;
+    for (const item of S.formUploads) {
+      if (item.uploaded) continue;
+      try {
+        await postJson('/api/diag-upload', {
+          id: S.sub.id,
+          token: S.sub.token,
+          name: item.name,
+          mime: item.mime,
+          data: item.b64,
+          note: 'Documento adjuntado en el formulario de inicio'
+        });
+        item.uploaded = true;
+      } catch (e) {
+        console.warn('Error subiendo documento del formulario:', item.name, e);
+      }
+    }
+  }
 
   // Página solo de subida: ?s=<id>&t=<token> (enlace de la copia impresa)
   function uploadOnlyMode() {
@@ -1147,8 +1254,14 @@ ${refRows ? `<div class="pblk refs-foot"><h3>${L.refs}</h3><table class="equiv-t
       set('f-programa', info.track); $('f-programa').disabled = true;
       $('link-banner').classList.remove('hidden');
 
+      const q = new URLSearchParams(location.search);
+      const urlLang = q.get('lang');
       const draft = loadDraft();
       if (draft && draft.form) restoreFormFields(draft.form);
+      if (info.track === 'dual' && !urlLang && (!draft || !draft.lang)) {
+        LANG = 'en';
+        applyLang();
+      }
 
       _show('form');
       return true;
@@ -1158,15 +1271,29 @@ ${refRows ? `<div class="pblk refs-foot"><h3>${L.refs}</h3><table class="equiv-t
     }
   }
   document.addEventListener('DOMContentLoaded', async () => {
+    const q = new URLSearchParams(location.search);
+    const urlLang = q.get('lang');
+    if (urlLang === 'en' || urlLang === 'es') {
+      LANG = urlLang;
+    }
+    const draft = loadDraft();
+    if (draft) {
+      if (draft.lang && (draft.lang === 'en' || draft.lang === 'es') && !urlLang) {
+        LANG = draft.lang;
+      }
+      if (draft.formUploads && Array.isArray(draft.formUploads)) {
+        S.formUploads = draft.formUploads;
+      }
+    }
     applyLang();
     attachFormAutoSave();
     if (uploadOnlyMode()) return;
     const linkHandled = await initLink();
     if (!linkHandled) {
-      const draft = loadDraft();
       if (draft && draft.form) restoreFormFields(draft.form);
       _show('landing');
     }
+    renderFormUploads();
     checkAndShowResumeBanner();
   });
 })();
