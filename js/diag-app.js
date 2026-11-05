@@ -169,9 +169,34 @@
     }, 2000);
   }
 
+  let cloudSyncTimeout = null;
+  function syncDraftToCloud(draft) {
+    const token = (S.link && S.link.token) || new URLSearchParams(location.search).get('k');
+    if (!token) return;
+    clearTimeout(cloudSyncTimeout);
+    cloudSyncTimeout = setTimeout(() => {
+      // Excluir b64 pesados del payload del borrador para que sea ultra rápido y ligero
+      const lightDraft = {
+        ...draft,
+        formUploads: (draft.formUploads || []).map(f => ({ name: f.name, size: f.size, mime: f.mime, uploaded: !!f.uploaded }))
+      };
+      fetch('/api/diag-draft', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ k: token, draft: lightDraft })
+      }).then(r => r.json()).then(res => {
+        if (res && res.ok) {
+          const badge = $('t-save-badge');
+          if (badge) badge.title = LANG === 'es' ? 'Sincronizado en la nube' : 'Cloud synchronized';
+        }
+      }).catch(err => {
+        console.warn('[diag-draft] No se pudo sincronizar en la nube:', err);
+      });
+    }, 600);
+  }
+
   function saveDraft(extra = {}) {
     const store = getStorage();
-    if (!store) return;
     const key = getDraftKey();
     const currentForm = Object.keys(S.form || {}).length ? S.form : readForm();
     const draft = {
@@ -196,13 +221,16 @@
       lastSection: extra.lastSection || S.currentSection || 'form',
       ...extra,
     };
-    try {
-      store.setItem(key, JSON.stringify(draft));
-      store.setItem(DRAFT_LAST_KEY, key);
-      showSaveBadge();
-    } catch (e) {
-      console.warn('No se pudo guardar el borrador en localStorage', e);
+    if (store) {
+      try {
+        store.setItem(key, JSON.stringify(draft));
+        store.setItem(DRAFT_LAST_KEY, key);
+        showSaveBadge();
+      } catch (e) {
+        console.warn('No se pudo guardar el borrador en localStorage', e);
+      }
     }
+    syncDraftToCloud(draft);
   }
 
   function loadDraft() {
@@ -280,7 +308,7 @@
     }
     const hasName = draft.form && draft.form.nombre && draft.form.nombre.trim();
     const hasResults = draft.results && Object.keys(draft.results).length > 0;
-    const inProgress = Boolean(draft.inProgress || hasResults || draft.activeSubject);
+    const inProgress = Boolean(draft.inProgress || hasResults || draft.activeSubject || draft.comp);
 
     if (!inProgress && !hasName) {
       hideResumeBanner();
@@ -288,11 +316,12 @@
     }
 
     const banner = $('resume-banner');
-    if (!banner) return false;
+    const formNotice = $('form-resume-notice');
+    const formNoticeDesc = $('form-resume-desc');
 
     const desc = $('resume-desc');
     const student = (draft.form && draft.form.nombre) ? draft.form.nombre : (LANG === 'es' ? 'Estudiante' : 'Student');
-    const gradeLabel = draft.grade !== undefined && draft.grade !== '' && draft.grade !== 0 ? `Grado ${draft.grade}` : (draft.grade === 0 ? 'Kindergarten' : '');
+    const gradeLabel = draft.grade !== undefined && draft.grade !== '' && draft.grade !== 0 ? (LANG === 'es' ? `Grado ${draft.grade}` : `Grade ${draft.grade}`) : (draft.grade === 0 ? 'Kindergarten' : '');
     const dateStr = draft.savedAt ? new Date(draft.savedAt).toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' }) : '';
 
     let msg = '';
@@ -302,13 +331,20 @@
       msg = `Hello, <strong>${esc(student)}</strong>. You have an assessment in progress ${gradeLabel ? ' (' + esc(gradeLabel) + ')' : ''}${dateStr ? ' saved at ' + esc(dateStr) : ''}. You can resume exactly where you left off.`;
     }
     if (desc) desc.innerHTML = msg;
-    banner.classList.remove('hidden');
+    if (banner) banner.classList.remove('hidden');
+
+    if (formNotice && (hasResults || draft.activeSubject || draft.comp || inProgress)) {
+      if (formNoticeDesc) formNoticeDesc.innerHTML = msg;
+      formNotice.classList.remove('hidden');
+    }
     return true;
   }
 
   function hideResumeBanner() {
     const banner = $('resume-banner');
     if (banner) banner.classList.add('hidden');
+    const formNotice = $('form-resume-notice');
+    if (formNotice) formNotice.classList.add('hidden');
   }
 
   window.resumeTest = async () => {
@@ -421,7 +457,22 @@
   async function loadMap() { if (!S.map) { try { S.map = await api('/data/placement-map.json'); } catch { S.map = { grades: {} }; } } }
 
   window.startTest = async (isResume = false) => {
-    if (!isResume) {
+    const existingDraft = loadDraft();
+    const hasWork = (S.results && Object.keys(S.results).length > 0) ||
+                    (existingDraft && existingDraft.results && Object.keys(existingDraft.results).length > 0) ||
+                    (existingDraft && existingDraft.activeSubject) ||
+                    (existingDraft && existingDraft.comp);
+
+    if (!isResume && hasWork) {
+      if (existingDraft) {
+        if (!S.results || !Object.keys(S.results).length) S.results = existingDraft.results || {};
+        if (!S.comp) S.comp = existingDraft.comp || null;
+        if (!S.activeSubject) S.activeSubject = existingDraft.activeSubject || null;
+        if (!S.plan || !S.plan.length) S.plan = existingDraft.plan || [];
+        if (existingDraft.grade !== undefined && S.grade === undefined) S.grade = existingDraft.grade;
+      }
+      isResume = true;
+    } else if (!isResume) {
       S.bible = $('bible-toggle') ? $('bible-toggle').checked : false;
       S.results = {};
       S.comp = null;
@@ -1253,6 +1304,24 @@ ${refRows ? `<div class="pblk refs-foot"><h3>${L.refs}</h3><table class="equiv-t
       if (info.declared_grade != null && Number(info.declared_grade) < 2) setTimeout(() => alert('The diagnostic is taken from Grade 2 on. Kindergarten and Grade 1 do not take it.'), 300);
       set('f-programa', info.track); $('f-programa').disabled = true;
       $('link-banner').classList.remove('hidden');
+
+      // Intentar sincronizar borrador guardado en el servidor para soportar cambio de dispositivo
+      try {
+        const cloudRes = await api('/api/diag-draft?k=' + encodeURIComponent(k));
+        if (cloudRes && cloudRes.ok && cloudRes.draft) {
+          const localDraft = loadDraft();
+          const cloudDraft = cloudRes.draft;
+          if (!localDraft || !localDraft.savedAt || (cloudDraft.savedAt && cloudDraft.savedAt >= localDraft.savedAt)) {
+            const store = getStorage();
+            if (store) {
+              store.setItem(DRAFT_PREFIX + k, JSON.stringify(cloudDraft));
+              store.setItem(DRAFT_LAST_KEY, DRAFT_PREFIX + k);
+            }
+          }
+        }
+      } catch (draftErr) {
+        console.warn('[diag-draft] No se pudo cargar borrador de la nube:', draftErr);
+      }
 
       const q = new URLSearchParams(location.search);
       const urlLang = q.get('lang');

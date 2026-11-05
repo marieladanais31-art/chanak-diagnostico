@@ -9,8 +9,8 @@ const URL_ = () => {
 };
 // Pista no sensible para diagnosticar (la URL del proyecto es pública; si parece una clave, no se muestra).
 const urlHint = () => { const u = clean(process.env.SUPABASE_URL); return /^eyJ/.test(u) || u.length > 120 ? `(valor de ${u.length} caracteres que no parece una URL)` : u.slice(0, 70); };
-// La clave es un JWT (letras, números, '.', '-', '_'): se quita todo lo demás (espacios, saltos de línea, caracteres invisibles).
-const rawKey = () => String(process.env.SUPABASE_ANON_KEY || '');
+// La clave es un JWT (letras, números, '.', '-', '_'): preferir service role si está configurada
+const rawKey = () => String(process.env.SUPABASE_SERVICE_ROLE_KEY || process.env.SUPABASE_ANON_KEY || '');
 const KEY = () => rawKey().replace(/[^A-Za-z0-9._-]/g, '');
 const keyHint = () => { const r = rawKey(), k = KEY(); return `clave de ${r.length} caracteres (${r.length - k.length} sobrantes), ${k.startsWith('eyJ') ? 'empieza como un JWT' : 'NO empieza como un JWT'}, ${k.split('.').length} partes`; };
 const configured = () => !!(URL_() && KEY());

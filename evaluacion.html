@@ -443,6 +443,19 @@ details.refs summary{cursor:pointer;color:var(--gris);font-weight:600}
 <!-- ═══════════ FORMULARIO ═══════════ -->
 <div id="section-form" class="hidden">
 <div class="section-card container">
+  <!-- Aviso destacado de reanudación si ya hay respuestas guardadas -->
+  <div id="form-resume-notice" class="plan-box hidden" style="background:#ecfdf5;border:2px solid #059669;border-radius:12px;padding:16px;margin-bottom:20px;">
+    <div style="display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:12px">
+      <div>
+        <h3 style="margin:0 0 4px 0;color:#065f46;font-size:1.05rem;" data-es="💾 Progreso previo guardado" data-en="💾 Saved progress detected">💾 Progreso previo guardado</h3>
+        <p style="margin:0;font-size:0.85rem;color:#047857;" id="form-resume-desc" data-es="Ya tienes respuestas guardadas en el sistema. Puedes continuar directamente sin repetir lo que ya hiciste." data-en="You already have saved answers. You can resume directly without repeating your work.">Ya tienes respuestas guardadas en el sistema. Puedes continuar directamente sin repetir lo que ya hiciste.</p>
+      </div>
+      <button type="button" class="btn btn-p" onclick="resumeTest()" style="background:#059669;border-color:#059669;padding:10px 22px;font-weight:bold;font-size:0.95rem" data-es="▶ Retomar evaluación en curso" data-en="▶ Resume assessment in progress">
+        ▶ Retomar evaluación en curso
+      </button>
+    </div>
+  </div>
+
   <div class="sec-title" data-es="Datos del estudiante" data-en="Student information">Datos del estudiante</div>
   <p class="sec-sub" data-es="Completa la información antes de iniciar. Los datos se incluirán en el informe y en el PEI." data-en="Complete the information before starting. It will be included in the report and the IEP.">Completa la información antes de iniciar. Los datos se incluirán en el informe y en el PEI.</p>
   <div id="link-banner" class="note ok hidden" data-es="✓ Enlace personal verificado. Revisa los datos y continúa." data-en="✓ Personal link verified. Review the details and continue.">✓ Enlace personal verificado. Revisa los datos y continúa.</div>

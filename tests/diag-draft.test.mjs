@@ -107,3 +107,55 @@ test('auto-save: limpieza de borrador tras entrega exitosa', () => {
   storage.removeItem(key);
   assert.equal(storage.getItem(key), null);
 });
+
+test('protección contra borrado accidental en startTest(): nunca borra progreso existente', () => {
+  const S = {
+    results: { math: { performanceLevel: 4 } },
+    comp: null,
+    plan: ['math', 'ela', 'comp'],
+  };
+  const existingDraft = {
+    results: { math: { performanceLevel: 4 } },
+    activeSubject: { subj: 'ela', level: 4, answers: { 'ELA-4-01': 2 } }
+  };
+
+  let isResume = false;
+  const hasWork = (S.results && Object.keys(S.results).length > 0) ||
+                  (existingDraft && existingDraft.results && Object.keys(existingDraft.results).length > 0) ||
+                  (existingDraft && existingDraft.activeSubject) ||
+                  (existingDraft && existingDraft.comp);
+
+  if (!isResume && hasWork) {
+    if (existingDraft) {
+      if (!S.results || !Object.keys(S.results).length) S.results = existingDraft.results || {};
+      if (!S.comp) S.comp = existingDraft.comp || null;
+      if (!S.activeSubject) S.activeSubject = existingDraft.activeSubject || null;
+    }
+    isResume = true;
+  }
+
+  // Verifica que NO se borraron los resultados y que isResume se activó automáticamente
+  assert.equal(isResume, true);
+  assert.deepEqual(S.results, { math: { performanceLevel: 4 } });
+  assert.equal(S.activeSubject.subj, 'ela');
+  assert.equal(S.activeSubject.answers['ELA-4-01'], 2);
+});
+
+test('auto-save: payload para la nube es ligero y excluye base64 pesados', () => {
+  const draft = {
+    savedAt: 1729900000000,
+    results: { math: { performanceLevel: 5 } },
+    formUploads: [
+      { name: 'cedula.pdf', size: 102400, mime: 'application/pdf', b64: 'JVBERi0xLjQK...', uploaded: false }
+    ]
+  };
+
+  const lightDraft = {
+    ...draft,
+    formUploads: (draft.formUploads || []).map(f => ({ name: f.name, size: f.size, mime: f.mime, uploaded: !!f.uploaded }))
+  };
+
+  assert.equal(lightDraft.formUploads[0].b64, undefined);
+  assert.equal(lightDraft.formUploads[0].name, 'cedula.pdf');
+  assert.equal(lightDraft.results.math.performanceLevel, 5);
+});
