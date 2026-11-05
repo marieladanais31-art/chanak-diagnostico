@@ -159,3 +159,52 @@ test('auto-save: payload para la nube es ligero y excluye base64 pesados', () =>
   assert.equal(lightDraft.formUploads[0].name, 'cedula.pdf');
   assert.equal(lightDraft.results.math.performanceLevel, 5);
 });
+
+test('finalizar antes (ya no sé más): calcula nivel de desempeño con lo respondido y no se bloquea', async () => {
+  const C = await import('../js/diag-core.js').then((m) => m.default || m);
+  const state = {
+    grade: 6,
+    blocks: [
+      {
+        level: 3,
+        units: [
+          { ace: 1025, correct: true, level: 3, skill: 'addition' },
+          { ace: 1026, correct: true, level: 3, skill: 'subtraction' },
+        ],
+        pct: 1.0,
+      },
+      {
+        level: 4,
+        units: [
+          { ace: 1037, correct: false, level: 4, skill: 'fractions' },
+          { ace: 1038, correct: false, level: 4, skill: 'decimals' },
+        ],
+        pct: 0.0,
+      },
+    ],
+  };
+
+  const seq = C.sequence(state.blocks);
+  let idx = C.findRun(seq);
+  if (idx < 0) {
+    const firstFail = seq.findIndex((u) => !u.correct);
+    idx = firstFail >= 0 ? firstFail : -1;
+  }
+
+  const res = C.finish(state, { runIdx: idx });
+  assert.equal(res.performanceLevel, 4);
+  assert.equal(res.performancePace, 1037);
+  assert.equal(res.found, true);
+});
+
+test('finalizar antes en CEFR (ya no sé más): asigna el nivel máximo alcanzado hasta donde llegó', async () => {
+  const C = await import('../js/diag-core.js').then((m) => m.default || m);
+  const blocks = [
+    { level: 1, units: [{ correct: true }, { correct: true }, { correct: true }] }, // A1: 100%
+    { level: 2, units: [{ correct: false }, { correct: false }] }, // A2: 0%
+  ];
+
+  const res = C.cefrResult(blocks);
+  assert.equal(res.code, 'A1');
+  assert.equal(res.level, 1);
+});

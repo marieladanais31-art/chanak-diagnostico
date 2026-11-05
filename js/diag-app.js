@@ -124,6 +124,57 @@
   window.closeExitModal = () => { $('exit-modal').classList.remove('open'); S.pendingExit = null; };
   window.confirmExit = () => { saveAndExit(); };
   window.exitTest = () => { $('exit-modal').classList.add('open'); };
+
+  let activeBlockResolver = null;
+  let activeBlockAnswers = {};
+
+  window.promptFinishEarly = () => {
+    const curSubj = S.currentSubj || (S.activeSubject && S.activeSubject.subj) || 'math';
+    const subjName = (T().subj && T().subj[curSubj]) || curSubj;
+    const btnSubj = $('btn-finish-subj-early');
+    if (btnSubj) {
+      const remaining = (S.plan || []).filter((s) => s !== 'spa' && s !== curSubj && !S.results[s] && !(s === 'comp' && S.comp));
+      if (remaining.length === 0) {
+        btnSubj.classList.add('hidden');
+      } else {
+        btnSubj.classList.remove('hidden');
+        btnSubj.textContent = LANG === 'es' ? `⏹ Finalizar ${subjName} (pasar a la siguiente)` : `⏹ Finish ${subjName} (go to next)`;
+      }
+    }
+    const modal = $('finish-early-modal');
+    if (modal) modal.classList.add('open');
+  };
+
+  window.closeFinishEarlyModal = () => {
+    const modal = $('finish-early-modal');
+    if (modal) modal.classList.remove('open');
+  };
+
+  window.promptFinishEarlyFromExitModal = () => {
+    $('exit-modal').classList.remove('open');
+    window.promptFinishEarly();
+  };
+
+  window.finishCurrentSubjectNow = () => {
+    window.closeFinishEarlyModal();
+    S.forceFinishSubject = true;
+    if (activeBlockResolver) {
+      const res = activeBlockResolver;
+      activeBlockResolver = null;
+      res(activeBlockAnswers);
+    }
+  };
+
+  window.finishAllTestNow = () => {
+    window.closeFinishEarlyModal();
+    $('exit-modal').classList.remove('open');
+    S.forceFinishAll = true;
+    if (activeBlockResolver) {
+      const res = activeBlockResolver;
+      activeBlockResolver = null;
+      res(activeBlockAnswers);
+    }
+  };
   function resetAll() {
     S.inProgress = false; S.results = {}; S.comp = null; S.current = null; S.plan = []; S.activeSubject = null;
     window.removeEventListener('beforeunload', onBeforeUnload);
@@ -486,10 +537,12 @@
     await loadMap();
     try {
       for (const subj of S.plan) {
+        if (S.forceFinishAll) break;
         if (subj === 'comp') await runComp();
         else if (subj === 'cefr') await runCefr();
         else if (subj === 'spa') continue;
         else await runSubject(subj);
+        if (S.forceFinishAll) break;
       }
     } catch (e) {
       console.error(e);
@@ -498,17 +551,21 @@
       saveDraft({ inProgress: false });
       return;
     }
-    try {
-      if (S.plan.some((x) => x === 'ela' || x === 'cefr')) await runSpeaking();
-    } catch (e) {
-      console.error(e);
+    if (!S.forceFinishAll) {
+      try {
+        if (S.plan.some((x) => x === 'ela' || x === 'cefr')) await runSpeaking();
+      } catch (e) {
+        console.error(e);
+      }
+      try {
+        if (S.plan.includes('spa')) await runSpa();
+      } catch (e) {
+        console.error(e);
+        alert(T().netError);
+      }
     }
-    try {
-      if (S.plan.includes('spa')) await runSpa();
-    } catch (e) {
-      console.error(e);
-      alert(T().netError);
-    }
+    S.forceFinishAll = false;
+    S.forceFinishSubject = false;
     S.inProgress = false;
     window.removeEventListener('beforeunload', onBeforeUnload);
     finalizeResults();
@@ -520,12 +577,14 @@
   // Muestra un bloque de preguntas y devuelve las respuestas cuando el usuario continúa.
   function askBlock({ title, intro, items, stepLabel, last, initialAnswers, onAnswerChange }) {
     return new Promise((resolve) => {
+      activeBlockResolver = resolve;
       $('t-sname').textContent = S.form.nombre || '—';
       $('t-subject').textContent = title;
       $('t-intro').innerHTML = esc(intro) + `<br><span class="supv">${esc(T().supervisor)}</span>`;
       $('t-step').textContent = stepLabel;
       const cont = $('qcont'); cont.innerHTML = '';
       const ans = { ...(initialAnswers || {}) };
+      activeBlockAnswers = ans;
       const upd = () => {
         const n = Object.keys(ans).length;
         $('tpfill').style.width = Math.round((n / items.length) * 100) + '%';
@@ -546,6 +605,7 @@
             lb.innerHTML = `<input type="radio" name="q${i}" ${isChecked ? 'checked' : ''}><span>${String.fromCharCode(65 + j)}. ${esc(o)}</span>`;
             lb.querySelector('input').addEventListener('change', () => {
               ans[it.id] = j;
+              activeBlockAnswers = ans;
               box.querySelectorAll('.olbl').forEach((x) => x.classList.remove('sel'));
               lb.classList.add('sel');
               upd();
@@ -561,6 +621,7 @@
           box.querySelector('input').addEventListener('input', (e) => {
             const v = e.target.value.trim();
             if (v) ans[it.id] = v; else delete ans[it.id];
+            activeBlockAnswers = ans;
             upd();
             if (onAnswerChange) onAnswerChange(ans);
             saveDraft();
@@ -574,6 +635,7 @@
         const blanks = items.length - Object.keys(ans).length;
         if (blanks > 0 && !confirm(T().confirmBlank)) return;
         btn.disabled = true; btn.textContent = T().checking;
+        activeBlockResolver = null;
         resolve(ans);
       };
       _show('test');
@@ -622,6 +684,21 @@
 
       const sc = await api('/api/diag-score', { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({ subject: subj, level, answers: ans }) });
       state.blocks.push({ level, units: sc.units, pct: sc.pct });
+
+      if (S.forceFinishSubject || S.forceFinishAll) {
+        const seq = C.sequence(state.blocks);
+        let idx = C.findRun(seq);
+        if (idx < 0) {
+          const firstFail = seq.findIndex((u) => !u.correct);
+          idx = firstFail >= 0 ? firstFail : -1;
+        }
+        S.results[subj] = C.finish(state, { runIdx: idx });
+        S.activeSubject = null;
+        S.forceFinishSubject = false;
+        saveDraft();
+        return;
+      }
+
       const step = C.next(state);
       if (step.action === 'done') {
         S.results[subj] = step.result;
@@ -677,6 +754,12 @@
 
       const sc = await api('/api/diag-score', { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({ subject: 'cefr', level, answers: ans }) });
       blocks.push({ level, units: sc.units });
+
+      if (S.forceFinishSubject || S.forceFinishAll) {
+        S.forceFinishSubject = false;
+        break;
+      }
+
       const step = C.cefrNext(blocks);
       if (step.action === 'done') break;
       level = step.level;
@@ -765,7 +848,8 @@
       $('t-subject').textContent = T().speakTitle; $('t-intro').innerHTML = esc(stream ? T().speakIntro : T().speakNoMic);
       $('t-step').textContent = ''; $('tpfill').style.width = '100%'; $('t-ptxt').textContent = ''; $('t-ppct').textContent = '';
       const cont = $('qcont'); cont.innerHTML = '';
-      const done = () => { if (stream) stream.getTracks().forEach((t) => t.stop()); S.speak.skipped = !Object.keys(S.speak.rec).length; resolve(); };
+      const done = () => { if (stream) stream.getTracks().forEach((t) => t.stop()); S.speak.skipped = !Object.keys(S.speak.rec).length; activeBlockResolver = null; resolve(); };
+      activeBlockResolver = done;
       if (stream) S.speak.tasks.forEach((t, i) => {
         const d = document.createElement('div'); d.className = 'qblock';
         d.innerHTML = `<span class="area-tag">${esc(T().speakKinds[t.kind])}</span><div class="qtxt"><strong>${i + 1}.</strong> ${esc(t.text)}</div>

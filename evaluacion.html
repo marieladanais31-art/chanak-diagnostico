@@ -557,8 +557,11 @@ details.refs summary{cursor:pointer;color:var(--gris);font-weight:600}
     <div class="tpinfo"><span id="t-ptxt"></span><span id="t-ppct">0%</span></div>
   </div>
   <div id="qcont"></div>
-  <div class="btn-row no-print">
-    <button class="btn btn-s" onclick="exitTest()" data-es="⏸ Pausar / Salir" data-en="⏸ Pause / Exit">⏸ Pausar / Salir</button>
+  <div class="btn-row no-print" style="display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:10px">
+    <div style="display:flex;gap:8px;flex-wrap:wrap">
+      <button class="btn btn-s" onclick="exitTest()" data-es="⏸ Pausar / Salir" data-en="⏸ Pause / Exit">⏸ Pausar / Salir</button>
+      <button type="button" class="btn btn-o" id="btn-finish-early" onclick="promptFinishEarly()" style="border-color:#d97706;color:#b45309;font-weight:600" data-es="⏹ Ya no sé más / Finalizar" data-en="⏹ I don't know more / Finish">⏹ Ya no sé más / Finalizar</button>
+    </div>
     <button class="btn btn-p" id="btn-next">Continuar →</button>
   </div>
 </div>
@@ -670,8 +673,23 @@ details.refs summary{cursor:pointer;color:var(--gris);font-weight:600}
       <button class="btn btn-s" onclick="closeExitModal()" data-es="← Continuar respondiendo" data-en="← Keep going">← Continuar respondiendo</button>
       <button class="btn btn-p" onclick="saveAndExit()" data-es="Guardar y salir" data-en="Save and exit">Guardar y salir</button>
     </div>
-    <div style="margin-top:16px;border-top:1px solid var(--borde);padding-top:12px">
+    <div style="margin-top:14px;border-top:1px solid var(--borde);padding-top:12px;display:flex;flex-direction:column;gap:8px">
+      <button type="button" class="btn btn-o" onclick="promptFinishEarlyFromExitModal()" style="border-color:#d97706;color:#b45309;font-weight:600;font-size:0.85rem;padding:8px" data-es="⏹ Ya no sé más (Finalizar prueba hasta aquí)" data-en="⏹ I don't know more (Finish assessment here)">⏹ Ya no sé más (Finalizar prueba hasta aquí)</button>
       <button type="button" style="background:none;border:none;color:#991b1b;font-size:0.78rem;cursor:pointer;text-decoration:underline;font-weight:600" onclick="confirmRestart()" data-es="Reiniciar evaluación desde cero" data-en="Restart assessment from scratch">Reiniciar evaluación desde cero</button>
+    </div>
+  </div>
+</div>
+
+<!-- ═══════════ MODAL YA NO SÉ MÁS / FINALIZAR ═══════════ -->
+<div class="modal-overlay" id="finish-early-modal">
+  <div class="modal-box">
+    <div class="modal-icon">🏁</div>
+    <h3 data-es="¿Deseas finalizar la prueba hasta aquí?" data-en="Do you want to finish the assessment here?">¿Deseas finalizar la prueba hasta aquí?</h3>
+    <p data-es="Si las preguntas son demasiado difíciles o ya no las has aprendido, <strong>es completamente normal</strong> en una evaluación diagnóstica. Tu nivel de desempeño se calculará con las respuestas que diste hasta este momento." data-en="If the questions are too difficult or you have not learned them yet, <strong>that is completely normal</strong> in a placement assessment. Your level will be calculated based on what you answered.">Si las preguntas son demasiado difíciles o ya no las has aprendido, <strong>es completamente normal</strong> en una evaluación diagnóstica. Tu nivel de desempeño se calculará con las respuestas que diste hasta este momento.</p>
+    <div class="modal-btns" style="display:flex;flex-direction:column;gap:8px;margin-top:16px">
+      <button type="button" class="btn btn-p" id="btn-finish-subj-early" onclick="finishCurrentSubjectNow()" style="background:#d97706;border-color:#d97706;padding:10px;font-weight:bold" data-es="⏹ Finalizar esta materia y continuar" data-en="⏹ Finish this subject and continue">⏹ Finalizar esta materia y continuar</button>
+      <button type="button" class="btn btn-o" id="btn-finish-all-early" onclick="finishAllTestNow()" style="border-color:#16a34a;color:#15803d;font-weight:bold;padding:10px" data-es="🏁 Finalizar TODA la evaluación y ver resultados" data-en="🏁 Finish ENTIRE assessment and see results">🏁 Finalizar TODA la evaluación y ver resultados</button>
+      <button type="button" class="btn btn-s" onclick="closeFinishEarlyModal()" style="padding:8px" data-es="← Volver y seguir respondiendo" data-en="← Back to keep answering">← Volver y seguir respondiendo</button>
     </div>
   </div>
 </div>
