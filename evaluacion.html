@@ -382,6 +382,13 @@ details.refs summary{cursor:pointer;color:var(--gris);font-weight:600}
 .pei-h5{font-size:.78rem;text-transform:uppercase;letter-spacing:.07em;color:var(--azul);margin:10px 0 4px}
 @media(min-width:700px){.lu-list{grid-template-columns:1fr 1fr}}
 
+.btn-pdf-header{background:var(--oro,#c8962b);color:#fff;border:none;border-radius:20px;padding:4px 14px;font-size:.78rem;font-weight:700;cursor:pointer;display:inline-flex;align-items:center;gap:5px;transition:.15s;text-decoration:none;box-shadow:0 2px 6px rgba(200,150,43,.3)}
+.btn-pdf-header:hover{background:#a07520;transform:translateY(-1px);color:#fff}
+.btn-hero-pdf{background:#fff;color:var(--azul,#193D6D);border:2px solid var(--azul,#193D6D);border-radius:50px;padding:12px 28px;font-size:.92rem;font-weight:700;cursor:pointer;display:inline-flex;align-items:center;gap:8px;transition:.2s;box-shadow:0 3px 12px rgba(0,0,0,.08)}
+.btn-hero-pdf:hover{background:#f1f5f9;transform:translateY(-2px);box-shadow:0 6px 18px rgba(0,0,0,.12)}
+.btn-o{background:transparent;border:1.5px solid var(--azul,#193D6D);color:var(--azul,#193D6D);border-radius:50px;padding:9px 20px;font-size:.85rem;font-weight:600;cursor:pointer;transition:.15s}
+.btn-o:hover{background:var(--azul,#193D6D);color:#fff}
+
 </style>
 </head>
 <body>
@@ -394,9 +401,12 @@ details.refs summary{cursor:pointer;color:var(--gris);font-weight:600}
       <span>Evaluation · Education · Excellence</span>
     </div>
   </div>
-  <div class="langbar">
-    <button class="langbtn on" data-lang="es" onclick="setLang('es')">ES</button>
-    <button class="langbtn" data-lang="en" onclick="setLang('en')">EN</button>
+  <div style="display:flex;align-items:center;gap:10px;margin-left:auto">
+    <button type="button" class="btn-pdf-header" onclick="openPrintExam()" title="Descargar examen en PDF para resolver a mano" data-es="📄 Descargar en PDF" data-en="📄 Download PDF Exam">📄 Descargar en PDF</button>
+    <div class="langbar" style="margin-left:0;margin-right:0">
+      <button class="langbtn on" data-lang="es" onclick="setLang('es')">ES</button>
+      <button class="langbtn" data-lang="en" onclick="setLang('en')">EN</button>
+    </div>
   </div>
   <div class="hbadge">FLDOE #134620</div>
 </header>
@@ -432,7 +442,10 @@ details.refs summary{cursor:pointer;color:var(--gris);font-weight:600}
     <div class="hfc"><div class="ico">❤️</div><div class="lbl" data-es="Incluye Inteligencia Emocional" data-en="Includes Emotional Intelligence">Incluye Inteligencia Emocional</div></div>
     <div class="hfc"><div class="ico">🌍</div><div class="lbl" data-es="Versión completa en inglés" data-en="Full English version">Versión completa en inglés</div></div>
   </div>
-  <button class="btn-hero" onclick="showSection('form')" data-es="Iniciar evaluación →" data-en="Start assessment →">Iniciar evaluación →</button>
+  <div style="display:flex;justify-content:center;gap:12px;flex-wrap:wrap;margin:18px 0 20px">
+    <button class="btn-hero" onclick="showSection('form')" data-es="Iniciar evaluación en línea →" data-en="Start online assessment →">Iniciar evaluación en línea →</button>
+    <button type="button" class="btn-hero-pdf" onclick="openPrintExam()" data-es="📄 Descargar examen en PDF (para resolver a mano)" data-en="📄 Download PDF exam (to solve on paper)">📄 Descargar examen en PDF (para resolver a mano)</button>
+  </div>
   <div class="hero-chips">
     <span class="chip" data-es="Matemáticas" data-en="Mathematics">Matemáticas</span><span class="chip" data-es="Inglés y Lectura" data-en="English &amp; Reading">Inglés y Lectura</span>
     <span class="chip" data-es="Ciencias" data-en="Science">Ciencias</span><span class="chip" data-es="Geografía" data-en="Geography">Geografía</span>
@@ -459,6 +472,18 @@ details.refs summary{cursor:pointer;color:var(--gris);font-weight:600}
   <div class="sec-title" data-es="Datos del estudiante" data-en="Student information">Datos del estudiante</div>
   <p class="sec-sub" data-es="Completa la información antes de iniciar. Los datos se incluirán en el informe y en el PEI." data-en="Complete the information before starting. It will be included in the report and the IEP.">Completa la información antes de iniciar. Los datos se incluirán en el informe y en el PEI.</p>
   <div id="link-banner" class="note ok hidden" data-es="✓ Enlace personal verificado. Revisa los datos y continúa." data-en="✓ Personal link verified. Review the details and continue.">✓ Enlace personal verificado. Revisa los datos y continúa.</div>
+
+  <!-- Banner de descarga de examen físico en PDF -->
+  <div class="plan-box" style="background:#f0fdf4;border:1.5px solid #86efac;border-radius:12px;padding:12px 16px;margin:14px 0 18px;display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:12px">
+    <div style="display:flex;align-items:center;gap:10px">
+      <span style="font-size:1.5rem">📄</span>
+      <div>
+        <h4 style="margin:0 0 2px 0;color:#166534;font-size:0.92rem;font-weight:700" data-es="¿Prefieres realizar la evaluación a mano en papel?" data-en="Prefer to take the assessment on paper?">¿Prefieres realizar la evaluación a mano en papel?</h4>
+        <p style="margin:0;font-size:0.80rem;color:#15803d;line-height:1.4" data-es="Descarga e imprime el cuadernillo completo en PDF con diseño institucional para resolverlo físico y subir las fotos luego." data-en="Download and print the full PDF exam booklet with institutional layout to solve it on paper and upload photos later.">Descarga e imprime el cuadernillo completo en PDF con diseño institucional para resolverlo físico y subir las fotos luego.</p>
+      </div>
+    </div>
+    <button type="button" class="btn btn-s" onclick="openPrintExam()" style="background:#16a34a;color:#fff;border:none;font-weight:700;padding:8px 16px;border-radius:50px;white-space:nowrap;cursor:pointer" data-es="🖨️ Descargar en PDF" data-en="🖨️ Download PDF">🖨️ Descargar en PDF</button>
+  </div>
   <div class="fg">
     <div class="fi"><label data-es="Nombre completo *" data-en="Full name *">Nombre completo *</label><input type="text" id="f-nombre" data-ph-es="Nombre y apellidos" data-ph-en="First and last name" placeholder="Nombre y apellidos"></div>
     <div class="fi"><label data-es="Fecha de nacimiento" data-en="Date of birth">Fecha de nacimiento</label><input type="date" id="f-fecha"></div>
@@ -536,6 +561,7 @@ details.refs summary{cursor:pointer;color:var(--gris);font-weight:600}
   </div>
   <div class="btn-row no-print">
     <button class="btn btn-s" onclick="showSection('form')" data-es="← Volver" data-en="← Back">← Volver</button>
+    <button type="button" class="btn btn-o" onclick="openPrintExam()" data-es="📄 Descargar examen en PDF" data-en="📄 Download PDF Exam">📄 Descargar examen en PDF</button>
     <button class="btn btn-p" id="btn-start" onclick="startTest()" data-es="Iniciar evaluación →" data-en="Start assessment →">Iniciar evaluación →</button>
   </div>
 </div>
@@ -549,6 +575,7 @@ details.refs summary{cursor:pointer;color:var(--gris);font-weight:600}
       <div style="display:flex;align-items:center;gap:10px">
         <div class="sec-title" style="margin-bottom:0;font-size:1.15rem" id="t-subject">—</div>
         <span id="t-save-badge" style="font-size:0.72rem;color:var(--verde);background:var(--verde2);border:1px solid #16653430;padding:2px 8px;border-radius:12px;font-weight:600;display:inline-flex;align-items:center;gap:4px">✓ Guardado automático</span>
+        <button type="button" class="btn btn-s" onclick="openPrintExam()" style="padding:3px 10px;font-size:0.74rem;background:#fff;border:1px solid #cbd5e1;color:#334155;border-radius:14px;cursor:pointer" title="Descargar examen en PDF para resolver a mano" data-es="📄 Descargar en PDF" data-en="📄 Download PDF">📄 Descargar en PDF</button>
       </div>
       <div style="font-size:.80rem;color:var(--gris)"><span id="t-sname">—</span> · <span id="t-step"></span></div>
     </div>

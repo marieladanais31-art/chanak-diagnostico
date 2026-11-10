@@ -1252,6 +1252,26 @@ ${refRows ? `<div class="pblk refs-foot"><h3>${L.refs}</h3><table class="equiv-t
 
   window.downloadCopy = () => { if (S.sub) $('r-print-link').textContent = `${BASE}?s=${S.sub.id}&t=${S.sub.token}`; window.print(); };
 
+  window.openPrintExam = () => {
+    let f = {};
+    try { if (typeof readForm === 'function') f = readForm(); } catch {}
+    const q = new URLSearchParams(window.location.search);
+    const k = q.get('k') || (S.link && S.link.token) || '';
+    const name = f.nombre || (S.form && S.form.nombre) || (S.link && S.link.student_name) || '';
+    const grade = f.curso || S.grade || '5';
+    const track = f.programa || S.track || (grade === 'dual' ? 'dual' : 'off');
+    const bible = (f.bible || S.bible) ? '1' : '0';
+    const spa = (f.spa || (S.plan && S.plan.includes('spa'))) ? '1' : '0';
+
+    let url = `/imprimir.html?grade=${encodeURIComponent(grade)}&track=${encodeURIComponent(track)}&lang=${encodeURIComponent(LANG)}`;
+    if (k) url += `&k=${encodeURIComponent(k)}`;
+    if (name) url += `&name=${encodeURIComponent(name)}`;
+    if (bible === '1') url += `&bible=1`;
+    if (spa === '1') url += `&spa=1`;
+
+    window.open(url, '_blank');
+  };
+
   window.renderFormUploads = () => {
     const list = $('form-upload-list');
     const summary = $('form-upload-summary');
