@@ -694,14 +694,14 @@ details.refs summary{cursor:pointer;color:var(--gris);font-weight:600}
 <div class="modal-overlay" id="exit-modal">
   <div class="modal-box">
     <div class="modal-icon">💾</div>
-    <h3 data-es="¿Deseas pausar la evaluación?" data-en="Pause assessment?">¿Deseas pausar la evaluación?</h3>
-    <p data-es="Tu progreso está <strong>guardado automáticamente</strong>. Puedes salir ahora y retomarla en cualquier momento desde tu enlace personal sin perder lo que ya respondiste." data-en="Your progress is <strong>automatically saved</strong>. You can exit now and resume anytime from your personal link without losing what you already answered.">Tu progreso está <strong>guardado automáticamente</strong>. Puedes salir ahora y retomarla en cualquier momento desde tu enlace personal sin perder lo que ya respondiste.</p>
-    <div class="modal-btns">
-      <button class="btn btn-s" onclick="closeExitModal()" data-es="← Continuar respondiendo" data-en="← Keep going">← Continuar respondiendo</button>
-      <button class="btn btn-p" onclick="saveAndExit()" data-es="Guardar y salir" data-en="Save and exit">Guardar y salir</button>
+    <h3 data-es="¿Qué deseas hacer con tu evaluación?" data-en="What would you like to do?">¿Qué deseas hacer con tu evaluación?</h3>
+    <p data-es="Tu progreso está <strong>guardado automáticamente</strong>. Puedes pausarla para retomarla luego, o finalizarla hasta donde sabes para calcular tus resultados." data-en="Your progress is <strong>automatically saved</strong>. You can pause to resume later, or finish now up to what you know to calculate your results.">Tu progreso está <strong>guardado automáticamente</strong>. Puedes pausarla para retomarla luego, o finalizarla hasta donde sabes para calcular tus resultados.</p>
+    <div class="modal-btns" style="display:flex;flex-direction:column;gap:8px;margin-top:14px">
+      <button class="btn btn-p" onclick="saveAndExit()" style="background:#193D6D;border-color:#193D6D;padding:10px" data-es="⏸ Guardar y pausar (retomar luego)" data-en="⏸ Save & pause (resume later)">⏸ Guardar y pausar (retomar luego)</button>
+      <button type="button" class="btn btn-p" onclick="promptFinishEarlyFromExitModal()" style="background:#d97706;border-color:#d97706;color:#fff;font-weight:bold;padding:10px" data-es="⏹ Ya no sé más (Finalizar prueba aquí)" data-en="⏹ I don't know more (Finish test here)">⏹ Ya no sé más (Finalizar prueba aquí)</button>
+      <button class="btn btn-s" onclick="closeExitModal()" style="padding:8px" data-es="← Continuar respondiendo preguntas" data-en="← Keep answering questions">← Continuar respondiendo preguntas</button>
     </div>
-    <div style="margin-top:14px;border-top:1px solid var(--borde);padding-top:12px;display:flex;flex-direction:column;gap:8px">
-      <button type="button" class="btn btn-o" onclick="promptFinishEarlyFromExitModal()" style="border-color:#d97706;color:#b45309;font-weight:600;font-size:0.85rem;padding:8px" data-es="⏹ Ya no sé más (Finalizar prueba hasta aquí)" data-en="⏹ I don't know more (Finish assessment here)">⏹ Ya no sé más (Finalizar prueba hasta aquí)</button>
+    <div style="margin-top:12px;border-top:1px solid var(--borde);padding-top:10px;text-align:center">
       <button type="button" style="background:none;border:none;color:#991b1b;font-size:0.78rem;cursor:pointer;text-decoration:underline;font-weight:600" onclick="confirmRestart()" data-es="Reiniciar evaluación desde cero" data-en="Restart assessment from scratch">Reiniciar evaluación desde cero</button>
     </div>
   </div>

@@ -26,9 +26,31 @@ async function rpc(fn, args) {
   return json;
 }
 
+async function rest(endpoint, opts = {}) {
+  const method = opts.method || 'GET';
+  const url = `${URL_()}/rest/v1/${endpoint.replace(/^\/+/, '')}`;
+  const h = headers({
+    ...(opts.body ? { 'Content-Type': 'application/json' } : {}),
+    ...(opts.headers || {})
+  });
+  const res = await fetch(url, {
+    method,
+    headers: h,
+    body: opts.body ? (typeof opts.body === 'string' ? opts.body : JSON.stringify(opts.body)) : undefined
+  });
+  if (!res.ok) {
+    const txt = await res.text().catch(() => '');
+    const err = new Error(`REST ${res.status}: ${txt.slice(0, 160)}`);
+    err.status = res.status;
+    throw err;
+  }
+  const text = await res.text();
+  try { return JSON.parse(text); } catch { return text; }
+}
+
 async function uploadObject(bucket, path, buffer, contentType) {
   const r = await fetch(`${URL_()}/storage/v1/object/${bucket}/${path}`, { method: 'POST', headers: headers({ 'Content-Type': contentType, 'x-upsert': 'false' }), body: buffer });
   if (!r.ok) { const t = await r.text().catch(() => ''); const e = new Error(`storage ${r.status} ${t.slice(0, 120)}`); e.status = r.status; throw e; }
 }
 
-module.exports = { configured, rpc, uploadObject };
+module.exports = { configured, rpc, rest, uploadObject };

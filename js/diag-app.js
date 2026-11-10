@@ -289,6 +289,12 @@
     if (!store) return null;
     const key = getDraftKey();
     let raw = store.getItem(key);
+    if (!raw) {
+      const lastKey = store.getItem(DRAFT_LAST_KEY);
+      if (lastKey && lastKey !== key) {
+        raw = store.getItem(lastKey);
+      }
+    }
     if (!raw && !key.endsWith('guest')) {
       raw = store.getItem(DRAFT_PREFIX + 'guest');
     }
@@ -1409,9 +1415,12 @@ ${refRows ? `<div class="pblk refs-foot"><h3>${L.refs}</h3><table class="equiv-t
       set('f-programa', info.track); $('f-programa').disabled = true;
       $('link-banner').classList.remove('hidden');
 
-      // Intentar sincronizar borrador guardado en el servidor para soportar cambio de dispositivo
+      // Intentar sincronizar borrador guardado en el servidor para soportar cambio de dispositivo y rescate
       try {
-        const cloudRes = await api('/api/diag-draft?k=' + encodeURIComponent(k));
+        const draftUrl = '/api/diag-draft?k=' + encodeURIComponent(k) +
+          '&email=' + encodeURIComponent(info.family_email || '') +
+          '&name=' + encodeURIComponent(info.student_name || '');
+        const cloudRes = await api(draftUrl);
         if (cloudRes && cloudRes.ok && cloudRes.draft) {
           const localDraft = loadDraft();
           const cloudDraft = cloudRes.draft;
@@ -1437,6 +1446,7 @@ ${refRows ? `<div class="pblk refs-foot"><h3>${L.refs}</h3><table class="equiv-t
       }
 
       _show('form');
+      checkAndShowResumeBanner();
       return true;
     } catch {
       if (k) { showRetry(); return true; } // trae enlace pero no se pudo comprobar: se pide reintentar, no se abre la presentación
