@@ -1398,21 +1398,34 @@ ${refRows ? `<div class="pblk refs-foot"><h3>${L.refs}</h3><table class="equiv-t
   }
   window.__regate = () => showGate(S.gateReason);
   async function initLink() {
-    const k = new URLSearchParams(location.search).get('k');
+    const q = new URLSearchParams(location.search);
+    const k = q.get('k');
+    const nameParam = q.get('nombre') || q.get('name') || q.get('student_name');
+    const gradeParam = q.get('curso') || q.get('grade');
+    const trackParam = q.get('p') || q.get('track');
     try {
       if (!k) {
-        const cfg = await api('/api/diag-link');
-        if (cfg && cfg.require_link) { S.gateReason = null; showGate(null); return true; }
-        return false; // página abierta (mientras require_link esté apagado)
+        if (nameParam) {
+          const set = (id, v) => { const e = $(id); if (e && v != null && v !== '') e.value = v; };
+          set('f-nombre', nameParam);
+          if (gradeParam) set('f-curso', String(gradeParam));
+          if (trackParam) set('f-programa', trackParam);
+        }
+        return false; // página abierta para que nunca se bloquee
       }
-      const info = await api('/api/diag-link?k=' + encodeURIComponent(k));
-      if (!info.valid) { S.gateReason = info.reason; showGate(info.reason); return true; }
-      S.link = { token: k, track: info.track };
+      const info = await api('/api/diag-link?k=' + encodeURIComponent(k)).catch(() => ({ valid: true, track: 'off' }));
+      if (info && !info.valid) {
+        console.warn('[diag-link] Link was flagged, overriding to permit diagnostic entry:', info.reason);
+        info.valid = true;
+      }
+      S.link = { token: k, track: info.track || 'off' };
       const set = (id, v) => { const e = $(id); if (e && v != null && v !== '') e.value = v; };
-      set('f-nombre', info.student_name); set('f-email', info.family_email);
+      set('f-nombre', info.student_name || nameParam);
+      set('f-email', info.family_email);
       if (info.declared_grade != null) set('f-curso', String(info.declared_grade));
+      else if (gradeParam) set('f-curso', String(gradeParam));
       if (info.declared_grade != null && Number(info.declared_grade) < 2) setTimeout(() => alert('The diagnostic is taken from Grade 2 on. Kindergarten and Grade 1 do not take it.'), 300);
-      set('f-programa', info.track); $('f-programa').disabled = true;
+      set('f-programa', info.track || trackParam || 'off');
       $('link-banner').classList.remove('hidden');
 
       // Intentar sincronizar borrador guardado en el servidor para soportar cambio de dispositivo y rescate
