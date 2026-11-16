@@ -15,7 +15,7 @@ async function notify(route, p, id) {
   const cefr = p.cefr ? ` · CEFR ${esc(p.cefr.level)}` : '';
   const html = `<div style="font-family:Arial,sans-serif;max-width:600px"><h3 style="color:#1a3a5c">Nuevo diagnóstico para revisar</h3>
 <p><strong>${name}</strong> · ${esc(p.pei_fields && p.pei_fields.grade_level)} · ${p.track === 'dual' ? 'Dual Diploma' : 'Off-Campus'}</p>
-<p>${subj}${cefr}</p><p><a href="${SIS_URL}/admin?section=diagnosticos">Abrir en el SIS (Matrícula → Diagnósticos)</a></p>
+<p>${subj}${cefr}</p><p><a href="${SIS_URL}/admin?section=diagnosticos&id=${esc(id)}">Abrir en el SIS (Matrícula → Diagnósticos)</a></p>
 <p style="font-size:12px;color:#6b7280">Referencia ${esc(id)}. Los datos completos y la letra del estudiante están en el SIS.</p></div>`;
   try {
     const r = await fetch('https://api.brevo.com/v3/smtp/email', { method: 'POST', headers: { 'api-key': key, 'Content-Type': 'application/json' },
